@@ -125,11 +125,7 @@ thaven-mood-stinky-desc = Экипаж смердит. Сообщайте об �
 thaven-mood-zen-arcade-name = Бог аркад
 thaven-mood-zen-arcade-desc = Вы — божество игрового зала. Прошли мимо автомата? Играйте. Это не обсуждается.
 
----
 
-### Речевые ограничения (переменные)
-
-```ini
 thaven-mood-speech-restriction-name = {$speechType ->
   *[FullNameAndTitle] Полное имя и титул
   [NamesAreRude] Имена — это неприлично
