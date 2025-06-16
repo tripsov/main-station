@@ -1,0 +1,5 @@
+- type: animatedLobbyScreen
+  id: VyachLobbySummer
+  path: /Textures/_MainS/LobbyScreens/summer.rsi
+  name: Beach Episode
+  artist: Vyach
