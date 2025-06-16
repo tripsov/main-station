@@ -85,7 +85,7 @@
   id: Nukeops
   components:
   - type: GameRule
-    minPlayers: 20
+    minPlayers: 1 #20
   - type: LoadMapRule
     gameMap: NukieOutpost
   - type: AntagSelection
@@ -160,7 +160,7 @@
   id: Traitor
   components:
   - type: GameRule
-    minPlayers: 5
+    minPlayers: 1 #5
     delay:
       min: 240
       max: 420
@@ -196,7 +196,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: GameRule
-    minPlayers: 15
+    minPlayers: 1 #15
   - type: RevolutionaryRule
   - type: AntagSelection
     definitions:
@@ -235,7 +235,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: GameRule
-    minPlayers: 20
+    minPlayers: 1 #20
     delay:
       min: 600
       max: 900
