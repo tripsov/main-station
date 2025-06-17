@@ -201,7 +201,7 @@
   - type: AntagSelection
     definitions:
     - prefRoles: [ HeadRev ]
-      min: 2 # WWDP
+      min: 1 # WWDP
       max: 3 # WWDP
       playerRatio: 20 # WD
       briefing:
