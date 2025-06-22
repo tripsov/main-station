@@ -1,7 +1,7 @@
 - type: entity
   id: PetCarrier
-  name: big pet carrier
-  description: Allows large animals to be carried comfortably.
+  name: entity-petcarrier-name
+  description: entity-petcarrier-description
   parent: BaseStructureDynamic
   components:
   - type: Sprite

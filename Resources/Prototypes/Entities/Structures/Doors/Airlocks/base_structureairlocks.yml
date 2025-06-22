@@ -1,8 +1,8 @@
 ﻿- type: entity
   id: Airlock
   parent: BaseStructure
-  name: airlock
-  description: It opens, it closes, and maybe crushes you.
+  name: entity-airlock-name
+  description: entity-airlock-description
   components:
   - type: StationAiWhitelist
   - type: MeleeSound
@@ -179,7 +179,7 @@
 - type: entity
   id: AirlockGlass
   parent: Airlock
-  name: glass airlock
+  name: entity-airlockglass-name
   components:
   - type: MeleeSound
     soundGroups:

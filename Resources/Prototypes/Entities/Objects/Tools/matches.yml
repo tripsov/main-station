@@ -10,10 +10,10 @@
     size: Small
 
 - type: entity
-  name: match stick
+  name: entity-matchstick-name
   parent: BaseItem
   id: Matchstick
-  description: A simple match stick, used for lighting fine smokables.
+  description: entity-matchstick-description
   components:
   - type: Tag
     tags:
@@ -66,10 +66,10 @@
     state: Burnt
 
 - type: entity
-  name: match box
+  name: entity-matchbox-name
   parent: [ SmallboxItem, BaseBagOpenClose ]
   id: Matchbox
-  description: A small box of Almost But Not Quite Plasma Premium Matches.
+  description: entity-matchbox-description
   components:
   - type: EmitSoundOnPickup
     sound: /Audio/SimpleStation14/Items/Handling/matchbox_pickup.ogg

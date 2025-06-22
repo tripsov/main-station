@@ -1,9 +1,9 @@
 - type: entity
   id: RapidBulletKinetic
-  name: rapid kinetic bolt
+  name: entity-rapidbulletkinetic-name
   parent: BulletKinetic
   categories: [ HideSpawnMenu ]
-  description: Not too bad, but you still don't want to get hit by it.
+  description: entity-rapidbulletkinetic-description
   components:
   - type: Projectile
     impactEffect: BulletImpactEffectKinetic
@@ -15,10 +15,10 @@
 
 - type: entity
   id: WeakBulletKinetic
-  name: weak kinetic bolt
+  name: entity-weakbulletkinetic-name
   parent: BulletKinetic
   categories: [ HideSpawnMenu ]
-  description: Not too bad, but you still don't want to get hit by it.
+  description: entity-rapidbulletkinetic-description
   components:
   - type: Projectile
     impactEffect: BulletImpactEffectKinetic

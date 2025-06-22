@@ -6,8 +6,8 @@
 - type: entity
   parent: BaseSign
   id: N14WallmountVent
-  name: vent
-  description: An airvent. Could be a good stash.
+  name: entity-n14wallmountvent-name
+  description: entity-n14wallmountvent-description
   components:
   - type: WallMount
     arc: 360

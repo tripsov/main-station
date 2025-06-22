@@ -1,9 +1,9 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakMystagogue
-  name: mystagogue's cloak
+  name: entity-clothingneckcloakmystagogue-name
   suffix: Delta-V
-  description: A comfy white and purple cloak, perfect for those sleepless nights when you're haunted by the yet unsolved mysteries of the universe.
+  description: entity-clothingneckcloakmystagogue-description
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/rd.rsi # WWDP edit
@@ -13,8 +13,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakBoat
-  name: NanoTrasen boat cloak
-  description: A regal blue durathread boat cloak with a red felt lining and gold trim. Somehow, it's even more expensive than it looks.
+  name: entity-clothingneckcloakboat-name
+  description: entity-clothingneckcloakboat-description
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Neck/Cloaks/boatcloak.rsi
@@ -24,8 +24,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckSalvager
-  name: salvager's cloak
-  description: Worn by dangerous people who've deconstructed stations with ease.
+  name: entity-clothingnecksalvager-name
+  description: entity-clothingnecksalvager-description
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Neck/Cloaks/salvage.rsi
@@ -35,8 +35,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakCJ
-  name: chief justice's cloak
-  description: A hefty cloak adorned with a modest insignia and grand fur trim.
+  name: entity-clothingneckcloakcj-name
+  description: entity-clothingneckcloakcj-description
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Neck/Cloaks/cjcloak.rsi

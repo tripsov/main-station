@@ -1,8 +1,8 @@
 - type: entity
-  name: pumpkin pie
+  name: entity-foodpiepumpkin-name
   parent: FoodPieBase
   id: FoodPiePumpkin
-  description: A seasonal favorite, consisting mostly of pumpkin and a handful of spooky spices.
+  description: entity-foodpiepumpkin-description
   components:
   - type: FlavorProfile
     flavors:
@@ -21,7 +21,7 @@
     - Pie
 
 - type: entity
-  name: slice of pumpkin pie
+  name: entity-foodpiepumpkinslice-name
   parent: FoodPieSliceBase
   id: FoodPiePumpkinSlice
   components:

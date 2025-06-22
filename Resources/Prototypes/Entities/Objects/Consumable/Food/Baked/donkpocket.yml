@@ -28,10 +28,10 @@
 # Warm ones contain a small amount of Omnizine.
 
 - type: entity
-  name: donk-pocket
+  name: entity-fooddonkpocket-name
   parent: FoodDonkpocketBase
   id: FoodDonkpocket
-  description: The food of choice for the seasoned traitor.
+  description: entity-fooddonkpocket-description
   components:
   - type: FlavorProfile
     flavors:
@@ -42,10 +42,10 @@
     state: plain
 
 - type: entity
-  name: warm donk-pocket
+  name: entity-fooddonkpocketwarm-name
   parent: FoodDonkpocket
   id: FoodDonkpocketWarm
-  description: The heated food of choice for the seasoned traitor.
+  description: entity-fooddonkpocketwarm-description
   components:
   - type: FlavorProfile
     flavors:
@@ -63,10 +63,10 @@
           Quantity: 2
 
 - type: entity
-  name: dank-pocket
+  name: entity-fooddonkpocketdank-name
   parent: FoodDonkpocketBase
   id: FoodDonkpocketDank
-  description: The food of choice for the seasoned botanist.
+  description: entity-fooddonkpocketdank-description
   components:
   - type: FlavorProfile
     flavors:
@@ -82,10 +82,10 @@
     state: dank
 
 - type: entity
-  name: warm dank-pocket
+  name: entity-fooddonkpocketdankwarm-name
   parent: FoodDonkpocketDank
   id: FoodDonkpocketDankWarm
-  description: The heated food of choice for the seasoned botanist.
+  description: entity-fooddonkpocketdankwarm-description
   components:
   - type: FlavorProfile
     flavors:
@@ -101,10 +101,10 @@
           Quantity: 4
 
 - type: entity
-  name: spicy-pocket
+  name: entity-fooddonkpocketspicy-name
   parent: FoodDonkpocketBase
   id: FoodDonkpocketSpicy
-  description: The classic snack food, now with a heat-activated spicy flair.
+  description: entity-fooddonkpocketspicy-description
   components:
   - type: FlavorProfile
     flavors:
@@ -115,10 +115,10 @@
     state: plain
 
 - type: entity
-  name: warm spicy-pocket
+  name: entity-fooddonkpocketspicywarm-name
   parent: FoodDonkpocketSpicy
   id: FoodDonkpocketSpicyWarm
-  description: The classic snack food, now maybe a bit too spicy.
+  description: entity-fooddonkpocketspicywarm-description
   components:
   - type: FlavorProfile
     flavors:
@@ -137,10 +137,10 @@
     state: spicy
 
 - type: entity
-  name: teriyaki-pocket
+  name: entity-fooddonkpocketteriyaki-name
   parent: FoodDonkpocketBase
   id: FoodDonkpocketTeriyaki
-  description: An East Asian take on the classic stationside snack.
+  description: entity-fooddonkpocketteriyaki-description
   components:
   - type: FlavorProfile
     flavors:
@@ -151,10 +151,10 @@
     state: teriyaki
 
 - type: entity
-  name: warm teriyaki-pocket
+  name: entity-fooddonkpocketteriyakiwarm-name
   parent: FoodDonkpocketTeriyaki
   id: FoodDonkpocketTeriyakiWarm
-  description: An East Asian take on the classic stationside snack, now steamy and warm.
+  description: entity-fooddonkpocketteriyakiwarm-description
   components:
   - type: FlavorProfile
     flavors:
@@ -171,10 +171,10 @@
           Quantity: 2
 
 - type: entity
-  name: pizza-pocket
+  name: entity-fooddonkpocketpizza-name
   parent: FoodDonkpocketBase
   id: FoodDonkpocketPizza
-  description: Delicious, cheesy and surprisingly filling.
+  description: entity-fooddonkpocketpizza-description
   components:
   - type: FlavorProfile
     flavors:
@@ -192,10 +192,10 @@
     state: pizza
 
 - type: entity
-  name: warm pizza-pocket
+  name: entity-fooddonkpocketpizzawarm-name
   parent: FoodDonkpocketPizza
   id: FoodDonkpocketPizzaWarm
-  description: Cheese filling really hits the spot when warm.
+  description: entity-fooddonkpocketpizzawarm-description
   components:
   - type: FlavorProfile
     flavors:
@@ -213,10 +213,10 @@
           Quantity: 2
 
 - type: entity
-  name: honk-pocket
+  name: entity-fooddonkpockethonk-name
   parent: FoodDonkpocketBase
   id: FoodDonkpocketHonk
-  description: The award-winning donk-pocket that won the hearts of clowns and humans alike.
+  description: entity-fooddonkpockethonk-description
   components:
   - type: FlavorProfile
     flavors:
@@ -234,10 +234,10 @@
     state: banana
 
 - type: entity
-  name: warm honk-pocket
+  name: entity-fooddonkpockethonkwarm-name
   parent: FoodDonkpocketHonk
   id: FoodDonkpocketHonkWarm
-  description: The award-winning donk-pocket, now warm and toasty.
+  description: entity-fooddonkpockethonkwarm-description
   components:
   - type: FlavorProfile
     flavors:
@@ -253,10 +253,10 @@
           Quantity: 2
 
 - type: entity
-  name: berry-pocket
+  name: entity-fooddonkpocketberry-name
   parent: FoodDonkpocketBase
   id: FoodDonkpocketBerry
-  description: A relentlessly sweet donk-pocket. Made with 100% artificial flavoring.
+  description: entity-fooddonkpocketberry-description
   components:
   - type: FlavorProfile
     flavors:
@@ -272,10 +272,10 @@
     state: berry
 
 - type: entity
-  name: warm berry-pocket
+  name: entity-fooddonkpocketberrywarm-name
   parent: FoodDonkpocketBerry
   id: FoodDonkpocketBerryWarm
-  description: A relentlessly sweet donk-pocket, now warm and delicious.
+  description: entity-fooddonkpocketberrywarm-description
   components:
   - type: FlavorProfile
     flavors:
@@ -293,10 +293,10 @@
           Quantity: 2
 
 - type: entity
-  name: stonk-pocket
+  name: entity-fooddonkpocketstonk-name
   parent: FoodDonkpocketBase
   id: FoodDonkpocketStonk
-  description: Tasty, but a sad reminder of the great crash of '24
+  description: entity-fooddonkpocketstonk-description
   components:
   - type: FlavorProfile
     flavors:
@@ -312,7 +312,7 @@
     state: stonk
 
 - type: entity
-  name: warm stonk-pocket
+  name: entity-fooddonkpocketstonkwarm-name
   parent: FoodDonkpocketStonk
   id: FoodDonkpocketStonkWarm
   components:
@@ -330,10 +330,10 @@
           Quantity: 2
 
 - type: entity
-  name: carp-pocket
+  name: entity-fooddonkpocketcarp-name
   parent: FoodDonkpocketBase
   id: FoodDonkpocketCarp
-  description: A long-lost edition of donk pocket, made specifically for hard-working salvagers.
+  description: entity-fooddonkpocketcarp-description
   components:
   - type: FlavorProfile
     flavors:
@@ -349,7 +349,7 @@
     state: carp
 
 - type: entity
-  name: warm carp-pocket
+  name: entity-fooddonkpocketcarpwarm-name
   parent: FoodDonkpocketCarp
   id: FoodDonkpocketCarpWarm
   components:
@@ -367,10 +367,10 @@
           Quantity: 2
 
 - type: entity
-  name: dink-pocket
+  name: entity-fooddonkpocketdink-name
   parent: FoodDonkpocketBase
   id: FoodDonkpocketDink
-  description: An off-brand lizard donk-pocket, filled with pickled carrot and wrapped with seaweed. Best eaten cold, or even better, not eaten at all.
+  description: entity-fooddonkpocketdink-description
   components:
   - type: FlavorProfile
     flavors:

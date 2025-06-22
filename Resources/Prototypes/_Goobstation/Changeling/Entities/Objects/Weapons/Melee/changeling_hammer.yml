@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: ArmHammerChangeling
-  name: arm hammer
-  description: A hammer made out of flesh and bone, heavy enough to smash through structures and people alike.
+  name: entity-armhammerchangeling-name
+  description: entity-armhammerchangeling-description
   suffix: Unremoveable
   components:
   - type: Sprite

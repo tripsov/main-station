@@ -1,6 +1,6 @@
 - type: emote
   id: Flip
-  name: chat-emote-name-flip
+  name: emote-flip-name
   whitelist:
     components:
     - HumanoidAppearance
@@ -11,7 +11,7 @@
 
 - type: emote
   id: Spin
-  name: chat-emote-name-spin
+  name: emote-spin-name
   whitelist:
     components:
     - HumanoidAppearance
@@ -22,7 +22,7 @@
 
 - type: emote
   id: Jump
-  name: chat-emote-name-jump
+  name: emote-jump-name
   whitelist:
     components:
     - HumanoidAppearance

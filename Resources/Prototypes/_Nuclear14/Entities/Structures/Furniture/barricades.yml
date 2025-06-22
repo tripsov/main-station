@@ -1,8 +1,8 @@
 - type: entity
   id: N14BarricadeSandbagSingle
   parent: BaseStructure
-  name: sandbags
-  description: A sandbag fortification.
+  name: entity-n14barricadesandbagsingle-name
+  description: entity-n14barricadesandbagsingle-description
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/barricades.rsi
@@ -38,8 +38,8 @@
 - type: entity
   id: N14BarricadeTanktrap
   parent: N14BarricadeSandbagSingle
-  name: tank trap
-  description: A metal fabricated spike for blocking vehicles.
+  name: entity-n14barricadetanktrap-name
+  description: entity-n14barricadetanktrap-description
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/barricades.rsi
@@ -75,8 +75,8 @@
 - type: entity
   id: N14BarricadeTanktrapRusty
   parent: N14BarricadeTanktrap
-  name: tank trap
-  description: A rusty metal fabricated spike for blocking vehicles.
+  name: entity-n14barricadetanktrap-name
+  description: entity-n14barricadetanktraprusty-description
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/barricades.rsi
@@ -86,8 +86,8 @@
 - type: entity
   parent: BaseStructure
   id: N14BarricadeRazorwire
-  name: razorwire barricade
-  description: A razorwire fortification.
+  name: entity-n14barricaderazorwire-name
+  description: entity-n14barricaderazorwire-description
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/barricades.rsi
@@ -150,8 +150,8 @@
 - type: entity
   parent: N14BarricadeSandbagSingle
   id: N14BarricadeMetal
-  name: metal barricade
-  description: A metal fortification.
+  name: entity-n14barricademetal-name
+  description: entity-n14barricademetal-description
   suffix: black
   components:
   - type: Sprite

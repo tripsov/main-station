@@ -2,8 +2,8 @@
 - type: entity
   parent: ClothingModsuitStandard
   id: ClothingModsuitInquisitory
-  name: Inquisitory modsuit control
-  description: The main controller for a Inquisitory modsuit.
+  name: entity-clothingmodsuitinquisitory-name
+  description: entity-clothingmodsuitinquisitory-description
   components:
     - type: Sprite
       sprite: _EE/Clothing/NanoTrasen/Modsuits/inquisitory.rsi
@@ -35,8 +35,8 @@
 - type: entity
   parent: ClothingModsuitGauntletsStandard
   id: ClothingModsuitGauntletsInquisitory
-  name: Inquisitory modsuit gauntlets
-  description: A pair of gauntlets made for the Inquisitory modsuit.
+  name: entity-clothingmodsuitgauntletsinquisitory-name
+  description: entity-clothingmodsuitgauntletsinquisitory-description
   categories: [HideSpawnMenu]
   components:
     - type: Sprite
@@ -49,8 +49,8 @@
 - type: entity
   parent: [ClothingModsuitHelmetStandard, ShowSecurityIcons, BaseClothingRadio]
   id: ClothingModsuitHelmetInquisitory
-  name: Inquisitory modsuit helmet
-  description: A state-of-the-art helmet designed by NanoTrasen for the Inquisitory modsuit. It includes a built-in HUD.
+  name: entity-clothingmodsuithelmetinquisitory-name
+  description: entity-clothingmodsuithelmetinquisitory-description
   categories: [HideSpawnMenu]
   components:
     - type: Sprite
@@ -93,8 +93,8 @@
 - type: entity
   parent: ClothingModsuitChestplateStandard
   id: ClothingModsuitChestplateInquisitory
-  name: Inquisitory modsuit chestplate
-  description: A state of the art chestplate designed by NanoTrasen for the Inquisitory Modsuit. It incorporates powered servos to reduce the equipment load.
+  name: entity-clothingmodsuitchestplateinquisitory-name
+  description: entity-clothingmodsuitchestplateinquisitory-description
   categories: [HideSpawnMenu]
   components:
     - type: Sprite
@@ -138,8 +138,8 @@
 - type: entity
   parent: ClothingModsuitBootsStandard
   id: ClothingModsuitBootsInquisitory
-  name: Inquisitory modsuit boots
-  description: A state-of-the-art pair of magboots for the Inquisitory modsuit. So long as the suit is powered, these will not slow the wearer down.
+  name: entity-clothingmodsuitbootsinquisitory-name
+  description: entity-clothingmodsuitbootsinquisitory-description
   categories: [HideSpawnMenu]
   components:
     - type: Appearance

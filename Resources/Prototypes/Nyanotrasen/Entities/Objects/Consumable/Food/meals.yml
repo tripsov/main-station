@@ -1,8 +1,8 @@
 - type: entity
-  name: big baked rice
+  name: entity-foodmothbakedrice-name
   parent: FoodBakingBase
   id: FoodMothBakedRice
-  description: A mothic favourite, baked rice can be filled with a variety of vegetable fillings to make a delicious meal to share.
+  description: entity-foodmothbakedrice-description
   components:
   - type: FlavorProfile
     flavors:
@@ -31,10 +31,10 @@
       - ClothMade # Mothic Food
 
 - type: entity
-  name: lil baked rice
+  name: entity-foodmothbakedriceportion-name
   parent: FoodBakingBase
   id: FoodMothBakedRicePortion
-  description: A single portion of baked rice, perfect as a side dish, or even as a full meal.
+  description: entity-foodmothbakedriceportion-description
   components:
   - type: FlavorProfile
     flavors:
@@ -60,10 +60,10 @@
       - ClothMade # Mothic Food
 
 - type: entity
-  name: green lasagne
+  name: entity-foodmothgreenlasagne-name
   parent: FoodMealBase
   id: FoodMothGreenLasagne
-  description: A fine lasagne made with pesto and a herby white sauce. Good for multiple servings.
+  description: entity-foodmothgreenlasagne-description
   components:
   - type: FlavorProfile
     flavors:
@@ -95,10 +95,10 @@
 #Tastes like cheese, pesto and pasta
 
 - type: entity
-  name: green lasagne slice
+  name: entity-foodmothgreenlasagneslice-name
   parent: FoodMealBase
   id: FoodMothGreenLasagneSlice
-  description: A slice of herby, pesto-y lasagne.
+  description: entity-foodmothgreenlasagneslice-description
   components:
   - type: FlavorProfile
     flavors:
@@ -125,10 +125,10 @@
 #Tastes like cheese, pesto and pasta
 
 - type: entity
-  name: oven-baked corn
+  name: entity-foodmothbakedcorn-name
   parent: FoodBakingBase
   id: FoodMothBakedCorn
-  description: A cob of corn, baked in the roasting heat of an oven until it blisters and blackens.
+  description: entity-foodmothbakedcorn-description
   components:
   - type: FlavorProfile
     flavors:
@@ -151,10 +151,10 @@
 #Tastes like corn and char
 
 - type: entity
-  name: buttered baked corn
+  name: entity-foodmothbutteredbakedcorn-name
   parent: FoodBakingBase
   id: FoodMothButteredBakedCorn
-  description: A cob of corn, baked in the roasting heat of an oven until it blisters and blackens.
+  description: entity-foodmothbakedcorn-description
   components:
   - type: FlavorProfile
     flavors:
@@ -178,10 +178,10 @@
 #Tastes like corn, butter and char
 
 - type: entity
-  name: mozzarella sticks
+  name: entity-foodmothmozzarellasticks-name
   parent: FoodBakingBase
   id: FoodMothMozzarellaSticks
-  description: Little sticks of mozzarella, breaded and fried.
+  description: entity-foodmothmozzarellasticks-description
   components:
   - type: FlavorProfile
     flavors:
@@ -207,10 +207,10 @@
 
 # Mac Balls should use macncheese donks
 - type: entity
-  name: mac balls
+  name: entity-foodmothmacballs-name
   parent: FoodBakingBase
   id: FoodMothMacBalls
-  description: Fried balls of donk-pocket dipped in corn batter, served with tomato sauce.
+  description: entity-foodmothmacballs-description
   components:
   - type: FlavorProfile
     flavors:
@@ -239,10 +239,10 @@
 #Tastes like pasta, cornbread and cheese
 
 - type: entity
-  name: fish and chips
+  name: entity-foodmealfishchips-name
   parent: FoodMealBase
   id: FoodMealFishChips
-  description: A dish that consists of fried fish and potatoes.
+  description: entity-foodmealfishchips-description
   components:
   - type: FlavorProfile
     flavors:

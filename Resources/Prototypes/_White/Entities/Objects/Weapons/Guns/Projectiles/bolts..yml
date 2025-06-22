@@ -1,5 +1,5 @@
 - type: entity
-  name: energy crossbow bolt
+  name: entity-boltenergycrossbow-name
   parent: BaseBullet
   id: BoltEnergyCrossbow
   categories: [ HideSpawnMenu ]
@@ -31,7 +31,7 @@
   - type: BlurOnCollide
 
 - type: entity
-  name: practice laser bolt
+  name: entity-bulletlaserpractice-name
   id: BulletLaserPractice
   parent: BulletLaser
   categories: [ HideSpawnMenu ]
@@ -42,7 +42,7 @@
         Heat: 1
 
 - type: entity
-  name: pulse bolt
+  name: entity-bulletpulse-name
   id: BulletPulse
   parent: BulletLaser
   categories: [ HideSpawnMenu ]
@@ -60,7 +60,7 @@
     color: blue
 
 - type: entity
-  name: x-ray bolt
+  name: entity-bulletxray-name
   id: BulletXRay
   parent: BulletLaser
   categories: [ HideSpawnMenu ]
@@ -79,7 +79,7 @@
     color: green
 
 - type: entity
-  name: wisp lash
+  name: entity-bulletwisplash-name
   id: BulletWispLash
   parent: BulletLaser
   categories: [ HideSpawnMenu ]

@@ -1,7 +1,7 @@
 ﻿- type: entity
   parent: BaseHandheldInstrument
   id: GlockenspielInstrument
-  name: glockenspiel
+  name: entity-glockenspielinstrument-name
   components:
   - type: Instrument
     program: 9
@@ -18,8 +18,8 @@
 - type: entity
   parent: BaseHandheldInstrument
   id: MusicBoxInstrument
-  name: music box
-  description: Playing this makes you feel safe from scary animatronics.
+  name: entity-musicboxinstrument-name
+  description: entity-musicboxinstrument-description
   components:
   - type: Instrument
     program: 10
@@ -30,8 +30,8 @@
 - type: entity
   parent: BaseHandheldInstrument
   id: XylophoneInstrument
-  name: xylophone
-  description: Rainbow colored glockenspiel.
+  name: entity-xylophoneinstrument-name
+  description: entity-xylophoneinstrument-description
   components:
   - type: Instrument
     program: 13
@@ -45,8 +45,8 @@
 - type: entity
   parent: BaseHandheldInstrument
   id: MicrophoneInstrument
-  name: microphone
-  description: Perfect for singing your heart out.
+  name: entity-microphoneinstrument-name
+  description: entity-microphoneinstrument-description
   components:
   - type: Instrument
     program: 52
@@ -64,7 +64,7 @@
 - type: entity
   parent: BaseHandheldInstrument
   id: SynthesizerInstrument
-  name: synthesizer
+  name: entity-synthesizerinstrument-name
   components:
   - type: Instrument
     program: 62
@@ -87,8 +87,8 @@
 - type: entity
   parent: BaseHandheldInstrument
   id: KalimbaInstrument
-  name: kalimba
-  description: The power of a piano right at your thumbs.
+  name: entity-kalimbainstrument-name
+  description: entity-kalimbainstrument-description
   components:
   - type: Instrument
     program: 108
@@ -104,8 +104,8 @@
 - type: entity
   parent: BaseHandheldInstrument
   id: WoodblockInstrument
-  name: woodblock
-  description: If you listen to this enough it'll start driving itself into your mind.
+  name: entity-woodblockinstrument-name
+  description: entity-woodblockinstrument-description
   components:
   - type: Instrument
     program: 115
@@ -119,8 +119,8 @@
 - type: entity
   parent: BaseHandheldInstrument
   id: ReverseCymbalsInstrument
-  name: reverse cymbals
-  description: I think you have it the wrong way around?
+  name: entity-reversecymbalsinstrument-name
+  description: entity-reversecymbalsinstrument-description
   components:
   - type: Instrument
     program: 119
@@ -131,8 +131,8 @@
 - type: entity
   parent: BaseHandheldInstrument
   id: SuperSynthesizerInstrument
-  name: super synthesizer
-  description: Blasting the ghetto with Touhou MIDIs since 2020.
+  name: entity-supersynthesizerinstrument-name
+  description: entity-supersynthesizerinstrument-description
   components:
   - type: Instrument
     allowPercussion: true

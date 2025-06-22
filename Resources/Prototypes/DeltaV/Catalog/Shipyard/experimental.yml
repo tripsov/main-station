@@ -1,7 +1,7 @@
 - type: vessel
   id: Saucer
-  name: NTXR Saucer
-  description: A high-tech research vessel with a unique interior propulsion system.
+  name: vessel-saucer-name
+  description: vessel-saucer-description
   price: 49000
   path: /Maps/Shuttles/DeltaV/ntxr-saucer.yml
   categories:

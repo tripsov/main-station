@@ -1,5 +1,5 @@
 - type: entity
   save: false
-  name: Urist McTentacles
+  name: entity-mobxelthia-name
   parent: BaseMobXelthia
   id: MobXelthia

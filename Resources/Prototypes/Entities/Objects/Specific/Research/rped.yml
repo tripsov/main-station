@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseStorageItem
   id: RPED
-  name: RPED
-  description: A Rapid Part Exchange Device, perfect for quickly upgrading machines.
+  name: entity-rped-name
+  description: entity-rped-description
   components:
   - type: Sprite
     sprite: Objects/Specific/Research/rped.rsi

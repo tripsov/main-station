@@ -1,7 +1,7 @@
 - type: entity
   id: CargoPallet
-  name: cargo pallet
-  description: Common fixture of logistics and cargo. Subtle reminder where crates go during transport to avoid bruised shins.
+  name: entity-cargopallet-name
+  description: entity-cargopallet-description
   parent: BaseStructure
   components:
   - type: InteractionOutline
@@ -57,8 +57,8 @@
 
 - type: entity
   id: CargoPalletSell
-  name: cargo selling pallet
-  description: Designates valid items to sell.
+  name: entity-cargopalletsell-name
+  description: entity-cargopalletsell-description
   parent: CargoPallet
   components:
   - type: CargoPallet
@@ -75,8 +75,8 @@
 
 - type: entity
   id: CargoPalletBuy
-  name: cargo buying pallet
-  description: Designates where orders will appear when purchased.
+  name: entity-cargopalletbuy-name
+  description: entity-cargopalletbuy-description
   parent: CargoPallet
   components:
   - type: CargoPallet

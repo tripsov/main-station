@@ -48,10 +48,10 @@
     - Amatoxin
 
 - type: entity
-  name: strange pill
+  name: entity-strangepill-name
   parent: Pill
   id: StrangePill
-  description: This unusual pill bears no markings. There's no telling what it contains.
+  description: entity-strangepill-description
   components:
   - type: SolutionContainerManager
     solutions:

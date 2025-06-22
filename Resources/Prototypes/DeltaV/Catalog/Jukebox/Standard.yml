@@ -3,114 +3,114 @@
 
 - type: jukebox
   id: ADiffReal
-  name: Andreas Viklund - A.D.R (Lagoona rmx)
+  name: jukebox-adiffreal-name
   path:
     path: /Audio/DeltaV/Jukebox/a_different_reality_lagoona_remix.xm-MONO.ogg
 
 - type: jukebox
   id: AggAss
-  name: melcom - Aggravated Assault
+  name: jukebox-aggass-name
   path:
     path: /Audio/DeltaV/Jukebox/aggravated.it-MONO.ogg
 
 - type: jukebox
   id: AutEqu
-  name: lemonade - Autumnal Equinox
+  name: jukebox-autequ-name
   path:
     path: /Audio/DeltaV/Jukebox/autumnal_equinox.xm-MONO.ogg
 
 - type: jukebox
   id: DosHighUmb
-  name: MASTER BOOT RECORD - DOS=HIGH, UMB
+  name: jukebox-doshighumb-name
   path:
     path: /Audio/DeltaV/Jukebox/DOS=HIGH,_UMB.ogg
 
 - type: jukebox
   id: DeckTheHalls
-  name: Deck The Halls - Kevin Macleod
+  name: jukebox-deckthehalls-name
   path:
     path: /Audio/DeltaV/Jukebox/deck_the_halls_b-MONO.ogg
 
 - type: jukebox
   id: DrozAlone
-  name: Drozerix - Alone
+  name: jukebox-drozalone-name
   path:
     path: /Audio/DeltaV/Jukebox/drozerix_-_alone.xm-MONO.ogg
 
 - type: jukebox
   id: DrozLeisure
-  name: Drozerix - Leisurely Voice
+  name: jukebox-drozleisure-name
   path:
     path: /Audio/DeltaV/Jukebox/drozerix_-_leisurely_voice.xm-MONO.ogg
 
 - type: jukebox
   id: SunbeamEvery
-  name: Sunbeamstress - Every Light Is Blinking At Once
+  name: jukebox-sunbeamevery-name
   path:
     path: /Audio/DeltaV/Jukebox/every_light_is_blinking_at_onceMONO.ogg
 
 - type: jukebox
   id: KCHaxors
-  name: Karl Casey @ White Bat Audio - Hackers
+  name: jukebox-kchaxors-name
   path:
     path: /Audio/DeltaV/Jukebox/hackers-MONO.ogg
 
 - type: jukebox
   id: SunbeamLaser
-  name: Sunbeamstress - Lasers Rip Apart The Bulkhead
+  name: jukebox-sunbeamlaser-name
   path:
     path: /Audio/DeltaV/Jukebox/lasers_rip_apart_the_bulkheadMONO.ogg
 
 - type: jukebox
   id: IanMarhaba
-  name: Ian Alex Mac. - Marhaba
+  name: jukebox-ianmarhaba-name
   path:
     path: /Audio/DeltaV/Jukebox/marhaba-MONO.ogg
 
 - type: jukebox
   id: PTMinute
-  name: Patricia Taxxon - Minute
+  name: jukebox-ptminute-name
   path:
     path: /Audio/DeltaV/Jukebox/Patricia_Taxxon_-_Minute_-_MONO.ogg
 
 - type: jukebox
   id: SunbeamPhoron
-  name: Sunbeamstress - Phoron Will Make Us Rich
+  name: jukebox-sunbeamphoron-name
   path:
     path: /Audio/DeltaV/Jukebox/Phoron_Will_Make_Us_RichMONO2.ogg
 
 - type: jukebox
   id: NymphsForest
-  name: Psirius - Nymphs of the Forest
+  name: jukebox-nymphsforest-name
   path:
     path: /Audio/DeltaV/Jukebox/psirius_-_nymphs_of_the_forest.mptm-MONO.ogg
 
 - type: jukebox
   id: GhirScratch
-  name: ghirardelli7 - Scratch Post
+  name: jukebox-ghirscratch-name
   path:
     path: /Audio/DeltaV/Jukebox/Scratch_Post_-_OST_MONO.ogg
 
 - type: jukebox
   id: JukeShiba
-  name: Dot Nigou - Shibamata
+  name: jukebox-jukeshiba-name
   path:
     path: /Audio/DeltaV/Jukebox/shibamata-MONO.ogg
 
 - type: jukebox
   id: SpaceAsshowl
-  name: Chris Remo - Space Asshole
+  name: jukebox-spaceasshowl-name
   path:
     path: /Audio/DeltaV/Jukebox/space_asshole-MONO.ogg
 
 - type: jukebox
   id: AmieSuperpos
-  name: Amie Waters - Superposition
+  name: jukebox-amiesuperpos-name
   path:
     path: /Audio/DeltaV/Jukebox/superposition-MONO.ogg
 
 - type: jukebox
   id: LoneDigger
-  name: Caravan Palace - Lone Digger
+  name: jukebox-lonedigger-name
   path:
     path: /Audio/DeltaV/Jukebox/Caravan_Palace_Lone_Digger-MONO.ogg

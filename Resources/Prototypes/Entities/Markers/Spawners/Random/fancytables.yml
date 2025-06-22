@@ -1,5 +1,5 @@
 - type: entity
-  name: random fancy table spawner
+  name: entity-fancytablespawner-name
   id: FancyTableSpawner
   parent: MarkerBase
   components:

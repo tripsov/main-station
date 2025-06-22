@@ -1,9 +1,9 @@
 - type: entity
-  name: raw thaven fillet
+  name: entity-foodthavenmeat-name
   parent: FoodMeatBase
   # MeatFish?...
   id: FoodThavenMeat
-  description: Concerning.
+  description: entity-foodthavenmeat-description
   components:
   - type: FlavorProfile
     flavors:

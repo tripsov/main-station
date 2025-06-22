@@ -1,8 +1,8 @@
 - type: entity
   categories: [ HideSpawnMenu ]
   id: BaseAPC
-  name: APC
-  description: A control terminal for the area's electrical systems.
+  name: entity-baseapc-name
+  description: entity-baseapc-description
   placement:
     mode: SnapgridCenter
   components:
@@ -146,8 +146,8 @@
 - type: entity
   categories: [ HideSpawnMenu ]
   id: APCFrame
-  name: APC frame
-  description: A control terminal for the area's electrical systems, lacking the electronics.
+  name: entity-apcframe-name
+  description: entity-apcframe-description
   placement:
     mode: SnapgridCenter
   components:

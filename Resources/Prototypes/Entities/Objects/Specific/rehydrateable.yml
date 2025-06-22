@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: MonkeyCube
-  name: monkey cube
-  description: Just add water!
+  name: entity-monkeycube-name
+  description: entity-monkeycube-description
   components:
   - type: Item
     size: Tiny
@@ -52,7 +52,7 @@
 - type: entity
   parent: MonkeyCube
   id: KoboldCube
-  name: kobold cube
+  name: entity-koboldcube-name
   components:
   - type: Rehydratable
     possibleSpawns:
@@ -61,7 +61,7 @@
 - type: entity
   parent: MonkeyCube
   id: CowCube
-  name: cow cube
+  name: entity-cowcube-name
   components:
   - type: Rehydratable
     possibleSpawns:
@@ -70,7 +70,7 @@
 - type: entity
   parent: MonkeyCube
   id: GoatCube
-  name: goat cube
+  name: entity-goatcube-name
   components:
   - type: Rehydratable
     possibleSpawns:
@@ -79,7 +79,7 @@
 - type: entity
   parent: MonkeyCube
   id: MothroachCube
-  name: mothroach cube
+  name: entity-mothroachcube-name
   components:
   - type: Rehydratable
     possibleSpawns:
@@ -88,7 +88,7 @@
 - type: entity
   parent: MonkeyCube
   id: MouseCube
-  name: mouse cube
+  name: entity-mousecube-name
   components:
   - type: Rehydratable
     possibleSpawns:
@@ -97,8 +97,8 @@
 - type: entity
   parent: MonkeyCube
   id: CockroachCube
-  name: cockroach cube
-  description: Just add wa- OH GOD!
+  name: entity-cockroachcube-name
+  description: entity-cockroachcube-description
   components:
   - type: Rehydratable
     possibleSpawns:
@@ -107,8 +107,8 @@
 - type: entity
   parent: MonkeyCube
   id: SpaceCarpCube
-  name: carp cube
-  description: Just add water! At your own risk.
+  name: entity-spacecarpcube-name
+  description: entity-spacecarpcube-description
   components:
   - type: Rehydratable
     possibleSpawns:
@@ -117,8 +117,8 @@
 - type: entity
   parent: MonkeyCube
   id: SpaceTickCube
-  name: tick cube
-  description: Just add water! At your own risk.
+  name: entity-spacetickcube-name
+  description: entity-spacecarpcube-description
   components:
   - type: Rehydratable
     possibleSpawns:
@@ -127,8 +127,8 @@
 - type: entity
   parent: MonkeyCube
   id: AbominationCube
-  name: abomination cube
-  description: Just add blood!
+  name: entity-abominationcube-name
+  description: entity-abominationcube-description
   components:
   - type: SolutionContainerManager
     solutions:
@@ -153,8 +153,8 @@
 - type: entity
   parent: PlushieCarp
   id: DehydratedSpaceCarp
-  name: dehydrated space carp
-  description: Looks like a plush toy carp, but just add water and it becomes a real-life space carp!
+  name: entity-dehydratedspacecarp-name
+  description: entity-dehydratedspacecarp-description
   components:
   - type: SolutionContainerManager
     solutions:
@@ -210,9 +210,9 @@
 - type: entity
   parent: BaseItem
   id: SyndicateSponge
-  name: monkey cube
+  name: entity-monkeycube-name
   suffix: Syndicate
-  description: Just add water!
+  description: entity-monkeycube-description
   components:
   - type: Item
     size: Tiny

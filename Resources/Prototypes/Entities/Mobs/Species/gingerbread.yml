@@ -1,6 +1,6 @@
 - type: entity
   save: false
-  name: Urist McCookie
+  name: entity-basemobgingerbread-name
   parent: BaseMobSpeciesOrganic
   id: BaseMobGingerbread
   abstract: true

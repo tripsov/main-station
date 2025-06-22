@@ -1,7 +1,7 @@
 - type: entity
   id: ActivateHardlightSpearImplant
-  name: Create hardlight spear
-  description: Creates hardlight spear in your hands.
+  name: entity-activatehardlightspearimplant-name
+  description: entity-activatehardlightspearimplant-description
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -15,8 +15,8 @@
 
 - type: entity
   id: ActivateSmokeImplant
-  name: Release a cloud of smoke
-  description: Releases a cloud of smoke around you.
+  name: entity-activatesmokeimplant-name
+  description: entity-activatesmokeimplant-description
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -30,8 +30,8 @@
 
 - type: entity
   id: ActionHeadcrabJump
-  name: Jump
-  description: Do super jump.
+  name: entity-actionheadcrabjump-name
+  description: entity-actionheadcrabjump-description
   categories: [ HideSpawnMenu ]
   components:
   - type: WorldTargetAction

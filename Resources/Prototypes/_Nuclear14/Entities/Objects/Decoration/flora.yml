@@ -1,7 +1,7 @@
 - type: entity
   id: N14FloraLogBase
-  name: log
-  description: Once a tree, always a log.
+  name: entity-n14floralogbase-name
+  description: entity-n14floralogbase-description
   abstract: true
   components:
   - type: Clickable
@@ -62,8 +62,8 @@
   parent: N14FloraLogBase
   id: N14FloraLog1
   suffix: seat
-  name: log
-  description: Once a tree, always a log.
+  name: entity-n14floralogbase-name
+  description: entity-n14floralogbase-description
   components:
   - type: Strap
     position: Stand

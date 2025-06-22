@@ -1,8 +1,8 @@
 - type: entity
   parent: [ BaseMachinePowered, ConstructibleMachine ]
   id: SalvageMagnet
-  name: salvage magnet
-  description: Pulls in salvage.
+  name: entity-salvagemagnet-name
+  description: entity-salvagemagnet-description
   components:
   - type: Sprite
     sprite: Structures/Machines/salvage.rsi
@@ -48,8 +48,8 @@
 - type: entity
   parent: SalvageMagnet
   id: SalvageLocator
-  name: salvage locator
-  description: Locates salvage.
+  name: entity-salvagelocator-name
+  description: entity-salvagelocator-description
   components:
   - type: SalvageMagnet
   - type: ApcPowerReceiver

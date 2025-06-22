@@ -1,7 +1,7 @@
 - type: entity
   id: SpawnPointGladiator
   parent: SpawnPointJobBase
-  name: gladiator
+  name: entity-spawnpointgladiator-name
   components:
   - type: SpawnPoint
     job_id: Gladiator
@@ -14,7 +14,7 @@
 - type: entity
   id: SpawnPointPrisoner
   parent: SpawnPointJobBase
-  name: prisoner
+  name: entity-spawnpointprisoner-name
   components:
   - type: SpawnPoint
     job_id: Prisoner
@@ -26,7 +26,7 @@
 - type: entity
   id: SpawnPointPrisonGuard
   parent: SpawnPointJobBase
-  name: prison guard
+  name: entity-spawnpointprisonguard-name
   components:
   - type: SpawnPoint
     job_id: PrisonGuard
@@ -52,7 +52,7 @@
 - type: entity
   id: SpawnPointMartialArtist
   parent: SpawnPointJobBase
-  name: martial artist
+  name: entity-spawnpointmartialartist-name
   components:
   - type: SpawnPoint
     job_id: MartialArtist
@@ -65,7 +65,7 @@
 - type: entity
   id: SpawnPointForensicMantis
   parent: SpawnPointJobBase
-  name: mantis
+  name: entity-spawnpointforensicmantis-name
   components:
   - type: SpawnPoint
     job_id: ForensicMantis

@@ -1,71 +1,71 @@
 - type: lobbyBackground
   id: Robotics
   background: /Textures/LobbyScreens/robotics.webp
-  name: Robotics
+  name: lobbybackground-robotics-name
   artist: Veritius
 
 - type: lobbyBackground
   id: Supermatter
   background: /Textures/LobbyScreens/supermatter.webp
-  name: Supermatter
+  name: lobbybackground-supermatter-name
   artist: Vertitius
 
 - type: lobbyBackground
   id: Warden
   background: /Textures/LobbyScreens/warden.webp
-  name: Warden
+  name: lobbybackground-warden-name
   artist: Solbusaur
 
 - type: lobbyBackground
   id: Pharmacy
   background: /Textures/LobbyScreens/pharmacy.webp
-  name: Pharmacy
+  name: lobbybackground-pharmacy-name
   artist: Solbusaur
 
 - type: lobbyBackground
   id: SSXIV
   background: /Textures/LobbyScreens/ssxiv.webp
-  name: SSXIV
+  name: lobbybackground-ssxiv-name
   artist: Abyssal
 
 - type: lobbyBackground
   id: Susstation
   background: /Textures/LobbyScreens/susstation.webp
-  name: Sus Station
+  name: lobbybackground-susstation-name
   artist: Alekshhh
 
 - type: lobbyBackground
   id: SkellyVsTheRev
   background: /Textures/LobbyScreens/skellyvstherev.webp
-  name: Skelly Vs The Rev
+  name: lobbybackground-skellyvstherev-name
   artist: Hannah 'FairlySadPanda' Dawson
 
 - type: lobbyBackground
   id: Doomed
   background: /Textures/LobbyScreens/doomed.webp
-  name: Doomed
+  name: lobbybackground-doomed-name
   artist: brainfood1183
 
 - type: lobbyBackground
   id: Blueprint
   background: /Textures/LobbyScreens/blueprint.webp
-  name: Blueprint
+  name: lobbybackground-blueprint-name
   artist: data_redacted
 
 - type: lobbyBackground
   id: TerminalStation
   background: /Textures/LobbyScreens/terminalstation.webp
-  name: Terminal Station
+  name: lobbybackground-terminalstation-name
   artist: aserovich
 
 - type: lobbyBackground
   id: JustAWeekAway
   background: /Textures/LobbyScreens/justaweekaway.webp
-  name: Just A Week Away
+  name: lobbybackground-justaweekaway-name
   artist: plantyfern
 
 - type: lobbyBackground
   id: NosfordGunther
   background: /Textures/LobbyScreens/nosfordgunther.webp
-  name: CALL CODE WHITE
+  name: lobbybackground-nosfordgunther-name
   artist: LeonardoDaBepis

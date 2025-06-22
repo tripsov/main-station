@@ -1,8 +1,8 @@
 ﻿- type: entity
-  name: magma hand
+  name: entity-mobmagmahand-name
   id: MobMagmaHand
   parent: [ LavalandMobBase, MobCombat ]
-  description: Looks hot to the touch... Better not shake its hand!
+  description: entity-mobmagmahand-description
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -111,11 +111,11 @@
       task: SimpleHostileCompound
 
 - type: entity
-  name: watcher
+  name: entity-mobwatcherbase-name
   id: MobWatcherBase
   parent: [ SimpleSpaceMobBase, FlyingMobBase ]
   abstract: true
-  description: It's like its staring right through you.
+  description: entity-mobwatcherbase-description
   components:
   - type: NpcFactionMember
     factions:
@@ -203,7 +203,7 @@
 - type: entity
   id: MobWatcherIcewing
   parent: MobWatcherBase
-  name: icewing watcher
+  name: entity-mobwatchericewing-name
   components:
   - type: Sprite
     layers:
@@ -221,7 +221,7 @@
 - type: entity
   id: MobWatcherMagmawing
   parent: MobWatcherBase
-  name: magmawing watcher
+  name: entity-mobwatchermagmawing-name
   components:
   - type: Sprite
     layers:
@@ -242,9 +242,9 @@
 - type: entity
   id: MobWatcherPride
   parent: MobWatcherBase
-  name: pride watcher
+  name: entity-mobwatcherpride-name
   suffix: Admeme
-  description: This rare subspecies only appears in June.
+  description: entity-mobwatcherpride-description
   components:
   - type: Sprite
     layers:

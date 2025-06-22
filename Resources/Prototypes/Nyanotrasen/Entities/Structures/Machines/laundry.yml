@@ -1,8 +1,8 @@
 - type: entity
   id: WashingMachine
   parent: BaseStructureDynamic
-  name: washing machine
-  description: A machine that washes clothes with a spinning steel drum in a shiny frame.
+  name: entity-washingmachine-name
+  description: entity-washingmachine-description
   components:
   - type: Sprite
     noRot: true
@@ -133,9 +133,9 @@
 - type: entity
   id: WashingMachineBroken
   parent: WashingMachine
-  name: washing machine
+  name: entity-washingmachine-name
   suffix: broken
-  description: A shattered mess of glass and steel that won't be washing anything anytime soon. It looks dusty.
+  description: entity-washingmachinebroken-description
   components:
   - type: Sprite
     layers:
@@ -183,7 +183,7 @@
 - type: entity
   id: WashingMachineFilledClothes
   parent: WashingMachine
-  name: washing machine
+  name: entity-washingmachine-name
   suffix: random clothes
   components:
   - type: StorageFill

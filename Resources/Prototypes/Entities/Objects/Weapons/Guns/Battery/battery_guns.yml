@@ -239,10 +239,10 @@
     staminaCost: 5
 
 - type: entity
-  name: svalinn laser pistol
+  name: entity-weaponlasersvalinn-name
   parent: BaseWeaponPowerCellSmall
   id: WeaponLaserSvalinn
-  description: A cheap and widely used laser pistol.
+  description: entity-weaponlasersvalinn-description
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/svalinn.rsi
@@ -260,10 +260,10 @@
     zeroVisible: true
 
 - type: entity
-  name: retro laser blaster
+  name: entity-weaponlasergun-name
   parent: BaseWeaponBatterySmall
   id: WeaponLaserGun
-  description: A weapon using light amplified by the stimulated emission of radiation. Bad design choices have lead to this model having subpar cooling capabilities.
+  description: entity-weaponlasergun-description
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/laser_retro.rsi
@@ -287,10 +287,10 @@
   - type: Appearance
 
 - type: entity
-  name: makeshift laser pistol
+  name: entity-weaponmakeshiftlaser-name
   parent: BaseWeaponBatterySmall
   id: WeaponMakeshiftLaser
-  description: Better pray it won't burn your hands off.
+  description: entity-weaponmakeshiftlaser-description
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/makeshift.rsi
@@ -317,10 +317,10 @@
     node: laser
 
 - type: entity
-  name: tesla gun
+  name: entity-weaponteslagun-name
   parent: [BaseWeaponBattery, BaseWeaponOverheat] # wwdp
   id: WeaponTeslaGun
-  description: The power of the primordial element of lightning in your hands.
+  description: entity-weaponteslagun-description
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/tesla_gun.rsi
@@ -350,10 +350,10 @@
     - 0,0,7,1
 
 - type: entity
-  name: laser rifle
+  name: entity-weaponlasercarbine-name
   parent: [BaseWeaponBattery, BaseGunWieldable, BaseWeaponOverheatLamp] # wwdp edit - overheat
   id: WeaponLaserCarbine
-  description: Favoured by Nanotrasen Security for being cheap and easy to use.
+  description: entity-weaponlasercarbine-description
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/laser_gun.rsi
@@ -382,10 +382,10 @@
     - 0,0,7,1
 
 - type: entity
-  name: practice laser rifle
+  name: entity-weaponlasercarbinepractice-name
   parent: WeaponLaserCarbine
   id: WeaponLaserCarbinePractice
-  description: This modified laser rifle fires nearly harmless beams in the 40-watt range, for target practice.
+  description: entity-weaponlasercarbinepractice-description
   components:
   - type: GunOverheat # wwdp
     heatCost: 2.5
@@ -400,10 +400,10 @@
         Blunt: 4
 
 - type: entity
-  name: pulse pistol
+  name: entity-weaponpulsepistol-name
   parent: BaseWeaponBatterySmall
   id: WeaponPulsePistol
-  description: A state of the art energy pistol favoured as a sidearm by the NT operatives.
+  description: entity-weaponpulsepistol-description
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/pulse_pistol.rsi
@@ -429,28 +429,28 @@
     startingCharge: 2000
 
 - type: entity
-  name: antique pulse pistol
+  name: entity-weaponpulsepistolhos-name
   parent: WeaponPulsePistol
   id: WeaponPulsePistolHoS
-  description: One of the many weapons belonging to the Head of Security's private collection. This pistol is engraved with the words, "Forgive Us, Mother Sol'"
+  description: entity-weaponpulsepistolhos-description
   components:
   - type: StealTarget
     stealGroup: HoSAntiqueWeapon
 
 - type: entity
-  name: captain's pulse pistol
+  name: entity-weaponpulsepistolcaptain-name
   parent: WeaponPulsePistol
   id: WeaponPulsePistolCaptain
-  description: A rare and exotic handgun gifted to the station's Captain. Its ivory grip has been engraved with the words, "Glory to the Company, Glory to Mother Sol. Phoron will make us all rich."
+  description: entity-weaponpulsepistolcaptain-description
   components:
   - type: StealTarget
     stealGroup: WeaponCaptain
 
 - type: entity
-  name: pulse carbine
+  name: entity-weaponpulsecarbine-name
   parent: [BaseWeaponBattery, BaseGunWieldable, BaseWeaponOverheat] # wwdp edit - overheat
   id: WeaponPulseCarbine
-  description: A high tech energy carbine favoured by the NT-ERT operatives.
+  description: entity-weaponpulsecarbine-description
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/pulse_carbine.rsi
@@ -485,10 +485,10 @@
     - 0,0,5,1
 
 - type: entity
-  name: pulse rifle
+  name: entity-weaponpulserifle-name
   parent: [BaseWeaponBattery, BaseGunWieldable, BaseWeaponOverheat] # wwdp edit - overheat
   id: WeaponPulseRifle
-  description: A weapon that is almost as infamous as its users.
+  description: entity-weaponpulserifle-description
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/pulse_rifle.rsi
@@ -519,10 +519,10 @@
     - 0,0,5,1
 
 - type: entity
-  name: laser cannon
+  name: entity-weaponlasercannon-name
   parent: [BaseWeaponBattery, BaseGunWieldable]
   id: WeaponLaserCannon
-  description: A heavy duty, high powered laser weapon.
+  description: entity-weaponlasercannon-description
   components:
   - type: Tag
     tags:
@@ -559,10 +559,10 @@
 
 
 - type: entity
-  name: portable particle decelerator
+  name: entity-weaponparticledecelerator-name
   parent: BaseWeaponBattery
   id: WeaponParticleDecelerator
-  description: A portable particle decelerator capable of decomposing a tesla or singularity.
+  description: entity-weaponparticledecelerator-description
   components:
     - type: Item
       size: Ginormous
@@ -606,10 +606,10 @@
       staminaCost: 48
 
 - type: entity
-  name: x-ray cannon
+  name: entity-weaponxraycannon-name
   parent: [BaseWeaponBattery, BaseGunWieldable, BaseWeaponOverheatLamp] # wwdp edit - overheat
   id: WeaponXrayCannon
-  description: An experimental weapon that uses concentrated x-ray energy against its target.
+  description: entity-weaponxraycannon-description
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/xray.rsi
@@ -641,10 +641,10 @@
     - 0,0,7,1
 
 - type: entity
-  name: civilian disabler
+  name: entity-weaponciviliandisabler-name
   parent: BaseWeaponBatterySmall
   id: WeaponCivilianDisabler
-  description: The original prototype disablers refitted for civilian self defence use and put in a shiny new shell. It has a much lower power output than the modern disabler in use by Security, and as such requires no license to carry.
+  description: entity-weaponciviliandisabler-description
   components:
     - type: Tag
       tags:
@@ -698,10 +698,10 @@
       wideAnimationRotation: 90
 
 - type: entity
-  name: disabler
+  name: entity-weapondisabler-name
   parent: BaseWeaponBatterySmall
   id: WeaponDisabler
-  description: A self-defense weapon that exhausts organic targets, weakening them until they collapse.
+  description: entity-weapondisabler-description
   components:
     - type: Tag
       tags:
@@ -747,10 +747,10 @@
       wideAnimationRotation: 135
 
 - type: entity
-  name: CentCom disabler
+  name: entity-weaponccdisabler-name
   parent: WeaponDisabler
   id: WeaponCCDisabler
-  description: An improved self-defense weapon that exhausts organic targets, weakening them until they collapse. Only for the finest officers that we don't trust with lethals.
+  description: entity-weaponccdisabler-description
   components:
   - type: BatterySelfRecharger
     autoRecharge: true
@@ -776,10 +776,10 @@
     - Sidearm
 
 - type: entity
-  name: disabler SMG
+  name: entity-weapondisablersmg-name
   parent: [BaseWeaponBattery, BaseWeaponOverheatLamp] # wwdp edit - overheat
   id: WeaponDisablerSMG
-  description: Advanced weapon that exhausts organic targets, weakening them until they collapse.
+  description: entity-weapondisablersmg-description
   components:
   - type: Item # WWDP guns resize
     size: Large
@@ -828,10 +828,10 @@
     wideAnimationRotation: 180
 
 - type: entity
-  name: practice disabler
+  name: entity-weapondisablerpractice-name
   parent: WeaponDisabler
   id: WeaponDisablerPractice
-  description: A self-defense weapon that exhausts organic targets, weakening them until they collapse. This one has been undertuned for cadets making it mostly harmless.
+  description: entity-weapondisablerpractice-description
   components:
     - type: Sprite
       sprite: Objects/Weapons/Guns/Battery/practice_disabler.rsi
@@ -858,10 +858,10 @@
       bluntStaminaDamageFactor: 1.0
 
 - type: entity
-  name: taser
+  name: entity-weapontaser-name
   parent: BaseWeaponBatterySmall
   id: WeaponTaser
-  description: A low-capacity, energy-based stun gun used by security teams to subdue targets at range.
+  description: entity-weapontaser-description
   components:
   - type: Tag
     tags:
@@ -894,10 +894,10 @@
   - type: Appearance
 
 - type: entity
-  name: antique laser pistol
+  name: entity-weaponantiquelaser-name
   parent: [BaseWeaponBatterySmall, BaseWeaponOverheatLamp] # wwdp edit - overheat
   id: WeaponAntiqueLaser
-  description: This is an antique laser pistol. All craftsmanship is of the highest quality. It is decorated with assistant leather and chrome. The object menaces with spikes of energy.
+  description: entity-weaponantiquelaser-description
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/antiquelasergun.rsi
@@ -950,10 +950,10 @@
     # not putting a BlockMovement component here cause that's funny.
 
 - type: entity
-  name: advanced laser pistol
+  name: entity-weaponadvancedlaser-name
   parent: [BaseWeaponBatterySmall, BaseWeaponOverheatLamp] # wwdp edit - overheat
   id: WeaponAdvancedLaser
-  description: An experimental high-energy laser pistol with a self-charging nuclear battery.
+  description: entity-weaponadvancedlaser-description
   components:
   - type: Item
     size: Normal  # Intentionally larger than other pistols
@@ -990,10 +990,10 @@
     staminaCost: 6
 
 - type: entity
-  name: C.H.I.M.P. handcannon
+  name: entity-weaponpistolchimp-name
   parent: BaseWeaponBatterySmall
   id: WeaponPistolCHIMP
-  description: Just because it's a little C.H.I.M.P. doesn't mean it can't punch like an A.P.E.
+  description: entity-weaponpistolchimp-description
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Revolvers/chimp.rsi
@@ -1036,10 +1036,10 @@
     price: 100
 
 - type: entity
-  name: experimental C.H.I.M.P. handcannon
+  name: entity-weaponpistolchimpupgraded-name
   parent: WeaponPistolCHIMP
   id: WeaponPistolCHIMPUpgraded
-  description: This C.H.I.M.P. seems to have a greater punch than is usual...
+  description: entity-weaponpistolchimpupgraded-description
   components:
   - type: BatteryWeaponFireModes
     fireModes:
@@ -1055,10 +1055,10 @@
       fireCost: 100
 
 - type: entity
-  name: eye of a behonker
+  name: entity-weaponbehonkerlaser-name
   parent: BaseWeaponBatterySmall
   id: WeaponBehonkerLaser
-  description: The eye of a behonker, it fires a laser when squeezed.
+  description: entity-weaponbehonkerlaser-description
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/behonker_eye.rsi
@@ -1084,10 +1084,10 @@
     price: 750
 
 - type: entity
-  name: energy shotgun
+  name: entity-weaponenergyshotgun-name
   parent: [BaseWeaponBattery, BaseWeaponOverheatLamp, BaseGunWieldable] # wwdp edit - overheat
   id: WeaponEnergyShotgun
-  description: A one-of-a-kind prototype energy weapon that uses various shotgun configurations. It offers the possibility of both lethal and non-lethal shots, making it a versatile weapon.
+  description: entity-weaponenergyshotgun-description
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/energy_shotgun.rsi

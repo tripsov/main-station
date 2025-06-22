@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: ActionKnock
-  name: Knock
-  description: This spell opens nearby doors.
+  name: entity-actionknock-name
+  description: entity-actionknock-description
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction

@@ -2,7 +2,7 @@
   id: BaseLathe
   parent: [ BaseMachinePowered, ConstructibleMachine ]
   abstract: true
-  name: lathe
+  name: entity-baselathe-name
   components:
   - type: Appearance
   - type: WiresVisuals
@@ -90,8 +90,8 @@
 - type: entity
   id: Autolathe
   parent: [BaseLatheLube, BaseMaterialSiloUtilizer]
-  name: autolathe
-  description: It produces basic items using metal and glass.
+  name: entity-autolathe-name
+  description: entity-autolathe-description
   components:
   - type: Sprite
     sprite: Structures/Machines/autolathe.rsi
@@ -277,8 +277,8 @@
 - type: entity
   id: AutolatheHyperConvection
   parent: [Autolathe, BaseHyperlathe]
-  name: hyper convection autolathe
-  description: A highly-experimental autolathe that harnesses the power of extreme heat to slowly create objects more cost-effectively.
+  name: entity-autolathehyperconvection-name
+  description: entity-autolathehyperconvection-description
   components:
   - type: Sprite
     sprite: Structures/Machines/autolathe_hypercon.rsi
@@ -288,8 +288,8 @@
 - type: entity
   id: Protolathe
   parent: [BaseLatheLube, BaseMaterialSiloUtilizer]
-  name: protolathe
-  description: Converts raw materials into advanced items.
+  name: entity-protolathe-name
+  description: entity-protolathe-description
   components:
   - type: Sprite
     sprite: Structures/Machines/protolathe.rsi
@@ -477,8 +477,8 @@
 - type: entity
   id: ProtolatheHyperConvection
   parent: [Protolathe, BaseHyperlathe]
-  name: hyper convection protolathe
-  description: A highly-experimental protolathe that harnesses the power of extreme heat to slowly create objects more cost-effectively.
+  name: entity-protolathehyperconvection-name
+  description: entity-protolathehyperconvection-description
   components:
   - type: Sprite
     sprite: Structures/Machines/protolathe_hypercon.rsi
@@ -488,8 +488,8 @@
 - type: entity
   id: CircuitImprinter
   parent: [BaseLatheLube, BaseMaterialSiloUtilizer]
-  name: circuit imprinter
-  description: Prints circuit boards for machines.
+  name: entity-circuitimprinter-name
+  description: entity-circuitimprinter-description
   components:
   - type: Sprite
     sprite: Structures/Machines/circuit_imprinter.rsi
@@ -664,8 +664,8 @@
 - type: entity
   id: CircuitImprinterHyperConvection
   parent: [CircuitImprinter, BaseHyperlathe]
-  name: hyper convection circuit imprinter
-  description: A highly-experimental circuit imprinter that harnesses the power of extreme heat to slowly create objects more cost-effectively.
+  name: entity-circuitimprinterhyperconvection-name
+  description: entity-circuitimprinterhyperconvection-description
   components:
   - type: Sprite
     sprite: Structures/Machines/circuit_imprinter_hypercon.rsi
@@ -675,8 +675,8 @@
 - type: entity
   id: ExosuitFabricator
   parent: [BaseLatheLube, BaseMaterialSiloUtilizer]
-  name: exosuit fabricator
-  description: Creates parts for robotics and other mechanical needs
+  name: entity-exosuitfabricator-name
+  description: entity-exosuitfabricator-description
   components:
   - type: Sprite
     sprite: Structures/Machines/exosuit_fabricator.rsi
@@ -858,8 +858,8 @@
 - type: entity
   id: Biofabricator
   parent: [BaseLathe, BaseMaterialSiloUtilizer]
-  name: biofabricator
-  description: Produces animal cubes using biomass.
+  name: entity-biofabricator-name
+  description: entity-biofabricator-description
   components:
   - type: Sprite
     sprite: Structures/Machines/biofabricator.rsi
@@ -910,8 +910,8 @@
 - type: entity
   id: SecurityTechFab
   parent: [BaseLatheLube, BaseMaterialSiloUtilizer]
-  name: security techfab
-  description: Prints equipment for use by security crew.
+  name: entity-securitytechfab-name
+  description: entity-securitytechfab-description
   components:
   - type: Sprite
     sprite: Structures/Machines/techfab.rsi
@@ -1236,8 +1236,8 @@
 - type: entity
   id: AmmoTechFab
   parent: [BaseLatheLube, BaseMaterialSiloUtilizer]
-  name: ammo techfab
-  description: Prints the bare minimum of bullets that any budget military or armory could need. Nothing fancy.
+  name: entity-ammotechfab-name
+  description: entity-ammotechfab-description
   components:
     - type: Sprite
       sprite: Structures/Machines/techfab.rsi
@@ -1315,8 +1315,8 @@
 - type: entity
   id: MedicalTechFab
   parent: [BaseLatheLube, BaseMaterialSiloUtilizer]
-  name: medical techfab
-  description: Prints equipment for use by the medbay.
+  name: entity-medicaltechfab-name
+  description: entity-medicaltechfab-description
   components:
   - type: Sprite
     sprite: Structures/Machines/techfab.rsi
@@ -1412,8 +1412,8 @@
 - type: entity
   parent: [BaseLathe, BaseMaterialSiloUtilizer]
   id: UniformPrinter
-  name: uniform printer
-  description: Prints new or replacement uniforms.
+  name: entity-uniformprinter-name
+  description: entity-uniformprinter-description
   components:
   - type: Transform
     noRot: false
@@ -1641,8 +1641,8 @@
 - type: entity
   parent: [BaseLathe, BaseMaterialSiloUtilizer]
   id: OreProcessor
-  name: ore processor
-  description: It produces sheets and ingots using ores.
+  name: entity-oreprocessor-name
+  description: entity-oreprocessor-description
   components:
   - type: Sprite
     sprite: Structures/Machines/ore_processor.rsi
@@ -1700,8 +1700,8 @@
 - type: entity
   parent: OreProcessor
   id: OreProcessorIndustrial
-  name: industrial ore processor
-  description: An ore processor specifically designed for mass-producing metals in industrial applications.
+  name: entity-oreprocessorindustrial-name
+  description: entity-oreprocessorindustrial-description
   components:
   - type: Sprite
     sprite: Structures/Machines/ore_processor_industrial.rsi
@@ -1714,8 +1714,8 @@
 - type: entity
   parent: [BaseLathe, BaseMaterialSiloUtilizer]
   id: Sheetifier
-  name: sheet-meister 2000
-  description: A very sheety machine.
+  name: entity-sheetifier-name
+  description: entity-sheetifier-description
   components:
   - type: Sprite
     sprite: Structures/Machines/sheetifier.rsi
@@ -1745,8 +1745,8 @@
 - type: entity
   parent: [BaseLathe, BaseMaterialSiloUtilizer]
   id: PrizeCounter
-  name: prize counter
-  description: Claim your prize and win some toys and cute plushies!
+  name: entity-prizecounter-name
+  description: entity-prizecounter-description
   components:
   - type: AmbientOnPowered
   - type: AmbientSound

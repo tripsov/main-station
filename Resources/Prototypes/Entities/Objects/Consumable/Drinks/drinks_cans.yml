@@ -83,8 +83,8 @@
 - type: entity
   parent: DrinkCanBaseFull
   id: DrinkColaCan
-  name: space cola
-  description: A refreshing beverage.
+  name: entity-drinkcolacan-name
+  description: entity-drinkcolacan-description
   components:
   - type: SolutionContainerManager
     solutions:
@@ -131,8 +131,8 @@
 - type: entity
   parent: DrinkCanBaseFull
   id: DrinkIcedTeaCan
-  name: iced tea can
-  description: A refreshing can of iced tea.
+  name: entity-drinkicedteacan-name
+  description: entity-drinkicedteacan-description
   components:
   - type: SolutionContainerManager
     solutions:
@@ -149,8 +149,8 @@
 - type: entity
   parent: DrinkCanBaseFull
   id: DrinkLemonLimeCan
-  name: lemon-lime can
-  description: You wanted ORANGE. It gave you Lemon-Lime.
+  name: entity-drinklemonlimecan-name
+  description: entity-drinklemonlimecan-description
   components:
   - type: SolutionContainerManager
     solutions:
@@ -167,8 +167,8 @@
 - type: entity
   parent: DrinkCanBaseFull
   id: DrinkGrapeCan
-  name: grape soda can
-  description: Sweetened drink with a grape flavor and a deep purple color.
+  name: entity-drinkgrapecan-name
+  description: entity-drinkgrapecan-description
   components:
   - type: SolutionContainerManager
     solutions:
@@ -185,8 +185,8 @@
 - type: entity
   parent: DrinkCanBaseFull
   id: DrinkRootBeerCan
-  name: root beer can
-  description: Some of that tasty root beer goodness, now in a portable can!
+  name: entity-drinkrootbeercan-name
+  description: entity-drinkrootbeercan-description
   components:
   - type: SolutionContainerManager
     solutions:
@@ -206,8 +206,8 @@
 - type: entity
   parent: DrinkCanBaseFull
   id: DrinkSodaWaterCan
-  name: soda water can
-  description: Soda water. Why not make a scotch and soda?
+  name: entity-drinksodawatercan-name
+  description: entity-drinksodawatercan-description
   components:
   - type: SolutionContainerManager
     solutions:
@@ -223,8 +223,8 @@
 - type: entity
   parent: DrinkCanBaseFull
   id: DrinkSpaceMountainWindCan
-  name: space mountain wind can
-  description: Blows right through you like a space wind.
+  name: entity-drinkspacemountainwindcan-name
+  description: entity-drinkspacemountainwindcan-description
   components:
   - type: SolutionContainerManager
     solutions:
@@ -241,8 +241,8 @@
 - type: entity
   parent: DrinkCanBaseFull
   id: DrinkSpaceUpCan
-  name: space-up can
-  description: Tastes like a hull breach in your mouth.
+  name: entity-drinkspaceupcan-name
+  description: entity-drinkspaceupcan-description
   components:
   - type: SolutionContainerManager
     solutions:
@@ -259,8 +259,8 @@
 - type: entity
   parent: DrinkCanBaseFull
   id: DrinkSolDryCan
-  name: sol dry
-  description: Sweet ginger soda from outer space!
+  name: entity-drinksoldrycan-name
+  description: entity-drinksoldrycan-description
   components:
   - type: SolutionContainerManager
     solutions:
@@ -277,8 +277,8 @@
 - type: entity
   parent: DrinkCanBaseFull
   id: DrinkStarkistCan
-  name: starkist can
-  description: The taste of a star in liquid form. And, a bit of tuna...?
+  name: entity-drinkstarkistcan-name
+  description: entity-drinkstarkistcan-description
   components:
   - type: SolutionContainerManager
     solutions:
@@ -295,8 +295,8 @@
 - type: entity
   parent: DrinkCanBaseFull
   id: DrinkTonicWaterCan
-  name: tonic water can
-  description: Quinine tastes funny, but at least it'll keep that Space Malaria away.
+  name: entity-drinktonicwatercan-name
+  description: entity-drinktonicwatercan-description
   components:
   - type: SolutionContainerManager
     solutions:
@@ -312,8 +312,8 @@
 - type: entity
   parent: DrinkCanBaseFull
   id: DrinkFourteenLokoCan
-  name: Fourteen Loko can
-  description: The MBO has advised crew members that consumption of Fourteen Loko may result in seizures, blindness, drunkeness, or even death. Please Drink Responsibly.
+  name: entity-drinkfourteenlokocan-name
+  description: entity-drinkfourteenlokocan-description
   components:
   - type: SolutionContainerManager
     solutions:
@@ -330,8 +330,8 @@
 - type: entity
   parent: DrinkCanBaseFull
   id: DrinkChangelingStingCan
-  name: changeling sting can
-  description: You take a tiny sip and feel a burning sensation...
+  name: entity-drinkchangelingstingcan-name
+  description: entity-drinkchangelingstingcan-description
   components:
   - type: SolutionContainerManager
     solutions:
@@ -349,8 +349,8 @@
 - type: entity
   parent: DrinkCanBaseFull
   id: DrinkDrGibbCan
-  name: Dr. Gibb can
-  description: A delicious blend of 42 different flavours.
+  name: entity-drinkdrgibbcan-name
+  description: entity-drinkdrgibbcan-description
   components:
   - type: SolutionContainerManager
     solutions:
@@ -368,8 +368,8 @@
 - type: entity
   parent: DrinkCanBaseFull
   id: DrinkNukieCan
-  name: blood-red brew can
-  description: A home-brewed drink made from the crazed minds at the Syndicate. Not recommended by doctors.
+  name: entity-drinknukiecan-name
+  description: entity-drinknukiecan-description
   components:
   - type: SolutionContainerManager
     solutions:
@@ -394,8 +394,8 @@
 - type: entity
   parent: DrinkCanBaseFull
   id: DrinkEnergyDrinkCan
-  name: red bool energy drink
-  description: A can of Red Bool, with enough caffeine to kill a horse.
+  name: entity-drinkenergydrinkcan-name
+  description: entity-drinkenergydrinkcan-description
   components:
   - type: SolutionContainerManager
     solutions:
@@ -413,7 +413,7 @@
 - type: entity
   id: DrinkCanPack
   parent: BaseStorageItem
-  name: 6pack
+  name: entity-drinkcanpack-name
   components:
   - type: Sprite
     sprite: Objects/Misc/6pack.rsi
@@ -466,8 +466,8 @@
 - type: entity
   parent: DrinkCanBaseFull
   id: DrinkShamblersJuiceCan
-  name: shamblers juice can
-  description: ~Shake me up some of that Shambler's Juice!~
+  name: entity-drinkshamblersjuicecan-name
+  description: entity-drinkshamblersjuicecan-description
   components:
   - type: SolutionContainerManager
     solutions:
@@ -485,8 +485,8 @@
 - type: entity
   parent: DrinkCanBaseFull
   id: DrinkPwrGameCan
-  name: pwr game can
-  description: The only drink with the PWR that true gamers crave. When a gamer talks about gamerfuel, this is what they're literally referring to.
+  name: entity-drinkpwrgamecan-name
+  description: entity-drinkpwrgamecan-description
   components:
   - type: SolutionContainerManager
     solutions:
@@ -504,8 +504,8 @@
 - type: entity
   parent: DrinkCanBaseFull
   id: DrinkBeerCan
-  name: beer can
-  description: Small joy, big taste, no worries!
+  name: entity-drinkbeercan-name
+  description: entity-drinkbeercan-description
   components:
   - type: SolutionContainerManager
     solutions:
@@ -526,8 +526,8 @@
 - type: entity
   parent: DrinkCanBaseFull
   id: DrinkWineCan
-  name: wine can
-  description: Your way to forgetting all worries and having fun!
+  name: entity-drinkwinecan-name
+  description: entity-drinkwinecan-description
   components:
   - type: SolutionContainerManager
     solutions:

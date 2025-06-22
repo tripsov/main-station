@@ -1,0 +1,9 @@
+animatedlobbyscreen-vyachlobbysummer-name = Beach Episode
+animatedlobbyscreen-centcommlobbyscreen-name = Centcomm
+animatedlobbyscreen-cubelobbyscreen-name = Frontier
+animatedlobbyscreen-milkywaylobbyscreen-name = OUR GALAXY, THE MILKY WAY
+animatedlobbyscreen-rocketlobbyscreen-name = Росинант
+animatedlobbyscreen-sealobbyscreen-name = Floating in Space
+animatedlobbyscreen-syndicatelobbyscreen-name = YOU EITHER DRIP OR DROWN NT MAN
+animatedlobbyscreen-vangoghlobbyscreen-name = Starry Night
+animatedlobbyscreen-briglobbyscreen-name = Brig

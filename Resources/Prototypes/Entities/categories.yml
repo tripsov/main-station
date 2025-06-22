@@ -5,25 +5,25 @@
 
 - type: entityCategory
   id: GameRules
-  name: entity-category-name-game-rules
+  name: entitycategory-gamerules-name
   hideSpawnMenu: true
 
 - type: entityCategory
   id: Objectives
-  name: entity-category-name-objectives
+  name: entitycategory-objectives-name
   hideSpawnMenu: true
 
 - type: entityCategory
   id: Roles
-  name: entity-category-name-roles
+  name: entitycategory-roles-name
   hideSpawnMenu: true
 
 # markers, atmos fixing, etc
 - type: entityCategory
   id: Mapping
-  name: entity-category-name-mapping
+  name: entitycategory-mapping-name
 
 - type: entityCategory
   id: DoNotMap
-  name: entity-category-name-donotmap
+  name: entitycategory-donotmap-name
   suffix: entity-category-suffix-donotmap

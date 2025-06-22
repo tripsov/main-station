@@ -3,8 +3,8 @@
 - type: entity
   parent: ClothingOuterStorageToggleableBase
   id: ClothingOuterCoatAcidRaincoat
-  name: acid raincoat
-  description: Mostly transparent raincoat made out of acid resistant polymers. Please, for the love of Space God, do wear undergarments.
+  name: entity-clothingoutercoatacidraincoat-name
+  description: entity-clothingoutercoatacidraincoat-description
   components:
   - type: Sprite
     sprite: _NF/Clothing/OuterClothing/Coats/acid_raincoat.rsi
@@ -20,7 +20,7 @@
 - type: entity
   parent: ClothingOuterCoatAcidRaincoat
   id: ClothingOuterCoatAcidRaincoatBlue
-  name: blue acid raincoat
+  name: entity-clothingoutercoatacidraincoatblue-name
   components:
   - type: Sprite
     sprite: _NF/Clothing/OuterClothing/Coats/acid_raincoat_blue.rsi
@@ -32,7 +32,7 @@
 - type: entity
   parent: ClothingOuterCoatAcidRaincoat
   id: ClothingOuterCoatAcidRaincoatGreen
-  name: green acid raincoat
+  name: entity-clothingoutercoatacidraincoatgreen-name
   components:
   - type: Sprite
     sprite: _NF/Clothing/OuterClothing/Coats/acid_raincoat_green.rsi
@@ -44,7 +44,7 @@
 - type: entity
   parent: ClothingOuterCoatAcidRaincoat
   id: ClothingOuterCoatAcidRaincoatMagenta
-  name: magenta acid raincoat
+  name: entity-clothingoutercoatacidraincoatmagenta-name
   components:
   - type: Sprite
     sprite: _NF/Clothing/OuterClothing/Coats/acid_raincoat_magenta.rsi
@@ -56,7 +56,7 @@
 - type: entity
   parent: ClothingOuterCoatAcidRaincoat
   id: ClothingOuterCoatAcidRaincoatYellow
-  name: yellow acid raincoat
+  name: entity-clothingoutercoatacidraincoatyellow-name
   components:
   - type: Sprite
     sprite: _NF/Clothing/OuterClothing/Coats/acid_raincoat_yellow.rsi
@@ -69,8 +69,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatBomberPunkRed
-  name: red punk bomber
-  description: Ya gotta 'ave style on dem streets.
+  name: entity-clothingoutercoatbomberpunkred-name
+  description: entity-clothingoutercoatbomberpunkred-description
   components:
   - type: Sprite
     sprite: _NF/Clothing/OuterClothing/Coats/bomber_punk_red.rsi
@@ -80,8 +80,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatJacketLeather
-  name: leather jacket
-  description: Rock'n'roll, babe!
+  name: entity-clothingoutercoatjacketleather-name
+  description: entity-clothingoutercoatjacketleather-description
   components:
   - type: Sprite
     sprite: _NF/Clothing/OuterClothing/Coats/jacket_leather.rsi
@@ -91,8 +91,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatJacketBiker
-  name: biker jacket
-  description: Made out of toughest synthleather for toughest badasses.
+  name: entity-clothingoutercoatjacketbiker-name
+  description: entity-clothingoutercoatjacketbiker-description
   components:
   - type: Sprite
     sprite: _NF/Clothing/OuterClothing/Coats/jacket_biker.rsi
@@ -102,8 +102,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatJacketJamrock
-  name: jamrock blazer
-  description: Welcome to jamrock.
+  name: entity-clothingoutercoatjacketjamrock-name
+  description: entity-clothingoutercoatjacketjamrock-description
   components:
   - type: Sprite
     sprite: _NF/Clothing/OuterClothing/Coats/blazer_jamrock.rsi
@@ -113,8 +113,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatBomberAerostatic
-  name: aerostatic bomber
-  description: When you wear it, you can always hear the sickest guitar solo in your mind.
+  name: entity-clothingoutercoatbomberaerostatic-name
+  description: entity-clothingoutercoatbomberaerostatic-description
   components:
   - type: Sprite
     sprite: _NF/Clothing/OuterClothing/Coats/bomber_aerostatic.rsi
@@ -124,8 +124,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatJacketLettermanBlue
-  name: blue letterman jacket
-  description: Where is your lacrosse stick?
+  name: entity-clothingoutercoatjacketlettermanblue-name
+  description: entity-clothingoutercoatjacketlettermanblue-description
   components:
   - type: Sprite
     sprite: _NF/Clothing/OuterClothing/Coats/jacket_letterman_blue.rsi
@@ -135,8 +135,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatJacketLettermanBrown
-  name: brown letterman jacket
-  description: Where is your lacrosse stick?
+  name: entity-clothingoutercoatjacketlettermanbrown-name
+  description: entity-clothingoutercoatjacketlettermanblue-description
   components:
   - type: Sprite
     sprite: _NF/Clothing/OuterClothing/Coats/jacket_letterman_brown.rsi
@@ -146,8 +146,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatJacketLettermanRed
-  name: red letterman jacket
-  description: Where is your lacrosse stick?
+  name: entity-clothingoutercoatjacketlettermanred-name
+  description: entity-clothingoutercoatjacketlettermanblue-description
   components:
   - type: Sprite
     sprite: _NF/Clothing/OuterClothing/Coats/jacket_letterman_red.rsi
@@ -157,8 +157,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatJacketLettermanMagenta
-  name: magenta letterman jacket
-  description: Where is your holocrosse joystick?
+  name: entity-clothingoutercoatjacketlettermanmagenta-name
+  description: entity-clothingoutercoatjacketlettermanmagenta-description
   components:
   - type: Sprite
     sprite: _NF/Clothing/OuterClothing/Coats/jacket_letterman_magenta.rsi
@@ -168,8 +168,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatBomberPinkSleeves
-  name: bomber jacket
-  description: Oi! Whatcha lookin' at?
+  name: entity-clothingoutercoatbomberpinksleeves-name
+  description: entity-clothingoutercoatbomberpinksleeves-description
   components:
   - type: Sprite
     sprite: _NF/Clothing/OuterClothing/Coats/bomber_pinksleeves.rsi
@@ -180,8 +180,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatBomberRandomized
-  name: punk jacket
-  description: Oi! Whatcha lookin' at?
+  name: entity-clothingoutercoatbomberrandomized-name
+  description: entity-clothingoutercoatbomberpinksleeves-description
   suffix: Random visuals
   components:
   - type: Sprite
@@ -228,8 +228,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatLettermanRandomized
-  name: punk letterman jacket
-  description: Where is your holocrosse joystick?
+  name: entity-clothingoutercoatlettermanrandomized-name
+  description: entity-clothingoutercoatjacketlettermanmagenta-description
   suffix: Random visuals
   components:
   - type: Sprite

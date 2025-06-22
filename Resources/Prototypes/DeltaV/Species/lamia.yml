@@ -1,6 +1,6 @@
 - type: species
   id: Lamia
-  name: Lamia
+  name: species-lamia-name
   roundStart: false
   prototype: MobLamia
   dollPrototype: MobLamiaDummy

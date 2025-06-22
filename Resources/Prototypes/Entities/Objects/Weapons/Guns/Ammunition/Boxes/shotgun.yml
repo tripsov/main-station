@@ -27,10 +27,10 @@
 
 # Shotgun Shells
 - type: entity
-  name: shotgun beanbag cartridges dispenser
+  name: entity-boxbeanbag-name
   parent: AmmoProviderShotgunShell
   id: BoxBeanbag
-  description: A dispenser box full of beanbag shots, designed for riot shotguns.
+  description: entity-boxbeanbag-description
   components:
     - type: BallisticAmmoProvider
       proto: ShellShotgunBeanbag
@@ -40,10 +40,10 @@
         - state: shellbeanbag
 
 - type: entity
-  name: shotgun lethal cartridges dispenser
+  name: entity-boxlethalshot-name
   parent: AmmoProviderShotgunShell
   id: BoxLethalshot
-  description: A dispenser box full of lethal pellet shots, designed for riot shotguns.
+  description: entity-boxlethalshot-description
   components:
     - type: BallisticAmmoProvider
       proto: ShellShotgun
@@ -53,10 +53,10 @@
         - state: shelllethal
 
 - type: entity
-  name: shotgun slug cartridges dispenser
+  name: entity-boxshotgunslug-name
   parent: AmmoProviderShotgunShell
   id: BoxShotgunSlug
-  description: A dispenser box full of slugs, designed for riot shotguns.
+  description: entity-boxshotgunslug-description
   components:
     - type: BallisticAmmoProvider
       proto: ShellShotgunSlug
@@ -66,10 +66,10 @@
         - state: shellslug
 
 - type: entity
-  name: shotgun lumenblast cartridges dispenser
+  name: entity-boxshotgunlumen-name
   parent: AmmoProviderShotgunShell
   id: BoxShotgunLumen
-  description: A dispenser box full of lumen cartridges, designed for riot shotguns.
+  description: entity-boxshotgunlumen-description
   components:
     - type: BallisticAmmoProvider
       proto: ShellShotgunLumen
@@ -79,10 +79,10 @@
         - state: shelllumen
 
 - type: entity
-  name: shotgun incendiary cartridges dispenser
+  name: entity-boxshotgunincendiary-name
   parent: AmmoProviderShotgunShell
   id: BoxShotgunIncendiary
-  description: A dispenser box full of incendiary cartridges, designed for riot shotguns.
+  description: entity-boxshotgunincendiary-description
   components:
     - type: BallisticAmmoProvider
       proto: ShellShotgunIncendiary
@@ -92,10 +92,10 @@
         - state: shellincendiary
 
 - type: entity
-  name: shotgun uranium cartridges dispenser
+  name: entity-boxshotgunuranium-name
   parent: AmmoProviderShotgunShell
   id: BoxShotgunUranium
-  description: A dispenser box full of uranium cartridges, designed for riot shotguns.
+  description: entity-boxshotgunuranium-description
   components:
     - type: BallisticAmmoProvider
       proto: ShellShotgunUranium
@@ -105,10 +105,10 @@
         - state: shelluranium
 
 - type: entity
-  name: shotgun practice cartridges dispenser
+  name: entity-boxshotgunpractice-name
   parent: AmmoProviderShotgunShell
   id: BoxShotgunPractice
-  description: A dispenser box full of practice cartridges, designed for riot shotguns.
+  description: entity-boxshotgunpractice-description
   components:
     - type: BallisticAmmoProvider
       proto: ShellShotgunPractice
@@ -118,10 +118,10 @@
         - state: shellpractice
 
 - type: entity
-  name: tranquilizer cartridges dispenser
+  name: entity-boxshelltranquilizer-name
   parent: AmmoProviderShotgunShell
   id: BoxShellTranquilizer
-  description: A dispenser box full of tranquilizer cartridges, designed for riot shotguns.
+  description: entity-boxshelltranquilizer-description
   components:
     - type: BallisticAmmoProvider
       proto: ShellTranquilizer
@@ -134,7 +134,7 @@
   name: ".50 Birdshot Box"
   parent: AmmoProviderShotgunShell
   id: BoxShotgunBirdshot
-  description: A dispenser box full of .50 birdshot. Used for centuries by colonists to hunt small game on alien worlds.
+  description: entity-boxshotgunbirdshot-description
   components:
     - type: BallisticAmmoProvider
       proto: ShellShotgunBirdshot
@@ -147,7 +147,7 @@
   name: ".50 00-Buckshot Box"
   parent: AmmoProviderShotgunShell
   id: BoxShotgun00Buckshot
-  description: A dispenser box full of .50 "Double-Aught" buckshot. Used for centuries by colonists to hunt mid-sized game. The knowledge of what a "Buck" means has been lost to time.
+  description: entity-boxshotgun00buckshot-description
   components:
     - type: BallisticAmmoProvider
       proto: ShellShotgun00Buckshot
@@ -160,7 +160,7 @@
   name: ".50 0000-Buckshot Box"
   parent: AmmoProviderShotgunShell
   id: BoxShotgun0000Buckshot
-  description: A dispenser box full of .50 "Quad-Aught" buckshot. Used for centuries by colonists to hunt alien megafauna. It'll rip through a hardsuit just as easily as thick hides.
+  description: entity-boxshotgun0000buckshot-description
   components:
     - type: BallisticAmmoProvider
       proto: ShellShotgun0000Buckshot
@@ -170,10 +170,10 @@
         - state: shelllethal
 
 - type: entity
-  name: shotgun flare cartridges dispenser
+  name: entity-boxshotgunflare-name
   parent: AmmoProviderShotgunShell
   id: BoxShotgunFlare
-  description: A dispenser box full of flare cartridges, designed for riot shotguns.
+  description: entity-boxshotgunflare-description
   components:
     - type: BallisticAmmoProvider
       proto: ShellShotgunFlare

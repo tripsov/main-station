@@ -1,8 +1,8 @@
 - type: entity
-  name: BaseWeaponRevolver
+  name: entity-baseweaponrevolver-name
   parent: BaseItem
   id: BaseWeaponRevolver
-  description: A rooty tooty point and shooty.
+  description: entity-baseweaponrevolver-description
   abstract: true
   components:
   - type: Sprite
@@ -82,10 +82,10 @@
       collection: RevolversDrop
 
 - type: entity
-  name: Deckard
+  name: entity-weaponrevolverdeckard-name
   parent: BaseWeaponRevolver
   id: WeaponRevolverDeckard
-  description: A rare, custom-built revolver. Use when there is no time for Voight-Kampff test. Uses .45 magnum ammo.
+  description: entity-weaponrevolverdeckard-description
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Revolvers/deckard.rsi
@@ -110,20 +110,20 @@
     price: 1500
 
 - type: entity
-  name: Deckard
+  name: entity-weaponrevolverdeckard-name
   parent: WeaponRevolverDeckard
   id: WeaponRevolverDeckardSecurity
-  description: A rare, custom-built revolver. Use when there is no time for Voight-Kampff test. Uses .45 magnum ammo.
+  description: entity-weaponrevolverdeckard-description
                The serial number on the handguard marks this gun as belonging to an NT Security Officer.
   components:
   - type: GuideHelp
     guides: [ SecurityWeapons ]
 
 - type: entity
-  name: Inspector
+  name: entity-weaponrevolverinspector-name
   parent: BaseWeaponRevolver
   id: WeaponRevolverInspector
-  description: A detective's best friend. Uses .45 magnum ammo.
+  description: entity-weaponrevolverinspector-description
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Revolvers/inspector.rsi
@@ -135,20 +135,20 @@
     ammoSlots: [ null, null, null, null, null, null ]
 
 - type: entity
-  name: Inspector
+  name: entity-weaponrevolverinspector-name
   parent: WeaponRevolverInspector
   id: WeaponRevolverInspectorSecurity
-  description: A detective's best friend. Uses .45 magnum ammo.
+  description: entity-weaponrevolverinspector-description
                The serial number on the handguard marks this gun as belonging to an NT Security Officer.
   components:
   - type: GuideHelp
     guides: [ SecurityWeapons ]
 
 - type: entity
-  name: Mateba
+  name: entity-weaponrevolvermateba-name
   parent: BaseWeaponRevolver
   id: WeaponRevolverMateba
-  description: A distinctive revolver of an ancient Sol' design that was once seen as a rare collectible. It is in common manufacture by many companies in the Biesel Republic. Uses .45 magnum ammo.
+  description: entity-weaponrevolvermateba-description
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Revolvers/mateba.rsi
@@ -160,10 +160,10 @@
       path: /Audio/Weapons/Guns/Gunshots/mateba.ogg
 
 - type: entity
-  name: Python
+  name: entity-weaponrevolverpython-name
   parent: BaseWeaponRevolver
   id: WeaponRevolverPython
-  description: An iconic large-framed revolver of ancient Sol' design. It is commonly manufactured by many companies all over the colonies. Uses .45 magnum ammo.
+  description: entity-weaponrevolverpython-description
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Revolvers/python.rsi
@@ -181,21 +181,21 @@
     fireOnDropChance: 0.3
 
 - type: entity
-  name: Python
+  name: entity-weaponrevolverpython-name
   parent: WeaponRevolverPython
   id: WeaponRevolverPythonSecurity
-  description: An iconic large-framed revolver of ancient Sol' design. It is commonly manufactured by many companies all over the colonies. Uses .45 magnum ammo.
+  description: entity-weaponrevolverpython-description
                The serial number on the handguard marks this gun as belonging to an NT Security Officer.
   components:
   - type: GuideHelp
     guides: [ SecurityWeapons ]
 
 - type: entity
-  name: Python
+  name: entity-weaponrevolverpython-name
   parent: WeaponRevolverPython
   id: WeaponRevolverPythonAP # For the uplink.
   suffix: armor-piercing
-  description: An iconic large-framed revolver of ancient Sol' design. It is commonly manufactured by many companies all over the colonies. Uses .45 magnum ammo.
+  description: entity-weaponrevolverpython-description
   components:
   - type: RevolverAmmoProvider
     whitelist:
@@ -206,10 +206,10 @@
 
 
 - type: entity
-  name: pirate revolver
+  name: entity-weaponrevolverpirate-name
   parent: BaseWeaponRevolver
   id: WeaponRevolverPirate
-  description: An odd, old-looking revolver, favoured by pirate crews. Uses .45 magnum ammo.
+  description: entity-weaponrevolverpirate-description
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Revolvers/pirate_revolver.rsi

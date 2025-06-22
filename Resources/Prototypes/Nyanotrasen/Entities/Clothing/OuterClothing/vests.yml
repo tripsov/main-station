@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterVestValet
-  name: valet vest
-  description: A goofy red vest almost certainly designed with the sole purpose of being demeaning.
+  name: entity-clothingoutervestvalet-name
+  description: entity-clothingoutervestvalet-description
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/OuterClothing/Vests/valet.rsi

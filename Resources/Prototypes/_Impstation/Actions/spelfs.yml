@@ -1,7 +1,7 @@
 - type: entity
   id: ActionViewMoods
-  name: View Moods
-  description: View your current moods.
+  name: entity-actionviewmoods-name
+  description: entity-actionviewmoods-description
   components:
   - type: InstantAction
     itemIconStyle: NoItem

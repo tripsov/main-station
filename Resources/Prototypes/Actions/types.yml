@@ -11,8 +11,8 @@
 
 - type: entity
   id: ActionScream
-  name: Scream
-  description: AAAAAAAAAAAAAAAAAAAAAAAAA
+  name: entity-actionscream-name
+  description: entity-actionscream-description
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -23,8 +23,8 @@
 
 - type: entity
   id: ActionTurnUndead
-  name: Turn Undead
-  description: Succumb to your infection and become a zombie.
+  name: entity-actionturnundead-name
+  description: entity-actionturnundead-description
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -35,8 +35,8 @@
 
 - type: entity
   id: ActionToggleLight
-  name: Toggle Light
-  description: Turn the light on and off.
+  name: entity-actiontogglelight-name
+  description: entity-actiontogglelight-description
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -46,8 +46,8 @@
 
 - type: entity
   id: ActionOpenStorageImplant
-  name: Open Storage Implant
-  description: Opens the storage implant embedded under your skin
+  name: entity-actionopenstorageimplant-name
+  description: entity-actionopenstorageimplant-description
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -61,8 +61,8 @@
 - type: entity
   parent: BaseSuicideAction
   id: ActionActivateMicroBomb
-  name: Activate Microbomb
-  description: Activates your internal microbomb, completely destroying you and your equipment
+  name: entity-actionactivatemicrobomb-name
+  description: entity-actionactivatemicrobomb-description
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -78,8 +78,8 @@
 - type: entity
   parent: BaseSuicideAction
   id: ActionActivateDeathAcidifier
-  name: Activate Death-Acidifier
-  description: Activates your death-acidifier, completely melting you and your equipment
+  name: entity-actionactivatedeathacidifier-name
+  description: entity-actionactivatedeathacidifier-description
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -94,8 +94,8 @@
 
 - type: entity
   id: ActionActivateFreedomImplant
-  name: Break Free
-  description: Activating your freedom implant will free you from any hand restraints
+  name: entity-actionactivatefreedomimplant-name
+  description: entity-actionactivatefreedomimplant-description
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -110,8 +110,8 @@
 
 - type: entity
   id: ActionOpenUplinkImplant
-  name: Open Uplink
-  description: Opens the syndicate uplink embedded under your skin
+  name: entity-actionopenuplinkimplant-name
+  description: entity-actionopenuplinkimplant-description
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -124,8 +124,8 @@
 
 - type: entity
   id: ActionActivateEmpImplant
-  name: Activate EMP
-  description: Triggers a small EMP pulse around you
+  name: entity-actionactivateempimplant-name
+  description: entity-actionactivateempimplant-description
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -141,8 +141,8 @@
 
 - type: entity
   id: ActionActivateScramImplant
-  name: SCRAM!
-  description: Randomly teleports you within a large distance.
+  name: entity-actionactivatescramimplant-name
+  description: entity-actionactivatescramimplant-description
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -158,8 +158,8 @@
 
 - type: entity
   id: ActionActivateDnaScramblerImplant
-  name: Scramble DNA
-  description:  Randomly changes your name and appearance.
+  name: entity-actionactivatednascramblerimplant-name
+  description:  entity-actionactivatednascramblerimplant-description
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -173,8 +173,8 @@
 
 - type: entity
   id: ActionMorphGeras
-  name: Morph into Geras
-  description:  Morphs you into a Geras - a miniature version of you which allows you to move fast, at the cost of your inventory.
+  name: entity-actionmorphgeras-name
+  description:  entity-actionmorphgeras-description
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -188,8 +188,8 @@
 
 - type: entity
   id: ActionToggleSuitPiece
-  name: Toggle Suit Piece
-  description: Remember to equip the important pieces of your suit before going into action.
+  name: entity-actiontogglesuitpiece-name
+  description: entity-actiontogglesuitpiece-description
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -200,7 +200,7 @@
 - type: entity
   id: ActionCombatModeToggle
   name: "[color=red]Combat Mode[/color]"
-  description: Enter combat mode
+  description: entity-actioncombatmodetoggle-description
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -215,7 +215,7 @@
   id: ActionCombatModeToggleOff
   parent: ActionCombatModeToggle
   name: "[color=red]Combat Mode[/color]"
-  description: Enter combat mode
+  description: entity-actioncombatmodetoggle-description
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -225,8 +225,8 @@
 
 - type: entity
   id: ActionChangeVoiceMask
-  name: Set name
-  description: Change the name others hear to something else.
+  name: entity-actionchangevoicemask-name
+  description: entity-actionchangevoicemask-description
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -235,8 +235,8 @@
 
 - type: entity
   id: ActionVendingThrow
-  name: Dispense Item
-  description: Randomly dispense an item from your stock.
+  name: entity-actionvendingthrow-name
+  description: entity-actionvendingthrow-description
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -245,8 +245,8 @@
 
 - type: entity
   id: ActionArtifactActivate
-  name: Activate Artifact
-  description: Immediately activates your current artifact node.
+  name: entity-actionartifactactivate-name
+  description: entity-actionartifactactivate-description
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -258,8 +258,8 @@
 
 - type: entity
   id: ActionToggleBlock
-  name: Block
-  description: Raise or lower your shield.
+  name: entity-actiontoggleblock-name
+  description: entity-actiontoggleblock-description
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -269,8 +269,8 @@
 
 - type: entity
   id: ActionClearNetworkLinkOverlays
-  name: Clear network link overlays
-  description: Clear network link overlays.
+  name: entity-actionclearnetworklinkoverlays-name
+  description: entity-actionclearnetworklinkoverlays-description
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -283,8 +283,8 @@
 
 - type: entity
   id: ActionAnimalLayEgg
-  name: Lay egg
-  description: Uses hunger to lay an egg.
+  name: entity-actionanimallayegg-name
+  description: entity-actionanimallayegg-description
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -294,8 +294,8 @@
 
 - type: entity
   id: ActionSleep
-  name: Sleep
-  description: Go to sleep.
+  name: entity-actionsleep-name
+  description: entity-actionsleep-description
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -318,8 +318,8 @@
 
 - type: entity
   id: ActionWake
-  name: Wake up
-  description: Stop sleeping.
+  name: entity-actionwake-name
+  description: entity-actionwake-description
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -332,8 +332,8 @@
 
 - type: entity
   id: ActionActivateHonkImplant
-  name: Honk
-  description: Activates your honking implant, which will produce the signature sound of the clown.
+  name: entity-actionactivatehonkimplant-name
+  description: entity-actionactivatehonkimplant-description
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -343,8 +343,8 @@
 
 - type: entity
   id: ActionFireStarter
-  name: Ignite
-  description: Ignites enemies in a radius around you.
+  name: entity-actionfirestarter-name
+  description: entity-actionfirestarter-description
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -355,8 +355,8 @@
 
 - type: entity
   id: ActionToggleEyes
-  name: Open/Close eyes
-  description: Close your eyes to protect your peepers, or open your eyes to enjoy the pretty lights.
+  name: entity-actiontoggleeyes-name
+  description: entity-actiontoggleeyes-description
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -408,8 +408,8 @@
 
 - type: entity
   id: ToggleNightVision
-  name: Switch night vision
-  description: Switches night vision.
+  name: entity-togglenightvision-name
+  description: entity-togglenightvision-description
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -422,8 +422,8 @@
 
 - type: entity
   id: ToggleThermalVision
-  name: Switch Thermal vision
-  description: Switches Thermal vision.
+  name: entity-togglethermalvision-name
+  description: entity-togglethermalvision-description
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -437,8 +437,8 @@
 - type: entity
   id: PulseThermalVision
   parent: ToggleThermalVision
-  name: Pulse Thermal Vision
-  description: Activate thermal vision temporarily.
+  name: entity-pulsethermalvision-name
+  description: entity-pulsethermalvision-description
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -446,8 +446,8 @@
 
 - type: entity
   id: ActionSelfExtinguish
-  name: Self-Extinguish
-  description: Extinguishes you if you are on fire and insulated against self-ignition.
+  name: entity-actionselfextinguish-name
+  description: entity-actionselfextinguish-description
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction

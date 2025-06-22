@@ -1,7 +1,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobGondola
-  name: Gondola spawner
+  name: entity-spawnmobgondola-name
   components:
   - type: Sprite
     layers:
@@ -13,7 +13,7 @@
       - MobGondola
 
 - type: entity
-  name: AI Remote Cyborg Spawner
+  name: entity-airemotecyborgspawner-name
   id: AiRemoteCyborgSpawner
   parent: MarkerBase
   components:

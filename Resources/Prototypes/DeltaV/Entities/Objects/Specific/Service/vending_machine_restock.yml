@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseVendingMachineRestock
   id: BaseVendingMachineRestockDeltaV
-  name: vending machine restock box
-  description: A box for restocking vending machines with corporate goodies.
+  name: entity-basevendingmachinerestockdeltav-name
+  description: entity-basevendingmachinerestockdeltav-description
   abstract: true
   components:
   - type: Sprite
@@ -11,8 +11,8 @@
 - type: entity
   parent: BaseVendingMachineRestockDeltaV
   id: VendingMachineRestockPride
-  name: Pride-O-Mat restock box
-  description: The station needs more plushie sharks and you know it.
+  name: entity-vendingmachinerestockpride-name
+  description: entity-vendingmachinerestockpride-description
   components:
   - type: VendingMachineRestock
     canRestock:
@@ -27,8 +27,8 @@
 - type: entity
   parent: BaseVendingMachineRestockDeltaV
   id: VendingMachineRestockSustenance
-  name: Sustenance vendor restock box
-  description: Prisoners have to eat too. Nobody said they had to eat well.
+  name: entity-vendingmachinerestocksustenance-name
+  description: entity-vendingmachinerestocksustenance-description
   components:
   - type: VendingMachineRestock
     canRestock:

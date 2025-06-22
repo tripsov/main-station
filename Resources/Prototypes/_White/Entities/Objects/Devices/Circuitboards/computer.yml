@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: RemoteControlConsoleCircuitboard
-  name: remote control console computer board
+  name: entity-remotecontrolconsolecircuitboard-name
   components:
   - type: ComputerBoard
     prototype: ComputerRemoteControl

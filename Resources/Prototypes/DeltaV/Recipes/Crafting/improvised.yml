@@ -1,25 +1,25 @@
 - type: construction
-  name: musket
+  name: construction-weaponriflemusket-name
   id: WeaponRifleMusket
   graph: WeaponFlintlocksGraph # WWDP
   startNode: start
   targetNode: musket
   category: construction-category-weapons
   objectType: Item
-  description: An old flintlock musket. Uses musket cartidges.
+  description: construction-weaponriflemusket-description
   icon:
     sprite: Objects/Weapons/Guns/Snipers/musket.rsi
     state: base
 
 - type: construction
-  name: modular breech
+  name: construction-modularbreech-name
   id: ModularBreech
   graph: ModularBreechGraph
   startNode: start
   targetNode: modularbreech
   category: construction-category-weapons
   objectType: Item
-  description: Loads the projectile and propellent into the chamber of the gun. Used in the creation of flintlock muskets.
+  description: construction-modularbreech-description
   icon:
     sprite: DeltaV/Objects/Misc/modular_breech.rsi
     state: base
@@ -38,40 +38,40 @@
 #     state: base
 #
 - type: construction
-  name: bayonet
+  name: construction-bayonet-name
   id: Bayonet
   graph: BayonetGraph
   startNode: start
   targetNode: bayonet
   category: construction-category-weapons
   objectType: Item
-  description: Often placed on guns to go stabby stabby.
+  description: construction-bayonet-description
   icon:
     sprite: DeltaV/Objects/Misc/bayonet.rsi
     state: base
 
 - type: construction
-  name: cartridge (musket)
+  name: construction-cartridgemusket-name
   id: CartridgeMusket
   graph: PaperGraph # WWDP
   startNode: startmusketcartridge # WWDP
   targetNode: musketcartridge
   category: construction-category-weapons
   objectType: Item
-  description: A paper musket cartridge used to load a musket.
+  description: construction-cartridgemusket-description
   icon:
     sprite: DeltaV/Objects/Weapons/Guns/Ammunition/Casings/musket_casing.rsi
     state: base
 
 - type: construction
-  name: flintlock
+  name: construction-weaponpistolflintlockcrafted-name
   id: WeaponPistolFlintlockCrafted
   graph: WeaponFlintlocksGraph # WWDP
   startNode: start
   targetNode: flintlock
   category: construction-category-weapons
   objectType: Item
-  description: An old flintlock, feels like 1800s gang warfare. Uses musket cartidges.
+  description: construction-weaponpistolflintlockcrafted-description
   icon:
     sprite: Objects/Weapons/Guns/Snipers/flintlock.rsi
     state: base

@@ -1,8 +1,8 @@
 - type: entity
   id: BookPress
   parent: [BaseLatheLube, BaseMaterialSiloUtilizer]
-  name: book press
-  description: It produces tomes of knowledge in return for a humble offer of paper and cardboard.
+  name: entity-bookpress-name
+  description: entity-bookpress-description
   components:
   - type: Sprite
     sprite: Structures/Machines/bookpress.rsi

@@ -2,8 +2,8 @@
 - type: entity
   parent: ClothingModsuitStandard
   id: ClothingModsuitApocryphal
-  name: Apocryphal modsuit control
-  description: The main controller for a Apocryphal modsuit.
+  name: entity-clothingmodsuitapocryphal-name
+  description: entity-clothingmodsuitapocryphal-description
   components:
     - type: Sprite
       sprite: _EE/Clothing/NanoTrasen/Modsuits/apocryphal.rsi
@@ -35,8 +35,8 @@
 - type: entity
   parent: ClothingModsuitGauntletsStandard
   id: ClothingModsuitGauntletsApocryphal
-  name: Apocryphal modsuit gauntlets
-  description: A pair of gauntlets made for the Apocryphal modsuit.
+  name: entity-clothingmodsuitgauntletsapocryphal-name
+  description: entity-clothingmodsuitgauntletsapocryphal-description
   categories: [HideSpawnMenu]
   components:
     - type: Sprite
@@ -51,8 +51,8 @@
 - type: entity
   parent: [ClothingModsuitHelmetStandard, ShowSecurityIcons, BaseClothingRadio]
   id: ClothingModsuitHelmetApocryphal
-  name: Apocryphal modsuit helmet
-  description: A state-of-the-art helmet designed by NanoTrasen for the Apocryphal modsuit. It includes a built-in HUD.
+  name: entity-clothingmodsuithelmetapocryphal-name
+  description: entity-clothingmodsuithelmetapocryphal-description
   categories: [HideSpawnMenu]
   components:
     - type: Sprite
@@ -101,8 +101,8 @@
 - type: entity
   parent: ClothingModsuitChestplateStandard
   id: ClothingModsuitChestplateApocryphal
-  name: Apocryphal modsuit chestplate
-  description: A state of the art chestplate designed by NanoTrasen for the Apocryphal Modsuit. It incorporates powered servos to reduce the equipment load.
+  name: entity-clothingmodsuitchestplateapocryphal-name
+  description: entity-clothingmodsuitchestplateapocryphal-description
   categories: [HideSpawnMenu]
   components:
     - type: Sprite
@@ -156,8 +156,8 @@
 - type: entity
   parent: ClothingModsuitBootsStandard
   id: ClothingModsuitBootsApocryphal
-  name: Apocryphal modsuit boots
-  description: A state-of-the-art pair of magboots for the Apocryphal modsuit. So long as the suit is powered, these will not slow the wearer down.
+  name: entity-clothingmodsuitbootsapocryphal-name
+  description: entity-clothingmodsuitbootsapocryphal-description
   categories: [HideSpawnMenu]
   components:
     - type: Appearance

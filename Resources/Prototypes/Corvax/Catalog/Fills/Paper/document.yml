@@ -2,14 +2,14 @@
   parent: Paper
   id: PrintedDocument
   abstract: true
-  description: Bureaucratic unit. A document printed on a printer.
+  description: entity-printeddocument-description
   components:
     - type: Paper
 
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentReportStation
-  name: Report on the situation at the station
+  name: entity-printeddocumentreportstation-name
   components:
     - type: Paper
       content: doc-text-printer-report-station
@@ -17,7 +17,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentReportOnEliminationOfViolations
-  name: Report on elimination of violations
+  name: entity-printeddocumentreportoneliminationofviolations-name
   components:
     - type: Paper
       content: doc-text-printer-report-on-elimination-of-violations
@@ -25,7 +25,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentReportDepartment
-  name: Report on the work of the department
+  name: entity-printeddocumentreportdepartment-name
   components:
     - type: Paper
       content: doc-text-printer-report-department
@@ -33,7 +33,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentReportEmployeePerformance
-  name: Report on employee performance
+  name: entity-printeddocumentreportemployeeperformance-name
   components:
     - type: Paper
       content: doc-text-printer-report-employee-performance
@@ -41,7 +41,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentReportOnTheChaptersMeeting
-  name: Report on chapter meeting
+  name: entity-printeddocumentreportonthechaptersmeeting-name
   components:
     - type: Paper
       content: doc-text-printer-report-on-the-chapters-meeting
@@ -49,7 +49,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentInternalAffairsAgentsReport
-  name: Internal Investigation Report
+  name: entity-printeddocumentinternalaffairsagentsreport-name
   components:
     - type: Paper
       content: doc-text-printer-internal-affairs-agents-report
@@ -57,7 +57,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentConditionReport
-  name: Report on technical condition
+  name: entity-printeddocumentconditionreport-name
   components:
     - type: Paper
       content: doc-text-printer-condition-report
@@ -65,7 +65,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentReportStudyObject
-  name: Report on object Investigation
+  name: entity-printeddocumentreportstudyobject-name
   components:
     - type: Paper
       content: doc-text-printer-report-study-object
@@ -73,7 +73,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentExperimentReport
-  name: Experiment report
+  name: entity-printeddocumentexperimentreport-name
   components:
     - type: Paper
       content: doc-text-printer-experiment-report
@@ -81,7 +81,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentDisposalReport
-  name: Disposal report
+  name: entity-printeddocumentdisposalreport-name
   components:
     - type: Paper
       content: doc-text-printer-disposal-report
@@ -89,7 +89,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentApplicationAppointmentInterim
-  name: Statement of Appointment to the Temporary Acting Authority
+  name: entity-printeddocumentapplicationappointmentinterim-name
   components:
     - type: Paper
       content: doc-text-printer-application-appointment-interim
@@ -97,7 +97,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentApplicationEmployment
-  name: Statement of Employment
+  name: entity-printeddocumentapplicationemployment-name
   components:
     - type: Paper
       content: doc-text-printer-application-employment
@@ -105,7 +105,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentLetterResignation
-  name: Statement of Dismissal
+  name: entity-printeddocumentletterresignation-name
   components:
     - type: Paper
       content: doc-text-printer-letter-resignation
@@ -113,7 +113,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentApplicationAccess
-  name: Statement of access
+  name: entity-printeddocumentapplicationaccess-name
   components:
     - type: Paper
       content: doc-text-printer-application-access
@@ -121,7 +121,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentApplicationEquipment
-  name: Statement for equipment
+  name: entity-printeddocumentapplicationequipment-name
   components:
     - type: Paper
       content: doc-text-printer-application-equipment
@@ -129,7 +129,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentAppeal
-  name: Appeal
+  name: entity-printeddocumentappeal-name
   components:
     - type: Paper
       content: doc-text-printer-appeal
@@ -137,7 +137,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentEvacuationShuttleRequest
-  name: Evacuation Shuttle Request
+  name: entity-printeddocumentevacuationshuttlerequest-name
   components:
     - type: Paper
       content: doc-text-printer-evacuation-shuttle-request
@@ -145,7 +145,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentShuttleRegistrationRequest
-  name: Shuttle registration request
+  name: entity-printeddocumentshuttleregistrationrequest-name
   components:
     - type: Paper
       content: doc-text-printer-shuttle-registration-request
@@ -153,7 +153,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentRequestCallMembersCentralCommitteeDSO
-  name: Request to call members of CC, DSO
+  name: entity-printeddocumentrequestcallmemberscentralcommitteedso-name
   components:
     - type: Paper
       content: doc-text-printer-request-call-members-central-committee-dso
@@ -161,7 +161,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentRequestRequestToEstablishThreatLevel
-  name: Request to establish threat level
+  name: entity-printeddocumentrequestrequesttoestablishthreatlevel-name
   components:
     - type: Paper
       content: doc-text-printer-request-to-establish-threat-level
@@ -169,7 +169,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentRequestChangeSalary
-  name: Request for salary change
+  name: entity-printeddocumentrequestchangesalary-name
   components:
     - type: Paper
       content: doc-text-printer-request-change-salary
@@ -177,7 +177,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentRequestForNonlistedEmployment
-  name: Request for non-listed employment
+  name: entity-printeddocumentrequestfornonlistedemployment-name
   components:
     - type: Paper
       content: doc-text-printer-request-for-non-listed-employment
@@ -185,7 +185,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentRequestForPromotion
-  name: Request for promotion
+  name: entity-printeddocumentrequestforpromotion-name
   components:
     - type: Paper
       content: doc-text-printer-request-for-promotion
@@ -193,7 +193,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentRequestDocuments
-  name: Request for the provision of documents
+  name: entity-printeddocumentrequestdocuments-name
   components:
     - type: Paper
       content: doc-text-printer-request-documents
@@ -201,7 +201,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentRequestEuthanasia
-  name: Request for euthanasia
+  name: entity-printeddocumentrequesteuthanasia-name
   components:
     - type: Paper
       content: doc-text-printer-request-euthanasia
@@ -209,7 +209,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentRequestConstructionWork
-  name: Request for construction works
+  name: entity-printeddocumentrequestconstructionwork-name
   components:
     - type: Paper
       content: doc-text-printer-request-construction-work
@@ -217,7 +217,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentRequestModernization
-  name: Request for modernization
+  name: entity-printeddocumentrequestmodernization-name
   components:
     - type: Paper
       content: doc-text-printer-request-modernization
@@ -225,7 +225,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentComplaintViolationLaborRules
-  name: Complaint for violation of labor order
+  name: entity-printeddocumentcomplaintviolationlaborrules-name
   components:
     - type: Paper
       content: doc-text-printer-complaint-violation-labor-rules
@@ -233,7 +233,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentComplaintOffense
-  name: Complaint about an offense
+  name: entity-printeddocumentcomplaintoffense-name
   components:
     - type: Paper
       content: doc-text-printer-complaint-offense
@@ -241,7 +241,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentPermissionEquipment
-  name: Authorization to use equipment
+  name: entity-printeddocumentpermissionequipment-name
   components:
     - type: Paper
       content: doc-text-printer-permission-equipment
@@ -249,7 +249,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentPermissionToTravelInCaseOfThreat
-  name: Permission to travel in case of threat
+  name: entity-printeddocumentpermissiontotravelincaseofthreat-name
   components:
     - type: Paper
       content: doc-text-printer-permission-to-travel-in-case-of-threat
@@ -257,7 +257,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentSearchPermission
-  name: Authorization to search
+  name: entity-printeddocumentsearchpermission-name
   components:
     - type: Paper
       content: doc-text-printer-search-permission
@@ -265,7 +265,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentPermissionToCarryWeapons
-  name: Permission to carry weapons
+  name: entity-printeddocumentpermissiontocarryweapons-name
   components:
     - type: Paper
       content: doc-text-printer-permission-to-carry-weapons
@@ -273,7 +273,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentPrescriptionDrugAuthorization
-  name: Prescription Drug Authorization
+  name: entity-printeddocumentprescriptiondrugauthorization-name
   components:
     - type: Paper
       content: doc-text-printer-prescription-drug-authorization
@@ -281,7 +281,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentPermissionDisposeBody
-  name: Authorization to dispose of the body
+  name: entity-printeddocumentpermissiondisposebody-name
   components:
     - type: Paper
       content: doc-text-printer-permission-dispose-body
@@ -289,7 +289,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentConstructionPermit
-  name: Building permit
+  name: entity-printeddocumentconstructionpermit-name
   components:
     - type: Paper
       content: doc-text-printer-construction-permit
@@ -297,7 +297,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentPermissionToExtendMarriage
-  name: Permission to extend marriage
+  name: entity-printeddocumentpermissiontoextendmarriage-name
   components:
     - type: Paper
       content: doc-text-printer-permission-to-extend-marriage
@@ -305,7 +305,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentOrderDismissal
-  name: Dismissal order
+  name: entity-printeddocumentorderdismissal-name
   components:
     - type: Paper
       content: doc-text-printer-order-dismissal
@@ -313,7 +313,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentOrderDeprivationAccess
-  name: Denial of access order
+  name: entity-printeddocumentorderdeprivationaccess-name
   components:
     - type: Paper
       content: doc-text-printer-order-deprivation-access
@@ -321,7 +321,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentOrderEncouragement
-  name: Incentive order
+  name: entity-printeddocumentorderencouragement-name
   components:
     - type: Paper
       content: doc-text-printer-order-encouragement
@@ -329,7 +329,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentOrderParolePrisoner
-  name: Prisoner parole order
+  name: entity-printeddocumentorderparoleprisoner-name
   components:
     - type: Paper
       content: doc-text-printer-order-parole-prisoner
@@ -337,7 +337,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentOrderRecognizingSentienceCreature
-  name: An order recognizing the reasonableness of the substance
+  name: entity-printeddocumentorderrecognizingsentiencecreature-name
   components:
     - type: Paper
       content: doc-text-printer-order-recognizing-sentience-creature
@@ -345,7 +345,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentOrderMedicalIntervention
-  name: Order for medical intervention
+  name: entity-printeddocumentordermedicalintervention-name
   components:
     - type: Paper
       content: doc-text-printer-order-medical-intervention
@@ -353,7 +353,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentProductManufacturingOrder
-  name: Order for the production of a product
+  name: entity-printeddocumentproductmanufacturingorder-name
   components:
     - type: Paper
       content: doc-text-printer-product-manufacturing-order
@@ -361,7 +361,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentOrderPurchaseResourcesEquipment
-  name: Purchase order for resources, equipment
+  name: entity-printeddocumentorderpurchaseresourcesequipment-name
   components:
     - type: Paper
       content: doc-text-printer-order-purchase-resources-equipment
@@ -369,7 +369,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentOrderingSpecialEquipment
-  name: Ordering special equipment
+  name: entity-printeddocumentorderingspecialequipment-name
   components:
     - type: Paper
       content: doc-text-printer-ordering-special-equipment
@@ -377,7 +377,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentOrderPurchaseWeapons
-  name: Purchase order for armaments
+  name: entity-printeddocumentorderpurchaseweapons-name
   components:
     - type: Paper
       content: doc-text-printer-order-purchase-weapons
@@ -385,7 +385,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentCertificate
-  name: Certificate
+  name: entity-printeddocumentcertificate-name
   components:
     - type: Paper
       content: doc-text-printer-certificate
@@ -393,7 +393,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentCertificateAdvancedTraining
-  name: Certificate of advanced training
+  name: entity-printeddocumentcertificateadvancedtraining-name
   components:
     - type: Paper
       content: doc-text-printer-certificate-advanced-training
@@ -401,7 +401,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentCertificateOffense
-  name: Certificate of Offense
+  name: entity-printeddocumentcertificateoffense-name
   components:
     - type: Paper
       content: doc-text-printer-certificate-offense
@@ -409,7 +409,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentDeathCertificate
-  name: Death certificate
+  name: entity-printeddocumentdeathcertificate-name
   components:
     - type: Paper
       content: doc-text-printer-death-certificate
@@ -417,7 +417,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentMarriageCertificate
-  name: Marriage certificate
+  name: entity-printeddocumentmarriagecertificate-name
   components:
     - type: Paper
       content: doc-text-printer-marriage-certificate
@@ -425,7 +425,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentDivorceCertificate
-  name: Certificate of divorce
+  name: entity-printeddocumentdivorcecertificate-name
   components:
     - type: Paper
       content: doc-text-printer-divorce-certificate
@@ -433,7 +433,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentClosingIndictment
-  name: Indictment
+  name: entity-printeddocumentclosingindictment-name
   components:
     - type: Paper
       content: doc-text-printer-closing-indictment
@@ -441,7 +441,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentSentence
-  name: Sentence
+  name: entity-printeddocumentsentence-name
   components:
     - type: Paper
       content: doc-text-printer-sentence
@@ -449,7 +449,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentJudgment
-  name: Judgment
+  name: entity-printeddocumentjudgment-name
   components:
     - type: Paper
       content: doc-text-printer-judgment
@@ -457,7 +457,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentStatementHealth
-  name: Health report
+  name: entity-printeddocumentstatementhealth-name
   components:
     - type: Paper
       content: doc-text-printer-statement-health
@@ -465,7 +465,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentDecisionToStartTrial
-  name: Decision to start a trial
+  name: entity-printeddocumentdecisiontostarttrial-name
   components:
     - type: Paper
       content: doc-text-printer-decision-to-start-trial
@@ -473,7 +473,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentErrorLoadingFormHeader
-  name: ERROR loading form header
+  name: entity-printeddocumenterrorloadingformheader-name
   components:
     - type: Paper
       content: doc-text-printer-error-loading-form-header
@@ -481,7 +481,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentNoticeOfLiquidation
-  name: NOTICE OF LIQUIDATION
+  name: entity-printeddocumentnoticeofliquidation-name
   components:
     - type: Paper
       content: doc-text-printer-notice-of-liquidation
@@ -489,7 +489,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentBusinessDeal
-  name: BUSINESS DEAL
+  name: entity-printeddocumentbusinessdeal-name
   components:
     - type: Paper
       content: doc-text-printer-business-deal
@@ -497,7 +497,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentNoteBeginningMilitaryActions
-  name: NOTE BEGINNING MILITARY ACTIONS
+  name: entity-printeddocumentnotebeginningmilitaryactions-name
   components:
     - type: Paper
       content: doc-text-printer-note-beginning-military-actions
@@ -505,7 +505,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentReportAccomplishmentGoals
-  name: REPORT ACCOMPLISHMENT GOALS
+  name: entity-printeddocumentreportaccomplishmentgoals-name
   components:
     - type: Paper
       content: doc-text-printer-report-accomplishment-goals

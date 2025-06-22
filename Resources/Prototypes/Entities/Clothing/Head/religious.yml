@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatHijabColorable
-  name: hijab
-  description: Encompassing cloth headwear worn by some human cultures and religions.
+  name: entity-clothingheadhathijabcolorable-name
+  description: entity-clothingheadhathijabcolorable-description
   components:
   - type: Sprite
     sprite: Clothing/Head/ReligiousHeadgear/hijab.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatTurbanColorable
-  name: turban
-  description: A sturdy cloth, worn around the head.
+  name: entity-clothingheadhatturbancolorable-name
+  description: entity-clothingheadhatturbancolorable-description
   components:
   - type: Sprite
     sprite: Clothing/Head/ReligiousHeadgear/turban.rsi
@@ -23,8 +23,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatKippahColorable
-  name: kippah
-  description: A head covering commonly worn by those of Jewish faith.
+  name: entity-clothingheadhatkippahcolorable-name
+  description: entity-clothingheadhatkippahcolorable-description
   components:
   - type: Sprite
     sprite: Clothing/Head/ReligiousHeadgear/kippah.rsi

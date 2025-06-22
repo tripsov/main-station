@@ -1,0 +1,15 @@
+palette-advanced-name = Продвинутая
+palette-atmos-name = Атмос
+palette-koboldcolors-name = Цвета кобольдов
+palette-koboldhorncolors-name = Рога кобольдов
+palette-departmental-name = Отделы
+palette-emagged-name = Взломанная
+palette-rainbow-name = Радуга
+palette-sixteen-name = Шестнадцать
+palette-material-name = Материалы
+palette-chatnames-name = Имена в чате
+palette-woodcolors-name = Древесные
+palette-cyberpunk-name = киберпанк (полная)
+palette-cyberpunkdark-name = киберпанк (тёмная)
+palette-cyberpunkneon-name = киберпанк (неон)
+palette-browns-name = коричневая палитра

@@ -2,7 +2,7 @@
 
 - type: guideEntry
   id: WhiteAntagonist
-  name: guide-entry-antagonist
+  name: guideentry-whiteantagonist-name
   text: "/ServerInfo/_White/Guidebook/Antagonist/Antagonist.xml"
   children:
     - Headcrabs
@@ -11,7 +11,7 @@
 
 - type: guideEntry
   id: Headcrabs
-  name: antagonist-name-headcrabs
+  name: guideentry-headcrabs-name
   text: "/ServerInfo/_White/Guidebook/Antagonist/Headcrab/Headcrabs.xml"
   children:
     - Headcrab

@@ -6,7 +6,7 @@
   id: CableStack
   abstract: true
   parent: BaseItem
-  name: cable stack
+  name: entity-cablestack-name
   suffix: Full
   components:
   - type: Tag
@@ -33,9 +33,9 @@
 - type: entity
   id: CableHVStack
   parent: CableStack
-  name: HV cable coil
+  name: entity-cablehvstack-name
   suffix: Full
-  description: HV cables for connecting engines to heavy duty machinery, SMESes, and substations.
+  description: entity-cablehvstack-description
   components:
   - type: Stack
     stackType: CableHV
@@ -120,9 +120,9 @@
 - type: entity
   parent: CableStack
   id: CableMVStack
-  name: MV cable coil
+  name: entity-cablemvstack-name
   suffix: Full
-  description: MV cables for connecting substations to APCs, and also powering a select few things like emitters.
+  description: entity-cablemvstack-description
   components:
   - type: Stack
     stackType: CableMV
@@ -205,8 +205,8 @@
 - type: entity
   parent: CableStack
   id: CableApcStack
-  name: LV cable coil
-  description: Low-Voltage stack of wires for connecting APCs to machines and other purposes.
+  name: entity-cableapcstack-name
+  description: entity-cableapcstack-description
   suffix: Full
   components:
   - type: Sprite

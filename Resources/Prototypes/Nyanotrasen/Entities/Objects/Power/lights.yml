@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseLightbulb
-  name: blue light tube
-  description: A medium power high energy bulb that reminds you of space. May contain mercury.
+  name: entity-bluelighttube-name
+  description: entity-bluelighttube-description
   id: BlueLightTube
   components:
   - type: LightBulb
@@ -18,10 +18,10 @@
 
 - type: entity
   parent: BaseLightbulb
-  name: incandescent light bulb
+  name: entity-lightbulbmaintenance-name
   suffix: Maintenance
   id: LightBulbMaintenance
-  description: A dim light bulb.
+  description: entity-lightbulbmaintenance-description
   components:
   - type: LightBulb
     bulb: Bulb
@@ -34,8 +34,8 @@
 
 - type: entity
   parent: BaseLightbulb
-  name: red light tube
-  description: A colorful light tube. These emit a red hue.
+  name: entity-coloredlighttubered-name
+  description: entity-coloredlighttubered-description
   id: ColoredLightTubeRed
   components:
   - type: LightBulb
@@ -51,8 +51,8 @@
 
 - type: entity
   parent: BaseLightbulb
-  name: blue light tube
-  description: A colorful light tube. These emit a frosty blue hue.
+  name: entity-bluelighttube-name
+  description: entity-coloredlighttubefrostyblue-description
   id: ColoredLightTubeFrostyBlue
   components:
   - type: LightBulb
@@ -68,8 +68,8 @@
     
 - type: entity
   parent: BaseLightbulb
-  name: black light tube
-  description: A colorful light tube. These emit "black light".
+  name: entity-coloredlighttubeblacklight-name
+  description: entity-coloredlighttubeblacklight-description
   id: ColoredLightTubeBlackLight
   components:
   - type: LightBulb
@@ -85,10 +85,10 @@
 
 - type: entity
   parent: BaseLightbulb
-  name: incandescent light bulb
+  name: entity-lightbulbmaintenance-name
   suffix: Maintenance, Red
   id: LightBulbMaintenanceRed
-  description: A dim light bulb. These emit a red hue.
+  description: entity-lightbulbmaintenancered-description
   components:
   - type: LightBulb
     bulb: Bulb

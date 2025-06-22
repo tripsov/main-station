@@ -1,8 +1,8 @@
 - type: entity
-  name: fire extinguisher
+  name: entity-fireextinguisher-name
   parent: BaseItem
   id: FireExtinguisher
-  description: It extinguishes fires.
+  description: entity-fireextinguisher-description
   components:
   - type: Sprite
     sprite: Objects/Misc/fire_extinguisher.rsi
@@ -70,7 +70,7 @@
       Steel: 100
 
 - type: entity
-  name: extinguisher spray
+  name: entity-extinguisherspray-name
   id: ExtinguisherSpray
   parent: Vapor
   categories: [ HideSpawnMenu ]

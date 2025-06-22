@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesMaid
-  name: maid shoes
-  description: The maid's shoes. Shiny.
+  name: entity-clothingshoesmaid-name
+  description: entity-clothingshoesmaid-description
   components:
   - type: Sprite
     sprite: _White/Clothing/Shoes/Specific/maidshoes.rsi

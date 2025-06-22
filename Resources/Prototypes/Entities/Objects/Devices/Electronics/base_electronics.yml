@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: BaseElectronics
   parent: BaseItem
-  name: base electronics
+  name: entity-baseelectronics-name
   abstract: true
   suffix: Electronics
   components:

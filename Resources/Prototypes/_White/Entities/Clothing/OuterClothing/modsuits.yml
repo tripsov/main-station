@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: ClothingModsuitChestplateStandard
   id: ClothingModsuitChestplateInfiltrator
-  name: infiltrator modsuit chestplate
-  description: A purpose-built suit cover that can be neatly folded and store in the infiltrator suit's main unit.
+  name: entity-clothingmodsuitchestplateinfiltrator-name
+  description: entity-clothingmodsuitchestplateinfiltrator-description
   categories: [ HideSpawnMenu ]
   components:
   - type: Appearance

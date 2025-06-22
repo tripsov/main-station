@@ -80,8 +80,8 @@
 - type: entity
   id: VehicleSecway
   parent: BaseVehicle
-  name: secway
-  description: The future of transportation. Popularized by St. James, the patron saint of security officers and internet forum moderators.
+  name: entity-vehiclesecway-name
+  description: entity-vehiclesecway-description
   components:
   - type: Sprite
     sprite: Objects/Vehicles/secway.rsi
@@ -114,8 +114,8 @@
 - type: entity
   id: VehicleSyndicateSegway
   parent: VehicleSecway
-  name: syndicate segway
-  description: Be an enemy of the corporation, in style.
+  name: entity-vehiclesyndicatesegway-name
+  description: entity-vehiclesyndicatesegway-description
   components:
   - type: Sprite
     sprite: Objects/Vehicles/syndicatesegway.rsi
@@ -139,8 +139,8 @@
 - type: entity
   id: VehicleATV
   parent: BaseVehicle
-  name: ATV
-  description: All-Tile Vehicle.
+  name: entity-vehicleatv-name
+  description: entity-vehicleatv-description
   components:
   - type: Sprite
     sprite: Objects/Vehicles/atv.rsi
@@ -169,8 +169,8 @@
 - type: entity
   id: VehicleJanicart
   parent: BaseVehicle
-  name: janicart
-  description: The janitor's trusty steed.
+  name: entity-vehiclejanicart-name
+  description: entity-vehiclejanicart-description
   components:
   - type: Sprite
     sprite: Objects/Vehicles/janicart.rsi
@@ -203,8 +203,8 @@
 - type: entity
   id: VehicleWheelchair
   parent: [ BaseVehicle, BaseFoldable, BaseItem ]
-  name: wheelchair
-  description: A chair with big wheels. It looks like you can move in these on your own.
+  name: entity-vehiclewheelchair-name
+  description: entity-vehiclewheelchair-description
   components:
   - type: Sprite
     sprite: Objects/Vehicles/wheelchair.rsi

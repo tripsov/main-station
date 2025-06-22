@@ -1,7 +1,7 @@
 - type: entity
   id: SignalSwitch
-  name: signal switch
-  description: It's a switch for toggling power to things.
+  name: entity-signalswitch-name
+  description: entity-signalswitch-description
   placement:
     mode: SnapgridCenter
     snap:
@@ -40,8 +40,8 @@
 
 - type: entity
   id: SignalButton
-  name: signal button
-  description: It's a button for activating something.
+  name: entity-signalbutton-name
+  description: entity-signalbutton-description
   placement:
     mode: SnapgridCenter
     snap:
@@ -101,8 +101,8 @@
 
 - type: entity
   id: ApcNetSwitch
-  name: apc net switch
-  description: It's a switch for toggling lights that are connected to the same apc.
+  name: entity-apcnetswitch-name
+  description: entity-apcnetswitch-description
   placement:
     mode: SnapgridCenter
     snap:
@@ -134,8 +134,8 @@
 
 - type: entity
   id: TwoWayLever
-  name: two way lever
-  description: A two way lever.
+  name: entity-twowaylever-name
+  description: entity-twowaylever-description
   placement:
     mode: SnapgridCenter
   components:
@@ -187,7 +187,7 @@
 
 - type: entity
   id: SignalSwitchDirectional
-  name: signal switch
+  name: entity-signalswitch-name
   suffix: directional
   parent: SignalSwitch
   components:
@@ -199,7 +199,7 @@
 
 - type: entity
   id: SignalButtonDirectional
-  name: signal button
+  name: entity-signalbutton-name
   suffix: directional
   parent: SignalButton
   components:
@@ -211,7 +211,7 @@
 
 - type: entity
   id: ApcNetSwitchDirectional
-  name: apc net switch
+  name: entity-apcnetswitch-name
   suffix: directional
   parent: ApcNetSwitch
   components:
@@ -225,7 +225,7 @@
 
 - type: entity
   id: LockableButton
-  name: lockable button
+  name: entity-lockablebutton-name
   parent: SignalButtonDirectional
   categories: [ HideSpawnMenu ]
   components:
@@ -484,9 +484,9 @@
 
 - type: entity
   id: ButtonFrame
-  name: button frame
+  name: entity-buttonframe-name
   categories: [ HideSpawnMenu ]
-  description: It's a frame to help distinguish switches visually.
+  description: entity-buttonframe-description
   placement:
     mode: SnapgridCenter
     snap:

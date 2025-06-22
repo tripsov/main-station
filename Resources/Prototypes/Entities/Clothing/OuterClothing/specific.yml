@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: ClothingOuterBase
   id: ClothingOuterChameleon
-  name: vest
-  description: A thick vest with a rubbery, water-resistant shell.
+  name: entity-clothingouterchameleon-name
+  description: entity-clothingouterchameleon-description
   suffix: Chameleon
   components:
     - type: Tag

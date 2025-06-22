@@ -1,5 +1,5 @@
 - type: entity
-  name: Perma Escape Crate Spawner
+  name: entity-cratepermaescapespawner-name
   id: CratePermaEscapeSpawner
   parent: CrateEmptySpawner
   components:

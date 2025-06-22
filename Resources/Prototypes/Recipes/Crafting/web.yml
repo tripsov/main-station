@@ -1,5 +1,5 @@
 - type: construction
-  name: web tile
+  name: construction-tileweb-name
   id: TileWeb
   graph: WebObjects
   startNode: start
@@ -15,7 +15,7 @@
   objectType: Item
 
 - type: construction
-  name: web winter coat
+  name: construction-clothingouterwinterweb-name
   id: ClothingOuterWinterWeb
   graph: WebObjects
   startNode: start
@@ -31,7 +31,7 @@
   objectType: Item
 
 - type: construction
-  name: web jumpsuit
+  name: construction-clothinguniformjumpsuitweb-name
   id: ClothingUniformJumpsuitWeb
   graph: WebObjects
   startNode: start
@@ -47,7 +47,7 @@
   objectType: Item
 
 - type: construction
-  name: web jumpskirt
+  name: construction-clothinguniformjumpskirtweb-name
   id: ClothingUniformJumpskirtWeb
   graph: WebObjects
   startNode: start
@@ -63,7 +63,7 @@
   objectType: Item
 
 - type: construction
-  name: silk woven cloth
+  name: construction-silkwovencloth-name
   id: SilkWovenCloth
   graph: WebObjects
   startNode: start
@@ -79,7 +79,7 @@
   objectType: Item
 
 - type: construction
-  name: web shield
+  name: construction-webshield-name
   id: WebShield
   graph: WebObjects
   startNode: start
@@ -95,7 +95,7 @@
   objectType: Item
 
 - type: construction
-  name: web winter boots
+  name: construction-clothingshoesbootswinterweb-name
   id: ClothingShoesBootsWinterWeb
   graph: WebObjects
   startNode: start

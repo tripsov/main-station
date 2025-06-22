@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingOuterBaseLarge
   id: ChangelingClothingOuterArmor
-  name: chitinous armor
-  description: An all-consuming chitinous mass of armor.
+  name: entity-changelingclothingouterarmor-name
+  description: entity-changelingclothingouterarmor-description
   suffix: Unremoveable
   components:
   - type: Sprite

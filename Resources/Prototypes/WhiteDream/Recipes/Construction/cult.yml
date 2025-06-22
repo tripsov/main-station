@@ -1,7 +1,7 @@
 ﻿- type: construction
   id: CultPylon
-  name: cult pylon
-  description: A floating crystal that slowly heals those faithful to Nar'Sie.
+  name: construction-cultpylon-name
+  description: construction-cultpylon-description
   category: construction-category-structures
   hide: true
   graph: CultPylon
@@ -18,8 +18,8 @@
 
 - type: construction
   id: CultFactoryAltar
-  name: altar
-  description: A bloodstained altar dedicated to Nar'Sie.
+  name: construction-cultfactoryaltar-name
+  description: construction-cultfactoryaltar-description
   category: construction-category-structures
   hide: true
   graph: CultFactoryAltar
@@ -36,8 +36,8 @@
 
 - type: construction
   id: CultFactoryForge
-  name: daemon forge
-  description: A forge used in crafting the unholy weapons used by the armies of Nar'Sie.
+  name: construction-cultfactoryforge-name
+  description: construction-cultfactoryforge-description
   category: construction-category-structures
   hide: true
   graph: CultFactoryForge
@@ -54,8 +54,8 @@
 
 - type: construction
   id: CultFactoryArchives
-  name: archives
-  description: A desk covered in arcane manuscripts and tomes in unknown languages. Looking at the text makes your skin crawl.
+  name: construction-cultfactoryarchives-name
+  description: construction-cultfactoryarchives-description
   category: construction-category-structures
   hide: true
   graph: CultFactoryArchives
@@ -72,8 +72,8 @@
 
 - type: construction
   id: CultDoor
-  name: runed door
-  description: It opens, it closes, and maybe crushes you. This one has a strange glowing rune on it.
+  name: construction-cultdoor-name
+  description: construction-cultdoor-description
   category: construction-category-structures
   hide: true
   graph: CultDoor
@@ -90,8 +90,8 @@
 
 - type: construction
   id: CultGirder
-  name: runed girder
-  description: Framework made of a strange and shockingly cold metal. It doesn't seem to have any bolts
+  name: construction-cultgirder-name
+  description: construction-cultgirder-description
   category: construction-category-structures
   hide: true
   graph: CultGirder

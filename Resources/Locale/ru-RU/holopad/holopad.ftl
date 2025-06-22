@@ -110,7 +110,7 @@ holopad-engineering-power = Инженерный - Питание
 # Security
 holopad-security-front = СБ - Приёмная
 holopad-security-brig = СБ - Бриг
-holopad-security-warden = СБ - Смотритель
+holopad-security-warden = СБ - Надзиратель
 holopad-security-interrogation = СБ - Допросная
 holopad-security-breakroom = СБ - Комната отдыха
 holopad-security-detective = СБ - Детектив

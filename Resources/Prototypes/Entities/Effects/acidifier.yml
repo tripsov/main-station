@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: Acidifier
-  name: acid
-  description: Melts you into a puddle of yuck!
+  name: entity-acidifier-name
+  description: entity-acidifier-description
   components:
   - type: Transform
     anchored: True

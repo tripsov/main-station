@@ -261,21 +261,21 @@
 
 - type: ttsVoice
   id: Npc1
-  name: tts-voice-name-npc-1
+  name: ttsvoice-npc1-name
   sex: Unsexed
   speaker: npc-1
   roundStart: false
 
 - type: ttsVoice
   id: Npc2
-  name: tts-voice-name-npc-2
+  name: ttsvoice-npc2-name
   sex: Unsexed
   speaker: npc-2
   roundStart: false
 
 - type: ttsVoice
   id: Npc3
-  name: tts-voice-name-npc-3
+  name: ttsvoice-npc3-name
   sex: Unsexed
   speaker: npc-3
   roundStart: false
@@ -294,42 +294,42 @@
 
 - type: ttsVoice
   id: Garithos
-  name: tts-voice-name-garithos
+  name: ttsvoice-garithos-name
   sex: Male
   speaker: garithos
   roundStart: false
 
 - type: ttsVoice
   id: TrainingRobot
-  name: tts-voice-name-trainingrobot
+  name: ttsvoice-trainingrobot-name
   sex: Unsexed
   speaker: u-1
   roundStart: false
 
 - type: ttsVoice
   id: Kelthuzad
-  name: tts-voice-name-kelthuzad
+  name: ttsvoice-kelthuzad-name
   sex: Unsexed
   speaker: u-1
   roundStart: false
 
 - type: ttsVoice
   id: Maiev
-  name: tts-voice-name-maiev
+  name: ttsvoice-maiev-name
   sex: Female
   speaker: maiev
   roundStart: false
 
 - type: ttsVoice
   id: Myron
-  name: tts-voice-name-myron
+  name: ttsvoice-myron-name
   sex: Unsexed
   speaker: myron
   roundStart: false
 
 - type: ttsVoice
   id: Borgs
-  name: tts-voice-name-borgs
+  name: ttsvoice-borgs-name
   sex: Unsexed
   speaker: Borgs
   roundStart: false

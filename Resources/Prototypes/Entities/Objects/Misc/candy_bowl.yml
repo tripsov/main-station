@@ -2,7 +2,7 @@
   parent: BaseItem
   id: CandyBowl
   name: "candy bowl"
-  description: Grab as much as you can fit in your pockets!
+  description: entity-candybowl-description
   components:
   - type: Sprite
     sprite: Objects/Misc/candy_bowl.rsi

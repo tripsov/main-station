@@ -1,8 +1,8 @@
 ﻿- type: entity
-  name: piano
+  name: entity-pianoinstrument-name
   parent: BasePlaceableInstrumentRotatable
   id: PianoInstrument
-  description: Play Needles Piano Now.
+  description: entity-pianoinstrument-description
   components:
   - type: Instrument
     program: 1
@@ -11,10 +11,10 @@
   - type: Climbable
 
 - type: entity
-  name: upright piano
+  name: entity-uprightpianoinstrument-name
   parent: BasePlaceableInstrumentRotatable
   id: UprightPianoInstrument
-  description: I said Piannie!
+  description: entity-uprightpianoinstrument-description
   components:
   - type: Instrument
     program: 3
@@ -23,10 +23,10 @@
   - type: Climbable
 
 - type: entity
-  name: vibraphone
+  name: entity-vibraphoneinstrument-name
   id: VibraphoneInstrument
   parent: BasePlaceableInstrumentRotatable
-  description: Good vibes all around.
+  description: entity-vibraphoneinstrument-description
   components:
   - type: Instrument
     program: 11
@@ -34,7 +34,7 @@
     state: vibraphone
 
 - type: entity
-  name: marimba
+  name: entity-marimbainstrument-name
   id: MarimbaInstrument
   parent: BasePlaceableInstrumentRotatable
   components:
@@ -44,10 +44,10 @@
     state: marimba
 
 - type: entity
-  name: church organ
+  name: entity-churchorganinstrument-name
   parent: BasePlaceableInstrumentRotatable
   id: ChurchOrganInstrument
-  description: This thing really blows!
+  description: entity-churchorganinstrument-description
   components:
   - type: Instrument
     program: 19
@@ -55,10 +55,10 @@
     state: church-organ
 
 - type: entity
-  name: tuba
+  name: entity-tubainstrument-name
   parent: BasePlaceableInstrument
   id: TubaInstrument
-  description: The big daddy of the brass family. Standing next to its majesty makes you feel insecure.
+  description: entity-tubainstrument-description
   components:
   - type: Instrument
     program: 58
@@ -68,8 +68,8 @@
 - type: entity
   id: HarpInstrument
   parent: BasePlaceableInstrument
-  name: harp
-  description: Plucking at the strings cuts your fingers, but at least the music is pretty.
+  name: entity-harpinstrument-name
+  description: entity-harpinstrument-description
   components:
   - type: Instrument
     program: 46
@@ -79,8 +79,8 @@
 - type: entity
   id: TimpaniInstrument
   parent: BasePlaceableInstrumentRotatable
-  name: timpani
-  description: It goes BOOM BOOM BOOM BOOM!
+  name: entity-timpaniinstrument-name
+  description: entity-timpaniinstrument-description
   components:
   - type: Instrument
     program: 47
@@ -90,8 +90,8 @@
 - type: entity
   id: TaikoInstrument
   parent: BasePlaceableInstrumentRotatable
-  name: taiko
-  description: A large drum. Looking at it fills you with the urge to slap it.
+  name: entity-taikoinstrument-name
+  description: entity-taikoinstrument-description
   components:
   - type: Instrument
     program: 116
@@ -101,8 +101,8 @@
 - type: entity
   id: ContrabassInstrument
   parent: BasePlaceableInstrument
-  name: contrabass
-  description: Perfect for laying down a nice jazzy beat.
+  name: entity-contrabassinstrument-name
+  description: entity-contrabassinstrument-description
   components:
   - type: Instrument
     program: 43
@@ -126,10 +126,10 @@
         - BulletImpassable
 
 - type: entity
-  name: minimoog
+  name: entity-minimooginstrument-name
   parent: BasePlaceableInstrumentRotatable
   id: MinimoogInstrument
-  description: This is a minimoog, like a space piano, but more spacey!
+  description: entity-minimooginstrument-description
   components:
   - type: Instrument
     program: 81
@@ -139,8 +139,8 @@
 - type: entity
   id: TomDrumsInstrument
   parent: BasePlaceableInstrumentRotatable
-  name: tom drums
-  description: Where'd the rest of the kit go?
+  name: entity-tomdrumsinstrument-name
+  description: entity-tomdrumsinstrument-description
   components:
   - type: Instrument
     program: 117
@@ -150,8 +150,8 @@
 - type: entity
   parent: [ BasePlaceableInstrument, ConstructibleMachine]
   id: DawInstrument
-  name: digital audio workstation
-  description: Cutting edge music technology, straight from the 90s.
+  name: entity-dawinstrument-name
+  description: entity-dawinstrument-description
   components:
   - type: Sprite
     layers:

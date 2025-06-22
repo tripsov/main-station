@@ -1,11 +1,11 @@
 # Goob edit - energy bola
 
 - type: entity
-  name: bola
+  name: entity-basebola-name
   abstract: true
   id: BaseBola
   parent: BaseItem
-  description: High velocity entanglement tool.
+  description: entity-basebola-description
   components:
   - type: Item
     size: Normal
@@ -27,10 +27,10 @@
   - type: LayDownOnCollide # WD EDIT
 
 - type: entity
-  name: bola
+  name: entity-basebola-name
   parent: [BaseBola]
   id: Bola
-  description: Linked together with some spare cuffs and metal.
+  description: entity-bola-description
   components:
   - type: Construction
     deconstructionTarget: null # WD EDIT
@@ -63,10 +63,10 @@
   # WD EDIT END
 
 - type: entity
-  name: energy bola
+  name: entity-bolaenergy-name
   id: BolaEnergy
   parent: BaseBola
-  description: An advanced hardlight criminal entangling tool. Otherwise known as an expensive piece of string.
+  description: entity-bolaenergy-description
   components:
   # WD EDIT START
   - type: Item

@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitWhiteHobo
-  name: hobo uniform
-  description: The ragged form of a man who has been through a lot. It's not so much the holes in all the places that strike you as the smell of her.
+  name: entity-clothinguniformjumpsuitwhitehobo-name
+  description: entity-clothinguniformjumpsuitwhitehobo-description
   components:
   - type: Sprite
     sprite: _White/Clothing/Uniforms/Jumpsuit/hobo.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitSkeletonHalloween
-  name: skeleton costume
-  description: A suit made of fabric with an anatomically correct humanoid skeleton pattern. Made especially for a spooky day and maybe not only for this day.
+  name: entity-clothinguniformjumpsuitskeletonhalloween-name
+  description: entity-clothinguniformjumpsuitskeletonhalloween-description
   components:
   - type: Sprite
     sprite: _White/Clothing/Uniforms/Jumpsuit/skeleton.rsi
@@ -23,8 +23,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCommandCaptain
-  name: captain command jumpsuit
-  description: Black suit with gold shoulder straps.
+  name: entity-clothinguniformjumpsuitcommandcaptain-name
+  description: entity-clothinguniformjumpsuitcommandcaptain-description
   components:
   - type: Sprite
     sprite: _White/Clothing/Uniforms/Jumpsuit/captain_command.rsi
@@ -34,8 +34,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitWhiteCaptain
-  name: white captain jumpsuit
-  description: Captain white jumpsuit symbolizes that your salary is clearly above the norm.
+  name: entity-clothinguniformjumpsuitwhitecaptain-name
+  description: entity-clothinguniformjumpsuitwhitecaptain-description
   components:
     - type: Sprite
       sprite: _White/Clothing/Uniforms/Jumpsuit/captain_white.rsi
@@ -45,8 +45,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitSheriff
-  name: sheriff jumpsuit
-  description: Jumpsuit showing your status is how terrible... the great ruler.
+  name: entity-clothinguniformjumpsuitsheriff-name
+  description: entity-clothinguniformjumpsuitsheriff-description
   components:
     - type: Sprite
       sprite: _White/Clothing/Uniforms/Jumpsuit/sheriff.rsi
@@ -56,8 +56,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitOldEngineer
-  name: Old Engineer Jumpsuit
-  description: A variant of the Engineer Jumpsuit used by NanoTrasen in the early days of space exploration.
+  name: entity-clothinguniformjumpsuitoldengineer-name
+  description: entity-clothinguniformjumpsuitoldengineer-description
   components:
     - type: Sprite
       sprite: _White/Clothing/Uniforms/Jumpsuit/old_engineer.rsi
@@ -67,8 +67,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitOldEngineerCasual
-  name: Casual Engineer Jumpsuit
-  description: A jumpsuit repainted black to blend with station walls.
+  name: entity-clothinguniformjumpsuitoldengineercasual-name
+  description: entity-clothinguniformjumpsuitoldengineercasual-description
   components:
     - type: Sprite
       sprite: _White/Clothing/Uniforms/Jumpsuit/old_engineer_casual.rsi
@@ -78,8 +78,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitOldEngineerWorker
-  name: Old Engineer Working Jumpsuit
-  description: Another variation of old engineering jumpsuits.
+  name: entity-clothinguniformjumpsuitoldengineerworker-name
+  description: entity-clothinguniformjumpsuitoldengineerworker-description
   components:
     - type: Sprite
       sprite: _White/Clothing/Uniforms/Jumpsuit/old_engineer_worker.rsi
@@ -89,8 +89,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitEngineerPolar
-  name: Cold Environment Old Engineer Jumpsuit
-  description: Warm Engineer Jumpsuit.
+  name: entity-clothinguniformjumpsuitengineerpolar-name
+  description: entity-clothinguniformjumpsuitengineerpolar-description
   components:
     - type: Sprite
       sprite: _White/Clothing/Uniforms/Jumpsuit/engineer_polar.rsi
@@ -100,8 +100,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitMedicalBlue
-  name: blue medical uniform
-  description: A medical uniform, painted in a calming azure rather than blue, directly contradicting the label. Soft, breathable fabrics are designed to provide comfort throughout a long workday.
+  name: entity-clothinguniformjumpsuitmedicalblue-name
+  description: entity-clothinguniformjumpsuitmedicalblue-description
   components:
     - type: Sprite
       sprite: _White/Clothing/Uniforms/Jumpsuit/med_uniform.rsi
@@ -111,8 +111,8 @@
 - type: entity 
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitMedicalGreen
-  name: green medical uniform
-  description: The green shade significantly contrasts with blood and reduces visual tension from the bright lamp light.
+  name: entity-clothinguniformjumpsuitmedicalgreen-name
+  description: entity-clothinguniformjumpsuitmedicalgreen-description
   components:
     - type: Sprite
       sprite: _White/Clothing/Uniforms/Jumpsuit/med_green_uniform.rsi
@@ -122,8 +122,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitMedicalUniformChemistry
-  name: orange chemistry uniform
-  description: A uniform for chemists on NanoTrasen station facilities. Durable, water-repellent fabrics offer, on average, a 0.3% better protection against corrosive chemicals compared to standard medical attire.
+  name: entity-clothinguniformjumpsuitmedicaluniformchemistry-name
+  description: entity-clothinguniformjumpsuitmedicaluniformchemistry-description
   components:
     - type: Sprite
       sprite: _White/Clothing/Uniforms/Jumpsuit/med_chem_uniform.rsi
@@ -134,7 +134,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitParamedicUniform
   name: paramedic uniform 
-  description: The uniform features numerous pockets of various sizes and is also equipped with white stripes for enhanced visibility. A medical cross is visible on the chest, and NanoTrasen logos are displayed on the shoulders.
+  description: entity-clothinguniformjumpsuitparamedicuniform-description
   components:
     - type: Sprite 
       sprite: _White/Clothing/Uniforms/Jumpsuit/med_para_uniform.rsi

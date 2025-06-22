@@ -2,9 +2,9 @@
 - type: entity
   parent: [ClothingHeadHardsuitBase, TCFLInfo, BaseClothingRadio]
   id: ClothingHeadHelmetHardsuitTCFLTacsuit
-  name: TCFL tacsuit helmet
+  name: entity-clothingheadhelmethardsuittcfltacsuit-name
   suffix: TCFL
-  description: A modern helmet used with the standard TCFL tacsuit
+  description: entity-clothingheadhelmethardsuittcfltacsuit-description
   components:
     - type: Sprite
       sprite: _EE/Clothing/BieselRepublic/Helmet/TCFL_tacsuit_helmet.rsi
@@ -30,9 +30,9 @@
 - type: entity
   parent: [ClothingHeadHelmetBasic, TCFLInfo, BaseClothingRadio]
   id: ClothingHeadHelmetTCFLHeavy
-  name: TCFL heavy tactical helmet
+  name: entity-clothingheadhelmettcflheavy-name
   suffix: TCFL
-  description: Much of the equipment used by the TCFL is repurposed from older Solarian wargear. This advanced helmet includes a ballistic polymer face shield.
+  description: entity-clothingheadhelmettcflheavy-description
   components:
     - type: Sprite
       sprite: _EE/Clothing/BieselRepublic/Helmet/TCAF_tactical_helmet_full.rsi
@@ -67,9 +67,9 @@
 - type: entity
   parent: [ClothingHeadHelmetBasic, TCFLInfo, BaseClothingRadio]
   id: ClothingHeadHelmetTCFLNoVisor
-  name: TCAF light tactical helmet
+  name: entity-clothingheadhelmettcflnovisor-name
   suffix: TCFL
-  description: A basic tactical helmet worn by members of the Tau-Ceti Armed Forces.
+  description: entity-clothingheadhelmettcflnovisor-description
   components:
     - type: Sprite
       sprite: _EE/Clothing/BieselRepublic/Helmet/TCAF_tactical_helmet_novisor.rsi
@@ -79,9 +79,9 @@
 - type: entity
   parent: [ClothingHeadHelmetBasic, TCFLInfo, BaseClothingRadio]
   id: ClothingHeadHelmetTCFLVisor
-  name: TCAF light tactical helmet
+  name: entity-clothingheadhelmettcflnovisor-name
   suffix: TCFL
-  description: A basic tactical helmet worn by members of the Tau-Ceti Armed Forces.
+  description: entity-clothingheadhelmettcflnovisor-description
   components:
     - type: Sprite
       sprite: _EE/Clothing/BieselRepublic/Helmet/TCAF_tactical_helmet_visor.rsi
@@ -91,9 +91,9 @@
 - type: entity
   parent: [ClothingHeadBaseButcherable, TCFLInfo]
   id: ClothingHeadHatTCAFBeretDress
-  name: TCAF dress beret
+  name: entity-clothingheadhattcafberetdress-name
   suffix: TCFL
-  description: A formal beret worn by current and former members of the Tau-Ceti Armed Forces.
+  description: entity-clothingheadhattcafberetdress-description
   components:
     - type: Sprite
       sprite: _EE/Clothing/BieselRepublic/Helmet/TCAF_beret_dress.rsi
@@ -103,9 +103,9 @@
 - type: entity
   parent: [ClothingHeadBaseButcherable, TCFLInfo]
   id: ClothingHeadHatTCAFBeretField
-  name: TCAF field beret
+  name: entity-clothingheadhattcafberetfield-name
   suffix: TCFL
-  description: A field beret worn by current and former members of the Tau-Ceti Armed Forces.
+  description: entity-clothingheadhattcafberetfield-description
   components:
     - type: Sprite
       sprite: _EE/Clothing/BieselRepublic/Helmet/TCAF_beret_field.rsi
@@ -115,9 +115,9 @@
 - type: entity
   parent: [ClothingHeadBaseButcherable, TCFLInfo]
   id: ClothingHeadHatTCFLBeretDress
-  name: TCFL dress beret
+  name: entity-clothingheadhattcflberetdress-name
   suffix: TCFL
-  description: A dress beret worn by current and former members of the Tau-Ceti Foreign Legion. This beret is a common sight in bars all across the Orion Spur.
+  description: entity-clothingheadhattcflberetdress-description
   components:
     - type: Sprite
       sprite: _EE/Clothing/BieselRepublic/Helmet/TCFL_beret_dress.rsi
@@ -127,9 +127,9 @@
 - type: entity
   parent: [ClothingHeadBaseButcherable, TCFLInfo]
   id: ClothingHeadHatTCFLBeretField
-  name: TCFL field beret
+  name: entity-clothingheadhattcflberetfield-name
   suffix: TCFL
-  description: A field beret worn by current and former members of the Tau-Ceti Foreign Legion. This beret is a common sight in bars all across the Orion Spur.
+  description: entity-clothingheadhattcflberetfield-description
   components:
     - type: Sprite
       sprite: _EE/Clothing/BieselRepublic/Helmet/TCFL_beret_field.rsi
@@ -139,9 +139,9 @@
 - type: entity
   parent: [ClothingHeadBaseButcherable, TCFLInfo]
   id: ClothingHeadHatTCFLBeretSentinel
-  name: TCFL sentinel beret
+  name: entity-clothingheadhattcflberetsentinel-name
   suffix: TCFL
-  description: A dress beret worn by the elite members of the Tau-Ceti Foreign Legion.
+  description: entity-clothingheadhattcflberetsentinel-description
   components:
     - type: Sprite
       sprite: _EE/Clothing/BieselRepublic/Helmet/TCFL_beret_sentinel.rsi
@@ -151,9 +151,9 @@
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlippable, TCFLInfo]
   id: ClothingHeadHatTCFLSoftCap
-  name: TCFL soft cap
+  name: entity-clothingheadhattcflsoftcap-name
   suffix: TCFL
-  description: A soft wool hat worn by current and former members of the Tau-Ceti Foreign Legion.
+  description: entity-clothingheadhattcflsoftcap-description
   components:
     - type: Sprite
       sprite: _EE/Clothing/BieselRepublic/Helmet/TCFL_softcap.rsi

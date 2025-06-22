@@ -1,6 +1,6 @@
 - type: entity
   id: BulletMagnum
-  name: bullet (.45 magnum)
+  name: entity-bulletmagnum-name
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:
@@ -11,7 +11,7 @@
 
 - type: entity
   id: BulletMagnumPractice
-  name: bullet (.45 magnum practice)
+  name: entity-bulletmagnumpractice-name
   parent: BaseBulletPractice
   categories: [ HideSpawnMenu ]
   components:
@@ -23,7 +23,7 @@
 - type: entity
   id: BulletMagnumIncendiary
   parent: BaseBulletIncendiary
-  name: bullet (.45 magnum incendiary)
+  name: entity-bulletmagnumincendiary-name
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -34,7 +34,7 @@
 
 - type: entity
   id: BulletMagnumAP
-  name: bullet (.45 magnum armor-piercing)
+  name: entity-bulletmagnumap-name
   parent: BaseBulletAP
   categories: [ HideSpawnMenu ]
   components:
@@ -46,7 +46,7 @@
 
 - type: entity
   id: BulletMagnumUranium
-  name: bullet (.45 magnum uranium)
+  name: entity-bulletmagnumuranium-name
   parent: BaseBulletUranium
   categories: [ HideSpawnMenu ]
   components:
@@ -58,7 +58,7 @@
 
 - type: entity
   id: BulletMagnumShrapnel
-  name: bullet (.45 magnum shrapnel)
+  name: entity-bulletmagnumshrapnel-name
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
   components:

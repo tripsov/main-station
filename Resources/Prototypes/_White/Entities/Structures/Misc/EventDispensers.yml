@@ -44,7 +44,7 @@
     dispensing: FoodBanana
 
 - type: entity
-  name: Fun dispenser
+  name: entity-eventexgrenadedispenser-name
   parent: BaseEventItemDispenser
   id: EventExGrenadeDispenser
   components:
@@ -52,7 +52,7 @@
     dispensing: GrenadeDummy
 
 - type: entity
-  name: Limited fun dispenser
+  name: entity-baseeventitemdispenserfinite-name
   parent: BaseEventItemDispenser
   id: BaseEventItemDispenserFinite
   components:

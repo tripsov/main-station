@@ -1,6 +1,6 @@
 - type: entity
   save: false
-  name: Urist McArachne
+  name: entity-mobarachne-name
   parent: MobArachneBase
   id: MobArachne
   components:

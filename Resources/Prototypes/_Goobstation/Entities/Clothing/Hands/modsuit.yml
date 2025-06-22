@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingHandsBase
   id: ClothingModsuitGauntletsStandard
-  name: standard modsuit gauntlets
-  description: A special modular suit gloves that protect wearer from electric shock.
+  name: entity-clothingmodsuitgauntletsstandard-name
+  description: entity-clothingmodsuitgauntletsstandard-description
   categories: [ HideSpawnMenu ]
   components:
   - type: Appearance

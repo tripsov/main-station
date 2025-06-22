@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBeretNavy
-  name: navy blue officer beret
-  description: A navy blue beret with the silver shield of the Nanotrasen security forces.
+  name: entity-clothingheadhatberetnavy-name
+  description: entity-clothingheadhatberetnavy-description
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Head/Hats/beret_bso_navy.rsi
@@ -16,8 +16,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBeretOfficer
-  name: officers beret
-  description: A black beret with the silver shield of the Nanotrasen security forces.
+  name: entity-clothingheadhatberetofficer-name
+  description: entity-clothingheadhatberetofficer-description
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Head/Hats/beret_bso_officer.rsi
@@ -31,8 +31,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatCowboyBlueshield
-  name: blueshield cowboy hat
-  description: Sheriff's back in town, kids
+  name: entity-clothingheadhatcowboyblueshield-name
+  description: entity-clothingheadhatcowboyblueshield-description
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Head/Hats/cowboyhatbso.rsi

@@ -1,65 +1,65 @@
 - type: jukebox
   id: SpaceShuttle
-  name: Эдипов комплекс - Space Shuttle
+  name: jukebox-spaceshuttle-name
   path:
     path: /Audio/_White/Lobby/space-shuttle.ogg
 
 - type: jukebox
   id: AllThatICanSee
-  name: Эдипов комплекс - All that i can see
+  name: jukebox-allthaticansee-name
   path:
     path: /Audio/_White/Lobby/all-that-I-can-see.ogg
 
 - type: jukebox
   id: AtomicAmnesia
-  name: Филип Дайер - Atomic Amnesia MMX
+  name: jukebox-atomicamnesia-name
   path:
     path: /Audio/_White/Lobby/atomicamnesiammx.ogg
 
 - type: jukebox
   id: Circles
-  name: Dispatch - Circles around the sun
+  name: jukebox-circles-name
   path:
     path: /Audio/_White/Lobby/circles-around-the-sun.ogg
 
 - type: jukebox
   id: CometHalley
-  name: Stellardrone - Comet halley
+  name: jukebox-comethalley-name
   path:
     path: /Audio/_White/Lobby/comet_haley.ogg
 
 - type: jukebox
   id: EndlessSpace
-  name: Solus - Endless space
+  name: jukebox-endlessspace-name
   path:
     path: /Audio/_White/Lobby/endless_space.ogg
 
 - type: jukebox
   id: Monument
-  name: Six Umbrellas - Monument
+  name: jukebox-monument-name
   path:
     path: /Audio/_White/Lobby/monument.ogg
 
 - type: jukebox
   id: Level
-  name: Dapper Husky - Level!
+  name: jukebox-level-name
   path:
     path: /Audio/_White/Lobby/level!.ogg
 
 - type: jukebox
   id: Singuloose
-  name: Janis Schiedková - Singuloose
+  name: jukebox-singuloose-name
   path:
     path: /Audio/_White/Lobby/singuloose.ogg
 
 - type: jukebox
   id: Spaced
-  name: pinkblossom6 - Spaced
+  name: jukebox-spaced-name
   path:
     path: /Audio/_White/Lobby/spaced.ogg
 
 - type: jukebox
   id: SpaceOddity
-  name: David Bowie - Space Oddity
+  name: jukebox-spaceoddity-name
   path:
     path: /Audio/_White/Lobby/space-oddity.ogg

@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: WeaponPoweredCrossbow
-  name: Crossbow
-  description: It's a dangerous thing.
+  name: entity-weaponpoweredcrossbow-name
+  description: entity-weaponpoweredcrossbow-description
   components:
   - type: Sprite
     sprite: _White/Objects/Weapons/Guns/crossbow.rsi
@@ -57,8 +57,8 @@
 - type: entity
   parent: BaseItem
   id: WeaponPoweredCrossbowUnfinished
-  name: Unfinished crossbow
-  description: It's going to be a dangerous thing.
+  name: entity-weaponpoweredcrossbowunfinished-name
+  description: entity-weaponpoweredcrossbowunfinished-description
   components:
   - type: Sprite
     sprite: _White/Objects/Weapons/Guns/crossbow.rsi

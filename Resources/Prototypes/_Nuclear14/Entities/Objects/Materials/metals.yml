@@ -2,7 +2,7 @@
 - type: entity
   parent: IngotBase
   id: N14IngotLead
-  name: lead bar
+  name: entity-n14ingotlead-name
   suffix: Full, 30
   components:
   - type: Material
@@ -48,7 +48,7 @@
 - type: entity
   parent: N14IngotLead
   id: N14IngotLead1
-  name: lead bar
+  name: entity-n14ingotlead-name
   suffix: Single
   components:
   - type: Sprite
@@ -60,7 +60,7 @@
 - type: entity
   parent: IngotBase
   id: N14IngotAluminium
-  name: aluminium bar
+  name: entity-n14ingotaluminium-name
   suffix: Full, 30
   components:
   - type: Material
@@ -95,7 +95,7 @@
 - type: entity
   parent: N14IngotAluminium
   id: N14IngotAluminium1
-  name: aluminium bar
+  name: entity-n14ingotaluminium-name
   suffix: Single
   components:
   - type: Sprite
@@ -107,7 +107,7 @@
 - type: entity
   parent: IngotBase
   id: IngotCopper
-  name: copper bar
+  name: entity-ingotcopper-name
   suffix: Full, 30
   components:
   - type: Material
@@ -142,7 +142,7 @@
 - type: entity
   parent: IngotCopper
   id: IngotCopper1
-  name: copper bar
+  name: entity-ingotcopper-name
   suffix: Single
   components:
   - type: Sprite

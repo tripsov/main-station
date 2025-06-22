@@ -2,8 +2,8 @@
 - type: entity
   parent: [ClothingHeadHelmetBasic, BaseClothingRadio]
   id: ClothingHeadHelmetHeavyAblative
-  name: heavy laser-ablative helmet
-  description: A heavy laser-ablative helmet manufactured by Zavodskoi Interstellar and sold to NT Security. It trades mobility for unparalleled protection against laser weaponry.
+  name: entity-clothingheadhelmetheavyablative-name
+  description: entity-clothingheadhelmetheavyablative-description
   components:
     - type: Sprite
       sprite: _EE/Clothing/Generic/Helmet/heavy_helmet_ablative.rsi
@@ -33,8 +33,8 @@
 - type: entity
   parent: [ClothingHeadHelmetBasic, BaseClothingRadio]
   id: ClothingHeadHelmetHeavyBallistic
-  name: heavy ballistic helmet
-  description: A heavy ballistic helmet manufactured by Zavodskoi Interstellar and sold to NT Security. It trades mobility for unparalleled protection against ballistic weaponry.
+  name: entity-clothingheadhelmetheavyballistic-name
+  description: entity-clothingheadhelmetheavyballistic-description
   components:
     - type: Sprite
       sprite: _EE/Clothing/Generic/Helmet/heavy_helmet_ballistic.rsi
@@ -64,8 +64,8 @@
 - type: entity
   parent: [ClothingHeadHelmetBasic, BaseClothingRadio]
   id: ClothingHeadHelmetHeavyRiot
-  name: heavy riot helmet
-  description: A heavy riot helmet manufactured by Zavodskoi Interstellar and sold to NT Security. It trades mobility for unparalleled protection against blunt force.
+  name: entity-clothingheadhelmetheavyriot-name
+  description: entity-clothingheadhelmetheavyriot-description
   components:
     - type: Sprite
       sprite: _EE/Clothing/Generic/Helmet/heavy_helmet_riot.rsi
@@ -95,8 +95,8 @@
 - type: entity
   parent: [ClothingHeadHelmetBasic, BaseClothingRadio]
   id: ClothingHeadHelmetHeavyStandard
-  name: heavy security helmet
-  description: A heavy security helmet manufactured by Zavodskoi Interstellar and sold to NT Security. It trades mobility for unparalleled protection against general threats.
+  name: entity-clothingheadhelmetheavystandard-name
+  description: entity-clothingheadhelmetheavystandard-description
   components:
     - type: Sprite
       sprite: _EE/Clothing/Generic/Helmet/heavy_helmet_standard.rsi
@@ -126,8 +126,8 @@
 - type: entity
   parent: [ClothingHeadHelmetHeavyStandard, BaseClothingRadio]
   id: ClothingHeadHelmetHeavyHoS
-  name: advanced combat helmet
-  description: A heavy security helmet manufactured by Zavodskoi Interstellar and sold to NT Security. This helmet bears markings for NT Command Staff.
+  name: entity-clothingheadhelmetheavyhos-name
+  description: entity-clothingheadhelmetheavyhos-description
   components:
     - type: Sprite
       sprite: _EE/Clothing/Generic/Helmet/heavy_helmet_hos.rsi

@@ -1,8 +1,8 @@
 - type: entity
-  name: handheld mass scanner
+  name: entity-handheldmassscanner-name
   parent: BaseHandheldComputer
   id: HandHeldMassScanner
-  description: A hand-held mass scanner.
+  description: entity-handheldmassscanner-description
   components:
   - type: Item
   - type: Sprite

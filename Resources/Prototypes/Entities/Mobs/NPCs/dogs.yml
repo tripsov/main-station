@@ -1,8 +1,8 @@
 - type: entity
   parent: SimpleMobBase
   id: MobPibble
-  name: pitbull
-  description: Nanny dog. Or a lab mix depending on who is asking.
+  name: entity-mobpibble-name
+  description: entity-mobpibble-description
   components:
   - type: MeleeWeapon
     hidden: true
@@ -94,8 +94,8 @@
 - type: entity
   parent: MobPibble
   id: MobPibbleVent
-  name: ventbull
-  description: Some kind of pitbull mix... or maybe the next stage in pibble evolution?
+  name: entity-mobpibblevent-name
+  description: entity-mobpibblevent-description
   components:
   - type: MeleeWeapon
     hidden: true

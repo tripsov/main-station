@@ -2,8 +2,8 @@
 - type: entity
   parent: ClosetBase
   id: FurnitureWashingmachine
-  name: washing machine
-  description: wishy washy.
+  name: entity-furniturewashingmachine-name
+  description: entity-furniturewashingmachine-description
   components:
   - type: Sprite
     sprite: Structures/Storage/Furniture/washingmachine.rsi
@@ -34,8 +34,8 @@
 - type: entity
   parent: ClosetBaseW
   id: ClosetSafe
-  name: safe
-  description: Might be filled with valuables.
+  name: entity-closetsafe-name
+  description: entity-closetsafe-description
   components:
   - type: Sprite
     sprite: Structures/Storage/Furniture/safe.rsi

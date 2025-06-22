@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: BaseScrapDebris
   parent: BaseDebris
-  name: Scrap Debris
+  name: entity-basescrapdebris-name
   abstract: true
   components:
     - type: MapGrid
@@ -52,7 +52,7 @@
 - type: entity
   id: ScrapDebrisSmall
   parent: BaseScrapDebris
-  name: Scrap Debris Small
+  name: entity-scrapdebrissmall-name
   categories: [ HideSpawnMenu ]
   components:
     - type: MapGrid
@@ -62,7 +62,7 @@
 - type: entity
   id: ScrapDebrisMedium
   parent: BaseScrapDebris
-  name: Scrap Debris Medium
+  name: entity-scrapdebrismedium-name
   categories: [ HideSpawnMenu ]
   components:
     - type: MapGrid
@@ -72,7 +72,7 @@
 - type: entity
   id: ScrapDebrisLarge
   parent: BaseScrapDebris
-  name: Scrap Debris Large
+  name: entity-scrapdebrislarge-name
   categories: [ HideSpawnMenu ]
   components:
     - type: MapGrid

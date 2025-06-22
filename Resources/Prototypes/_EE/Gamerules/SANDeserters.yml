@@ -19,7 +19,7 @@
 - type: entity
   categories: [HideSpawnMenu]
   id: SpawnPointGhostSANDeserter
-  name: ghost role spawn point
+  name: entity-spawnpointghostsandeserter-name
   suffix: SAN Deserter
   parent: MarkerBase
   components:
@@ -43,7 +43,7 @@
   categories: [HideSpawnMenu]
   parent: MobHuman
   id: MobHumanSANDeserter
-  name: SAN Deserter
+  name: entity-mobhumansandeserter-name
   components:
     - type: Loadout
       prototypes: [SANDeserterGearFull]
@@ -71,7 +71,7 @@
 - type: entity
   parent: BaseMindRoleAntag
   id: MindRoleDeserter
-  name: SAN Deserter Role
+  name: entity-mindroledeserter-name
   components:
   - type: MindRole
     antagPrototype: SANDeserter

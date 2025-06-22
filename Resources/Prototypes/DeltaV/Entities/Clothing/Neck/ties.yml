@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckTieWhite
-  name: white tie
-  description: An ivory-white tie.
+  name: entity-clothingnecktiewhite-name
+  description: entity-clothingnecktiewhite-description
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Neck/Ties/whitetie.rsi
@@ -13,8 +13,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckTieBlack
-  name: black tie
-  description: A charcoal-black tie.
+  name: entity-clothingnecktieblack-name
+  description: entity-clothingnecktieblack-description
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Neck/Ties/blacktie.rsi
@@ -24,8 +24,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckTieBrown
-  name: brown tie
-  description: A chocolate-brown tie.
+  name: entity-clothingnecktiebrown-name
+  description: entity-clothingnecktiebrown-description
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Neck/Ties/browntie.rsi
@@ -35,8 +35,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckTieBlue
-  name: blue tie
-  description: A cerulean-blue tie.
+  name: entity-clothingnecktieblue-name
+  description: entity-clothingnecktieblue-description
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Neck/Ties/bluetie.rsi
@@ -46,8 +46,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckTieGreen
-  name: green tie
-  description: A grass-green tie.
+  name: entity-clothingnecktiegreen-name
+  description: entity-clothingnecktiegreen-description
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Neck/Ties/greentie.rsi
@@ -57,8 +57,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckTieChem
-  name: chemistry tie
-  description: An safety-orange tie.
+  name: entity-clothingnecktiechem-name
+  description: entity-clothingnecktiechem-description
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Neck/Ties/chemtie.rsi

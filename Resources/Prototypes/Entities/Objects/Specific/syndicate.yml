@@ -1,9 +1,9 @@
 - type: entity
-  name: telecrystal
+  name: entity-telecrystal-name
   parent: BaseItem
   id: Telecrystal
   suffix: 20 TC
-  description: It seems to be pulsing with suspiciously enticing energies.
+  description: entity-telecrystal-description
   components:
   - type: Sprite
     sprite: Objects/Specific/Syndicate/telecrystal.rsi
@@ -53,8 +53,8 @@
 - type: entity
   parent: [ BaseItem, StorePresetUplink ]
   id: BaseUplinkRadio
-  name: syndicate uplink
-  description: Suspiciously looking old radio...
+  name: entity-baseuplinkradio-name
+  description: entity-baseuplinkradio-description
   suffix: Empty
   components:
   - type: Sprite

@@ -1,7 +1,7 @@
 - type: entity
   id: FloorWaterEntity
-  name: water
-  description: A real thirst quencher.
+  name: entity-floorwaterentity-name
+  description: entity-floorwaterentity-description
   placement:
     mode: SnapgridCenter
     snap:

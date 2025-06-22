@@ -1,8 +1,8 @@
 - type: entity
-  name: chocolate skull
+  name: entity-foodsnackcandyskullchocolate-name
   parent: FoodSnackBase
   id: FoodSnackCandySkullChocolate
-  description: A regular chocolate skull candy. Tastes like death.
+  description: entity-foodsnackcandyskullchocolate-description
   components:
   - type: FlavorProfile
     flavors:
@@ -25,10 +25,10 @@
           Quantity: 1
 
 - type: entity
-  name: candy skull
+  name: entity-foodsnackcandyskull-name
   parent: FoodSnackBase
   id: FoodSnackCandySkull
-  description: A regular skull candy. Tastes like death.
+  description: entity-foodsnackcandyskull-description
   components:
   - type: FlavorProfile
     flavors:
@@ -46,10 +46,10 @@
           Quantity: 5
 
 - type: entity
-  name: candy skull
+  name: entity-foodsnackcandyskull-name
   parent: FoodSnackBase
   id: FoodSnackCandyGhost
-  description: A regular ghost candy. Tastes like death and ectoplasm.
+  description: entity-foodsnackcandyghost-description
   components:
   - type: FlavorProfile
     flavors:
@@ -67,10 +67,10 @@
           Quantity: 5
 
 - type: entity
-  name: candy pumpkin
+  name: entity-foodsnackcandypumpkin-name
   parent: FoodSnackBase
   id: FoodSnackCandyPumpkin
-  description: A regular pumpkin candy. Tastes like pumpkin, nothing unexpeccted.
+  description: entity-foodsnackcandypumpkin-description
   components:
   - type: FlavorProfile
     flavors:
@@ -88,10 +88,10 @@
           Quantity: 5
 
 - type: entity
-  name: cotton
+  name: entity-foodsnackcandycotton-name
   parent: FoodSnackBase
   id: FoodSnackCandyCotton
-  description: A regular cotton candy. Tastes sweet and airy.
+  description: entity-foodsnackcandycotton-description
   components:
   - type: FlavorProfile
     flavors:
@@ -109,10 +109,10 @@
           Quantity: 5
 
 - type: entity
-  name: lollipop
+  name: entity-foodsnackcandylollipoppink-name
   parent: FoodSnackBase
   id: FoodSnackCandyLollipopPink
-  description: A regular lollipop. Tastes very sweet.
+  description: entity-foodsnackcandylollipoppink-description
   components:
   - type: FlavorProfile
     flavors:
@@ -130,10 +130,10 @@
           Quantity: 5
 
 - type: entity
-  name: lollipop
+  name: entity-foodsnackcandylollipoppink-name
   parent: FoodSnackBase
   id: FoodSnackCandyLollipopGreen
-  description: A regular lollipop.Tastes like an apple.
+  description: entity-foodsnackcandylollipopgreen-description
   components:
   - type: FlavorProfile
     flavors:
@@ -151,10 +151,10 @@
           Quantity: 5
 
 - type: entity
-  name: lollipop
+  name: entity-foodsnackcandylollipoppink-name
   parent: FoodSnackBase
   id: FoodSnackCandyLollipopOrange
-  description: A regular lollipop.Tastes like an orange.
+  description: entity-foodsnackcandylollipoporange-description
   components:
   - type: FlavorProfile
     flavors:
@@ -172,10 +172,10 @@
           Quantity: 5
 
 - type: entity
-  name: lollipop
+  name: entity-foodsnackcandylollipoppink-name
   parent: FoodSnackBase
   id: FoodSnackCandyLollipopRainbow
-  description: A regular lollipop. Tastes very sweet.
+  description: entity-foodsnackcandylollipoppink-description
   components:
   - type: FlavorProfile
     flavors:
@@ -193,10 +193,10 @@
           Quantity: 5
 
 - type: entity
-  name: gummy bear
+  name: entity-foodsnackcandygummybear-name
   parent: FoodSnackBase
   id: FoodSnackCandyGummyBear
-  description: A regular gummy bear. Tastes sweet.
+  description: entity-foodsnackcandygummybear-description
   components:
   - type: FlavorProfile
     flavors:
@@ -221,10 +221,10 @@
           Quantity: 15
 
 - type: entity
-  name: small gummy bear
+  name: entity-foodsnackcandygummybearsmall-name
   parent: FoodSnackBase
   id: FoodSnackCandyGummyBearSmall
-  description: A regular small gummy bear. Tastes sweet.
+  description: entity-foodsnackcandygummybearsmall-description
   components:
   - type: FlavorProfile
     flavors:
@@ -248,10 +248,10 @@
           Quantity: 5
 
 - type: entity
-  name: big gummy bear
+  name: entity-foodsnackcandygummybearbigvalera-name
   parent: FoodSnackBase
   id: FoodSnackCandyGummyBearBigValera
-  description: A regular big gummy bear. Tastes sweet, like the pain of this bear from various experiments and like memories. For some reason you want to call him Valera.
+  description: entity-foodsnackcandygummybearbigvalera-description
   components:
   - type: FlavorProfile
     flavors:
@@ -270,10 +270,10 @@
           Quantity: 50
 
 - type: entity
-  name: small gummy bear
+  name: entity-foodsnackcandygummybearsmall-name
   parent: FoodSnackBase
   id: FoodSnackCandyGummyBearSmallValera
-  description: A regular small gummy bear. Tastes sweet. For some reason you want to call him Valera.
+  description: entity-foodsnackcandygummybearsmallvalera-description
   components:
   - type: FlavorProfile
     flavors:
@@ -291,10 +291,10 @@
           Quantity: 5
 
 - type: entity
-  name: gummy bear
+  name: entity-foodsnackcandygummybear-name
   parent: FoodSnackBase
   id: FoodSnackCandyGummyBearValera
-  description: A regular gummy bear. Tastes sweet. For some reason you want to call him Valera.
+  description: entity-foodsnackcandygummybearvalera-description
   components:
   - type: FlavorProfile
     flavors:
@@ -313,10 +313,10 @@
           Quantity: 15
 
 - type: entity
-  name: gummy bean
+  name: entity-foodsnackcandygummybeanbrown-name
   parent: FoodSnackBase
   id: FoodSnackCandyGummyBeanBrown
-  description: A regular gummy bean. Tastes like Cola.
+  description: entity-foodsnackcandygummybeanbrown-description
   components:
   - type: FlavorProfile
     flavors:
@@ -334,10 +334,10 @@
           Quantity: 5
 
 - type: entity
-  name: gummy bean
+  name: entity-foodsnackcandygummybeanbrown-name
   parent: FoodSnackBase
   id: FoodSnackCandyGummyBeanGreen
-  description: A regular gummy bean. Tastes like an apple.
+  description: entity-foodsnackcandygummybeangreen-description
   components:
   - type: FlavorProfile
     flavors:
@@ -355,10 +355,10 @@
           Quantity: 5
 
 - type: entity
-  name: gummy bean
+  name: entity-foodsnackcandygummybeanbrown-name
   parent: FoodSnackBase
   id: FoodSnackCandyGummyBeanPink
-  description: A regular gummy bean. Tastes very sweet.
+  description: entity-foodsnackcandygummybeanpink-description
   components:
   - type: FlavorProfile
     flavors:
@@ -376,10 +376,10 @@
           Quantity: 5
 
 - type: entity
-  name: gummy bean
+  name: entity-foodsnackcandygummybeanbrown-name
   parent: FoodSnackBase
   id: FoodSnackCandyGummyBeanRed
-  description: A regular gummy bean. Tastes like strawberry.
+  description: entity-foodsnackcandygummybeanred-description
   components:
   - type: FlavorProfile
     flavors:
@@ -397,10 +397,10 @@
           Quantity: 5
 
 - type: entity
-  name: gummy bean
+  name: entity-foodsnackcandygummybeanbrown-name
   parent: FoodSnackBase
   id: FoodSnackCandyGummyBeanWhite
-  description: A regular gummy bean. Tastes like party and confetti.
+  description: entity-foodsnackcandygummybeanwhite-description
   components:
   - type: FlavorProfile
     flavors:
@@ -418,10 +418,10 @@
           Quantity: 5
 
 - type: entity
-  name: gummy eye
+  name: entity-foodsnackcandygummyeye-name
   parent: BaseItem
   id: FoodSnackCandyGummyEye
-  description: A regular gummy eye in a wrapper.
+  description: entity-foodsnackcandygummyeye-description
   components:
   - type: Sprite
     sprite: _White/Objects/Consumable/Food/candy.rsi
@@ -436,10 +436,10 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
-  name: gummy eye
+  name: entity-foodsnackcandygummyeye-name
   parent: FoodSnackBase
   id: FoodSnackCandyGummyEyeOpen
-  description: A regular gummy eye. Tastes sweet and like photoreceptors in the eye.
+  description: entity-foodsnackcandygummyeyeopen-description
   components:
   - type: FlavorProfile
     flavors:
@@ -459,7 +459,7 @@
 - type: entity
   parent: FoodPacketTrash
   id: FoodPacketCandyGummyEyeTrash
-  name: gymmy eye wrapper
+  name: entity-foodpacketcandygummyeyetrash-name
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: TegCenter
-  name: thermo-electric generator
-  description: A high efficiency generator that uses energy transfer between hot and cold gases to produce electricity.
+  name: entity-tegcenter-name
+  description: entity-tegcenter-description
   parent: BaseMachinePowered
   placement:
     mode: SnapgridCenter
@@ -103,8 +103,8 @@
 
 - type: entity
   id: TegCirculator
-  name: circulator
-  description: Passes gas through the thermo-electric generator to exchange heat. Has an inlet and outlet port.
+  name: entity-tegcirculator-name
+  description: entity-tegcirculator-description
   parent: BaseMachine
   placement:
     mode: SnapgridCenter

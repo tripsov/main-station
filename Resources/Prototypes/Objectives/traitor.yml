@@ -53,8 +53,8 @@
   categories: [HideSpawnMenu]
   parent: [BaseTraitorObjective, BaseLivingObjective]
   id: EscapeShuttleObjective
-  name: Escape to centcom alive and unrestrained.
-  description: One of our undercover agents will debrief you when you arrive. Don't show up in cuffs.
+  name: entity-escapeshuttleobjective-name
+  description: entity-escapeshuttleobjective-description
   components:
   - type: Objective
     title: objective-condition-escape-shuttle-title # WWDP Localization
@@ -69,8 +69,8 @@
   categories: [HideSpawnMenu]
   parent: BaseTraitorObjective
   id: DieObjective
-  name: Die a glorious death
-  description: Die.
+  name: entity-dieobjective-name
+  description: entity-dieobjective-description
   components:
   - type: Objective
     title: objective-condition-die-title # WWDP Localization
@@ -90,8 +90,8 @@
   categories: [HideSpawnMenu]
   parent: [BaseTraitorObjective, BaseLivingObjective]
   id: HijackShuttleObjective
-  name: Hijack emergency shuttle
-  description: Leave on the shuttle free and clear of the loyal Nanotrasen crew on board. Use ANY methods available to you. Syndicate agents, Nanotrasen enemies, and handcuffed hostages may remain alive on the shuttle. Ignore assistance from anyone other than a support agent.
+  name: entity-hijackshuttleobjective-name
+  description: entity-hijackshuttleobjective-description
   components:
   - type: Objective
     title: objective-condition-hijack-title # WWDP Localization
@@ -108,7 +108,7 @@
   categories: [HideSpawnMenu]
   parent: [BaseTraitorObjective, BaseKillObjective]
   id: KillRandomPersonObjective
-  description: Do it however you like, just make sure they don't make it to centcom.
+  description: entity-killrandompersonobjective-description
   components:
   - type: Objective
     description: objective-condition-kill-person-description # WWDP Localization, title is done in TargetObjective
@@ -122,7 +122,7 @@
   categories: [HideSpawnMenu]
   parent: [BaseTraitorObjective, BaseKillObjective]
   id: KillRandomHeadObjective
-  description: We need this head gone and you probably know why. Good luck, agent.
+  description: entity-killrandomheadobjective-description
   components:
   - type: Objective
     description: objective-condition-kill-person-description # WWDP Localization, title is done in TargetObjective
@@ -144,7 +144,7 @@
   categories: [HideSpawnMenu]
   parent: [BaseTraitorSocialObjective, BaseKeepAliveObjective]
   id: RandomTraitorAliveObjective
-  description: Identify yourself at your own risk. We just need them alive.
+  description: entity-randomtraitoraliveobjective-description
   components:
   - type: Objective
     description: objective-condition-other-traitor-alive-description # WWDP Localization, title is done in TargetObjective
@@ -157,7 +157,7 @@
   categories: [HideSpawnMenu]
   parent: [BaseTraitorSocialObjective, BaseHelpProgressObjective]
   id: RandomTraitorProgressObjective
-  description: Identify yourself at your own risk. We just need them to succeed.
+  description: entity-randomtraitorprogressobjective-description
   components:
   - type: Objective
     description: objective-condition-other-traitor-progress-description # WWDP Localization, title is done in TargetObjective

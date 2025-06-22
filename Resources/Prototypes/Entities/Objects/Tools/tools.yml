@@ -1,8 +1,8 @@
 - type: entity
-  name: wirecutter
+  name: entity-wirecutter-name
   parent: BaseItem
   id: Wirecutter
-  description: This kills the wire.
+  description: entity-wirecutter-description
   components:
   - type: EmitSoundOnPickup
     sound:
@@ -93,10 +93,10 @@
         friction: 0.2
 
 - type: entity
-  name: screwdriver
+  name: entity-screwdriver-name
   parent: BaseItem
   id: Screwdriver
-  description: Industrial grade torque in a small screwdriving package.
+  description: entity-screwdriver-description
   components:
   - type: EmitSoundOnPickup
     sound:
@@ -183,7 +183,7 @@
         friction: 0.2
 
 - type: entity
-  name: wrench
+  name: entity-wrench-name
   parent: BaseItem
   id: Wrench
   description: 'A common tool for assembly and disassembly. Remember: righty tighty, lefty loosey.'
@@ -252,10 +252,10 @@
         friction: 0.2
 
 - type: entity
-  name: crowbar
+  name: entity-crowbar-name
   parent: BaseItem
   id: Crowbar
-  description: A multipurpose tool to pry open doors and fight interdimensional invaders.
+  description: entity-crowbar-description
   components:
   - type: EmitSoundOnPickup
     sound:
@@ -329,7 +329,7 @@
 - type: entity
   parent: Crowbar
   id: CrowbarRed
-  name: emergency crowbar
+  name: entity-crowbarred-name
   components:
   - type: Tag
     tags:
@@ -344,10 +344,10 @@
       state: red-storage
 
 - type: entity
-  name: multitool
+  name: entity-multitool-name
   parent: BaseItem
   id: Multitool
-  description: An advanced tool to copy, store, and send electrical pulses and signals through wires and machines
+  description: entity-multitool-description
   components:
   - type: EmitSoundOnPickup
     sound: /Audio/SimpleStation14/Items/Handling/multitool_pickup.ogg
@@ -419,10 +419,10 @@
         friction: 0.2
 
 - type: entity
-  name: network configurator
+  name: entity-networkconfigurator-name
   parent: BaseItem
   id: NetworkConfigurator
-  description: A tool for linking devices together. Has two modes, a list mode for mass linking devices and a linking mode for advanced device linking.
+  description: entity-networkconfigurator-description
   components:
     - type: EmitSoundOnLand
       sound:
@@ -483,10 +483,10 @@
 #Power tools
 #Later on these should switch probably switch damage when changing the tool behavior.
 - type: entity
-  name: power drill
+  name: entity-powerdrill-name
   parent: BaseItem
   id: PowerDrill
-  description: A simple powered hand drill.
+  description: entity-powerdrill-description
   components:
   - type: Tag
     tags:
@@ -570,8 +570,8 @@
 - type: entity
   id: RCD
   parent: BaseItem
-  name: RCD
-  description: The rapid construction device can be used to quickly place and remove various station structures and fixtures. Requires compressed matter to function.
+  name: entity-rcd-name
+  description: entity-rcd-description
   components:
   - type: RCD
     availablePrototypes:
@@ -640,8 +640,8 @@
 - type: entity
   id: RPD
   parent: RCD
-  name: RPD
-  description: A device used to rapidly pipe things.
+  name: entity-rpd-name
+  description: entity-rpd-description
   components:
   - type: Tag
     tags:
@@ -754,8 +754,8 @@
 - type: entity
   id: RCDRecharging
   parent: RCD
-  name: experimental RCD
-  description: A bluespace-enhanced rapid construction device that passively generates its own compressed matter.
+  name: entity-rcdrecharging-name
+  description: entity-rcdrecharging-description
   suffix: AutoRecharge
   components:
   - type: LimitedCharges
@@ -768,8 +768,8 @@
   id: RCDExperimental
   parent: RCD
   suffix: Admeme
-  name: experimental RCD
-  description: A bluespace-enhanced rapid construction device that passively generates its own compressed matter.
+  name: entity-rcdrecharging-name
+  description: entity-rcdrecharging-description
   components:
   - type: AutoRecharge
     rechargeDuration: 1
@@ -777,8 +777,8 @@
 - type: entity
   id: RPDRecharging
   parent: RPD
-  name: experimental RPD
-  description: A bluespace-enhanced rapid piping device that passively generates its own compressed matter.
+  name: entity-rpdrecharging-name
+  description: entity-rpdrecharging-description
   suffix: AutoRecharge
   components:
   - type: LimitedCharges
@@ -791,17 +791,17 @@
   id: RPDExperimental
   parent: RPD
   suffix: Admeme
-  name: experimental RPD
-  description: A bluespace-enhanced rapid piping device that passively generates its own compressed matter.
+  name: entity-rpdrecharging-name
+  description: entity-rpdrecharging-description
   components:
   - type: AutoRecharge
     rechargeDuration: 1
 
 - type: entity
-  name: compressed matter
+  name: entity-rcdammo-name
   parent: BaseItem
   id: RCDAmmo
-  description: A cartridge of raw matter compacted by bluespace technology. Used in rapid construction devices.
+  description: entity-rcdammo-description
   components:
   - type: RCDAmmo
   - type: Sprite
@@ -824,10 +824,10 @@
       - RCDAmmo
 
 - type: entity
-  name: omnitool
+  name: entity-omnitool-name
   parent: BaseItem
   id: Omnitool
-  description: A drone's best friend.
+  description: entity-omnitool-description
   components:
   - type: Sprite
     sprite: Objects/Tools/omnitool.rsi
@@ -890,10 +890,10 @@
 
 #Other
 - type: entity
-  name: shovel
+  name: entity-shovel-name
   parent: BaseItem
   id: Shovel
-  description: A large tool for digging and moving dirt.
+  description: entity-shovel-description
   components:
   - type: Sprite
     sprite: Objects/Tools/shovel.rsi
@@ -938,8 +938,8 @@
 - type: entity
   parent: BaseItem
   id: RollingPin
-  name: rolling pin
-  description: A tool used to shape and flatten dough.
+  name: entity-rollingpin-name
+  description: entity-rollingpin-description
   components:
   - type: Sprite
     sprite: Objects/Tools/rolling_pin.rsi

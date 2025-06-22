@@ -1,8 +1,8 @@
 ﻿- type: entity
   id: StationAICoreCircuitboard
   parent: BaseElectronics
-  name: AI core machine board
-  description: A machine printed circuit board for a station AI core.
+  name: entity-stationaicorecircuitboard-name
+  description: entity-stationaicorecircuitboard-description
   components:
   - type: PhysicalComposition
     materialComposition:
@@ -16,8 +16,8 @@
 - type: entity
   id: WeaponTurretModularCircuitBoard
   parent: BaseMachineCircuitboard
-  name: modular turret machine board
-  description: Circuitboard for a modular turret, which is a fancy way of saying "a servomotor tied to a gun's trigger with a string".
+  name: entity-weaponturretmodularcircuitboard-name
+  description: entity-weaponturretmodularcircuitboard-description
   components:
   - type: Sprite
     state: engineering

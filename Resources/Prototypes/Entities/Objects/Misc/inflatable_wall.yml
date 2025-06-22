@@ -1,7 +1,7 @@
 - type: entity
   id: InflatableWall
-  name: inflatable barricade
-  description: An inflated membrane. Activate to deflate. Do not puncture.
+  name: entity-inflatablewall-name
+  description: entity-inflatablewall-description
   components:
   - type: Clickable
   - type: InteractionOutline
@@ -41,9 +41,9 @@
 
 - type: entity
   id: InflatableDoor
-  name: inflatable door
+  name: entity-inflatabledoor-name
   parent: BaseMaterialDoor
-  description: An inflated membrane. Activate to deflate. Now with a door. Do not puncture.
+  description: entity-inflatabledoor-description
   components:
   - type: Clickable
   - type: InteractionOutline

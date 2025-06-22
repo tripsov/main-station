@@ -1,6 +1,6 @@
 - type: entity
-  name: betrayal dagger
-  description: Watch your back.
+  name: entity-betrayaldagger-name
+  description: entity-betrayaldagger-description
   parent: BaseKnife
   id: BetrayalDagger
   components:
@@ -33,8 +33,8 @@
       blinkRate: 0.33
 
 - type: entity
-  name: blood dagger
-  description: A dagger of pain and blood. Something is dripping from it...
+  name: entity-blooddagger-name
+  description: entity-blooddagger-description
   parent: BaseKnife
   id: BloodDagger
   components:

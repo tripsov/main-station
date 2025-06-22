@@ -1,7 +1,7 @@
 - type: entity
   id: SpiderWeb
-  name: spider web
-  description: It's stringy and sticky.
+  name: entity-spiderweb-name
+  description: entity-spiderweb-description
   placement:
     mode: SnapgridCenter
     snap:
@@ -82,8 +82,8 @@
 
 - type: entity
   id: SpiderWebClown
-  name: clown spider web
-  description: It's stringy and slippy.
+  name: entity-spiderwebclown-name
+  description: entity-spiderwebclown-description
   placement:
     mode: SnapgridCenter
     snap:

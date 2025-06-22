@@ -2,7 +2,7 @@
   parent: [ClothingEyesBase, ShowSecurityIcons, ShowMedicalIcons]
   id: ClothingEyesGlassesMedSec
   name: medsec glasses # WWDP
-  description: Sunglasses with a medical and security hud
+  description: entity-clothingeyesglassesmedsec-description
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Eyes/Glasses/medglasses.rsi

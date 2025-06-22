@@ -13,7 +13,7 @@
 
 - type: entity
   id: DebugConsumer
-  name: consumer
+  name: entity-debugconsumer-name
   suffix: DEBUG
   placement:
     mode: SnapgridCenter
@@ -58,7 +58,7 @@
 
 - type: entity
   id: DebugBatteryStorage
-  name: battery storage
+  name: entity-debugbatterystorage-name
   suffix: DEBUG
   placement:
     mode: SnapgridCenter
@@ -91,7 +91,7 @@
 
 - type: entity
   id: DebugBatteryDischarger
-  name: battery discharger
+  name: entity-debugbatterydischarger-name
   suffix: DEBUG
   placement:
     mode: SnapgridCenter
@@ -153,7 +153,7 @@
 
 - type: entity
   id: DebugPowerReceiver
-  name: power receiver
+  name: entity-debugpowerreceiver-name
   suffix: DEBUG
   placement:
     mode: SnapgridCenter

@@ -1,8 +1,8 @@
 - type: entity
-  name: haycutters
+  name: entity-haycutters-name
   parent: BaseItem
   id: Haycutters
-  description: This kills the wire. Moo!
+  description: entity-haycutters-description
   components:
   - type: Tag
     tags:
@@ -26,10 +26,10 @@
     sprite: Objects/Tools/Cowtools/haycutters.rsi
 
 - type: entity
-  name: moodriver
+  name: entity-moodriver-name
   parent: BaseItem
   id: Moodriver
-  description: Turn to use. Moo!
+  description: entity-moodriver-description
   components:
   - type: Sprite
     sprite: Objects/Tools/Cowtools/moodriver.rsi
@@ -49,10 +49,10 @@
     speedModifier: 0.05
 
 - type: entity
-  name: wronch
+  name: entity-wronch-name
   parent: BaseItem
   id: Wronch
-  description: Wronch thing. Moo!
+  description: entity-wronch-description
   components:
   - type: Sprite
     sprite: Objects/Tools/Cowtools/wronch.rsi
@@ -72,10 +72,10 @@
     speedModifier: 0.05
 
 - type: entity
-  name: cowbar
+  name: entity-cowbar-name
   parent: BaseItem
   id: Cowbar
-  description: Cow your problems away. Moo!
+  description: entity-cowbar-description
   components:
   - type: Sprite
     sprite: Objects/Tools/Cowtools/cowbar.rsi
@@ -98,10 +98,10 @@
   - type: Prying
 
 - type: entity
-  name: mooltitool
+  name: entity-mooltitool-name
   parent: BaseItem
   id: Mooltitool
-  description: An crude tool to copy, store, and send electrical pulses and signals through wires and machines. Moo!
+  description: entity-mooltitool-description
   components:
   - type: Sprite
     sprite: Objects/Tools/Cowtools/mooltitool.rsi
@@ -116,7 +116,7 @@
       - Multitool
 
 - type: entity
-  name: cowelding tool
+  name: entity-cowelder-name
   parent: Welder
   id: Cowelder
   description: "Melts anything as long as it's fueled, don't forget your eye protection! Moo!"
@@ -130,10 +130,10 @@
     speedModifier: 0.05
 
 - type: entity
-  name: milkalyzer
+  name: entity-milkalyzer-name
   parent: BaseItem
   id: Milkalyzer
-  description: A hand-held environmental scanner which reports current gas levels. Moo!
+  description: entity-milkalyzer-description
   components:
   - type: Sprite
     sprite: Objects/Tools/Cowtools/milkalyzer.rsi
@@ -147,10 +147,10 @@
   - type: Appearance
 
 - type: entity
-  name: cow toolbox
+  name: entity-cowtoolbox-name
   parent: ToolboxBase
   id: CowToolbox
-  description: A weirdly shaped box, stocked with... tools?
+  description: entity-cowtoolbox-description
   components:
   - type: Sprite
     sprite: Objects/Tools/Cowtools/cow_toolbox.rsi
@@ -164,7 +164,7 @@
 
 - type: entity
   id: CowToolboxFilled
-  name: cow toolbox
+  name: entity-cowtoolbox-name
   suffix: Filled
   parent: CowToolbox
   components:

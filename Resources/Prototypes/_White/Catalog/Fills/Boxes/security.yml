@@ -1,8 +1,8 @@
 - type: entity
-  name: barrier grenade box
+  name: entity-boxgrenadebarrier-name
   parent: BoxCardboard
   id: BoxGrenadeBarrier
-  description: A box full of barrier grenades.
+  description: entity-boxgrenadebarrier-description
   components:
   - type: StorageFill
     contents:

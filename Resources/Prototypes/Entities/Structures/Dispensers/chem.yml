@@ -1,9 +1,9 @@
 - type: entity
   id: ChemDispenser
-  name: chemical dispenser
+  name: entity-chemdispenser-name
   suffix: Filled
   parent: ReagentDispenserBase
-  description: An industrial grade chemical dispenser.
+  description: entity-chemdispenser-description
   components:
   - type: Sprite
     sprite: Structures/dispensers.rsi
@@ -43,7 +43,7 @@
 
 - type: entity
   id: ChemDispenserEmpty
-  name: chemical dispenser
+  name: entity-chemdispenser-name
   suffix: Empty
   parent: ChemDispenser
   components:

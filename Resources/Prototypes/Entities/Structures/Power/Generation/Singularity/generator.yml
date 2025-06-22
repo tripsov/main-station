@@ -1,7 +1,7 @@
 - type: entity
   id: SingularityGenerator
-  name: gravitational singularity generator
-  description: An Odd Device which produces a Gravitational Singularity when set up.
+  name: entity-singularitygenerator-name
+  description: entity-singularitygenerator-description
   placement:
     mode: SnapgridCenter
   components:

@@ -1,5 +1,5 @@
 - type: entity
-  name: Random Folder Spawner
+  name: entity-folderspawner-name
   id: FolderSpawner
   parent: MarkerBase
   placement:

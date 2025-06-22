@@ -19,8 +19,8 @@
 
 - type: entity
   id: ActionToggleMask
-  name: Toggle Mask
-  description: Handy, but prevents insertion of pie into your pie hole.
+  name: entity-actiontogglemask-name
+  description: entity-actiontogglemask-description
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction

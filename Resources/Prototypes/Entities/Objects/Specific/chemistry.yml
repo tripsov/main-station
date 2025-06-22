@@ -157,9 +157,9 @@
     price: 30
 
 - type: entity
-  name: beaker
+  name: entity-beaker-name
   parent: BaseBeaker
-  description: Used to contain a moderate amount of chemicals and solutions.
+  description: entity-beaker-description
   id: Beaker
   components:
   - type: Spillable
@@ -176,8 +176,8 @@
     inHandsFillBaseName: -fill-
 
 - type: entity
-  name: cryoxadone beaker
-  description: Filled with a reagent used in cryogenic tubes.
+  name: entity-cryoxadonebeakersmall-name
+  description: entity-cryoxadonebeakersmall-description
   parent: Beaker
   id: CryoxadoneBeakerSmall
   components:
@@ -190,9 +190,9 @@
           Quantity: 50
 
 - type: entity
-  name: large beaker
+  name: entity-largebeaker-name
   parent: BaseBeaker
-  description: Used to contain a large amount of chemicals or solutions.
+  description: entity-largebeaker-description
   id: LargeBeaker
   components:
   - type: Spillable
@@ -224,9 +224,9 @@
     price: 20
 
 - type: entity
-  name: cryostasis beaker
+  name: entity-cryostasisbeaker-name
   parent: BaseBeakerMetallic
-  description: Used to contain chemicals or solutions without reactions.
+  description: entity-cryostasisbeaker-description
   id: CryostasisBeaker
   components:
   - type: Spillable
@@ -246,9 +246,9 @@
       - CryostasisBeaker
 
 - type: entity
-  name: bluespace beaker
+  name: entity-bluespacebeaker-name
   parent: BaseBeakerMetallic
-  description: Powered by experimental bluespace technology.
+  description: entity-bluespacebeaker-description
   id: BluespaceBeaker
   components:
   - type: Spillable
@@ -267,9 +267,9 @@
       - BluespaceBeaker
 
 - type: entity
-  name: dropper
+  name: entity-dropper-name
   parent: BaseItem
-  description: Used to transfer small amounts of chemical solution between containers.
+  description: entity-dropper-description
   id: Dropper
   components:
   - type: Sprite
@@ -310,9 +310,9 @@
     price: 40
 
 - type: entity
-  name: borgdropper
+  name: entity-borgdropper-name
   parent: Dropper
-  description: Used to transfer small amounts of chemical solution between containers. Extended for use by medical borgs.
+  description: entity-borgdropper-description
   id: BorgDropper
   components:
   - type: Sprite
@@ -330,9 +330,9 @@
     sprite: Objects/Specific/Chemistry/dropper.rsi
 
 - type: entity
-  name: disposable syringe
+  name: entity-disposablesyringe-name
   parent: BaseItem
-  description: Used to inject mobs with controlled dosages of specific reagents. One-time use.
+  description: entity-disposablesyringe-description
   id: DisposableSyringe
   components:
   - type: Sprite
@@ -370,9 +370,9 @@
     inHandsFillBaseName: -fill-
 
 - type: entity
-  name: syringe
+  name: entity-basesyringe-name
   parent: BaseItem
-  description: Used to draw blood samples from mobs, or to inject them with reagents.
+  description: entity-basesyringe-description
   id: BaseSyringe
   abstract: true
   components:
@@ -435,8 +435,8 @@
 - type: entity
   id: SyringeBluespace
   parent: BaseSyringe
-  name: bluespace syringe
-  description: Injecting with advanced bluespace technology.
+  name: entity-syringebluespace-name
+  description: entity-syringebluespace-description
   components:
   - type: Sprite
     layers:
@@ -471,8 +471,8 @@
 - type: entity
   id: SyringeCryostasis
   parent: BaseSyringe
-  name: cryostasis syringe
-  description: A syringe used to contain chemicals or solutions without reactions.
+  name: entity-syringecryostasis-name
+  description: entity-syringecryostasis-description
   components:
   - type: Sprite
     layers:
@@ -505,10 +505,10 @@
       - SyringeCryostasis
 
 - type: entity
-  name: pill
+  name: entity-pill-name
   parent: BaseItem
   id: Pill
-  description: It's not a suppository.
+  description: entity-pill-description
   components:
   - type: Sprite
     sprite: Objects/Specific/Chemistry/pills.rsi
@@ -552,10 +552,10 @@
     - Pill
 
 - type: entity
-  name: pill canister
+  name: entity-pillcanister-name
   id: PillCanister
   parent: BaseStorageItem
-  description: Holds up to 10 pills.
+  description: entity-pillcanister-description
   components:
   - type: Item
     size: Tiny
@@ -577,9 +577,9 @@
   - type: Dumpable
 
 - type: entity
-  name: mini syringe
+  name: entity-minisyringe-name
   parent: Syringe
-  description: A regular syringe, reshaped to fit inside of a gun.
+  description: entity-minisyringe-description
   id: MiniSyringe
   components:
   - type: Sprite

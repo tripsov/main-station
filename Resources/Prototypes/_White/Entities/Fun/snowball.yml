@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: ItemSnowballMaker
-  name: snowball maker
-  description: Makes snowballs.
+  name: entity-itemsnowballmaker-name
+  description: entity-itemsnowballmaker-description
   components:
   - type: Sprite
     sprite: _White/Objects/Misc/snowball_maker.rsi
@@ -24,8 +24,8 @@
 - type: entity
   parent: [BaseItem, FoodBase]
   id: ItemSnowball
-  name: snowball
-  description: Iced.
+  name: entity-itemsnowball-name
+  description: entity-itemsnowball-description
   components:
   - type: Damageable
     damageContainer: Inorganic

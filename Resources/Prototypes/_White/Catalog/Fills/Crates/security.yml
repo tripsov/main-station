@@ -1,8 +1,8 @@
 - type: entity
   parent: CrateSecgear
   id: CrateSecurityGrenadeBarrier
-  name: grenade barrier crate
-  description: Contains four barrier grenades. Requires Security access to open.
+  name: entity-cratesecuritygrenadebarrier-name
+  description: entity-cratesecuritygrenadebarrier-description
   components:
   - type: StorageFill
     contents:

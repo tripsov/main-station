@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatBomber
-  name: bomber jacket
-  description: A thick, well-worn WW2 leather bomber jacket.
+  name: entity-clothingoutercoatbomber-name
+  description: entity-clothingoutercoatbomber-description
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/bomber.rsi
@@ -14,8 +14,8 @@
 - type: entity
   parent: [ClothingOuterStorageBase, AllowSuitStorageClothing]
   id: ClothingOuterCoatDetective
-  name: detective trenchcoat
-  description: A rugged canvas trenchcoat, designed and created by TX Fabrication Corp. Wearing it makes you feel for the plight of the Tibetans.
+  name: entity-clothingoutercoatdetective-name
+  description: entity-clothingoutercoatdetective-description
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/detective.rsi
@@ -45,8 +45,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatGentle
-  name: gentle coat
-  description: A gentle coat for a gentle man, or woman.
+  name: entity-clothingoutercoatgentle-name
+  description: entity-clothingoutercoatgentle-description
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/gentlecoat.rsi
@@ -56,8 +56,8 @@
 - type: entity
   parent: [ClothingOuterArmorCaptainCarapace, ClothingOuterStorageBase]
   id: ClothingOuterCoatCapTrench
-  name: captain's armored trenchcoat
-  description: A greatcoat enhanced with a special alloy for some extra protection and style for those with a commanding presence, outfitted with emblems and decor befitting its wearer. Issued only to the station's finest.
+  name: entity-clothingoutercoatcaptrench-name
+  description: entity-clothingoutercoatcaptrench-description
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/cap_trenchcoat.rsi
@@ -98,8 +98,8 @@
 - type: entity
   parent: [ClothingOuterArmorHoS, ClothingOuterStorageBase]
   id: ClothingOuterCoatHoSTrench
-  name: head of security's armored trenchcoat
-  description: A greatcoat enhanced with a special alloy for some extra protection and style for those with a commanding presence.
+  name: entity-clothingoutercoathostrench-name
+  description: entity-clothingoutercoathostrench-description
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/hos_trenchcoat.rsi
@@ -119,8 +119,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatInspector
-  name: slim trench coat
-  description: A slim minimalist trench coat best worn unbuttoned.
+  name: entity-clothingoutercoatinspector-name
+  description: entity-clothingoutercoatinspector-description
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/insp_coat.rsi
@@ -130,8 +130,8 @@
 - type: entity
   parent: ClothingOuterStorageToggleableBase
   id: ClothingOuterCoatJensen
-  name: jensen coat
-  description: A jensen coat.
+  name: entity-clothingoutercoatjensen-name
+  description: entity-clothingoutercoatjensen-description
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/jensencoat.rsi
@@ -143,8 +143,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatTrench
-  name: trench coat
-  description: A comfy trench coat.
+  name: entity-clothingoutercoattrench-name
+  description: entity-clothingoutercoattrench-description
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/trenchcoat.rsi
@@ -169,8 +169,8 @@
 - type: entity
   parent: ClothingOuterStorageFoldableBase
   id: ClothingOuterCoatLab
-  name: lab coat
-  description: A suit that protects against minor chemical spills.
+  name: entity-clothingoutercoatlab-name
+  description: entity-clothingoutercoatlab-description
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/labcoat.rsi
@@ -184,13 +184,13 @@
 - type: entity
   parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatLab]
   id: ClothingOuterCoatLabOpened
-  name: lab coat
+  name: entity-clothingoutercoatlab-name
 
 - type: entity
   parent: ClothingOuterStorageFoldableBase
   id: ClothingOuterCoatLabChem
-  name: chemist lab coat
-  description: A suit that protects against minor chemical spills. Has an orange stripe on the shoulder.
+  name: entity-clothingoutercoatlabchem-name
+  description: entity-clothingoutercoatlabchem-description
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/labcoat_chem.rsi
@@ -204,13 +204,13 @@
 - type: entity
   parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatLabChem]
   id: ClothingOuterCoatLabChemOpened
-  name: chemist lab coat
+  name: entity-clothingoutercoatlabchem-name
 
 - type: entity
   parent: ClothingOuterStorageFoldableBase
   id: ClothingOuterCoatLabViro
-  name: virologist lab coat
-  description: A suit that protects against bacteria and viruses. Has an green stripe on the shoulder.
+  name: entity-clothingoutercoatlabviro-name
+  description: entity-clothingoutercoatlabviro-description
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/labcoat_viro.rsi
@@ -224,13 +224,13 @@
 - type: entity
   parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatLabViro]
   id: ClothingOuterCoatLabViroOpened
-  name: virologist lab coat
+  name: entity-clothingoutercoatlabviro-name
 
 - type: entity
   parent: ClothingOuterStorageFoldableBase
   id: ClothingOuterCoatLabGene
-  name: geneticist lab coat
-  description: A suit that protects against minor chemical spills. Has an blue stripe on the shoulder.
+  name: entity-clothingoutercoatlabgene-name
+  description: entity-clothingoutercoatlabgene-description
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/labcoat_gene.rsi
@@ -244,13 +244,13 @@
 - type: entity
   parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatLabGene]
   id: ClothingOuterCoatLabGeneOpened
-  name: geneticist lab coat
+  name: entity-clothingoutercoatlabgene-name
 
 - type: entity
   parent: ClothingOuterStorageFoldableBase
   id: ClothingOuterCoatLabCmo
-  name: chief medical officer's lab coat
-  description: Custom made blue lab coat for the Chief Medical Officer, offers improved protection against chemical spills and minor cuts
+  name: entity-clothingoutercoatlabcmo-name
+  description: entity-clothingoutercoatlabcmo-description
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/labcoat_cmo.rsi
@@ -266,13 +266,13 @@
 - type: entity
   parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatLabCmo]
   id: ClothingOuterCoatLabCmoOpened
-  name: chief medical officer's lab coat
+  name: entity-clothingoutercoatlabcmo-name
 
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatRnd
   name: epistemics lab coat # DeltaV - Epistemics Department replacing Science
-  description: A suit that protects against minor chemical spills. Has a purple stripe on the shoulder.
+  description: entity-clothingoutercoatrnd-description
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/OuterClothing/Coats/epicoat.rsi # DeltaV - Epistemic lab coat
@@ -286,13 +286,13 @@
 - type: entity
   parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatRnd]
   id: ClothingOuterCoatRndOpened
-  name: scientist lab coat
+  name: entity-clothingoutercoatrndopened-name
 
 - type: entity
   parent: ClothingOuterStorageFoldableBase
   id: ClothingOuterCoatRobo
-  name: roboticist lab coat
-  description: More like an eccentric coat than a labcoat. Helps pass off bloodstains as part of the aesthetic. Comes with red shoulder pads.
+  name: entity-clothingoutercoatrobo-name
+  description: entity-clothingoutercoatrobo-description
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/labcoat_robo.rsi
@@ -306,13 +306,13 @@
 - type: entity
   parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatRobo]
   id: ClothingOuterCoatRoboOpened
-  name: roboticist lab coat
+  name: entity-clothingoutercoatrobo-name
 
 - type: entity
   parent: ClothingOuterStorageFoldableBase
   id: ClothingOuterCoatRD
-  name: research director lab coat
-  description: Woven with top of the line technology, this labcoat helps protect against radiation in similar way to the experimental hardsuit.
+  name: entity-clothingoutercoatrd-name
+  description: entity-clothingoutercoatrd-description
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/rd_coat.rsi
@@ -327,13 +327,13 @@
 - type: entity
   parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatRD]
   id: ClothingOuterCoatRDOpened
-  name: research director lab coat
+  name: entity-clothingoutercoatrd-name
 
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatPirate
-  name: pirate garb
-  description: Yarr.
+  name: entity-clothingoutercoatpirate-name
+  description: entity-clothingoutercoatpirate-description
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/pirate.rsi
@@ -343,8 +343,8 @@
 - type: entity
   parent: [ClothingOuterArmorWarden, ClothingOuterStorageBase]
   id: ClothingOuterCoatWarden
-  name: warden's armored jacket
-  description: A sturdy, utilitarian jacket designed to protect a warden from any brig-bound threats.
+  name: entity-clothingoutercoatwarden-name
+  description: entity-clothingoutercoatwarden-description
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/warden.rsi
@@ -363,8 +363,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterDameDane
-  name: yakuza coat
-  description: Friday...
+  name: entity-clothingouterdamedane-name
+  description: entity-clothingouterdamedane-description
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/damedanecoat.rsi
@@ -374,8 +374,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterClownPriest
-  name: robes of the honkmother
-  description: Meant for a clown of the cloth.
+  name: entity-clothingouterclownpriest-name
+  description: entity-clothingouterclownpriest-description
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/clownpriest.rsi
@@ -385,8 +385,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterDogi
-  name: samurai dogi
-  description: Dogi is a type of traditional Japanese clothing. The dogi is made of heavy, durable fabric, it is practical in combat and stylish in appearance. It is decorated with intricate patterns and embroidery on the back.
+  name: entity-clothingouterdogi-name
+  description: entity-clothingouterdogi-description
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/dogi.rsi
@@ -402,8 +402,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatParamedicWB
-  name: paramedic windbreaker
-  description: A paramedic's trusty windbreaker, for all the space wind.
+  name: entity-clothingoutercoatparamedicwb-name
+  description: entity-clothingoutercoatparamedicwb-description
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/windbreaker_paramedic.rsi
@@ -413,8 +413,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatSyndieCap
-  name: syndicate's coat
-  description: The syndicate's coat is made of durable fabric, with gilded patterns.
+  name: entity-clothingoutercoatsyndiecap-name
+  description: entity-clothingoutercoatsyndiecap-description
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/syndicate/coatsyndiecap.rsi
@@ -424,8 +424,8 @@
 - type: entity
   parent: ClothingOuterCoatHoSTrench
   id: ClothingOuterCoatSyndieCapArmored
-  name: syndicate's armored coat
-  description: The syndicate's armored coat is made of durable fabric, with gilded patterns.
+  name: entity-clothingoutercoatsyndiecaparmored-name
+  description: entity-clothingoutercoatsyndiecaparmored-description
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/syndicate/coatsyndiecaparmored.rsi
@@ -435,8 +435,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatAMG
-  name: armored medical gown
-  description: The version of the medical gown, with elements of a bulletproof vest, looks strange, but your heart is protected.
+  name: entity-clothingoutercoatamg-name
+  description: entity-clothingoutercoatamg-description
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/brigmedic.rsi
@@ -454,8 +454,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatLabSeniorResearcher
-  name: senior researcher lab coat
-  description: A suit that protects against minor chemical spills. Has a purple collar and wrist trims.
+  name: entity-clothingoutercoatlabseniorresearcher-name
+  description: entity-clothingoutercoatlabseniorresearcher-description
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/labcoat_senior_researcher.rsi
@@ -469,8 +469,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatLabSeniorPhysician
-  name: senior physician lab coat
-  description: A suit that protects against minor chemical spills. Has light blue sleeves and an orange waist trim.
+  name: entity-clothingoutercoatlabseniorphysician-name
+  description: entity-clothingoutercoatlabseniorphysician-description
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/labcoat_senior_physician.rsi
@@ -484,8 +484,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatSpaceAsshole
-  name: the coat of space asshole
-  description: And there he was...
+  name: entity-clothingoutercoatspaceasshole-name
+  description: entity-clothingoutercoatspaceasshole-description
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/space_asshole.rsi
@@ -495,8 +495,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatExpensive
-  name: expensive coat
-  description: Very fluffy pink coat, made out of very expensive fur (clearly).
+  name: entity-clothingoutercoatexpensive-name
+  description: entity-clothingoutercoatexpensive-description
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/expensive_coat.rsi
@@ -506,8 +506,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterCoatModern
-  name: modern coat
-  description: A coat that has a nice finished feel.
+  name: entity-clothingoutercoatmodern-name
+  description: entity-clothingoutercoatmodern-description
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/modern_coat.rsi
@@ -517,8 +517,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterTailcoat
-  name: tailcoat
-  description: A fancy Victorian-style tailcoat.
+  name: entity-clothingoutertailcoat-name
+  description: entity-clothingoutertailcoat-description
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/tailcoat.rsi
@@ -528,8 +528,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterCoatVictorian
-  name: black victorian coat
-  description: A fancy Victorian-style coat.
+  name: entity-clothingoutercoatvictorian-name
+  description: entity-clothingoutercoatvictorian-description
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/victorian_coat.rsi
@@ -539,8 +539,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterCoatVictorianRed
-  name: red victorian coat
-  description: A fancy Victorian-style coat in a red hue.
+  name: entity-clothingoutercoatvictorianred-name
+  description: entity-clothingoutercoatvictorianred-description
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/victorian_coat_red.rsi
@@ -550,8 +550,8 @@
 - type: entity
   parent: ClothingOuterStorageFoldableBase
   id: ClothingOuterCoatPeacoat
-  name: peacoat
-  description: A well-tailored, stylish peacoat.
+  name: entity-clothingoutercoatpeacoat-name
+  description: entity-clothingoutercoatpeacoat-description
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/peacoat.rsi
@@ -561,13 +561,13 @@
 - type: entity
   parent: [ClothingOuterFoldableBaseOpened, ClothingOuterCoatPeacoat]
   id: ClothingOuterCoatPeacoatOpened
-  name: peacoat
+  name: entity-clothingoutercoatpeacoat-name
 
 - type: entity
   parent: ClothingOuterStorageFoldableBase
   id: ClothingOuterCoatAsymmetric
-  name: asymmetric coat
-  description: A solid sleeveless coat that only covers the upper body and the back of the legs.
+  name: entity-clothingoutercoatasymmetric-name
+  description: entity-clothingoutercoatasymmetric-description
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/asymmetric_coat.rsi
@@ -577,13 +577,13 @@
 - type: entity
   parent: [ClothingOuterFoldableBaseOpened, ClothingOuterCoatAsymmetric]
   id: ClothingOuterCoatAsymmetricOpened
-  name: asymmetric coat
+  name: entity-clothingoutercoatasymmetric-name
 
 - type: entity
   parent: ClothingOuterStorageFoldableBase
   id: ClothingOuterCoatSubmariner
-  name: submariner coat
-  description: A leather jacket with a synthetic fur collar perfect for exploring the caves of Submarine.
+  name: entity-clothingoutercoatsubmariner-name
+  description: entity-clothingoutercoatsubmariner-description
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/submariner.rsi
@@ -593,5 +593,5 @@
 - type: entity
   parent: [ClothingOuterFoldableBaseOpened, ClothingOuterCoatSubmariner]
   id: ClothingOuterCoatSubmarinerOpened
-  name: submariner coat
+  name: entity-clothingoutercoatsubmariner-name
 

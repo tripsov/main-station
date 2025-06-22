@@ -1,8 +1,8 @@
 - type: entity
-  name: laser raptor
+  name: entity-moblaserraptor-name
   id: MobLaserRaptor
   parent: SimpleMobBase
-  description: From the Viking age.
+  description: entity-moblaserraptor-description
   components:
     - type: Body # Shitmed Change
       prototype: LaserRaptor

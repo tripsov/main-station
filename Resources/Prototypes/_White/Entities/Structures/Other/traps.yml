@@ -1,8 +1,8 @@
 ﻿- type: entity
   id: GrenadeTrap
   parent: GrenadeTrapGrenade
-  name: booby trap
-  description: An explosive surprise.
+  name: entity-grenadetrap-name
+  description: entity-grenadetrap-description
   components:
   - type: Sprite
     sprite: _White/Structures/Other/grenadetrap.rsi
@@ -27,9 +27,9 @@
 - type: entity
   id: GrenadeTrapGrenade
   parent: GrenadeTrapPoles
-  name: booby trap
+  name: entity-grenadetrap-name
   categories: [ HideSpawnMenu ]
-  description: An explosive surprise.
+  description: entity-grenadetrap-description
   components:
   - type: Sprite
     sprite: _White/Structures/Other/grenadetrap.rsi
@@ -50,9 +50,9 @@
 - type: entity
   id: GrenadeTrapPoles
   parent: BaseStructure
-  name: booby trap
+  name: entity-grenadetrap-name
   categories: [ HideSpawnMenu ]
-  description: An explosive surprise.
+  description: entity-grenadetrap-description
   components:
   - type: Sprite
     sprite: _White/Structures/Other/grenadetrap.rsi

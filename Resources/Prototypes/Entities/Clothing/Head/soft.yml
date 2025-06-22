@@ -43,7 +43,7 @@
 - type: entity
   parent: ClothingHeadHeadHatBaseFlippable
   id: ClothingHeadHatBluesoft
-  name: blue cap
+  name: entity-clothingheadhatbluesoft-name
   description: "It's a baseball hat in a tasteless blue colour."
   components:
   - type: Sprite
@@ -54,7 +54,7 @@
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatBluesoft]
   id: ClothingHeadHatBluesoftFlipped
-  name: blue cap
+  name: entity-clothingheadhatbluesoft-name
 
 - type: entity
   parent: ClothingHeadHeadHatBaseFlippable
@@ -98,13 +98,13 @@
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatQMsoft]
   id: ClothingHeadHatQMsoftFlipped
-  name: logistics officer's cap
+  name: entity-clothingheadhatqmsoft-name
 
 - type: entity
   parent: ClothingHeadHeadHatBaseFlippable
   id: ClothingHeadHatCorpsoft
-  name: corporate cap
-  description: A baseball bat in corporation colors.
+  name: entity-clothingheadhatcorpsoft-name
+  description: entity-clothingheadhatcorpsoft-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/corpsoft.rsi
@@ -114,12 +114,12 @@
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatCorpsoft]
   id: ClothingHeadHatCorpsoftFlipped
-  name: corporate cap
+  name: entity-clothingheadhatcorpsoft-name
 
 - type: entity
   parent: ClothingHeadHeadHatBaseFlippable
   id: ClothingHeadHatGreensoft
-  name: green cap
+  name: entity-clothingheadhatgreensoft-name
   description: "It's a baseball hat in a tasteless green colour."
   components:
   - type: Sprite
@@ -130,12 +130,12 @@
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatGreensoft]
   id: ClothingHeadHatGreensoftFlipped
-  name: green cap
+  name: entity-clothingheadhatgreensoft-name
 
 - type: entity
   parent: ClothingHeadHeadHatBaseFlippable
   id: ClothingHeadHatBlacksoft
-  name: black cap
+  name: entity-clothingheadhatblacksoft-name
   description: "It's a baseball hat in a tasteless black colour."
   components:
   - type: Sprite
@@ -146,12 +146,12 @@
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatBlacksoft]
   id: ClothingHeadHatBlacksoftFlipped
-  name: black cap
+  name: entity-clothingheadhatblacksoft-name
 
 - type: entity
   parent: ClothingHeadHeadHatBaseFlippable
   id: ClothingHeadHatGreysoft
-  name: grey cap
+  name: entity-clothingheadhatgreysoft-name
   description: "It's a baseball hat in a tasteless grey colour."
   components:
   - type: Sprite
@@ -162,12 +162,12 @@
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatGreysoft]
   id: ClothingHeadHatGreysoftFlipped
-  name: grey cap
+  name: entity-clothingheadhatgreysoft-name
 
 - type: entity
   parent: ClothingHeadHeadHatBaseFlippable
   id: ClothingHeadHatMimesoft
-  name: baseball cap
+  name: entity-clothingheadhatmimesoft-name
   description: "It's a baseball hat in a tasteless white colour."
   components:
   - type: Sprite
@@ -178,13 +178,13 @@
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatMimesoft]
   id: ClothingHeadHatMimesoftFlipped
-  name: baseball cap
+  name: entity-clothingheadhatmimesoft-name
 
 - type: entity
   parent: ClothingHeadHeadHatBaseFlippable
   id: ClothingHeadHatOrangesoft
-  name: orange cap
-  description: It's a baseball hat in a good-looking orange colour.
+  name: entity-clothingheadhatorangesoft-name
+  description: entity-clothingheadhatorangesoft-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/orangesoft.rsi
@@ -194,13 +194,13 @@
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatOrangesoft]
   id: ClothingHeadHatOrangesoftFlipped
-  name: orange cap
+  name: entity-clothingheadhatorangesoft-name
 
 - type: entity
   parent: ClothingHeadHeadHatBaseFlippable
   id: ClothingHeadHatPurplesoft
-  name: purple cap
-  description: It's a baseball hat in a tasteless purple colour.
+  name: entity-clothingheadhatpurplesoft-name
+  description: entity-clothingheadhatpurplesoft-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/purplesoft.rsi
@@ -215,7 +215,7 @@
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatPurplesoft]
   id: ClothingHeadHatPurplesoftFlipped
-  name: purple cap
+  name: entity-clothingheadhatpurplesoft-name
   components:
   - type: Tag
     tags:
@@ -226,8 +226,8 @@
 - type: entity
   parent: ClothingHeadHeadHatBaseFlippable
   id: ClothingHeadHatRedsoft
-  name: red cap
-  description: It's a baseball hat in a tasteless red colour.
+  name: entity-clothingheadhatredsoft-name
+  description: entity-clothingheadhatredsoft-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/redsoft.rsi
@@ -237,13 +237,13 @@
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatRedsoft]
   id: ClothingHeadHatRedsoftFlipped
-  name: red cap
+  name: entity-clothingheadhatredsoft-name
 
 - type: entity
   parent: ClothingHeadHeadHatBaseFlippable
   id: ClothingHeadHatSecsoft
-  name: security cap
-  description: It's a robust baseball hat in tasteful red colour.
+  name: entity-clothingheadhatsecsoft-name
+  description: entity-clothingheadhatsecsoft-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/secsoft.rsi
@@ -253,13 +253,13 @@
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatSecsoft]
   id: ClothingHeadHatSecsoftFlipped
-  name: security cap
+  name: entity-clothingheadhatsecsoft-name
 
 - type: entity
   parent: ClothingHeadHeadHatBaseFlippable
   id: ClothingHeadHatYellowsoft
-  name: yellow cap
-  description: A yellow baseball hat.
+  name: entity-clothingheadhatyellowsoft-name
+  description: entity-clothingheadhatyellowsoft-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/yellowsoft.rsi
@@ -269,13 +269,13 @@
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatYellowsoft]
   id: ClothingHeadHatYellowsoftFlipped
-  name: yellow cap
+  name: entity-clothingheadhatyellowsoft-name
 
 - type: entity
   parent: ClothingHeadHeadHatBaseFlippable
   id: ClothingHeadHatBizarreSoft
-  name: troublemaker's cap
-  description: A truly.. bizarre accessory.
+  name: entity-clothingheadhatbizarresoft-name
+  description: entity-clothingheadhatbizarresoft-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/bizarresoft.rsi
@@ -285,12 +285,12 @@
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatBizarreSoft]
   id: ClothingHeadHatBizarreSoftFlipped
-  name: troublemaker's cap
+  name: entity-clothingheadhatbizarresoft-name
 
 - type: entity
   parent: ClothingHeadHeadHatBaseFlippable
   id: ClothingHeadHatParamedicsoft
-  name: paramedic cap
+  name: entity-clothingheadhatparamedicsoft-name
   description: "It's a paramedic's baseball hat with a medical logo."
   components:
   - type: Sprite
@@ -306,7 +306,7 @@
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatParamedicsoft]
   id: ClothingHeadHatParamedicsoftFlipped
-  name: paramedic cap
+  name: entity-clothingheadhatparamedicsoft-name
   components:
   - type: Tag
     tags:

@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseStructure
   id: N14FurnitureCasinoRoulettetable
-  name: Roulette Table
-  description: An old casino roulette table. It still works.
+  name: entity-n14furniturecasinoroulettetable-name
+  description: entity-n14furniturecasinoroulettetable-description
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/roulettetable.rsi

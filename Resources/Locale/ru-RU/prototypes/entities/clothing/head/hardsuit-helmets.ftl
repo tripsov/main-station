@@ -79,6 +79,6 @@ ent-ClothingHeadHelmetHardsuitERTJanitor = шлем скафандра убор�
 ent-ClothingHeadHardsuitPrisoner = шлем тюремного скафандра
     .desc = Удешевлённый пожарный шлем встроенный в тюремный скафандр для герметичности.
     .suffix = { "" }
-ent-ClothingHeadHelmetHardsuitWarden = шлем скафандра смотрителя
+ent-ClothingHeadHelmetHardsuitWarden = шлем скафандра Надзирателя
     .desc = Модифицированный шлем против бунта. Неожиданно удобный.
     .suffix = { "" }

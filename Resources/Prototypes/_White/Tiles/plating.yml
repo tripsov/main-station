@@ -1,6 +1,6 @@
 - type: tile
   id: PlatingDiagonalNE
-  name: tiles-plating-diagonal-NE
+  name: tile-platingdiagonalne-name
   sprite: /Textures/_White/Tiles/plating_diagonal_ne.png
   baseTurf: Lattice
   isSubfloor: true
@@ -13,7 +13,7 @@
 
 - type: tile
   id: PlatingDiagonalNW
-  name: tiles-plating-diagonal-NW
+  name: tile-platingdiagonalnw-name
   sprite: /Textures/_White/Tiles/plating_diagonal_nw.png
   baseTurf: Lattice
   isSubfloor: true
@@ -26,7 +26,7 @@
 
 - type: tile
   id: PlatingDiagonalSE
-  name: tiles-plating-diagonal-SE
+  name: tile-platingdiagonalse-name
   sprite: /Textures/_White/Tiles/plating_diagonal_se.png
   baseTurf: Lattice
   isSubfloor: true
@@ -39,7 +39,7 @@
 
 - type: tile
   id: PlatingDiagonalSW
-  name: tiles-plating-diagonal-SW
+  name: tile-platingdiagonalsw-name
   sprite: /Textures/_White/Tiles/plating_diagonal_sw.png
   baseTurf: Lattice
   isSubfloor: true

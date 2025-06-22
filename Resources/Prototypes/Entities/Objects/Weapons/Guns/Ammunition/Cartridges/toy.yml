@@ -1,6 +1,6 @@
 - type: entity
   id: BaseCartridgeCap
-  name: cartridge (cap)
+  name: entity-basecartridgecap-name
   parent: BaseCartridge
   abstract: true
   components:
@@ -21,7 +21,7 @@
 
 - type: entity
   id: CartridgeCap
-  name: cap gun cartridge
+  name: entity-cartridgecap-name
   parent: BaseCartridgeCap
   components:
   - type: CartridgeAmmo

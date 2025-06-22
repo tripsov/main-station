@@ -1,7 +1,7 @@
 - type: entity
   id: AdminInstantEffectBase
   abstract: true
-  name: instant effect
+  name: entity-admininstanteffectbase-name
   components:
   - type: Sprite
     sprite: /Textures/Objects/Fun/goldbikehorn.rsi

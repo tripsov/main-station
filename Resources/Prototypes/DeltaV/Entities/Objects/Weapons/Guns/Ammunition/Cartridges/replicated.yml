@@ -1,6 +1,6 @@
 ﻿- type: entity
   id: CartridgeLightRifleReplicated
-  name: replicated cartridge (.30 rifle)
+  name: entity-cartridgelightriflereplicated-name
   parent: BaseCartridgeLightRifle
   components:
     - type: CartridgeAmmo

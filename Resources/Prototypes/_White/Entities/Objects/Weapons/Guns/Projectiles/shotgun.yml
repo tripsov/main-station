@@ -1,6 +1,6 @@
 ﻿- type: entity
   id: PelletShotgunFrag
-  name: frag (.50)
+  name: entity-pelletshotgunfrag-name
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -21,7 +21,7 @@
 
 - type: entity
   id: PelletShotgunMeteor
-  name: meteor (.50)
+  name: entity-pelletshotgunmeteor-name
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
   components:
@@ -39,7 +39,7 @@
 
 - type: entity
   id: PelletShotgunBreach
-  name: breach (.50)
+  name: entity-pelletshotgunbreach-name
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
   components:
@@ -53,7 +53,7 @@
         Structural: 124
 
 - type: entity
-  name: laser barrage (.50)
+  name: entity-pelletshelllaserspread-name
   id: PelletShellLaserSpread
   parent: BulletLaser
   categories: [ HideSpawnMenu ]
@@ -64,7 +64,7 @@
     spread: 25
 
 - type: entity
-  name: laser (.50)
+  name: entity-shelllaserbolt-name
   id: ShellLaserBolt
   parent: BulletLaser
   categories: [ HideSpawnMenu ]

@@ -1,9 +1,9 @@
 # Hacky for the stress test so don't even consider adding to this
 - type: entity
-  name: Burrower
+  name: entity-mobxeno-name
   id: MobXeno
   parent: SimpleSpaceMobBase
-  description: They mostly come at night. Mostly.
+  description: entity-mobxeno-description
   components:
   - type: Insulated
   - type: CombatMode
@@ -151,7 +151,7 @@
   - type: Fauna # Lavaland Change
 
 - type: entity
-  name: Praetorian
+  name: entity-mobxenopraetoriannpc-name
   parent: MobXeno
   id: MobXenoPraetorianNPC # Delta V - These no longer inherit the ghost takeover comp
   components:
@@ -185,7 +185,7 @@
         - MobLayer
 
 - type: entity
-  name: Drone
+  name: entity-mobxenodronenpc-name
   parent: MobXeno
   id: MobXenoDroneNPC # Delta V - These no longer inherit the ghost takeover comp
   components:
@@ -223,7 +223,7 @@
         - MobLayer
 
 - type: entity
-  name: Queen
+  name: entity-mobxenoqueennpc-name
   parent: MobXeno
   id: MobXenoQueenNPC # Delta V - These no longer inherit the ghost takeover comp
   components:
@@ -270,7 +270,7 @@
     - Xeno
 
 - type: entity
-  name: Ravager
+  name: entity-mobxenoravagernpc-name
   parent: MobXeno
   id: MobXenoRavagerNPC # Delta V - These no longer inherit the ghost takeover comp
   components:
@@ -308,7 +308,7 @@
         - MobLayer
 
 - type: entity
-  name: Runner
+  name: entity-mobxenorunnernpc-name
   parent: MobXeno
   id: MobXenoRunnerNPC # Delta V - These no longer inherit the ghost takeover comp
   components:
@@ -338,7 +338,7 @@
         - MobLayer
 
 - type: entity
-  name: Rouny
+  name: entity-mobxenorounynpc-name
   parent: MobXenoRunnerNPC # Delta V - These no longer inherit the ghost takeover comp
   id: MobXenoRounyNPC # Delta V - These no longer inherit the ghost takeover comp
   components:
@@ -354,7 +354,7 @@
       amount: 3
 
 - type: entity
-  name: Spitter
+  name: entity-mobxenospitternpc-name
   parent: MobXeno
   id: MobXenoSpitterNPC # Delta V - These no longer inherit the ghost takeover comp
   components:
@@ -401,10 +401,10 @@
         - MobLayer
 
 - type: entity
-  name: space adder
+  name: entity-mobpurplesnake-name
   parent: SimpleSpaceMobBase
   id: MobPurpleSnake
-  description: A menacing purple snake from Kepler-283c.
+  description: entity-mobpurplesnake-description
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -466,11 +466,11 @@
     - FootstepSound
 
 - type: entity
-  name: space adder
+  name: entity-mobpurplesnake-name
   parent: MobPurpleSnake
   id: MobSmallPurpleSnake
   suffix: small
-  description: A smaller version of the menacing purple snake from Kepler-283c.
+  description: entity-mobsmallpurplesnake-description
   components:
   - type: Sprite
     drawdepth: Mobs

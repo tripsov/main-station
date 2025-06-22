@@ -1,8 +1,8 @@
 - type: entity
   id: KitchenMicrowave
   parent: [ BaseMachinePowered, SmallConstructibleMachine ]
-  name: microwave
-  description: It's magic.
+  name: entity-kitchenmicrowave-name
+  description: entity-kitchenmicrowave-description
   components:
   - type: Microwave
     capacity: 10
@@ -109,8 +109,8 @@
 - type: entity
   id: SyndicateMicrowave
   parent: KitchenMicrowave
-  name: donk co. microwave
-  description: So advanced, it can cook donk-pockets in a mere 2.5 seconds!
+  name: entity-syndicatemicrowave-name
+  description: entity-syndicatemicrowave-description
   components:
   - type: Microwave
     cookTimeMultiplier: 0.5

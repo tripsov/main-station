@@ -1,7 +1,7 @@
 - type: entity
   id: OrganThavenBrain
   parent: [BaseItem, OrganHumanBrain]
-  name: thaven brain
+  name: entity-organthavenbrain-name
   description: "An organic positronic brain. Quite remarkable, really."
   components:
     - type: Sprite

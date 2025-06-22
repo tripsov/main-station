@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseStructure
   id: HeadcrabNest
-  name: headcrab nest
-  description: It seems to be moving.
+  name: entity-headcrabnest-name
+  description: entity-headcrabnest-description
   components:
   - type: Sprite
     sprite: _White/Structures/Other/headcrab_nest.rsi

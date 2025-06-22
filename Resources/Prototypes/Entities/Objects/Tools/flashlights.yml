@@ -1,8 +1,8 @@
 - type: entity
-  name: flashlight
+  name: entity-flashlightlantern-name
   parent: BaseItem
   id: FlashlightLantern
-  description: It lights the way to freedom.
+  description: entity-flashlightlantern-description
   components:
   - type: Tag
     tags:
@@ -89,10 +89,10 @@
   - type: AttachmentFlashlight # Lavaland Change
 
 - type: entity
-  name: seclite
+  name: entity-flashlightseclite-name
   parent: FlashlightLantern
   id: FlashlightSeclite
-  description: A robust flashlight used by security.
+  description: entity-flashlightseclite-description
   components:
   - type: Tag
     tags:

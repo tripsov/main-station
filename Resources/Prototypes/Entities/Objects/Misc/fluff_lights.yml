@@ -1,5 +1,5 @@
 - type: entity
-  name: lantern
+  name: entity-baselamp-name
   parent: BaseItem
   id: BaseLamp
   abstract: true
@@ -54,10 +54,10 @@
     stealGroup: LAMP
 
 - type: entity
-  name: lamp
+  name: entity-lamp-name
   id: Lamp
   parent: BaseLamp
-  description: A light emitting device.
+  description: entity-lamp-description
   components:
   - type: Sprite
     sprite: Objects/Misc/Lights/lamp.rsi
@@ -83,10 +83,10 @@
           festive: { state: christmaslamp-on }
 
 - type: entity
-  name: banana lamp
+  name: entity-lampbanana-name
   id: LampBanana
   parent: BaseLamp
-  description: A light emitting device, shaped like a banana.
+  description: entity-lampbanana-description
   components:
   - type: Sprite
     layers:
@@ -97,10 +97,10 @@
         map: [ "light" ]
 
 - type: entity
-  name: desk lamp
+  name: entity-lampgold-name
   id: LampGold
   parent: BaseLamp
-  description: A light emitting device that would look great on a desk.
+  description: entity-lampgold-description
   components:
   - type: Sprite
     sprite: Objects/Misc/Lights/lampgreen.rsi
@@ -130,10 +130,10 @@
             state: christmaslamp-on
 
 - type: entity
-  name: interrogator lamp
+  name: entity-lampinterrogator-name
   id: LampInterrogator
   parent: BaseLamp
-  description: Ultra-bright lamp for the bad cop
+  description: entity-lampinterrogator-description
   components:
   - type: Sprite
     sprite: Objects/Misc/Lights/lampint.rsi
@@ -184,10 +184,10 @@
           False: {visible: false}
 
 - type: entity
-  name: floodlight
+  name: entity-floodlight-name
   id: Floodlight
   parent: BaseLamp
-  description: A pole with powerful mounted lights on it.
+  description: entity-floodlight-description
   components:
   - type: Item
     size: Normal
@@ -240,10 +240,10 @@
         acts: [ "Destruction" ]
 
 - type: entity
-  name: broken floodlight
+  name: entity-floodlightbroken-name
   id: FloodlightBroken
   parent: BaseItem
-  description: A pole with powerful mounted lights on it. It's broken.
+  description: entity-floodlightbroken-description
   components:
   - type: Sprite
     sprite: Objects/Misc/Lights/lights.rsi

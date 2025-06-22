@@ -33,7 +33,7 @@
 - type: entity
   id: CrateFoodEmergencyPie
   parent: CratePlastic
-  name: emergency pie delivery
+  name: entity-cratefoodemergencypie-name
   description: '"Then let them eat pie."'
   components:
   - type: StorageFill
@@ -44,8 +44,8 @@
 - type: entity
   parent: CratePlastic
   id: CrateHydroCoDairy
-  name: HydroCo Dairy crate
-  description: A shipment of powdered dairy products from HydroCo. Contains powdered milk and soy milk.
+  name: entity-cratehydrocodairy-name
+  description: entity-cratehydrocodairy-description
   components:
     - type: StorageFill
       contents:
@@ -60,8 +60,8 @@
 - type: entity
   parent: CratePlastic
   id: CrateHydroCoJuice
-  name: HydroCo Juice crate
-  description: A variety pack of powdered juice products from HydroCo.
+  name: entity-cratehydrocojuice-name
+  description: entity-cratehydrocojuice-description
   components:
   - type: EntityTableContainerFill
     containers:

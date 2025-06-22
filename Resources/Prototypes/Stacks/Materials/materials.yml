@@ -1,97 +1,97 @@
 - type: stack
   id: Biomass
-  name: biomass
+  name: stack-biomass-name
   icon: { sprite: /Textures/Objects/Misc/monkeycube.rsi, state: cube }
   spawn: MaterialBiomass1
   maxCount: 100
 
 - type: stack
   id: WoodPlank
-  name: wood plank
+  name: stack-woodplank-name
   icon: { sprite: /Textures/Objects/Materials/materials.rsi, state: wood }
   spawn: MaterialWoodPlank1
   maxCount: 30
 
 - type: stack
   id: Cardboard
-  name: cardboard
+  name: stack-cardboard-name
   icon: { sprite: /Textures/Objects/Materials/materials.rsi, state: cardboard }
   spawn: MaterialCardboard1
   maxCount: 30
 
 - type: stack
   id: Cloth
-  name: cloth
+  name: stack-cloth-name
   icon: { sprite: /Textures/Objects/Materials/materials.rsi, state: cloth }
   spawn: MaterialCloth1
   maxCount: 30
 
 - type: stack
   id: Durathread
-  name: durathread
+  name: stack-durathread-name
   icon: { sprite: /Textures/Objects/Materials/materials.rsi, state: durathread }
   spawn: MaterialDurathread1
   maxCount: 30
 
 - type: stack
   id: Diamond
-  name: diamond
+  name: stack-diamond-name
   icon: { sprite: /Textures/Objects/Materials/materials.rsi, state: diamond }
   spawn: MaterialDiamond1
   maxCount: 30
 
 - type: stack
   id: Cotton
-  name: cotton
+  name: stack-cotton-name
   icon: { sprite: /Textures/Objects/Materials/materials.rsi, state: cotton }
   spawn: MaterialCotton1
   maxCount: 30
 
 - type: stack
   id: Pyrotton
-  name: pyrotton
+  name: stack-pyrotton-name
   icon: { sprite: /Textures/Objects/Materials/materials.rsi, state: pyrotton }
   spawn: MaterialPyrotton1
   maxCount: 30
 
 - type: stack
   id: Bananium
-  name: bananium
+  name: stack-bananium-name
   icon: { sprite: /Textures/Objects/Materials/materials.rsi, state: bananium }
   spawn: MaterialBananium1
   maxCount: 10
 
 - type: stack
   id: MeatSheets
-  name: meat sheet
+  name: stack-meatsheets-name
   icon: { sprite: /Textures/Objects/Materials/Sheets/meaterial.rsi, state: meat }
   spawn: MaterialSheetMeat1
   maxCount: 30
 
 - type: stack
   id: WebSilk
-  name: silk
+  name: stack-websilk-name
   icon: { sprite: /Textures/Objects/Materials/silk.rsi, state: icon }
   spawn: MaterialWebSilk1
   maxCount: 50
 
 - type: stack
   id: Bones
-  name: bones
+  name: stack-bones-name
   icon: { sprite: /Textures/Objects/Materials/materials.rsi, state: bones}
   spawn: MaterialBones1
   maxCount: 30
 
 - type: stack
   id: Gunpowder
-  name: gunpowder
+  name: stack-gunpowder-name
   icon: { sprite: /Textures/Objects/Misc/reagent_fillings.rsi, state: powderpile }
   spawn: MaterialGunpowder
   maxCount: 60
 
 - type: stack
   id: GoliathHide
-  name: goliath hide
+  name: stack-goliathhide-name
   icon: { sprite: /Textures/Objects/Materials/hide.rsi, state: goliath_hide }
   spawn: MaterialGoliathHide1
   maxCount: 30

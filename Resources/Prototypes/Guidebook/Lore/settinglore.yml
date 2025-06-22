@@ -73,7 +73,7 @@
 
 - type: guideEntry
   id: Nations
-  name: guide-entry-nations
+  name: guideentry-nations-name
   text: "/ServerInfo/Guidebook/Lore/Nations/Nations.xml"
   children:
     # Major Nations
@@ -87,10 +87,10 @@
 
 - type: guideEntry
   id: SolAlliance
-  name: guide-entry-sol-alliance
+  name: guideentry-solalliance-name
   text: "/ServerInfo/Guidebook/Lore/Nations/SolAlliance.xml"
 
 - type: guideEntry
   id: TCFL
-  name: guide-entry-tcfl
+  name: guideentry-tcfl-name
   text: "/ServerInfo/Guidebook/Lore/Nations/TCFL.xml"

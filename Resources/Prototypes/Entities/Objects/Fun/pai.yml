@@ -3,8 +3,8 @@
 - type: entity
   parent: BaseItem
   id: PersonalAI
-  name: personal ai device
-  description: Your electronic pal who's fun to be with!
+  name: entity-personalai-name
+  description: entity-personalai-description
   components:
   - type: Renamable
   - type: Instrument
@@ -104,8 +104,8 @@
 - type: entity
   parent: PersonalAI
   id: SyndicatePersonalAI
-  name: syndicate personal ai device
-  description: Your Syndicate pal who's fun to be with!
+  name: entity-syndicatepersonalai-name
+  description: entity-syndicatepersonalai-description
   components:
   - type: Sprite
     sprite: Objects/Fun/pai.rsi
@@ -138,8 +138,8 @@
 - type: entity
   parent: PersonalAI
   id: PotatoAI
-  name: potato artificial intelligence
-  description: It's a potato. You forced it to be sentient, you monster.
+  name: entity-potatoai-name
+  description: entity-potatoai-description
   components:
   - type: Sprite
     sprite: Objects/Fun/pai.rsi
@@ -168,8 +168,8 @@
 
 - type: entity
   id: ActionPAIPlayMidi
-  name: Play MIDI
-  description: Open your portable MIDI interface to soothe your owner.
+  name: entity-actionpaiplaymidi-name
+  description: entity-actionpaiplaymidi-description
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -181,8 +181,8 @@
 
 - type: entity
   id: ActionPAIOpenMap
-  name: Open Map
-  description: Open your map interface and guide your owner.
+  name: entity-actionpaiopenmap-name
+  description: entity-actionpaiopenmap-description
   categories: [ HideSpawnMenu ]
   components:
     - type: InstantAction

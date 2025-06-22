@@ -1,6 +1,6 @@
 ﻿- type: palette
   id: Advanced
-  name: Advanced
+  name: palette-advanced-name
   colors:
     #light: "#000000"
     #medium: "#000000"

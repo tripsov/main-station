@@ -1,8 +1,8 @@
 - type: entity
-  name: box of soulbreaker cartridges
+  name: entity-boxshellsoulbreaker-name
   parent: BaseAmmoProvider
   id: BoxShellSoulbreaker
-  description: A box full of anti-psionic soulbreaker cartridges, designed for riot shotguns.
+  description: entity-boxshellsoulbreaker-description
   components:
     - type: BallisticAmmoProvider
       proto: ShellSoulbreaker
@@ -16,10 +16,10 @@
 
 
 - type: entity
-  name: box of .45 magnum Universal magazines
+  name: entity-boxmagazineuniversalmagnum-name
   parent: BoxMagazine
   id: BoxMagazineUniversalMagnum
-  description: A box full of .45 magnum magazines.
+  description: entity-boxmagazineuniversalmagnum-description
   components:
   - type: StorageFill
     contents:
@@ -34,10 +34,10 @@
         - BallisticAmmoProvider
 
 - type: entity
-  name: box of .45 magnum Universal (practice) magazines
+  name: entity-boxmagazineuniversalmagnumpractice-name
   parent: BoxMagazine
   id: BoxMagazineUniversalMagnumPractice
-  description: A box full of .45 magnum practice magazines.
+  description: entity-boxmagazineuniversalmagnumpractice-description
   components:
   - type: StorageFill
     contents:
@@ -52,10 +52,10 @@
         - BallisticAmmoProvider
 
 - type: entity
-  name: box of .30 rifle speed loaders
+  name: entity-boxspeedloaderlightrifle-name
   parent: BoxMagazine
   id: BoxSpeedLoaderLightRifle
-  description: A box full of .30 rifle speed loaders.
+  description: entity-boxspeedloaderlightrifle-description
   components:
   - type: StorageFill
     contents:

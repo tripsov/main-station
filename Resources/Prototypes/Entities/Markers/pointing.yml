@@ -1,5 +1,5 @@
 ﻿- type: entity
-  name: pointing arrow
+  name: entity-pointingarrow-name
   id: PointingArrow
   save: false
   components:

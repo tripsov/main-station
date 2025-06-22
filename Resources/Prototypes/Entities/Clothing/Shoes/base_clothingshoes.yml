@@ -67,7 +67,7 @@
   abstract: true
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesBaseWinterBoots
-  description: Fluffy boots to help survive even the coldest of winters.
+  description: entity-clothingshoesbasewinterboots-description
   components:
   - type: TemperatureProtection
     coefficient: 0.8

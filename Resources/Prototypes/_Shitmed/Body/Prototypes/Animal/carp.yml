@@ -1,6 +1,6 @@
 - type: body
   id: Carp
-  name: carp
+  name: body-carp-name
   root: torso
   slots:
     torso:

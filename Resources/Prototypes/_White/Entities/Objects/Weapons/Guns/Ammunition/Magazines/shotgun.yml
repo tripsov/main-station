@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: MagazineShotgunMeteor
-  name: ammo drum (.50 meteor)
-  description: drum with 8 charges.
+  name: entity-magazineshotgunmeteor-name
+  description: entity-magazineshotgunmeteor-description
   parent: BaseMagazineShotgun
   components:
   - type: BallisticAmmoProvider
@@ -16,8 +16,8 @@
 
 - type: entity
   id: MagazineShotgunLaser
-  name: ammo drum (.50 laser)
-  description: drum with 8 charges.
+  name: entity-magazineshotgunlaser-name
+  description: entity-magazineshotgunmeteor-description
   parent: BaseMagazineShotgun
   components:
   - type: BallisticAmmoProvider
@@ -32,8 +32,8 @@
 
 - type: entity
   id: MagazineShotgunFrag
-  name: ammo drum (.50 frag)
-  description: drum with 8 charges.
+  name: entity-magazineshotgunfrag-name
+  description: entity-magazineshotgunmeteor-description
   parent: BaseMagazineShotgun
   components:
   - type: BallisticAmmoProvider
@@ -48,8 +48,8 @@
 
 - type: entity
   id: MagazineShotgunBreach
-  name: ammo drum (.50 breach)
-  description: drum with 8 charges.
+  name: entity-magazineshotgunbreach-name
+  description: entity-magazineshotgunmeteor-description
   parent: BaseMagazineShotgun
   components:
   - type: BallisticAmmoProvider

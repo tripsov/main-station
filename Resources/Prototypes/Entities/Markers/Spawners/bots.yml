@@ -1,5 +1,5 @@
 - type: entity
-  name: medibot spawner
+  name: entity-spawnmobmedibot-name
   id: SpawnMobMedibot
   parent: MarkerBase
   components:
@@ -13,7 +13,7 @@
       - MobMedibot
 
 - type: entity
-  name: cleanbot spawner
+  name: entity-spawnmobcleanbot-name
   id: SpawnMobCleanBot
   parent: MarkerBase
   components:
@@ -27,7 +27,7 @@
       - MobCleanBot
 
 - type: entity
-  name: disablerbot spawner
+  name: entity-spawnmobdisablerbot-name
   id: SpawnMobDisablerBot
   parent: MarkerBase
   components:
@@ -41,7 +41,7 @@
       - MobDisablerBot
 
 - type: entity
-  name: batonbot spawner
+  name: entity-spawnmobbatonbot-name
   id: SpawnMobBatonBot
   parent: MarkerBase
   components:
@@ -55,7 +55,7 @@
       - MobBatonBot
 
 - type: entity
-  name: plantbot spawner
+  name: entity-spawnmobplantbot-name
   id: SpawnMobPlantbot
   parent: MarkerBase
   components:

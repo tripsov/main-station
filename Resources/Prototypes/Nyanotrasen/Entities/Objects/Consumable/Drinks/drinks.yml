@@ -2,7 +2,7 @@
   parent: DrinkGlass
   id: DrinkSakeGlass
   suffix: sake
-  description: Wine made from rice, it's sake!
+  description: entity-drinksakeglass-description
   components:
   - type: SolutionContainerManager
     solutions:
@@ -20,7 +20,7 @@
   parent: DrinkGlass
   id: DrinkOrangeCreamiceGlass
   suffix: orange creamcicle
-  description: Orangy, creamy goodness.
+  description: entity-drinkorangecreamiceglass-description
   components:
   - type: SolutionContainerManager
     solutions:
@@ -37,7 +37,7 @@
   parent: DrinkGlass
   id: DrinkSilverjackGlass
   suffix: silverjack
-  description: Reminds you of family.
+  description: entity-drinksilverjackglass-description
   components:
   - type: SolutionContainerManager
     solutions:
@@ -54,7 +54,7 @@
   parent: DrinkGlass
   id: DrinkBrainbombGlass
   suffix: brainbomb
-  description: Toxic to about anything alive, especially your liver.
+  description: entity-drinkbrainbombglass-description
   components:
   - type: SolutionContainerManager
     solutions:
@@ -71,7 +71,7 @@
   parent: DrinkGlass
   id: DrinkClownBloodGlass
   suffix: clown blood
-  description: Security Officers favorite drink after a long day.
+  description: entity-drinkclownbloodglass-description
   components:
   - type: SolutionContainerManager
     solutions:
@@ -88,7 +88,7 @@
   parent: DrinkGlass
   id: DrinkCircusJuiceGlass
   suffix: circus juice
-  description: Honkmother would be proud.
+  description: entity-drinkcircusjuiceglass-description
   components:
   - type: SolutionContainerManager
     solutions:
@@ -105,7 +105,7 @@
   parent: DrinkGlass
   id: DrinkSapoPicanteGlass
   suffix: sapo picante
-  description: Tastes nothing like a toad.
+  description: entity-drinksapopicanteglass-description
   components:
   - type: SolutionContainerManager
     solutions:
@@ -122,7 +122,7 @@
   parent: DrinkGlass
   id: DrinkGraveyardGlass
   suffix: graveyard
-  description: For those shifts that never seem to end.
+  description: entity-drinkgraveyardglass-description
   components:
   - type: SolutionContainerManager
     solutions:
@@ -139,7 +139,7 @@
   parent: DrinkGlass
   id: DrinkAtomicPunchGlass
   suffix: atomic punch
-  description: Will NOT make you immune to bullets; Isotopes included!
+  description: entity-drinkatomicpunchglass-description
   components:
   - type: SolutionContainerManager
     solutions:
@@ -156,7 +156,7 @@
   parent: DrinkGlass
   id: DrinkPinkDrinkGlass
   suffix: pink drink
-  description: Entire civilizations have crumbled trying to decide if this drink really tastes like pink...
+  description: entity-drinkpinkdrinkglass-description
   components:
   - type: SolutionContainerManager
     solutions:
@@ -173,7 +173,7 @@
   parent: DrinkGlass
   id: DrinkBubbleTeaGlass
   suffix: bubble tea
-  description: Big straw not included.
+  description: entity-drinkbubbleteaglass-description
   components:
   - type: SolutionContainerManager
     solutions:

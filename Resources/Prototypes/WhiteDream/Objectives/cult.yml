@@ -1,7 +1,7 @@
 ﻿- type: entity
   parent: BaseObjective
   id: KillTargetCultObjective
-  description: This fool person should be sacrificed in the glory of our Goddess.
+  description: entity-killtargetcultobjective-description
   categories: [ HideSpawnMenu ]
   components:
   - type: Objective

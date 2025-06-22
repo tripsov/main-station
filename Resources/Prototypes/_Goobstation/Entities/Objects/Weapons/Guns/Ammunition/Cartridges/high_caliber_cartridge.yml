@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseCartridge
   id: CartridgeHighCaliber
-  name: cartridge (.50 anti-materiel)
+  name: entity-cartridgehighcaliber-name
   components:
   - type: Tag
     tags:
@@ -22,7 +22,7 @@
 - type: entity
   parent: BaseCartridge
   id: CartridgeHighCaliberExplosive
-  name: cartridge (.50 high-explosive)
+  name: entity-cartridgehighcaliberexplosive-name
   components:
   - type: Tag
     tags:

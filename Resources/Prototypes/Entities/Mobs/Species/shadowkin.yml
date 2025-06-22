@@ -3,7 +3,7 @@
   parent:
     - BaseMobSpeciesOrganic
   id: MobShadowkinBase
-  name: Urist McShadow
+  name: entity-mobshadowkinbase-name
   abstract: true
   components:
     - type: Destructible
@@ -252,7 +252,7 @@
   parent: MobHumanDummy
   id: MobShadowkinDummy
   categories: [ HideSpawnMenu ]
-  description: A dummy shadowkin meant to be used in character setup.
+  description: entity-mobshadowkindummy-description
   components:
     - type: HumanoidAppearance
       species: Shadowkin

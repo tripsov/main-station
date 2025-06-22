@@ -1,8 +1,8 @@
 - type: entity
-  name: Dualetta
+  name: entity-weaponpistoldualetta-name
   parent: BaseWeaponPistol
   id: WeaponPistolDualetta
-  description: The coolest pistol in the sector. It is said that nobody is strong enough of will to tarnish this weapon's reputation by daring to fire it without another paired pistol. Though, some people have mustered the will to simply use a different gun in the other hand.
+  description: entity-weaponpistoldualetta-description
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Weapons/Guns/Pistols/Dualetta.rsi
@@ -57,8 +57,8 @@
 - type: entity
   parent: BaseItem
   id: WeaponPistolAnaconda
-  name: Anaconda
-  description: A heavy pistol capable of supplying itself with the ammo on the way using a built-in fabricator.
+  name: entity-weaponpistolanaconda-name
+  description: entity-weaponpistolanaconda-description
   components:
   - type: Item
     size: Small

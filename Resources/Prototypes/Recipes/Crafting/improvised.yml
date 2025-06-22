@@ -1,31 +1,31 @@
 - type: construction
-  name: baseball bat
+  name: construction-bat-name
   id: bat
   graph: WoodenBat
   startNode: start
   targetNode: bat
   category: construction-category-weapons
-  description: A robust baseball bat.
+  description: construction-bat-description
   icon:
     sprite: Objects/Weapons/Melee/baseball_bat.rsi
     state: icon
   objectType: Item
 
 - type: construction
-  name: ghost sheet
+  name: construction-ghost_sheet-name
   id: ghost_sheet
   graph: GhostSheet
   startNode: start
   targetNode: ghost_sheet
   category: construction-category-clothing
-  description: Become a spooky ghost. Boo!
+  description: construction-ghost_sheet-description
   icon:
     sprite: Clothing/OuterClothing/Misc/ghostsheet.rsi
     state: icon
   objectType: Item
 
 - type: construction
-  name: makeshift handcuffs
+  name: construction-makeshifthandcuffs-name
   id: makeshifthandcuffs
   graph: makeshifthandcuffs
   startNode: start
@@ -36,7 +36,7 @@
   objectType: Item
 
 - type: construction
-  name: muzzle
+  name: construction-muzzle-name
   id: muzzle
   graph: Muzzle
   startNode: start
@@ -49,124 +49,124 @@
     state: icon
 
 - type: construction
-  name: improvised pneumatic cannon
+  name: construction-pneumaticcannon-name
   id: pneumaticcannon
   graph: PneumaticCannon
   startNode: start
   targetNode: cannon
   category: construction-category-weapons
   objectType: Item
-  description: This son of a gun can fire anything that fits in it using just a little gas.
+  description: construction-pneumaticcannon-description
   icon:
     sprite: Objects/Weapons/Guns/Cannons/pneumatic_cannon.rsi
     state: icon
 
 - type: construction
-  name: gauze
+  name: construction-gauze-name
   id: gauze
   graph: Gauze
   startNode: start
   targetNode: gauze
   category: construction-category-tools
   objectType: Item
-  description: When you've really got nothing left.
+  description: construction-gauze-description
   icon:
     sprite: Objects/Specific/Medical/medical.rsi
     state: gauze
 
 - type: construction
-  name: blindfold
+  name: construction-blindfold-name
   id: blindfold
   graph: Blindfold
   startNode: start
   targetNode: blindfold
   category: construction-category-tools
   objectType: Item
-  description: Better hope everyone turns a blind eye to you crafting this sussy item...
+  description: construction-blindfold-description
   icon:
     sprite: Clothing/Eyes/Misc/blindfold.rsi
     state: icon
 
 - type: construction
-  name: flower wreath
+  name: construction-flowerwreath-name
   id: flowerwreath
   graph: flowerwreath
   startNode: start
   targetNode: flowerwreath
   category: construction-category-clothing
-  description: A wreath of colourful flowers. Can be worn both on head and neck.
+  description: construction-flowerwreath-description
   icon:
     sprite: Clothing/Head/Misc/flower-wreath.rsi
     state: icon
   objectType: Item
 
 - type: construction
-  name: damp rag
+  name: construction-rag-name
   id: rag
   graph: Rag
   startNode: start
   targetNode: rag
   category: construction-category-tools
   objectType: Item
-  description: A damp rag to clean up the ground. Better than slipping around all day.
+  description: construction-rag-description
   icon:
     sprite: Objects/Specific/Janitorial/rag.rsi
     state: rag
 
 - type: construction
-  name: improvised shotgun
+  name: construction-improvisedshotgun-name
   id: improvisedshotgun
   graph: ImprovisedShotgunGraph
   startNode: shotgunstart # WWDP
   targetNode: shotgun
   category: construction-category-weapons
   objectType: Item
-  description: A shitty, single-shot shotgun made from salvaged and hand-crafted gun parts. Ammo not included.
+  description: construction-improvisedshotgun-description
   icon:
     sprite: Objects/Weapons/Guns/Shotguns/improvised_shotgun.rsi
     state: icon
 
 - type: construction
-  name: improvised shotgun shell
+  name: construction-shellshotgunimprovised-name
   id: ShellShotgunImprovised
   graph: ImprovisedShotgunShellGraph
   startNode: start
   targetNode: shell
   category: construction-category-weapons
   objectType: Item
-  description: A homemade shotgun shell that shoots painful glass shrapnel. The spread is so wide that it couldn't hit the broad side of a Barn
+  description: construction-shellshotgunimprovised-description
   icon:
     sprite: Objects/Weapons/Guns/Ammunition/Casings/shotgun_shell.rsi
     state: improvised
 
 - type: construction
-  name: rifle stock
+  name: construction-riflestock-name
   id: riflestock
   graph: RifleStockGraph
   startNode: start
   targetNode: riflestock
   category: construction-category-weapons
   objectType: Item
-  description: A stock carved out of wood, vital for improvised firearms.
+  description: construction-riflestock-description
   icon:
     sprite: Objects/Misc/rifle_stock.rsi
     state: icon
 
 - type: construction
-  name: fire bomb
+  name: construction-firebomb-name
   id: firebomb
   graph: FireBomb
   startNode: start
   targetNode: firebomb
   category: construction-category-weapons
   objectType: Item
-  description: A weak, improvised incendiary device.
+  description: construction-firebomb-description
   icon:
     sprite: Objects/Weapons/Bombs/ied.rsi
     state: icon
 
 - type: construction
-  name: cotton woven cloth
+  name: construction-cottonwovencloth-name
   id: CottonWovenCloth
   graph: CottonObjects
   startNode: start
@@ -179,39 +179,39 @@
   objectType: Item
 
 - type: construction
-  name: straw hat
+  name: construction-strawhat-name
   id: strawHat
   graph: StrawHat
   startNode: start
   targetNode: strawhat
   category: construction-category-clothing
-  description: A fancy hat for hot days! Not recommended to wear near fires.
+  description: construction-strawhat-description
   icon:
     sprite: Clothing/Head/Hats/straw_hat.rsi
     state: icon
   objectType: Item
 
 - type: construction
-  name: pipe bomb
+  name: construction-pipebomb-name
   id: pipebomb
   graph: PipeBomb
   startNode: start
   targetNode: pipebomb
   category: construction-category-weapons
   objectType: Item
-  description: An improvised explosive made from pipes and wire.
+  description: construction-pipebomb-description
   icon:
     sprite: Objects/Weapons/Bombs/pipebomb.rsi
     state: icon
 
 - type: construction
-  name: personal ai adapter
+  name: construction-aiadapter-name
   id: AiAdapter
   graph: AiAdapter
   startNode: start
   targetNode: paiadapter
   category: construction-category-misc
-  description: A cozy house for your electronic pal.
+  description: construction-aiadapter-description
   icon:
     sprite: _EE/Objects/Specific/Robotics/paiadapter.rsi
     state: mmi_off

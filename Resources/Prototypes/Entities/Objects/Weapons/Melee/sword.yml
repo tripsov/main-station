@@ -1,8 +1,8 @@
 - type: entity
-  name: Sword
+  name: entity-basesword-name
   parent: BaseItem
   id: BaseSword
-  description: A sharp sword.
+  description: entity-basesword-description
   abstract: true
   components:
   - type: Sharp
@@ -25,10 +25,10 @@
       path: /Audio/Items/Culinary/chop.ogg
 
 - type: entity
-  name: captain's sabre
+  name: entity-captainsabre-name
   parent: BaseSword
   id: CaptainSabre
-  description: A ceremonial weapon belonging to the captain of the station.
+  description: entity-captainsabre-description
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/captain_sabre.rsi
@@ -81,10 +81,10 @@
 
 
 - type: entity
-  name: katana
+  name: entity-katana-name
   parent: BaseSword
   id: Katana
-  description: Ancient craftwork made with not so ancient plasteel.
+  description: entity-katana-description
   components:
   - type: Tag
     tags:
@@ -124,10 +124,10 @@
     delay: 6.1
 
 - type: entity
-  name: energy katana
+  name: entity-energykatana-name
   parent: Katana
   id: EnergyKatana
-  description: A katana infused with strong energy.
+  description: entity-energykatana-description
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/energykatana.rsi
@@ -163,10 +163,10 @@
     velocityBeforeMinProb: 10.0
 
 - type: entity
-  name: machete
+  name: entity-machete-name
   parent: BaseSword
   id: Machete
-  description: A large, vicious looking blade.
+  description: entity-machete-description
   components:
   - type: Tag
     tags:
@@ -201,10 +201,10 @@
     sprite: Objects/Weapons/Melee/machete.rsi
 
 - type: entity
-  name: claymore
+  name: entity-claymore-name
   parent: BaseSword
   id: Claymore
-  description: An ancient war blade.
+  description: entity-claymore-description
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/claymore.rsi
@@ -243,10 +243,10 @@
     - back
 
 - type: entity
-  name: cutlass
+  name: entity-cutlass-name
   parent: BaseSword
   id: Cutlass
-  description: A wickedly curved blade, often seen in the hands of space pirates.
+  description: entity-cutlass-description
   components:
   - type: Tag
     tags:
@@ -282,10 +282,10 @@
     sprite: Objects/Weapons/Melee/cutlass.rsi
 
 - type: entity
-  name: The Throngler
+  name: entity-throngler-name
   parent: BaseSword
   id: Throngler
-  description: Why would someone make this?
+  description: entity-throngler-description
   components:
     - type: Sprite
       sprite: Objects/Weapons/Melee/Throngler2.rsi

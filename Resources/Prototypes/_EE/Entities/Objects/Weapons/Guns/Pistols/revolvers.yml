@@ -1,8 +1,8 @@
 - type: entity
-  name: BRDI-P33 "Jury" Revolver
+  name: entity-weaponcaptainrevolvershotgun-name
   parent: BaseWeaponRevolver
   id: WeaponCaptainRevolverShotgun
-  description: An incredibly rare, elegant, and powerful revolver of which only twenty were ever made. It features three chambers, which load 12-gauge shells.
+  description: entity-weaponcaptainrevolvershotgun-description
   components:
   - type: Sprite
     sprite: _EE/Objects/Weapons/Guns/Pistols/Captain_pistol.rsi

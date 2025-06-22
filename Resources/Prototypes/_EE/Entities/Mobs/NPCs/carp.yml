@@ -1,8 +1,8 @@
 - type: entity
-  name: space goldfish
+  name: entity-mobcarpgoldfish-name
   parent: BaseBaseMobCarp
   id: MobCarpGoldfish
-  description: A domesticated variety of space carp, much smaller but no less aggressive.
+  description: entity-mobcarpgoldfish-description
   components:
     - type: GhostRole
       allowMovement: true

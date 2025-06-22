@@ -2,7 +2,7 @@
 - type: entity
   parent: IDCardStandard
   id: BlueshieldIDCard
-  name: blueshield officer ID card
+  name: entity-blueshieldidcard-name
   components:
   - type: Sprite
     layers:

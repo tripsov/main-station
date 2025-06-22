@@ -1,18 +1,18 @@
 - type: stack
   id: Telecrystal
-  name: telecrystal
+  name: stack-telecrystal-name
   icon: Objects/Specific/Syndicate/telecrystal.rsi
   spawn: Telecrystal1
 
 - type: stack
   id: Bluespace
-  name: bluespace
+  name: stack-bluespace-name
   icon: { sprite: Objects/Materials/materials.rsi, state: bluespace }
   spawn: MaterialBluespace1
   maxCount: 5
 
 - type: stack
   id: Normality
-  name: normality
+  name: stack-normality-name
   icon: { sprite: Objects/Materials/materials.rsi, state: normality }
   spawn: MaterialNormality1

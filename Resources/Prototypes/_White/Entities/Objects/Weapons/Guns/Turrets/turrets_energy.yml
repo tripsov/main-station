@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseWeaponEnergyTurret
   id: WeaponEnergyTurretShip
-  name: ship laser turret
-  description: A burst fire heavy laser weapon mounted to a simple actuator rig with a camera. Its weapon will recharge while connected to an active power grid.
+  name: entity-weaponenergyturretship-name
+  description: entity-weaponenergyturretship-description
   suffix: Remote Controlled
   components:
   - type: DeviceLinkSink

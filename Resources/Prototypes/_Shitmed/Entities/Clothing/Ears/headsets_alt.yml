@@ -1,7 +1,7 @@
 - type: entity
   parent: ClothingHeadsetAlt
   id: ClothingHeadsetAltAbductor
-  name: abductor over-ear headset
+  name: entity-clothingheadsetaltabductor-name
   components:
   - type: ContainerFill
     containers:

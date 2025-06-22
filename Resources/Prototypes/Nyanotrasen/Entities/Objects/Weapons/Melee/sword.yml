@@ -1,8 +1,8 @@
 - type: entity
-  name: wakizashi
+  name: entity-wakizashi-name
   parent: BaseItem
   id: Wakizashi
-  description: A short, multi-purpose sword of plasteel construction.
+  description: entity-wakizashi-description
   components:
   - type: Tag
     tags:

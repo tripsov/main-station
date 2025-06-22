@@ -1,8 +1,8 @@
 - type: entity
   parent: CrayonRainbow
   id: CrayonMagic
-  name: magic crayon
-  description: Specially blended with bluespace crystals and certified non-toxic.
+  name: entity-crayonmagic-name
+  description: entity-crayonmagic-description
   components:
   - type: Sprite
     sprite: _NF/Objects/Fun/magic_crayon.rsi
@@ -35,8 +35,8 @@
   parent: CrayonMagic
   id: CrayoAdmin
   suffix: Admeme
-  name: extra magic crayon
-  description: Specially blended with shitspawnium crystals and certified toxic.
+  name: entity-crayoadmin-name
+  description: entity-crayoadmin-description
   components:
   - type: Sprite
     sprite: _NF/Objects/Fun/magic_crayon.rsi

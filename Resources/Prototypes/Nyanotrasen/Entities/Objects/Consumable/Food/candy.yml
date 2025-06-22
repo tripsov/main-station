@@ -1,8 +1,8 @@
 - type: entity
   parent: FoodBase
   id: FoodLollipop
-  name: lollipop
-  description: For being such a good sport.
+  name: entity-foodlollipop-name
+  description: entity-foodlollipop-description
   components:
   - type: SolutionContainerManager
     solutions:
@@ -26,8 +26,8 @@
 - type: entity
   parent: FoodBase
   id: FoodGumball
-  name: gumball
-  description: For being such a good sport.
+  name: entity-foodgumball-name
+  description: entity-foodlollipop-description
   components:
   - type: SolutionContainerManager
     solutions:

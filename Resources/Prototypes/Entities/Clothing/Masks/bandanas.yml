@@ -33,8 +33,8 @@
 - type: entity
   parent: ClothingMaskBandanaBase
   id: ClothingMaskBandWhite
-  name: bandana
-  description: A bandana to make you look cool.
+  name: entity-clothingmaskbandwhite-name
+  description: entity-clothingmaskbandwhite-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Bandanas/white.rsi
@@ -44,8 +44,8 @@
 - type: entity
   parent: ClothingMaskBandanaBase
   id: ClothingMaskBandBlack
-  name: black bandana
-  description: A black bandana to make you look cool.
+  name: entity-clothingmaskbandblack-name
+  description: entity-clothingmaskbandblack-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Bandanas/black.rsi
@@ -55,8 +55,8 @@
 - type: entity
   parent: ClothingMaskBandanaBase
   id: ClothingMaskBandBlue
-  name: blue bandana
-  description: A blue bandana to make you look cool.
+  name: entity-clothingmaskbandblue-name
+  description: entity-clothingmaskbandblue-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Bandanas/blue.rsi
@@ -66,8 +66,8 @@
 - type: entity
   parent: ClothingMaskBandanaBase
   id: ClothingMaskBandBotany
-  name: botany bandana
-  description: A botany bandana to make you look cool, made from natural fibers.
+  name: entity-clothingmaskbandbotany-name
+  description: entity-clothingmaskbandbotany-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Bandanas/botany.rsi
@@ -81,8 +81,8 @@
 - type: entity
   parent: ClothingMaskBandanaBase
   id: ClothingMaskBandGold
-  name: gold bandana
-  description: A gold bandana to make you look cool.
+  name: entity-clothingmaskbandgold-name
+  description: entity-clothingmaskbandgold-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Bandanas/gold.rsi
@@ -92,8 +92,8 @@
 - type: entity
   parent: ClothingMaskBandanaBase
   id: ClothingMaskBandGreen
-  name: green bandana
-  description: A green bandana to make you look cool.
+  name: entity-clothingmaskbandgreen-name
+  description: entity-clothingmaskbandgreen-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Bandanas/green.rsi
@@ -103,8 +103,8 @@
 - type: entity
   parent: ClothingMaskBandanaBase
   id: ClothingMaskBandGrey
-  name: grey bandana
-  description: A grey bandana to make you look cool.
+  name: entity-clothingmaskbandgrey-name
+  description: entity-clothingmaskbandgrey-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Bandanas/grey.rsi
@@ -114,8 +114,8 @@
 - type: entity
   parent: ClothingMaskBandanaBase
   id: ClothingMaskBandRed
-  name: red bandana
-  description: A red bandana to make you look cool.
+  name: entity-clothingmaskbandred-name
+  description: entity-clothingmaskbandred-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Bandanas/red.rsi
@@ -125,8 +125,8 @@
 - type: entity
   parent: ClothingMaskBandanaBase
   id: ClothingMaskBandSkull
-  name: skull bandana
-  description: A bandana with a skull to make you look even cooler.
+  name: entity-clothingmaskbandskull-name
+  description: entity-clothingmaskbandskull-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Bandanas/skull.rsi
@@ -136,8 +136,8 @@
 - type: entity
   parent: ClothingMaskBandanaBase
   id: ClothingMaskBandMerc
-  name: mercenary bandana
-  description: To protect the head from the sun, insects and other dangers of the higher path.
+  name: entity-clothingmaskbandmerc-name
+  description: entity-clothingmaskbandmerc-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Bandanas/merc.rsi
@@ -147,8 +147,8 @@
 - type: entity
   parent: ClothingMaskBandanaBase
   id: ClothingMaskBandBrown
-  name: brown bandana
-  description: A brown bandana to make you look cool.
+  name: entity-clothingmaskbandbrown-name
+  description: entity-clothingmaskbandbrown-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Bandanas/brown.rsi

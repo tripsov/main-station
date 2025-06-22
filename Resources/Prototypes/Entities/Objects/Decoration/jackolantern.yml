@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: CarvedPumpkin
-  name: carved pumpkin
-  description: A traditional spooky decoration.
+  name: entity-carvedpumpkin-name
+  description: entity-carvedpumpkin-description
   components:
   - type: Sprite
     sprite: Objects/Specific/Hydroponics/pumpkin.rsi
@@ -16,8 +16,8 @@
 - type: entity
   parent: CarvedPumpkin
   id: PumpkinLantern
-  name: jack o' lantern
-  description: A carved pumpkin, emitting an eerie glow.
+  name: entity-pumpkinlantern-name
+  description: entity-pumpkinlantern-description
   components:
     - type: Sprite
       state: lantern

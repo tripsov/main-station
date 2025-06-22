@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCrucifix
-  name: crucifix
-  description: Damn, it feels good to be so pious.
+  name: entity-clothingneckcrucifix-name
+  description: entity-clothingneckcrucifix-description
   components:
   - type: Item
     size: Small

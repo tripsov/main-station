@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseStructure
   id: SophicScribe
-  name: Sophia
-  description: Latest reports on the Noösphere!
+  name: entity-sophicscribe-name
+  description: entity-sophicscribe-description
   components:
   - type: Sprite
     noRot: true

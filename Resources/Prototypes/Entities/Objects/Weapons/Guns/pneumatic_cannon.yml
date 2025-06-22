@@ -1,8 +1,8 @@
 - type: entity
-  name: improvised pneumatic cannon
+  name: entity-weaponimprovisedpneumaticcannon-name
   parent: BaseStorageItem
   id: WeaponImprovisedPneumaticCannon
-  description: Improvised using nothing but a pipe, some zipties, and a pneumatic cannon. Doesn't accept tanks without enough gas.
+  description: entity-weaponimprovisedpneumaticcannon-description
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Cannons/pneumatic_cannon.rsi
@@ -76,10 +76,10 @@
     staminaCost: 8
 
 - type: entity
-  name: pie cannon
+  name: entity-launchercreampie-name
   parent: BaseStorageItem
   id: LauncherCreamPie
-  description: Load cream pie for optimal results.
+  description: entity-launchercreampie-description
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Cannons/pie_cannon.rsi
@@ -119,10 +119,10 @@
   - type: Execution
 
 - type: entity
-  name: syringe gun
+  name: entity-launchersyringe-name
   parent: BaseStorageItem
   id: LauncherSyringe
-  description: Load full of poisoned syringes for optimal fun.
+  description: entity-launchersyringe-description
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Cannons/syringe_gun.rsi

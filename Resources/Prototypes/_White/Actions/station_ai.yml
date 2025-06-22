@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: ActionAIToggleBolts
-  name: Toggle floor bolts
-  description: Toggle bolts, that keep you wrenched to the floor.
+  name: entity-actionaitogglebolts-name
+  description: entity-actionaitogglebolts-description
   components:
   - type: InstantAction
     priority: -1
@@ -14,8 +14,8 @@
 
 - type: entity
   id: ActionAICameraList
-  name: Show camera list
-  description: Show available cameras for you to follow.
+  name: entity-actionaicameralist-name
+  description: entity-actionaicameralist-description
   components:
   - type: InstantAction
     priority: -5
@@ -28,8 +28,8 @@
 
 - type: entity
   id: ActionBackToAi
-  name: Back to Ai
-  description: Sends your mind back to the core.
+  name: entity-actionbacktoai-name
+  description: entity-actionbacktoai-description
   components:
   - type: InstantAction
     checkConsciousness: false
@@ -43,8 +43,8 @@
 
 - type: entity
   id: ActionOpenRemoteDevicesMenu
-  name: Open list of remote devices
-  description: Opens a menu with available remote devices.
+  name: entity-actionopenremotedevicesmenu-name
+  description: entity-actionopenremotedevicesmenu-description
   components:
   - type: InstantAction
     checkConsciousness: false

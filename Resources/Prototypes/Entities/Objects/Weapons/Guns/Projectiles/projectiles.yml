@@ -48,8 +48,8 @@
 # One bullet to bring them all into the darkness and bind them
 - type: entity
   id: BaseBullet
-  name: BaseBullet
-  description: If you can see this you're probably dead!
+  name: entity-basebullet-name
+  description: entity-basebullet-description
   abstract: true
   components:
   - type: Reflective
@@ -119,7 +119,7 @@
 
 - type: entity
   id: BaseBulletPractice
-  name: base bullet practice
+  name: entity-basebulletpractice-name
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:
@@ -158,7 +158,7 @@
 
 - type: entity
   id: BaseBulletIncendiary
-  name: base bullet incendiary
+  name: entity-basebulletincendiary-name
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:
@@ -176,7 +176,7 @@
 
 - type: entity
   id: BaseBulletAP
-  name: base bullet armor-piercing
+  name: entity-basebulletap-name
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:
@@ -192,7 +192,7 @@
 
 - type: entity
   id: BaseBulletUranium
-  name: base bullet uranium
+  name: entity-basebulleturanium-name
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:
@@ -207,7 +207,7 @@
 
 # Energy projectiles
 - type: entity
-  name: taser bolt
+  name: entity-bullettaser-name
   id: BulletTaser
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
@@ -327,7 +327,7 @@
         Shock: 1
 
 - type: entity
-  name: emitter bolt
+  name: entity-emitterbolt-name
   id: EmitterBolt
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
@@ -364,7 +364,7 @@
     lifetime: 3
 
 - type: entity
-  name: watcher bolt
+  name: entity-watcherbolt-name
   id: WatcherBolt
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
@@ -404,7 +404,7 @@
     lifetime: 3
 
 - type: entity
-  name: magmawing watcher bolt
+  name: entity-watcherboltmagmawing-name
   id: WatcherBoltMagmawing
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
@@ -424,10 +424,10 @@
 
 - type: entity
   id: BulletKinetic
-  name: kinetic bolt
+  name: entity-bulletkinetic-name
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
-  description: Not too bad, but you still don't want to get hit by it.
+  description: entity-bulletkinetic-description
   components:
   - type: Reflective
     reflective:
@@ -477,10 +477,10 @@
 
 - type: entity
   id: BulletCharge
-  name: charge bolt
+  name: entity-bulletcharge-name
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
-  description: Marks a target for additional damage.
+  description: entity-bulletcharge-description
   components:
   - type: Reflective
     reflective:
@@ -513,7 +513,7 @@
 - type: entity
   parent: BaseBullet
   id: AnomalousParticleDelta
-  name: delta particles
+  name: entity-anomalousparticledelta-name
   categories: [ HideSpawnMenu ]
   components:
   - type: PointLight
@@ -567,7 +567,7 @@
 - type: entity
   parent: AnomalousParticleDelta
   id: AnomalousParticleEpsilon
-  name: epsilon particles
+  name: entity-anomalousparticleepsilon-name
   categories: [ HideSpawnMenu ]
   components:
   - type: PointLight
@@ -597,7 +597,7 @@
 - type: entity
   parent: AnomalousParticleDelta
   id: AnomalousParticleZeta
-  name: zeta particles
+  name: entity-anomalousparticlezeta-name
   categories: [ HideSpawnMenu ]
   components:
   - type: PointLight
@@ -627,7 +627,7 @@
 - type: entity
   parent: AnomalousParticleDelta
   id: AnomalousParticleOmegaStrong
-  name: omega particles
+  name: entity-anomalousparticleomegastrong-name
   categories: [ HideSpawnMenu ]
   components:
   - type: PointLight
@@ -656,7 +656,7 @@
 - type: entity
   parent: AnomalousParticleDelta
   id: AnomalousParticleSigma
-  name: sigma particles
+  name: entity-anomalousparticlesigma-name
   categories: [ HideSpawnMenu ]
   components:
   - type: PointLight
@@ -674,7 +674,7 @@
 - type: entity
   parent: AnomalousParticleSigma
   id: AnomalousParticleSigmaStrong
-  name: sigma particles
+  name: entity-anomalousparticlesigma-name
   categories: [ HideSpawnMenu ]
   components:
   - type: AnomalousParticle
@@ -683,7 +683,7 @@
 # Launcher projectiles (grenade / rocket)
 - type: entity
   id: BulletRocket
-  name: rocket
+  name: entity-bulletrocket-name
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -705,7 +705,7 @@
 
 - type: entity
   id: BulletWeakRocket
-  name: weak rocket
+  name: entity-bulletweakrocket-name
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -727,7 +727,7 @@
 
 - type: entity
   id: BulletGrenadeBaton
-  name: baton grenade
+  name: entity-bulletgrenadebaton-name
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:
@@ -747,7 +747,7 @@
 
 - type: entity
   id: BulletGrenadeBlast
-  name: blast grenade
+  name: entity-bulletgrenadeblast-name
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -764,7 +764,7 @@
 
 - type: entity
   id: BulletGrenadeFlash
-  name: flash grenade
+  name: entity-bulletgrenadeflash-name
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -785,7 +785,7 @@
 # This is supposed to spawn shrapnel and stuff so uhh... TODO?
 - type: entity
   id: BulletGrenadeFrag
-  name: frag grenade
+  name: entity-bulletgrenadefrag-name
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -802,7 +802,7 @@
 
 - type: entity
   id: BulletGrenadeEMP
-  name: EMP rocket
+  name: entity-bulletgrenadeemp-name
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -877,7 +877,7 @@
 
 - type: entity
   id: BulletGrenadeSlug
-  name: baton grenade
+  name: entity-bulletgrenadebaton-name
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:
@@ -898,7 +898,7 @@
 
 - type: entity
   id: BulletCap
-  name: cap bullet
+  name: entity-bulletcap-name
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:
@@ -914,7 +914,7 @@
 
 - type: entity
   id: BulletAcid
-  name: acid spit
+  name: entity-bulletacid-name
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:
@@ -931,7 +931,7 @@
 
 - type: entity
   id: BulletWaterShot
-  name: water
+  name: entity-bulletwatershot-name
   categories: [ HideSpawnMenu ]
   components:
   - type: Clickable
@@ -973,7 +973,7 @@
 
 - type: entity
   id: BulletCannonBall
-  name: cannonball
+  name: entity-bulletcannonball-name
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -1117,7 +1117,7 @@
     forceSound: true
 
 - type: entity
-  name: tesla gun lightning
+  name: entity-teslagunbullet-name
   id: TeslaGunBullet
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
@@ -1154,7 +1154,7 @@
 
 # Because Hitscan lasers aren't fun to shoot in my opinion, we give the HoS pistol a special lethal laser that moves
 - type: entity
-  name: energy bolt
+  name: entity-bulletenergyturretbase-name
   id: BulletEnergyGunLaser
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
@@ -1199,7 +1199,7 @@
     energy: 1.0
 
 - type: entity
-  name: laser bolt
+  name: entity-bulletenergyturretlaser-name
   id: BulletLaser
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
@@ -1245,7 +1245,7 @@
     energy: 1.0
 
 - type: entity
-  name: laser barrage
+  name: entity-bulletlaserspread-name
   id: BulletLaserSpread
   parent: BulletLaser
   categories: [ HideSpawnMenu ]
@@ -1256,7 +1256,7 @@
     spread: 25
 
 - type: entity
-  name: laser slug
+  name: entity-bulletlaserspreadslug-name
   id: BulletLaserSpreadSlug
   parent: BulletLaserHeavy
   categories: [ HideSpawnMenu ]
@@ -1289,7 +1289,7 @@
   # WD EDIT END
 
 - type: entity
-  name: narrow laser barrage
+  name: entity-bulletlaserheavyspread-name
   id: BulletLaserHeavySpread
   parent: BulletLaser
   categories: [ HideSpawnMenu ]
@@ -1300,7 +1300,7 @@
     spread: 10
 
 - type: entity
-  name: disabler laser barrage
+  name: entity-bulletdisablersmgspread-name
   id: BulletDisablerSmgSpread
   parent: BulletDisablerSmg
   categories: [ HideSpawnMenu ]
@@ -1311,7 +1311,7 @@
     spread: 9
 
 - type: entity # Goobstation, put here so the X-01 stuff isnt spread everywhere.
-  name: magnum bolt
+  name: entity-bulletenergygunmagnum-name
   id: BulletEnergyGunMagnum
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
@@ -1351,7 +1351,7 @@
       collection: MeatLaserImpact
 
 - type: entity #Goobstation, put here so the X-01 stuff isnt spread everywhere.
-  name: ion bolt
+  name: entity-bulletenergygunion-name
   id: BulletEnergyGunIon
   parent: BaseBullet
   categories: [ HideSpawnMenu ]

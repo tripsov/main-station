@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: BaseWeaponRifle
   id: WeaponLightRifleAK220
-  name: AK-220
-  description: Updated version of iconic weapon. Uses .30 rifle ammo.
+  name: entity-weaponlightrifleak220-name
+  description: entity-weaponlightrifleak220-description
   components:
   - type: Sprite
     sprite: _White/Objects/Weapons/Guns/Rifles/AK220.rsi

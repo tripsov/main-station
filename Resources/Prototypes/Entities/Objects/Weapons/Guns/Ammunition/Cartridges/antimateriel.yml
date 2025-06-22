@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseCartridge
   id: CartridgeAntiMateriel
-  name: cartridge (.60 anti-materiel)
+  name: entity-cartridgeantimateriel-name
   components:
   - type: Tag
     tags:
@@ -22,7 +22,7 @@
 - type: entity
   parent: CartridgeAntiMateriel
   id: CartridgeAntiMaterielShrapnel
-  name: cartridge (.60 anti-personnel shrapnel)
+  name: entity-cartridgeantimaterielshrapnel-name
   components:
   - type: CartridgeAmmo
     proto: BulletAntiMaterielShrapnelSpread

@@ -1,6 +1,6 @@
 - type: psionicPower
   id: MantisSummonBlackBlade
-  name: Summon Black Blade
+  name: psionicpower-mantissummonblackblade-name
   powerCategories:
     - Mentalic
     - Dangerous
@@ -13,8 +13,8 @@
 
 - type: entity
   id: ActionMantisSummonBlackBlade
-  name: Summon Black Blade
-  description: Beckon forth the testament of your sins.
+  name: psionicpower-mantissummonblackblade-name
+  description: entity-actionmantissummonblackblade-description
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -36,10 +36,10 @@
   - type: BaseCultSpell
 
 - type: entity
-  name: black sword
+  name: entity-mantisblackblade-name
   parent: BaseItem
   id: MantisBlackBlade
-  description: A huge black sword covered in strange runes. It whispers incessantly to its wielder.
+  description: entity-mantisblackblade-description
   components:
   - type: Sharp
   - type: Sprite

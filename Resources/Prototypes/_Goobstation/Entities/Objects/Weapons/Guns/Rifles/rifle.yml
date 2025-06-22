@@ -1,8 +1,8 @@
 - type: entity
-  name: Burner
+  name: entity-weaponrifleburner-name
   parent: BaseWeaponRifle
   id: WeaponRifleBurner
-  description: A high caliber syndicate gun chambered in .50 caliber, capable of firing anti-materiel and high explosive rounds.
+  description: entity-weaponrifleburner-description
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Weapons/Guns/Rifles/burner.rsi

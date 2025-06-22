@@ -1,8 +1,8 @@
 - type: entity
   id: RollerBed
   parent: [BaseItem, BaseFoldable]
-  name: rollerbed
-  description: Used to carry patients around without damaging them.
+  name: entity-rollerbed-name
+  description: entity-rollerbed-description
   components:
     - type: Transform
       noRot: true
@@ -84,9 +84,9 @@
 
 - type: entity
   id: CheapRollerBed
-  name: rollerbed
+  name: entity-rollerbed-name
   parent: RollerBed
-  description: A run-down rollerbed. Used to carry patients around.
+  description: entity-cheaprollerbed-description
   components:
   - type: Sprite
     layers:
@@ -112,9 +112,9 @@
 
 - type: entity
   id: EmergencyRollerBed
-  name: rollerbed
+  name: entity-rollerbed-name
   parent: RollerBed
-  description: A robust looking rollerbed used for emergencies.
+  description: entity-emergencyrollerbed-description
   components:
   - type: Sprite
     layers:

@@ -1,5 +1,5 @@
 - type: entity
-  name: Salvage Lore Paper Gaming Spawner
+  name: entity-salvagelorepapergamingspawner-name
   id: SalvageLorePaperGamingSpawner
   parent: MarkerBase
   components:

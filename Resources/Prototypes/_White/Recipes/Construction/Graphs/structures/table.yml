@@ -1,11 +1,11 @@
 ﻿- type: construction
-  name: table frame
+  name: construction-tableframe-name
   id: TableFrame
   graph: Table
   startNode: start
   targetNode: TableFrame
   category: construction-category-furniture
-  description: Pieces of metal that make the frame of a table.
+  description: construction-tableframe-description
   icon:
     sprite: Structures/Furniture/Tables/frame.rsi
     state: full

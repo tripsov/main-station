@@ -1,8 +1,8 @@
 - type: entity
   id: Girder
   parent: BaseStructureDynamic
-  name: girder
-  description: A large structural assembly made out of metal; It requires a layer of metal before it can be considered a wall.
+  name: entity-girder-name
+  description: entity-girder-description
   components:
   - type: Transform
     anchored: true
@@ -60,8 +60,8 @@
 - type: entity
   id: ReinforcedGirder
   parent: Girder
-  name: reinforced girder
-  description: A large structural assembly made out of metal and plasteel; It requires a layer of plasteel before it can be considered a reinforced wall.
+  name: entity-reinforcedgirder-name
+  description: entity-reinforcedgirder-description
   components:
     - type: Sprite
       sprite: Structures/Walls/solid.rsi
@@ -103,8 +103,8 @@
 - type: entity
   id: ClockworkGirder
   parent: ReinforcedGirder
-  name: wall gear
-  description: A large gear with mounting brackets for additional plating; This could be made into a wall with more brass plating.
+  name: entity-clockworkgirder-name
+  description: entity-clockworkgirder-description
   components:
     - type: Sprite
       sprite: Structures/Walls/clock.rsi

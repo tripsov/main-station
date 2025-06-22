@@ -1,6 +1,6 @@
 - type: entity
   id: BaseCartridgeRifle
-  name: cartridge (.20 rifle)
+  name: entity-basecartridgerifle-name
   parent: BaseCartridge
   abstract: true
   components:
@@ -20,7 +20,7 @@
 
 - type: entity
   id: CartridgeRifle
-  name: cartridge (.20 rifle)
+  name: entity-basecartridgerifle-name
   parent: BaseCartridgeRifle
   components:
   - type: CartridgeAmmo
@@ -28,7 +28,7 @@
 
 - type: entity
   id: CartridgeRiflePractice
-  name: cartridge (.20 rifle practice)
+  name: entity-cartridgeriflepractice-name
   parent: BaseCartridgeRifle
   components:
   - type: CartridgeAmmo
@@ -43,7 +43,7 @@
 
 - type: entity
   id: CartridgeRifleIncendiary
-  name: cartridge (.20 rifle incendiary)
+  name: entity-cartridgerifleincendiary-name
   parent: BaseCartridgeRifle
   components:
   - type: CartridgeAmmo
@@ -58,7 +58,7 @@
 
 - type: entity
   id: CartridgeRifleUranium
-  name: cartridge (.20 rifle uranium)
+  name: entity-cartridgerifleuranium-name
   parent: BaseCartridgeRifle
   components:
   - type: CartridgeAmmo
@@ -73,7 +73,7 @@
 
 - type: entity
   id: CartridgeRifleShrapnel
-  name: cartridge (.20 rifle shrapnel)
+  name: entity-cartridgerifleshrapnel-name
   parent: BaseCartridgeRifle
   components:
   - type: CartridgeAmmo

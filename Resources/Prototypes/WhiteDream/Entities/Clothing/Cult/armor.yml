@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterCultArmor
-  name: true nar'sien hardened armor
-  description: heavily-armored exosuit worn by warriors of the Nar'Sien cult. It can withstand hard vacuum.
+  name: entity-clothingoutercultarmor-name
+  description: entity-clothingoutercultarmor-description
   components:
   - type: Sprite
     sprite: WhiteDream/BloodCult/Entities/Clothes/Outer/cult_armor.rsi
@@ -35,8 +35,8 @@
   parent: ClothingHeadHardsuitBase
   id: ClothingHeadHelmetCultArmor
   categories: [ HideSpawnMenu ]
-  name: true nar'sien hardened helmet
-  description: A heavily-armored helmet worn by warriors of the Nar'Sien cult. It can withstand hard vacuum.
+  name: entity-clothingheadhelmetcultarmor-name
+  description: entity-clothingheadhelmetcultarmor-description
   components:
   - type: BreathMask
   - type: Sprite
@@ -52,8 +52,8 @@
 - type: entity
   parent: ClothingOuterRobesCult
   id: ClothingOuterRobesCultTrue
-  name: flagellant's robe
-  description: Blood-soaked robes infused with dark magic; allows the user to move at inhuman speeds, but at the cost of increased damage.
+  name: entity-clothingouterrobesculttrue-name
+  description: entity-clothingouterrobesculttrue-description
   components:
   - type: Sprite
     sprite: WhiteDream/BloodCult/Entities/Clothes/Outer/cult_robe.rsi
@@ -79,8 +79,8 @@
 - type: entity
   parent: ClothingHeadHatHoodCulthood
   id: ClothingHeadHatHoodCultHoodTrue
-  name: flagellant's hood
-  description: A blood-soaked hood infused with dark magic.
+  name: entity-clothingheadhathoodculthoodtrue-name
+  description: entity-clothingheadhathoodculthoodtrue-description
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -103,8 +103,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyeCultBlindfold
-  name: zealot's blindfold
-  description: May Nar'Sie guide you through the darkness and shield you from the light
+  name: entity-clothingeyecultblindfold-name
+  description: entity-clothingeyecultblindfold-description
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Misc/blindfold.rsi

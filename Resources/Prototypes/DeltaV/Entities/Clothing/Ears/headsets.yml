@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingHeadsetService
   id: ClothingHeadsetHoP
-  name: hop headset
-  description: A headset used by the head of personnel.
+  name: entity-clothingheadsethop-name
+  description: entity-clothingheadsethop-description
   components:
   - type: ContainerFill
     containers:
@@ -15,7 +15,7 @@
 - type: entity
   parent: ClothingHeadsetAlt
   id: ClothingHeadsetAltService
-  name: head of personnel's over-ear headset
+  name: entity-clothingheadsetaltservice-name
   components:
   - type: ContainerFill
     containers:
@@ -31,8 +31,8 @@
 - type: entity
   parent: ClothingHeadsetAltSyndicate
   id: ClothingHeadsetAltSyndicateListening
-  name: blood-red over-ear interception headset
-  description: An advanced, modular syndicate interception intercom that fits over the head.
+  name: entity-clothingheadsetaltsyndicatelistening-name
+  description: entity-clothingheadsetaltsyndicatelistening-description
   components:
   - type: ContainerFill
     containers:
@@ -48,8 +48,8 @@
 - type: entity
   parent: ClothingHeadset
   id: ClothingHeadsetJustice
-  name: justice headset
-  description: This is used by the justice department.
+  name: entity-clothingheadsetjustice-name
+  description: entity-clothingheadsetjustice-description
   components:
   - type: ContainerFill
     containers:
@@ -66,8 +66,8 @@
 - type: entity
   parent: ClothingHeadset
   id: ClothingHeadsetAltJustice
-  name: chief justice's headset
-  description: The headset used by the chief justice.
+  name: entity-clothingheadsetaltjustice-name
+  description: entity-clothingheadsetaltjustice-description
   components:
   - type: ContainerFill
     containers:
@@ -85,8 +85,8 @@
 - type: entity
   parent: ClothingHeadset
   id: ClothingHeadsetPrison
-  name: prison headset
-  description: Headset used by anybody who needs direct contact with prisoners
+  name: entity-clothingheadsetprison-name
+  description: entity-clothingheadsetprison-description
   components:
   - type: ContainerFill
     containers:
@@ -101,8 +101,8 @@
 - type: entity
   parent: ClothingHeadset
   id: ClothingHeadsetPrisonGuard
-  name: guard headset
-  description: Headset used by prison guards.
+  name: entity-clothingheadsetprisonguard-name
+  description: entity-clothingheadsetprisonguard-description
   components:
   - type: ContainerFill
     containers:
@@ -118,8 +118,8 @@
 - type: entity
   parent: ClothingHeadset
   id: ClothingHeadsetAdminAssist
-  name: adminstrative assistant headset
-  description: A headset used by the administrative assistant.
+  name: entity-clothingheadsetadminassist-name
+  description: entity-clothingheadsetadminassist-description
   components:
   - type: ContainerFill
     containers:
@@ -134,7 +134,7 @@
 - type: entity
   parent: ClothingHeadsetAdminAssist
   id: ClothingHeadsetAltAdminAssist
-  name: adminstrative assistant over-ear headset
+  name: entity-clothingheadsetaltadminassist-name
   components:
   - type: Sprite
     state: icon_alt

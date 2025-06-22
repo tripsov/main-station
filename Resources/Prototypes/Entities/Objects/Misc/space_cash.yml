@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: SpaceCash
-  name: spesos
-  description: You gotta have money.
+  name: entity-spacecash-name
+  description: entity-spacecash-description
   components:
   - type: Cash
   - type: Item
@@ -56,7 +56,7 @@
 
 - type: material
   id: Credit
-  name: speso
+  name: material-credit-name
   unit: materials-unit-bill
   stackEntity: SpaceCash
   icon: { sprite: _NF/Objects/Economy/cash.rsi, state: cash } # Frontier: use Frontier sprite set
@@ -64,7 +64,7 @@
 
 - type: stack
   id: Credit
-  name: speso
+  name: material-credit-name
   icon: { sprite: _NF/Objects/Economy/cash.rsi, state: cash } # Frontier: use Frontier sprite set
   spawn: SpaceCash
 

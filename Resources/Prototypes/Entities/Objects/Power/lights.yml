@@ -116,9 +116,9 @@
 # https://academo.org/demos/colour-temperature-relationship/
 - type: entity
   parent: BaseLightbulb
-  name: incandescent light bulb
+  name: entity-lightbulb-name
   id: LightBulb
-  description: A light bulb.
+  description: entity-lightbulb-description
   components:
   - type: LightBulb
     bulb: Bulb
@@ -132,9 +132,9 @@
 
 - type: entity
   parent: BaseLightbulb
-  name: led light bulb
+  name: entity-ledlightbulb-name
   id: LedLightBulb
-  description: A power efficient light bulb.
+  description: entity-ledlightbulb-description
   components:
   - type: LightBulb
     bulb: Bulb
@@ -147,9 +147,9 @@
 
 - type: entity
   parent: LightBulb
-  name: old incandescent light bulb
+  name: entity-lightbulbold-name
   id: LightBulbOld
-  description: An aging light bulb.
+  description: entity-lightbulbold-description
   components:
   - type: LightBulb
     bulb: Bulb
@@ -161,9 +161,9 @@
 - type: entity
   suffix: Broken
   parent: BaseLightbulb
-  name: incandescent light bulb
+  name: entity-lightbulb-name
   id: LightBulbBroken
-  description: A light bulb.
+  description: entity-lightbulb-description
   components:
   - type: LightBulb
     startingState: Broken
@@ -171,9 +171,9 @@
 
 - type: entity
   parent: BaseLightbulb
-  name: service light bulb
+  name: entity-servicelightbulb-name
   id: ServiceLightBulb
-  description: A low-brightness green lightbulb used in janitorial service lights.
+  description: entity-servicelightbulb-description
   components:
   - type: LightBulb
     bulb: Bulb
@@ -184,9 +184,9 @@
 
 - type: entity
   parent: BaseLightTube
-  name: fluorescent light tube
+  name: entity-lighttube-name
   id: LightTube
-  description: A light fixture.
+  description: entity-lighttube-description
   components:
   - type: LightBulb
     color: "#FFE4CE" # 5000K color temp
@@ -197,9 +197,9 @@
 
 - type: entity
   parent: LightTube
-  name: old fluorescent light tube
+  name: entity-lighttubeold-name
   id: LightTubeOld
-  description: An aging light fixture.
+  description: entity-lighttubeold-description
   components:
   - type: LightBulb
     color: "#FFDABB" # old fluorescents are yellower-4500K temp
@@ -211,17 +211,17 @@
 - type: entity
   suffix: Broken
   parent: BaseLightTube
-  name: fluorescent light tube
+  name: entity-lighttube-name
   id: LightTubeBroken
-  description: A light fixture.
+  description: entity-lighttube-description
   components:
   - type: LightBulb
     startingState: Broken
 
 - type: entity
   parent: BaseLightTube
-  name: led light tube
-  description: A high power high energy bulb.
+  name: entity-ledlighttube-name
+  description: entity-ledlighttube-description
   id: LedLightTube
   components:
   - type: LightBulb
@@ -234,8 +234,8 @@
 
 - type: entity
   parent: BaseLightTube
-  name: exterior light tube
-  description: A high power high energy bulb for the depths of space. May contain mercury.
+  name: entity-exteriorlighttube-name
+  description: entity-exteriorlighttube-description
   id: ExteriorLightTube
   categories: [ HideSpawnMenu ] # DeltaV - Don't map these
   components:
@@ -249,8 +249,8 @@
 
 - type: entity
   parent: BaseLightTube
-  name: sodium light tube
-  description: A high power high energy bulb for the depths of space. Salty.
+  name: entity-sodiumlighttube-name
+  description: entity-sodiumlighttube-description
   id: SodiumLightTube
   components:
   - type: LightBulb
@@ -263,8 +263,8 @@
 
 - type: entity
   parent: BaseLightTube
-  name: cyan crystal light tube
-  description: A high power high energy bulb which has a small colored crystal inside.
+  name: entity-lighttubecrystalcyan-name
+  description: entity-lighttubecrystalcyan-description
   id: LightTubeCrystalCyan
   components:
   - type: LightBulb
@@ -284,7 +284,7 @@
 
 - type: entity
   parent: LightTubeCrystalCyan
-  name: blue crystal light tube
+  name: entity-lighttubecrystalblue-name
   id: LightTubeCrystalBlue
   components:
   - type: LightBulb
@@ -304,7 +304,7 @@
 
 - type: entity
   parent: LightTubeCrystalCyan
-  name: pink crystal light tube
+  name: entity-lighttubecrystalpink-name
   id: LightTubeCrystalPink
   components:
   - type: LightBulb
@@ -324,7 +324,7 @@
 
 - type: entity
   parent: LightTubeCrystalCyan
-  name: orange crystal light tube
+  name: entity-lighttubecrystalorange-name
   id: LightTubeCrystalOrange
   components:
   - type: LightBulb
@@ -344,7 +344,7 @@
 
 - type: entity
   parent: LightTubeCrystalCyan
-  name: red crystal light tube
+  name: entity-lighttubecrystalred-name
   id: LightTubeCrystalRed
   components:
   - type: LightBulb
@@ -364,7 +364,7 @@
 
 - type: entity
   parent: LightTubeCrystalCyan
-  name: green crystal light tube
+  name: entity-lighttubecrystalgreen-name
   id: LightTubeCrystalGreen
   components:
   - type: LightBulb

@@ -1,8 +1,8 @@
 - type: entity
   parent: ComputerSurveillanceWirelessCameraMonitor
   id: ComputerTelevision
-  name: wooden television
-  description: Finally, some decent reception around here...
+  name: entity-computertelevision-name
+  description: entity-computertelevision-description
   components:
   - type: Sprite
     sprite: _White/Structures/Machines/Computers/tv.rsi # WWDP-EDIT
@@ -35,8 +35,8 @@
 - type: entity
   parent: BaseComputer
   id: WallmountTelescreenFrame
-  name: telescreen frame
-  description: Finally, some decent reception around here...
+  name: entity-wallmounttelescreenframe-name
+  description: entity-computertelevision-description
   components:
   - type: Construction
     graph: WallmountTelescreen
@@ -90,8 +90,8 @@
   parent: WallmountTelescreenFrame
   id: WallmountTelescreen
   suffix: camera monitor
-  name: telescreen
-  description: Finally, some decent reception around here...
+  name: entity-wallmounttelescreen-name
+  description: entity-computertelevision-description
   components:
   - type: Construction
     graph: WallmountTelescreen
@@ -120,8 +120,8 @@
 - type: entity
   parent: WallmountTelescreenFrame
   id: WallmountTelevisionFrame
-  name: television frame
-  description: Finally, some decent reception around here...
+  name: entity-wallmounttelevisionframe-name
+  description: entity-computertelevision-description
   components:
   - type: Fixtures
     fixtures:
@@ -153,8 +153,8 @@
   parent: WallmountTelevisionFrame
   id: WallmountTelevision
   suffix: entertainment
-  name: television
-  description: Finally, some decent reception around here...
+  name: entity-wallmounttelevision-name
+  description: entity-computertelevision-description
   components:
   - type: Sprite
     drawdepth: WallMountedItems

@@ -1,8 +1,8 @@
 - type: entity
   id: IntercomElectronics
   parent: BaseElectronics
-  name: intercom electronics
-  description: An electronics board used in intercoms
+  name: entity-intercomelectronics-name
+  description: entity-intercomelectronics-description
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi

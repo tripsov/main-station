@@ -33,7 +33,7 @@
 - type: entity
   id: OrganAnimalLungs
   parent: BaseAnimalOrgan
-  name: lungs
+  name: entity-organanimallungs-name
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -65,7 +65,7 @@
 - type: entity
   id: OrganAnimalStomach
   parent: BaseAnimalOrgan
-  name: stomach
+  name: entity-organanimalstomach-name
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -92,7 +92,7 @@
 - type: entity
   id: OrganMouseStomach
   parent: OrganAnimalStomach
-  name: stomach
+  name: entity-organanimalstomach-name
   categories: [ HideSpawnMenu ]
   components:
   - type: SolutionContainerManager
@@ -103,7 +103,7 @@
 - type: entity
   id: OrganAnimalLiver
   parent: BaseAnimalOrgan
-  name: liver
+  name: entity-organanimalliver-name
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -121,7 +121,7 @@
 - type: entity
   id: OrganAnimalHeart
   parent: BaseAnimalOrgan
-  name: heart
+  name: entity-organanimalheart-name
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -141,7 +141,7 @@
 - type: entity
   id: OrganAnimalKidneys
   parent: BaseAnimalOrgan
-  name: kidneys
+  name: entity-organanimalkidneys-name
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

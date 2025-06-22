@@ -1,8 +1,8 @@
 - type: entity
-  name: handcuff box
+  name: entity-boxhandcuff-name
   parent: BoxCardboard
   id: BoxHandcuff
-  description: A box full of handcuffs.
+  description: entity-boxhandcuff-description
   components:
   - type: Storage
     whitelist:
@@ -18,10 +18,10 @@
       - state: handcuff
 
 - type: entity
-  name: prisoner headset box
+  name: entity-boxprisonerheadset-name
   parent: BoxCardboard
   id: BoxPrisonerHeadset
-  description: A box of prisoner headsets.
+  description: entity-boxprisonerheadset-description
   components:
   - type: StorageFill
     contents:
@@ -33,7 +33,7 @@
     - state: headset
 
 - type: entity
-  name: flashbang box
+  name: entity-boxflashbang-name
   parent: BoxCardboard
   id: BoxFlashbang
   description: 'WARNING: These devices are extremely dangerous and can cause blindness or deafness in repeated use.'
@@ -48,10 +48,10 @@
       - state: flashbang
 
 - type: entity
-  name: sechud box
+  name: entity-boxsechud-name
   parent: BoxCardboard
   id: BoxSechud
-  description: A box of security glasses.
+  description: entity-boxsechud-description
   components:
   - type: StorageFill
     contents:
@@ -63,10 +63,10 @@
       - state: sechud
 
 - type: entity
-  name: ziptie box
+  name: entity-boxziptie-name
   parent: BoxCardboard
   id: BoxZiptie
-  description: A box full of zipties.
+  description: entity-boxziptie-description
   components:
   - type: Storage
     grid:
@@ -84,10 +84,10 @@
       - state: ziptie
 
 - type: entity
-  name: forensic pad box
+  name: entity-boxforensicpad-name
   parent: BoxCardboard
   id: BoxForensicPad
-  description: A box of forensic pads.
+  description: entity-boxforensicpad-description
   components:
   - type: Item
     shape:

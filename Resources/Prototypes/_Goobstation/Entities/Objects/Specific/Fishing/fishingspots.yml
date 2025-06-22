@@ -1,8 +1,8 @@
 - type: entity
   id: BaseFishingSpot
   abstract: true
-  name: suspicious waves
-  description: Something is floating here...
+  name: entity-basefishingspot-name
+  description: entity-basefishingspot-description
   placement:
     mode: SnapgridCenter
   components:

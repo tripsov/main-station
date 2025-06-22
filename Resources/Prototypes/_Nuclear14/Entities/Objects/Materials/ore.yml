@@ -1,7 +1,7 @@
 - type: entity
   parent: OreBase # From Entities\Objects\Materials\ore.yml
   id: N14AluminiumOre
-  name: bauxite
+  name: entity-n14aluminiumore-name
   suffix: Full
   components:
   - type: Stack
@@ -27,7 +27,7 @@
 - type: entity
   parent: OreBase # From Entities\Objects\Materials\ore.yml
   id: N14LeadOre
-  name: galena
+  name: entity-n14leadore-name
   suffix: Full
   components:
   - type: Stack
@@ -60,7 +60,7 @@
 - type: entity
   parent: OreBase
   id: CopperOre
-  name: tetrahedrite
+  name: entity-copperore-name
   suffix: Full
   components:
   - type: Stack
@@ -93,7 +93,7 @@
 - type: entity
   parent: OreBase
   id: SulfurOre
-  name: sulfur ore
+  name: entity-sulfurore-name
   suffix: Full
   components:
   - type: Stack

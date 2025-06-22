@@ -1,6 +1,6 @@
 - type: entity
   id: PresentHalloweenBase
-  description: A little box with spooky surprises inside.
+  description: entity-presenthalloweenbase-description
   abstract: true
   suffix: Halloween
   parent: [PresentBase, BaseItem]
@@ -15,8 +15,8 @@
 - type: entity
   id: PresentHalloweenBaseTrash
   parent: BaseItem
-  name: wrapping paper
-  description: Carefully folded, taped, and tied with a bow. Then ceremoniously ripped apart and tossed on the floor.
+  name: entity-presenthalloweenbasetrash-name
+  description: entity-presenthalloweenbasetrash-description
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -33,8 +33,8 @@
 - type: entity
   id: PresentHalloweenSweetTrash
   parent: BaseItem
-  name: wrapping paper
-  description: Carefully folded, taped, and tied with a bow. Then ceremoniously ripped apart and tossed on the floor. Looks edible and smells sweet.
+  name: entity-presenthalloweenbasetrash-name
+  description: entity-presenthalloweensweettrash-description
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -60,8 +60,8 @@
 - type: entity
   id: PresentHalloweenClothTrash
   parent: BaseItem
-  name: wrapping paper
-  description: Carefully folded, taped, and tied with a bow. Then ceremoniously ripped apart and tossed on the floor.
+  name: entity-presenthalloweenbasetrash-name
+  description: entity-presenthalloweenbasetrash-description
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -77,8 +77,8 @@
 
 - type: entity
   id: PresentHalloweenSoul
-  name: present soul
-  description: Something small, spooky and ghostly in the form of a gift.
+  name: entity-presenthalloweensoul-name
+  description: entity-presenthalloweensoul-description
   parent: BaseItem
   categories: [ HideSpawnMenu ]
   components:
@@ -98,8 +98,8 @@
 
 - type: entity
   id: PresentHalloweenNothing
-  name: present soul
-  description: Nothinng.
+  name: entity-presenthalloweensoul-name
+  description: entity-presenthalloweennothing-description
   parent: BaseItem
   categories: [ HideSpawnMenu ]
   components:
@@ -112,9 +112,9 @@
 
 - type: entity
   id: PresentHalloweenRandom
-  name: spooky present
+  name: entity-presenthalloweenrandom-name
   suffix: Halloween, Thematic
-  description: A little box with spooky surprises inside.
+  description: entity-presenthalloweenbase-description
   parent: PresentHalloweenBase
   components:
   - type: Sprite
@@ -146,9 +146,9 @@
 
 - type: entity
   id: PresentHalloweenRandomSweet
-  name: sweet spooky present
+  name: entity-presenthalloweenrandomsweet-name
   suffix: Halloween, Thematic
-  description: A little box with sweet surprises inside.
+  description: entity-presenthalloweenrandomsweet-description
   parent: PresentHalloweenBase
   components:
   - type: Sprite
@@ -210,9 +210,9 @@
 
 - type: entity
   id: PresentHalloweenRandomALLSweet
-  name: sweet spooky present
+  name: entity-presenthalloweenrandomsweet-name
   suffix: Halloween, Almost all
-  description: A little box with sweet surprises inside.
+  description: entity-presenthalloweenrandomsweet-description
   parent: PresentHalloweenBase
   components:
   - type: Sprite
@@ -415,9 +415,9 @@
 
 - type: entity
   id: PresentHalloweenRandomCloth
-  name: clothing spooky present
+  name: entity-presenthalloweenrandomcloth-name
   suffix: Halloween, Thematic
-  description: A little box with clothing surprises inside.
+  description: entity-presenthalloweenrandomcloth-description
   parent: PresentHalloweenBase
   components:
   - type: Sprite
@@ -460,9 +460,9 @@
 
 - type: entity
   id: PresentHalloweenRandomALLCloth
-  name: clothing spooky present
+  name: entity-presenthalloweenrandomcloth-name
   suffix: Halloween, Almost all
-  description: A little box with clothing surprises inside.
+  description: entity-presenthalloweenrandomcloth-description
   parent: PresentHalloweenBase
   components:
   - type: Sprite

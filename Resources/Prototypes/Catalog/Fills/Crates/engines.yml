@@ -3,8 +3,8 @@
 - type: entity
   id: CrateEngineeringAMEShielding
   parent: CrateEngineeringSecure
-  name: packaged antimatter reactor crate
-  description: 9 parts for the main body of an antimatter reactor, or for expanding an existing one.
+  name: entity-crateengineeringameshielding-name
+  description: entity-crateengineeringameshielding-description
   components:
   - type: StorageFill
     contents:
@@ -14,8 +14,8 @@
 - type: entity
   id: CrateEngineeringAMEJar
   parent: CrateEngineeringSecure
-  name: antimatter containment jar crate
-  description: 3 antimatter jars, for fuelling an antimatter reactor.
+  name: entity-crateengineeringamejar-name
+  description: entity-crateengineeringamejar-description
   components:
   - type: StorageFill
     contents:
@@ -25,8 +25,8 @@
 - type: entity
   id: CrateEngineeringAMEControl
   parent: CrateEngineeringSecure
-  name: antimatter control unit crate
-  description: The control unit of an antimatter reactor.
+  name: entity-crateengineeringamecontrol-name
+  description: entity-crateengineeringamecontrol-description
   components:
   - type: StorageFill
     contents:
@@ -37,8 +37,8 @@
 - type: entity
   id: CrateEngineeringSingularityEmitter
   parent: CrateEngineeringSecure
-  name: emitter crate
-  description: An emitter, best used for singularity engines.
+  name: entity-crateengineeringsingularityemitter-name
+  description: entity-crateengineeringsingularityemitter-description
   components:
   - type: StorageFill
     contents:
@@ -47,8 +47,8 @@
 - type: entity
   id: CrateEngineeringSingularityCollector
   parent: CrateEngineeringSecure
-  name: radiation collector crate
-  description: A radiation collector, best used for singularity engines. Plasma is included.
+  name: entity-crateengineeringsingularitycollector-name
+  description: entity-crateengineeringsingularitycollector-description
   components:
   - type: StorageFill
     contents:
@@ -58,8 +58,8 @@
 - type: entity
   id: CrateEngineeringSingularityContainment
   parent: CrateEngineeringSecure
-  name: containment field generator crate
-  description: A containment field generator, keeps the singulo in submission.
+  name: entity-crateengineeringsingularitycontainment-name
+  description: entity-crateengineeringsingularitycontainment-description
   components:
   - type: StorageFill
     contents:
@@ -68,8 +68,8 @@
 - type: entity
   id: CrateEngineeringSingularityGenerator
   parent: CrateEngineeringSecure
-  name: singularity generator crate
-  description: A singularity generator, the mother of the beast.
+  name: entity-crateengineeringsingularitygenerator-name
+  description: entity-crateengineeringsingularitygenerator-description
   components:
   - type: StorageFill
     contents:
@@ -80,8 +80,8 @@
 - type: entity
   id: CrateEngineeringParticleAccelerator
   parent: CrateEngineeringSecure
-  name: PA crate
-  description: Complex to setup, but rewarding as fuck.
+  name: entity-crateengineeringparticleaccelerator-name
+  description: entity-crateengineeringparticleaccelerator-description
   components:
   - type: StorageFill
     contents:
@@ -109,7 +109,7 @@
 - type: entity
   id: CrateEngineeringGenerator
   parent: CrateEngineering
-  name:  generator crate
+  name:  entity-crateengineeringgenerator-name
   suffix: DEBUG
   components:
   - type: StorageFill
@@ -119,8 +119,8 @@
 - type: entity
   id: CrateEngineeringSolar
   parent: CrateEngineering
-  name: solar assembly crate
-  description: A kit with solar flatpacks and glass to construct ten solar panels.
+  name: entity-crateengineeringsolar-name
+  description: entity-crateengineeringsolar-description
   components:
   - type: StorageFill
     contents:
@@ -132,8 +132,8 @@
 - type: entity
   id: CrateEngineeringShuttle
   parent: CrateEngineeringSecure
-  name: shuttle powering crate
-  description: A crate containing all needs for shuttle powering.
+  name: entity-crateengineeringshuttle-name
+  description: entity-crateengineeringshuttle-description
   components:
   - type: StorageFill
     contents:
@@ -145,8 +145,8 @@
 - type: entity
   id: CrateEngineeringTeslaGenerator
   parent: CrateEngineeringSecure
-  name: tesla generator crate
-  description: A tesla generator. God save you.
+  name: entity-crateengineeringteslagenerator-name
+  description: entity-crateengineeringteslagenerator-description
   components:
   - type: StorageFill
     contents:
@@ -155,8 +155,8 @@
 - type: entity
   id: CrateEngineeringTeslaCoil
   parent: CrateEngineeringSecure
-  name: tesla coil crate
-  description: Tesla coil. Attracts lightning and generates energy from it.
+  name: entity-crateengineeringteslacoil-name
+  description: entity-crateengineeringteslacoil-description
   components:
   - type: StorageFill
     contents:
@@ -165,8 +165,8 @@
 - type: entity
   id: CrateEngineeringTeslaGroundingRod
   parent: CrateEngineeringSecure
-  name: tesla grounding rod crate
-  description: Grounding rod, best for lightning protection.
+  name: entity-crateengineeringteslagroundingrod-name
+  description: entity-crateengineeringteslagroundingrod-description
   components:
   - type: StorageFill
     contents:
@@ -175,8 +175,8 @@
 - type: entity
   id: CrateEngineeringTEGKit
   parent: CrateEngineeringSecure
-  name: TEG construction kit crate
-  description: A 'build your own TEG' kit. Some assembly required.
+  name: entity-crateengineeringtegkit-name
+  description: entity-crateengineeringtegkit-description
   components:
   - type: StorageFill
     contents:

@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: UniformJabroni
-  name: jabroni outfit
-  description: For artists, performance artists.
+  name: entity-uniformjabroni-name
+  description: entity-uniformjabroni-description
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Uniforms/Costume/jabroni.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingCostumeArcDress
-  name: white shirt and purple skirt
-  description: You feel a supernatural urge to put these on. It must be fate.
+  name: entity-clothingcostumearcdress-name
+  description: entity-clothingcostumearcdress-description
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Uniforms/Costume/arc.rsi
@@ -23,8 +23,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: UniformGeisha
-  name: geisha dress
-  description: For a good hostess.
+  name: entity-uniformgeisha-name
+  description: entity-uniformgeisha-description
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Uniforms/Costume/geisha.rsi
@@ -34,8 +34,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtNurse
-  name: nurse skirt
-  description: Time to carry the medical department.
+  name: entity-clothinguniformjumpskirtnurse-name
+  description: entity-clothinguniformjumpskirtnurse-description
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Uniforms/Costume/nurse.rsi
@@ -45,8 +45,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: UniformMaid
-  name: maid uniform
-  description: Authentic, from Space France!
+  name: entity-uniformmaid-name
+  description: entity-uniformmaid-description
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Uniforms/Costume/maid.rsi
@@ -56,8 +56,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingCostumeBunnySuit
-  name: bunny suit
-  description: Ready to go with stockings and a bow tie.
+  name: entity-clothingcostumebunnysuit-name
+  description: entity-clothingcostumebunnysuit-description
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Uniforms/Costume/bunny.rsi
@@ -67,8 +67,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingCostumeMioSkirt
-  name: yellow skirt with rose hoodie
-  description: Soft and comfortable, it sports bright colors with a neat yellow bow at the neck.
+  name: entity-clothingcostumemioskirt-name
+  description: entity-clothingcostumemioskirt-description
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Misc/mio.rsi
@@ -78,8 +78,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingCostumeNaota
-  name: turquoise hoodie and shorts
-  description: A hoodie with a small kangaroo pouch.
+  name: entity-clothingcostumenaota-name
+  description: entity-clothingcostumenaota-description
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Uniforms/Costume/naota.rsi
@@ -89,8 +89,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformRat
-  name: rat king fan outfit
-  description: Declare your allegiance to the rodent monarch, as well as your desire to see the station burn *at the same time!*
+  name: entity-clothinguniformrat-name
+  description: entity-clothinguniformrat-description
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Uniforms/Costume/rat.rsi
@@ -100,8 +100,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformDressRed
-  name: red dress
-  description: A voluminous, fancy red dress.
+  name: entity-clothinguniformdressred-name
+  description: entity-clothinguniformdressred-description
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Uniforms/Costume/red_dress.rsi
@@ -111,8 +111,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformSwimsuitBlue
-  name: blue swimsuit
-  description: A form-fitting, hydrodynamic blue swimsuit.
+  name: entity-clothinguniformswimsuitblue-name
+  description: entity-clothinguniformswimsuitblue-description
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Uniforms/Costume/swimsuit.rsi
@@ -124,13 +124,13 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformSchoolgirlBase
-  description: Ready for school!
+  description: entity-clothinguniformschoolgirlbase-description
   abstract: true
 
 - type: entity
   parent: ClothingUniformSchoolgirlBase
   id: UniformSchoolgirlRed
-  name: red schoolgirl uniform
+  name: entity-uniformschoolgirlred-name
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Uniforms/Costume/Schoolgirl/red.rsi
@@ -140,7 +140,7 @@
 - type: entity
   parent: ClothingUniformSchoolgirlBase
   id: UniformSchoolgirlBlack
-  name: black schoolgirl uniform
+  name: entity-uniformschoolgirlblack-name
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Uniforms/Costume/Schoolgirl/black.rsi
@@ -150,7 +150,7 @@
 - type: entity
   parent: ClothingUniformSchoolgirlBase
   id: UniformSchoolgirlBlue
-  name: blue schoolgirl uniform
+  name: entity-uniformschoolgirlblue-name
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Uniforms/Costume/Schoolgirl/blue.rsi
@@ -160,7 +160,7 @@
 - type: entity
   parent: ClothingUniformSchoolgirlBase
   id: UniformSchoolgirlCyan
-  name: cyan schoolgirl uniform
+  name: entity-uniformschoolgirlcyan-name
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Uniforms/Costume/Schoolgirl/cyan.rsi
@@ -170,7 +170,7 @@
 - type: entity
   parent: ClothingUniformSchoolgirlBase
   id: UniformSchoolgirlGreen
-  name: green schoolgirl uniform
+  name: entity-uniformschoolgirlgreen-name
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Uniforms/Costume/Schoolgirl/green.rsi
@@ -180,7 +180,7 @@
 - type: entity
   parent: ClothingUniformSchoolgirlBase
   id: UniformSchoolgirlOrange
-  name: orange schoolgirl uniform
+  name: entity-uniformschoolgirlorange-name
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Uniforms/Costume/Schoolgirl/orange.rsi
@@ -190,7 +190,7 @@
 - type: entity
   parent: ClothingUniformSchoolgirlBase
   id: UniformSchoolgirlPink
-  name: pink schoolgirl uniform
+  name: entity-uniformschoolgirlpink-name
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Uniforms/Costume/Schoolgirl/pink.rsi
@@ -200,7 +200,7 @@
 - type: entity
   parent: ClothingUniformSchoolgirlBase
   id: UniformSchoolgirlPurple
-  name: purple schoolgirl uniform
+  name: entity-uniformschoolgirlpurple-name
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Uniforms/Costume/Schoolgirl/purple.rsi
@@ -212,8 +212,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformKendoHakama
-  name: hakama
-  description: An elegant black and blue hakama that could be worn for kendo or formal events.
+  name: entity-clothinguniformkendohakama-name
+  description: entity-clothinguniformkendohakama-description
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Uniforms/Costume/hakama.rsi
@@ -223,8 +223,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformMartialGi
-  name: gi
-  description: A white top and bottom traditionally used in martial arts, often paired with a belt.
+  name: entity-clothinguniformmartialgi-name
+  description: entity-clothinguniformmartialgi-description
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Uniforms/Costume/gi.rsi
@@ -236,8 +236,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingKimonoBlue
-  name: blue kimono
-  description: I'm blue da ba dee da ba da-ee!
+  name: entity-clothingkimonoblue-name
+  description: entity-clothingkimonoblue-description
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Uniforms/Costume/kimono-blue.rsi
@@ -247,8 +247,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingKimonoPink
-  name: pink kimono
-  description: Pretty in pink, isn't she?
+  name: entity-clothingkimonopink-name
+  description: entity-clothingkimonopink-description
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Uniforms/Costume/kimono-pink.rsi
@@ -258,8 +258,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingKimonoPurple
-  name: purple kimono
-  description: You definitely won't look like a maroon in this.
+  name: entity-clothingkimonopurple-name
+  description: entity-clothingkimonopurple-description
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Uniforms/Costume/kimono-purple.rsi
@@ -269,8 +269,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingKimonoSky
-  name: sky blue kimono
-  description: Reminds you of natsu matsuri.
+  name: entity-clothingkimonosky-name
+  description: entity-clothingkimonosky-description
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Uniforms/Costume/kimono-sky.rsi
@@ -280,8 +280,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingKimonoGreen
-  name: sea green kimono
-  description: Colors and textures reminiscent of seaweed.
+  name: entity-clothingkimonogreen-name
+  description: entity-clothingkimonogreen-description
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Uniforms/Costume/kimono-green.rsi
@@ -293,8 +293,8 @@
 - type: entity
   parent: ClothingUniformSchoolgirlBase
   id: UniformSchoolgirlDusk
-  name: dusk schoolgirl uniform
-  description: Ready for school in modern style.
+  name: entity-uniformschoolgirldusk-name
+  description: entity-uniformschoolgirldusk-description
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Uniforms/Costume/SchoolgirlModern/dusk.rsi
@@ -304,8 +304,8 @@
 - type: entity
   parent: ClothingUniformSchoolgirlBase
   id: UniformSchoolgirlBlazerTan
-  name: tan blazer schoolgirl uniform
-  description: Ready for school in modern style. This set comes with a tan blazer.
+  name: entity-uniformschoolgirlblazertan-name
+  description: entity-uniformschoolgirlblazertan-description
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Uniforms/Costume/SchoolgirlModern/blazer-tan.rsi
@@ -317,8 +317,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformSchoolGakuranBlack
-  name: gakuran uniform
-  description: A sleek school uniform.
+  name: entity-clothinguniformschoolgakuranblack-name
+  description: entity-clothinguniformschoolgakuranblack-description
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Uniforms/Costume/gakuran.rsi
@@ -330,8 +330,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformMNKOfficeSkirt
-  name: MNK office skirt
-  description: An MNK outfit within office dress code.
+  name: entity-clothinguniformmnkofficeskirt-name
+  description: entity-clothinguniformmnkofficeskirt-description
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Misc/office_skirt.rsi
@@ -341,8 +341,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformMNKUnderGarment
-  name: MNK under garment
-  description: MNK ensured comfort for the important bits.
+  name: entity-clothinguniformmnkundergarment-name
+  description: entity-clothinguniformmnkundergarment-description
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Misc/under_garments.rsi
@@ -352,8 +352,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformMNKGymBra
-  name: MNK gym bra
-  description: Maximum performance with MNK sweat blockers.
+  name: entity-clothinguniformmnkgymbra-name
+  description: entity-clothinguniformmnkgymbra-description
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Misc/gym_bra.rsi
@@ -363,8 +363,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformMNKDressBlack
-  name: MNK black dress
-  description: A sleek black dress sporting a MNK window.
+  name: entity-clothinguniformmnkdressblack-name
+  description: entity-clothinguniformmnkdressblack-description
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Misc/black_dress.rsi
@@ -374,8 +374,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformMNKBlackOveralls
-  name: MNK black overalls
-  description: A comfy undershirt and thick black MNK overalls.
+  name: entity-clothinguniformmnkblackoveralls-name
+  description: entity-clothinguniformmnkblackoveralls-description
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Misc/black_overall.rsi
@@ -385,8 +385,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformMNKBlackShoulder
-  name: MNK exposed shoulders
-  description: A MNK outfit with exposed shoulders.
+  name: entity-clothinguniformmnkblackshoulder-name
+  description: entity-clothinguniformmnkblackshoulder-description
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Misc/exposed_shoulder.rsi
@@ -396,8 +396,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformMNKTracksuitBlack
-  name: MNK black tracksuit
-  description: A set of light MNK athletic clothing.
+  name: entity-clothinguniformmnktracksuitblack-name
+  description: entity-clothinguniformmnktracksuitblack-description
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Misc/tracksuit.rsi

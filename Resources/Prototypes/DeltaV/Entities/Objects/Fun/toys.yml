@@ -1,8 +1,8 @@
 - type: entity
   parent: BasePlushie
   id: ToyRenault
-  name: renault toy
-  description: Almost as cute and adorable as the real Renault!
+  name: entity-toyrenault-name
+  description: entity-toyrenault-description
   components:
   - type: Sprite
     sprite: DeltaV/Objects/Fun/Toys/renaulttoy.rsi
@@ -20,8 +20,8 @@
 - type: entity
   parent: BasePlushie
   id: ToySiobhan
-  name: siobhan toy
-  description: Nearly as fluffy as the real Shivs!
+  name: entity-toysiobhan-name
+  description: entity-toysiobhan-description
   components:
   - type: Sprite
     sprite: DeltaV/Objects/Fun/Toys/siobhantoy.rsi
@@ -39,8 +39,8 @@
 - type: entity
   parent: BaseFigurine
   id: ToyZero
-  name: toy zero
-  description: whirrrrrrrrr taktaktaktaktak BOOM whirrrrrrr
+  name: entity-toyzero-name
+  description: entity-toyzero-description
   components:
   - type: Sprite
     sprite: DeltaV/Objects/Fun/Toys/zerotoy.rsi

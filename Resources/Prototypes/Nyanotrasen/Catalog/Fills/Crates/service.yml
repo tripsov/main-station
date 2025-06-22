@@ -1,6 +1,6 @@
 - type: entity
   id: CrateServiceReplacementColoredLights
-  name: Colored Lights Crate
+  name: entity-crateservicereplacementcoloredlights-name
   parent: CrateGenericSteel
   components:
   - type: StorageFill
@@ -10,7 +10,7 @@
 
 - type: entity
   id: CrateServiceReplacementMaintenanceLights
-  name: Maintenance Lights Crate
+  name: entity-crateservicereplacementmaintenancelights-name
   parent: CrateGenericSteel
   components:
   - type: StorageFill

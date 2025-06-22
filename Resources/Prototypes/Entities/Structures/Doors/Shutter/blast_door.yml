@@ -1,8 +1,8 @@
 ﻿- type: entity
   id: BlastDoor
   parent: BaseShutter
-  name: blast door
-  description: This one says 'BLAST DONGER'.
+  name: entity-blastdoor-name
+  description: entity-blastdoor-description
   components:
   - type: AccessReader
   - type: Sprite
@@ -58,8 +58,8 @@
 - type: entity
   id: BlastDoorFrame
   parent: BaseStructureDynamic
-  name: blast door frame
-  description: This one says 'BLAST DONGER'.
+  name: entity-blastdoorframe-name
+  description: entity-blastdoor-description
   components:
   - type: Sprite
     sprite: Structures/Doors/Shutters/blastdoor.rsi

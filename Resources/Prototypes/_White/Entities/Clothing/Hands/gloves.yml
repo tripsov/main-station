@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingHandsGlovesCaptain
   id: ClothingHandsGlovesCaptainWhite
-  name: white captain gloves
-  description: Royal white gloves with gold trim. Gorgeous.
+  name: entity-clothinghandsglovescaptainwhite-name
+  description: entity-clothinghandsglovescaptainwhite-description
   components:
   - type: Sprite
     sprite: _White/Clothing/Hands/white_captain_gloves.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: ClothingHandsGlovesCaptain
   id: ClothingHandsGlovesSheriff
-  name: sheriff gloves
-  description: Gloves with an ergonomic shape designed to hold a revolver.
+  name: entity-clothinghandsglovessheriff-name
+  description: entity-clothinghandsglovessheriff-description
   components:
   - type: Sprite
     sprite: _White/Clothing/Hands/sheriff_gloves.rsi
@@ -23,8 +23,8 @@
 - type: entity
   parent: ClothingHandsGlovesLatex
   id: ClothingHandsGlovesVinylDark
-  name: dark vinyl gloves
-  description: Dark vinyl gloves that make your hands sweat even more than latex and nitrile gloves! But fortunately, due to the hygiene issues of most crew members, no one will notice. Especially if you're a synthetic.
+  name: entity-clothinghandsglovesvinyldark-name
+  description: entity-clothinghandsglovesvinyldark-description
   components:
   - type: Sprite
     sprite: _White/Clothing/Hands/dark_vinyl_gloves.rsi
@@ -34,8 +34,8 @@
 - type: entity
   parent: ClothingHandsGlovesLatex
   id: ClothingHandsGlovesVinylOrange
-  name: orange vinyl gloves
-  description: Orange vinyl gloves that make your hands sweat even more than latex and nitrile gloves! But fortunately, due to the hygiene issues of most crew members, no one will notice. Especially if you're a synthetic.
+  name: entity-clothinghandsglovesvinylorange-name
+  description: entity-clothinghandsglovesvinylorange-description
   components:
   - type: Sprite
     sprite: _White/Clothing/Hands/orange_vinyl_gloves.rsi

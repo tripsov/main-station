@@ -1,8 +1,8 @@
 - type: entity
   id: MaterialSilo
   parent: [ BaseMachinePowered, ConstructibleMachine ]
-  name: material silo
-  description: Bluespace storage connected to most lathes on the station.
+  name: entity-materialsilo-name
+  description: entity-materialsilo-description
   components:
   - type: Physics
     bodyType: Static

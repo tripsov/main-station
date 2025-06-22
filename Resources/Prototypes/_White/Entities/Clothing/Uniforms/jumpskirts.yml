@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtMaid
-  name: maid's jumpskirt
-  description: Elegant maid's dress. Makes you feel comfortable, safe and clean around you.
+  name: entity-clothinguniformjumpskirtmaid-name
+  description: entity-clothinguniformjumpskirtmaid-description
   components:
   - type: Sprite
     sprite: _White/Clothing/Uniforms/Jumpskirt/maid.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtMaidMini
-  name: maid's mini jumpskirt
-  description: Elegant shortened maid's servant's dress. Makes you feel comfortable, safe and clean around you. This view expands your horizon in your eyes.
+  name: entity-clothinguniformjumpskirtmaidmini-name
+  description: entity-clothinguniformjumpskirtmaidmini-description
   components:
   - type: Sprite
     sprite: _White/Clothing/Uniforms/Jumpskirt/maidmini.rsi
@@ -23,8 +23,8 @@
 - type: entity
   parent: ClothingUniformJumpskirtCaptain
   id: ClothingUniformJumpskirtWhiteCaptain
-  name: white captain jumpskirt
-  description: White captain jumpsuit skirt symbolizing that your salary clearly exceeds the norm.
+  name: entity-clothinguniformjumpskirtwhitecaptain-name
+  description: entity-clothinguniformjumpskirtwhitecaptain-description
   components:
   - type: Sprite
     sprite: _White/Clothing/Uniforms/Jumpskirt/white_captain.rsi

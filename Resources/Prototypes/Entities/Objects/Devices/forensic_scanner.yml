@@ -1,8 +1,8 @@
 - type: entity
-  name: forensic scanner
+  name: entity-forensicscanner-name
   parent: BaseItem
   id: ForensicScanner
-  description: A handheld device that can scan objects for fingerprints and fibers.
+  description: entity-forensicscanner-description
   components:
   - type: Sprite
     sprite: Objects/Devices/forensic_scanner.rsi
@@ -30,7 +30,7 @@
     stealGroup: ForensicScanner
 
 - type: entity
-  name: forensic scanner report
+  name: entity-forensicreportpaper-name
   parent: Paper
   id: ForensicReportPaper
   description: 'Circumstantial evidence, at best'
