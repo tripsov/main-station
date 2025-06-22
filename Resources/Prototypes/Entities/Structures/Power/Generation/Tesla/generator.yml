@@ -1,8 +1,8 @@
 - type: entity
   id: TeslaGenerator
-  name: tesla generator
+  name: entity-teslagenerator-name
   parent: BaseStructureDynamic
-  description: An Odd Device which produces a powerful Tesla ball when set up.
+  description: entity-teslagenerator-description
   components:
   - type: Sprite
     noRot: true

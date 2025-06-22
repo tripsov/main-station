@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmBase
   id: ClothingHeadEnvirohelm
-  name: plasma envirosuit helmet
-  description: A special containment helmet that allows plasma-based lifeforms to exist safely in an oxygenated environment.
+  name: entity-clothingheadenvirohelm-name
+  description: entity-clothingheadenvirohelm-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Envirohelms/plain.rsi
@@ -40,8 +40,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmBase
   id: ClothingHeadEnvirohelmAtmos
-  name: atmospherics envirosuit helmet
-  description: A space-worthy helmet specially designed for atmos technician Plasmamen, the usual purple stripes being replaced by atmos' blue.
+  name: entity-clothingheadenvirohelmatmos-name
+  description: entity-clothingheadenvirohelmatmos-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Envirohelms/atmos.rsi
@@ -51,8 +51,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmBase
   id: ClothingHeadEnvirohelmCargo
-  name: logistics envirosuit helmet
-  description: A Plasmaman envirohelmet designed for cargo technicians.
+  name: entity-clothingheadenvirohelmcargo-name
+  description: entity-clothingheadenvirohelmcargo-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Envirohelms/cargo.rsi
@@ -62,8 +62,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmBase
   id: ClothingHeadEnvirohelmCaptain
-  name: captain's envirosuit helmet
-  description: A special containment helmet designed for the Captain.
+  name: entity-clothingheadenvirohelmcaptain-name
+  description: entity-clothingheadenvirohelmcaptain-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Envirohelms/captain.rsi
@@ -73,8 +73,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmBase
   id: ClothingHeadEnvirohelmChiefEngineer
-  name: chief engineer's envirosuit helmet
-  description: A special containment helmet designed for the Chief Engineer, the usual purple stripes being replaced by the chief's green.
+  name: entity-clothingheadenvirohelmchiefengineer-name
+  description: entity-clothingheadenvirohelmchiefengineer-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Envirohelms/ce.rsi
@@ -84,8 +84,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmBase
   id: ClothingHeadEnvirohelmChaplain
-  name: chaplain's envirosuit helmet
-  description: An envirohelm specially designed for only the most pious of Plasmamen.
+  name: entity-clothingheadenvirohelmchaplain-name
+  description: entity-clothingheadenvirohelmchaplain-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Envirohelms/chaplain.rsi
@@ -95,14 +95,14 @@
 - type: entity
   parent: ClothingHeadEnvirohelmEnviroslacksColorOrange
   id: ClothingHeadEnvirohelmDetective
-  name: detective's envirosuit helmet
-  description: A special containment helmet designed for detectives, protecting them from burning alive, alongside other undesirables.
+  name: entity-clothingheadenvirohelmdetective-name
+  description: entity-clothingheadenvirohelmdetective-description
 
 - type: entity
   parent: ClothingHeadEnvirohelmBase
   id: ClothingHeadEnvirohelmChemist
-  name: chemistry envirosuit helmet
-  description: A Plasmaman envirosuit designed for chemists, two orange stripes going down its face.
+  name: entity-clothingheadenvirohelmchemist-name
+  description: entity-clothingheadenvirohelmchemist-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Envirohelms/chemist.rsi
@@ -112,8 +112,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmBase
   id: ClothingHeadEnvirohelmClown
-  name: clown envirosuit helmet
-  description: The make-up is painted on, it's a miracle it doesn't chip. HONK!
+  name: entity-clothingheadenvirohelmclown-name
+  description: entity-clothingheadenvirohelmclown-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Envirohelms/clown.rsi
@@ -125,8 +125,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmBase
   id: ClothingHeadEnvirohelmCMO
-  name: chief medical officer's envirosuit helmet
-  description: A special containment helmet designed for the Chief Medical Officer. The gold stripe differentiates them from other medical staff.
+  name: entity-clothingheadenvirohelmcmo-name
+  description: entity-clothingheadenvirohelmcmo-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Envirohelms/cmo.rsi
@@ -136,8 +136,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmBase
   id: ClothingHeadEnvirohelmEngineering
-  name: engineering envirosuit helmet
-  description: A space-worthy helmet specially designed for engineer Plasmamen, the usual purple stripes being replaced by engineering's orange.
+  name: entity-clothingheadenvirohelmengineering-name
+  description: entity-clothingheadenvirohelmengineering-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Envirohelms/engineering.rsi
@@ -147,8 +147,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmBase
   id: ClothingHeadEnvirohelmHoP
-  name: head of personnel's envirosuit helmet
-  description: A special containment helmet designed for the Head of Personnel.
+  name: entity-clothingheadenvirohelmhop-name
+  description: entity-clothingheadenvirohelmhop-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Envirohelms/hop.rsi
@@ -158,8 +158,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmBase
   id: ClothingHeadEnvirohelmHoS
-  name: head of security's envirosuit helmet
-  description: A special containment helmet designed for the Head of Security. The pair of gold stripes differentiates them from other members of security.
+  name: entity-clothingheadenvirohelmhos-name
+  description: entity-clothingheadenvirohelmhos-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Envirohelms/hos.rsi
@@ -169,8 +169,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmBase
   id: ClothingHeadEnvirohelmHydroponics
-  name: hydroponics envirosuit helmet
-  description: A green and blue envirohelmet designating its wearer as a botanist.
+  name: entity-clothingheadenvirohelmhydroponics-name
+  description: entity-clothingheadenvirohelmhydroponics-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Envirohelms/hydroponics.rsi
@@ -180,8 +180,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmBase
   id: ClothingHeadEnvirohelmJanitor
-  name: janitor envirosuit helmet
-  description: A grey helmet bearing a pair of purple stripes, designating the wearer as a janitor.
+  name: entity-clothingheadenvirohelmjanitor-name
+  description: entity-clothingheadenvirohelmjanitor-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Envirohelms/janitor.rsi
@@ -191,8 +191,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmBase
   id: ClothingHeadEnvirohelmAncientVoid
-  name: NTSRA envirosuit helmet
-  description: Made out of a modified NTSRA vacsuit, this helmet was Nanotrasen's first-designed envirohelmet for Plasmamen.
+  name: entity-clothingheadenvirohelmancientvoid-name
+  description: entity-clothingheadenvirohelmancientvoid-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Envirohelms/ancientvoid.rsi
@@ -209,8 +209,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmBase
   id: ClothingHeadEnvirohelmMedicalDoctor
-  name: medical envirosuit helmet
-  description: An envirohelmet designed for Plasmaman Medical personnel, having two stripes down its length to denote as much.
+  name: entity-clothingheadenvirohelmmedicaldoctor-name
+  description: entity-clothingheadenvirohelmmedicaldoctor-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Envirohelms/medical.rsi
@@ -220,8 +220,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmBase
   id: ClothingHeadEnvirohelmGenitcs
-  name: genetics envirosuit helmet
-  description: A Plasmaman envirohelmet designed for geneticists.
+  name: entity-clothingheadenvirohelmgenitcs-name
+  description: entity-clothingheadenvirohelmgenitcs-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Envirohelms/genetics.rsi
@@ -231,8 +231,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmBase
   id: ClothingHeadEnvirohelmMime
-  name: mime envirosuit helmet
-  description: The make-up is painted on, it's a miracle it doesn't chip. It's not very colourful.
+  name: entity-clothingheadenvirohelmmime-name
+  description: entity-clothingheadenvirohelmmime-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Envirohelms/mime.rsi
@@ -244,8 +244,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmBase
   id: ClothingHeadEnvirohelmParamedic
-  name: paramedic envirosuit helmet
-  description: An envirohelmet designed for Plasmaman paramedics, with darker blue stripes compared to the medical model.
+  name: entity-clothingheadenvirohelmparamedic-name
+  description: entity-clothingheadenvirohelmparamedic-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Envirohelms/paramedic.rsi
@@ -255,8 +255,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmPrisoner
-  name: prisoner envirosuit helmet
-  description: A Plasmaman containment helmet for prisoners.
+  name: entity-clothingheadenvirohelmprisoner-name
+  description: entity-clothingheadenvirohelmprisoner-description
   components:
   - type: Sprite
     layers:
@@ -295,8 +295,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmBase
   id: ClothingHeadEnvirohelmResearchDirector
-  name: mystagogue's envirosuit helmet
-  description: A special containment helmet designed for the Mystagogue. A light brown design is applied to differentiate them from other scientists.
+  name: entity-clothingheadenvirohelmresearchdirector-name
+  description: entity-clothingheadenvirohelmresearchdirector-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Envirohelms/rd.rsi
@@ -306,8 +306,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmBase
   id: ClothingHeadEnvirohelmRoboticist
-  name: roboticist envirosuit helmet
-  description: A Plasmaman envirohelmet designed for roboticists.
+  name: entity-clothingheadenvirohelmroboticist-name
+  description: entity-clothingheadenvirohelmroboticist-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Envirohelms/roboticist.rsi
@@ -316,8 +316,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmBase
   id: ClothingHeadEnvirohelmSalvage
-  name: salvage envirosuit helmet
-  description: A khaki helmet given to Plasmamen salvage technicians.
+  name: entity-clothingheadenvirohelmsalvage-name
+  description: entity-clothingheadenvirohelmsalvage-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Envirohelms/salvage.rsi
@@ -329,8 +329,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmBase
   id: ClothingHeadEnvirohelmScientist
-  name: science envirosuit helmet
-  description: A Plasmaman envirohelmet designed for scientists.
+  name: entity-clothingheadenvirohelmscientist-name
+  description: entity-clothingheadenvirohelmscientist-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Envirohelms/scientist.rsi
@@ -340,8 +340,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmSec
-  name: security envirosuit helmet
-  description: A Plasmaman containment helmet designed for security officers, protecting them from burning alive, alongside other undesirables.
+  name: entity-clothingheadenvirohelmsec-name
+  description: entity-clothingheadenvirohelmsec-description
   components:
   - type: Sprite
     layers:
@@ -380,8 +380,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmSecBlue
-  name: blue security envirosuit helmet
-  description: A cool blue envirosuit helmet for Plasmaman Security personnel.
+  name: entity-clothingheadenvirohelmsecblue-name
+  description: entity-clothingheadenvirohelmsecblue-description
   components:
   - type: Sprite
     layers:
@@ -420,8 +420,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmSecGrey
-  name: grey security envirosuit helmet
-  description: A light grey envirosuit helmet with bright red highlights for Plasmamen Security personnel.
+  name: entity-clothingheadenvirohelmsecgrey-name
+  description: entity-clothingheadenvirohelmsecgrey-description
   components:
   - type: Sprite
     layers:
@@ -460,8 +460,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmBase
   id: ClothingHeadEnvirohelmVirology
-  name: virology envirosuit helmet
-  description: The helmet worn by the safest people on the station, those who are completely immune to the monstrosities they create.
+  name: entity-clothingheadenvirohelmvirology-name
+  description: entity-clothingheadenvirohelmvirology-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Envirohelms/virology.rsi
@@ -471,8 +471,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmBase
   id: ClothingHeadEnvirohelmWarden
-  name: warden's envirosuit helmet
-  description: A Plasmaman containment helmet designed for the warden. A pair of white stripes being added to differeciate them from other members of security.
+  name: entity-clothingheadenvirohelmwarden-name
+  description: entity-clothingheadenvirohelmwarden-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Envirohelms/warden.rsi
@@ -482,8 +482,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmBase
   id: ClothingHeadEnvirohelmOperative
-  name: operative envirosuit helmet
-  description: Anyone wearing this is badass and deserves at least a cursory nod of respect.
+  name: entity-clothingheadenvirohelmoperative-name
+  description: entity-clothingheadenvirohelmoperative-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Envirohelms/tacticool.rsi
@@ -493,8 +493,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmBase
   id: ClothingHeadEnvirohelmTacticool
-  name: tacticool envirosuit helmet
-  description: There's no doubt about it, this helmet puts you above ALL of the other Plasmamen.
+  name: entity-clothingheadenvirohelmtacticool-name
+  description: entity-clothingheadenvirohelmtacticool-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Envirohelms/tacticool.rsi
@@ -504,8 +504,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmBase
   id: ClothingHeadEnvirohelmCentcomAgent
-  name: CentCom agent's envirosuit helmet
-  description: A special containment helmet designed for CentCom's legal team. You know, so any coffee spills don't kill the poor sod.
+  name: entity-clothingheadenvirohelmcentcomagent-name
+  description: entity-clothingheadenvirohelmcentcomagent-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Envirohelms/centcom_agent.rsi
@@ -515,8 +515,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmBase
   id: ClothingHeadEnvirohelmCentcomOfficial
-  name: CentCom official's envirosuit helmet
-  description: A special containment helmet designed for CentCom Staff. They sure do love their green.
+  name: entity-clothingheadenvirohelmcentcomofficial-name
+  description: entity-clothingheadenvirohelmcentcomofficial-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Envirohelms/centcom_official.rsi
@@ -526,8 +526,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmBase
   id: ClothingHeadEnvirohelmCentcomOfficer
-  name: CentCom officer's envirosuit helmet
-  description: A special containment helmet designed for CentCom Officers.
+  name: entity-clothingheadenvirohelmcentcomofficer-name
+  description: entity-clothingheadenvirohelmcentcomofficer-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Envirohelms/centcom_officer.rsi
@@ -537,8 +537,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmCourier
-  name: courier's envirosuit helmet
-  description: An envirosuit helmet for the courier.
+  name: entity-clothingheadenvirohelmcourier-name
+  description: entity-clothingheadenvirohelmcourier-description
   components:
   - type: Sprite
     layers:
@@ -577,8 +577,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmMailCarrier
-  name: mail carrier's envirosuit helmet
-  description: Smells like a good pension.
+  name: entity-clothingheadenvirohelmmailcarrier-name
+  description: entity-clothingheadenvirohelmmailcarrier-description
   components:
   - type: Sprite
     layers:
@@ -627,8 +627,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmMusician
-  name: musician's envirosuit helmet
-  description: Experts are perplexed as to how Plasmamen can still play the trumpet with this helmet on.
+  name: entity-clothingheadenvirohelmmusician-name
+  description: entity-clothingheadenvirohelmmusician-description
   components:
   - type: Sprite
     layers:
@@ -667,8 +667,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmReporter
-  name: reporter envirosuit helmet
-  description: An envirosuit helmet for the reporter.
+  name: entity-clothingheadenvirohelmreporter-name
+  description: entity-clothingheadenvirohelmreporter-description
   components:
   - type: Sprite
     layers:
@@ -707,8 +707,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmGladiator
-  name: gladiator envirosuit helmet
-  description: Protects the head from toy spears and poisonous oxygen.
+  name: entity-clothingheadenvirohelmgladiator-name
+  description: entity-clothingheadenvirohelmgladiator-description
   components:
   - type: Sprite
     layers:
@@ -747,8 +747,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmMantis
-  name: mantis' envirosuit helmet
-  description: An envirosuit helmet for the forensic mantis with a fancy gold stripe.
+  name: entity-clothingheadenvirohelmmantis-name
+  description: entity-clothingheadenvirohelmmantis-description
   components:
   - type: Sprite
     layers:
@@ -795,8 +795,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmSafari
-  name: safari envirosuit helmet
-  description: Makes you a target for the locals.
+  name: entity-clothingheadenvirohelmsafari-name
+  description: entity-clothingheadenvirohelmsafari-description
   components:
   - type: Sprite
     layers:
@@ -835,8 +835,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmMartialGi
-  name: gi envirosuit helmet
-  description: A white envirosuit helmet with black stripes used for martial arts.
+  name: entity-clothingheadenvirohelmmartialgi-name
+  description: entity-clothingheadenvirohelmmartialgi-description
   components:
   - type: Sprite
     layers:
@@ -875,8 +875,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmQM
-  name: logistics officer's envirosuit helmet
-  description: A special containment helmet designed for the Logistics Officer.
+  name: entity-clothingheadenvirohelmqm-name
+  description: entity-clothingheadenvirohelmqm-description
   components:
   - type: Sprite
     layers:
@@ -923,8 +923,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmBoxing
-  name: boxing envirosuit helmet
-  description: A white envirosuit helmet with red stripes.
+  name: entity-clothingheadenvirohelmboxing-name
+  description: entity-clothingheadenvirohelmboxing-description
   components:
   - type: Sprite
     layers:
@@ -963,8 +963,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmAdminAssistant
-  name: administrative assistant's envirosuit helmet
-  description: A white envirosuit helmet with dark blue stripes.
+  name: entity-clothingheadenvirohelmadminassistant-name
+  description: entity-clothingheadenvirohelmadminassistant-description
   components:
   - type: Sprite
     layers:
@@ -1003,8 +1003,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmBlackPink
-  name: black pink envirosuit helmet
-  description: How you like that envirosuit helmet?
+  name: entity-clothingheadenvirohelmblackpink-name
+  description: entity-clothingheadenvirohelmblackpink-description
   components:
   - type: Sprite
     layers:
@@ -1043,9 +1043,9 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmBlackPinkAlt
-  name: black pink envirosuit helmet
+  name: entity-clothingheadenvirohelmblackpink-name
   suffix: Alternative
-  description: This envirosuit helmet makes you want to kill this love.
+  description: entity-clothingheadenvirohelmblackpinkalt-description
   components:
   - type: Sprite
     layers:
@@ -1084,8 +1084,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmBlueshield
-  name: blueshield's envirosuit helmet
-  description: A Plasmaman envirosuit helmet designed for the blueshield.
+  name: entity-clothingheadenvirohelmblueshield-name
+  description: entity-clothingheadenvirohelmblueshield-description
   components:
   - type: Sprite
     layers:
@@ -1124,8 +1124,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmTrans
-  name: trans envirosuit helmet
-  description: The preferred headgear of Transylvanian Plasmamen to prevent burning from oxygen.
+  name: entity-clothingheadenvirohelmtrans-name
+  description: entity-clothingheadenvirohelmtrans-description
   components:
   - type: Sprite
     layers:
@@ -1172,8 +1172,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmPrisonGuard
-  name: prison guard's envirosuit helmet
-  description: Hope a prisoner doesn't snatch this away from you!
+  name: entity-clothingheadenvirohelmprisonguard-name
+  description: entity-clothingheadenvirohelmprisonguard-description
   components:
   - type: Sprite
     layers:
@@ -1212,8 +1212,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmBrigmedic
-  name: corpsman envirosuit helmet
-  description: A helmet provided to Corpsmen Plasmamen.
+  name: entity-clothingheadenvirohelmbrigmedic-name
+  description: entity-clothingheadenvirohelmbrigmedic-description
   components:
   - type: Sprite
     layers:
@@ -1252,8 +1252,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmNanotrasenRepresentative
-  name: corporate liaison envirosuit helmet
-  description: A black envirosuit helmet worn by the Corporate Liaison, with black and gold accents.
+  name: entity-clothingheadenvirohelmnanotrasenrepresentative-name
+  description: entity-clothingheadenvirohelmnanotrasenrepresentative-description
   components:
   - type: Sprite
     layers:
@@ -1300,8 +1300,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmMagistrate
-  name: magistrate envirosuit helmet
-  description: A plain white envirosuit with yellow stripes.
+  name: entity-clothingheadenvirohelmmagistrate-name
+  description: entity-clothingheadenvirohelmmagistrate-description
   components:
   - type: Sprite
     layers:
@@ -1341,8 +1341,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmBase
   id: ClothingHeadEnvirohelmColorWhite
-  name: white envirosuit helmet
-  description: A generic white envirohelm.
+  name: entity-clothingheadenvirohelmcolorwhite-name
+  description: entity-clothingheadenvirohelmcolorwhite-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Envirohelms/white.rsi
@@ -1352,8 +1352,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmColorGrey
-  name: grey envirosuit helmet
-  description: A grey envirosuit helmet.
+  name: entity-clothingheadenvirohelmcolorgrey-name
+  description: entity-clothingheadenvirohelmcolorgrey-description
   components:
   - type: Sprite
     layers:
@@ -1392,8 +1392,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmColorBlack
-  name: black envirosuit helmet
-  description: A black envirosuit helmet.
+  name: entity-clothingheadenvirohelmcolorblack-name
+  description: entity-clothingheadenvirohelmcolorblack-description
   components:
   - type: Sprite
     layers:
@@ -1432,8 +1432,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmColorRed
-  name: red envirosuit helmet
-  description: A red envirosuit helmet.
+  name: entity-clothingheadenvirohelmcolorred-name
+  description: entity-clothingheadenvirohelmcolorred-description
   components:
   - type: Sprite
     layers:
@@ -1472,8 +1472,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmColorGreen
-  name: green envirosuit helmet
-  description: A green envirosuit helmet.
+  name: entity-clothingheadenvirohelmcolorgreen-name
+  description: entity-clothingheadenvirohelmcolorgreen-description
   components:
   - type: Sprite
     layers:
@@ -1512,8 +1512,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmColorDarkGreen
-  name: dark green envirosuit helmet
-  description: A dark green envirosuit helmet.
+  name: entity-clothingheadenvirohelmcolordarkgreen-name
+  description: entity-clothingheadenvirohelmcolordarkgreen-description
   components:
   - type: Sprite
     layers:
@@ -1552,8 +1552,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmColorBlue
-  name: blue envirosuit helmet
-  description: A blue envirosuit helmet.
+  name: entity-clothingheadenvirohelmcolorblue-name
+  description: entity-clothingheadenvirohelmcolorblue-description
   components:
   - type: Sprite
     layers:
@@ -1592,8 +1592,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmColorDarkBlue
-  name: dark blue envirosuit helmet
-  description: A dark blue envirosuit helmet.
+  name: entity-clothingheadenvirohelmcolordarkblue-name
+  description: entity-clothingheadenvirohelmcolordarkblue-description
   components:
   - type: Sprite
     layers:
@@ -1632,8 +1632,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmColorTeal
-  name: teal envirosuit helmet
-  description: A teal envirosuit helmet.
+  name: entity-clothingheadenvirohelmcolorteal-name
+  description: entity-clothingheadenvirohelmcolorteal-description
   components:
   - type: Sprite
     layers:
@@ -1672,8 +1672,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmColorMaroon
-  name: maroon envirosuit helmet
-  description: A maroon envirosuit helmet.
+  name: entity-clothingheadenvirohelmcolormaroon-name
+  description: entity-clothingheadenvirohelmcolormaroon-description
   components:
   - type: Sprite
     layers:
@@ -1712,8 +1712,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmColorPink
-  name: pink envirosuit helmet
-  description: A pink envirosuit helmet. So fetch!
+  name: entity-clothingheadenvirohelmcolorpink-name
+  description: entity-clothingheadenvirohelmcolorpink-description
   components:
   - type: Sprite
     layers:
@@ -1752,8 +1752,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmColorYellow
-  name: yellow envirosuit helmet
-  description: A yellow envirosuit helmet.
+  name: entity-clothingheadenvirohelmcoloryellow-name
+  description: entity-clothingheadenvirohelmcoloryellow-description
   components:
   - type: Sprite
     layers:
@@ -1792,8 +1792,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmColorPurple
-  name: purple envirosuit helmet
-  description: A purple envirosuit helmet.
+  name: entity-clothingheadenvirohelmcolorpurple-name
+  description: entity-clothingheadenvirohelmcolorpurple-description
   components:
   - type: Sprite
     layers:
@@ -1832,8 +1832,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmColorOrange
-  name: orange envirosuit helmet
-  description: An orange envirosuit helmet.
+  name: entity-clothingheadenvirohelmcolororange-name
+  description: entity-clothingheadenvirohelmcolororange-description
   components:
   - type: Sprite
     layers:
@@ -1872,8 +1872,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmColorLightBrown
-  name: light brown envirosuit helmet
-  description: A light brown envirosuit helmet.
+  name: entity-clothingheadenvirohelmcolorlightbrown-name
+  description: entity-clothingheadenvirohelmcolorlightbrown-description
   components:
   - type: Sprite
     layers:
@@ -1912,8 +1912,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmColorBrown
-  name: brown envirosuit helmet
-  description: A brown envirosuit helmet.
+  name: entity-clothingheadenvirohelmcolorbrown-name
+  description: entity-clothingheadenvirohelmcolorbrown-description
   components:
   - type: Sprite
     layers:
@@ -1952,8 +1952,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmEnviroslacksColorRed
-  name: red enviroslacks helmet
-  description: The pet project of a particularly posh Plasmaman, this envirohelm comes with red accents. Fancy!
+  name: entity-clothingheadenvirohelmenviroslackscolorred-name
+  description: entity-clothingheadenvirohelmenviroslackscolorred-description
   components:
   - type: Sprite
     layers:
@@ -1992,8 +1992,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmEnviroslacksColorOrange
-  name: orange enviroslacks helmet
-  description: The pet project of a particularly posh Plasmaman, this envirohelm comes with orange accents. Zesty!
+  name: entity-clothingheadenvirohelmenviroslackscolororange-name
+  description: entity-clothingheadenvirohelmenviroslackscolororange-description
   components:
   - type: Sprite
     layers:
@@ -2032,8 +2032,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmEnviroslacksColorGreen
-  name: green enviroslacks helmet
-  description: The pet project of a particularly posh Plasmaman, this envirohelm comes with green accents. Leafy!
+  name: entity-clothingheadenvirohelmenviroslackscolorgreen-name
+  description: entity-clothingheadenvirohelmenviroslackscolorgreen-description
   components:
   - type: Sprite
     layers:
@@ -2072,8 +2072,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmEnviroslacksColorBlue
-  name: blue enviroslacks helmet
-  description: The pet project of a particularly posh Plasmaman, this envirohelm comes with blue accents. Cool!
+  name: entity-clothingheadenvirohelmenviroslackscolorblue-name
+  description: entity-clothingheadenvirohelmenviroslackscolorblue-description
   components:
   - type: Sprite
     layers:
@@ -2112,8 +2112,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmEnviroslacksMNK
-  name: MNK enviroslacks helmet
-  description: A sleek envirohelm brought to you by MNK. Classic!
+  name: entity-clothingheadenvirohelmenviroslacksmnk-name
+  description: entity-clothingheadenvirohelmenviroslacksmnk-description
   components:
   - type: Sprite
     layers:
@@ -2152,8 +2152,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmEnviroslacksMNKAlt
-  name: monochrome enviroslacks helmet
-  description: A sleek envirohelm brought to you by MNK. Noir!
+  name: entity-clothingheadenvirohelmenviroslacksmnkalt-name
+  description: entity-clothingheadenvirohelmenviroslacksmnkalt-description
   suffix: Alternative
   components:
   - type: Sprite

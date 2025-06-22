@@ -550,8 +550,8 @@
   categories: [ HideSpawnMenu ]
   parent: [BaseThiefObjective, BaseLivingObjective]
   id: EscapeThiefShuttleObjective
-  name: Escape to centcom alive and unrestrained.
-  description: You don't want your illegal activities to be discovered by anyone, do you?
+  name: entity-escapethiefshuttleobjective-name
+  description: entity-escapethiefshuttleobjective-description
   components:
   - type: Objective
     title: objective-condition-escape-shuttle-title # WWDP Localization

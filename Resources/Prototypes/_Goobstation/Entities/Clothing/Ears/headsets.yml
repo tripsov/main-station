@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingHeadset
   id: ClothingHeadsetMagistrate
-  name: magistrate's headset
-  description: The headset used by the magistrate.
+  name: entity-clothingheadsetmagistrate-name
+  description: entity-clothingheadsetmagistrate-description
   components:
   - type: ContainerFill
     containers:

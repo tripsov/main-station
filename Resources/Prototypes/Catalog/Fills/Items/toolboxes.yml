@@ -1,6 +1,6 @@
 - type: entity
   id: ToolboxEmergencyFilled
-  name: emergency toolbox
+  name: entity-toolboxemergencyfilled-name
   parent: ToolboxEmergency
   suffix: Filled
   components:
@@ -27,7 +27,7 @@
 
 - type: entity
   id: ToolboxElectricalFilled
-  name: electrical toolbox
+  name: entity-toolboxelectricalfilled-name
   suffix: Filled
   parent: ToolboxElectrical
   components:
@@ -48,7 +48,7 @@
 
 - type: entity
   id: ToolboxElectricalTurretFilled
-  name: electrical toolbox
+  name: entity-toolboxelectricalfilled-name
   suffix: Syndicate, Turret, Filled
   parent: ToolboxElectricalTurret
   components:
@@ -69,7 +69,7 @@
 
 - type: entity
   id: ToolboxArtisticFilled
-  name: artistic toolbox
+  name: entity-toolboxartisticfilled-name
   suffix: Filled
   parent: ToolboxArtistic
   components:
@@ -92,7 +92,7 @@
 
 - type: entity
   id: ToolboxMechanicalFilled
-  name: mechanical toolbox
+  name: entity-toolboxmechanicalfilled-name
   suffix: Filled
   parent: ToolboxMechanical
   components:
@@ -128,7 +128,7 @@
 
 - type: entity
   id: ToolboxGoldFilled
-  name: golden toolbox
+  name: entity-toolboxgoldfilled-name
   parent: ToolboxGolden
   suffix: Filled
   components:

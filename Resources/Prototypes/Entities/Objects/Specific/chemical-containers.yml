@@ -1,8 +1,8 @@
 - type: entity
-  name: jug
+  name: entity-jug-name
   parent: BaseItem
   id: Jug
-  description: Used to contain a very large amount of chemicals or solutions. Chugging is extremely ill-advised.
+  description: entity-jug-description
   components:
     - type: SolutionContainerManager
       solutions:

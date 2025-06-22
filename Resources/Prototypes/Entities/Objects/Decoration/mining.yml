@@ -1,6 +1,6 @@
 - type: entity
   id: WoodenSign
-  name: wooden sign
+  name: entity-woodensign-name
   description: He's pointing somewhere. 
   components:
   - type: Clickable
@@ -51,8 +51,8 @@
 - type: entity
   id: WoodenSupport
   parent: BaseStructure
-  name: wooden support
-  description: Increases your confidence that a rock won't fall on your head.
+  name: entity-woodensupport-name
+  description: entity-woodensupport-description
   placement:
     mode: SnapgridCenter
   components:
@@ -103,7 +103,7 @@
 
 - type: entity
   id: WoodenSupportBeam
-  name: wooden support beam
+  name: entity-woodensupportbeam-name
   parent: WoodenSupport
   components:
   - type: Sprite
@@ -125,8 +125,8 @@
 - type: entity
   id: WoodenSupportWall
   parent: BaseStructure
-  name: wooden support wall
-  description: An old, rotten wall.
+  name: entity-woodensupportwall-name
+  description: entity-woodensupportwall-description
   placement:
     mode: SnapgridCenter
   components:

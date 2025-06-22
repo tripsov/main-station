@@ -3,8 +3,8 @@
 - type: entity
   parent: BaseItem
   id: BaseFigurineMech
-  name: figurine
-  description: A small miniature.
+  name: entity-basefigurinemech-name
+  description: entity-basefigurinemech-description
   abstract: true
   components:
   - type: Sprite
@@ -22,8 +22,8 @@
 - type: entity
   parent: BaseFigurineMech
   id: ToyRipley
-  name: ripley toy
-  description: Mini-Mecha action figure! 'Mecha No. 1/12' is written on the back.
+  name: entity-toyripley-name
+  description: entity-toyripley-description
   components:
   - type: Sprite
     state: ripley
@@ -32,8 +32,8 @@
 - type: entity
   parent: BaseFigurineMech
   id: ToyFireRipley
-  name: fire ripley
-  description: Mini-Mecha action figure! 'Mecha No. 2/12' is written on the back.
+  name: entity-toyfireripley-name
+  description: entity-toyfireripley-description
   components:
   - type: Sprite
     state: fireripley
@@ -42,8 +42,8 @@
 - type: entity
   parent: BaseFigurineMech
   id: ToyDeathRipley
-  name: deathripley toy
-  description: Mini-Mecha action figure! 'Mecha No. 3/12' is written on the back.
+  name: entity-toydeathripley-name
+  description: entity-toydeathripley-description
   components:
   - type: Sprite
     state: deathripley
@@ -52,8 +52,8 @@
 - type: entity
   parent: BaseFigurineMech
   id: ToyGygax
-  name: gygax toy
-  description: Mini-Mecha action figure! 'Mecha No. 4/12' is written on the back.
+  name: entity-toygygax-name
+  description: entity-toygygax-description
   components:
   - type: Sprite
     state: gygax
@@ -62,8 +62,8 @@
 - type: entity
   parent: BaseFigurineMech
   id: ToyDurand
-  name: durand toy
-  description: Mini-Mecha action figure! 'Mecha No. 5/12' is written on the back.
+  name: entity-toydurand-name
+  description: entity-toydurand-description
   components:
   - type: Sprite
     state: durand
@@ -72,8 +72,8 @@
 - type: entity
   parent: BaseFigurineMech
   id: ToyHonk
-  name: H.O.N.K. toy
-  description: Mini-Mecha action figure! 'Mecha No. 6/12' is written on the back.
+  name: entity-toyhonk-name
+  description: entity-toyhonk-description
   components:
   - type: Sprite
     state: honk
@@ -82,8 +82,8 @@
 - type: entity
   parent: BaseFigurineMech
   id: ToyMarauder
-  name: marauder toy
-  description: Mini-Mecha action figure! 'Mecha No. 7/12' is written on the back.
+  name: entity-toymarauder-name
+  description: entity-toymarauder-description
   components:
   - type: Sprite
     state: marauder
@@ -92,8 +92,8 @@
 - type: entity
   parent: BaseFigurineMech
   id: ToySeraph
-  name: seraph toy
-  description: Mini-Mecha action figure! 'Mecha No. 8/12' is written on the back.
+  name: entity-toyseraph-name
+  description: entity-toyseraph-description
   components:
   - type: Sprite
     state: seraph
@@ -102,8 +102,8 @@
 - type: entity
   parent: BaseFigurineMech
   id: ToyMauler
-  name: mauler toy
-  description: Mini-Mecha action figure! 'Mecha No. 9/12' is written on the back.
+  name: entity-toymauler-name
+  description: entity-toymauler-description
   components:
   - type: Sprite
     state: mauler
@@ -112,8 +112,8 @@
 - type: entity
   parent: BaseFigurineMech
   id: ToyOdysseus
-  name: odysseus toy
-  description: Mini-Mecha action figure! 'Mecha No. 10/12' is written on the back.
+  name: entity-toyodysseus-name
+  description: entity-toyodysseus-description
   components:
   - type: Sprite
     state: odysseus
@@ -122,8 +122,8 @@
 - type: entity
   parent: BaseFigurineMech
   id: ToyPhazon
-  name: phazon toy
-  description: Mini-Mecha action figure! 'Mecha No. 11/12' is written on the back.
+  name: entity-toyphazon-name
+  description: entity-toyphazon-description
   components:
   - type: Sprite
     state: phazon
@@ -132,8 +132,8 @@
 - type: entity
   parent: BaseFigurineMech
   id: ToyReticence
-  name: reticence toy
-  description: Mini-Mecha action figure! 'Mecha No. 12/12' is written on the back.
+  name: entity-toyreticence-name
+  description: entity-toyreticence-description
   components:
   - type: Sprite
     state: reticence

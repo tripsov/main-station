@@ -2,8 +2,8 @@
   id: MobLivingLight
   parent: [ BaseMob, MobCombat ]
   abstract: true
-  name: luminous person
-  description: A blinding figure of pure light, seemingly intangible.
+  name: entity-moblivinglight-name
+  description: entity-moblivinglight-description
   components:
   - type: HTN
     rootTask:
@@ -113,8 +113,8 @@
 - type: entity
   id: MobLuminousObject
   parent: MobLivingLight
-  name: luminous object
-  description: A small glowing object that causes burns on the skin with its glow.
+  name: entity-mobluminousobject-name
+  description: entity-mobluminousobject-description
   components:
   - type: Sprite
     sprite: Mobs/Elemental/living_light/luminous_object.rsi
@@ -140,8 +140,8 @@
 - type: entity
   id: MobLuminousEntity
   parent: MobLivingLight
-  name: luminous entity
-  description: A blinding translucent entity, the bright eye seems dangerous and scalding.
+  name: entity-mobluminousentity-name
+  description: entity-mobluminousentity-description
   components:
   - type: Sprite
     sprite: Mobs/Elemental/living_light/luminous_entity.rsi

@@ -22,19 +22,19 @@
 # Muffins/Buns
 
 - type: entity
-  name: muffin
+  name: entity-foodbakedmuffin-name
   parent: FoodBakedBase
   id: FoodBakedMuffin
-  description: A delicious and spongy little cake.
+  description: entity-foodbakedmuffin-description
   components:
   - type: Sprite
     state: muffin
 
 - type: entity
-  name: berry muffin
+  name: entity-foodbakedmuffinberry-name
   parent: FoodBakedBase
   id: FoodBakedMuffinBerry
-  description: A delicious and spongy little cake, with berries.
+  description: entity-foodbakedmuffinberry-description
   components:
   - type: Sprite
     state: muffin-berry
@@ -43,10 +43,10 @@
     - Fruit
 
 - type: entity
-  name: cherry muffin
+  name: entity-foodbakedmuffincherry-name
   parent: FoodBakedBase
   id: FoodBakedMuffinCherry
-  description: A sweet muffin with cherry bits.
+  description: entity-foodbakedmuffincherry-description
   components:
   - type: Sprite
     state: muffin-cherry
@@ -55,10 +55,10 @@
     - Fruit
 
 - type: entity
-  name: bluecherry muffin
+  name: entity-foodbakedmuffinbluecherry-name
   parent: FoodBakedBase
   id: FoodBakedMuffinBluecherry
-  description: Blue cherries inside a delicious muffin.
+  description: entity-foodbakedmuffinbluecherry-description
   components:
   - type: Sprite
     state: muffin-bluecherry
@@ -70,25 +70,25 @@
   name: honey bun #TODO honey
   parent: FoodBakedBase
   id: FoodBakedBunHoney
-  description: A sticky pastry bun glazed with honey.
+  description: entity-foodbakedbunhoney-description
   components:
   - type: Sprite
     state: bun-honey
 
 - type: entity
-  name: hotcross bun
+  name: entity-foodbakedbunhotx-name
   parent: FoodBakedBase
   id: FoodBakedBunHotX
-  description: A sticky pastry bun glazed with a distinct white cross.
+  description: entity-foodbakedbunhotx-description
   components:
   - type: Sprite
     state: bun-hotcross
 
 - type: entity
-  name: meat bun
+  name: entity-foodbakedbunmeat-name
   parent: FoodBakedBase
   id: FoodBakedBunMeat
-  description: Has the potential to not be dog.
+  description: entity-foodbakedbunmeat-description
   components:
   - type: Sprite
     state: bun-meat
@@ -105,19 +105,19 @@
 # Cookies
 
 - type: entity
-  name: cookie
+  name: entity-foodbakedcookie-name
   parent: FoodBakedBase
   id: FoodBakedCookie
-  description: COOKIE!!!
+  description: entity-foodbakedcookie-description
   components:
   - type: Sprite
     state: COOKIE!!!
 
 - type: entity
-  name: oatmeal cookie
+  name: entity-foodbakedcookieoatmeal-name
   parent: FoodBakedBase
   id: FoodBakedCookieOatmeal
-  description: The best of both cookie and oat.
+  description: entity-foodbakedcookieoatmeal-description
   components:
   - type: Sprite
     state: cookie-oatmeal
@@ -132,10 +132,10 @@
           Quantity: 1
 
 - type: entity
-  name: raisin cookie
+  name: entity-foodbakedcookieraisin-name
   parent: FoodBakedBase
   id: FoodBakedCookieRaisin
-  description: Why would you put raisins in a cookie?
+  description: entity-foodbakedcookieraisin-description
   components:
   - type: Sprite
     state: cookie-raisin
@@ -153,10 +153,10 @@
     - Fruit
 
 - type: entity
-  name: sugar cookie
+  name: entity-foodbakedcookiesugar-name
   parent: FoodBakedBase
   id: FoodBakedCookieSugar
-  description: Just like your mom used to make.
+  description: entity-foodbakedcookiesugar-description
   components:
   - type: Sprite
     state: cookie-sugar
@@ -164,7 +164,7 @@
 # Nuggets
 
 - type: entity
-  name: chicken nugget
+  name: entity-foodbakednugget-name
   parent: FoodBakedBase
   id: FoodBakedNugget
   description: A "chicken" nugget vaguely shaped into an object. # Should change depending on name.
@@ -204,10 +204,10 @@
 # Once StackVisuals is updated you should be able to mix/match stacks of pancakes.
 
 - type: entity
-  name: pancake
+  name: entity-foodbakedpancake-name
   parent: FoodBakedBase
   id: FoodBakedPancake
-  description: A fluffy pancake. The softer, superior relative of the waffle.
+  description: entity-foodbakedpancake-description
   components:
   - type: Stack
     stackType: Pancake
@@ -259,10 +259,10 @@
     - Pancake
 
 - type: entity
-  name: blueberry pancake
+  name: entity-foodbakedpancakebb-name
   parent: FoodBakedBase
   id: FoodBakedPancakeBb
-  description: A fluffy and delicious blueberry pancake.
+  description: entity-foodbakedpancakebb-description
   components:
   - type: Stack
     stackType: Pancake
@@ -291,10 +291,10 @@
     - Fruit
 
 - type: entity
-  name: chocolate chip pancake
+  name: entity-foodbakedpancakecc-name
   parent: FoodBakedBase
   id: FoodBakedPancakeCc
-  description: A fluffy and delicious chocolate chip pancake.
+  description: entity-foodbakedpancakecc-description
   components:
   - type: Stack
     stackType: Pancake
@@ -331,10 +331,10 @@
     - Pancake
 
 - type: entity
-  name: waffles
+  name: entity-foodbakedwaffle-name
   parent: FoodBakedBase
   id: FoodBakedWaffle
-  description: Mmm, waffles.
+  description: entity-foodbakedwaffle-description
   components:
   - type: Sprite
     layers:
@@ -351,10 +351,10 @@
           Quantity: 1
 
 - type: entity
-  name: soy waffles
+  name: entity-foodbakedwafflesoy-name
   parent: FoodBakedWaffle
   id: FoodBakedWaffleSoy
-  description: You feel healthier and - more feminine?
+  description: entity-foodbakedwafflesoy-description
   components:
   - type: Sprite
     layers:
@@ -371,7 +371,7 @@
           Quantity: 1
 
 - type: entity
-  name: soylent waffles
+  name: entity-foodbakedwafflesoylent-name
   parent: FoodBakedWaffle
   id: FoodBakedWaffleSoylent
   description: Not made of people. Honest. # Definitely people
@@ -391,10 +391,10 @@
           Quantity: 1
 
 - type: entity
-  name: roffle waffles
+  name: entity-foodbakedwaffleroffle-name
   parent: FoodBakedWaffle
   id: FoodBakedWaffleRoffle
-  description: Waffles from Roffle. Co.
+  description: entity-foodbakedwaffleroffle-description
   components:
   - type: Sprite
     layers:
@@ -413,19 +413,19 @@
 # Misc
 
 - type: entity
-  name: poppy pretzel
+  name: entity-foodbakedpretzel-name
   parent: FoodBakedBase
   id: FoodBakedPretzel
-  description: It's all twisted up!
+  description: entity-foodbakedpretzel-description
   components:
   - type: Sprite
     state: pretzel
 
 - type: entity
-  name: cannoli
+  name: entity-foodbakedcannoli-name
   parent: FoodBakedBase
   id: FoodBakedCannoli
-  description: A Sicilian treat that makes you into a wise guy.
+  description: entity-foodbakedcannoli-description
   components:
   - type: Sprite
     state: cannoli
@@ -440,10 +440,10 @@
           Quantity: 1
 
 - type: entity
-  name: dumplings
+  name: entity-foodbakeddumplings-name
   parent: FoodBakedBase
   id: FoodBakedDumplings
-  description: Average recipe for meat in doughs.
+  description: entity-foodbakeddumplings-description
   components:
   - type: Sprite
     state: dumplings
@@ -458,10 +458,10 @@
           Quantity: 2
 
 - type: entity
-  name: chèvre chaud
+  name: entity-foodbakedchevrechaud-name
   parent: FoodBakedBase
   id: FoodBakedChevreChaud
-  description: A disk of slightly melted chèvre flopped on top of a crostini, and toasted all-round.
+  description: entity-foodbakedchevrechaud-description
   components:
   - type: FlavorProfile
     flavors:
@@ -482,10 +482,10 @@
           Quantity: 0.5
 
 - type: entity
-  name: brownies
+  name: entity-foodbakedbrowniebatch-name
   parent: FoodBakedBase
   id: FoodBakedBrownieBatch
-  description: A pan of brownies.
+  description: entity-foodbakedbrowniebatch-description
   components:
   - type: FlavorProfile
     flavors:
@@ -508,11 +508,11 @@
     slice: FoodBakedBrownie
 
 - type: entity
-  name: brownie
+  name: entity-foodbakedbrownie-name
   parent: FoodBakedBase
   id: FoodBakedBrownie
   suffix: Fresh
-  description: A fresh baked brownie.
+  description: entity-foodbakedbrownie-description
   components:
   - type: FlavorProfile
     flavors:
@@ -535,10 +535,10 @@
     - Slice
 
 - type: entity
-  name: special brownies
+  name: entity-foodbakedcannabisbrowniebatch-name
   parent: FoodBakedBase
   id: FoodBakedCannabisBrownieBatch
-  description: A pan of "special" brownies.
+  description: entity-foodbakedcannabisbrowniebatch-description
   components:
   - type: FlavorProfile
     flavors:
@@ -564,10 +564,10 @@
     slice: FoodBakedCannabisBrownie
 
 - type: entity
-  name: special brownie
+  name: entity-foodbakedcannabisbrownie-name
   parent: FoodBakedBase
   id: FoodBakedCannabisBrownie
-  description: A "special" brownie.
+  description: entity-foodbakedcannabisbrownie-description
   components:
   - type: FlavorProfile
     flavors:
@@ -593,10 +593,10 @@
     - Slice
 
 - type: entity
-  name: onion rings
+  name: entity-foodonionrings-name
   parent: FoodBakedBase
   id: FoodOnionRings
-  description: You can eat it or propose to your loved ones.
+  description: entity-foodonionrings-description
   components:
     - type: FlavorProfile
       flavors:
@@ -617,10 +617,10 @@
             Quantity: 1
 
 - type: entity
-  name: croissant
+  name: entity-foodbakedcroissant-name
   parent: FoodBakedBase
   id: FoodBakedCroissant
-  description: Buttery, flaky goodness.
+  description: entity-foodbakedcroissant-description
   components:
   - type: FlavorProfile
     flavors:

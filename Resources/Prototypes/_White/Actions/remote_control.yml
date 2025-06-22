@@ -1,7 +1,7 @@
 - type: entity
   id: ActionEndRemoteControl
-  name: End remote control
-  description: Ends remote control
+  name: entity-actionendremotecontrol-name
+  description: entity-actionendremotecontrol-description
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -13,8 +13,8 @@
 
 - type: entity
   id: RemoteControlConsoleSwitchToNextAction
-  name: Switch to next target
-  description: Switches to next target
+  name: entity-remotecontrolconsoleswitchtonextaction-name
+  description: entity-remotecontrolconsoleswitchtonextaction-description
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction

@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: ActionBlink
-  name: Blink
-  description: Teleport to the clicked location.
+  name: entity-actionblink-name
+  description: entity-actionblink-description
   categories: [ HideSpawnMenu ]
   components:
   - type: WorldTargetAction

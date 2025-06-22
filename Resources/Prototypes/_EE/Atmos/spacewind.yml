@@ -1,6 +1,6 @@
 - type: entity
   id: SpaceWindVisual
-  name: space wind motes
+  name: entity-spacewindvisual-name
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

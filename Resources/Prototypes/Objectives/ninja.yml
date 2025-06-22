@@ -48,7 +48,7 @@
   categories: [ HideSpawnMenu ]
   parent: [BaseNinjaObjective, BaseCodeObjective]
   id: SpiderChargeObjective
-  description: This bomb can be detonated in a specific location. Note that the bomb will not work anywhere else!
+  description: entity-spiderchargeobjective-description
   components:
   - type: Objective
     icon:
@@ -59,8 +59,8 @@
   categories: [ HideSpawnMenu ]
   parent: [BaseNinjaObjective, BaseSurviveObjective]
   id: NinjaSurviveObjective
-  name: Survive
-  description: You wouldn't be a very good ninja if you died, now would you?
+  name: entity-ninjasurviveobjective-name
+  description: entity-ninjasurviveobjective-description
   components:
   - type: Objective
     icon:
@@ -71,8 +71,8 @@
   categories: [ HideSpawnMenu ]
   parent: [BaseNinjaObjective, BaseCodeObjective]
   id: TerrorObjective
-  name: Call in a threat
-  description: Use your gloves on a communication console in order to bring another threat to the station.
+  name: entity-terrorobjective-name
+  description: entity-terrorobjective-description
   components:
   - type: Objective
     icon:
@@ -83,8 +83,8 @@
   categories: [ HideSpawnMenu ]
   parent: [BaseNinjaObjective, BaseCodeObjective]
   id: MassArrestObjective
-  name: Set everyone to wanted
-  description: Use your gloves to hack a criminal records console, setting the entire station to be wanted!
+  name: entity-massarrestobjective-name
+  description: entity-massarrestobjective-description
   components:
   - type: Objective
     icon:

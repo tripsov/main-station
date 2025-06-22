@@ -1,6 +1,6 @@
 - type: entity
   id: AlwaysPoweredStrobeLight
-  name: strobe
+  name: entity-alwayspoweredstrobelight-name
   description: "UH?! Sorry, all I can hear is WEE-OOO-WEE-OOO!"
   suffix: Always powered
   components:
@@ -67,7 +67,7 @@
     - Wallmount
 
 - type: entity
-  name: strobe
+  name: entity-alwayspoweredstrobelight-name
   description: "UH?! Sorry, all I can hear is WEE-OOO-WEE-OOO!"
   id: PoweredStrobeLightEmpty
   suffix: Empty

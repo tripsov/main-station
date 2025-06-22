@@ -37,7 +37,7 @@
 - type: entity
   id: BaseBorgLeftArm
   parent: PartSilicon
-  name: cyborg left arm
+  name: entity-baseborgleftarm-name
   components:
   - type: BodyPart
     partType: Arm # Shitmed Change
@@ -60,7 +60,7 @@
 - type: entity
   id: BaseBorgRightArm
   parent: PartSilicon
-  name: cyborg right arm
+  name: entity-baseborgrightarm-name
   components:
   - type: BodyPart
     partType: Arm # Shitmed Change
@@ -83,7 +83,7 @@
 - type: entity
   id: BaseBorgLegLeft
   parent: PartSilicon
-  name: cyborg left leg
+  name: entity-baseborglegleft-name
   components:
   - type: BodyPart
     partType: Leg
@@ -107,7 +107,7 @@
 - type: entity
   id: BaseBorgLegRight
   parent: PartSilicon
-  name: cyborg right leg
+  name: entity-baseborglegright-name
   components:
   - type: BodyPart
     partType: Leg
@@ -131,7 +131,7 @@
 - type: entity
   id: BaseLightHeadBorg
   parent: PartSilicon
-  name: cyborg head
+  name: entity-baselightheadborg-name
   components:
   - type: BodyPart
     partType: Head
@@ -148,7 +148,7 @@
 - type: entity
   id: BaseBorgTorso
   parent: PartSilicon
-  name: cyborg torso
+  name: entity-baseborgtorso-name
   components:
   - type: BodyPart
     partType: Torso

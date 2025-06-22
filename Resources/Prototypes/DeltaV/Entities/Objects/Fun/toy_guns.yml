@@ -1,8 +1,8 @@
 - type: entity
-  name: BB Gun
+  name: entity-weaponriflebb-name
   parent: BaseItem
   id: WeaponRifleBB
-  description: The classic Red Ryder BB gun. Don't shoot your eye out.
+  description: entity-weaponriflebb-description
   components:
   - type: Sprite
     netsync: false

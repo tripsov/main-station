@@ -1,8 +1,8 @@
 - type: entity
-  name: holoparasite injector
+  name: entity-holoparasiteinjector-name
   id: HoloparasiteInjector
   parent: BaseItem
-  description: A complex artwork of handheld machinery allowing the user to host a holoparasite guardian.
+  description: entity-holoparasiteinjector-description
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/hypospray.rsi
@@ -11,19 +11,19 @@
     guardianProto: MobHoloparasiteGuardian
 
 - type: entity
-  name: holoclown injector
+  name: entity-holoclowninjector-name
   parent: HoloparasiteInjector
   id: HoloClownInjector
-  description: A complex artwork of handheld machinery allowing the user to host a holoclown guardian.
+  description: entity-holoclowninjector-description
   components:
   - type: GuardianCreator
     guardianProto: MobHoloClownGuardian
 
 - type: entity
-  name: magical lamp
+  name: entity-magicallamp-name
   id: MagicalLamp
   parent: BaseItem
-  description: The wizard federation had to cut costs after the jinn merchandise scandal somehow.
+  description: entity-magicallamp-description
   components:
   - type: Sprite
     sprite: Objects/Misc/Lights/lamp.rsi
@@ -33,10 +33,10 @@
     guardianProto: MobIfritGuardian
 
 - type: entity
-  name: holoparasite box
+  name: entity-boxholoparasite-name
   parent: BoxCardboard
   id: BoxHoloparasite
-  description: A box containing a holoparasite injector
+  description: entity-boxholoparasite-description
   components:
   - type: StorageFill
     contents:
@@ -49,10 +49,10 @@
       - state: holo
 
 - type: entity
-  name: holoclown box
+  name: entity-boxholoclown-name
   parent: BoxCardboard
   id: BoxHoloclown
-  description: A box containing a holoclown injector
+  description: entity-boxholoclown-description
   components:
   - type: StorageFill
     contents:

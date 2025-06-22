@@ -2,7 +2,7 @@
 - type: entity
   id: SpawnPointMedicalBorg
   parent: SpawnPointJobBase
-  name: medical cyborg
+  name: entity-spawnpointmedicalborg-name
   components:
   - type: SpawnPoint
     job_id: MedicalBorg
@@ -17,7 +17,7 @@
 - type: entity
   id: SpawnPointChiefJustice
   parent: SpawnPointJobBase
-  name: chiefjustice
+  name: entity-spawnpointchiefjustice-name
   components:
   - type: SpawnPoint
     job_id: ChiefJustice
@@ -30,7 +30,7 @@
 - type: entity
   id: SpawnPointClerk
   parent: SpawnPointJobBase
-  name: clerk
+  name: entity-spawnpointclerk-name
   components:
   - type: SpawnPoint
     job_id: Clerk
@@ -43,7 +43,7 @@
 - type: entity
   id: SpawnPointProsecutor
   parent: SpawnPointJobBase
-  name: prosecutor
+  name: entity-spawnpointprosecutor-name
   components:
   - type: SpawnPoint
     job_id: Prosecutor
@@ -56,7 +56,7 @@
 - type: entity
   id: SpawnPointCourier
   parent: SpawnPointJobBase
-  name: courier
+  name: entity-spawnpointcourier-name
   components:
   - type: SpawnPoint
     job_id: Courier
@@ -69,7 +69,7 @@
 - type: entity
   id: SpawnPointAdminAssistant
   parent: SpawnPointJobBase
-  name: administrative assistant
+  name: entity-spawnpointadminassistant-name
   components:
   - type: SpawnPoint
     job_id: AdministrativeAssistant

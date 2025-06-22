@@ -32,7 +32,7 @@
 # Delta V variants of Xenos to allow ghost takeover again
 
 - type: entity
-  name: Burrower
+  name: entity-mobxenoplayer-name
   id: MobXenoPlayer
   parent: MobXeno
   suffix: Player
@@ -47,7 +47,7 @@
   - type: GhostTakeoverAvailable
 
 - type: entity
-  name: Praetorian
+  name: entity-mobxenopraetorian-name
   parent: MobXenoPraetorianNPC
   id: MobXenoPraetorian
   suffix: Player
@@ -62,7 +62,7 @@
   - type: GhostTakeoverAvailable
 
 - type: entity
-  name: Drone
+  name: entity-mobxenodrone-name
   parent: MobXenoDroneNPC
   id: MobXenoDrone
   suffix: Player
@@ -77,7 +77,7 @@
   - type: GhostTakeoverAvailable
 
 - type: entity
-  name: Queen
+  name: entity-mobxenoqueen-name
   parent: MobXenoQueenNPC
   id: MobXenoQueen
   suffix: Player
@@ -92,7 +92,7 @@
   - type: GhostTakeoverAvailable
 
 - type: entity
-  name: Ravager
+  name: entity-mobxenoravager-name
   parent: MobXenoRavagerNPC
   id: MobXenoRavager
   suffix: Player
@@ -107,7 +107,7 @@
   - type: GhostTakeoverAvailable
 
 - type: entity
-  name: Runner
+  name: entity-mobxenorunner-name
   parent: MobXenoRunnerNPC
   id: MobXenoRunner
   suffix: Player
@@ -122,7 +122,7 @@
   - type: GhostTakeoverAvailable
 
 - type: entity
-  name: Rouny
+  name: entity-mobxenorouny-name
   parent: MobXenoRounyNPC
   id: MobXenoRouny
   components:
@@ -136,7 +136,7 @@
   - type: GhostTakeoverAvailable
 
 - type: entity
-  name: Spitter
+  name: entity-mobxenospitter-name
   parent: MobXenoSpitterNPC
   id: MobXenoSpitter
   suffix: Player

@@ -1,5 +1,5 @@
 - type: entity
-  name: book
+  name: entity-bookbase-name
   parent: BaseItem
   id: BookBase
   description: 'A hardcover book.'
@@ -43,8 +43,8 @@
 - type: entity
   id: BookSpaceEncyclopedia
   parent: BaseItem
-  name: space encyclopedia
-  description: An encyclopedia containing all the knowledge. The author of this encyclopedia is unknown.
+  name: entity-bookspaceencyclopedia-name
+  description: entity-bookspaceencyclopedia-description
   components:
   - type: Sprite
     sprite: Objects/Misc/books.rsi
@@ -69,8 +69,8 @@
 - type: entity
   id: BookTheBookOfControl
   parent: BaseItem
-  name: the book of control
-  description: Essential to become robust.
+  name: entity-bookthebookofcontrol-name
+  description: entity-bookthebookofcontrol-description
   components:
   - type: Sprite
     sprite: Objects/Misc/books.rsi
@@ -95,8 +95,8 @@
 - type: entity
   id: BookBartendersManual
   parent: BaseItem
-  name: bartender's manual
-  description: This manual is stained with beer.
+  name: entity-bookbartendersmanual-name
+  description: entity-bookbartendersmanual-description
   components:
   - type: Sprite
     sprite: Objects/Misc/books.rsi
@@ -118,8 +118,8 @@
 - type: entity
   id: BookHowToCookForFortySpaceman
   parent: BaseItem
-  name: How To Cook For Forty Spacemen
-  description: A book about cooking written by a space chef.
+  name: entity-bookhowtocookforfortyspaceman-name
+  description: entity-bookhowtocookforfortyspaceman-description
   components:
   - type: Sprite
     sprite: Objects/Misc/books.rsi
@@ -140,8 +140,8 @@
 - type: entity
   id: BookLeafLoversSecret
   parent: BaseItem
-  name: leaf lover's secret
-  description: It has a strong weed smell. It motivates you to feed and seed.
+  name: entity-bookleafloverssecret-name
+  description: entity-bookleafloverssecret-description
   components:
   - type: Sprite
     sprite: Objects/Misc/books.rsi
@@ -165,8 +165,8 @@
 - type: entity
   id: BookEngineersHandbook
   parent: BaseItem
-  name: engineer's handbook
-  description: A handbook about engineering written by Nanotrasen.
+  name: entity-bookengineershandbook-name
+  description: entity-bookengineershandbook-description
   components:
   - type: Sprite
     sprite: Objects/Misc/books.rsi
@@ -190,8 +190,8 @@
 - type: entity
   id: BookScientistsGuidebook
   parent: BaseItem
-  name: scientist's guidebook
-  description: A guidebook about science written by Nanotrasen.
+  name: entity-bookscientistsguidebook-name
+  description: entity-bookscientistsguidebook-description
   components:
   - type: Sprite
     sprite: Objects/Misc/books.rsi
@@ -213,8 +213,8 @@
 - type: entity
   id: BookSecurity
   parent: BaseItem
-  name: security 101
-  description: A book about security written by Nanotrasen. The book is stained with blood. It seems to have been used more as a weapon than reading material.
+  name: entity-booksecurity-name
+  description: entity-booksecurity-description
   components:
   - type: Sprite
     sprite: Objects/Misc/books.rsi
@@ -241,8 +241,8 @@
 - type: entity
   id: BookHowToKeepStationClean
   parent: BaseItem
-  name: how to keep station clean
-  description: This book is very clean.
+  name: entity-bookhowtokeepstationclean-name
+  description: entity-bookhowtokeepstationclean-description
   components:
   - type: Sprite
     sprite: Objects/Misc/books.rsi
@@ -263,8 +263,8 @@
 - type: entity
   id: BookHowToRockAndStone
   parent: BaseItem
-  name: how to rock and stone
-  description: A very detailed guide about salvage written by Karl, a legendary space miner, however he's missing. It motivates you to rock and stone.
+  name: entity-bookhowtorockandstone-name
+  description: entity-bookhowtorockandstone-description
   components:
   - type: Sprite
     sprite: Objects/Misc/books.rsi
@@ -289,8 +289,8 @@
 - type: entity
   id: BookMedicalReferenceBook
   parent: BaseItem
-  name: medical reference book
-  description: A reference book about medical written by an old doctor. The handwriting is barely comprehensible.
+  name: entity-bookmedicalreferencebook-name
+  description: entity-bookmedicalreferencebook-description
   components:
   - type: Sprite
     sprite: Objects/Misc/books.rsi
@@ -313,8 +313,8 @@
 - type: entity
   id: BookHowToSurvive
   parent: BaseItem
-  name: how to survive
-  description: Ironically the author of this book is dead.
+  name: entity-bookhowtosurvive-name
+  description: entity-bookhowtosurvive-description
   components:
   - type: Sprite
     sprite: Objects/Misc/books.rsi
@@ -339,8 +339,8 @@
 - type: entity
   id: BookChemicalCompendium
   parent: BaseItem
-  name: chempendium
-  description: A comprehensive guide written by some old skeleton of a professor about chemical synthesis.
+  name: entity-bookchemicalcompendium-name
+  description: entity-bookchemicalcompendium-description
   components:
   - type: Sprite
     sprite: Objects/Misc/books.rsi
@@ -363,7 +363,7 @@
   parent: BookBase
   id: BookRandom
   suffix: random visual
-  description: Each book is unique! What is hidden in this one?
+  description: entity-bookrandom-description
   components:
   - type: RandomMetadata
     nameSegments:
@@ -461,7 +461,7 @@
   parent: BookBase
   id: BookAtmosDistro
   name: "Newton's Guide to Atmos: The Distro"
-  description: There are endless illegible notes scribbled in the margins. Most of the text is covered in handwritten question marks.
+  description: entity-bookatmosdistro-description
   components:
   - type: Sprite
     sprite: Objects/Misc/books.rsi
@@ -481,7 +481,7 @@
   parent: BookBase
   id: BookAtmosWaste
   name: "Newton's Guide to Atmos: Waste"
-  description: There are endless illegible notes scribbled in the margins. Most of the text is covered in handwritten question marks.
+  description: entity-bookatmosdistro-description
   components:
   - type: Sprite
     sprite: Objects/Misc/books.rsi
@@ -501,7 +501,7 @@
   parent: BookBase
   id: BookAtmosAirAlarms
   name: "Newton's Guide to Atmos: Air Alarms"
-  description: There are endless illegible notes scribbled in the margins. Most of the text is covered in handwritten question marks.
+  description: entity-bookatmosdistro-description
   components:
   - type: Sprite
     sprite: Objects/Misc/books.rsi
@@ -521,7 +521,7 @@
   parent: BookBase
   id: BookAtmosVentsMore
   name: "Newton's Guide to Atmos: Vents and More"
-  description: There are endless illegible notes scribbled in the margins. Most of the text is covered in handwritten question marks.
+  description: entity-bookatmosdistro-description
   components:
   - type: Sprite
     sprite: Objects/Misc/books.rsi
@@ -540,8 +540,8 @@
 - type: entity
   id: BookPsionicsGuidebook
   parent: BaseItem
-  name: psionics guidebook
-  description: A guidebook about Psionics written by Gunther P. Gunderaan.
+  name: entity-bookpsionicsguidebook-name
+  description: entity-bookpsionicsguidebook-description
   components:
   - type: Sprite
     sprite: Objects/Misc/books.rsi

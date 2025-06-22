@@ -65,7 +65,7 @@
 - type: entity
   id: HeadSkeleton
   name: "skull"
-  description: Alas poor Yorick...
+  description: entity-headskeleton-description
   parent: PartSkeleton
   components:
     - type: Sprite

@@ -1,9 +1,9 @@
 - type: entity
-  name: bottle
+  name: entity-basechemistryemptybottle-name
   parent: BaseItem
   id: BaseChemistryEmptyBottle
   abstract: true
-  description: A small bottle.
+  description: entity-basechemistryemptybottle-description
   components:
   - type: Tag
     tags:

@@ -1,7 +1,7 @@
 #Spawners
 - type: entity
   id: RandomMeat
-  name: random meat spawner
+  name: entity-randommeat-name
   parent: MarkerBase
   placement:
     mode: PlaceFree

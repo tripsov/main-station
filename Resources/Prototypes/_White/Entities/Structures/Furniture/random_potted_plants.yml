@@ -22,7 +22,7 @@
       map: [ "plant" ]
 
 - type: entity
-  name: random RANDOM potted plant spawner
+  name: entity-randompottedplantspawner-name
   id: RandomPottedPlantSpawner
   parent: MarkerBase
   components:

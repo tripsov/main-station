@@ -1,6 +1,6 @@
 - type: entity
   id: PelletShotgunSlug
-  name: pellet (.50 slug)
+  name: entity-pelletshotgunslug-name
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
   components:
@@ -14,7 +14,7 @@
 
 - type: entity
   id: PelletShotgunBeanbag
-  name: beanbag (.50)
+  name: entity-pelletshotgunbeanbag-name
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
   components:
@@ -36,7 +36,7 @@
 
 - type: entity
   id: PelletShotgun
-  name: pellet (.50)
+  name: entity-pelletshotgun-name
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
   components:
@@ -60,7 +60,7 @@
 
 - type: entity
   id: PelletShotgunIncendiary
-  name: pellet (.50 incendiary)
+  name: entity-pelletshotgunincendiary-name
   categories: [ HideSpawnMenu ]
   parent: BaseBulletIncendiary
   components:
@@ -87,7 +87,7 @@
 
 - type: entity
   id: PelletShotgunPractice
-  name: pellet (.50 practice)
+  name: entity-pelletshotgunpractice-name
   categories: [ HideSpawnMenu ]
   parent: BaseBulletPractice
   components:
@@ -111,7 +111,7 @@
 
 - type: entity
   id: PelletShotgunImprovised
-  name: improvised pellet
+  name: entity-pelletshotgunimprovised-name
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
   components:
@@ -136,7 +136,7 @@
 
 - type: entity
   id: PelletShotgunTranquilizer
-  name: pellet (.50 tranquilizer)
+  name: entity-pelletshotguntranquilizer-name
   categories: [ HideSpawnMenu ]
   parent: BaseBulletPractice
   components:
@@ -164,7 +164,7 @@
 
 - type: entity
   id: PelletShotgunLumen
-  name: pellet (.50 lumenblast)
+  name: entity-pelletshotgunlumen-name
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -192,7 +192,7 @@
 
 - type: entity
   id: PelletShotgunUranium
-  name: pellet (.50 uranium)
+  name: entity-pelletshotgunuranium-name
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
   components:
@@ -217,7 +217,7 @@
 
 - type: entity
   id: PelletGrapeshot #tally fucking ho
-  name: grapeshot pellet
+  name: entity-pelletgrapeshot-name
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
   components:
@@ -245,7 +245,7 @@
 
 - type: entity
   id: PelletGlass
-  name: glass shard
+  name: entity-pelletglass-name
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:
@@ -275,7 +275,7 @@
 
 - type: entity
   id: PelletShotgunBirdshot
-  name: pellet (.50 birdshot)
+  name: entity-pelletshotgunbirdshot-name
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
   components:
@@ -300,7 +300,7 @@
 
 - type: entity
   id: PelletShotgun00Buckshot
-  name: pellet (.50 00-Buckshot)
+  name: entity-pelletshotgun00buckshot-name
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
   components:
@@ -325,7 +325,7 @@
 
 - type: entity
   id: PelletShotgun0000Buckshot
-  name: pellet (.50 0000-Buckshot)
+  name: entity-pelletshotgun0000buckshot-name
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
   components:
@@ -350,7 +350,7 @@
 
 - type: entity
   id: PelletShotgunFlare
-  name: pellet (.50 flare)
+  name: entity-pelletshotgunflare-name
   categories: [ HideSpawnMenu ]
   components:
   - type: Physics

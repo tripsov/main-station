@@ -1,8 +1,8 @@
 ﻿- type: entity
   id: CrateCrewMonitoringBoards
   parent: CrateEngineeringSecure
-  name: crew monitoring boards
-  description: Has two crew monitoring console and server replacements. Requires engineering access to open.
+  name: entity-cratecrewmonitoringboards-name
+  description: entity-cratecrewmonitoringboards-description
   components:
     - type: StorageFill
       contents:

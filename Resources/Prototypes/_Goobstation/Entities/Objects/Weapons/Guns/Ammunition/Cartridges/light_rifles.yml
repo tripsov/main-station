@@ -1,6 +1,6 @@
 - type: entity
   id: CartridgeLightRifleSubsonic
-  name: cartridge (.30 rifle subsonic)
+  name: entity-cartridgelightriflesubsonic-name
   parent: BaseCartridgeLightRifle
   components:
   - type: Tag

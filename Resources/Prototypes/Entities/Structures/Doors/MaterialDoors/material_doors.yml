@@ -1,9 +1,9 @@
 - type: entity
   id: BaseMaterialDoor
   parent: BaseStructure
-  name: door
+  name: entity-basematerialdoor-name
   abstract: true
-  description: A door, where will it lead?
+  description: entity-basematerialdoor-description
   components:
   - type: InteractionOutline
   - type: Sprite
@@ -70,7 +70,7 @@
 
 - type: entity
   id: MetalDoor
-  name: metal door
+  name: entity-metaldoor-name
   parent: BaseMaterialDoorNavMap
   components:
   - type: Construction
@@ -79,9 +79,9 @@
 
 - type: entity
   id: WoodDoor
-  name: wooden door
+  name: entity-wooddoor-name
   parent: BaseMaterialDoorNavMap
-  description: A door, where will it lead?
+  description: entity-basematerialdoor-description
   components:
   - type: Sprite
     sprite: Structures/Doors/MineralDoors/wood_door.rsi
@@ -116,9 +116,9 @@
 
 - type: entity
   id: PaperDoor
-  name: paper door
+  name: entity-paperdoor-name
   parent: BaseMaterialDoorNavMap
-  description: A door, where will it lead?
+  description: entity-basematerialdoor-description
   components:
   - type: Sprite
     sprite: Structures/Doors/MineralDoors/paper_door.rsi
@@ -139,9 +139,9 @@
 
 - type: entity
   id: PlasmaDoor
-  name: plasma door
+  name: entity-plasmadoor-name
   parent: BaseMaterialDoorNavMap
-  description: A door, where will it lead?
+  description: entity-basematerialdoor-description
   components:
   - type: Sprite
     sprite: Structures/Doors/MineralDoors/plasma_door.rsi
@@ -165,9 +165,9 @@
 
 - type: entity
   id: GoldDoor
-  name: gold door
+  name: entity-golddoor-name
   parent: BaseMaterialDoorNavMap
-  description: A door, where will it lead?
+  description: entity-basematerialdoor-description
   components:
   - type: Sprite
     sprite: Structures/Doors/MineralDoors/gold_door.rsi
@@ -180,9 +180,9 @@
 
 - type: entity
   id: SilverDoor
-  name: silver door
+  name: entity-silverdoor-name
   parent: BaseMaterialDoorNavMap
-  description: A door, where will it lead?
+  description: entity-basematerialdoor-description
   components:
   - type: Sprite
     sprite: Structures/Doors/MineralDoors/silver_door.rsi
@@ -195,9 +195,9 @@
 
 - type: entity
   id: BananiumDoor
-  name: bananium door
+  name: entity-bananiumdoor-name
   parent: BaseMaterialDoorNavMap
-  description: A door, where will it lead?
+  description: entity-basematerialdoor-description
   components:
   - type: Sprite
     sprite: Structures/Doors/MineralDoors/bananium_door.rsi
@@ -215,9 +215,9 @@
 
 - type: entity
   id: WebDoor
-  name: web door
+  name: entity-webdoor-name
   parent: BaseMaterialDoorNavMap
-  description: A door, leading to the lands of the spiders... or a spaced room.
+  description: entity-webdoor-description
   components:
   - type: Sprite
     sprite: Structures/Doors/web_door.rsi

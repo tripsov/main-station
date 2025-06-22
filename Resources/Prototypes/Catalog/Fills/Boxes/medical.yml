@@ -1,8 +1,8 @@
 - type: entity
-  name: syringe box
+  name: entity-boxsyringe-name
   parent: BoxCardboard
   id: BoxSyringe
-  description: A box full of syringes.
+  description: entity-boxsyringe-description
   components:
   - type: StorageFill
     contents:
@@ -14,10 +14,10 @@
       - state: syringe
 
 - type: entity
-  name: pill canister box
+  name: entity-boxpillcanister-name
   parent: BoxCardboard
   id: BoxPillCanister
-  description: A box full of pill canisters.
+  description: entity-boxpillcanister-description
   components:
   - type: StorageFill
     contents:
@@ -29,10 +29,10 @@
       - state: pillbox
 
 - type: entity
-  name: bottle box
+  name: entity-boxbottle-name
   parent: BoxCardboard
   id: BoxBottle
-  description: A box full of bottles.
+  description: entity-boxbottle-description
   components:
   - type: StorageFill
     contents:
@@ -44,10 +44,10 @@
       - state: bottle
 
 - type: entity
-  name: sterile mask box
+  name: entity-boxsterilemask-name
   parent: BoxCardboard
   id: BoxSterileMask
-  description: This box contains sterile medical masks.
+  description: entity-boxsterilemask-description
   components:
   - type: StorageFill
     contents:
@@ -59,10 +59,10 @@
       - state: sterile
 
 - type: entity
-  name: latex gloves box
+  name: entity-boxlatexgloves-name
   parent: BoxCardboard
   id: BoxLatexGloves
-  description: Contains sterile latex gloves.
+  description: entity-boxlatexgloves-description
   components:
   - type: StorageFill
     contents:
@@ -74,10 +74,10 @@
       - state: latex
 
 - type: entity
-  name: nitrile gloves box
+  name: entity-boxnitrilegloves-name
   parent: BoxCardboard
   id: BoxNitrileGloves
-  description: Contains sterile nitrile gloves. Better than latex.
+  description: entity-boxnitrilegloves-description
   components:
   - type: StorageFill
     contents:
@@ -89,10 +89,10 @@
       - state: nitrile
 
 - type: entity
-  name: body bag box
+  name: entity-boxbodybag-name
   parent: BoxCardboard
   id: BoxBodyBag
-  description: Contains body bags.
+  description: entity-boxbodybag-description
   components:
   - type: StorageFill
     contents:
@@ -107,10 +107,10 @@
         - BodyBag
 
 - type: entity
-  name: vial box
+  name: entity-boxvial-name
   parent: BoxCardboard
   id: BoxVial
-  description: A box full of vials.
+  description: entity-boxvial-description
   components:
   - type: Storage
     grid:

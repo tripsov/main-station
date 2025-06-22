@@ -1,8 +1,8 @@
 - type: entity
-  name: BaseWeaponLauncher
+  name: entity-baseweaponlauncher-name
   parent: BaseItem
   id: BaseWeaponLauncher
-  description: A rooty tooty point and shooty.
+  description: entity-baseweaponlauncher-description
   abstract: true
   components:
   - type: Sprite
@@ -42,10 +42,10 @@
   - type: Execution
 
 - type: entity
-  name: china lake
+  name: entity-weaponlauncherchinalake-name
   parent: [BaseWeaponLauncher, BaseGunWieldable]
   id: WeaponLauncherChinaLake
-  description: PLOOP
+  description: entity-weaponlauncherchinalake-description
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Launchers/china_lake.rsi
@@ -79,10 +79,10 @@
     - 0,0,5,1
 
 - type: entity
-  name: RPG-7
+  name: entity-weaponlauncherrocket-name
   parent: BaseWeaponLauncher
   id: WeaponLauncherRocket
-  description: A modified ancient rocket-propelled grenade launcher.
+  description: entity-weaponlauncherrocket-description
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Launchers/rocket.rsi
@@ -126,10 +126,10 @@
     - 0,0,7,1
 
 - type: entity
-  name: multiple rocket launcher
+  name: entity-weaponlaunchermultiplerocket-name
   parent: BaseWeaponLauncher
   id: WeaponLauncherMultipleRocket
-  description: A modified ancient rocket-propelled grenade launcher.
+  description: entity-weaponlauncherrocket-description
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Launchers/rocket.rsi
@@ -164,10 +164,10 @@
     - 0,0,7,2
 
 - type: entity
-  name: pirate cannon
+  name: entity-weaponlauncherpiratecannon-name
   parent: BaseWeaponLauncher
   id: WeaponLauncherPirateCannon
-  description: Kaboom!
+  description: entity-weaponlauncherpiratecannon-description
   components:
     - type: Sprite
       sprite: Objects/Weapons/Guns/Launchers/pirate_cannon.rsi
@@ -421,11 +421,11 @@
 #       - 0,0,5,1
 
 - type: entity
-  name: meteor launcher
+  name: entity-weaponlauncheradmememeteorlarge-name
   parent: WeaponLauncherMultipleRocket
   id: WeaponLauncherAdmemeMeteorLarge
   suffix: Admeme
-  description: It fires large meteors
+  description: entity-weaponlauncheradmememeteorlarge-description
   components:
   - type: BallisticAmmoProvider
     whitelist:
@@ -435,11 +435,11 @@
   - type: GiftIgnore # WD EDIT
 
 - type: entity
-  name: immovable rod launcher
+  name: entity-weaponlauncheradmemeimmovablerodslow-name
   parent: WeaponLauncherAdmemeMeteorLarge
   id: WeaponLauncherAdmemeImmovableRodSlow
   suffix: Admeme
-  description: It fires slow immovable rods.
+  description: entity-weaponlauncheradmemeimmovablerodslow-description
   components:
   - type: BallisticAmmoProvider
     whitelist:
@@ -450,10 +450,10 @@
 
 # Frontier mail RPDS
 - type: entity
-  name: mail RPDS
+  name: entity-weaponmaillake-name
   parent: WeaponLauncherChinaLake
   id: WeaponMailLake
-  description: Rap(b?)id Parcel Delivery System
+  description: entity-weaponmaillake-description
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Launchers/mail.rsi

@@ -1,7 +1,7 @@
 # Base
 - type: entity
   id: RoomSpawnerRoomsWonderboxMaintBase1
-  name: Room marker WONDER
+  name: entity-roomspawnerroomswonderboxmaintbase1-name
   parent: BaseRoomMarker
   suffix: WonderBox, Maint, Base1
   components:
@@ -30,7 +30,7 @@
 
 - type: entity
   id: RoomSpawnerRoomsWonderboxMaintBase2
-  name: Room marker WONDER
+  name: entity-roomspawnerroomswonderboxmaintbase1-name
   parent: BaseRoomMarker
   suffix: WonderBox, Maint, Base2
   components:
@@ -59,7 +59,7 @@
 
 - type: entity
   id: RoomSpawnerRoomsWonderboxMaintBase3
-  name: Room marker WONDER
+  name: entity-roomspawnerroomswonderboxmaintbase1-name
   parent: BaseRoomMarker
   suffix: WonderBox, Maint, Base3
   components:
@@ -88,7 +88,7 @@
 # Engine
 - type: entity
   id: RoomSpawnerRoomsWonderboxEngineBase1
-  name: Room marker WONDER
+  name: entity-roomspawnerroomswonderboxmaintbase1-name
   parent: BaseRoomMarker
   suffix: WonderBox, Engine, Base1
   components:
@@ -117,7 +117,7 @@
 # Solar
 - type: entity
   id: RoomSpawnerRoomsWonderboxSolarN
-  name: Room marker WONDER SOLAR Nord
+  name: entity-roomspawnerroomswonderboxsolarn-name
   parent: BaseRoomMarker
   suffix: WonderBox, Solar, Nord
   components:
@@ -142,7 +142,7 @@
 
 - type: entity
   id: RoomSpawnerRoomsWonderboxSolarS
-  name: Room marker WONDER SOLAR South
+  name: entity-roomspawnerroomswonderboxsolars-name
   parent: BaseRoomMarker
   suffix: WonderBox, Solar, South
   components:
@@ -167,7 +167,7 @@
 
 - type: entity
   id: RoomSpawnerRoomsWonderboxSolarW
-  name: Room marker WONDER SOLAR West
+  name: entity-roomspawnerroomswonderboxsolarw-name
   parent: BaseRoomMarker
   suffix: WonderBox, Solar, West
   components:
@@ -192,7 +192,7 @@
 # Rooms
 - type: entity
   id: RoomSpawnerRoomsWonderboxMaintRoom1_10x10
-  name: Room marker WONDER1 10x10
+  name: entity-roomspawnerroomswonderboxmaintroom1_10x10-name
   parent: BaseRoomMarker
   suffix: WonderBox, Maint, 10x10
   components:
@@ -217,7 +217,7 @@
 
 - type: entity
   id: RoomSpawnerRoomsWonderboxMaintRoom2_10x10
-  name: Room marker WONDER2 10x10
+  name: entity-roomspawnerroomswonderboxmaintroom2_10x10-name
   parent: BaseRoomMarker
   suffix: WonderBox, Maint, 10x10, 2
   components:
@@ -242,7 +242,7 @@
 
 - type: entity
   id: RoomSpawnerRoomsWonderboxMaintRoom1_6x7
-  name: Room marker WONDER1 6x7
+  name: entity-roomspawnerroomswonderboxmaintroom1_6x7-name
   parent: BaseRoomMarker
   suffix: WonderBox, Maint, 6x7
   components:
@@ -267,7 +267,7 @@
 
 - type: entity
   id: RoomSpawnerRoomsWonderboxMaintRoom2_6x7
-  name: Room marker WONDER2 6x7
+  name: entity-roomspawnerroomswonderboxmaintroom2_6x7-name
   parent: BaseRoomMarker
   suffix: WonderBox, Maint, 6x7, 2
   components:
@@ -292,7 +292,7 @@
 
 - type: entity
   id: RoomSpawnerRoomsWonderboxMaintRoom1_7x7
-  name: Room marker WONDER2 7x7
+  name: entity-roomspawnerroomswonderboxmaintroom1_7x7-name
   parent: BaseRoomMarker
   suffix: WonderBox, Maint, 7x7
   components:
@@ -317,7 +317,7 @@
 
 - type: entity
   id: RoomSpawnerRoomsWonderboxMaintRoom2_7x7
-  name: Room marker WONDER2 7x7
+  name: entity-roomspawnerroomswonderboxmaintroom1_7x7-name
   parent: BaseRoomMarker
   suffix: WonderBox, Maint, 7x7, 2
   components:
@@ -342,7 +342,7 @@
 
 - type: entity
   id: RoomSpawnerRoomsWonderboxMaintRoom1_8x6
-  name: Room marker WONDER2 8x6
+  name: entity-roomspawnerroomswonderboxmaintroom1_8x6-name
   parent: BaseRoomMarker
   suffix: WonderBox, Maint, 8x6
   components:
@@ -367,7 +367,7 @@
 
 - type: entity
   id: RoomSpawnerRoomsWonderboxMaintRoom2_5x6
-  name: Room marker WONDER2 5x6
+  name: entity-roomspawnerroomswonderboxmaintroom2_5x6-name
   parent: BaseRoomMarker
   suffix: WonderBox, Maint, 5x6, 2
   components:
@@ -392,7 +392,7 @@
 
 - type: entity
   id: RoomSpawnerRoomsWonderboxMaintRoom3_5x6
-  name: Room marker WONDER3 5x6
+  name: entity-roomspawnerroomswonderboxmaintroom3_5x6-name
   parent: BaseRoomMarker
   suffix: WonderBox, Maint, 5x6, 3
   components:
@@ -417,7 +417,7 @@
 
 - type: entity
   id: RoomSpawnerRoomsWonderboxMaintRoom1_8x7
-  name: Room marker WONDER1 8x7
+  name: entity-roomspawnerroomswonderboxmaintroom1_8x7-name
   parent: BaseRoomMarker
   suffix: WonderBox, Maint, 8x7
   components:
@@ -442,7 +442,7 @@
 
 - type: entity
   id: RoomSpawnerRoomsWonderboxMaintRoom1_10x6
-  name: Room marker WONDER1 10x6
+  name: entity-roomspawnerroomswonderboxmaintroom1_10x6-name
   parent: BaseRoomMarker
   suffix: WonderBox, Maint, 10x6
   components:
@@ -467,7 +467,7 @@
 
 - type: entity
   id: RoomSpawnerRoomsWonderboxMaintRoom1_10x8
-  name: Room marker WONDER1 10x8
+  name: entity-roomspawnerroomswonderboxmaintroom1_10x8-name
   parent: BaseRoomMarker
   suffix: WonderBox, Maint, 10x8
   components:
@@ -492,7 +492,7 @@
 
 - type: entity
   id: RoomSpawnerRoomsWonderboxMaintRoom1_4x4
-  name: Room marker WONDER1 4x4
+  name: entity-roomspawnerroomswonderboxmaintroom1_4x4-name
   parent: BaseRoomMarker
   suffix: WonderBox, Maint, 4x4
   components:
@@ -517,7 +517,7 @@
 
 - type: entity
   id: RoomSpawnerRoomsWonderboxMaintRoom1_7x6
-  name: Room marker WONDER1 7x6
+  name: entity-roomspawnerroomswonderboxmaintroom1_7x6-name
   parent: BaseRoomMarker
   suffix: WonderBox, Maint, 7x6
   components:
@@ -542,7 +542,7 @@
 
 - type: entity
   id: RoomSpawnerRoomsWonderboxMaintRoom2_7x6
-  name: Room marker WONDER1 7x6
+  name: entity-roomspawnerroomswonderboxmaintroom1_7x6-name
   parent: BaseRoomMarker
   suffix: WonderBox, Maint, 7x6, 2
   components:
@@ -567,7 +567,7 @@
 
 - type: entity
   id: RoomSpawnerRoomsWonderboxMaintRoom3_7x6
-  name: Room marker WONDER3 7x6
+  name: entity-roomspawnerroomswonderboxmaintroom3_7x6-name
   parent: BaseRoomMarker
   suffix: WonderBox, Maint, 7x6, 3
   components:
@@ -592,7 +592,7 @@
 
 - type: entity
   id: RoomSpawnerRoomsWonderboxMaintRoom1_6x8
-  name: Room marker WONDER1 6x8
+  name: entity-roomspawnerroomswonderboxmaintroom1_6x8-name
   parent: BaseRoomMarker
   suffix: WonderBox, Maint, 6x8
   components:
@@ -617,7 +617,7 @@
 
 - type: entity
   id: RoomSpawnerRoomsWonderboxMaintRoom1_5x5
-  name: Room marker WONDER1 5x5
+  name: entity-roomspawnerroomswonderboxmaintroom1_5x5-name
   parent: BaseRoomMarker
   suffix: WonderBox, Maint, 5x5
   components:
@@ -642,7 +642,7 @@
 
 - type: entity
   id: RoomSpawnerRoomsWonderboxMaintRoom2_5x5
-  name: Room marker WONDER2 5x5
+  name: entity-roomspawnerroomswonderboxmaintroom2_5x5-name
   parent: BaseRoomMarker
   suffix: WonderBox, Maint, 5x5, 2
   components:
@@ -667,7 +667,7 @@
 
 - type: entity
   id: RoomSpawnerRoomsWonderboxMaintRoom3_5x5
-  name: Room marker WONDER3 5x5
+  name: entity-roomspawnerroomswonderboxmaintroom3_5x5-name
   parent: BaseRoomMarker
   suffix: WonderBox, Maint, 5x5, 3
   components:
@@ -692,7 +692,7 @@
 
 - type: entity
   id: RoomSpawnerRoomsWonderboxMaintRoom1_4x5
-  name: Room marker WONDER1 4x5
+  name: entity-roomspawnerroomswonderboxmaintroom1_4x5-name
   parent: BaseRoomMarker
   suffix: WonderBox, Maint, 4x5
   components:
@@ -717,7 +717,7 @@
 
 - type: entity
   id: RoomSpawnerRoomsWonderboxMaintRoom1_6x10
-  name: Room marker WONDER1 6x10
+  name: entity-roomspawnerroomswonderboxmaintroom1_6x10-name
   parent: BaseRoomMarker
   suffix: WonderBox, Maint, 6x10
   components:
@@ -742,7 +742,7 @@
 
 - type: entity
   id: RoomSpawnerRoomsWonderboxMaintRoom1_4x6
-  name: Room marker WONDER1 4x6
+  name: entity-roomspawnerroomswonderboxmaintroom1_4x6-name
   parent: BaseRoomMarker
   suffix: WonderBox, Maint, 4x6
   components:
@@ -767,7 +767,7 @@
 
 - type: entity
   id: RoomSpawnerRoomsWonderboxMaintRoom1_5x4
-  name: Room marker WONDER1 5x4
+  name: entity-roomspawnerroomswonderboxmaintroom1_5x4-name
   parent: BaseRoomMarker
   suffix: WonderBox, Maint, 5x4
   components:
@@ -792,7 +792,7 @@
 
 - type: entity
   id: RoomSpawnerRoomsWonderboxMaintRoom1_6x5
-  name: Room marker WONDER1 6x5
+  name: entity-roomspawnerroomswonderboxmaintroom1_6x5-name
   parent: BaseRoomMarker
   suffix: WonderBox, Maint, 6x5
   components:
@@ -817,7 +817,7 @@
 
 - type: entity
   id: RoomSpawnerRoomsWonderboxMaintRoom1_9x7
-  name: Room marker WONDER1 9x7
+  name: entity-roomspawnerroomswonderboxmaintroom1_9x7-name
   parent: BaseRoomMarker
   suffix: WonderBox, Maint, 9x7
   components:

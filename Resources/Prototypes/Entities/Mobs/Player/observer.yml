@@ -2,7 +2,7 @@
   id: Incorporeal
   save: false
   abstract: true
-  description: Mobs without physical bodies
+  description: entity-incorporeal-description
   components:
   - type: Sprite
     noRot: true
@@ -33,8 +33,8 @@
   - Incorporeal
   - BaseMob
   id: MobObserver
-  name: observer
-  description: Boo!
+  name: entity-mobobserver-name
+  description: entity-mobobserver-description
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -75,8 +75,8 @@
 
 - type: entity
   id: ActionGhostBoo
-  name: Boo!
-  description: Scare your crew members because of boredom!
+  name: entity-actionghostboo-name
+  description: entity-actionghostboo-description
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -88,8 +88,8 @@
 
 - type: entity
   id: ActionToggleLighting
-  name: Toggle Lighting
-  description: Toggle light rendering to better observe dark areas.
+  name: entity-actiontogglelighting-name
+  description: entity-actiontogglelighting-description
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -100,8 +100,8 @@
 
 - type: entity
   id: ActionToggleFov
-  name: Toggle FoV
-  description: Toggles field-of-view in order to see what players see.
+  name: entity-actiontogglefov-name
+  description: entity-actiontogglefov-description
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -112,8 +112,8 @@
 
 - type: entity
   id: ActionToggleGhosts
-  name: Toggle Ghosts
-  description: Toggle the visibility of other ghosts.
+  name: entity-actiontoggleghosts-name
+  description: entity-actiontoggleghosts-description
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -124,8 +124,8 @@
 
 - type: entity
   id: ActionToggleGhostHearing
-  name: Toggle Ghost Hearing
-  description: Toggle between hearing all messages and hearing only radio & nearby messages.
+  name: entity-actiontoggleghosthearing-name
+  description: entity-actiontoggleghosthearing-description
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -141,8 +141,8 @@
   - Incorporeal
   - BaseMob
   id: MobTelegnosisObserver
-  name: psionic projection
-  description: A soul dancing across the dreamlight
+  name: entity-mobtelegnosisobserver-name
+  description: entity-mobtelegnosisobserver-description
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

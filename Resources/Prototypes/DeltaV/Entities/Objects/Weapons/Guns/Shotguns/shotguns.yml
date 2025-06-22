@@ -1,8 +1,8 @@
 - type: entity
-  name: adjutant
+  name: entity-weaponshotgunadjutant-name
   parent: BaseWeaponShotgun
   id: WeaponShotgunAdjutant
-  description: Sold as a "riot" shotgun, this shotgun has a special gas-operated mechanism that makes it highly effective for CQC and suppressive fire.
+  description: entity-weaponshotgunadjutant-description
   components:
   - type: Sprite
     sprite: DeltaV/Objects/Weapons/Guns/Shotguns/Adjutant.rsi
@@ -34,10 +34,10 @@
       path: /Audio/Weapons/Guns/MagIn/shotgun_insert.ogg
 
 - type: entity
-  name: Kammerer
+  name: entity-weaponshotgunkammerernonlethal-name
   parent: WeaponShotgunKammerer # WWDP fix
   id: WeaponShotgunKammererNonLethal #Legacy name
-  description: When an old Remington design meets modern materials, this is the result. A favourite weapon of militia forces throughout many worlds. Uses .50 shotgun shells.
+  description: entity-weaponshotgunkammerernonlethal-description
   suffix: Beanbag
   components:
   - type: Sprite

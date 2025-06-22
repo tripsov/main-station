@@ -1,8 +1,8 @@
 - type: entity
-  name: bow
+  name: entity-basebow-name
   parent: BaseItem
   id: BaseBow
-  description: The original rooty tooty point and shooty.
+  description: entity-basebow-description
   abstract: true
   components:
   - type: Sprite

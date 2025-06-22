@@ -1,5 +1,5 @@
 - type: entity
-  name: improvised pistol
+  name: entity-weaponshotgunhandmadeempty-name
   parent: WeaponShotgunHandmade
   id: WeaponShotgunHandmadeEmpty
   suffix: Empty

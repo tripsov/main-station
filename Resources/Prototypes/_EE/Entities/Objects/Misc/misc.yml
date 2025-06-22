@@ -1,8 +1,8 @@
 - type: entity
   id: MedipenCase
   parent: SyringeCase
-  name: medipen case
-  description: A syringe case stocked with an organized supply of medipens.
+  name: entity-medipencase-name
+  description: entity-medipencase-description
   components:
   - type: StorageFill
     contents:

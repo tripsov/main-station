@@ -2,7 +2,7 @@
   parent: BaseItem
   id: BaseProgramDisk
   abstract: true
-  name: program disk
+  name: entity-baseprogramdisk-name
   components:
     - type: Sprite
       sprite: Objects/Misc/cd.rsi
@@ -15,9 +15,9 @@
 - type: entity
   parent: BaseProgramDisk
   id: ProgramDiskCommunications
-  name: program disk
+  name: entity-baseprogramdisk-name
   suffix: Communications
-  description: A diskette for usage in a computer.
+  description: entity-programdiskcommunications-description
   components:
     - type: ComputerDisk
       programPrototype: CommunicationsConsoleDiskPrototype
@@ -26,8 +26,8 @@
 - type: entity
   parent: BaseProgramDisk
   id: ProgramDiskUnburnt
-  name: program disk
-  description: A diskette for usage in a computer.
+  name: entity-baseprogramdisk-name
+  description: entity-programdiskcommunications-description
   components:
     - type: ComputerDisk
       programPrototype: UnburnedDiskPrototype

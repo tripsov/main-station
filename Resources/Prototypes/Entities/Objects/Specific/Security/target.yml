@@ -50,30 +50,30 @@
         acts: [ "Destruction" ]
 
 - type: entity
-  name: human target
+  name: entity-targethuman-name
   id: TargetHuman
   parent: BaseTarget
-  description: A shooting target. This one is a human.
+  description: entity-targethuman-description
   components:
   - type: Sprite
     sprite: Objects/Specific/Security/target.rsi
     state: target_h
 
 - type: entity
-  name: syndicate target
+  name: entity-targetsyndicate-name
   id: TargetSyndicate
   parent: BaseTarget
-  description: A shooting target. This one is a syndicate agent.
+  description: entity-targetsyndicate-description
   components:
   - type: Sprite
     sprite: Objects/Specific/Security/target.rsi
     state: target_s
 
 - type: entity
-  name: clown target
+  name: entity-targetclown-name
   id: TargetClown
   parent: BaseTarget
-  description: A shooting target. This one is a clown.
+  description: entity-targetclown-description
   components:
   - type: Sprite
     sprite: Objects/Specific/Security/target.rsi
@@ -81,10 +81,10 @@
 
 # put it on a salvage or something
 - type: entity
-  name: strange target
+  name: entity-targetstrange-name
   id: TargetStrange
   parent: BaseTarget
-  description: A shooting target. You aren't quite sure what this one is, but it seems to be extra robust.
+  description: entity-targetstrange-description
   components:
   - type: Sprite
     sprite: Objects/Specific/Security/target.rsi

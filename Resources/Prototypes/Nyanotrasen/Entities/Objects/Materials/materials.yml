@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: HideMothroach
-  name: mothroach hide
-  description: A thin layer of mothroach hide.
+  name: entity-hidemothroach-name
+  description: entity-hidemothroach-description
   components:
   - type: Sprite
     sprite: Nyanotrasen/Objects/Materials/mothroach.rsi

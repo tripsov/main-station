@@ -1,8 +1,8 @@
 - type: entity
   id: AirAlarmElectronics
   parent: BaseElectronics
-  name: air alarm electronics
-  description: An electronics board used in air alarms
+  name: entity-airalarmelectronics-name
+  description: entity-airalarmelectronics-description
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -19,8 +19,8 @@
 - type: entity
   id: FireAlarmElectronics
   parent: BaseElectronics
-  name: fire alarm electronics
-  description: An electronics board used in fire alarms
+  name: entity-firealarmelectronics-name
+  description: entity-firealarmelectronics-description
   components:
   - type: Item
     storedRotation: 0

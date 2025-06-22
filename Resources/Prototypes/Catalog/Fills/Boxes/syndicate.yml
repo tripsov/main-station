@@ -1,7 +1,7 @@
 - type: entity
   id: ElectricalDisruptionKit
   parent: BoxCardboard
-  name: electrical disruption kit
+  name: entity-electricaldisruptionkit-name
   suffix: Filled
   components:
     - type: StorageFill
@@ -14,8 +14,8 @@
 - type: entity
   parent: BoxVial
   id: ChemicalSynthesisKit
-  name: chemical synthesis kit
-  description: A starter kit for the aspiring chemist, includes toxin and vestine for all your criminal needs!
+  name: entity-chemicalsynthesiskit-name
+  description: entity-chemicalsynthesiskit-description
   components:
   - type: Storage
     grid:
@@ -35,7 +35,7 @@
 - type: entity
   id: Observationskit
   parent: BoxCardboard
-  name: observations kit
+  name: entity-observationskit-name
   suffix: Filled
   components:
   - type: StorageFill
@@ -52,8 +52,8 @@
 - type: entity
   parent: BoxCardboard
   id: ThrowingKnivesKit
-  name: throwing knives kit
-  description: A set of 4 syndicate branded throwing knives, perfect for embedding into the body of your victims.
+  name: entity-throwingkniveskit-name
+  description: entity-throwingkniveskit-description
   components:
   - type: Storage
     grid:
@@ -70,8 +70,8 @@
 - type: entity
   parent: BoxCardboard
   id: CombatBakeryKit
-  name: combat bakery kit
-  description: A kit of clandestine baked weapons.
+  name: entity-combatbakerykit-name
+  description: entity-combatbakerykit-description
   components:
   - type: Sprite
     layers:

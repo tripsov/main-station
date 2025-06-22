@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
-  name: mop
+  name: entity-mopitem-name
   id: MopItem
-  description: A mop that can't be stopped, viscera cleanup detail awaits.
+  description: entity-mopitem-description
   components:
   - type: Sprite
     sprite: Objects/Specific/Janitorial/mop.rsi
@@ -54,9 +54,9 @@
 
 - type: entity
   parent: BaseItem
-  name: advanced mop
+  name: entity-advmopitem-name
   id: AdvMopItem
-  description: Motorized mop that has a bigger reservoir and quickly replaces reagents inside with water. Automatic Clown Countermeasure not included.
+  description: entity-advmopitem-description
   components:
     - type: Sprite
       sprite: Objects/Specific/Janitorial/advmop.rsi
@@ -113,10 +113,10 @@
         - MopAdv
 
 - type: entity
-  name: wet floor sign
+  name: entity-wetfloorsign-name
   id: WetFloorSign
   parent: ClothingOuterBase
-  description: Caution! Wet Floor!
+  description: entity-wetfloorsign-description
   components:
   - type: Sprite
     sprite: Objects/Specific/Janitorial/wet_floor_sign.rsi
@@ -191,10 +191,10 @@
       - WetFloorSign
 
 - type: entity
-  name: plunger
+  name: entity-plunger-name
   id: Plunger
   parent: BaseItem
-  description: A plunger with a red plastic suction-cup and a wooden handle. Used to unclog drains.
+  description: entity-plunger-description
   components:
   - type: Tag
     tags:
@@ -261,9 +261,9 @@
 
 - type: entity
   parent: BaseItem
-  name: damp rag
+  name: entity-ragitem-name
   id: RagItem
-  description: For cleaning up messes, you suppose.
+  description: entity-ragitem-description
   components:
     - type: Sprite
       sprite: Objects/Specific/Janitorial/rag.rsi

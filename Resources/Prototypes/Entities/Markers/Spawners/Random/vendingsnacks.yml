@@ -1,6 +1,6 @@
 - type: entity
   id: RandomVendingSnacks
-  name: random vending machine spawner
+  name: entity-randomvendingsnacks-name
   suffix: Snacks
   parent: MarkerBase
   components:

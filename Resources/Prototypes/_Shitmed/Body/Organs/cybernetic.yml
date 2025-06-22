@@ -11,8 +11,8 @@
 - type: entity
   parent: BaseCyberneticEyes
   id: BasicCyberneticEyes
-  name: cybernetic eyes
-  description: A pair of cybernetic eyes that enhance your vision, and protect you from eye damage.
+  name: entity-basiccyberneticeyes-name
+  description: entity-basiccyberneticeyes-description
   components:
   - type: Organ
     onAdd:
@@ -22,8 +22,8 @@
 - type: entity
   parent: BaseCyberneticEyes
   id: SecurityCyberneticEyes
-  name: cybernetic security eyes
-  description: A pair of cybernetic eyes that enhance your vision, featuring an integrated SecHUD.
+  name: entity-securitycyberneticeyes-name
+  description: entity-securitycyberneticeyes-description
   components:
   - type: Organ
     onAdd:
@@ -36,8 +36,8 @@
 - type: entity
   parent: BaseCyberneticEyes
   id: MedicalCyberneticEyes
-  name: cybernetic diagnostic eyes
-  description: A pair of cybernetic eyes that enhance your vision, featuring an integrated MedHUD.
+  name: entity-medicalcyberneticeyes-name
+  description: entity-medicalcyberneticeyes-description
   components:
   - type: Organ
     onAdd:

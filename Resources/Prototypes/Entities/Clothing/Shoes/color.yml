@@ -4,8 +4,8 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesColorBlack
-  name: black shoes
-  description: Stylish black shoes.
+  name: entity-clothingshoescolorblack-name
+  description: entity-clothingshoescolorblack-description
   components:
   - type: Sprite
     sprite: Clothing/Shoes/color.rsi
@@ -35,8 +35,8 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesColorWhite
-  name: white shoes
-  description: Don't take them off at your office Christmas party.
+  name: entity-clothingshoescolorwhite-name
+  description: entity-clothingshoescolorwhite-description
   components:
   - type: Sprite
     sprite: Clothing/Shoes/color.rsi
@@ -64,8 +64,8 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesColorBlue
-  name: blue shoes
-  description: Stylish blue shoes.
+  name: entity-clothingshoescolorblue-name
+  description: entity-clothingshoescolorblue-description
   components:
   - type: Sprite
     sprite: Clothing/Shoes/color.rsi
@@ -95,8 +95,8 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesColorBrown
-  name: brown shoes
-  description: A pair of brown shoes.
+  name: entity-clothingshoescolorbrown-name
+  description: entity-clothingshoescolorbrown-description
   components:
   - type: Sprite
     sprite: Clothing/Shoes/color.rsi
@@ -126,8 +126,8 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesColorGreen
-  name: green shoes
-  description: Stylish green shoes.
+  name: entity-clothingshoescolorgreen-name
+  description: entity-clothingshoescolorgreen-description
   components:
   - type: Sprite
     sprite: Clothing/Shoes/color.rsi
@@ -157,8 +157,8 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesColorOrange
-  name: orange shoes
-  description: Stylish orange shoes.
+  name: entity-clothingshoescolororange-name
+  description: entity-clothingshoescolororange-description
   components:
   - type: Sprite
     sprite: Clothing/Shoes/color.rsi
@@ -188,8 +188,8 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesColorRed
-  name: red shoes
-  description: Stylish red shoes.
+  name: entity-clothingshoescolorred-name
+  description: entity-clothingshoescolorred-description
   components:
   - type: Sprite
     sprite: Clothing/Shoes/color.rsi
@@ -219,8 +219,8 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesColorYellow
-  name: yellow shoes
-  description: Stylish yellow shoes.
+  name: entity-clothingshoescoloryellow-name
+  description: entity-clothingshoescoloryellow-description
   components:
   - type: Sprite
     sprite: Clothing/Shoes/color.rsi
@@ -250,8 +250,8 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesColorPurple
-  name: purple shoes
-  description: Stylish purple shoes.
+  name: entity-clothingshoescolorpurple-name
+  description: entity-clothingshoescolorpurple-description
   components:
   - type: Sprite
     sprite: Clothing/Shoes/color.rsi

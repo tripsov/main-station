@@ -39,7 +39,7 @@
 #Clockwork
 - type: entity
   id: PinionAirlockAssembly
-  name: airlock assembly
+  name: entity-pinionairlockassembly-name
   suffix: Pinion, Clockwork
   parent: AirlockAssembly
   components:

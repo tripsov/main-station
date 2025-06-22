@@ -71,7 +71,7 @@
 - type: entity
   parent: BaseItemRecharger
   id: PowerCellRecharger
-  name: cell recharger
+  name: entity-powercellrecharger-name
   components:
   - type: Sprite
     sprite: Structures/Power/cell_recharger.rsi
@@ -109,7 +109,7 @@
 - type: entity
   parent: [ BaseItemRecharger, ConstructibleMachine ]
   id: PowerCageRecharger
-  name: cage recharger
+  name: entity-powercagerecharger-name
   components:
   - type: Fixtures
     fixtures:
@@ -149,7 +149,7 @@
 - type: entity
   parent: BaseItemRecharger
   id: WeaponCapacitorRecharger
-  name: recharger
+  name: entity-weaponcapacitorrecharger-name
   components:
   - type: Sprite
     sprite: Structures/Power/recharger.rsi
@@ -183,8 +183,8 @@
 - type: entity
   parent: BaseItemRecharger
   id: TurboItemRecharger
-  name: turbo recharger
-  description: An overclocked recharger that's been adapted with a global port.
+  name: entity-turboitemrecharger-name
+  description: entity-turboitemrecharger-description
   components:
   - type: Sprite
     sprite: Structures/Power/turbo_recharger.rsi
@@ -209,7 +209,7 @@
 - type: entity
   parent: BaseItemRecharger
   id: WallWeaponCapacitorRecharger
-  name: wall recharger
+  name: entity-wallweaponcapacitorrecharger-name
   components:
   - type: Sprite
     sprite: Structures/Power/wall_recharger.rsi
@@ -235,8 +235,8 @@
 - type: entity
   parent: BaseRecharger
   id: BorgCharger
-  name: cyborg recharging station
-  description: A stationary charger for various robotic and cyborg entities. Surprisingly spacious.
+  name: entity-borgcharger-name
+  description: entity-borgcharger-description
   components:
   - type: Sprite
     sprite: Structures/Power/borg_charger.rsi

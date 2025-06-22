@@ -2,7 +2,7 @@
 # These rulesets exist because Salvage mobs kept harassing the station and going out of control.
 
 - type: entity
-  name: Salvage Material Crate Spawner
+  name: entity-salvagematerialcratespawner-name
   id: SalvageMaterialCrateSpawner
   parent: MarkerBase
   components:
@@ -40,7 +40,7 @@
       offset: 0.0
 
 - type: entity
-  name: Salvage Canister Spawner
+  name: entity-salvagecanisterspawner-name
   id: SalvageCanisterSpawner
   parent: MarkerBase
   components:
@@ -63,7 +63,7 @@
       offset: 0.0
 
 - type: entity
-  name: Salvage T2 Machine Parts Spawner
+  name: entity-salvagepartst2spawner-name
   id: SalvagePartsT2Spawner
   parent: MarkerBase
   components:
@@ -82,7 +82,7 @@
 - type: entity
   parent: MarkerBase
   id: SalvagePartsT3T4Spawner
-  name: tier 3/4 machine part
+  name: entity-salvagepartst3t4spawner-name
   components:
   - type: Sprite
     layers:
@@ -104,7 +104,7 @@
 - type: entity
   parent: MarkerBase
   id: SalvagePartsT3Spawner
-  name: tier 3 machine part
+  name: entity-salvagepartst3spawner-name
   suffix: Spawner
   components:
   - type: Sprite
@@ -121,7 +121,7 @@
 - type: entity
   parent: MarkerBase
   id: SalvagePartsT4Spawner
-  name: tier 4 machine part
+  name: entity-salvagepartst4spawner-name
   suffix: Spawner
   components:
   - type: Sprite
@@ -136,7 +136,7 @@
     offset: 0.0
 
 - type: entity
-  name: Salvage Mob Spawner
+  name: entity-salvagemobspawner-name
   id: SalvageMobSpawner
   parent: MarkerBase
   suffix: 25
@@ -165,7 +165,7 @@
       offset: 0.2
 
 - type: entity #I made this in case someone decided to make a terrifying space tick swarm for salvage. that someone may be me -EG404
-  name: Salvage Space Tick Spawner
+  name: entity-spacetickspawner-name
   id: SpaceTickSpawner
   parent: MarkerBase
   suffix: 100
@@ -180,7 +180,7 @@
         - MobTickSalvage
 
 - type: entity
-  name: Salvage Space Bear Spawner
+  name: entity-spawnmobbearsalvage-name
   id: SpawnMobBearSalvage
   parent: MarkerBase
   components:
@@ -217,7 +217,7 @@
     offset: 0.2
 
 - type: entity
-  name: Salvage Space Kangaroo Spawner
+  name: entity-spawnmobkangaroosalvage-name
   id: SpawnMobKangarooSalvage
   parent: MarkerBase
   components:
@@ -231,7 +231,7 @@
     - MobKangarooSpaceSalvage
 
 - type: entity
-  name: Salvage Space Spider Spawner
+  name: entity-spawnmobspidersalvage-name
   id: SpawnMobSpiderSalvage
   parent: MarkerBase
   components:
@@ -245,7 +245,7 @@
     - MobSpiderSpaceSalvage
 
 - type: entity
-  name: Salvage Space Cobra Spawner
+  name: entity-spawnmobcobrasalvage-name
   id: SpawnMobCobraSalvage
   parent: MarkerBase
   components:
@@ -259,7 +259,7 @@
     - MobCobraSpaceSalvage
 
 - type: entity
-  name: Salvage Flesh Spawner
+  name: entity-salvagefleshspawner-name
   id: SalvageFleshSpawner
   parent: SalvageMobSpawner
   suffix: 100
@@ -285,7 +285,7 @@
       offset: 0.2
 
 - type: entity
-  name: Salvage Loot Spawner
+  name: entity-salvagelootspawner-name
   id: SalvageLootSpawner
   parent: MarkerBase
   components:

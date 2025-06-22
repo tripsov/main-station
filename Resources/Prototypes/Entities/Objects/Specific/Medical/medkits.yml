@@ -1,6 +1,6 @@
 - type: entity
-  name: first aid kit
-  description: It's an emergency medical kit for those serious boo-boos.
+  name: entity-medkit-name
+  description: entity-medkit-description
   parent: BaseStorageItem
   id: Medkit
   components:
@@ -23,7 +23,7 @@
     - Medkit
 
 - type: entity
-  name: burn treatment kit
+  name: entity-medkitburn-name
   description: "A specialized medical kit for when the toxins lab spontaneously burns down."
   parent: Medkit
   id: MedkitBurn
@@ -34,7 +34,7 @@
     heldPrefix: burnkit
 
 - type: entity
-  name: toxin treatment kit
+  name: entity-medkittoxin-name
   description: "Used to treat toxic blood content."
   parent: Medkit
   id: MedkitToxin
@@ -45,7 +45,7 @@
     heldPrefix: toxinkit
 
 - type: entity
-  name: oxygen deprivation treatment kit
+  name: entity-medkito2-name
   description: "A box full of oxygen goodies."
   parent: Medkit
   id: MedkitO2
@@ -56,7 +56,7 @@
     heldPrefix: o2kit
 
 - type: entity
-  name: brute trauma treatment kit
+  name: entity-medkitbrute-name
   description: "A first aid kit for when you get toolboxed."
   parent: Medkit
   id: MedkitBrute
@@ -67,7 +67,7 @@
     heldPrefix: brutekit
 
 - type: entity
-  name: advanced first aid kit
+  name: entity-medkitadvanced-name
   description: "An advanced kit to help deal with advanced wounds."
   parent: Medkit
   id: MedkitAdvanced
@@ -78,7 +78,7 @@
     heldPrefix: advkit
 
 - type: entity
-  name: radiation treatment kit
+  name: entity-medkitradiation-name
   description: "If you took your Rad-X you wouldn't need this."
   parent: Medkit
   id: MedkitRadiation
@@ -89,7 +89,7 @@
     heldPrefix: radkit
 
 - type: entity
-  name: combat medical kit
+  name: entity-medkitcombat-name
   description: "For the big weapons among us."
   parent: Medkit
   id: MedkitCombat

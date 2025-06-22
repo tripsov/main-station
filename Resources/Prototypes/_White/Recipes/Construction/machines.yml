@@ -1,11 +1,11 @@
 ﻿- type: construction
-  name: AI Core
+  name: construction-aicore-name
   id: AICore
   graph: AICoreGraph
   startNode: start
   targetNode: aiCore
   category: construction-category-machines
-  description: A framework for an artificial intelligence core
+  description: construction-aicore-description
   icon:
     sprite: Mobs/Silicon/station_ai.rsi
     state: 0

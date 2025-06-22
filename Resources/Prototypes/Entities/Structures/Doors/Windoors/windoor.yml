@@ -1,44 +1,44 @@
 - type: entity
   id: Windoor
   parent: BaseWindoor
-  name: Windoor
-  description: It's a window and a sliding door. Wow!
+  name: entity-windoor-name
+  description: entity-windoor-description
 
 - type: entity
   id: WindoorSecure
   parent: BaseSecureWindoor
-  name: Secure Windoor
-  description: It's a sturdy window and a sliding door. Wow!
+  name: entity-windoorsecure-name
+  description: entity-windoorsecure-description
 
 - type: entity
   id: WindoorClockwork
   parent: BaseClockworkWindoor
-  name: clockwork windoor
-  description: It's a sturdy window and a sliding door. Wow!
+  name: entity-windoorclockwork-name
+  description: entity-windoorsecure-description
 
 - type: entity
   id: WindoorPlasma
   parent: BasePlasmaWindoor
-  name: Plasma Windoor
-  description: It's a pink window *and* a sliding door. Amazing!
+  name: entity-windoorplasma-name
+  description: entity-windoorplasma-description
 
 - type: entity
   id: WindoorSecurePlasma
   parent: BaseSecurePlasmaWindoor
-  name: Secure Plasma Windoor
-  description: It's a sturdy purple window *and* a sliding door. Spectacular!
+  name: entity-windoorsecureplasma-name
+  description: entity-windoorsecureplasma-description
 
 - type: entity
   id: WindoorUranium
   parent: BaseUraniumWindoor
-  name: Uranium Windoor
-  description: It's a window and a sliding door. Huh? Oh, and it's green!
+  name: entity-windooruranium-name
+  description: entity-windooruranium-description
 
 - type: entity
   id: WindoorSecureUranium
   parent: BaseSecureUraniumWindoor
-  name: Secure Uranium Windoor
-  description: It's a sturdy window and a sliding door. It's so neon green, it might even taste like limes!
+  name: entity-windoorsecureuranium-name
+  description: entity-windoorsecureuranium-description
 
 # TODO remove these with parameterized prototypes/whatever we end up doing
 # Windoors (alphabetical)

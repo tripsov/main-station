@@ -1,5 +1,5 @@
 - type: entity
-  name: clientsideclone
+  name: entity-clientsideclone-name
   id: clientsideclone
   categories: [ HideSpawnMenu ]
   components:

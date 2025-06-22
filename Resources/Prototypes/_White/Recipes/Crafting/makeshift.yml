@@ -1,12 +1,12 @@
 - type: construction
-  name: makeshift laser
+  name: construction-makeshiftlaser-name
   id: makeshiftlaser
   graph: MakeshiftLaserGraph
   startNode: start
   targetNode: laser
   category: construction-category-weapons
   objectType: Item
-  description: Better pray it won't burn your hands off.
+  description: construction-makeshiftlaser-description
   icon:
     sprite: Objects/Weapons/Guns/Battery/makeshift.rsi
     state: icon

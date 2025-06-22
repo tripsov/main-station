@@ -91,7 +91,7 @@
 
 - type: storeCategory
   id: UplinkSales
-  name: Sales
+  name: storecategory-uplinksales-name
   priority: 11
 
 #revenant

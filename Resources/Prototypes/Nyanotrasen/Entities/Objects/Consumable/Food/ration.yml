@@ -3,7 +3,7 @@
   categories: [ HideSpawnMenu ]
   parent: FoodPacketTrash
   id: FoodPSBTrash
-  name: psb wrapper
+  name: entity-foodpsbtrash-name
   components:
   - type: Sprite
     sprite: Nyanotrasen/Objects/Consumable/Food/ration.rsi
@@ -11,10 +11,10 @@
   - type: Item
 
 - type: entity
-  name: prepacked sustenance bar
+  name: entity-foodpsb-name
   parent: BaseItem
   id: FoodPSB
-  description: The PSB is a densely packed, nutrient rich, artificially flavored and colored food bar specifically made to accomodate all species during food shortages.
+  description: entity-foodpsb-description
   components:
   - type: Sprite
     sprite: Nyanotrasen/Objects/Consumable/Food/ration.rsi
@@ -77,10 +77,10 @@
     - Fruit # DeltaV - Allow anyone to eat it, hopefully
 
 - type: entity
-  name: soy sustenance bar
+  name: entity-foodpsbbarsoy-name
   parent: FoodPSBBase
   id: FoodPSBBarSoy
-  description: A densely packed, nutrient rich sustenance bar. This one is mixed-herb flavoured.
+  description: entity-foodpsbbarsoy-description
   components:
   - type: FlavorProfile
     flavors:
@@ -90,10 +90,10 @@
   - type: Item
 
 - type: entity
-  name: neapolitan sustenance bar
+  name: entity-foodpsbbarneapolitan-name
   parent: FoodPSBBase
   id: FoodPSBBarNeapolitan
-  description: A densely packed, nutrient rich sustenance bar. This one is neapolitan flavoured- strawberry, vanilla, and chocolate.
+  description: entity-foodpsbbarneapolitan-description
   components:
   - type: FlavorProfile
     flavors:
@@ -105,10 +105,10 @@
   - type: Item
 
 - type: entity
-  name: brownie sustenance bar
+  name: entity-foodpsbbarbrownie-name
   parent: FoodPSBBase
   id: FoodPSBBarBrownie
-  description: A densely packed, nutrient rich sustenance bar. This one is brownie flavored.
+  description: entity-foodpsbbarbrownie-description
   components:
   - type: FlavorProfile
     flavors:
@@ -118,10 +118,10 @@
   - type: Item
 
 - type: entity
-  name: cheese sustenance bar
+  name: entity-foodpsbbarcheese-name
   parent: FoodPSBBase
   id: FoodPSBBarCheese
-  description: A densely packed, nutrient rich sustenance bar. This one is three-cheese flavoured- parmesan, mozzarella, and cheddar.
+  description: entity-foodpsbbarcheese-description
   components:
   - type: FlavorProfile
     flavors:
@@ -131,10 +131,10 @@
   - type: Item
 
 - type: entity
-  name: meat sustenance bar
+  name: entity-foodpsbbarmeat-name
   parent: FoodPSBBase
   id: FoodPSBBarMeat
-  description: A densely packed, nutrient rich sustenance bar. This one is meat and pepper flavored.
+  description: entity-foodpsbbarmeat-description
   components:
   - type: FlavorProfile
     flavors:
@@ -145,10 +145,10 @@
   - type: Item
 
 - type: entity
-  name: vegetable sustenance bar
+  name: entity-foodpsbbarvegetable-name
   parent: FoodPSBBase
   id: FoodPSBBarVegetable
-  description: A densely packed, nutrient rich sustenance bar. This one is vegetable flavoured- lettuce, carrots and potato.
+  description: entity-foodpsbbarvegetable-description
   components:
   - type: FlavorProfile
     flavors:
@@ -160,10 +160,10 @@
   - type: Item
 
 - type: entity
-  name: mint sustenance bar
+  name: entity-foodpsbbarmint-name
   parent: FoodPSBBase
   id: FoodPSBBarMint
-  description: A densely packed, nutrient rich sustenance bar. This one is mint choc chip flavoured- peppermint, dark chocolate, and potato chips.
+  description: entity-foodpsbbarmint-description
   components:
   - type: FlavorProfile
     flavors:
@@ -175,10 +175,10 @@
   - type: Item
 
 - type: entity
-  name: banana sustenance bar
+  name: entity-foodpsbbarbanana-name
   parent: FoodPSBBase
   id: FoodPSBBarBanana
-  description: A densely packed, nutrient rich sustenance bar. This one is banana milkshake flavoured- banana and milk.
+  description: entity-foodpsbbarbanana-description
   components:
   - type: FlavorProfile
     flavors:
@@ -189,10 +189,10 @@
   - type: Item
 
 - type: entity
-  name: wonka sustenance bar
+  name: entity-foodpsbbarwonka-name
   parent: FoodPSBBase
   id: FoodPSBBarWonka
-  description: A densely packed, nutrient rich sustenance bar. This one is split into three flavours, making up a typical meal- tomato soup, roast pumpkin, and blueberry pie.
+  description: entity-foodpsbbarwonka-description
   components:
   - type: FlavorProfile
     flavors:

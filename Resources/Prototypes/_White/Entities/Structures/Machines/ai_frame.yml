@@ -1,8 +1,8 @@
 ﻿- type: entity
   id: StationAIFrame
-  name: AI core frame
+  name: entity-stationaiframe-name
   parent: BaseStructure
-  description: A metal frame for station AI
+  description: entity-stationaiframe-description
   components:
   - type: Sprite
     sprite: Mobs/Silicon/station_ai.rsi

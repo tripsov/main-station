@@ -1,8 +1,8 @@
 - type: entity
-  name: arctic fox
+  name: entity-mobarcticfox-name
   parent: SimpleMobBase
   id: MobArcticFox
-  description: Wears a regal coat of snowy elegance, belying its cold and resourceful nature.
+  description: entity-mobarcticfox-description
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -69,10 +69,10 @@
   - type: ScentTracker
 
 - type: entity
-  name: security dog
+  name: entity-mobsecdog-name
   parent: MobCorgi # There isn't a base dog mob, surprisingly.
   id: MobSecDog
-  description: Funnily enough, this pig is actually a dog.
+  description: entity-mobsecdog-description
   components:
   - type: GhostRole
     makeSentient: true

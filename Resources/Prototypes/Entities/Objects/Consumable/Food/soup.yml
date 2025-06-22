@@ -66,10 +66,10 @@
 # Custom Soup Example
 
 - type: entity
-  name: pea soup
+  name: entity-foodsouppea-name
   parent: FoodBowlBase
   id: FoodSoupPea
-  description: A humble split pea soup.
+  description: entity-foodsouppea-description
   components:
   - type: FlavorProfile
     flavors:
@@ -94,10 +94,10 @@
 # Salad
 
 - type: entity
-  name: aesir salad
+  name: entity-foodsaladaesir-name
   parent: FoodBowlBase
   id: FoodSaladAesir
-  description: Probably too incredible for mortals to fully enjoy.
+  description: entity-foodsaladaesir-description
   components:
   - type: FlavorProfile
     flavors:
@@ -123,10 +123,10 @@
     - Fruit # I don't know what this is but its' a salad so sure
 
 - type: entity
-  name: herb salad
+  name: entity-foodsaladherb-name
   parent: FoodBowlBase
   id: FoodSaladHerb
-  description: A tasty salad with apples on top.
+  description: entity-foodsaladherb-description
   components:
   - type: FlavorProfile
     flavors:
@@ -151,10 +151,10 @@
     - Soup
 
 - type: entity
-  name: valid salad
+  name: entity-foodsaladvalid-name
   parent: FoodBowlBase
   id: FoodSaladValid
-  description: It's just an herb salad with meatballs and fried potato slices. Nothing suspicious about it.
+  description: entity-foodsaladvalid-description
   components:
   - type: FlavorProfile
     flavors:
@@ -184,10 +184,10 @@
     - Soup
 
 - type: entity
-  name: coleslaw
+  name: entity-foodsaladcoleslaw-name
   parent: FoodBowlBase
   id: FoodSaladColeslaw
-  description: Shredded cabbage and red onions dressed with a vinaigrette.
+  description: entity-foodsaladcoleslaw-description
   components:
   - type: FlavorProfile
     flavors:
@@ -211,10 +211,10 @@
           Quantity: 3
 
 - type: entity
-  name: caesar salad
+  name: entity-foodsaladcaesar-name
   parent: FoodBowlBase
   id: FoodSaladCaesar
-  description: A simple yet flavorful salad of onions, lettuce, croutons, and shreds of cheese dressed in oil. Comes with a slice of pita bread!
+  description: entity-foodsaladcaesar-description
   components:
   - type: FlavorProfile
     flavors:
@@ -237,10 +237,10 @@
           Quantity: 6
 
 - type: entity
-  name: kimchi salad
+  name: entity-foodsaladkimchi-name
   parent: FoodBowlBase
   id: FoodSaladKimchi
-  description: It really is just a spicy salad.
+  description: entity-foodsaladkimchi-description
   components:
   - type: FlavorProfile
     flavors:
@@ -264,10 +264,10 @@
           Quantity: 2
 
 - type: entity
-  name: fruit salad
+  name: entity-foodsaladfruit-name
   parent: FoodBowlBase
   id: FoodSaladFruit
-  description: Your standard fruit salad.
+  description: entity-foodsaladfruit-description
   components:
   - type: FlavorProfile
     flavors:
@@ -291,10 +291,10 @@
     - Soup
 
 - type: entity
-  name: jungle salad
+  name: entity-foodsaladjungle-name
   parent: FoodBowlBase
   id: FoodSaladJungle
-  description: Exotic fruits in a bowl.
+  description: entity-foodsaladjungle-description
   components:
   - type: FlavorProfile
     flavors:
@@ -319,10 +319,10 @@
     - Soup
 
 - type: entity
-  name: citrus salad
+  name: entity-foodsaladcitrus-name
   parent: FoodBowlBase
   id: FoodSaladCitrus
-  description: Citrus overload!
+  description: entity-foodsaladcitrus-description
   components:
   - type: FlavorProfile
     flavors:
@@ -347,10 +347,10 @@
     - Soup
 
 - type: entity
-  name: salad of eden
+  name: entity-foodsaladeden-name
   parent: FoodBowlBase
   id: FoodSaladEden
-  description: A salad brimming with untapped potential.
+  description: entity-foodsaladeden-description
   components:
   - type: FlavorProfile
     flavors:
@@ -375,10 +375,10 @@
 # Rice
 
 - type: entity
-  name: boiled rice
+  name: entity-foodriceboiled-name
   parent: FoodBowlBase
   id: FoodRiceBoiled
-  description: A warm bowl of rice.
+  description: entity-foodriceboiled-description
   components:
   - type: FlavorProfile
     flavors:
@@ -389,10 +389,10 @@
     - state: rice
 
 - type: entity
-  name: egg-fried rice
+  name: entity-foodriceegg-name
   parent: FoodBowlBase
   id: FoodRiceEgg
-  description: A bowl of rice with a fried egg.
+  description: entity-foodriceegg-description
   components:
   - type: FlavorProfile
     flavors:
@@ -417,10 +417,10 @@
     - Soup
 
 - type: entity
-  name: rice and pork
+  name: entity-foodricepork-name
   parent: FoodBowlBase
   id: FoodRicePork
-  description: Well, it looks like pork...
+  description: entity-foodricepork-description
   components:
   - type: FlavorProfile
     flavors:
@@ -449,10 +449,10 @@
     - Soup
 
 - type: entity
-  name: rice pudding
+  name: entity-foodricepudding-name
   parent: FoodBowlBase
   id: FoodRicePudding
-  description: Everybody loves rice pudding!
+  description: entity-foodricepudding-description
   components:
   - type: FlavorProfile
     flavors:
@@ -477,10 +477,10 @@
           Quantity: 5
 
 - type: entity
-  name: black-eyed gumbo
+  name: entity-foodricegumbo-name
   parent: FoodBowlBase
   id: FoodRiceGumbo
-  description: A spicy and savory meat and rice dish.
+  description: entity-foodricegumbo-description
   components:
   - type: FlavorProfile
     flavors:
@@ -511,10 +511,10 @@
 # Misc
 
 - type: entity
-  name: oatmeal
+  name: entity-foodoatmeal-name
   parent: FoodBowlBase
   id: FoodOatmeal
-  description: A nice bowl of oatmeal.
+  description: entity-foodoatmeal-description
   components:
   - type: FlavorProfile
     flavors:
@@ -537,10 +537,10 @@
           Quantity: 10
 
 - type: entity
-  name: space liberty duff
+  name: entity-foodjellyduff-name
   parent: FoodBowlBase
   id: FoodJellyDuff
-  description: Jello gelatin, from Alfred Hubbard's cookbook.
+  description: entity-foodjellyduff-description
   components:
   - type: FlavorProfile
     flavors:
@@ -552,10 +552,10 @@
     - state: spacelibertyduff
 
 - type: entity
-  name: amanita jelly
+  name: entity-foodjellyamanita-name
   parent: FoodInjectableBase
   id: FoodJellyAmanita
-  description: It's evil, don't touch it!
+  description: entity-foodjellyamanita-description
   components:
   - type: FlavorProfile
     flavors:
@@ -577,10 +577,10 @@
 # Soup
 
 - type: entity
-  name: meatball soup
+  name: entity-foodsoupmeatball-name
   parent: FoodBowlBase
   id: FoodSoupMeatball
-  description: You've got balls kid, BALLS!
+  description: entity-foodsoupmeatball-description
   components:
   - type: FlavorProfile
     flavors:
@@ -606,10 +606,10 @@
     - Soup
 
 - type: entity
-  name: slime soup
+  name: entity-foodsoupslime-name
   parent: FoodBowlBase
   id: FoodSoupSlime
-  description: If no water is available, you may substitute tears.
+  description: entity-foodsoupslime-description
   components:
   - type: FlavorProfile
     flavors:
@@ -631,10 +631,10 @@
           Quantity: 10
 
 - type: entity
-  name: tomato soup
+  name: entity-foodsouptomatoblood-name
   parent: FoodBowlBase
   id: FoodSoupTomatoBlood
-  description: Smells like copper... is that a bone?
+  description: entity-foodsouptomatoblood-description
   components:
   - type: FlavorProfile
     flavors:
@@ -661,10 +661,10 @@
     - Soup
 
 - type: entity
-  name: wing fang chu
+  name: entity-foodsoupwingfangchu-name
   parent: FoodBowlBase
   id: FoodSoupWingFangChu
-  description: A savory dish of alien wing wang in soy.
+  description: entity-foodsoupwingfangchu-description
   components:
   - type: FlavorProfile
     flavors:
@@ -687,10 +687,10 @@
           Quantity: 7
 
 - type: entity
-  name: clown's tears
+  name: entity-foodsoupclown-name
   parent: FoodBowlBase
   id: FoodSoupClown
-  description: Not very funny.
+  description: entity-foodsoupclown-description
   components:
   - type: FlavorProfile
     flavors:
@@ -712,10 +712,10 @@
           Quantity: 10
 
 - type: entity
-  name: vegetable soup
+  name: entity-foodsoupvegetable-name
   parent: FoodBowlBase
   id: FoodSoupVegetable
-  description: A true vegan meal.
+  description: entity-foodsoupvegetable-description
   components:
   - type: FlavorProfile
     flavors:
@@ -740,10 +740,10 @@
           Quantity: 1
 
 - type: entity
-  name: nettle soup
+  name: entity-foodsoupnettle-name
   parent: FoodBowlBase
   id: FoodSoupNettle
-  description: To think, the botanist would've beat you to death with one of these.
+  description: entity-foodsoupnettle-description
   components:
   - type: FlavorProfile
     flavors:
@@ -769,10 +769,10 @@
           Quantity: 0.5
 
 - type: entity
-  name: mystery soup
+  name: entity-foodsoupmystery-name
   parent: FoodBowlBase
   id: FoodSoupMystery
-  description: The mystery is, why aren't you eating it?
+  description: entity-foodsoupmystery-description
   components:
   - type: FlavorProfile
     flavors:
@@ -783,10 +783,10 @@
     - state: mystery
 
 - type: entity
-  name: bowl of hot chili
+  name: entity-foodsoupchilihot-name
   parent: FoodBowlBase
   id: FoodSoupChiliHot
-  description: A Texan five-alarm chili!
+  description: entity-foodsoupchilihot-description
   components:
   - type: FlavorProfile
     flavors:
@@ -814,10 +814,10 @@
 
 
 - type: entity
-  name: cold chili
+  name: entity-foodsoupchilicold-name
   parent: FoodBowlBase
   id: FoodSoupChiliCold
-  description: This slush is barely a liquid!
+  description: entity-foodsoupchilicold-description
   components:
   - type: FlavorProfile
     flavors:
@@ -841,10 +841,10 @@
     - ChiliBowl
 
 - type: entity
-  name: chili con carnival
+  name: entity-foodsoupchiliclown-name
   parent: FoodBowlBase
   id: FoodSoupChiliClown
-  description: A delicious stew of meat, chilies, and salty, salty clown tears.
+  description: entity-foodsoupchiliclown-description
   components:
   - type: FlavorProfile
     flavors:
@@ -874,10 +874,10 @@
     - ChiliBowl
 
 - type: entity
-  name: monkey's delight
+  name: entity-foodsoupmonkey-name
   parent: FoodBowlBase
   id: FoodSoupMonkey
-  description: A delicious soup with hunks of monkey meat simmered to perfection, in a broth that tastes faintly of bananas.
+  description: entity-foodsoupmonkey-description
   components:
   - type: FlavorProfile
     flavors:
@@ -906,10 +906,10 @@
     - Soup
 
 - type: entity
-  name: tomato soup
+  name: entity-foodsouptomatoblood-name
   parent: FoodBowlBase
   id: FoodSoupTomato
-  description: Drinking this feels like being a vampire! A tomato vampire...
+  description: entity-foodsouptomato-description
   components:
   - type: FlavorProfile
     flavors:
@@ -935,10 +935,10 @@
     - Soup
 
 - type: entity
-  name: eyeball soup
+  name: entity-foodsoupeyeball-name
   parent: FoodBowlBase
   id: FoodSoupEyeball
-  description: It's looking back at you...
+  description: entity-foodsoupeyeball-description
   components:
   - type: FlavorProfile
     flavors:
@@ -963,10 +963,10 @@
     - Soup
 
 - type: entity
-  name: miso soup
+  name: entity-foodsoupmiso-name
   parent: FoodBowlBase
   id: FoodSoupMiso
-  description: Salty, fishy soup, best had with ramen.
+  description: entity-foodsoupmiso-description
   components:
   - type: FlavorProfile
     flavors:
@@ -996,10 +996,10 @@
     - Soup
 
 - type: entity
-  name: mushroom soup
+  name: entity-foodsoupmushroom-name
   parent: FoodBowlBase
   id: FoodSoupMushroom
-  description: A delicious and hearty mushroom soup.
+  description: entity-foodsoupmushroom-description
   components:
   - type: FlavorProfile
     flavors:
@@ -1023,10 +1023,10 @@
             Quantity: 5
 
 - type: entity
-  name: beet soup
+  name: entity-foodsoupbeet-name
   parent: FoodBowlBase
   id: FoodSoupBeet
-  description: Wait, how do you spell it again..?
+  description: entity-foodsoupbeet-description
   components:
   - type: Sprite
     layers:
@@ -1046,10 +1046,10 @@
 # Tastes like borsch, bortsch, borstch, borsh, borshch, borscht.
 
 - type: entity
-  name: red beet soup
+  name: entity-foodsoupbeetred-name
   parent: FoodBowlBase
   id: FoodSoupBeetRed
-  description: Quite a delicacy.
+  description: entity-foodsoupbeetred-description
   components:
   - type: Sprite
     layers:
@@ -1067,10 +1067,10 @@
 # Tastes like beet.
 
 - type: entity
-  name: stew
+  name: entity-foodsoupstew-name
   parent: FoodBowlBase
   id: FoodSoupStew
-  description: A nice and warm stew. Healthy and strong.
+  description: entity-foodsoupstew-description
   components:
   - type: FlavorProfile
     flavors:
@@ -1099,10 +1099,10 @@
     - Soup
 
 - type: entity
-  name: sweet potato soup
+  name: entity-foodsouppotato-name
   parent: FoodBowlBase
   id: FoodSoupPotato
-  description: Delicious sweet potato in soup form.
+  description: entity-foodsouppotato-description
   components:
   - type: FlavorProfile
     flavors:
@@ -1123,10 +1123,10 @@
 # Tastes like sweet potato.
 
 - type: entity
-  name: french onion soup
+  name: entity-foodsouponion-name
   parent: FoodBowlBase
   id: FoodSoupOnion
-  description: Good enough to make a grown mime cry.
+  description: entity-foodsouponion-description
   components:
   - type: FlavorProfile
     flavors:
@@ -1148,10 +1148,10 @@
             Quantity: 5
 
 - type: entity
-  name: bisque
+  name: entity-foodsoupbisque-name
   parent: FoodBowlBase
   id: FoodSoupBisque
-  description: A classic entrée from Space France.
+  description: entity-foodsoupbisque-description
   components:
   - type: FlavorProfile
     flavors:
@@ -1176,10 +1176,10 @@
 # Tastes like crab.
 
 - type: entity
-  name: electron soup
+  name: entity-foodsoupelectron-name
   parent: FoodBowlBase
   id: FoodSoupElectron
-  description: A gastronomic curiosity of ethereal origin.
+  description: entity-foodsoupelectron-description
   components:
   - type: FlavorProfile
     flavors:
@@ -1200,10 +1200,10 @@
             Quantity: 6
 
 - type: entity
-  name: bungo curry
+  name: entity-foodsoupbungo-name
   parent: FoodBowlBase
   id: FoodSoupBungo
-  description: A spicy vegetable curry made with the humble bungo fruit, Exotic!
+  description: entity-foodsoupbungo-description
   components:
   - type: FlavorProfile
     flavors:
@@ -1230,10 +1230,10 @@
 # Tastes like bungo, hot curry.
 
 - type: entity
-  name: escargot
+  name: entity-foodsoupescargot-name
   parent: FoodBowlBase
   id: FoodSoupEscargot
-  description: A creamy and rich bowl of snails, bon appetit!
+  description: entity-foodsoupescargot-description
   components:
   - type: FlavorProfile
     flavors:
@@ -1261,10 +1261,10 @@
 
 
 - type: entity
-  name: ousiana dust bowl
+  name: entity-foodousianadustbowl-name
   parent: FoodBowlBase # really dry soup i guess
   id: FoodOusianaDustBowl
-  description: A combination of diametrically opposed forces,
+  description: entity-foodousianadustbowl-description
   components:
   - type: Food
     useSound: "/Audio/Effects/Footsteps/snowstep4.ogg"

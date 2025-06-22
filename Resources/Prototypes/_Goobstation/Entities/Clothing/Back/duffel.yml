@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: ClothingBackpackDuffel
   id: ClothingBackpackDuffelBlueshield
-  name: blueshield duffel bag
-  description: A very protective duffel bag, smells like energy gun.
+  name: entity-clothingbackpackduffelblueshield-name
+  description: entity-clothingbackpackduffelblueshield-description
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Back/Duffels/blueshield.rsi

@@ -1,0 +1,12 @@
+lobbybackground-robotics-name = Robotics
+lobbybackground-supermatter-name = Supermatter
+lobbybackground-warden-name = Warden
+lobbybackground-pharmacy-name = Pharmacy
+lobbybackground-ssxiv-name = SSXIV
+lobbybackground-susstation-name = Sus Station
+lobbybackground-skellyvstherev-name = Skelly Vs The Rev
+lobbybackground-doomed-name = Doomed
+lobbybackground-blueprint-name = Blueprint
+lobbybackground-terminalstation-name = Terminal Station
+lobbybackground-justaweekaway-name = Just A Week Away
+lobbybackground-nosfordgunther-name = CALL CODE WHITE

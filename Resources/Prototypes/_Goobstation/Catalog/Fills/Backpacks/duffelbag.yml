@@ -1,7 +1,7 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateStealthHardsuitBundle
-  name: cybersun stealthsuit bundle
+  name: entity-clothingbackpackduffelsyndicatestealthhardsuitbundle-name
   description: "An advanced cybersun stealth tacsuit bundle."
   components:
   - type: StorageFill
@@ -15,7 +15,7 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateBurner
-  name: Burner Bundle
+  name: entity-clothingbackpackduffelsyndicateburner-name
   description: "A high caliber Burner rifle, comes with some anti materiel and high explosive ammunition."
   components:
   - type: StorageFill
@@ -28,7 +28,7 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateM90Bundle # - 古い M90 バンドルがこの ID を使用しているかどうかはわかりませんが、その ID はコメントアウトされており、もう存在しないと思います。
-  name: M-90 bundle
+  name: entity-clothingbackpackduffelsyndicatem90bundle-name
   description: "A bundle carrying the syndicate's M-90 assault rifle, packed with 2 spare magazines."
   components:
   - type: StorageFill
@@ -40,7 +40,7 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateFilledWSPR
-  name: WSPR bundle
+  name: entity-clothingbackpackduffelsyndicatefilledwspr-name
   description: "A bundle carrying the syndicate's WSPR assault rifle, packed with 2 spare magazines."
   components:
   - type: StorageFill

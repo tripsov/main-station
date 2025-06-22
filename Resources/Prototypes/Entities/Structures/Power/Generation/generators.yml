@@ -3,8 +3,8 @@
 - type: entity
   abstract: true
   id: BaseGenerator
-  description: A high efficiency thermoelectric generator.
-  name: generator
+  description: entity-basegenerator-description
+  name: entity-basegenerator-name
   placement:
     mode: SnapgridCenter
   components:
@@ -94,8 +94,8 @@
   abstract: true
   id: BaseGeneratorWallmount
   parent: BaseGenerator
-  name: wallmount generator
-  description: A high efficiency thermoelectric generator stuffed in a wall cabinet.
+  name: entity-basegeneratorwallmount-name
+  description: entity-basegeneratorwallmount-description
   placement:
     mode: SnapgridCenter
   components:
@@ -146,8 +146,8 @@
 - type: entity
   categories: [ HideSpawnMenu ]
   id: BaseGeneratorWallmountFrame
-  name: wallmount generator frame
-  description: A construction frame for a wallmount generator.
+  name: entity-basegeneratorwallmountframe-name
+  description: entity-basegeneratorwallmountframe-description
   placement:
     mode: SnapgridCenter
   components:
@@ -208,8 +208,8 @@
 - type: entity
   parent: BaseGeneratorWallmount
   id: GeneratorWallmountAPU
-  name: shuttle APU
-  description: An auxiliary power unit for a shuttle - 6kW.
+  name: entity-generatorwallmountapu-name
+  description: entity-generatorwallmountapu-description
   suffix: APU, 6kW
   components:
   - type: PowerSupplier
@@ -231,8 +231,8 @@
 - type: entity
   parent: BaseGenerator
   id: GeneratorRTG
-  name: RTG
-  description: A Radioisotope Thermoelectric Generator for long term power.
+  name: entity-generatorrtg-name
+  description: entity-generatorrtg-description
   suffix: 10kW
   components:
   - type: PowerSupplier
@@ -279,8 +279,8 @@
 - type: entity
   parent: GeneratorRTG
   id: GeneratorRTGDamaged
-  name: damaged RTG
-  description: A Radioisotope Thermoelectric Generator for long term power. This one has damaged shielding.
+  name: entity-generatorrtgdamaged-name
+  description: entity-generatorrtgdamaged-description
   suffix: 10kW
   components:
   - type: PowerSupplier

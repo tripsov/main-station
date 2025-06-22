@@ -1,7 +1,7 @@
 - type: entity
   parent: AdminInstantEffectBase
   id: SmallExplosionInstant
-  name: instant effect
+  name: entity-smallexplosioninstant-name
   suffix: Explosion, small
   components:
   - type: ExplodeOnTrigger
@@ -15,7 +15,7 @@
 - type: entity
   parent: AdminInstantEffectBase
   id: MediumExplosionInstant
-  name: instant effect
+  name: entity-smallexplosioninstant-name
   suffix: Explosion, medium
   components:
   - type: ExplodeOnTrigger

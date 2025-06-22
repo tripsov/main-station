@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: BaseBarSign
   id: BarSignWhiskeyEcho
-  name: Whiskey Echoes
-  description: Wew lad! Sit down and have a drink! No matter your affiliation, the slogan here is 'Death to sobriety!'
+  name: entity-barsignwhiskeyecho-name
+  description: entity-barsignwhiskeyecho-description
   components:
   - type: BarSign
     current: WhiskeyEcho
@@ -10,8 +10,8 @@
 - type: entity
   parent: BaseBarSign
   id: BarSignKlubSkub
-  name: Klub Skub
-  description: Skub!
+  name: entity-barsignklubskub-name
+  description: entity-barsignklubskub-description
   components:
   - type: BarSign
     current: KlubSkub

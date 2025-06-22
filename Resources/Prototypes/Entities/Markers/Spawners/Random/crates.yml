@@ -1,5 +1,5 @@
 - type: entity
-  name: Empty Crate Spawner
+  name: entity-crateemptyspawner-name
   id: CrateEmptySpawner
   parent: MarkerBase
   components:
@@ -24,7 +24,7 @@
       chance: 0.7
 
 - type: entity
-  name: Filled Crate Spawner
+  name: entity-cratefilledspawner-name
   id: CrateFilledSpawner
   suffix: Low Value
   parent: MarkerBase

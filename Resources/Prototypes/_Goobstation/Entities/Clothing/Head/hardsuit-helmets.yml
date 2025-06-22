@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitBlueshield
-  name: blueshield's hardsuit helmet
-  description: Blueshield hardsuit with a top of the line gunlink. Belongs to the Blueshield.
+  name: entity-clothingheadhelmethardsuitblueshield-name
+  description: entity-clothingheadhelmethardsuitblueshield-description
   components:
   - type: BreathMask
   - type: Sprite
@@ -45,8 +45,8 @@
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitCybersunStealth
   suffix: stealth
-  name: cybersun stealth hardsuit helmet
-  description: A helmet with plating for stealth operations.
+  name: entity-clothingheadhelmethardsuitcybersunstealth-name
+  description: entity-clothingheadhelmethardsuitcybersunstealth-description
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Head/Hardsuits/cybersunstealth.rsi
@@ -76,8 +76,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitDreadnought
-  name: CSA-105UA "Xíngtiān" tacsuit
-  description: A helmet for the Xíngtiān tacsuit.
+  name: entity-clothingheadhelmethardsuitdreadnought-name
+  description: entity-clothingheadhelmethardsuitdreadnought-description
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Head/Hardsuits/dreadnought.rsi

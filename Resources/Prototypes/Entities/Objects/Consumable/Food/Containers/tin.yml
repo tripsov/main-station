@@ -6,8 +6,8 @@
   abstract: true
   parent: [FoodBase, FoodOpenableBase]
   id: FoodTinBase
-  name: tin
-  description: A tin of something, sealed tight.
+  name: entity-foodtinbase-name
+  description: entity-foodtinbase-description
   components:
   - type: SolutionContainerManager
     solutions:
@@ -55,8 +55,8 @@
   abstract: true
   parent: BaseItem
   id: FoodTinBaseTrash
-  name: empty tin
-  description: An empty tin. Could get a bit of metal from this.
+  name: entity-foodtinbasetrash-name
+  description: entity-foodtinbasetrash-description
   components:
   - type: Sprite
     state: trash
@@ -78,8 +78,8 @@
 - type: entity
   parent: FoodTinBase
   id: FoodTinPeaches
-  name: tinned peaches
-  description: Just a nice can of ripe peaches swimming in their own juices.
+  name: entity-foodtinpeaches-name
+  description: entity-foodtinpeaches-description
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/Tins/peaches.rsi
@@ -97,7 +97,7 @@
 - type: entity
   parent: FoodTinBaseTrash
   id: FoodTinPeachesTrash
-  name: tinned peaches
+  name: entity-foodtinpeaches-name
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/Tins/peaches.rsi
@@ -106,7 +106,7 @@
 - type: entity
   parent: FoodTinPeaches
   id: FoodTinPeachesMaint
-  name: maintenance peaches
+  name: entity-foodtinpeachesmaint-name
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/Tins/maint_peaches.rsi
@@ -130,7 +130,7 @@
 - type: entity
   parent: FoodTinBaseTrash
   id: FoodTinPeachesMaintTrash
-  name: maintenance peaches
+  name: entity-foodtinpeachesmaint-name
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/Tins/maint_peaches.rsi
@@ -138,8 +138,8 @@
 - type: entity
   parent: FoodTinBase
   id: FoodTinBeans
-  name: tin of beans
-  description: Musical fruit in a slightly less musical container.
+  name: entity-foodtinbeans-name
+  description: entity-foodtinbeans-description
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/Tins/beans.rsi
@@ -155,7 +155,7 @@
 - type: entity
   parent: FoodTinBaseTrash
   id: FoodTinBeansTrash
-  name: tin of beans
+  name: entity-foodtinbeans-name
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/Tins/beans.rsi
@@ -165,8 +165,8 @@
 - type: entity
   parent: FoodTinBase
   id: FoodTinMRE
-  name: tinned meat
-  description: A standard issue tin of meat with a convenient pull tab.
+  name: entity-foodtinmre-name
+  description: entity-foodtinmre-description
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/Tins/meat.rsi
@@ -188,7 +188,7 @@
 - type: entity
   parent: FoodTinBaseTrash
   id: FoodTinMRETrash
-  name: tinned meat
+  name: entity-foodtinmre-name
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/Tins/meat.rsi

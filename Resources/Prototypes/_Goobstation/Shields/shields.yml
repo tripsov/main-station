@@ -1,9 +1,9 @@
 
 - type: entity
-  name: greatshield
+  name: entity-blueshieldshield-name
   parent: [BaseItem, ClothingSlotBase]
   id: BlueShieldShield
-  description: The iconic namesake of these soldiers, the Blueshield. Known to take shots meant for high-ranking officials.
+  description: entity-blueshieldshield-description
   components:
     - type: ContainerContainer
     - type: ItemToggle

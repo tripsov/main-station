@@ -1,8 +1,8 @@
 - type: entity
-  name: Prisoner encryption key box
+  name: entity-boxencryptionkeyprisoner-name
   parent: BoxCardboard
   id: BoxEncryptionKeyPrisoner
-  description: A box of spare encryption keys.
+  description: entity-boxencryptionkeyprisoner-description
   components:
   - type: StorageFill
     contents:
@@ -18,10 +18,10 @@
       - EncryptionKey
 
 - type: entity
-  name: justice encryption key box
+  name: entity-boxencryptionkeyjustice-name
   parent: BoxEncryptionKeyPassenger
   id: BoxEncryptionKeyJustice
-  description: A box of spare encryption keys.
+  description: entity-boxencryptionkeyprisoner-description
   components:
   - type: StorageFill
     contents:

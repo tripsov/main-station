@@ -1,9 +1,9 @@
 - type: entity
   id: WeaponMechChainSword
   parent: [ BaseMechWeaponMelee, CombatMechEquipment  ]
-  name: exosuit chainsword
+  name: entity-weaponmechchainsword-name
   suffix: Mech Weapon, Melee, Combat
-  description: Equipment for combat exosuits. This is the mechanical chainsword that'll pierce the heavens!
+  description: entity-weaponmechchainsword-description
   components:
   - type: Sprite
     state: mecha_chainsword

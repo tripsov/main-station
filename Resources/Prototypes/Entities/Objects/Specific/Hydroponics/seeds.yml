@@ -14,7 +14,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of wheat seeds
+  name: entity-wheatseeds-name
   id: WheatSeeds
   components:
     - type: Seed
@@ -24,7 +24,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of meatwheat seeds
+  name: entity-meatwheatseeds-name
   description: "If you ever wanted to drive a vegetarian to insanity, here's how."
   id: MeatwheatSeeds
   components:
@@ -35,7 +35,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of oat seeds
+  name: entity-oatseeds-name
   id: OatSeeds
   components:
     - type: Seed
@@ -45,7 +45,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of banana seeds
+  name: entity-bananaseeds-name
   id: BananaSeeds
   components:
     - type: Seed
@@ -55,7 +55,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of mimana seeds
+  name: entity-mimanaseeds-name
   id: MimanaSeeds
   components:
     - type: Seed
@@ -65,7 +65,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of carrot seeds
+  name: entity-carrotseeds-name
   id: CarrotSeeds
   components:
     - type: Seed
@@ -75,7 +75,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of cabbage seeds
+  name: entity-cabbageseeds-name
   id: CabbageSeeds
   components:
     - type: Seed
@@ -85,7 +85,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of garlic seeds
+  name: entity-garlicseeds-name
   id: GarlicSeeds
   components:
     - type: Seed
@@ -96,7 +96,7 @@
 - type: entity
   parent: SeedBase
   id: LaughinPeaSeeds
-  name: packet of laughin' pea pods
+  name: entity-laughinpeaseeds-name
   description: "These seeds give off a very soft purple glow.. they should grow into Laughin' Peas."
   components:
     - type: Seed
@@ -106,7 +106,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of lemon seeds
+  name: entity-lemonseeds-name
   id: LemonSeeds
   components:
     - type: Seed
@@ -116,7 +116,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of lemoon seeds
+  name: entity-lemoonseeds-name
   id: LemoonSeeds
   components:
     - type: Seed
@@ -126,7 +126,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of lime seeds
+  name: entity-limeseeds-name
   id: LimeSeeds
   components:
     - type: Seed
@@ -136,7 +136,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of orange seeds
+  name: entity-orangeseeds-name
   id: OrangeSeeds
   components:
     - type: Seed
@@ -146,7 +146,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of extradimensional orange seeds
+  name: entity-extradimensionalorangeseeds-name
   description: "Polygonal seeds."
   id: ExtradimensionalOrangeSeeds
   components:
@@ -157,7 +157,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of pineapple seeds
+  name: entity-pineappleseeds-name
   id: PineappleSeeds
   components:
     - type: Seed
@@ -167,7 +167,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of potato seeds
+  name: entity-potatoseeds-name
   id: PotatoSeeds
   components:
     - type: Seed
@@ -177,7 +177,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of sugarcane seeds
+  name: entity-sugarcaneseeds-name
   id: SugarcaneSeeds
   components:
     - type: Seed
@@ -187,7 +187,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of papercane seeds
+  name: entity-papercaneseeds-name
   id: PapercaneSeeds
   components:
     - type: Seed
@@ -197,7 +197,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of tower cap spores
+  name: entity-towercapseeds-name
   id: TowercapSeeds
   components:
     - type: Seed
@@ -207,7 +207,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of steel cap spores
+  name: entity-steelcapseeds-name
   id: SteelcapSeeds
   components:
     - type: Seed
@@ -217,7 +217,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of tomato seeds
+  name: entity-tomatoseeds-name
   id: TomatoSeeds
   components:
     - type: Seed
@@ -227,7 +227,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of blue tomato seeds
+  name: entity-bluetomatoseeds-name
   id: BlueTomatoSeeds
   components:
     - type: Seed
@@ -237,7 +237,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of blood tomato seeds
+  name: entity-bloodtomatoseeds-name
   id: BloodTomatoSeeds
   components:
     - type: Seed
@@ -247,7 +247,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of eggplant seeds
+  name: entity-eggplantseeds-name
   id: EggplantSeeds
   components:
     - type: Seed
@@ -257,7 +257,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of apple seeds
+  name: entity-appleseeds-name
   id: AppleSeeds
   components:
     - type: Seed
@@ -267,7 +267,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of golden apple seeds
+  name: entity-goldenappleseeds-name
   id: GoldenAppleSeeds
   components:
     - type: Seed
@@ -277,7 +277,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of corn seeds
+  name: entity-cornseeds-name
   id: CornSeeds
   components:
     - type: Seed
@@ -287,7 +287,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of chanterelle spores
+  name: entity-chanterelleseeds-name
   id: ChanterelleSeeds
   components:
     - type: Seed
@@ -297,7 +297,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of egg-plant seeds
+  name: entity-eggyseeds-name
   id: EggySeeds
   components:
     - type: Seed
@@ -307,7 +307,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of tobacco seeds
+  name: entity-tobaccoseeds-name
   description: "These seeds grow into tobacco plants."
   id: TobaccoSeeds
   components:
@@ -318,7 +318,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of cannabis seeds
+  name: entity-cannabisseeds-name
   description: "Taxable."
   id: CannabisSeeds
   components:
@@ -329,7 +329,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of rainbow cannabis seeds
+  name: entity-rainbowcannabisseeds-name
   description: "These seeds grow into rainbow weed. Groovy... and also highly addictive."
   id: RainbowCannabisSeeds
   components:
@@ -340,7 +340,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of nettle seeds
+  name: entity-nettleseeds-name
   description: "Handle with gloves."
   id: NettleSeeds
   components:
@@ -351,7 +351,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of death nettle seeds
+  name: entity-deathnettleseeds-name
   description: "Handle with very thick gloves."
   id: DeathNettleSeeds
   components:
@@ -362,7 +362,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of chili seeds
+  name: entity-chiliseeds-name
   description: "Spicy."
   id: ChiliSeeds
   components:
@@ -373,7 +373,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of chilly seeds
+  name: entity-chillyseeds-name
   description: "Frostburn."
   id: ChillySeeds
   components:
@@ -384,7 +384,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of aloe seeds
+  name: entity-aloeseeds-name
   description: "Soothing."
   id: AloeSeeds
   components:
@@ -395,7 +395,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of poppy seeds
+  name: entity-poppyseeds-name
   description: "Do not eat within 72 hours of a drug test."
   id: PoppySeeds
   components:
@@ -406,7 +406,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of lily seeds
+  name: entity-lilyseeds-name
   description: "These seeds grow into lilies."
   id: LilySeeds
   components:
@@ -417,7 +417,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of lingzhi spores
+  name: entity-lingzhiseeds-name
   description: "Also known as reishi."
   id: LingzhiSeeds
   components:
@@ -428,7 +428,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of ambrosia vulgaris seeds
+  name: entity-ambrosiavulgarisseeds-name
   description: "A medicinal plant for the common folk."
   id: AmbrosiaVulgarisSeeds
   components:
@@ -439,7 +439,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of ambrosia deus seeds
+  name: entity-ambrosiadeusseeds-name
   description: "A medicinal plant for the gods themselves."
   id: AmbrosiaDeusSeeds
   components:
@@ -450,7 +450,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of galaxythistle seeds
+  name: entity-galaxythistleseeds-name
   description: "Brushes of starry nights."
   id: GalaxythistleSeeds
   components:
@@ -461,7 +461,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of glasstle seeds
+  name: entity-glasstleseeds-name
   description: "Scars of gloomy nights."
   id: GlasstleSeeds
   components:
@@ -472,7 +472,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of fly amanita spores
+  name: entity-flyamanitaseeds-name
   description: "The iconic, extremely deadly mushroom to be used for purely ornamental purposes."
   id: FlyAmanitaSeeds
   components:
@@ -483,7 +483,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of gatfruit seeds
+  name: entity-gatfruitseeds-name
   description: "These are no peashooters."
   id: GatfruitSeeds
   components:
@@ -494,7 +494,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of onion seeds
+  name: entity-onionseeds-name
   description: "Not a shallot."
   id: OnionSeeds
   components:
@@ -505,7 +505,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of rice seeds
+  name: entity-riceseeds-name
   id: RiceSeeds
   components:
     - type: Seed
@@ -515,7 +515,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of soybean seeds
+  name: entity-soybeanseeds-name
   id: SoybeanSeeds
   components:
     - type: Seed
@@ -525,7 +525,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of spaceman's trumpet seeds
+  name: entity-spacemanstrumpetseeds-name
   id: SpacemansTrumpetSeeds
   components:
     - type: Seed
@@ -535,7 +535,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of koibean seeds
+  name: entity-koibeanseeds-name
   id: KoibeanSeeds
   components:
     - type: Seed
@@ -545,7 +545,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of red onion seeds
+  name: entity-onionredseeds-name
   description: "Purple despite the name."
   id: OnionRedSeeds
   components:
@@ -556,7 +556,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of watermelon seeds
+  name: entity-watermelonseeds-name
   id: WatermelonSeeds
   components:
     - type: Seed
@@ -566,7 +566,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of holymelon seeds
+  name: entity-holymelonseeds-name
   id: HolymelonSeeds
   components:
     - type: Seed
@@ -576,7 +576,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of grape seeds
+  name: entity-grapeseeds-name
   id: GrapeSeeds
   components:
     - type: Seed
@@ -586,7 +586,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of cocoa seeds
+  name: entity-cocoaseeds-name
   id: CocoaSeeds
   components:
     - type: Seed
@@ -596,7 +596,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of berry seeds
+  name: entity-berryseeds-name
   id: BerrySeeds
   components:
     - type: Seed
@@ -606,7 +606,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of bungo seeds
+  name: entity-bungoseeds-name
   description: "Don't eat the pits."
   id: BungoSeeds
   components:
@@ -618,7 +618,7 @@
 - type: entity
   parent: SeedBase
   id: PeaSeeds
-  name: packet of pea pods
+  name: entity-peaseeds-name
   description: "These humble plants were once a vital part in the study of genetics."
   components:
     - type: Seed
@@ -629,7 +629,7 @@
 - type: entity
   parent: SeedBase
   id: WorldPeaSeeds
-  name: packet of world pea seeds
+  name: entity-worldpeaseeds-name
   description: "These rather large seeds give off a soothing blue glow."
   components:
     - type: Seed
@@ -639,7 +639,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of pumpkin seeds
+  name: entity-pumpkinseeds-name
   id: PumpkinSeeds
   components:
     - type: Seed
@@ -649,7 +649,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of cotton seeds
+  name: entity-cottonseeds-name
   id: CottonSeeds
   components:
     - type: Seed
@@ -659,7 +659,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of pyrotton seeds
+  name: entity-pyrottonseeds-name
   id: PyrottonSeeds
   components:
     - type: Seed
@@ -670,7 +670,7 @@
 - type: entity
   parent: SeedBase
   id: RealCapfruitSeeds
-  name: packet of capfruit seeds
+  name: entity-realcapfruitseeds-name
   description: "Is it real, or is it fake?"
   components:
     - type: Seed
@@ -688,7 +688,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of cherry seeds
+  name: entity-cherryseeds-name
   id: CherrySeeds
   components:
     - type: Seed

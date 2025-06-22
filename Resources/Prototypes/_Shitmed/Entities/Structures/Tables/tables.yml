@@ -1,7 +1,7 @@
 - type: entity
   id: TableAbductor
   parent: TableBase
-  name: alien table
+  name: entity-tableabductor-name
   description: Literally the sturdiest thing you have ever seen. # Peak. No changes needed.
   components:
   - type: Sprite

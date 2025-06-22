@@ -1,10 +1,10 @@
 # Bowls
 
 - type: entity
-  name: bowl
+  name: entity-foodbowlbig-name
   parent: ReagentContainerBase
   id: FoodBowlBig
-  description: A simple bowl, used for soups and salads.
+  description: entity-foodbowlbig-description
   components:
   - type: Item
     storedRotation: -90
@@ -65,10 +65,10 @@
     node: bowl
 
 - type: entity
-  name: broken bowl
+  name: entity-foodbowlbigtrash-name
   parent: BaseItem
   id: FoodBowlBigTrash
-  description: A simple bowl, broken and useless.
+  description: entity-foodbowlbigtrash-description
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/bowl.rsi
@@ -84,10 +84,10 @@
     price: 0
 
 - type: entity
-  name: bowl
+  name: entity-foodbowlbig-name
   parent: FoodBowlBig
   id: FoodBowlFancy
-  description: A fancy bowl, used for SPECIAL soups and salads.
+  description: entity-foodbowlfancy-description
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/bowl.rsi

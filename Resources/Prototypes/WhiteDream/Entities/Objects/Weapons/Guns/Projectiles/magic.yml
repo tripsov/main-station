@@ -1,8 +1,8 @@
 ﻿- type: entity
   id: BloodBoilProjectile
   parent: BaseBullet
-  name: Concentrated Blood
-  description: Oh no.
+  name: entity-bloodboilprojectile-name
+  description: entity-bloodboilprojectile-description
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

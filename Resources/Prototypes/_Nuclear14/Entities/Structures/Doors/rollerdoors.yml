@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseMaterialDoor
   id: N14DoorShutterFramedRoller
-  name: shutter
-  description: A lightweight airtight roller shutter door.
+  name: entity-n14doorshutterframedroller-name
+  description: entity-n14doorshutterframedroller-description
   components:
   - type: Door
     bumpOpen: false
@@ -21,9 +21,9 @@
 - type: entity
   parent: BaseMaterialDoor
   id: N14DoorShutterRoller
-  name: garage shutter
+  name: entity-n14doorshutterroller-name
   suffix: frameless
-  description: A lightweight airtight roller shutter door.
+  description: entity-n14doorshutterframedroller-description
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Doors/RollerDoors/garageshutter.rsi

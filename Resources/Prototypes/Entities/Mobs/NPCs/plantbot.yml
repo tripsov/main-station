@@ -1,8 +1,8 @@
 - type: entity
   parent: MobSiliconBase
   id: MobPlantbot
-  name: plantbot
-  description: A botanist's best friend!.
+  name: entity-mobplantbot-name
+  description: entity-mobplantbot-description
   components:
   - type: Plantbot
   - type: Sprite

@@ -1,7 +1,7 @@
 - type: entity
-  name: hypospray
+  name: entity-hypospray-name
   parent: BaseItem
-  description: A sterile injector for rapid administration of drugs to patients.
+  description: entity-hypospray-description
   id: Hypospray
   components:
   - type: Sprite
@@ -30,9 +30,9 @@
     stealGroup: Hypospray
 
 - type: entity
-  name: gorlex hypospray
+  name: entity-syndihypo-name
   parent: BaseItem
-  description: Using reverse engineered designs from NT, Cybersun produced these in limited quantities for Gorlex Marauder operatives.
+  description: entity-syndihypo-description
   id: SyndiHypo
   components:
   - type: Sprite
@@ -54,9 +54,9 @@
     delay: 0.5
 
 - type: entity
-  name: borghypo
+  name: entity-borghypo-name
   parent: BaseItem
-  description: A sterile injector for rapid administration of drugs to patients. A cheaper and more specialised version for medical borgs.
+  description: entity-borghypo-description
   id: BorgHypo
   components:
   - type: Sprite
@@ -78,10 +78,10 @@
     delay: 0.5
 
 - type: entity
-  name: experimental hypospray
+  name: entity-adminhypo-name
   suffix: Admeme
   parent: SyndiHypo
-  description: The ultimate application of bluespace technology and rapid chemical administration.
+  description: entity-adminhypo-description
   id: AdminHypo
   components:
     - type: SolutionContainerManager
@@ -92,9 +92,9 @@
       delay: 0.0
 
 - type: entity
-  name: chemical medipen
+  name: entity-chemicalmedipen-name
   parent: BaseItem
-  description: A sterile injector for rapid administration of drugs to patients. This one can't be refilled.
+  description: entity-chemicalmedipen-description
   id: ChemicalMedipen
   components:
   - type: Sprite
@@ -135,10 +135,10 @@
     solution: pen
 
 - type: entity
-  name: emergency medipen
+  name: entity-emergencymedipen-name
   parent: ChemicalMedipen
   id: EmergencyMedipen
-  description: A rapid and safe way to stabilize patients in critical condition for personnel without advanced medical knowledge. Beware, as it's easy to overdose on epinephrine and tranexamic acid.
+  description: entity-emergencymedipen-description
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/medipen.rsi
@@ -162,10 +162,10 @@
     tags: []
 
 - type: entity
-  name: poison auto-injector
+  name: entity-antipoisonmedipen-name
   parent: ChemicalMedipen
   id: AntiPoisonMedipen
-  description: A rapid dose of anti-poison. Contains ultravasculine and epinephrine.
+  description: entity-antipoisonmedipen-description
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/medipen.rsi
@@ -189,10 +189,10 @@
     tags: []
 
 - type: entity
-  name: brute auto-injector
+  name: entity-bruteautoinjector-name
   parent: ChemicalMedipen
   id: BruteAutoInjector
-  description: A rapid dose of bicaridine and tranexamic acid, intended for combat applications
+  description: entity-bruteautoinjector-description
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/medipen.rsi
@@ -221,10 +221,10 @@
     tags: []
 
 - type: entity
-  name: burn auto-injector
+  name: entity-burnautoinjector-name
   parent: ChemicalMedipen
   id: BurnAutoInjector
-  description: A rapid dose of dermaline and leporazine, intended for combat applications
+  description: entity-burnautoinjector-description
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/medipen.rsi
@@ -253,10 +253,10 @@
     tags: []
 
 - type: entity
-  name: rad auto-injector
+  name: entity-radautoinjector-name
   parent: ChemicalMedipen
   id: RadAutoInjector
-  description: A rapid dose of anti-radiation. Contains arithrazine and bicaridine.
+  description: entity-radautoinjector-description
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/medipen.rsi
@@ -285,10 +285,10 @@
     tags: []
 
 - type: entity
-  name: puncturase auto-injector
+  name: entity-punctautoinjector-name
   parent: ChemicalMedipen
   id: PunctAutoInjector
-  description: A rapid dose of puncturase and tranexamic acid, intended for combat applications.
+  description: entity-punctautoinjector-description
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/medipen.rsi
@@ -317,10 +317,10 @@
     tags: []
 
 - type: entity
-  name: pyrazine auto-injector
+  name: entity-pyraautoinjector-name
   parent: ChemicalMedipen
   id: PyraAutoInjector
-  description: A rapid dose of pyrazine and dermaline, intended for combat applications.
+  description: entity-pyraautoinjector-description
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/medipen.rsi
@@ -349,10 +349,10 @@
     tags: []
 
 - type: entity
-  name: airloss auto-injector
+  name: entity-airlossautoinjector-name
   parent: ChemicalMedipen
   id: AirlossAutoInjector
-  description: A rapid dose of saline and dexalin plus, intended to get someone up quickly.
+  description: entity-airlossautoinjector-description
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/medipen.rsi
@@ -381,10 +381,10 @@
     tags: []
 
 - type: entity
-  name: space medipen
+  name: entity-spacemedipen-name
   parent: ChemicalMedipen
   id: SpaceMedipen
-  description: Contains a mix of chemicals that protect you from the deadly effects of space.
+  description: entity-spacemedipen-description
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/medipen.rsi
@@ -414,7 +414,7 @@
     tags: []
 
 - type: entity
-  name: stimulant injector
+  name: entity-stimpack-name
   parent: ChemicalMedipen
   id: Stimpack
   description: Contains enough stimulants for you to have the chemical's effect for 5 minutes. Use it when you're sure you're ready to throw down. # WD EDIT - unnerf stims
@@ -446,10 +446,10 @@
     tags: []
 
 - type: entity
-  name: stimulant microinjector
+  name: entity-stimpackmini-name
   parent: ChemicalMedipen
   id: StimpackMini
-  description: A microinjector of stimulants that give you about one minute of the chemical's effects.
+  description: entity-stimpackmini-description
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/medipen.rsi
@@ -473,10 +473,10 @@
     tags: []
 
 - type: entity
-  name: combat medipen
+  name: entity-combatmedipen-name
   parent: ChemicalMedipen
   id: CombatMedipen
-  description: A single-use medipen containing chemicals that regenerate most types of damage.
+  description: entity-combatmedipen-description
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/medipen.rsi
@@ -507,10 +507,10 @@
     tags: []
 
 - type: entity
-  name: pen
+  name: entity-hypopen-name
   suffix: Hypopen
   parent: Pen # It is just like normal pen, isn't it?
-  description: A dark ink pen.
+  description: entity-hypopen-description
   id: Hypopen
   components:
   - type: SolutionContainerManager
@@ -532,8 +532,8 @@
 - type: entity
   parent: BaseItem
   id: HypopenBox
-  name: hypopen box
-  description: A small box containing a hypopen. Packaging disintegrates when opened, leaving no evidence behind.
+  name: entity-hypopenbox-name
+  description: entity-hypopenbox-description
   components:
   - type: Item
     size: Tiny

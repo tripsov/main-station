@@ -1,9 +1,9 @@
 - type: entity
-  name: spaceshroom
+  name: entity-spaceshroom-name
   parent: BaseStructure
   id: Spaceshroom
   suffix: Structure
-  description: A cluster of wild mushrooms that likes to grow in dark, moist environments.
+  description: entity-spaceshroom-description
   components:
     - type: Sprite
       sprite: Objects/Misc/spaceshroom.rsi
@@ -45,10 +45,10 @@
     maxAmount: 1
 
 - type: entity
-  name: spaceshroom
+  name: entity-spaceshroom-name
   parent: FoodProduceBase
   id: FoodSpaceshroom
-  description: A wild mushroom. There's no telling what effect it could have...
+  description: entity-foodspaceshroom-description
   components:
   - type: Produce
   - type: Sprite
@@ -103,10 +103,10 @@
 
 # Cooked Object
 - type: entity
-  name: cooked spaceshroom
+  name: entity-foodspaceshroomcooked-name
   parent: FoodProduceBase
   id: FoodSpaceshroomCooked
-  description: A wild mushroom that has been cooked through. It seems the heat has removed its chemical effects.
+  description: entity-foodspaceshroomcooked-description
   components:
   - type: FlavorProfile
     flavors:

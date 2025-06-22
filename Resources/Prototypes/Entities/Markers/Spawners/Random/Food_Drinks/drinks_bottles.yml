@@ -1,6 +1,6 @@
 - type: entity
   id: RandomDrinkBottle
-  name: random drink spawner
+  name: entity-randomdrinkbottle-name
   suffix: Bottle
   parent: MarkerBase
   placement:

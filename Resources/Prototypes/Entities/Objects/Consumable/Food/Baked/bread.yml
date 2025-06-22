@@ -48,10 +48,10 @@
 # Custom Bread Example
 
 - type: entity
-  name: volcanic loaf
+  name: entity-foodbreadvolcanic-name
   parent: FoodBreadBase
   id: FoodBreadVolcanic
-  description: A dark loaf. Resembles pumice.
+  description: entity-foodbreadvolcanic-description
   components:
   - type: Food
   - type: Sprite
@@ -64,10 +64,10 @@
     slice: FoodBreadVolcanicSlice
 
 - type: entity
-  name: volcanic slice
+  name: entity-foodbreadvolcanicslice-name
   parent: FoodBreadSliceBase
   id: FoodBreadVolcanicSlice
-  description: A slice of dark loaf. Resembles pumice.
+  description: entity-foodbreadvolcanicslice-description
   components:
   - type: Food
   - type: Sprite
@@ -80,10 +80,10 @@
 # Bread
 
 - type: entity
-  name: banana bread
+  name: entity-foodbreadbanana-name
   parent: FoodBreadBase
   id: FoodBreadBanana
-  description: A heavenly and filling treat.
+  description: entity-foodbreadbanana-description
   components:
   - type: FlavorProfile
     flavors:
@@ -102,10 +102,10 @@
 # Tastes like bread, banana, nut.
 
 - type: entity
-  name: banana bread slice
+  name: entity-foodbreadbananaslice-name
   parent: FoodBreadSliceBase
   id: FoodBreadBananaSlice
-  description: A slice of delicious banana bread.
+  description: entity-foodbreadbananaslice-description
   components:
   - type: FlavorProfile
     flavors:
@@ -122,10 +122,10 @@
     - Slice
 
 - type: entity
-  name: cornbread
+  name: entity-foodbreadcorn-name
   parent: FoodBreadBase
   id: FoodBreadCorn
-  description: Some good down-home country-style, rootin'-tootin', revolver-shootin', dad-gum yeehaw cornbread.
+  description: entity-foodbreadcorn-description
   components:
   - type: FlavorProfile
     flavors:
@@ -147,10 +147,10 @@
 # Tastes like bread, banana, nut.
 
 - type: entity
-  name: cornbread slice
+  name: entity-foodbreadcornslice-name
   parent: FoodBreadSliceBase
   id: FoodBreadCornSlice
-  description: A slice of cornbread.
+  description: entity-foodbreadcornslice-description
   components:
   - type: FlavorProfile
     flavors:
@@ -169,10 +169,10 @@
           Quantity: 3
 
 - type: entity
-  name: cream cheese bread
+  name: entity-foodbreadcreamcheese-name
   parent: FoodBreadBase
   id: FoodBreadCreamcheese
-  description: Yum yum yum!
+  description: entity-foodbreadcreamcheese-description
   components:
   - type: FlavorProfile
     flavors:
@@ -197,10 +197,10 @@
 # Tastes like bread, cheese.
 
 - type: entity
-  name: cream cheese bread slice
+  name: entity-foodbreadcreamcheeseslice-name
   parent: FoodBreadSliceBase
   id: FoodBreadCreamcheeseSlice
-  description: A slice of yum!
+  description: entity-foodbreadcreamcheeseslice-description
   components:
   - type: FlavorProfile
     flavors:
@@ -222,10 +222,10 @@
           Quantity: 1.2
 
 - type: entity
-  name: meat bread
+  name: entity-foodbreadmeat-name
   parent: FoodBreadBase
   id: FoodBreadMeat
-  description: The culinary base of every self-respecting eloquen/tg/entleman.
+  description: entity-foodbreadmeat-description
   components:
   - type: FlavorProfile
     flavors:
@@ -253,10 +253,10 @@
 # Tastes like bread, meat.
 
 - type: entity
-  name: meat bread slice
+  name: entity-foodbreadmeatslice-name
   parent: FoodBreadSliceBase
   id: FoodBreadMeatSlice
-  description: A slice of delicious meatbread.
+  description: entity-foodbreadmeatslice-description
   components:
   - type: FlavorProfile
     flavors:
@@ -282,10 +282,10 @@
     - Slice
 
 - type: entity
-  name: mimana bread
+  name: entity-foodbreadmimana-name
   parent: FoodBreadBase
   id: FoodBreadMimana
-  description: Best eaten in silence.
+  description: entity-foodbreadmimana-description
   components:
   - type: FlavorProfile
     flavors:
@@ -313,10 +313,10 @@
 # Tastes like bread, cheese.
 
 - type: entity
-  name: mimana bread slice
+  name: entity-foodbreadmimanaslice-name
   parent: FoodBreadSliceBase
   id: FoodBreadMimanaSlice
-  description: A slice of silence!
+  description: entity-foodbreadmimanaslice-description
   components:
   - type: FlavorProfile
     flavors:
@@ -341,10 +341,10 @@
           Quantity: 1
 
 - type: entity
-  name: bread
+  name: entity-foodbreadplain-name
   parent: FoodBreadBase
   id: FoodBreadPlain
-  description: Some plain old earthen bread.
+  description: entity-foodbreadplain-description
   components:
   - type: Food
   - type: Sprite
@@ -354,10 +354,10 @@
     slice: FoodBreadPlainSlice
 
 - type: entity
-  name: bread slice
+  name: entity-foodbreadplainslice-name
   parent: FoodBreadSliceBase
   id: FoodBreadPlainSlice
-  description: A slice of home.
+  description: entity-foodbreadplainslice-description
   components:
   - type: Food
   - type: Sprite
@@ -365,10 +365,10 @@
     - state: plain-slice
 
 - type: entity
-  name: sausage bread
+  name: entity-foodbreadsausage-name
   parent: FoodBreadBase
   id: FoodBreadSausage
-  description: Dont think too much about it.
+  description: entity-foodbreadsausage-description
   components:
   - type: FlavorProfile
     flavors:
@@ -397,10 +397,10 @@
     - Bread
 
 - type: entity
-  name: sausage bread slice
+  name: entity-foodbreadsausageslice-name
   parent: FoodBreadSliceBase
   id: FoodBreadSausageSlice
-  description: Dont think too much about it.
+  description: entity-foodbreadsausage-description
   components:
   - type: FlavorProfile
     flavors:
@@ -428,10 +428,10 @@
     - Slice
 
 - type: entity
-  name: spider meat bread
+  name: entity-foodbreadmeatspider-name
   parent: FoodBreadBase
   id: FoodBreadMeatSpider
-  description: Reassuringly green meatloaf made from spider meat.
+  description: entity-foodbreadmeatspider-description
   components:
   - type: FlavorProfile
     flavors:
@@ -459,10 +459,10 @@
 # Tastes like bread, cobwebs.
 
 - type: entity
-  name: spider meat bread slice
+  name: entity-foodbreadmeatspiderslice-name
   parent: FoodBreadSliceBase
   id: FoodBreadMeatSpiderSlice
-  description: A slice of meatloaf made from an animal that most likely still wants you dead.
+  description: entity-foodbreadmeatspiderslice-description
   components:
   - type: FlavorProfile
     flavors:
@@ -488,10 +488,10 @@
     - Slice
 
 - type: entity
-  name: tofu bread
+  name: entity-foodbreadtofu-name
   parent: FoodBreadBase
   id: FoodBreadTofu
-  description: Like meatbread but for vegetarians. Brag to your crewmates about how much better it is.
+  description: entity-foodbreadtofu-description
   components:
   - type: FlavorProfile
     flavors:
@@ -515,10 +515,10 @@
 # Tastes like bread, tofu.
 
 - type: entity
-  name: tofu bread slice
+  name: entity-foodbreadtofuslice-name
   parent: FoodBreadSliceBase
   id: FoodBreadTofuSlice
-  description: A slice of delicious tofu bread.
+  description: entity-foodbreadtofuslice-description
   components:
   - type: FlavorProfile
     flavors:
@@ -539,10 +539,10 @@
           Quantity: 2.4
 
 - type: entity
-  name: xeno meat bread
+  name: entity-foodbreadmeatxeno-name
   parent: FoodBreadBase
   id: FoodBreadMeatXeno
-  description: A fitting, and filling, end to xeno scum.
+  description: entity-foodbreadmeatxeno-description
   components:
   - type: FlavorProfile
     flavors:
@@ -570,10 +570,10 @@
 # Tastes like bread, acid.
 
 - type: entity
-  name: xeno meat bread slice
+  name: entity-foodbreadmeatxenoslice-name
   parent: FoodBreadSliceBase
   id: FoodBreadMeatXenoSlice
-  description: A slice of xeno scum.
+  description: entity-foodbreadmeatxenoslice-description
   components:
   - type: FlavorProfile
     flavors:
@@ -601,10 +601,10 @@
 # Other than bread/slices
 
 - type: entity
-  name: baguette
+  name: entity-foodbreadbaguette-name
   parent: FoodBreadBase
   id: FoodBreadBaguette
-  description: Bon appétit!
+  description: entity-foodbreadbaguette-description
   components:
   - type: Sprite
     state: baguette
@@ -642,10 +642,10 @@
 # Tastes like France.
 
 - type: entity
-  name: crostini
+  name: entity-foodbreadbaguetteslice-name
   parent: FoodBreadSliceBase
   id: FoodBreadBaguetteSlice
-  description: Bon ap-petite!
+  description: entity-foodbreadbaguetteslice-description
   components:
   - type: Sprite
     state: crostini
@@ -664,10 +664,10 @@
           Quantity: 0.1
 
 - type: entity
-  name: buttered toast
+  name: entity-foodbreadbutteredtoast-name
   parent: FoodBreadSliceBase
   id: FoodBreadButteredToast
-  description: Crunchy.
+  description: entity-foodbreadbutteredtoast-description
   components:
   - type: FlavorProfile
     flavors:
@@ -687,10 +687,10 @@
 # Tastes like bread, butter.
 
 - type: entity
-  name: french toast
+  name: entity-foodbreadfrenchtoast-name
   parent: FoodBreadSliceBase
   id: FoodBreadFrenchToast
-  description: A slice of bread soaked in a beaten egg mixture.
+  description: entity-foodbreadfrenchtoast-description
   components:
   - type: FlavorProfile
     flavors:
@@ -710,10 +710,10 @@
 # Tastes like bread, butter.
 
 - type: entity
-  name: garlic bread
+  name: entity-foodbreadgarlicslice-name
   parent: FoodBreadSliceBase
   id: FoodBreadGarlicSlice
-  description: Alas, it is limited.
+  description: entity-foodbreadgarlicslice-description
   components:
   - type: FlavorProfile
     flavors:
@@ -734,7 +734,7 @@
 # Tastes like garlic, Italy.
 
 - type: entity
-  name: jelly toast
+  name: entity-foodbreadjellyslice-name
   parent: FoodBreadSliceBase
   id: FoodBreadJellySlice
   description: As if epistemics are gonna give up their slimes for toast! # DeltaV - Epistemics Department replacing Science
@@ -758,10 +758,10 @@
 # Tastes like garlic, Italy.
 
 - type: entity
-  name: moldy bread slice
+  name: entity-foodbreadmoldyslice-name
   parent: FoodBreadSliceBase
   id: FoodBreadMoldySlice
-  description: Entire stations have been ripped apart over arguing whether this is still good to eat.
+  description: entity-foodbreadmoldyslice-description
   components:
   - type: Sprite
     layers:
@@ -778,10 +778,10 @@
 # Tastes like decaying fungus.
 
 - type: entity
-  name: two slice
+  name: entity-foodbreadtwoslice-name
   parent: FoodBreadSliceBase
   id: FoodBreadTwoSlice
-  description: Classy.
+  description: entity-foodbreadtwoslice-description
   components:
   - type: Sprite
     layers:
@@ -800,10 +800,10 @@
 # Tastes like decaying fungus.
 
 - type: entity
-  name: bread dog
+  name: entity-mobbreaddog-name
   id: MobBreadDog
   parent: FoodBreadSausage
-  description: It's a bread. It's a dog. It's a... breaddog?
+  description: entity-mobbreaddog-description
   components:
   - type: Sprite
     noRot: true

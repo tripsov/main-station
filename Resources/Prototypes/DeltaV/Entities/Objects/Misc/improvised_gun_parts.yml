@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: ModularBreech
-  name: modular breech
-  description: Loads the projectile and propellent into the chamber of the gun. Used in the creation of flintlock muskets.
+  name: entity-modularbreech-name
+  description: entity-modularbreech-description
   components:
     - type: Item
       size: Small
@@ -39,8 +39,8 @@
 - type: entity
   parent: BaseItem
   id: Bayonet
-  name: bayonet
-  description: Often placed on guns to go stabby stabby.
+  name: entity-bayonet-name
+  description: entity-bayonet-description
   components:
     - type: Item
       size: Small

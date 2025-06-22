@@ -1,8 +1,8 @@
 # Actions
 - type: entity
   id: ActionExitConsole
-  name: Exit console
-  description: Exit console.
+  name: entity-actionexitconsole-name
+  description: entity-actionexitconsole-description
   components:
   - type: InstantAction
     priority: -20
@@ -14,8 +14,8 @@
 
 - type: entity
   id: ActionSendYourself
-  name: Send yourself
-  description: You need to FTL to the same map as the station to use this ability!
+  name: entity-actionsendyourself-name
+  description: entity-actionsendyourself-description
   components:
   - type: WorldTargetAction
     useDelay: 10
@@ -30,8 +30,8 @@
 
 - type: entity
   id: ActionReturnToShip
-  name: return
-  description: return to the ship.
+  name: entity-actionreturntoship-name
+  description: entity-actionreturntoship-description
   components:
   - type: InstantAction
     useDelay: 30

@@ -28,7 +28,7 @@
 - type: entity
   id: OrganArachnidStomach
   parent: OrganAnimalStomach
-  name: stomach
+  name: entity-organarachnidstomach-name
   description: "Gross. This is hard to stomach."
   components:
   - type: Sprite
@@ -53,7 +53,7 @@
 - type: entity
   id: OrganArachnidLungs
   parent: BaseArachnidOrgan
-  name: lungs
+  name: entity-organarachnidlungs-name
   description: "Filters oxygen from an atmosphere... just more greedily."
   components:
   - type: Sprite
@@ -90,7 +90,7 @@
 - type: entity
   id: OrganArachnidHeart
   parent: BaseArachnidOrgan
-  name: heart
+  name: entity-organarachnidheart-name
   description: "A disgustingly persistent little biological pump made for spiders."
   components:
   - type: Sprite
@@ -110,7 +110,7 @@
 - type: entity
   id: OrganArachnidLiver
   parent: BaseHumanOrgan
-  name: liver
+  name: entity-organarachnidliver-name
   description: "Pairing suggestion: chianti and fava beans."
   categories: [ HideSpawnMenu ]
   components:
@@ -130,7 +130,7 @@
 - type: entity
   id: OrganArachnidKidneys
   parent: BaseHumanOrgan
-  name: kidneys
+  name: entity-organarachnidkidneys-name
   description: "Filters toxins from the bloodstream."
   categories: [ HideSpawnMenu ]
   components:
@@ -150,7 +150,7 @@
 - type: entity
   id: OrganArachnidEyes
   parent: BaseArachnidOrgan
-  name: eyes
+  name: entity-organarachnideyes-name
   description: "Two was already too many."
   components:
   - type: Sprite
@@ -164,7 +164,7 @@
 - type: entity
   id: OrganArachnidTongue
   parent: BaseArachnidOrgan
-  name: tongue
+  name: entity-organarachnidtongue-name
   description: "A fleshy muscle mostly used for lying."
   components:
   - type: Sprite

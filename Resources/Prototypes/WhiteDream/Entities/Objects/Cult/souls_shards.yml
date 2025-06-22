@@ -1,6 +1,6 @@
 - type: entity
-  name: soul shard
-  description: Mysterious glowing shard.
+  name: entity-soulshard-name
+  description: entity-soulshard-description
   parent: BaseItem
   id: SoulShard
   components:

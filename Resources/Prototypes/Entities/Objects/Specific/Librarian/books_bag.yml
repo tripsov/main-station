@@ -1,8 +1,8 @@
 - type: entity
-  name: books bag
+  name: entity-booksbag-name
   id: BooksBag
   parent: BaseStorageItem
-  description: A refined bag to carry your own library
+  description: entity-booksbag-description
   components:
     - type: Sprite
       sprite: Objects/Specific/Library/Equipment/books_bag.rsi

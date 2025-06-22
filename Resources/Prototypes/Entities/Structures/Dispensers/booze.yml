@@ -1,8 +1,8 @@
 - type: entity
   id: BoozeDispenser
-  name: booze dispenser
+  name: entity-boozedispenser-name
   suffix: Filled
-  description: A booze dispenser with a single slot for a container to be filled.
+  description: entity-boozedispenser-description
   parent: ReagentDispenserBase
   components:
   - type: Rotatable

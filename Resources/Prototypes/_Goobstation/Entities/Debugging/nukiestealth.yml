@@ -2,8 +2,8 @@
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitSyndieStealthDebug
   suffix: DEBUG, DO NOT MAP, stealth
-  name: syndicate stealth hardsuit
-  description: A hardsuit with stealth plating for operations, the shielding doesn't work while you're moving though! Needs the helmet on to finish the stealth field.
+  name: entity-clothingouterhardsuitsyndiestealthdebug-name
+  description: entity-clothingouterhardsuitsyndiestealthdebug-description
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/syndicate.rsi
@@ -46,8 +46,8 @@
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitSyndieStealthDebug
   suffix: DEBUG, DO NOT MAP, stealth
-  name: syndicate stealth hardsuit helmet
-  description: A helmet with plating for stealth operations.
+  name: entity-clothingheadhelmethardsuitsyndiestealthdebug-name
+  description: entity-clothingheadhelmethardsuitsyndiestealthdebug-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/syndicate.rsi

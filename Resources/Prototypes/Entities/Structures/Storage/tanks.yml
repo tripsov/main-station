@@ -3,8 +3,8 @@
 - type: entity
   parent: BaseStructure
   id: StorageTankBase
-  name: storage tank
-  description: A liquids storage tank.
+  name: entity-storagetankbase-name
+  description: entity-storagetankbase-description
   abstract: true
   components:
   - type: Sprite
@@ -61,8 +61,8 @@
 - type: entity
   id: StorageTankWide
   parent: StorageTankBase
-  name: fuel tank
-  description: A fuel tank. It's used to store high amounts of fuel.
+  name: entity-storagetankwide-name
+  description: entity-storagetankwide-description
   suffix: Empty
   components:
   - type: Sprite

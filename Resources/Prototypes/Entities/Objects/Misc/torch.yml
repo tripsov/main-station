@@ -1,8 +1,8 @@
 - type: entity
-  name: torch
+  name: entity-torch-name
   parent: BaseItem
   id: Torch
-  description: A torch fashioned from some wood.
+  description: entity-torch-description
   components:
     - type: ExpendableLight
       spentName: expendable-light-burnt-torch-name

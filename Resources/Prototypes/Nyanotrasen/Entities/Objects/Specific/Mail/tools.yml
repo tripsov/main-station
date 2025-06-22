@@ -1,8 +1,8 @@
 - type: entity
-  name: mail bag
+  name: entity-mailbag-name
   id: MailBag
   parent: BaseStorageItem
-  description: Here's the mail, it never fails...
+  description: entity-mailbag-description
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Belt/mailbag.rsi

@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseStructure
   id: Oracle
-  name: Oracle
-  description: She asks for items in exchange for knowledge. No one knows how she works.
+  name: entity-oracle-name
+  description: entity-oracle-description
   components:
   - type: Sprite
     noRot: true

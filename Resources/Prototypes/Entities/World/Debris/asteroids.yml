@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: BaseAsteroidDebris
   parent: BaseDebris
-  name: Asteroid Debris
+  name: entity-baseasteroiddebris-name
   abstract: true
   components:
     - type: MapGrid
@@ -57,7 +57,7 @@
 - type: entity
   id: AsteroidDebrisSmall
   parent: BaseAsteroidDebris
-  name: Asteroid Debris Small
+  name: entity-asteroiddebrissmall-name
   categories: [ HideSpawnMenu ]
   components:
     - type: MapGrid
@@ -67,7 +67,7 @@
 - type: entity
   id: AsteroidDebrisMedium
   parent: BaseAsteroidDebris
-  name: Asteroid Debris Medium
+  name: entity-asteroiddebrismedium-name
   categories: [ HideSpawnMenu ]
   components:
     - type: MapGrid
@@ -77,7 +77,7 @@
 - type: entity
   id: AsteroidDebrisLarge
   parent: BaseAsteroidDebris
-  name: Asteroid Debris Large
+  name: entity-asteroiddebrislarge-name
   categories: [ HideSpawnMenu ]
   components:
     - type: MapGrid
@@ -87,7 +87,7 @@
 - type: entity
   id: AsteroidDebrisLarger
   parent: BaseAsteroidDebris
-  name: Asteroid Debris Larger
+  name: entity-asteroiddebrislarger-name
   categories: [ HideSpawnMenu ]
   components:
     - type: MapGrid
@@ -98,7 +98,7 @@
 - type: entity
   id: AsteroidSalvageSmall
   parent: BaseAsteroidDebris
-  name: Salvage Asteroid Small
+  name: entity-asteroidsalvagesmall-name
   categories: [ HideSpawnMenu ]
   components:
     - type: MapGrid
@@ -110,7 +110,7 @@
 - type: entity
   id: AsteroidSalvageMedium
   parent: BaseAsteroidDebris
-  name: Salvage Asteroid Medium
+  name: entity-asteroidsalvagemedium-name
   categories: [ HideSpawnMenu ]
   components:
     - type: MapGrid
@@ -122,7 +122,7 @@
 - type: entity
   id: AsteroidSalvageLarge
   parent: BaseAsteroidDebris
-  name: Salvage Asteroid Large
+  name: entity-asteroidsalvagelarge-name
   categories: [ HideSpawnMenu ]
   components:
     - type: MapGrid
@@ -134,7 +134,7 @@
 - type: entity
   id: AsteroidSalvageHuge
   parent: BaseAsteroidDebris
-  name: Salvage Asteroid Huge
+  name: entity-asteroidsalvagehuge-name
   categories: [ HideSpawnMenu ]
   components:
     - type: MapGrid

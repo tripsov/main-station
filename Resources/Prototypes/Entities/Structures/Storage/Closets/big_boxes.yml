@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: BaseBigBox
   name: cardboard box #it's still just a box
-  description: Huh? Just a box...
+  description: entity-basebigbox-description
   abstract: true
   components:
     - type: Transform
@@ -60,7 +60,7 @@
   id: StealthBox
   suffix: stealth
   parent: BaseBigBox
-  description: Kept ya waiting, huh?
+  description: entity-stealthbox-description
   components:
     - type: Damageable
       damageModifierSet: FlimsyMetallic #Syndicate boxes should have a bit of protection
@@ -90,8 +90,8 @@
   id: GhostBox
   parent: StealthBox
   suffix: ""
-  name: ghost box
-  description: Beware!
+  name: entity-ghostbox-name
+  description: entity-ghostbox-description
   components:
     - type: Fixtures
       fixtures:

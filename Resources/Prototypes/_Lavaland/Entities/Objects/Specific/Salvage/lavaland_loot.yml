@@ -1,7 +1,7 @@
 - type: entity
   id: LavalandCursedHeart
   parent: BaseHumanOrgan
-  name: heart
+  name: entity-lavalandcursedheart-name
   description: "I feel bad for the heartless bastard who lost this."
   components:
   - type: Sprite
@@ -14,7 +14,7 @@
 - type: entity
   id: LavalandVampirismCrystal
   parent: BasePKAUpgrade
-  name: a red crystal
+  name: entity-lavalandvampirismcrystal-name
   components:
   - type: Sprite
     sprite: _Lavaland/Objects/Specific/Lavaland/loot.rsi

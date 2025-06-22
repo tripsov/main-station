@@ -3,8 +3,8 @@
 - type: entity
   parent: BaseStructureDynamic
   id: N14BaseBarrel
-  name: barrel
-  description: This barrel looks like it could contain something.
+  name: entity-n14basebarrel-name
+  description: entity-n14basebarrel-description
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -73,8 +73,8 @@
 - type: entity
   parent: N14BaseBarrel
   id: N14BlackBarrel
-  name: black barrel
-  description: A worn out black barrel. The label is torn off.
+  name: entity-n14blackbarrel-name
+  description: entity-n14blackbarrel-description
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Storage/barrels.rsi
@@ -83,8 +83,8 @@
 - type: entity
   parent: N14BaseBarrel
   id: N14BlueBarrel
-  name: blue barrel
-  description: A blue barrel with a warning sign of. Maybe it contains water?
+  name: entity-n14bluebarrel-name
+  description: entity-n14bluebarrel-description
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Storage/barrels.rsi
@@ -93,8 +93,8 @@
 - type: entity
   parent: N14BaseBarrel
   id: N14RedBarrel
-  name: red barrel
-  description: A red barrel with an explosive warning sign on. Better be careful.
+  name: entity-n14redbarrel-name
+  description: entity-n14redbarrel-description
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Storage/barrels.rsi
@@ -117,8 +117,8 @@
 - type: entity
   parent: N14BaseBarrel
   id: N14YellowBarrel
-  name: yellow barrel
-  description: A yellow barrel with a radiation warning sign on. Better be careful.
+  name: entity-n14yellowbarrel-name
+  description: entity-n14yellowbarrel-description
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Storage/barrels.rsi
@@ -132,8 +132,8 @@
   parent: N14BaseBarrelOpen
   id: N14BlackBarrelOpen
   suffix: open
-  name: black barrel
-  description: A worn out black barrel. The label is torn off. The lid is off and you can see inside.
+  name: entity-n14blackbarrel-name
+  description: entity-n14blackbarrelopen-description
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Storage/barrels.rsi
@@ -143,8 +143,8 @@
   parent: N14BaseBarrelOpen
   id: N14BlueBarrelOpen
   suffix: open
-  name: blue barrel
-  description: A blue barrel with a warning sign of. The lid is off and you can see inside.
+  name: entity-n14bluebarrel-name
+  description: entity-n14bluebarrelopen-description
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Storage/barrels.rsi
@@ -154,8 +154,8 @@
   parent: N14BaseBarrelOpen
   id: N14RedBarrelOpen
   suffix: open
-  name: red barrel
-  description: A red barrel with an explosive warning sign on. The lid is off and you can see inside.
+  name: entity-n14redbarrel-name
+  description: entity-n14redbarrelopen-description
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Storage/barrels.rsi
@@ -165,8 +165,8 @@
   parent: N14BaseBarrelOpen
   id: N14YellowBarrelOpen
   suffix: open
-  name: yellow barrel
-  description: A yellow barrel with a radiation warning sign on. The lid is off and you can see inside but it still makes you twitch.
+  name: entity-n14yellowbarrel-name
+  description: entity-n14yellowbarrelopen-description
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Storage/barrels.rsi
@@ -180,7 +180,7 @@
   parent: N14BlackBarrelOpen
   id: N14BlackBarrelFull
   suffix: full
-  description: A worn out black barrel. This one looks full of some dark liquid.
+  description: entity-n14blackbarrelfull-description
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Storage/barrels.rsi
@@ -191,7 +191,7 @@
   parent: N14RedBarrelOpen
   id: N14RedBarrelFull
   suffix: full
-  description: A red barrel with an explosive warning sign on. It has a golden liquid inside.
+  description: entity-n14redbarrelfull-description
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Storage/barrels.rsi
@@ -215,7 +215,7 @@
   parent: N14YellowBarrelOpen
   id: N14YellowBarrelFull
   suffix: full
-  description: A yellow barrel with a radiation warning sign on. You can see the glowing goo bubble.
+  description: entity-n14yellowbarrelfull-description
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Storage/barrels.rsi
@@ -248,8 +248,8 @@
 - type: entity
   parent: BaseStructureDynamic
   id: N14BurningBarrel
-  name: burnt barrel
-  description: This barrel looks like it once contained a fire.
+  name: entity-n14burningbarrel-name
+  description: entity-n14burningbarrel-description
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Storage/burningbarrel.rsi
@@ -272,8 +272,8 @@
 - type: entity
   parent: N14BurningBarrel
   id: N14BurningBarrelLit
-  name: burning barrel
-  description: This barrel is smoldering. Toasty
+  name: entity-n14burningbarrellit-name
+  description: entity-n14burningbarrellit-description
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Storage/burningbarrel.rsi

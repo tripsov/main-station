@@ -1,6 +1,6 @@
 - type: entity
   save: false
-  name: Urist McEars
+  name: entity-basemobthaven-name
   parent: BaseMobSpeciesOrganic
   id: BaseMobThaven
   abstract: true

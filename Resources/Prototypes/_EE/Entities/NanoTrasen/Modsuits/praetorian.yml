@@ -2,8 +2,8 @@
 - type: entity
   parent: ClothingModsuitStandard
   id: ClothingModsuitPraetorian
-  name: Praetorian modsuit control
-  description: The main controller for a Praetorian modsuit.
+  name: entity-clothingmodsuitpraetorian-name
+  description: entity-clothingmodsuitpraetorian-description
   components:
     - type: Sprite
       sprite: _EE/Clothing/NanoTrasen/Modsuits/praetorian.rsi
@@ -35,8 +35,8 @@
 - type: entity
   parent: ClothingModsuitGauntletsStandard
   id: ClothingModsuitGauntletsPraetorian
-  name: Praetorian modsuit gauntlets
-  description: A pair of gauntlets made for the Praetorian modsuit.
+  name: entity-clothingmodsuitgauntletspraetorian-name
+  description: entity-clothingmodsuitgauntletspraetorian-description
   categories: [HideSpawnMenu]
   components:
     - type: Sprite
@@ -51,8 +51,8 @@
 - type: entity
   parent: ClothingModsuitHelmetStandard
   id: ClothingModsuitHelmetPraetorian
-  name: Praetorian modsuit helmet
-  description: A state-of-the-art helmet designed by NanoTrasen for the Praetorian modsuit.
+  name: entity-clothingmodsuithelmetpraetorian-name
+  description: entity-clothingmodsuithelmetpraetorian-description
   categories: [HideSpawnMenu]
   components:
     - type: Sprite
@@ -91,8 +91,8 @@
 - type: entity
   parent: ClothingModsuitChestplateStandard
   id: ClothingModsuitChestplatePraetorian
-  name: Praetorian modsuit chestplate
-  description: A state of the art chestplate designed by NanoTrasen for the Praetorian Modsuit. It incorporates powered servos to reduce the equipment load.
+  name: entity-clothingmodsuitchestplatepraetorian-name
+  description: entity-clothingmodsuitchestplatepraetorian-description
   categories: [HideSpawnMenu]
   components:
     - type: Sprite
@@ -139,8 +139,8 @@
 - type: entity
   parent: ClothingModsuitBootsStandard
   id: ClothingModsuitBootsPraetorian
-  name: Praetorian modsuit boots
-  description: A state-of-the-art pair of magboots for the Praetorian modsuit. So long as the suit is powered, these will not slow the wearer down.
+  name: entity-clothingmodsuitbootspraetorian-name
+  description: entity-clothingmodsuitbootspraetorian-description
   categories: [HideSpawnMenu]
   components:
     - type: Appearance

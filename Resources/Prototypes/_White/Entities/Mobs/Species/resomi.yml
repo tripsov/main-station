@@ -1,6 +1,6 @@
 - type: entity
   save: false
-  name: Urist McRaptor
+  name: entity-basemobresomi-name
   parent: BaseMobSpeciesOrganic
   id: BaseMobResomi
   abstract: true

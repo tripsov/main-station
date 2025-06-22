@@ -1,6 +1,6 @@
 - type: entity
   id: OrganXelthiaStomach
-  name: xelthia stomach
+  name: entity-organxelthiastomach-name
   parent: OrganHumanStomach
   categories: [ HideSpawnMenu ]
   components:

@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtHoPMess
-  name: head of personnel's mess kit
-  description: A swanky uniform with tasteful gold and red trim. Keep your latte away from this.
+  name: entity-clothinguniformjumpskirthopmess-name
+  description: entity-clothinguniformjumpskirthopmess-description
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Uniforms/Jumpskirt/hopmesskit.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformSkirtCourier
-  name: courier's jumpskirt
-  description: Enemy of dogs everywhere.
+  name: entity-clothinguniformskirtcourier-name
+  description: entity-clothinguniformskirtcourier-description
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Uniforms/Jumpskirt/courier.rsi
@@ -25,8 +25,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtSecBlue
-  name: blue security jumpskirt
-  description: A cool blue shirt over charcoal skirt, for the calm and collected security officer.
+  name: entity-clothinguniformjumpskirtsecblue-name
+  description: entity-clothinguniformjumpskirtsecblue-description
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Uniforms/Jumpskirt/security_blue.rsi
@@ -38,8 +38,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtWardenBlue
-  name: blue warden's jumpskirt
-  description: A cool blue shirt with ice-white markings and warden's epaulettes.
+  name: entity-clothinguniformjumpskirtwardenblue-name
+  description: entity-clothinguniformjumpskirtwardenblue-description
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Uniforms/Jumpskirt/warden_blue.rsi
@@ -49,8 +49,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtWardenGrey
-  name: grey warden's jumpskirt
-  description: Charcoal skirt, a grey shirt, and white warden's markings and epaulettes.
+  name: entity-clothinguniformjumpskirtwardengrey-name
+  description: entity-clothinguniformjumpskirtwardengrey-description
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Uniforms/Jumpskirt/warden_grey.rsi
@@ -62,8 +62,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtHoSBlue
-  name: head of security's blue jumpskirt
-  description: A blue Station Security shirt with charcoal skirt. Features gold emblems and commander's epaulettes.
+  name: entity-clothinguniformjumpskirthosblue-name
+  description: entity-clothinguniformjumpskirthosblue-description
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Uniforms/Jumpskirt/hos_blue.rsi
@@ -73,8 +73,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtHoSGrey
-  name: head of security's grey jumpskirt
-  description: A grey Station Security shirt with charcoal skirt. Stands out with red highlights, gold emblems, and commander's epaulettes.
+  name: entity-clothinguniformjumpskirthosgrey-name
+  description: entity-clothinguniformjumpskirthosgrey-description
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Uniforms/Jumpskirt/hos_grey.rsi
@@ -86,8 +86,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpskirtCentcomDirector
-  name: director's jumpskirt
-  description: A sharp and professional jumpskirt worn by a high-ranking member of Central Command.
+  name: entity-clothinguniformjumpskirtcentcomdirector-name
+  description: entity-clothinguniformjumpskirtcentcomdirector-description
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Uniforms/Jumpskirt/centcom_officer.rsi
@@ -97,8 +97,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpskirtChiefJustice
-  name: chief justice's jumpskirt
-  description: A fancy black jumpskirt with a lace cravat to make it even more fancy. Proper judicial attire.
+  name: entity-clothinguniformjumpskirtchiefjustice-name
+  description: entity-clothinguniformjumpskirtchiefjustice-description
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Uniforms/Jumpskirt/cj.rsi
@@ -108,8 +108,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpskirtClerk
-  name: clerk's dress skirt
-  description: A modest dress skirt for the person with the power to notarize anything.
+  name: entity-clothinguniformjumpskirtclerk-name
+  description: entity-clothinguniformjumpskirtclerk-description
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Uniforms/Jumpskirt/clerk.rsi
@@ -119,8 +119,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpskirtProsecutor
-  name: prosecutor's dress skirt
-  description: A red suit and skirt with a fancy cravat. Perfect for a prosecutor.
+  name: entity-clothinguniformjumpskirtprosecutor-name
+  description: entity-clothinguniformjumpskirtprosecutor-description
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Uniforms/Jumpskirt/prosecutorred.rsi
@@ -130,8 +130,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpskirtAdminAssistant
-  name: administrative assistant's jumpskirt
-  description: A suit worn by the Administrative Assistant. Smells of burnt coffee.
+  name: entity-clothinguniformjumpskirtadminassistant-name
+  description: entity-clothinguniformjumpskirtadminassistant-description
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Uniforms/Jumpskirt/admin_assistant.rsi

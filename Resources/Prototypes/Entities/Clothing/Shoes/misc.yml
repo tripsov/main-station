@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingShoesBase
   id: ClothingShoesFlippers
-  name: flippers
-  description: A pair of rubber flippers that improves swimming ability when worn.
+  name: entity-clothingshoesflippers-name
+  description: entity-clothingshoesflippers-description
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Misc/flippers.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesLeather
-  name: leather shoes
-  description: Very stylish pair of boots, made from fine leather.
+  name: entity-clothingshoesleather-name
+  description: entity-clothingshoesleather-description
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Misc/leather.rsi
@@ -23,8 +23,8 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesSlippers
-  name: slippers
-  description: Fluffy!
+  name: entity-clothingshoesslippers-name
+  description: entity-clothingshoesslippers-description
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Misc/slippers.rsi
@@ -34,9 +34,9 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoeSlippersDuck
-  name: ducky slippers
+  name: entity-clothingshoeslippersduck-name
   # description: You wish these made quacking sounds as you walked.
-  description: Comfy, yet haunted by the ghosts of ducks you fed bread to as a child.
+  description: entity-clothingshoeslippersduck-description
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Misc/duck-slippers.rsi
@@ -56,8 +56,8 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesTourist
-  name: tourist shoes
-  description: These cheap sandals don't look very comfortable.
+  name: entity-clothingshoestourist-name
+  description: entity-clothingshoestourist-description
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Misc/tourist.rsi
@@ -67,8 +67,8 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesDameDane
-  name: yakuza shoes
-  description: At last...
+  name: entity-clothingshoesdamedane-name
+  description: entity-clothingshoesdamedane-description
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Misc/damedaneshoes.rsi
@@ -78,8 +78,8 @@
 - type: entity
   parent: ClothingShoesBase
   id: ClothingShoesSnakeskinBoots
-  name: snakeskin boots
-  description: Boots made of high-class snakeskin, everyone around you will be jealous.
+  name: entity-clothingshoessnakeskinboots-name
+  description: entity-clothingshoessnakeskinboots-description
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Misc/snakeskin.rsi
@@ -90,8 +90,8 @@
 - type: entity
   parent: [ClothingShoesBase, PowerCellSlotSmallItem, BaseToggleClothing]
   id: ClothingShoesBootsSpeed
-  name: speed boots
-  description: High-tech boots woven with quantum fibers, able to convert electricity into pure speed!
+  name: entity-clothingshoesbootsspeed-name
+  description: entity-clothingshoesbootsspeed-description
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Boots/speedboots.rsi
@@ -126,8 +126,8 @@
 
 - type: entity
   id: ActionToggleSpeedBoots
-  name: Toggle Speed Boots
-  description: Toggles the speed boots on and off.
+  name: entity-actiontogglespeedboots-name
+  description: entity-actiontogglespeedboots-description
   components:
   - type: InstantAction
     itemIconStyle: BigItem
@@ -136,8 +136,8 @@
 - type: entity
   parent: ClothingShoesBase
   id: ClothingShoesBootsMoon
-  name: moon boots
-  description: Special anti-gravity boots developed with a speciality blend of lunar rock gel. Shipped from the Netherlands.
+  name: entity-clothingshoesbootsmoon-name
+  description: entity-clothingshoesbootsmoon-description
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Boots/moonboots.rsi
@@ -154,8 +154,8 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesHighHeels
-  name: high heels
-  description: These heels help you sashay into the station like it's a catwalk.
+  name: entity-clothingshoeshighheels-name
+  description: entity-clothingshoeshighheels-description
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Misc/high_heels.rsi
@@ -173,8 +173,8 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesHighHeelsLong
-  name: long high heels
-  description: Slay the house down boots!
+  name: entity-clothingshoeshighheelslong-name
+  description: entity-clothingshoeshighheelslong-description
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Misc/long_high_heels.rsi
@@ -192,8 +192,8 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesFlats
-  name: flats
-  description: Fashionable and comfortable flats.
+  name: entity-clothingshoesflats-name
+  description: entity-clothingshoesflats-description
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Misc/flats.rsi
@@ -206,8 +206,8 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesSkater
-  name: skater shoes
-  description: A pair of wide shoes with thick soles. Designed for skating.
+  name: entity-clothingshoesskater-name
+  description: entity-clothingshoesskater-description
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Misc/skater.rsi
@@ -217,8 +217,8 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesSandals
-  name: sandals
-  description: A pair of simple but stylish sandals.
+  name: entity-clothingshoessandals-name
+  description: entity-clothingshoessandals-description
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Sandals/sandals.rsi
@@ -228,8 +228,8 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesSandalsFlipFlops
-  name: flip flops
-  description: A pair of flip flops. For those not afraid to show a little ankle.
+  name: entity-clothingshoessandalsflipflops-name
+  description: entity-clothingshoessandalsflipflops-description
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Sandals/flipflops.rsi
@@ -239,7 +239,7 @@
 - type: entity
   parent: ClothingShoesSandalsFlipFlops
   id: ClothingShoesSandalsFlipFlopsAlt
-  description: A pair of flip flops. The strap colors are lighter than the usual flip flops.
+  description: entity-clothingshoessandalsflipflopsalt-description
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Sandals/flipflops_alt.rsi

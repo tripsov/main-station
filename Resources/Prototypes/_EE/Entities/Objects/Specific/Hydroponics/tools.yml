@@ -1,8 +1,8 @@
 - type: entity
-  name: New-Nederic plant clippers
+  name: entity-hydroponicstoolclipperseoc-name
   parent: BaseItem
   id: HydroponicsToolClippersEOC
-  description: A sophisticsted tool developed by the East-Orion Company to take samples from even the most delicate plants.
+  description: entity-hydroponicstoolclipperseoc-description
   components:
   - type: Tag
     tags:

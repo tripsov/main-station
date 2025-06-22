@@ -2,8 +2,8 @@
   parent: ClothingNeckBase
   id: ClothingNeckPinBase
   abstract: true
-  name: pin
-  description: be nothing do crime
+  name: entity-clothingneckpinbase-name
+  description: entity-clothingneckpinbase-description
   components:
   - type: Item
     size: Tiny
@@ -16,8 +16,8 @@
 - type: entity
   parent: ClothingNeckPinBase
   id: ClothingNeckLGBTPin
-  name: LGBT pin
-  description: be gay do crime
+  name: entity-clothingnecklgbtpin-name
+  description: entity-clothingnecklgbtpin-description
   components:
   - type: Sprite
     sprite: Clothing/Neck/Misc/pins.rsi
@@ -32,8 +32,8 @@
 - type: entity
   parent: ClothingNeckPinBase
   id: ClothingNeckAromanticPin
-  name: aromantic pin
-  description: be aro do crime
+  name: entity-clothingneckaromanticpin-name
+  description: entity-clothingneckaromanticpin-description
   components:
   - type: Sprite
     sprite: Clothing/Neck/Misc/pins.rsi
@@ -48,8 +48,8 @@
 - type: entity
   parent: ClothingNeckPinBase
   id: ClothingNeckAsexualPin
-  name: asexual pin
-  description: be ace do crime
+  name: entity-clothingneckasexualpin-name
+  description: entity-clothingneckasexualpin-description
   components:
   - type: Sprite
     sprite: Clothing/Neck/Misc/pins.rsi
@@ -64,8 +64,8 @@
 - type: entity
   parent: ClothingNeckPinBase
   id: ClothingNeckBisexualPin
-  name: bisexual pin
-  description: be bi do crime
+  name: entity-clothingneckbisexualpin-name
+  description: entity-clothingneckbisexualpin-description
   components:
   - type: Sprite
     sprite: Clothing/Neck/Misc/pins.rsi
@@ -80,8 +80,8 @@
 - type: entity
   parent: ClothingNeckPinBase
   id: ClothingNeckGayPin
-  name: gay pin
-  description: be gay do crime
+  name: entity-clothingneckgaypin-name
+  description: entity-clothingnecklgbtpin-description
   components:
   - type: Sprite
     sprite: Clothing/Neck/Misc/pins.rsi
@@ -96,8 +96,8 @@
 - type: entity
   parent: ClothingNeckPinBase
   id: ClothingNeckIntersexPin
-  name: intersex pin
-  description: be intersex do crime
+  name: entity-clothingneckintersexpin-name
+  description: entity-clothingneckintersexpin-description
   components:
   - type: Sprite
     sprite: Clothing/Neck/Misc/pins.rsi
@@ -112,8 +112,8 @@
 - type: entity
   parent: ClothingNeckPinBase
   id: ClothingNeckLesbianPin
-  name: lesbian pin
-  description: be lesbian do crime
+  name: entity-clothingnecklesbianpin-name
+  description: entity-clothingnecklesbianpin-description
   components:
   - type: Sprite
     sprite: Clothing/Neck/Misc/pins.rsi
@@ -128,7 +128,7 @@
 - type: entity
   parent: ClothingNeckPinBase
   id: ClothingNeckNonBinaryPin
-  name: non-binary pin
+  name: entity-clothingnecknonbinarypin-name
   description: "01100010 01100101 00100000 01100101 01101110 01100010 01111001 00100000 01100100 01101111 00100000 01100011 01110010 01101001 01101101 01100101"
   components:
   - type: Sprite
@@ -144,8 +144,8 @@
 - type: entity
   parent: ClothingNeckPinBase
   id: ClothingNeckPansexualPin
-  name: pansexual pin
-  description: be pan do crime
+  name: entity-clothingneckpansexualpin-name
+  description: entity-clothingneckpansexualpin-description
   components:
   - type: Sprite
     sprite: Clothing/Neck/Misc/pins.rsi
@@ -160,8 +160,8 @@
 - type: entity
   parent: ClothingNeckPinBase
   id: ClothingNeckTransPin
-  name: transgender pin
-  description: be trans do crime
+  name: entity-clothingnecktranspin-name
+  description: entity-clothingnecktranspin-description
   components:
   - type: Sprite
     sprite: Clothing/Neck/Misc/pins.rsi
@@ -176,8 +176,8 @@
 - type: entity
   parent: ClothingNeckPinBase
   id: ClothingNeckAutismPin
-  name: autism pin
-  description: be autism do crime
+  name: entity-clothingneckautismpin-name
+  description: entity-clothingneckautismpin-description
   components:
   - type: Sprite
     sprite: Clothing/Neck/Misc/autismpin.rsi
@@ -192,8 +192,8 @@
 - type: entity
   parent: ClothingNeckPinBase
   id: ClothingNeckGoldAutismPin
-  name: golden autism pin
-  description: be autism do warcrime
+  name: entity-clothingneckgoldautismpin-name
+  description: entity-clothingneckgoldautismpin-description
   components:
   - type: Sprite
     sprite: Clothing/Neck/Misc/goldautismpin.rsi

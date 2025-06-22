@@ -1,6 +1,6 @@
 - type: entity
   id: FieldSurgeryKit
-  name: field surgery kit
+  name: entity-fieldsurgerykit-name
   description: "A combat medical kit repurposed for storing advanced surgical tools for surgery on the go."
   parent: MedkitCombat
   components:

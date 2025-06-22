@@ -2,7 +2,7 @@
   parent: DrinkGlass
   id: DrinkHealthViolationGlass
   suffix: health code violation
-  description: Allegedly it's a cocktail. The warning cone motif seems apt.
+  description: entity-drinkhealthviolationglass-description
   components:
   - type: SolutionContainerManager
     solutions:
@@ -19,7 +19,7 @@
   parent: DrinkGlass
   id: DrinkGunmetalGlass
   suffix: gunmetal
-  description: A cloudy mix of rum, cream, and... is that welding fuel? Probably tasty.
+  description: entity-drinkgunmetalglass-description
   components:
   - type: SolutionContainerManager
     solutions:
@@ -36,7 +36,7 @@
   parent: DrinkGlass
   id: DrinkLemonDropGlass
   suffix: lemon drop
-  description: A martini glass filled with a translucent mix of refreshing lemony goodness.
+  description: entity-drinklemondropglass-description
   components:
   - type: SolutionContainerManager
     solutions:
@@ -53,7 +53,7 @@
   parent: DrinkGlass
   id: DrinkGreenGrassGlass
   suffix: green grass
-  description: An odd green cocktail, topped with oranges, ice, and a plastic straw. Curious.
+  description: entity-drinkgreengrassglass-description
   components:
   - type: SolutionContainerManager
     solutions:
@@ -70,7 +70,7 @@
   parent: DrinkGlass
   id: DrinkDaiquiriGlass
   suffix: classic daiquiri
-  description: Rum, lime, and simple syrup. Such class, such refinement.
+  description: entity-drinkdaiquiriglass-description
   components:
   - type: SolutionContainerManager
     solutions:
@@ -87,7 +87,7 @@
   parent: DrinkGlass
   id: DrinkArsonistsBrewGlass
   suffix: arsonist's brew
-  description: It's probably not concerning that it's glowing faintly. Or bubbling. Or smoking. No, not at all.
+  description: entity-drinkarsonistsbrewglass-description
   components:
   - type: SolutionContainerManager
     solutions:
@@ -104,7 +104,7 @@
   parent: DrinkGlass
   id: DrinkKvassGlass
   suffix: kvass
-  description: A cool refreshing drink with a taste of socialism.
+  description: entity-drinkkvassglass-description
   components:
     - type: SolutionContainerManager
       solutions:
@@ -121,7 +121,7 @@
   parent: DrinkGlass
   id: DrinkMothamphetamineGlass
   suffix: mothamphetamine
-  description: A strangely... Fuzzy drink. It has a chaotic aura.
+  description: entity-drinkmothamphetamineglass-description
   components:
     - type: SolutionContainerManager
       solutions:

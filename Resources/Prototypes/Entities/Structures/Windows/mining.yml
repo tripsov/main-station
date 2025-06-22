@@ -1,6 +1,6 @@
 - type: entity
   id: MiningWindow
-  name: mining window
+  name: entity-miningwindow-name
   parent: WindowRCDResistant
   components:
   - type: Sprite

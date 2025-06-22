@@ -88770,7 +88770,7 @@ entities:
       pos: 7.5,9.5
       parent: 2
     - type: SurveillanceCamera
-      id: Кабинет смотрителя
+      id: Кабинет Надзирателя
   - uid: 15054
     components:
     - type: Transform

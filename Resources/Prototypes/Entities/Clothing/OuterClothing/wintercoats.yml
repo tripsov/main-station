@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterWinterCoat
-  name: winter coat
-  description: A heavy jacket made from 'synthetic' animal furs.
+  name: entity-clothingouterwintercoat-name
+  description: entity-clothingouterwintercoat-description
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coat.rsi
@@ -37,7 +37,7 @@
 - type: entity
   parent: ClothingOuterWinterCoat
   id: ClothingOuterWinterCoatToggleable
-  name: winter coat with hood
+  name: entity-clothingouterwintercoattoggleable-name
   categories: [ HideSpawnMenu ]
   components:
   - type: ToggleableClothing
@@ -52,7 +52,7 @@
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
   id: ClothingOuterWinterAtmos
-  name: atmospherics winter coat
+  name: entity-clothingouterwinteratmos-name
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coatatmos.rsi
@@ -64,7 +64,7 @@
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
   id: ClothingOuterWinterBar
-  name: bartender winter coat
+  name: entity-clothingouterwinterbar-name
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coatbar.rsi
@@ -76,7 +76,7 @@
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
   id: ClothingOuterWinterCap
-  name: captain's winter coat
+  name: entity-clothingouterwintercap-name
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coatcap.rsi
@@ -107,7 +107,7 @@
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
   id: ClothingOuterWinterCE
-  name: chief engineer's winter coat
+  name: entity-clothingouterwinterce-name
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coatce.rsi
@@ -119,7 +119,7 @@
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
   id: ClothingOuterWinterCentcom
-  name: CentCom winter coat
+  name: entity-clothingouterwintercentcom-name
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coatcentcom.rsi
@@ -131,8 +131,8 @@
 - type: entity
   parent: ClothingOuterWinterCoat
   id: ClothingOuterWinterChef
-  name: chef's freezer coat
-  description: A coat specifically designed for work inside cold storage, sorely needed by cold-blooded lizard chefs.
+  name: entity-clothingouterwinterchef-name
+  description: entity-clothingouterwinterchef-description
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coatchef.rsi
@@ -142,7 +142,7 @@
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
   id: ClothingOuterWinterChem
-  name: chemistry winter coat
+  name: entity-clothingouterwinterchem-name
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coatchem.rsi
@@ -161,7 +161,7 @@
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
   id: ClothingOuterWinterCMO
-  name: chief medical officer's winter coat
+  name: entity-clothingouterwintercmo-name
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coatcmo.rsi
@@ -180,7 +180,7 @@
 - type: entity
   parent: ClothingOuterWinterCoat
   id: ClothingOuterWinterClown
-  name: clown winter coat
+  name: entity-clothingouterwinterclown-name
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coatclown.rsi
@@ -190,7 +190,7 @@
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
   id: ClothingOuterWinterEngi
-  name: engineering winter coat
+  name: entity-clothingouterwinterengi-name
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coatengi.rsi
@@ -202,7 +202,7 @@
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
   id: ClothingOuterWinterGen
-  name: genetics winter coat
+  name: entity-clothingouterwintergen-name
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coatgen.rsi
@@ -221,7 +221,7 @@
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
   id: ClothingOuterWinterHoP
-  name: head of personnel's winter coat
+  name: entity-clothingouterwinterhop-name
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coathop.rsi
@@ -233,8 +233,8 @@
 - type: entity
   parent: [ClothingOuterArmorHoS, ClothingOuterWinterCoatToggleable]
   id: ClothingOuterWinterHoS
-  name: head of security's armored winter coat
-  description: A sturdy, utilitarian winter coat designed to protect a head of security from any brig-bound threats and hypothermic events.
+  name: entity-clothingouterwinterhos-name
+  description: entity-clothingouterwinterhos-description
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coathosarmored.rsi
@@ -246,8 +246,8 @@
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
   id: ClothingOuterWinterHoSUnarmored
-  name: head of security's winter coat
-  description: A sturdy coat, a warm coat, but not an armored coat.
+  name: entity-clothingouterwinterhosunarmored-name
+  description: entity-clothingouterwinterhosunarmored-description
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coathos.rsi
@@ -267,7 +267,7 @@
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
   id: ClothingOuterWinterHydro
-  name: hydroponics winter coat
+  name: entity-clothingouterwinterhydro-name
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coathydro.rsi
@@ -279,7 +279,7 @@
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
   id: ClothingOuterWinterJani
-  name: janitorial winter coat
+  name: entity-clothingouterwinterjani-name
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coatjani.rsi
@@ -298,7 +298,7 @@
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
   id: ClothingOuterWinterMed
-  name: medical winter coat
+  name: entity-clothingouterwintermed-name
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coatmed.rsi
@@ -317,7 +317,7 @@
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
   id: ClothingOuterWinterMime
-  name: mime winter coat
+  name: entity-clothingouterwintermime-name
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coatmime.rsi
@@ -329,7 +329,7 @@
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
   id: ClothingOuterWinterMiner
-  name: mining winter coat
+  name: entity-clothingouterwinterminer-name
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coatminer.rsi
@@ -341,7 +341,7 @@
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
   id: ClothingOuterWinterPara
-  name: paramedic winter coat
+  name: entity-clothingouterwinterpara-name
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coatparamed.rsi
@@ -392,7 +392,7 @@
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
   id: ClothingOuterWinterRobo
-  name: robotics winter coat
+  name: entity-clothingouterwinterrobo-name
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coatrobo.rsi
@@ -424,7 +424,7 @@
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
   id: ClothingOuterWinterSec
-  name: security winter coat
+  name: entity-clothingouterwintersec-name
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coatsec.rsi
@@ -443,7 +443,7 @@
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
   id: ClothingOuterWinterViro
-  name: virology winter coat
+  name: entity-clothingouterwinterviro-name
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coatviro.rsi
@@ -462,8 +462,8 @@
 - type: entity
   parent: [ClothingOuterArmorWarden, ClothingOuterWinterCoatToggleable]
   id: ClothingOuterWinterWarden
-  name: warden's armored winter coat
-  description: A sturdy, utilitarian winter coat designed to protect a warden from any brig-bound threats and hypothermic events.
+  name: entity-clothingouterwinterwarden-name
+  description: entity-clothingouterwinterwarden-description
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coatwardenarmored.rsi
@@ -475,8 +475,8 @@
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
   id: ClothingOuterWinterWardenUnarmored
-  name: warden's winter coat
-  description: A sturdy coat, a warm coat, but not an armored coat.
+  name: entity-clothingouterwinterwardenunarmored-name
+  description: entity-clothingouterwinterhosunarmored-description
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coatwarden.rsi
@@ -488,7 +488,7 @@
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
   id: ClothingOuterWinterSyndieCap
-  name: syndicate's winter coat
+  name: entity-clothingouterwintersyndiecap-name
   description: "The syndicate's winter coat is made of durable fabric, with gilded patterns, and coarse wool."
   components:
   - type: Sprite
@@ -501,7 +501,7 @@
 - type: entity
   parent: ClothingOuterWinterWarden
   id: ClothingOuterWinterSyndieCapArmored
-  name: syndicate's armored winter coat
+  name: entity-clothingouterwintersyndiecaparmored-name
   description: "The syndicate's armored winter coat is made of durable fabric, with gilded patterns, and coarse wool."
   components:
   - type: Sprite
@@ -514,8 +514,8 @@
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
   id: ClothingOuterWinterSyndie
-  name: syndicate's winter coat
-  description: Insulated winter coat, looks like a merch from "Syndieland"
+  name: entity-clothingouterwintersyndiecap-name
+  description: entity-clothingouterwintersyndie-description
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/syndicate/wintercoatsyndie.rsi
@@ -527,8 +527,8 @@
 - type: entity
   parent: ClothingOuterWinterCoat
   id: ClothingOuterWinterMusician
-  name: musician's winter coat
-  description: An oversized, plasticine space tuxedo that'll have people asking "do you know me?"
+  name: entity-clothingouterwintermusician-name
+  description: entity-clothingouterwintermusician-description
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coatnomi.rsi
@@ -538,8 +538,8 @@
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
   id: ClothingOuterWinterWeb
-  name: web winter coat
-  description: Feels like the inside of a cocoon, not that this would make you less afraid of being in one.
+  name: entity-clothingouterwinterweb-name
+  description: entity-clothingouterwinterweb-description
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coatweb.rsi
@@ -566,8 +566,8 @@
 - type: entity
   parent: ClothingOuterWinterCoat
   id: ClothingOuterZiCorporateJacket
-  name: Zavodskoi Interstellar Corporate Jacket
-  description: A cozy jacket with the Zavodskoi Interstellar logo printed on the back. Merchandise rewarded to stations with a safety factor of uhh... seven.
+  name: entity-clothingouterzicorporatejacket-name
+  description: entity-clothingouterzicorporatejacket-description
   components:
   - type: Sprite
     sprite: _EE/Clothing/corpo_jacket_zavodskoi_interstellar.rsi
@@ -577,8 +577,8 @@
 - type: entity
   parent: ClothingOuterWinterCoat
   id: ClothingOuterCsCorporateJacket
-  name: Cybersun Corporate Jacket
-  description: A cozy jacket with the Cybersun logo printed on the back. Merchandise rewarded to stations with a safety factor of uhh... seven.
+  name: entity-clothingoutercscorporatejacket-name
+  description: entity-clothingoutercscorporatejacket-description
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/corpo_jacket_cybersun.rsi
@@ -588,8 +588,8 @@
 - type: entity
   parent: ClothingOuterWinterCoat
   id: ClothingOuterEeCorporateJacket
-  name: Einstein Engines Corporate Jacket
-  description: A cozy jacket with the Einstein Engines logo printed on the back. Merchandise rewarded to stations with a safety factor of uhh... seven.
+  name: entity-clothingoutereecorporatejacket-name
+  description: entity-clothingoutereecorporatejacket-description
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/corpo_jacket_einstein_engines.rsi
@@ -601,8 +601,8 @@
 - type: entity
   parent: ClothingOuterWinterCoat
   id: ClothingOuterHiCorporateJacket
-  name: Hephaestus Industries Corporate Jacket
-  description: A cozy jacket with the Hephaestus Industries logo printed on the back. Merchandise rewarded to stations with a safety factor of uhh... seven.
+  name: entity-clothingouterhicorporatejacket-name
+  description: entity-clothingouterhicorporatejacket-description
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/corpo_jacket_hephestus_industries.rsi
@@ -614,8 +614,8 @@
 - type: entity
   parent: ClothingOuterWinterCoat
   id: ClothingOuterHmCorporateJacket
-  name: Hawkmoon Acquisitions Corporate Jacket
-  description: A cozy jacket with the Hawkmoon Acquisitions logo printed on the back. Merchandise rewarded to stations with a safety factor of uhh... seven.
+  name: entity-clothingouterhmcorporatejacket-name
+  description: entity-clothingouterhmcorporatejacket-description
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/corpo_jacket_hawkmoon_aquisitions.rsi
@@ -625,8 +625,8 @@
 - type: entity
   parent: ClothingOuterWinterCoat
   id: ClothingOuterIdCorporateJacket
-  name: Interdyne Corporate Jacket
-  description: A cozy jacket with the Interdyne logo printed on the back. Merchandise rewarded to stations with a safety factor of uhh... seven.
+  name: entity-clothingouteridcorporatejacket-name
+  description: entity-clothingouteridcorporatejacket-description
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/corpo_jacket_interdyne.rsi
@@ -636,8 +636,8 @@
 - type: entity
   parent: ClothingOuterWinterCoat
   id: ClothingOuterBcCorporateJacket
-  name: Bishop Cybernetics Corporate Jacket
-  description: A cozy jacket with the Bishop Cybernetics logo printed on the back. Merchandise rewarded to stations with a safety factor of uhh... seven.
+  name: entity-clothingouterbccorporatejacket-name
+  description: entity-clothingouterbccorporatejacket-description
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/corpo_jacket_bishop_cybernetics.rsi
@@ -649,8 +649,8 @@
 - type: entity
   parent: ClothingOuterWinterCoat
   id: ClothingOuterDdCorporateJacket
-  name: Discount Dan's Corporate Jacket
-  description: A cozy jacket with the Discount Dan's logo printed on the back. Merchandise rewarded to stations with a safety factor of uhh... seven.
+  name: entity-clothingouterddcorporatejacket-name
+  description: entity-clothingouterddcorporatejacket-description
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/corpo_jacket_discount_dans.rsi
@@ -660,8 +660,8 @@
 - type: entity
   parent: ClothingOuterWinterCoat
   id: ClothingOuterFaCorporateJacket
-  name: Five Points Armory Corporate Jacket
-  description: A cozy jacket with the Five Points Armory logo printed on the back. Merchandise rewarded to stations with a safety factor of uhh... seven.
+  name: entity-clothingouterfacorporatejacket-name
+  description: entity-clothingouterfacorporatejacket-description
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/corpo_jacket_five_points_armory.rsi
@@ -671,8 +671,8 @@
 - type: entity
   parent: ClothingOuterWinterCoat
   id: ClothingOuterGeCorporateJacket
-  name: Gilthari Exports Corporate Jacket
-  description: A cozy jacket with the Gilthari Exports logo printed on the back. Merchandise rewarded to stations with a safety factor of uhh... seven.
+  name: entity-clothingoutergecorporatejacket-name
+  description: entity-clothingoutergecorporatejacket-description
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/corpo_jacket_gilthari_exports.rsi
@@ -682,8 +682,8 @@
 - type: entity
   parent: ClothingOuterWinterCoat
   id: ClothingOuterZhCorporateJacket
-  name: Zeng-Hu Pharmaceuticals Corporate Jacket
-  description: A cozy jacket with the Zeng-Hu Pharmaceuticals logo printed on the back. Merchandise rewarded to stations with a safety factor of uhh... seven.
+  name: entity-clothingouterzhcorporatejacket-name
+  description: entity-clothingouterzhcorporatejacket-description
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/corpo_jacket_zeng_hu_pharma.rsi
@@ -695,8 +695,8 @@
 - type: entity
   parent: ClothingOuterWinterCoat
   id: ClothingOuterIiCorporateJacket
-  name: Idris Incorporated Corporate Jacket
-  description: A cozy jacket with the Idris Incorporated logo printed on the back. Merchandise rewarded to stations with a safety factor of uhh... seven.
+  name: entity-clothingouteriicorporatejacket-name
+  description: entity-clothingouteriicorporatejacket-description
   components:
   - type: Sprite
     sprite: _EE/Clothing/corpo_jacket_idris_incorporated.rsi
@@ -708,9 +708,9 @@
 - type: entity
   parent: ClothingOuterWinterCoat
   id: ClothingOuterOeCorporateJacket
-  name: Orion Express Corporate Jacket
+  name: entity-clothingouteroecorporatejacket-name
 
-  description: A cozy jacket with the Orion Express logo printed on the back. Merchandise rewarded to stations with a safety factor of uhh... seven.
+  description: entity-clothingouteroecorporatejacket-description
   components:
   - type: Sprite
     sprite: _EE/Clothing/corpo_jacket_orion_express.rsi

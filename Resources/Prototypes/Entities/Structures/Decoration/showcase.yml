@@ -2,8 +2,8 @@
   id: BaseShowcaseRobot
   abstract: true
   parent: BaseStructure
-  name: security robot showcase
-  description: A non-functional replica of an old security robot.
+  name: entity-baseshowcaserobot-name
+  description: entity-baseshowcaserobot-description
   components:
     - type: Anchorable
     - type: Damageable
@@ -35,8 +35,8 @@
 - type: entity
   id: ShowcaseRobot
   parent: BaseShowcaseRobot
-  name: security robot showcase
-  description: A non-functional replica of an old security robot.
+  name: entity-baseshowcaserobot-name
+  description: entity-baseshowcaserobot-description
   components:
   - type: Sprite
     sprite: Structures/Decoration/showcase.rsi
@@ -45,8 +45,8 @@
 - type: entity
   id: ShowcaseRobotWhite
   parent: BaseShowcaseRobot
-  name: white robot showcase
-  description: A non-functional replica of an old robot.
+  name: entity-showcaserobotwhite-name
+  description: entity-showcaserobotwhite-description
   components:
   - type: Sprite
     sprite: Structures/Decoration/showcase.rsi
@@ -55,8 +55,8 @@
 - type: entity
   id: ShowcaseRobotAntique
   parent: BaseShowcaseRobot
-  name: cargo robot showcase
-  description: A non-functional replica of an old cargo robot.
+  name: entity-showcaserobotantique-name
+  description: entity-showcaserobotantique-description
   components:
   - type: Sprite
     sprite: Structures/Decoration/showcase.rsi
@@ -65,8 +65,8 @@
 - type: entity
   id: ShowcaseRobotMarauder
   parent: BaseShowcaseRobot
-  name: marauder showcase
-  description: A non-functional replica of a marauder, painted green.
+  name: entity-showcaserobotmarauder-name
+  description: entity-showcaserobotmarauder-description
   components:
   - type: Sprite
     sprite: Structures/Decoration/showcase.rsi

@@ -1,7 +1,7 @@
 - type: entity
   id: MedalCase
-  name: medal case
-  description: Case with medals.
+  name: entity-medalcase-name
+  description: entity-medalcase-description
   parent: [ BaseStorageItem, BaseBagOpenClose ]
   components:
   - type: Sprite

@@ -1,120 +1,120 @@
 - type: construction
-  name: clown vacsuit
+  name: construction-clownhardsuit-name
   id: ClownHardsuit
   graph: SuitEVA # WD EDIT
   startNode: startclownHardsuit # WD EDIT
   targetNode: clownHardsuit
   category: construction-category-clothing
-  description: A modified vacsuit fit for a clown.
+  description: construction-clownhardsuit-description
   icon: { sprite: Clothing/OuterClothing/Hardsuits/clown.rsi, state: icon }
   objectType: Item
 
 - type: construction
-  name: mime vacsuit
+  name: construction-mimehardsuit-name
   id: MimeHardsuit
   graph: SuitEVA # WD EDIT
   startNode: startmimeHardsuit # WD EDIT
   targetNode: mimeHardsuit
   category: construction-category-clothing
-  description: A modified vacsuit fit for a mime.
+  description: construction-mimehardsuit-description
   icon: { sprite: Clothing/OuterClothing/Hardsuits/mime.rsi, state: icon }
   objectType: Item
 
 - type: construction
-  name: bone armor
+  name: construction-bonearmor-name
   id: BoneArmor
   graph: BoneArmor
   startNode: start
   targetNode: armor
   category: construction-category-clothing
-  description: Armor made of bones.
+  description: construction-bonearmor-description
   icon: { sprite: Clothing/OuterClothing/Armor/bone_armor.rsi, state: icon }
   objectType: Item
 
 - type: construction
-  name: bone helmet
+  name: construction-bonehelmet-name
   id: BoneHelmet
   graph: BoneHelmet
   startNode: start
   targetNode: helmet
   category: construction-category-clothing
-  description: Helmet made of bones.
+  description: construction-bonehelmet-description
   icon: { sprite: Clothing/Head/Helmets/bone_helmet.rsi, state: icon }
   objectType: Item
 
 - type: construction
-  name: banana clown mask
+  name: construction-bananaclownmask-name
   id: BananaClownMask
   graph: BananaClownMask
   startNode: start
   targetNode: mask
   category: construction-category-clothing
-  description: A clown mask upgraded with banana peels.
+  description: construction-bananaclownmask-description
   icon: { sprite: Clothing/Mask/clown_banana.rsi, state: icon }
   objectType: Item
 
 - type: construction
-  name: banana clown suit
+  name: construction-bananaclownjumpsuit-name
   id: BananaClownJumpsuit
   graph: BananaClownJumpsuit
   startNode: start
   targetNode: jumpsuit
   category: construction-category-clothing
-  description: A clown suit upgraded with banana peels.
+  description: construction-bananaclownjumpsuit-description
   icon: { sprite: Clothing/Uniforms/Jumpsuit/clown_banana.rsi, state: icon }
   objectType: Item
 
 - type: construction
-  name: banana clown shoes
+  name: construction-bananaclownshoes-name
   id: BananaClownShoes
   graph: BananaClownShoes
   startNode: start
   targetNode: shoes
   category: construction-category-clothing
-  description: A pair of clown shoes upgraded with banana peels.
+  description: construction-bananaclownshoes-description
   icon: { sprite: Clothing/Shoes/Specific/clown_banana.rsi, state: icon }
   objectType: Item
 
 - type: construction
-  name: medsec hud
+  name: construction-clothingeyeshudmedsec-name
   id: ClothingEyesHudMedSec
   graph: HudMedSec
   startNode: start
   targetNode: medsecHud
   category: construction-category-clothing
-  description: Two huds joined by arms
+  description: construction-clothingeyeshudmedsec-description
   icon: { sprite: Clothing/Eyes/Hud/medsec.rsi, state: icon }
   objectType: Item
 
 - type: construction
-  name: ducky slippers
+  name: construction-clothingshoeslippersduck-name
   id: ClothingShoeSlippersDuck
   graph: ClothingShoeSlippersDuck
   startNode: start
   targetNode: shoes
   category: construction-category-clothing
-  description: Comfy, yet haunted by the ghosts of ducks you fed bread to as a child.
+  description: construction-clothingshoeslippersduck-description
   icon: { sprite: Clothing/Shoes/Misc/duck-slippers.rsi, state: icon }
   objectType: Item
 
 - type: construction
-  name: cloth wraps
+  name: construction-clothingclothwrap-name
   id: ClothingClothWrap
   graph: ClothingClothWrap
   startNode: start
   targetNode: shoes
   category: construction-category-clothing
-  description: A roll of treated canvas used for wrapping claws or paws.
+  description: construction-clothingclothwrap-description
   icon: { sprite: Clothing/Shoes/Misc/clothWrap.rsi, state: icon }
   objectType: Item
 
 - type: construction
-  name: quiver
+  name: construction-clothingbeltquiver-name
   id: ClothingBeltQuiver
   graph: Quiver
   startNode: start
   targetNode: Quiver
   category: construction-category-clothing
-  description: Can hold up to 15 arrows, and fits snug around your waist.
+  description: construction-clothingbeltquiver-description
   icon: { sprite: Clothing/Belt/quiver.rsi, state: icon }
   objectType: Item

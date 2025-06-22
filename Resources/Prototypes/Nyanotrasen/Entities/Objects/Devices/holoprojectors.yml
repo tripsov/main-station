@@ -1,8 +1,8 @@
 - type: entity
   parent: Holoprojector
   id: HoloprojectorEngineering
-  name: engineering holoprojector
-  description: Displays a warning sign.
+  name: entity-holoprojectorengineering-name
+  description: entity-holoprojectorengineering-description
   components:
   - type: HolosignProjector
     signProto: HolosignEng

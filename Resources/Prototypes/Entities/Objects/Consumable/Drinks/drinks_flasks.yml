@@ -17,8 +17,8 @@
 - type: entity
   parent: FlaskBase
   id: DrinkShinyFlask
-  name: shiny flask
-  description: A shiny metal flask. It appears to have a Greek symbol inscribed on it.
+  name: entity-drinkshinyflask-name
+  description: entity-drinkshinyflask-description
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/shinyflask.rsi
@@ -26,8 +26,8 @@
 - type: entity
   parent: FlaskBase
   id: DrinkMREFlask
-  name: MRE flask
-  description: An old military flask, filled with the finest contents for soldiers
+  name: entity-drinkmreflask-name
+  description: entity-drinkmreflask-description
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/mreflask.rsi
@@ -43,8 +43,8 @@
 - type: entity
   parent: FlaskBase
   id: DrinkDetFlask
-  name: inspector's flask
-  description: A metal flask with a leather band and golden badge belonging to the inspector.
+  name: entity-drinkdetflask-name
+  description: entity-drinkdetflask-description
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/detflask.rsi
@@ -52,8 +52,8 @@
 - type: entity
   parent: FlaskBase
   id: DrinkHosFlask
-  name: hos's flask
-  description: A metal flask, fit for a hard working HoS.
+  name: entity-drinkhosflask-name
+  description: entity-drinkhosflask-description
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/hosflask.rsi
@@ -61,8 +61,8 @@
 - type: entity
   parent: FlaskBase
   id: DrinkFlask
-  name: captain's flask
-  description: A metal flask belonging to the captain
+  name: entity-drinkflask-name
+  description: entity-drinkflask-description
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/flask.rsi
@@ -70,8 +70,8 @@
 - type: entity
   parent: FlaskBase
   id: DrinkFlaskBar
-  name: bar flask
-  description: A metal flask often given out by the bartender on loan. Don't forget to return it!
+  name: entity-drinkflaskbar-name
+  description: entity-drinkflaskbar-description
   components:
     - type: Sprite
       sprite: Objects/Consumable/Drinks/barflask.rsi
@@ -79,7 +79,7 @@
 - type: entity
   parent: FlaskBase
   id: DrinkFlaskOld
-  name: flask
+  name: entity-drinkflaskold-name
   description: ''
   components:
   - type: Sprite
@@ -88,8 +88,8 @@
 - type: entity
   parent: FlaskBase
   id: DrinkLithiumFlask
-  name: lithium flask
-  description: A flask with a Lithium Atom symbol on it.
+  name: entity-drinklithiumflask-name
+  description: entity-drinklithiumflask-description
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/lithiumflask.rsi
@@ -97,8 +97,8 @@
 - type: entity
   parent: FlaskBase
   id: DrinkVacuumFlask
-  name: vacuum flask
-  description: Keeping your drinks at the perfect temperature since 1892.
+  name: entity-drinkvacuumflask-name
+  description: entity-drinkvacuumflask-description
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/vacuumflask.rsi

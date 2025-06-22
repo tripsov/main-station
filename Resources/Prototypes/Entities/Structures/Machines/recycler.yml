@@ -1,8 +1,8 @@
 ﻿- type: entity
   id: Recycler
   parent: BaseMachinePowered
-  name: recycler
-  description: A large crushing machine used to recycle small items inefficiently. There are lights on the side.
+  name: entity-recycler-name
+  description: entity-recycler-description
   components:
   - type: AmbientSound
     enabled: false

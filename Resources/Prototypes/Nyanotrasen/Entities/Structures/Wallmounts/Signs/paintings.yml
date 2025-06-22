@@ -1,7 +1,7 @@
 - type: entity
   parent: PaintingBase
   id: PaintingMothBigCatch
-  name: Big Catch
+  name: entity-paintingmothbigcatch-name
   description: Depicts a blue moth wearing a tophat who caught a relatively large space carp. 
   components:
   - type: Sprite

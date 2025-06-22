@@ -1,8 +1,8 @@
 - type: entity
   parent: HandLabeler
   id: FishLabeler
-  name: fish labeler
-  description: A hand labeler modified for naming your fish.
+  name: entity-fishlabeler-name
+  description: entity-fishlabeler-description
   components:
   - type: HandLabeler
     whitelist:

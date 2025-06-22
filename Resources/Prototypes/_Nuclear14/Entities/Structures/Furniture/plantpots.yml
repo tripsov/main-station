@@ -1,7 +1,7 @@
 - type: entity
   parent: PottedPlantBase
   id: N14Plantpot
-  name: plant pot
+  name: entity-n14plantpot-name
   abstract: true
   components:
   - type: Fixtures
@@ -80,7 +80,7 @@
 - type: entity
   parent: N14PlantpotDirty1
   id: N14PlantpotBroken1
-  description: A broken plant pot.
+  description: entity-n14plantpotbroken1-description
   suffix: broken
   components:
   - type: Sprite

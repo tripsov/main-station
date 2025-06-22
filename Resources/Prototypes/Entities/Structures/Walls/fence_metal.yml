@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: BaseStructure
   id: BaseFenceMetal
-  name: chain link fence
-  description: A metal piece of fencing cordoning off something likely very important.
+  name: entity-basefencemetal-name
+  description: entity-basefencemetal-description
   abstract: true
   components:
   - type: MeleeSound
@@ -86,8 +86,8 @@
 - type: entity
   parent: BaseFenceMetal
   id: FenceMetalBroken
-  name: broken chain link fence
-  description: Someone got real mad at an inanimate object.
+  name: entity-fencemetalbroken-name
+  description: entity-fencemetalbroken-description
   components:
   - type: Sprite
     layers:
@@ -266,8 +266,8 @@
 - type: entity
   parent: BaseFenceMetal
   id: FenceMetalGate
-  name: chain link fence gate
-  description: You could use the door instead of vaulting over--if you're a COWARD, that is.
+  name: entity-fencemetalgate-name
+  description: entity-fencemetalgate-description
   components:
   - type: Sprite
     layers:

@@ -1,7 +1,7 @@
 - type: entity
   categories: [ HideSpawnMenu ]
   id: ExplosionLight
-  name: explosion light
+  name: entity-explosionlight-name
   components:
   - type: PointLight
   - type: Tag

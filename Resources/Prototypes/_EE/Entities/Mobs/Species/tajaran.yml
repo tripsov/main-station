@@ -1,5 +1,5 @@
 - type: entity
-  name: Urist McTajaran
+  name: entity-mobtajaranbase-name
   parent: BaseMobSpeciesOrganic
   id: MobTajaranBase
   abstract: true
@@ -117,11 +117,11 @@
 
 - type: entity
   save: false
-  name: Urist McHands
+  name: entity-mobtajarandummy-name
   parent: MobHumanDummy
   id: MobTajaranDummy
   categories: [ HideSpawnMenu ]
-  description: A dummy tajaran meant to be used in character setup.
+  description: entity-mobtajarandummy-description
   components:
   - type: HumanoidAppearance
     species: Tajaran

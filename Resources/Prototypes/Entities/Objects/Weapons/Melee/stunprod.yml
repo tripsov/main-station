@@ -1,5 +1,5 @@
 - type: entity
-  name: stun prod
+  name: entity-stunprodbase-name
   parent: BaseItem
   id: StunprodBase # WD EDIT
   abstract: true
@@ -67,10 +67,10 @@
     knockdownTime: 3
 
 - type: entity
-  name: stun prod
+  name: entity-stunprodbase-name
   parent: StunprodBase
   id: Stunprod
-  description: A stun prod for illegal incapacitation.
+  description: entity-stunprod-description
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/stunprod.rsi
@@ -107,8 +107,8 @@
 - type: entity
   parent: BaseItem
   id: ProdUnfinished
-  name: wound rod
-  description: A rod with wires.
+  name: entity-produnfinished-name
+  description: entity-produnfinished-description
   components:
   - type: Sprite
     sprite: _White/Objects/Weapons/Melee/prod.rsi

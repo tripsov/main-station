@@ -1,8 +1,8 @@
 - type: entity
-  name: space shrimp
+  name: entity-mobspaceshrimp-name
   parent: [ SimpleMobBase, FlyingMobBase, MobCombat ]
   id: MobSpaceShrimp
-  description: Shrimply cursed...
+  description: entity-mobspaceshrimp-description
   components:
   - type: MeleeWeapon
     soundHit:

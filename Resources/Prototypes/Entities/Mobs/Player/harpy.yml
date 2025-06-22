@@ -1,6 +1,6 @@
 - type: entity
   save: false
-  name: Urist McHarpy
+  name: entity-mobharpy-name
   parent: MobHarpyBase
   id: MobHarpy
   components:

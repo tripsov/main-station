@@ -1,6 +1,6 @@
 - type: tile
   id: FloorAbductor
-  name: tiles-abductor-floor
+  name: tile-floorabductor-name
   sprite: /Textures/_Shitmed/Tiles/abductor_tile.png
   isSubfloor: true
   footstepSounds:

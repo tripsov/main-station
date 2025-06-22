@@ -1,7 +1,7 @@
 - type: entity
   id: OrganAnimalBrain
   parent: BaseAnimalOrganUnGibbable
-  name: animal brain
+  name: entity-organanimalbrain-name
   description: "Not so intelligence, not so honk."
   components:
   - type: Sprite
@@ -43,7 +43,7 @@
 - type: entity
   id: OrganAnimalEyes
   parent: BaseAnimalOrgan
-  name: animal eyes
+  name: entity-organanimaleyes-name
   description: "I see you!"
   components:
   - type: Organ # Shitmed Change

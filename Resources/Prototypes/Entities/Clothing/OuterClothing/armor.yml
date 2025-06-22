@@ -4,8 +4,8 @@
 - type: entity
   parent: [ClothingOuterBaseMedium, AllowSuitStorageClothing]
   id: ClothingOuterArmorBasic
-  name: armor vest
-  description: A standard Type I armored vest that provides decent protection against most types of damage.
+  name: entity-clothingouterarmorbasic-name
+  description: entity-clothingouterarmorbasic-description
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/security.rsi
@@ -36,9 +36,9 @@
 - type: entity
   parent: ClothingOuterArmorBasic
   id: ClothingOuterArmorBasicSlim
-  name: armor vest
+  name: entity-clothingouterarmorbasic-name
   suffix: slim
-  description: A slim Type I armored vest that provides decent protection against most types of damage.
+  description: entity-clothingouterarmorbasicslim-description
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/security_slim.rsi
@@ -48,8 +48,8 @@
 - type: entity
   parent: [ClothingOuterBaseLarge, AllowSuitStorageClothing]
   id: ClothingOuterArmorRiot
-  name: riot suit
-  description: A suit of semi-flexible polycarbonate body armor with heavy padding to protect against melee attacks. Perfect for fighting delinquents around the station.
+  name: entity-clothingouterarmorriot-name
+  description: entity-clothingouterarmorriot-description
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/riot.rsi
@@ -70,8 +70,8 @@
 - type: entity
   parent: [ClothingOuterBaseLarge, AllowSuitStorageClothing, ClothingOuterEVASuitBase]
   id: ClothingOuterArmorSwat
-  name: swat suit
-  description: Composed of semi-flexible polycarbonate, reinforced materials, and integrated ballistic plating, it offers exceptional protection against melee, bullet, and environmental threats, ensuring officers remain combat-ready in the harshest conditions.
+  name: entity-clothingouterarmorswat-name
+  description: entity-clothingouterarmorswat-description
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/swat.rsi
@@ -99,8 +99,8 @@
 - type: entity
   parent: ClothingOuterArmorBasic
   id: ClothingOuterArmorBulletproof
-  name: bulletproof vest
-  description: A Type III heavy bulletproof vest that provides superb protection against bullets, but is lackluster against anything else.
+  name: entity-clothingouterarmorbulletproof-name
+  description: entity-clothingouterarmorbulletproof-description
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/bulletproof.rsi
@@ -119,8 +119,8 @@
 - type: entity
   parent: [ClothingOuterBaseLarge, AllowSuitStorageClothing ]
   id: ClothingOuterArmorRaid
-  name: syndicate raid suit
-  description: A somewhat flexible and well-armored suit with a powerful shoulder mounted flashlight manufactured in the Gorlex Marauder's iconic blood-red color scheme, it does not protect its wearer from space.
+  name: entity-clothingouterarmorraid-name
+  description: entity-clothingouterarmorraid-description
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/syndie-raid.rsi
@@ -191,8 +191,8 @@
 - type: entity
   parent: ClothingOuterArmorBasic
   id: ClothingOuterArmorReflective
-  name: reflective vest
-  description: An armored vest with advanced shielding to protect against energy weapons.
+  name: entity-clothingouterarmorreflective-name
+  description: entity-clothingouterarmorreflective-description
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/armor_reflec.rsi
@@ -216,8 +216,8 @@
 - type: entity
   parent: ClothingOuterBaseLarge
   id: ClothingOuterArmorCult
-  name: acolyte armor
-  description: An evil-looking piece of cult armor, made of bones.
+  name: entity-clothingouterarmorcult-name
+  description: entity-clothingouterarmorcult-description
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/cult_armour.rsi
@@ -235,8 +235,8 @@
 - type: entity
   parent: [ClothingOuterBaseLarge, AllowSuitStorageClothing]
   id: ClothingOuterArmorHeavy
-  name: heavy armor suit
-  description: A heavily armored suit that protects against excessive damage.
+  name: entity-clothingouterarmorheavy-name
+  description: entity-clothingouterarmorheavy-description
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/heavy.rsi
@@ -262,8 +262,8 @@
 - type: entity
   parent: [ClothingOuterBaseLarge, AllowSuitStorageClothing]
   id: ClothingOuterArmorHosSamurai
-  name: daimyō's tousei gusoku
-  description: A tousei gusoku fashioned for the Head of Security, it's primarily for ceremonial use, lacking pockets and gauntlets to make handling firearms easier, but still provides suitable protection for the Head of Security. Pairs excellently with a Katana sheath or tuncheon!
+  name: entity-clothingouterarmorhossamurai-name
+  description: entity-clothingouterarmorhossamurai-description
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/hosamurai.rsi
@@ -287,8 +287,8 @@
 - type: entity
   parent: ClothingOuterArmorHeavy
   id: ClothingOuterArmorHeavyGreen
-  name: green heavy armor suit
-  description: A heavily armored suit with green accents that protects against excessive damage.
+  name: entity-clothingouterarmorheavygreen-name
+  description: entity-clothingouterarmorheavygreen-description
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/heavygreen.rsi
@@ -298,8 +298,8 @@
 - type: entity
   parent: ClothingOuterArmorHeavy
   id: ClothingOuterArmorHeavyRed
-  name: red heavy armor suit
-  description: A heavily armored suit with red accents that protects against excessive damage.
+  name: entity-clothingouterarmorheavyred-name
+  description: entity-clothingouterarmorheavyred-description
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/heavyred.rsi
@@ -309,8 +309,8 @@
 - type: entity
   parent: ClothingOuterArmorHeavy
   id: ClothingOuterArmorMagusblue
-  name: blue magus armor
-  description: An blue armored suit that provides good protection.
+  name: entity-clothingouterarmormagusblue-name
+  description: entity-clothingouterarmormagusblue-description
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/magusblue.rsi
@@ -320,8 +320,8 @@
 - type: entity
   parent: ClothingOuterArmorHeavy
   id: ClothingOuterArmorMagusred
-  name: red magus armor
-  description: A red armored suit that provides good protection.
+  name: entity-clothingouterarmormagusred-name
+  description: entity-clothingouterarmormagusred-description
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/magusred.rsi
@@ -357,8 +357,8 @@
 - type: entity
   parent: ClothingOuterBaseLarge
   id: ClothingOuterArmorChangeling
-  name: chitinous armor
-  description: Inflates the changeling's body into an all-consuming chitinous mass of armor.
+  name: entity-clothingouterarmorchangeling-name
+  description: entity-clothingouterarmorchangeling-description
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/lingarmor.rsi
@@ -388,8 +388,8 @@
 - type: entity
   parent: ClothingOuterBaseLarge
   id: ClothingOuterArmorBone
-  name: bone armor
-  description: Sits on you like a second skin.
+  name: entity-clothingouterarmorbone-name
+  description: entity-clothingouterarmorbone-description
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/bone_armor.rsi
@@ -416,8 +416,8 @@
 - type: entity
   parent: ClothingOuterBaseLarge
   id: ClothingOuterArmorPodWars
-  name: ironclad II armor
-  description: A repurposed suit of ironclad II armor, a relic of the pod wars.
+  name: entity-clothingouterarmorpodwars-name
+  description: entity-clothingouterarmorpodwars-description
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/podwars_armor.rsi

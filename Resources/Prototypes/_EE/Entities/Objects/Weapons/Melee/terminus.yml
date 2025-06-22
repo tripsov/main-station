@@ -1,8 +1,8 @@
 - type: entity
-  name: DT-8 "Terminus"
+  name: entity-terminus-name
   parent: BaseItem
   id: Terminus
-  description: An advanced weapon crafted specifically for an oni. Capable of firing a spread of disabler shots from its tip.
+  description: entity-terminus-description
   components:
   - type: RestrictedMelee
     whitelist:

@@ -1,8 +1,8 @@
 - type: entity
-  name: base shield
+  name: entity-baseshield-name
   parent: BaseItem
   id: BaseShield
-  description: A shield!
+  description: entity-baseshield-description
   abstract: true
   components:
   - type: Sprite
@@ -64,19 +64,19 @@
 #Security Shields
 
 - type: entity
-  name: riot shield
+  name: entity-riotshield-name
   parent: BaseShield
   id: RiotShield
-  description: A large tower shield. Good for controlling crowds.
+  description: entity-riotshield-description
   components:
   - type: StaticPrice
     price: 90
 
 - type: entity
-  name: riot laser shield
+  name: entity-riotlasershield-name
   parent: BaseShield
   id: RiotLaserShield
-  description: A riot shield built for withstanding lasers, but not much else.
+  description: entity-riotlasershield-description
   components:
   - type: Sprite
     state: riot_laser-icon
@@ -93,10 +93,10 @@
         Heat: 2
 
 - type: entity
-  name: riot bullet shield
+  name: entity-riotbulletshield-name
   parent: BaseShield
   id: RiotBulletShield
-  description: A ballistic riot shield built for withstanding bullets, but not much else.
+  description: entity-riotbulletshield-description
   components:
   - type: Sprite
     state: riot_bullet-icon
@@ -118,10 +118,10 @@
 #Craftable shields
 
 - type: entity
-  name: wooden buckler
+  name: entity-woodenbuckler-name
   parent: BaseShield
   id: WoodenBuckler
-  description: A small round wooden makeshift shield.
+  description: entity-woodenbuckler-description
   components:
   - type: Sprite
     state: buckler-icon
@@ -173,10 +173,10 @@
     price: 150
 
 - type: entity
-  name: makeshift shield
+  name: entity-makeshiftshield-name
   parent: BaseShield
   id: MakeshiftShield
-  description: A rundown looking shield, not good for much.
+  description: entity-makeshiftshield-description
   components:
   - type: Sprite
     state: makeshift-icon
@@ -227,10 +227,10 @@
             max: 2
 
 - type: entity
-  name: web shield
+  name: entity-webshield-name
   parent: BaseShield
   id: WebShield
-  description: A stringy shield. It's weak, and doesn't seem to do well against heat.
+  description: entity-webshield-description
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/web-shield.rsi
@@ -282,10 +282,10 @@
 #Magic/Cult Shields (give these to wizard for now)
 
 - type: entity
-  name: clockwork shield
+  name: entity-clockworkshield-name
   parent: BaseShield
   id: ClockworkShield
-  description: Ratvar oyrffrf lbh jvgu uvf cebgrpgvba.
+  description: entity-clockworkshield-description
   components:
   - type: Sprite
     state: ratvarian-icon
@@ -311,10 +311,10 @@
     #Have it break into brass when clock cult is in
 
 - type: entity
-  name: energy shield
+  name: entity-energyshield-name
   parent: BaseItem
   id: EnergyShield
-  description: Exotic energy shield, when folded, can even fit in your pocket.
+  description: entity-energyshield-description
   components:
   - type: ItemToggle
     soundActivate:
@@ -405,10 +405,10 @@
   # WD EDIT END
 
 - type: entity
-  name: broken energy shield
+  name: entity-brokenenergyshield-name
   parent: BaseItem
   id: BrokenEnergyShield
-  description: Something inside is burned out, it is no longer functional.
+  description: entity-brokenenergyshield-description
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/e_shield.rsi
@@ -419,10 +419,10 @@
     heldPrefix: eshield
 
 - type: entity
-  name: telescopic shield
+  name: entity-telescopicshield-name
   parent: BaseShield
   id: TelescopicShield
-  description: An advanced riot shield made of lightweight materials that collapses for easy storage.
+  description: entity-telescopicshield-description
   components:
   - type: ItemToggle
     soundActivate:

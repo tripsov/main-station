@@ -2,8 +2,8 @@
 - type: entity
   parent: Crowbar
   id: CrowbarAbductor
-  name: high-tech crowbar
-  description: Made out of metal more durable than anything Nanotrasen could dream of.
+  name: entity-crowbarabductor-name
+  description: entity-crowbarabductor-description
   components:
   - type: Sprite
     sprite: _Shitmed/Objects/Specific/Abductor/crowbar.rsi
@@ -19,10 +19,10 @@
     - Abductors
 
 - type: entity
-  name: high-tech wirecutter
+  name: entity-wirecutterabductor-name
   parent: BaseItem
   id: WirecutterAbductor
-  description: Cuts through wires like a hot knife through butter.
+  description: entity-wirecutterabductor-description
   components:
   - type: Sprite
     sprite: _Shitmed/Objects/Specific/Abductor/wirecutters.rsi
@@ -74,10 +74,10 @@
     - Abductors
 
 - type: entity
-  name: high-tech screwdriver
+  name: entity-screwdriverabductor-name
   parent: BaseItem
   id: ScrewdriverAbductor
-  description: More efficient than anything Nanotrasen could dream of. Not to be confused with a sonic screwdriver.
+  description: entity-screwdriverabductor-description
   components:
   - type: Sprite
     sprite: _Shitmed/Objects/Specific/Abductor/screwdriver.rsi
@@ -123,10 +123,10 @@
     - Abductors
 
 - type: entity
-  name: high-tech wrench
+  name: entity-wrenchabductor-name
   parent: Wrench
   id: WrenchAbductor
-  description: Can take a bolt off in a single turn. Not intended for melee combat.
+  description: entity-wrenchabductor-description
   components:
   - type: Sprite
     sprite: _Shitmed/Objects/Specific/Abductor/wrench.rsi
@@ -149,7 +149,7 @@
     - Abductors
 
 - type: entity
-  name: high-tech welding tool
+  name: entity-welderabductor-name
   parent: Welder
   id: WelderAbductor
   description: "A highly advanced welder capable of producing infinite fuel."
@@ -184,10 +184,10 @@
     - Abductors
 
 - type: entity
-  name: high-tech multitool
+  name: entity-multitoolabductor-name
   parent: BaseItem
   id: MultitoolAbductor
-  description: A highly advanced hacking tool capable of viewing wire functionality. Can be used as Cryptographic sequencer in its alternate mode.
+  description: entity-multitoolabductor-description
   components:
   - type: EmitSoundOnLand
     sound:

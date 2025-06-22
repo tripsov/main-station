@@ -1,6 +1,6 @@
 - type: microwaveMealRecipe
   id: RecipeGrilledCheese
-  name: grilled cheese
+  name: microwavemealrecipe-recipegrilledcheese-name
   result: FoodMealGrilledCheese
   time: 10
   solids:
@@ -10,7 +10,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeScrambledEggs
-  name: scrambled eggs recipe
+  name: microwavemealrecipe-recipescrambledeggs-name
   result: FoodMealScrambledEggs
   time: 5
   reagents:
@@ -22,7 +22,7 @@
 
 - type: microwaveMealRecipe
   id: RecipePumpkinPie
-  name: pumpkin pie
+  name: microwavemealrecipe-recipepumpkinpie-name
   result: FoodPiePumpkin
   time: 15
   solids:
@@ -32,7 +32,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeBlueTomatoSoup
-  name: blue tomato soup recipe
+  name: microwavemealrecipe-recipebluetomatosoup-name
   result: FoodSoupTomatoBlue
   time: 10
   reagents:
@@ -43,7 +43,7 @@
 
 - type: microwaveMealRecipe
   id: RecipePurpleTomatoSoup
-  name: purple tomato soup recipe
+  name: microwavemealrecipe-recipepurpletomatosoup-name
   result: FoodSoupTomatoPurple
   time: 10
   reagents:
@@ -55,7 +55,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeChickenNuggetBox
-  name: chicken nugget box recipe
+  name: microwavemealrecipe-recipechickennuggetbox-name
   result: FoodBoxNugget
   time: 10
   reagents:

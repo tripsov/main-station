@@ -1,8 +1,8 @@
 - type: entity
-  name: dualetta kit
+  name: entity-boxdualettakit-name
   parent: BoxCardboard
   id: BoxDualettaKit
-  description: A box full of completely legal stuff.
+  description: entity-boxdualettakit-description
   components:
   - type: StorageFill
     contents:

@@ -1,7 +1,7 @@
 - type: entity
-  name: deployable barrier
+  name: entity-deployablebarrier-name
   id: DeployableBarrier
-  description: A deployable barrier. Swipe your ID card to lock/unlock it.
+  description: entity-deployablebarrier-description
   parent: BaseStructure
   components:
   - type: Transform

@@ -1,8 +1,8 @@
 - type: entity
   parent: [BaseStructure, StructureWheeled]
   id: NuclearBomb
-  name: nuclear fission explosive
-  description: You probably shouldn't stick around to see if this is armed.
+  name: entity-nuclearbomb-name
+  description: entity-nuclearbomb-description
   components:
   - type: Transform
     anchored: true
@@ -118,9 +118,9 @@
 - type: entity
   parent: StorageTank
   id: NuclearBombKeg
-  name: nuclear fission explosive
+  name: entity-nuclearbomb-name
   suffix: keg
-  description: You probably shouldn't stick around to see if this is armed. It has a tap on the side.
+  description: entity-nuclearbombkeg-description
   components:
   - type: NukeLabel
   - type: Sprite

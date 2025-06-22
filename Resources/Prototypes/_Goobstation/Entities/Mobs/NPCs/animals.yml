@@ -148,11 +148,11 @@
 #     - Syndicate
 
 - type: entity
-  name: syndie bee
+  name: entity-mobsyndieangrybee-name
   suffix: Angry, syndicate
   parent: [ MobAngryBee ]
   id: MobSyndieAngryBee
-  description: How nice a bee. Oh no, it looks angry and wants my pizza.
+  description: entity-mobsyndieangrybee-description
   components:
   - type: NpcFactionMember
     factions:

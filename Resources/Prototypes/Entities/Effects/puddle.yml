@@ -86,7 +86,7 @@
 
 - type: entity
   id: PuddleSparkle
-  name: sparkle
+  name: entity-puddlesparkle-name
   placement:
     mode: SnapgridCenter
   components:
@@ -105,9 +105,9 @@
       color: "#FFFFFF80"
 
 - type: entity
-  name: puddle
+  name: entity-puddle-name
   id: Puddle
-  description: A puddle of liquid.
+  description: entity-puddle-description
   placement:
     mode: SnapgridCenter
   components:
@@ -169,10 +169,10 @@
   - type: PuddleFootPrints
 
 - type: entity
-  name: footstep
+  name: entity-footstep-name
   id: Footstep
   save: false
-  description: Trace of liquid.
+  description: entity-footstep-description
   components:
     - type: Clickable
     - type: FootstepModifier

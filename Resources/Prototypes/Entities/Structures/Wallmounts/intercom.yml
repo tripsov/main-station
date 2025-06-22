@@ -1,7 +1,7 @@
 - type: entity
   id: BaseIntercom
-  name: intercom
-  description: An intercom. For when the station just needs to know something.
+  name: entity-baseintercom-name
+  description: entity-baseintercom-description
   abstract: true
   components:
   - type: StationAiWhitelist
@@ -127,8 +127,8 @@
 
 - type: entity
   id: IntercomAssembly
-  name: intercom assembly
-  description: An intercom. It doesn't seem very helpful right now.
+  name: entity-intercomassembly-name
+  description: entity-intercomassembly-description
   components:
   - type: WallMount
   - type: Clickable
@@ -276,7 +276,7 @@
   id: IntercomSecurity
   parent: Intercom
   suffix: Security
-  description: An intercom. It's been reinforced with metal from security helmets, making it a bitch-and-a-half to open.
+  description: entity-intercomsecurity-description
   components:
   - type: WiresPanel
     openDelay: 5

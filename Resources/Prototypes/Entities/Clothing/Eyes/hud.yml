@@ -29,8 +29,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesHudDiagnostic
-  name: diagnostic hud
-  description: A heads-up display capable of analyzing the integrity and status of robotics and exosuits. Made out of see-borg-ium.
+  name: entity-clothingeyeshuddiagnostic-name
+  description: entity-clothingeyeshuddiagnostic-description
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/diag.rsi
@@ -44,8 +44,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesHudMedical
-  name: medical hud
-  description: A heads-up display that scans the humanoids in view and provides accurate data about their health status.
+  name: entity-clothingeyeshudmedical-name
+  description: entity-clothingeyeshudmedical-description
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/med.rsi
@@ -67,8 +67,8 @@
 - type: entity
   parent: [ClothingEyesBase, ShowSecurityIcons]
   id: ClothingEyesHudSecurity
-  name: security hud
-  description: A heads-up display that scans the humanoids in view and provides accurate data about their ID status and security records.
+  name: entity-clothingeyeshudsecurity-name
+  description: entity-clothingeyeshudsecurity-description
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/sec.rsi
@@ -84,8 +84,8 @@
 - type: entity
   parent: [ClothingEyesBase, ShowPsionicsIcons]
   id: ClothingEyesHudEpistemics
-  name: epi psionics hud
-  description: A heads-up display that scans the humanoids in view and provides accurate data about their psionics records.
+  name: entity-clothingeyeshudepistemics-name
+  description: entity-clothingeyeshudepistemics-description
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/epi.rsi
@@ -95,8 +95,8 @@
 - type: entity
   parent: ClothingEyesBase # WD EDIT
   id: ClothingEyesHudBeer
-  name: beer goggles
-  description: A pair of sunHud outfitted with apparatus to scan reagents, as well as providing an innate understanding of liquid viscosity while in motion.
+  name: entity-clothingeyeshudbeer-name
+  description: entity-clothingeyeshudbeer-description
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/beergoggles.rsi
@@ -110,8 +110,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesHudFriedOnion
-  name: fried onion goggles
-  description: Filler
+  name: entity-clothingeyeshudfriedonion-name
+  description: entity-clothingeyeshudfriedonion-description
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/friedonion.rsi
@@ -134,8 +134,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesHudOnionBeer
-  name: thungerst goggles
-  description: Filler
+  name: entity-clothingeyeshudonionbeer-name
+  description: entity-clothingeyeshudfriedonion-description
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/onionbeer.rsi
@@ -147,8 +147,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesHudMedOnion
-  name: medonion hud
-  description: Filler
+  name: entity-clothingeyeshudmedonion-name
+  description: entity-clothingeyeshudfriedonion-description
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/medonion.rsi
@@ -165,8 +165,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesHudMedOnionBeer
-  name: medthungerst hud
-  description: Filler
+  name: entity-clothingeyeshudmedonionbeer-name
+  description: entity-clothingeyeshudfriedonion-description
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/medonionbeer.rsi
@@ -184,8 +184,8 @@
 - type: entity
   parent: [ClothingEyesBase, ShowSecurityIcons]
   id: ClothingEyesHudMedSec
-  name: medsec hud
-  description: An eye display that looks like a mixture of medical and security huds.
+  name: entity-clothingeyeshudmedsec-name
+  description: entity-clothingeyeshudmedsec-description
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/medsec.rsi
@@ -207,8 +207,8 @@
 - type: entity
   parent: [ClothingEyesBase, ShowSecurityIcons]
   id: ClothingEyesHudMultiversal
-  name: multiversal hud
-  description: Filler
+  name: entity-clothingeyeshudmultiversal-name
+  description: entity-clothingeyeshudfriedonion-description
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/medsecengi.rsi
@@ -226,8 +226,8 @@
 - type: entity
   parent: [ClothingEyesBase, ShowSecurityIcons]
   id: ClothingEyesHudOmni
-  name: omni hud
-  description: Filler
+  name: entity-clothingeyeshudomni-name
+  description: entity-clothingeyeshudfriedonion-description
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/omni.rsi
@@ -247,8 +247,8 @@
 - type: entity
   parent: [ClothingEyesBase, ShowSecurityIcons] # WD EDIT
   id: ClothingEyesHudSyndicate
-  name: syndicate visor
-  description: The syndicate's professional head-up display, designed for better detection of humanoids and their subsequent elimination.
+  name: entity-clothingeyeshudsyndicate-name
+  description: entity-clothingeyeshudsyndicate-description
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/synd.rsi
@@ -259,8 +259,8 @@
 - type: entity
   parent: [ClothingEyesBase, ShowSecurityIcons] # WD EDIT
   id: ClothingEyesHudSyndicateAgent
-  name: syndicate agent visor
-  description: The Syndicate Agent's professional heads-up display, designed for quick diagnosis of their team's status.
+  name: entity-clothingeyeshudsyndicateagent-name
+  description: entity-clothingeyeshudsyndicateagent-description
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/syndagent.rsi
@@ -279,8 +279,8 @@
 - type: entity
   parent: ClothingEyesHudMedical
   id: ClothingEyesEyepatchHudMedical
-  name: medical hud eyepatch
-  description: A heads-up display that scans the humanoids in view and provides accurate data about their health status. For true patriots.
+  name: entity-clothingeyeseyepatchhudmedical-name
+  description: entity-clothingeyeseyepatchhudmedical-description
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/medpatch.rsi
@@ -290,8 +290,8 @@
 - type: entity
   parent: ClothingEyesHudSecurity
   id: ClothingEyesEyepatchHudSecurity
-  name: security hud eyepatch
-  description: A heads-up display that scans the humanoids in view and provides accurate data about their ID status and security records. For true patriots.
+  name: entity-clothingeyeseyepatchhudsecurity-name
+  description: entity-clothingeyeseyepatchhudsecurity-description
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/secpatch.rsi
@@ -301,8 +301,8 @@
 - type: entity
   parent: ClothingEyesHudBeer
   id: ClothingEyesEyepatchHudBeer
-  name: beer hud eyepatch
-  description: A pair of sunHud outfitted with apparatus to scan reagents, as well as providing an innate understanding of liquid viscosity while in motion. For true patriots.
+  name: entity-clothingeyeseyepatchhudbeer-name
+  description: entity-clothingeyeseyepatchhudbeer-description
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/beerpatch.rsi
@@ -312,8 +312,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesEyepatchHudDiag
-  name: diagnostic hud eyepatch
-  description: A heads-up display capable of analyzing the integrity and status of robotics and exosuits. Made out of see-borg-ium.
+  name: entity-clothingeyeseyepatchhuddiag-name
+  description: entity-clothingeyeshuddiagnostic-description
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/diagpatch.rsi

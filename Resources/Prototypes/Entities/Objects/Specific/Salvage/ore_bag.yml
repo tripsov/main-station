@@ -1,8 +1,8 @@
 - type: entity
-  name: ore bag
+  name: entity-orebag-name
   id: OreBag
   parent: BaseStorageItem
-  description: A robust bag for salvage specialists and miners alike to carry large amounts of ore. Magnetises any nearby ores when attached to a belt.
+  description: entity-orebag-description
   components:
   - type: MagnetPickup
   - type: Sprite

@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: BaseAmphora
-  name: amphora
-  description: It's an earthenware jar suitable for carrying liquids, an example of ancient technology.
+  name: entity-baseamphora-name
+  description: entity-baseamphora-description
   abstract: true
   components:
   - type: Sprite

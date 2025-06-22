@@ -1,8 +1,8 @@
 # Implanters
 
 - type: entity
-  name: implanter
-  description: A syringe exclusively designed for the injection and extraction of subdermal implants.
+  name: entity-baseimplanter-name
+  description: entity-baseimplanter-description
   id: BaseImplanter
   parent: BaseItem
   abstract: true
@@ -57,7 +57,7 @@
 - type: entity
   id: Implanter
   parent: BaseImplanter
-  description: A disposable syringe exclusively designed for the injection and extraction of subdermal implants.
+  description: entity-implanter-description
   components:
     - type: Tag
       tags:
@@ -76,7 +76,7 @@
 - type: entity
   id: BaseImplantOnlyImplanter
   parent: Implanter
-  description: A disposable syringe exclusively designed for the injection of subdermal implants.
+  description: entity-baseimplantonlyimplanter-description
   abstract: true
   components:
     - type: Sprite
@@ -95,7 +95,7 @@
 - type: entity
   id: BaseImplantOnlyImplanterSyndi
   parent: BaseImplantOnlyImplanter
-  description: A compact disposable syringe exclusively designed for the injection of subdermal implants.
+  description: entity-baseimplantonlyimplantersyndi-description
   abstract: true
   components:
     - type: Item
@@ -126,7 +126,7 @@
 
 - type: entity
   id: SadTromboneImplanter
-  name: sad trombone implanter
+  name: entity-sadtromboneimplanter-name
   parent: BaseImplantOnlyImplanter
   components:
     - type: Implanter
@@ -134,7 +134,7 @@
 
 - type: entity
   id: LightImplanter
-  name: light implanter
+  name: entity-lightimplanter-name
   parent: BaseImplantOnlyImplanter
   components:
     - type: Implanter
@@ -142,7 +142,7 @@
 
 - type: entity
   id: BikeHornImplanter
-  name: bike horn implanter
+  name: entity-bikehornimplanter-name
   parent: BaseImplantOnlyImplanter
   components:
     - type: Implanter
@@ -152,7 +152,7 @@
 
 - type: entity
   id: TrackingImplanter
-  name: tracking implanter
+  name: entity-trackingimplanter-name
   parent: BaseImplantOnlyImplanter
   components:
     - type: Implanter
@@ -162,7 +162,7 @@
 
 - type: entity
   id: StorageImplanter
-  name: storage implanter
+  name: entity-storageimplanter-name
   parent: BaseImplantOnlyImplanterSyndi
   components:
     - type: Implanter
@@ -170,7 +170,7 @@
 
 - type: entity
   id: FreedomImplanter
-  name: freedom implanter
+  name: entity-freedomimplanter-name
   parent: BaseImplantOnlyImplanterSyndi
   components:
     - type: Implanter
@@ -178,7 +178,7 @@
 
 - type: entity
   id: UplinkImplanter
-  name: uplink implanter
+  name: entity-uplinkimplanter-name
   parent: BaseImplantOnlyImplanterSyndi
   components:
   - type: Implanter
@@ -187,7 +187,7 @@
 
 - type: entity
   id: EmpImplanter
-  name: EMP implanter
+  name: entity-empimplanter-name
   parent: BaseImplantOnlyImplanterSyndi
   components:
     - type: Implanter
@@ -195,7 +195,7 @@
 
 - type: entity
   id: ScramImplanter
-  name: scram implanter
+  name: entity-scramimplanter-name
   parent: BaseImplantOnlyImplanterSyndi
   components:
     - type: Implanter
@@ -203,7 +203,7 @@
 
 - type: entity
   id: DnaScramblerImplanter
-  name: DNA scrambler implanter
+  name: entity-dnascramblerimplanter-name
   parent: BaseImplantOnlyImplanterSyndi
   components:
     - type: Implanter
@@ -213,7 +213,7 @@
 
 - type: entity
   id: MicroBombImplanter
-  name: micro-bomb implanter
+  name: entity-microbombimplanter-name
   parent: BaseImplantOnlyImplanterSyndi
   components:
     - type: Implanter
@@ -221,7 +221,7 @@
 
 - type: entity
   id: MacroBombImplanter
-  name: macro-bomb implanter
+  name: entity-macrobombimplanter-name
   parent: BaseImplantOnlyImplanterSyndi
   components:
     - type: Implanter
@@ -229,7 +229,7 @@
 
 - type: entity
   id: DeathRattleImplanter
-  name: death rattle implanter
+  name: entity-deathrattleimplanter-name
   parent: BaseImplantOnlyImplanterSyndi
   components:
     - type: Implanter
@@ -237,7 +237,7 @@
 
 - type: entity
   id: DeathAcidifierImplanter
-  name: death acidifier implanter
+  name: entity-deathacidifierimplanter-name
   parent: BaseImplantOnlyImplanterSyndi
   components:
   - type: Implanter
@@ -247,7 +247,7 @@
 
 - type: entity
   id: MindShieldImplanter
-  name: mind-shield implanter
+  name: entity-mindshieldimplanter-name
   parent: BaseImplantOnlyImplanter
   components:
     - type: Implanter

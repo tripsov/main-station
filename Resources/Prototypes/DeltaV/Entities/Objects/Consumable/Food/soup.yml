@@ -1,8 +1,8 @@
 - type: entity
-  name: scrambled eggs
+  name: entity-foodmealscrambledeggs-name
   parent: FoodBowlBase
   id: FoodMealScrambledEggs
-  description: Some cooked eggs with salt. Yummy!
+  description: entity-foodmealscrambledeggs-description
   components:
   - type: FlavorProfile
     flavors:
@@ -25,10 +25,10 @@
 # Tastes like eggs, butter and salt
 
 - type: entity
-  name: blue tomato soup
+  name: entity-foodsouptomatoblue-name
   parent: FoodBowlBase
   id: FoodSoupTomatoBlue
-  description: It's hard to avoid spilling this tomato soup...
+  description: entity-foodsouptomatoblue-description
   components:
   - type: FlavorProfile
     flavors:
@@ -56,10 +56,10 @@
     - Soup
 
 - type: entity
-  name: purple tomato soup
+  name: entity-foodsouptomatopurple-name
   parent: FoodBowlBase
   id: FoodSoupTomatoPurple
-  description: Do they make purple tomatoes?
+  description: entity-foodsouptomatopurple-description
   components:
   - type: FlavorProfile
     flavors:

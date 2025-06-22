@@ -3,8 +3,8 @@
 - type: entity
   id: ClarkeCentralElectronics
   parent: BaseElectronics
-  name: clarke central control module
-  description: The electrical control center for the clarke mech.
+  name: entity-clarkecentralelectronics-name
+  description: entity-clarkecentralelectronics-description
   components:
     - type: Item
       storedRotation: 0
@@ -21,8 +21,8 @@
 - type: entity
   id: ClarkePeripheralsElectronics
   parent: BaseElectronics
-  name: clarke peripherals control module
-  description: The electrical peripherals control for the clarke mech.
+  name: entity-clarkeperipheralselectronics-name
+  description: entity-clarkeperipheralselectronics-description
   components:
     - type: Sprite
       sprite: Objects/Misc/module.rsi
@@ -39,8 +39,8 @@
 - type: entity
   id: GygaxCentralElectronics
   parent: BaseElectronics
-  name: gygax central control module
-  description: The electrical control center for the gygax mech.
+  name: entity-gygaxcentralelectronics-name
+  description: entity-gygaxcentralelectronics-description
   components:
     - type: Item
       storedRotation: 0
@@ -57,8 +57,8 @@
 - type: entity
   id: GygaxPeripheralsElectronics
   parent: BaseElectronics
-  name: gygax peripherals control module
-  description: The electrical peripherals control for the gygax mech.
+  name: entity-gygaxperipheralselectronics-name
+  description: entity-gygaxperipheralselectronics-description
   components:
     - type: Sprite
       sprite: Objects/Misc/module.rsi
@@ -73,8 +73,8 @@
 - type: entity
   id: GygaxTargetingElectronics
   parent: BaseElectronics
-  name: gygax weapon control and targeting module
-  description: The electrical targeting control for the gygax mech.
+  name: entity-gygaxtargetingelectronics-name
+  description: entity-gygaxtargetingelectronics-description
   components:
     - type: Sprite
       sprite: Objects/Misc/module.rsi
@@ -91,8 +91,8 @@
 - type: entity
   id: DurandCentralElectronics
   parent: BaseElectronics
-  name: durand central control module
-  description: The electrical control center for the durand mech.
+  name: entity-durandcentralelectronics-name
+  description: entity-durandcentralelectronics-description
   components:
     - type: Item
       storedRotation: 0
@@ -109,8 +109,8 @@
 - type: entity
   id: DurandPeripheralsElectronics
   parent: BaseElectronics
-  name: durand peripherals control module
-  description: The electrical peripherals control for the durand mech.
+  name: entity-durandperipheralselectronics-name
+  description: entity-durandperipheralselectronics-description
   components:
     - type: Sprite
       sprite: Objects/Misc/module.rsi
@@ -125,8 +125,8 @@
 - type: entity
   id: DurandTargetingElectronics
   parent: BaseElectronics
-  name: durand weapon control and targeting module
-  description: The electrical targeting control for the durand mech.
+  name: entity-durandtargetingelectronics-name
+  description: entity-durandtargetingelectronics-description
   components:
     - type: Sprite
       sprite: Objects/Misc/module.rsi

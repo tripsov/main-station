@@ -1,6 +1,6 @@
 - type: entity
   id: N14Rails
-  name: railway
+  name: entity-n14rails-name
   placement:
     mode: SnapgridCenter
   components:

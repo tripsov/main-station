@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: ClothingModsuitHelmetStandard
   id: ClothingModsuitHelmetInfiltrator
-  name: infiltrator modsuit helmet
-  description: A purpose-built helmet that can be neatly folded and store in the infiltrator suit's main unit.
+  name: entity-clothingmodsuithelmetinfiltrator-name
+  description: entity-clothingmodsuithelmetinfiltrator-description
   categories: [ HideSpawnMenu ]
   components:
   - type: Appearance

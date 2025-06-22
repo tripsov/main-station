@@ -1,6 +1,6 @@
 - type: entity
   id: StressTest
-  name: stress test
+  name: entity-stresstest-name
   suffix: DEBUG
   components:
   - type: Tag

@@ -1,8 +1,8 @@
 - type: entity
   parent: [BaseWeaponTurretNoHTR, ConstructibleMachine]
   id: WeaponTurretModular
-  name: modular turret
-  description: A remotely-operated turret designed to accept standard hand-held weapons. Being a simple gimbal mount, it is unable to recharge energy weapons.
+  name: entity-weaponturretmodular-name
+  description: entity-weaponturretmodular-description
   suffix: Remote controlled
   components:
   - type: Sprite

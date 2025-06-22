@@ -1,6 +1,6 @@
 - type: entity
   id: NapalmChemistryBottle
-  name: napalm bottle
+  name: entity-napalmchemistrybottle-name
   parent: BaseChemistryEmptyBottle
   components:
     - type: SolutionContainerManager
@@ -16,7 +16,7 @@
 
 - type: entity
   id: UltravasculineChemistryBottle
-  name: ultravasculine bottle
+  name: entity-ultravasculinechemistrybottle-name
   parent: BaseChemistryEmptyBottle
   components:
     - type: SolutionContainerManager

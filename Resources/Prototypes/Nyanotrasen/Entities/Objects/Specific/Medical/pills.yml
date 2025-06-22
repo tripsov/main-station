@@ -1,8 +1,8 @@
 - type: entity
-  name: mindbreaker toxin
+  name: entity-pillmindbreakertoxin-name
   parent: Pill
   id: PillMindbreakerToxin
-  description: Removes psionics when ingested. Mildly poisonous.
+  description: entity-pillmindbreakertoxin-description
   components:
   - type: SolutionContainerManager
     solutions:
@@ -15,10 +15,10 @@
     guides: [ Mindbreaking ]
 
 - type: entity
-  name: cryptobiolin
+  name: entity-pillcryptobiolin-name
   parent: Pill
   id: PillCryptobiolin
-  description: A long-lasting drug which causes mild confusion, but renders you psionically insulated.
+  description: entity-pillcryptobiolin-description
   components:
   - type: SolutionContainerManager
     solutions:
@@ -45,10 +45,10 @@
     guides: [ PsionicInsulation ]
 
 - type: entity
-  name: chloral-hydrate
+  name: entity-pillchloralhydrate-name
   parent: Pill
   id: PillChloralHydrate
-  description: A powerful sedative.
+  description: entity-pillchloralhydrate-description
   components:
   - type: SolutionContainerManager
     solutions:

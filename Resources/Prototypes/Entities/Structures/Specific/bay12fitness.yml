@@ -1,7 +1,7 @@
 - type: entity
   parent: SeatBase
   id: FitnessWeightsBench1
-  name: weights bench
+  name: entity-fitnessweightsbench1-name
   components:
   - type: Transform
     anchored: true
@@ -16,7 +16,7 @@
 - type: entity
   parent: FitnessWeightsBench1
   id: FitnessWeightLifter
-  name: weight lifter
+  name: entity-fitnessweightlifter-name
   components:
   - type: Sprite
     sprite: Structures/Specific/fitness.rsi
@@ -32,8 +32,8 @@
 - type: entity
   id: FitnessPunchingBagBopClown
   parent: BaseStructure
-  name: clown bop bag
-  description: A fitness training bag with a clown printed on it.
+  name: entity-fitnesspunchingbagbopclown-name
+  description: entity-fitnesspunchingbagbopclown-description
   components:
   - type: Sprite
     sprite: Structures/Specific/fitness.rsi
@@ -42,8 +42,8 @@
 - type: entity
   id: FitnessPunchingBag
   parent: BaseStructure
-  name: punching bag
-  description: A fitness training bag.
+  name: entity-fitnesspunchingbag-name
+  description: entity-fitnesspunchingbag-description
   components:
   - type: Sprite
     sprite: Structures/Specific/fitness.rsi
@@ -53,7 +53,7 @@
   id: FitnessPunchingBagCaptain
   parent: FitnessPunchingBag
   suffix: captain
-  description: A fitness training bag with a captain printed on it.
+  description: entity-fitnesspunchingbagcaptain-description
   components:
   - type: Sprite
     sprite: Structures/Specific/fitness.rsi
@@ -63,7 +63,7 @@
   id: FitnessPunchingBagSyndicate
   parent: FitnessPunchingBag
   suffix: syndicate
-  description: A fitness training bag with a syndicate agent printed on it.
+  description: entity-fitnesspunchingbagsyndicate-description
   components:
   - type: Sprite
     sprite: Structures/Specific/fitness.rsi
@@ -73,7 +73,7 @@
   id: FitnessPunchingBagWizard
   parent: FitnessPunchingBag
   suffix: wizard
-  description: A fitness training bag with a wizard printed on it.
+  description: entity-fitnesspunchingbagwizard-description
   components:
   - type: Sprite
     sprite: Structures/Specific/fitness.rsi

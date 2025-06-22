@@ -1,11 +1,11 @@
 - type: entity
-  name: hellspawn
+  name: entity-mobhellspawn-name
   parent:
   - BaseSimpleMob
   - MobCombat
   - MobBloodstream
   id: MobHellspawn
-  description: An unstoppable force of carnage.
+  description: entity-mobhellspawn-description
   components:
   - type: GhostRole
     allowMovement: true

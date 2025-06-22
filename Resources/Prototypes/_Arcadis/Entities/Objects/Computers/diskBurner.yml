@@ -1,8 +1,8 @@
 - type: entity
   id: DiskBurner
   parent: [ BaseMachinePowered, ConstructibleMachine ]
-  name: disk burner
-  description: Takes a computer circuit board and disk as input. Burns the computer board's program to the disk.
+  name: entity-diskburner-name
+  description: entity-diskburner-description
   components:
   - type: Sprite
     sprite: Structures/Machines/circuit_imprinter.rsi
@@ -54,7 +54,7 @@
 - type: entity
   id: DiskBurnerMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: disk burner machine board
+  name: entity-diskburnermachinecircuitboard-name
   components:
   - type: Sprite
     state: science

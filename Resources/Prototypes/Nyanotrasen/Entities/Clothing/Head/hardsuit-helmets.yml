@@ -2,8 +2,8 @@
   parent: ClothingHeadHelmetHardsuitRd
   id: ClothingHeadHelmetHardsuitMystagogue
   categories: [ HideSpawnMenu ]
-  name: mystagogue's hardsuit helmet
-  description: Lightweight hardsuit helmet that has a galaxy-first psionic passthrough system.
+  name: entity-clothingheadhelmethardsuitmystagogue-name
+  description: entity-clothingheadhelmethardsuitmystagogue-description
   components:
   - type: Psionic
     removable: false
@@ -18,8 +18,8 @@
   parent: ClothingHeadHelmetHardsuitSyndie
   id: ClothingHeadHelmetHardsuitSyndieReverseEngineered
   categories: [ HideSpawnMenu ]
-  name: SA-122 combat hardsuit helmet
-  description: An advanced hardsuit helmet designed for work in special operations.
+  name: entity-clothingheadhelmethardsuitsyndiereverseengineered-name
+  description: entity-clothingheadhelmethardsuitsyndiereverseengineered-description
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Head/ReverseEngineering/syndicate.rsi
@@ -40,8 +40,8 @@
   parent: ClothingHeadHelmetHardsuitCybersun
   id: ClothingHeadHelmetHardsuitJuggernautReverseEngineered
   categories: [ HideSpawnMenu ]
-  name: SA-126 combat hardsuit helmet
-  description: An assault hardsuit helmet featuring a top-secret translucent polymer.
+  name: entity-clothingheadhelmethardsuitjuggernautreverseengineered-name
+  description: entity-clothingheadhelmethardsuitjuggernautreverseengineered-description
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Head/ReverseEngineering/juggernaut.rsi
@@ -61,7 +61,7 @@
 - type: entity
   parent: ClothingHeadHelmetHardsuitERTLeader
   id: ClothingHeadHelmetHardsuitERTCentcomm
-  name: CentCom hardsuit helmet
+  name: entity-clothingheadhelmethardsuitertcentcomm-name
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Head/Hardsuits/ERThelmets/ertcentcomm.rsi

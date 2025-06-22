@@ -1,8 +1,8 @@
 - type: entity
-  name: beaker box
+  name: entity-boxbeaker-name
   parent: BoxCardboard
   id: BoxBeaker
-  description: A box full of beakers.
+  description: entity-boxbeaker-description
   components:
   - type: Storage
     grid:

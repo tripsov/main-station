@@ -1,7 +1,7 @@
 ﻿- type: construction
   id: TinyFan
-  name: tiny fan
-  description: A tiny fan, releasing a thin gust of air.
+  name: construction-tinyfan-name
+  description: construction-tinyfan-description
   category: construction-category-utilities
   graph: TinyFan
   startNode: start
@@ -15,8 +15,8 @@
 
 - type: construction
   id: FloorDrain
-  name: drain
-  description: Drains puddles around it. Useful for dumping mop buckets or keeping certain rooms clean.
+  name: construction-floordrain-name
+  description: construction-floordrain-description
   category: construction-category-utilities
   graph: FloorDrain
   startNode: start

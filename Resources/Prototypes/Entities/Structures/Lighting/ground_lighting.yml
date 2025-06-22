@@ -1,6 +1,6 @@
 - type: entity
   id: LightPostSmall
-  name: post light
+  name: entity-lightpostsmall-name
   description: "An always powered light."
   suffix: Always Powered
   parent: BaseStructure
@@ -65,7 +65,7 @@
 
 - type: entity
   id: PoweredLightPostSmallEmpty
-  name: post light
+  name: entity-lightpostsmall-name
   description: "A small light post."
   suffix: Empty
   parent: LightPostSmall
@@ -111,7 +111,7 @@
 
 - type: entity
   id: PoweredLightPostSmall
-  name: post light
+  name: entity-lightpostsmall-name
   description: "A light fixture. Draws power and produces light when equipped with a light tube."
   suffix: ""
   parent: PoweredLightPostSmallEmpty
@@ -136,7 +136,7 @@
 
 - type: entity
   id: PoweredLEDLightPostSmall
-  name: post light
+  name: entity-lightpostsmall-name
   description: "A light fixture. Draws power and produces light when equipped with a light tube."
   suffix: LED
   parent: PoweredLightPostSmallEmpty

@@ -1,6 +1,6 @@
 - type: psionicPower
   id: DispelPower
-  name: Dispel
+  name: psionicpower-dispelpower-name
   powerCategories:
     - Mentalic
   initializeFunctions:
@@ -31,7 +31,7 @@
 
 - type: psionicPower
   id: MassSleepPower
-  name: Mass Sleep
+  name: psionicpower-masssleeppower-name
   powerCategories:
     - Mentalic
   initializeFunctions:
@@ -60,7 +60,7 @@
 
 - type: psionicPower
   id: MindSwapPower
-  name: Mind Swap
+  name: psionicpower-mindswappower-name
   powerCategories:
     - Mentalic
   initializeFunctions:
@@ -90,7 +90,7 @@
 
 - type: psionicPower
   id: NoosphericZapPower
-  name: Noospheric Zap
+  name: psionicpower-noosphericzappower-name
   powerCategories:
     - Anomalist
     - Electrokinesis
@@ -121,7 +121,7 @@
 
 - type: psionicPower
   id: PyrokinesisPower
-  name: Pyrokinesis
+  name: psionicpower-pyrokinesispower-name
   powerCategories:
     - Anomalist
     - Pyrokinesis
@@ -153,7 +153,7 @@
 
 - type: psionicPower
   id: MetapsionicPower
-  name: Metapsionic Pulse
+  name: psionicpower-metapsionicpower-name
   powerCategories:
     - Mentalic
   initializeFunctions:
@@ -187,7 +187,7 @@
 
 - type: psionicPower
   id: PsionicRegenerationPower
-  name: Psionic Regeneration
+  name: psionicpower-psionicregenerationpower-name
   powerCategories:
     - Mentalic
   initializeFunctions:
@@ -218,7 +218,7 @@
 
 - type: psionicPower
   id: TelegnosisPower
-  name: Telegnosis
+  name: psionicpower-telegnosispower-name
   powerCategories:
     - Mentalic
   initializeFunctions:
@@ -249,7 +249,7 @@
 
 - type: psionicPower
   id: PsionicInvisibilityPower
-  name: Psionic Invisibility
+  name: psionicpower-psionicinvisibilitypower-name
   powerCategories:
     - Mentalic
   initializeFunctions:
@@ -280,7 +280,7 @@
 
 - type: psionicPower
   id: XenoglossyPower
-  name: Xenoglossy
+  name: psionicpower-xenoglossypower-name
   powerCategories:
     - Mentalic
   initializeFunctions:
@@ -324,7 +324,7 @@
 
 - type: psionicPower
   id: TelepathyPower
-  name: Telepathy
+  name: psionicpower-telepathypower-name
   powerCategories:
     - Mentalic
   initializeFunctions:
@@ -356,7 +356,7 @@
 
 - type: psionicPower
   id: HealingWordPower
-  name: HealingWord
+  name: psionicpower-healingwordpower-name
   powerCategories:
     - Anomalist
     - Life
@@ -387,7 +387,7 @@
 
 - type: psionicPower
   id: RevivifyPower
-  name: Revivify
+  name: psionicpower-revivifypower-name
   powerCategories:
     - Anomalist
     - Life
@@ -413,7 +413,7 @@
 
 - type: psionicPower
   id: LowAmplification
-  name: LowAmplification
+  name: psionicpower-lowamplification-name
   powerCategories:
     - Passive
   initializeFunctions:
@@ -425,7 +425,7 @@
 
 - type: psionicPower
   id: HighAmplification
-  name: HighAmplification
+  name: psionicpower-highamplification-name
   powerCategories:
     - Passive
   initializeFunctions:
@@ -437,7 +437,7 @@
 
 - type: psionicPower
   id: PowerOverwhelming
-  name: PowerOverwhelming
+  name: psionicpower-poweroverwhelming-name
   powerCategories:
     - Passive
     - Dangerous
@@ -458,7 +458,7 @@
 
 - type: psionicPower
   id: LowDampening
-  name: LowDampening
+  name: psionicpower-lowdampening-name
   powerCategories:
     - Passive
   initializeFunctions:
@@ -470,7 +470,7 @@
 
 - type: psionicPower
   id: HighDampening
-  name: HighDampening
+  name: psionicpower-highdampening-name
   powerCategories:
     - Passive
   initializeFunctions:
@@ -482,7 +482,7 @@
 
 - type: psionicPower
   id: ShadeskipPower
-  name: Shadeskip
+  name: psionicpower-shadeskippower-name
   powerCategories:
     - Anomalist
     - Shadow
@@ -516,7 +516,7 @@
 
 - type: psionicPower
   id: TelekineticPulsePower
-  name: Telekinetic Pulse
+  name: psionicpower-telekineticpulsepower-name
   powerCategories:
     - Anomalist
     - Kinetic
@@ -553,7 +553,7 @@
 
 - type: psionicPower
   id: DarkSwapPower
-  name: DarkSwap
+  name: psionicpower-darkswappower-name
   powerCategories:
     - Anomalist
     - Shadow
@@ -578,7 +578,7 @@
 
 - type: psionicPower
   id: PyrokineticFlare
-  name: Pyrokinetic Flare
+  name: psionicpower-pyrokineticflare-name
   powerCategories:
     - Anomalist
     - Pyrokinetic
@@ -618,7 +618,7 @@
 
 - type: psionicPower
   id: SummonImpPower
-  name: Summon Imp
+  name: psionicpower-summonimppower-name
   powerCategories:
     - Anomalist
     - Pyrokinetic
@@ -651,7 +651,7 @@
 
 - type: psionicPower
   id: SummonRemiliaPower
-  name: Summon Remilia
+  name: psionicpower-summonremiliapower-name
   powerCategories:
     - Mentalic
     - Unique
@@ -670,7 +670,7 @@
 
 - type: psionicPower
   id: AssayPower
-  name: Assay
+  name: psionicpower-assaypower-name
   powerCategories:
     - Mentalic
   initializeFunctions:
@@ -692,7 +692,7 @@
 
 - type: psionicPower
   id: AnoigoPower
-  name: Anoigo
+  name: psionicpower-anoigopower-name
   powerCategories:
   - Kinetic
   initializeFunctions:

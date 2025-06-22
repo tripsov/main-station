@@ -1,9 +1,9 @@
 #Base
 - type: entity
   id: AirlockAssembly
-  name: airlock assembly
+  name: entity-airlockassembly-name
   parent: BaseStructure # WD EDIT
-  description: It opens, it closes, and maybe crushes you.
+  description: entity-airlockassembly-description
   components:
   - type: Clickable
   - type: InteractionOutline

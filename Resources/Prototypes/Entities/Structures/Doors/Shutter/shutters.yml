@@ -1,9 +1,9 @@
 - type: entity
   id: BaseShutter
   parent: BaseStructure
-  name: shutter
+  name: entity-baseshutter-name
   abstract: true
-  description: One shudders to think about what might be behind this shutter.
+  description: entity-baseshutter-description
   placement:
     mode: SnapgridCenter
   components:
@@ -125,8 +125,8 @@
 - type: entity
   id: ShuttersRadiation
   parent: BaseShutter
-  name: radiation shutters
-  description: Why did they make these shutters radioactive?
+  name: entity-shuttersradiation-name
+  description: entity-shuttersradiation-description
   components:
   - type: Sprite
     sprite: Structures/Doors/Shutters/shutters_radiation.rsi
@@ -161,8 +161,8 @@
 - type: entity
   id: ShuttersWindow
   parent: BaseShutter
-  name: window shutters
-  description: The Best (TM) place to see your friends explode!
+  name: entity-shutterswindow-name
+  description: entity-shutterswindow-description
   components:
   - type: Sprite
     sprite: Structures/Doors/Shutters/shutters_window.rsi
@@ -195,8 +195,8 @@
 - type: entity
   id: ShuttersFrame
   parent: BaseStructureDynamic
-  name: shutter frame
-  description: A frame for constructing a shutter.
+  name: entity-shuttersframe-name
+  description: entity-shuttersframe-description
   components:
   - type: Sprite
     sprite: Structures/Doors/Shutters/shutters.rsi

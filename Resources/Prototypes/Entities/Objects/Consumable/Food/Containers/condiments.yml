@@ -24,9 +24,9 @@
 - type: entity
   parent: BaseFoodCondiment
   id: BaseFoodCondimentPacket
-  name: condiment packet
+  name: entity-basefoodcondimentpacket-name
   abstract: true
-  description: A small plastic pack with condiments to put on your food.
+  description: entity-basefoodcondimentpacket-description
   components:
   - type: Item
     size: Tiny
@@ -73,8 +73,8 @@
 - type: entity
   parent: BaseFoodCondimentPacket
   id: FoodCondimentPacketAstrotame
-  name: Astrotame
-  description: The sweetness of a thousand sugars but none of the calories.
+  name: entity-foodcondimentpacketastrotame-name
+  description: entity-foodcondimentpacketastrotame-description
   components:
   - type: SolutionContainerManager
     solutions:
@@ -101,8 +101,8 @@
 - type: entity
   parent: BaseFoodCondimentPacket
   id: FoodCondimentPacketBbq
-  name: BBQ sauce
-  description: Hand wipes not included.
+  name: entity-foodcondimentpacketbbq-name
+  description: entity-foodcondimentpacketbbq-description
   components:
   - type: SolutionContainerManager
     solutions:
@@ -121,8 +121,8 @@
 - type: entity
   parent: BaseFoodCondimentPacket
   id: FoodCondimentPacketCornoil
-  name: corn oil
-  description: Corn oil. A delicious oil used in cooking. Made from corn.
+  name: entity-foodcondimentpacketcornoil-name
+  description: entity-foodcondimentpacketcornoil-description
   components:
   - type: SolutionContainerManager
     solutions:
@@ -141,8 +141,8 @@
 - type: entity
   parent: BaseFoodCondimentPacket
   id: FoodCondimentPacketFrostoil
-  name: coldsauce
-  description: Coldsauce. Leaves the tongue numb in its passage.
+  name: entity-foodcondimentpacketfrostoil-name
+  description: entity-foodcondimentpacketfrostoil-description
   components:
   - type: SolutionContainerManager
     solutions:
@@ -161,8 +161,8 @@
 - type: entity
   parent: BaseFoodCondimentPacket
   id: FoodCondimentPacketHorseradish
-  name: horseradish sauce
-  description: A packet of smelly horseradish sauce.
+  name: entity-foodcondimentpackethorseradish-name
+  description: entity-foodcondimentpackethorseradish-description
   components:
   - type: SolutionContainerManager
     solutions:
@@ -181,8 +181,8 @@
 - type: entity
   parent: BaseFoodCondimentPacket
   id: FoodCondimentPacketHotsauce
-  name: hotsauce
-  description: You can almost TASTE the stomach ulcers now!
+  name: entity-foodcondimentpackethotsauce-name
+  description: entity-foodcondimentpackethotsauce-description
   components:
   - type: SolutionContainerManager
     solutions:
@@ -201,8 +201,8 @@
 - type: entity
   parent: BaseFoodCondimentPacket
   id: FoodCondimentPacketKetchup
-  name: ketchup
-  description: You feel more American already.
+  name: entity-foodcondimentpacketketchup-name
+  description: entity-foodcondimentpacketketchup-description
   components:
   - type: SolutionContainerManager
     solutions:
@@ -221,8 +221,8 @@
 - type: entity
   parent: BaseFoodCondimentPacket
   id: FoodCondimentPacketMustard
-  name: mustard
-  description: A condiment made from the ground-up seeds of the Mustard plant.
+  name: entity-foodcondimentpacketmustard-name
+  description: entity-foodcondimentpacketmustard-description
   components:
   - type: SolutionContainerManager
     solutions:
@@ -240,8 +240,8 @@
 - type: entity
   parent: BaseFoodCondimentPacket
   id: FoodCondimentPacketPepper
-  name: black pepper
-  description: Often used to flavor food or make people sneeze.
+  name: entity-foodcondimentpacketpepper-name
+  description: entity-foodcondimentpacketpepper-description
   components:
   - type: SolutionContainerManager
     solutions:
@@ -259,8 +259,8 @@
 - type: entity
   parent: BaseFoodCondimentPacket
   id: FoodCondimentPacketSalt
-  name: salt
-  description: Salt. From space oceans, presumably.
+  name: entity-foodcondimentpacketsalt-name
+  description: entity-foodcondimentpacketsalt-description
   components:
   - type: SolutionContainerManager
     solutions:
@@ -287,8 +287,8 @@
 - type: entity
   parent: BaseFoodCondimentPacket
   id: FoodCondimentPacketSoy
-  name: soy sauce
-  description: A salty soy-based flavoring.
+  name: entity-foodcondimentpacketsoy-name
+  description: entity-foodcondimentpacketsoy-description
   components:
   - type: SolutionContainerManager
     solutions:
@@ -306,8 +306,8 @@
 - type: entity
   parent: BaseFoodCondimentPacket
   id: FoodCondimentPacketSugar
-  name: sugar
-  description: Tasty spacey sugar!
+  name: entity-foodcondimentpacketsugar-name
+  description: entity-foodcondimentpacketsugar-description
   components:
   - type: SolutionContainerManager
     solutions:
@@ -328,8 +328,8 @@
   parent: BaseFoodCondiment
   id: BaseFoodCondimentBottle
   abstract: true
-  name: condiment bottle
-  description: A thin glass bottle used to store condiments.
+  name: entity-basefoodcondimentbottle-name
+  description: entity-basefoodcondimentbottle-description
   components:
   - type: Drink
     solution: food
@@ -368,8 +368,8 @@
 - type: entity
   parent: BaseFoodCondimentBottle
   id: FoodCondimentBottleColdsauce
-  name: coldsauce bottle
-  description: Leaves the tongue numb in its passage.
+  name: entity-foodcondimentbottlecoldsauce-name
+  description: entity-foodcondimentbottlecoldsauce-description
   components:
   - type: SolutionContainerManager
     solutions:
@@ -394,8 +394,8 @@
 - type: entity
   parent: BaseFoodCondimentBottle
   id: FoodCondimentBottleEnzyme
-  name: universal enzyme
-  description: Used in cooking various dishes.
+  name: entity-foodcondimentbottleenzyme-name
+  description: entity-foodcondimentbottleenzyme-description
   components:
   - type: SolutionContainerManager
     solutions:
@@ -420,8 +420,8 @@
 - type: entity
   parent: BaseFoodCondimentBottle
   id: FoodCondimentBottleVinegar
-  name: vinegar bottle
-  description: Used in cooking to enhance flavor.
+  name: entity-foodcondimentbottlevinegar-name
+  description: entity-foodcondimentbottlevinegar-description
   components:
   - type: SolutionContainerManager
     solutions:
@@ -443,8 +443,8 @@
 - type: entity
   parent: BaseFoodCondimentBottle
   id: FoodCondimentBottleHotsauce
-  name: hotsauce bottle
-  description: You can almost TASTE the stomach ulcers now!
+  name: entity-foodcondimentbottlehotsauce-name
+  description: entity-foodcondimentpackethotsauce-description
   components:
   - type: SolutionContainerManager
     solutions:
@@ -469,8 +469,8 @@
 - type: entity
   parent: BaseFoodCondimentBottle
   id: FoodCondimentBottleKetchup
-  name: ketchup bottle
-  description: You feel more American already.
+  name: entity-foodcondimentbottleketchup-name
+  description: entity-foodcondimentpacketketchup-description
   components:
   - type: SolutionContainerManager
     solutions:
@@ -495,8 +495,8 @@
 - type: entity
   parent: BaseFoodCondimentBottle
   id: FoodCondimentBottleBBQ
-  name: BBQ sauce bottle
-  description: Hand wipes not included.
+  name: entity-foodcondimentbottlebbq-name
+  description: entity-foodcondimentpacketbbq-description
   components:
   - type: SolutionContainerManager
     solutions:
@@ -525,8 +525,8 @@
   parent: BaseFoodCondiment
   id: BaseFoodShaker
   abstract: true
-  name: empty shaker
-  description: A shaker used to store and dispense spices.
+  name: entity-basefoodshaker-name
+  description: entity-basefoodshaker-description
   components:
   - type: Item
     size: Tiny
@@ -566,8 +566,8 @@
 - type: entity
   parent: BaseFoodShaker
   id: FoodShakerSalt
-  name: salt shaker
-  description: Salt. From space oceans, presumably.
+  name: entity-foodshakersalt-name
+  description: entity-foodcondimentpacketsalt-description
   components:
   - type: SolutionContainerManager
     solutions:
@@ -586,8 +586,8 @@
 - type: entity
   parent: BaseFoodShaker
   id: FoodShakerPepper
-  name: pepper shaker
-  description: Often used to flavor food or make people sneeze.
+  name: entity-foodshakerpepper-name
+  description: entity-foodcondimentpacketpepper-description
   components:
   - type: SolutionContainerManager
     solutions:

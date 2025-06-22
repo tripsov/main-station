@@ -1,6 +1,6 @@
 - type: tile
   id: FloorLinoWhite
-  name: tiles-linoleum-white-floor
+  name: tile-floorlinowhite-name
   sprite: /Textures/_White/Tiles/lino_white.png
   baseTurf: Plating
   variants: 6
@@ -20,7 +20,7 @@
 
 - type: tile
   id: FloorLinoGrey
-  name: tiles-linoleum-grey-floor
+  name: tile-floorlinogrey-name
   sprite: /Textures/_White/Tiles/lino_grey.png
   baseTurf: Plating
   variants: 6
@@ -40,7 +40,7 @@
 
 - type: tile
   id: FloorLinoDark
-  name: tiles-linoleum-dark-floor
+  name: tile-floorlinodark-name
   sprite: /Textures/_White/Tiles/lino_dark.png
   baseTurf: Plating
   variants: 6
@@ -60,7 +60,7 @@
 
 - type: tile
   id: FloorSteelYellow
-  name: tiles-steel-yellow-floor
+  name: tile-floorsteelyellow-name
   sprite: /Textures/_White/Tiles/steel_yellow.png
   variants: 4
   placementVariants:
@@ -78,7 +78,7 @@
 
 - type: tile
   id: FloorSteelRed
-  name: tiles-steel-red-floor
+  name: tile-floorsteelred-name
   sprite: /Textures/_White/Tiles/steel_red.png
   variants: 4
   placementVariants:
@@ -96,7 +96,7 @@
 
 - type: tile
   id: FloorSteelGreen
-  name: tiles-steel-green-floor
+  name: tile-floorsteelgreen-name
   sprite: /Textures/_White/Tiles/steel_green.png
   variants: 4
   placementVariants:
@@ -114,7 +114,7 @@
 
 - type: tile
   id: FloorSteelBlue
-  name: tiles-steel-blue-floor
+  name: tile-floorsteelblue-name
   sprite: /Textures/_White/Tiles/steel_blue.png
   variants: 4
   placementVariants:
@@ -132,7 +132,7 @@
 
 - type: tile
   id: FloorPlasticYellow
-  name: tiles-plastic-yellow-floor
+  name: tile-floorplasticyellow-name
   sprite: /Textures/_White/Tiles/plastic_yellow.png
   variants: 4
   placementVariants:
@@ -150,7 +150,7 @@
 
 - type: tile
   id: FloorPlasticRed
-  name: tiles-plastic-red-floor
+  name: tile-floorplasticred-name
   sprite: /Textures/_White/Tiles/plastic_red.png
   variants: 4
   placementVariants:
@@ -168,7 +168,7 @@
 
 - type: tile
   id: FloorPlasticGreen
-  name: tiles-plastic-green-floor
+  name: tile-floorplasticgreen-name
   sprite: /Textures/_White/Tiles/plastic_green.png
   variants: 4
   placementVariants:
@@ -186,7 +186,7 @@
 
 - type: tile
   id: FloorPlasticBlue
-  name: tiles-plastic-blue-floor
+  name: tile-floorplasticblue-name
   sprite: /Textures/_White/Tiles/plastic_blue.png
   variants: 4
   placementVariants:
@@ -204,7 +204,7 @@
 
 - type: tile
   id: FloorShielding
-  name: tiles-shielding-floor
+  name: tile-floorshielding-name
   sprite: /Textures/_White/Tiles/shielding.png
   variants: 4
   placementVariants:
@@ -222,7 +222,7 @@
 
 - type: tile
   id: FloorShieldingMono
-  name: tiles-shielding-mono-floor
+  name: tile-floorshieldingmono-name
   sprite: /Textures/_White/Tiles/shielding_mono.png
   variants: 4
   placementVariants:
@@ -240,7 +240,7 @@
 
 - type: tile
   id: FloorReinforcedGlassFrame
-  name: tiles-reinforced-glass-frame-floor
+  name: tile-floorreinforcedglassframe-name
   sprite: /Textures/_White/Tiles/rglass_frame.png
   variants: 4
   placementVariants:
@@ -258,7 +258,7 @@
 
 - type: tile
   id: FloorGlassFrame
-  name: tiles-glass-frame-floor
+  name: tile-floorglassframe-name
   sprite: /Textures/_White/Tiles/glass_frame.png
   variants: 4
   placementVariants:
@@ -278,7 +278,7 @@
 
 - type: tile
   id: FloorSterile
-  name: tiles-sterile
+  name: tile-floorsterile-name
   sprite: /Textures/_White/Tiles/sterile.png
   baseTurf: Plating
   variants: 4
@@ -296,7 +296,7 @@
 
 - type: tile
   id: FloorSterileDark
-  name: tiles-sterile-dark
+  name: tile-floorsteriledark-name
   sprite: /Textures/_White/Tiles/sterile_dark.png
   baseTurf: Plating
   variants: 4
@@ -316,7 +316,7 @@
 
 - type: tile
   id: FloorShuttleSyndie
-  name: tiles-syndie-shuttle-floor
+  name: tile-floorshuttlesyndie-name
   sprite: /Textures/_White/Tiles/shuttlesyndie.png
   baseTurf: Plating
   isSubfloor: false
@@ -330,7 +330,7 @@
 
 - type: tile
   id: FloorAsteroidCoarse
-  name: tiles-asteroid-coarse
+  name: tile-floorasteroidcoarse-name
   sprite: /Textures/_White/Tiles/Asteroid/asteroid_coarse.png
   variants: 12
   placementVariants:
@@ -355,7 +355,7 @@
 
 - type: tile
   id: FloorAsteroidCoarseDug
-  name: tiles-asteroid-coarse-dug
+  name: tile-floorasteroidcoarsedug-name
   sprite: /Textures/_White/Tiles/Asteroid/asteroid_coarse_dug.png
   variants: 6
   placementVariants:
@@ -374,7 +374,7 @@
 
 - type: tile
   id: FloorAsteroidGravel
-  name: tiles-asteroid-gravel
+  name: tile-floorasteroidgravel-name
   sprite: /Textures/_White/Tiles/Asteroid/asteroid_gravel.png
   variants: 3
   placementVariants:

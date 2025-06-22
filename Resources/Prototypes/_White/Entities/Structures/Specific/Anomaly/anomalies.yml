@@ -1,7 +1,7 @@
 - type: entity
   id: AnomalyWormhole
-  name: wormhole
-  description: It looks highly unstable, it could close at any moment.
+  name: entity-anomalywormhole-name
+  description: entity-anomalywormhole-description
   components:
   - type: Sprite
     sprite: _White/Structures/Specific/anomaly.rsi

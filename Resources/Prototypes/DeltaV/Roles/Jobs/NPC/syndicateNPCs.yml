@@ -13,9 +13,9 @@
 - type: entity
   parent: ClothingOuterArmorPlateCarrier
   id: ClothingOuterArmorPlateCarrierUnremoveable
-  name: grafted plate carrier
+  name: entity-clothingouterarmorplatecarrierunremoveable-name
   suffix: Unremoveable
-  description: An off-the-shelf plate carrier that has been cruelly grafted onto its wearers body
+  description: entity-clothingouterarmorplatecarrierunremoveable-description
   categories: [ HideSpawnMenu ]
   components:
     - type: Unremoveable

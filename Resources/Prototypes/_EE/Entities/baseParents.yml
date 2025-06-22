@@ -1,6 +1,6 @@
 - type: entity
   id: BaseClothingRadio
-  name: clothing radio
+  name: entity-baseclothingradio-name
   abstract: true
   categories: [HideSpawnMenu]
   components:

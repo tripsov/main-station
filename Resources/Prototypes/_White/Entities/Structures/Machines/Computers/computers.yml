@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseComputerAiAccess
   id: ComputerRemoteControl
-  name: remote control console
-  description: A computer equipped with a joystick. Has a faint cheetos smell around it.
+  name: entity-computerremotecontrol-name
+  description: entity-computerremotecontrol-description
   components:
   - type: Sprite
     layers:

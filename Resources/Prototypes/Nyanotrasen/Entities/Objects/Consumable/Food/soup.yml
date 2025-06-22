@@ -2,10 +2,10 @@
 
 
 - type: entity
-  name: cotton soup
+  name: entity-foodmothcottonsoup-name
   parent: FoodBowlBase
   id: FoodMothCottonSoup
-  description: A soup made from raw cotton in a flavourful vegetable broth. Enjoyed only by moths and the criminally tasteless.
+  description: entity-foodmothcottonsoup-description
   components:
   - type: FlavorProfile
     flavors:
@@ -32,10 +32,10 @@
 #Tastes like cotton and broth
 
 - type: entity
-  name: cheese soup
+  name: entity-foodmothcheesesoup-name
   parent: FoodBowlBase
   id: FoodMothCheeseSoup
-  description: A simple and filling soup made from homemade cheese and sweet potato.
+  description: entity-foodmothcheesesoup-description
   components:
   - type: FlavorProfile
     flavors:
@@ -63,10 +63,10 @@
       - ClothMade # Mothic Food
 
 - type: entity
-  name: seed soup
+  name: entity-foodmothseedsoup-name
   parent: FoodBowlBase
   id: FoodMothSeedSoup
-  description: A seed based soup, made by germinating seeds and then boiling them.
+  description: entity-foodmothseedsoup-description
   components:
   - type: FlavorProfile
     flavors:
@@ -92,10 +92,10 @@
       - ClothMade # Mothic Food
 
 - type: entity
-  name: moth eyeball soup
+  name: entity-foodmotheyeballsoup-name
   parent: FoodBowlBase
   id: FoodMothEyeballSoup
-  description: It's looking back at you...
+  description: entity-foodmotheyeballsoup-description
   components:
   - type: FlavorProfile
     flavors:
@@ -116,10 +116,10 @@
 # Tastes like tomato, squirming.
 
 - type: entity
-  name: bean stew
+  name: entity-foodmothbeanstew-name
   parent: FoodBowlBase
   id: FoodMothBeanStew
-  description: A spicy bean stew with lots of veggies, commonly served as a filling and satisfying meal with rice or bread.
+  description: entity-foodmothbeanstew-description
   components:
   - type: FlavorProfile
     flavors:
@@ -148,10 +148,10 @@
 #Tastes like beans, cabbage and spicy sauce
 
 - type: entity
-  name: oat stew
+  name: entity-foodmothoatstew-name
   parent: FoodBowlBase
   id: FoodMothOatStew
-  description: A hearty oat stew, prepared with oats, sweet potatoes, and various winter vegetables.
+  description: entity-foodmothoatstew-description
   components:
   - type: FlavorProfile
     flavors:
@@ -178,10 +178,10 @@
 #Tastes like oats, sweet potato, carrot and parsnip
 
 - type: entity
-  name: heartburn soup
+  name: entity-foodmothheartburnsoup-name
   parent: FoodBowlBase
   id: FoodMothHeartburnSoup
-  description: The heartburn soup is named after two things; it's rosy pink colour and it's scorchingly hot chili heat.
+  description: entity-foodmothheartburnsoup-description
   components:
   - type: FlavorProfile
     flavors:
@@ -209,10 +209,10 @@
 #Tastes like oats, sweet potato, carrot and parsnip
 
 - type: entity
-  name: mulan congee
+  name: entity-foodmothhuamulancongee-name
   parent: FoodBowlBase
   id: FoodMothHuaMulanCongee
-  description: A smiley bowl of rice porridge with eggs and bacon.
+  description: entity-foodmothhuamulancongee-description
   components:
   - type: FlavorProfile
     flavors:
@@ -236,10 +236,10 @@
       - ClothMade # Mothic Food
 
 - type: entity
-  name: cornmeal porridge
+  name: entity-foodmothcornmealporridge-name
   parent: FoodBowlBase
   id: FoodMothCornmealPorridge
-  description: A plate of cornmeal porridge. It's more flavourful than most porridges, and makes a good base for other flavours, too.
+  description: entity-foodmothcornmealporridge-description
   components:
   - type: FlavorProfile
     flavors:
@@ -262,10 +262,10 @@
 #Tastes like cornmeal.
 
 - type: entity
-  name: cheesy porridge
+  name: entity-foodmothcheesyporridge-name
   parent: FoodBowlBase
   id: FoodMothCheesyPorridge
-  description: A rich and creamy bowl of cheesy cornmeal porridge.
+  description: entity-foodmothcheesyporridge-description
   components:
   - type: FlavorProfile
     flavors:
@@ -291,10 +291,10 @@
 #Tastes like cornmeal, cheese, more cheese, lots of cheese.
 
 - type: entity
-  name: fried eggplant and polenta
+  name: entity-foodmotheggplantpolenta-name
   parent: FoodBowlBase
   id: FoodMothEggplantPolenta
-  description: Polenta loaded with cheese, served with a few discs of fried eggplant and some tomato sauce.
+  description: entity-foodmotheggplantpolenta-description
   components:
   - type: FlavorProfile
     flavors:
@@ -322,10 +322,10 @@
 #Tastes like cornmeal, cheese, eggplant and tomato sauce
 
 - type: entity
-  name: vegetarian chili
+  name: entity-foodmothvegetarianchili-name
   parent: FoodBowlBase
   id: FoodMothVegetarianChili
-  description: For the hombres who don't want carne.
+  description: entity-foodmothvegetarianchili-description
   components:
   - type: FlavorProfile
     flavors:

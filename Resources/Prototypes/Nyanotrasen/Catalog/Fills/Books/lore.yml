@@ -1,12 +1,12 @@
 - type: entity
-  name: epistemics book
+  name: entity-booksalvageepistemics-name
   parent: BookRandom # placeholder
   id: BookSalvageEpistemics
   categories: [ HideSpawnMenu ]
   description: 'A metallic hardcover book.'
 
 - type: entity
-  name: epistemics book
+  name: entity-booksalvageepistemics-name
   parent: BookSalvageEpistemics
   id: BookSalvageEpistemicsRandom
   components:

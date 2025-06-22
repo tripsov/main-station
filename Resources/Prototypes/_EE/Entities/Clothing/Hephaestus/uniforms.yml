@@ -1,9 +1,9 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase, HephInfo]
   id: ClothingUniformJumpsuitHephAtmos
-  name: atmos technician jumpsuit
+  name: entity-clothinguniformjumpsuithephatmos-name
   suffix: Hephaestus
-  description: A uniform worn by atmos techs contracted from Hephaestus Heavy Industries
+  description: entity-clothinguniformjumpsuithephatmos-description
   components:
     - type: Sprite
       sprite: _EE/Clothing/Hephaestus/Uniforms/heph_atmos.rsi
@@ -13,9 +13,9 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase, HephInfo]
   id: ClothingUniformJumpsuitHephCargoTech
-  name: cargo technician jumpsuit
+  name: entity-clothinguniformjumpsuithephcargotech-name
   suffix: Hephaestus
-  description: A uniform worn by cargo techs contracted from Hephaestus Heavy Industries
+  description: entity-clothinguniformjumpsuithephcargotech-description
   components:
     - type: Sprite
       sprite: _EE/Clothing/Hephaestus/Uniforms/heph_cargo_tech.rsi
@@ -25,9 +25,9 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase, HephInfo]
   id: ClothingUniformJumpsuitHephCargoTechAlt
-  name: cargo technician jumpsuit
+  name: entity-clothinguniformjumpsuithephcargotech-name
   suffix: Hephaestus, Alt
-  description: A uniform worn by cargo techs contracted from Hephaestus Heavy Industries
+  description: entity-clothinguniformjumpsuithephcargotech-description
   components:
     - type: Sprite
       sprite: _EE/Clothing/Hephaestus/Uniforms/heph_cargo_tech_alt.rsi
@@ -37,9 +37,9 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase, HephInfo]
   id: ClothingUniformJumpsuitHephEngineer
-  name: engineer jumpsuit
+  name: entity-clothinguniformjumpsuithephengineer-name
   suffix: Hephaestus
-  description: A uniform worn by engineers contracted from Hephaestus Heavy Industries
+  description: entity-clothinguniformjumpsuithephengineer-description
   components:
     - type: Sprite
       sprite: _EE/Clothing/Hephaestus/Uniforms/heph_engineer.rsi
@@ -49,9 +49,9 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase, HephInfo]
   id: ClothingUniformJumpsuitHephEngineerApprentice
-  name: apprentice engineer jumpsuit
+  name: entity-clothinguniformjumpsuithephengineerapprentice-name
   suffix: Hephaestus
-  description: A uniform worn by engineering apprentices contracted from Hephaestus Heavy Industries
+  description: entity-clothinguniformjumpsuithephengineerapprentice-description
   components:
     - type: Sprite
       sprite: _EE/Clothing/Hephaestus/Uniforms/heph_engineering_apprentice.rsi
@@ -62,9 +62,9 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase, HephInfo]
   id: ClothingUniformJumpsuitHephMiner
-  name: shaft miner jumpsuit
+  name: entity-clothinguniformjumpsuithephminer-name
   suffix: Hephaestus
-  description: A uniform worn by shaft miners contracted from Hephaestus Heavy Industries
+  description: entity-clothinguniformjumpsuithephminer-description
   components:
     - type: Sprite
       sprite: _EE/Clothing/Hephaestus/Uniforms/heph_miner.rsi
@@ -74,9 +74,9 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase, HephInfo]
   id: ClothingUniformJumpsuitHephRoboticist
-  name: roboticist jumpsuit
+  name: entity-clothinguniformjumpsuithephroboticist-name
   suffix: Hephaestus
-  description: A uniform worn by roboticists contracted from Hephaestus Heavy Industries
+  description: entity-clothinguniformjumpsuithephroboticist-description
   components:
     - type: Sprite
       sprite: _EE/Clothing/Hephaestus/Uniforms/heph_roboticist.rsi

@@ -1,9 +1,9 @@
 # Frontier
 - type: entity
-  name: Gestio
+  name: entity-weaponriflegestio-name
   parent: BaseWeaponRifle
   id: WeaponRifleGestio
-  description: An old prototype burst-fire NanoTrasen marksman rifle. Manufactured by Silver Industries. It never left the trials. Given its antiquity it is considered a civilian grade weapon.  Uses .30 rifle ammo.
+  description: entity-weaponriflegestio-description
   components:
   - type: Sprite
     sprite: _NF/Objects/Weapons/Guns/Rifles/gestio.rsi
@@ -95,8 +95,8 @@
 - type: entity
   parent: BaseWeaponRifle
   id: WeaponRifleNovaliteC1
-  name: Novalite C1
-  description: A modification to the Lecter from SW LLC, a civilian grade semi-automatic rifle with an internal magazine. Nanotrasen Representatives can not stress how compliant this rifle is. Uses .20 rifle ammo.
+  name: entity-weaponriflenovalitec1-name
+  description: entity-weaponriflenovalitec1-description
   components:
   - type: Sprite
     sprite: _NF/Objects/Weapons/Guns/Rifles/novalitec1.rsi
@@ -176,7 +176,7 @@
 
 - type: entity
   id: WeaponRifleSVT
-  name: SVT-40
+  name: entity-weaponriflesvt-name
   parent: BaseWeaponRifle
   description: |-
    Once a weapon used in war, now a civilian hunting rifle brought to you by S.E.S.W.C., "Retreating is Considered Treason" is etched on one side.

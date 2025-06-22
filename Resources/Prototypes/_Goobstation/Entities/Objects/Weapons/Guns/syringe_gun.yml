@@ -39,8 +39,8 @@
 - type: entity
   parent: [ BaseSyringeGun, BaseGrandTheftContraband ]
   id: SyringeGun
-  name: syringe gun
-  description: A gun that allows you to fire syringes to slowly inject their contents on a target.
+  name: entity-syringegun-name
+  description: entity-syringegun-description
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Weapons/Guns/Cannons/syringe_gun.rsi
@@ -54,10 +54,10 @@
     - SyringeGunAmmo
 
 - type: entity
-  name: rapid syringe gun
+  name: entity-rapidsyringegun-name
   parent: [ BaseSyringeGun, BaseGrandTheftContraband ]
   id: RapidSyringeGun
-  description: A finely-tuned syringe gun featuring a faster fire rate and more room for ammo, made for the most experienced medical officers.
+  description: entity-rapidsyringegun-description
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Weapons/Guns/Cannons/rapid_syringe_gun.rsi
@@ -87,8 +87,8 @@
 - type: entity
   parent: [ BaseSyringeGun, BaseSyndicateContraband ]
   id: DartSyringeGun
-  name: dart syringe gun
-  description: An illegally modified version of the syringe gun that allows projectiles to pierce through armor. Also pierces skin better, resulting in faster injection.
+  name: entity-dartsyringegun-name
+  description: entity-dartsyringegun-description
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Weapons/Guns/Cannons/syringe_gun.rsi

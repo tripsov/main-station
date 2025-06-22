@@ -1,7 +1,7 @@
 - type: entity
   id: ActionCancelEscape
-  name: Stop escaping
-  description: Calm down and sit peacefuly in your carrier's inventory
+  name: entity-actioncancelescape-name
+  description: entity-actioncancelescape-description
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction

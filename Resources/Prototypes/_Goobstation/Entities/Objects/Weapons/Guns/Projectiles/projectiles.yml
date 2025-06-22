@@ -3,7 +3,7 @@
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
   id: BulletHighCaliber
-  name: bullet (.50 anti-materiel)
+  name: entity-bullethighcaliber-name
   components:
   - type: Projectile
     damage:
@@ -16,7 +16,7 @@
   categories: [ HideSpawnMenu ]
   parent: BaseBulletTrigger
   id: BulletHighCaliberExplosive
-  name: bullet (.50 high-explosive)
+  name: entity-bullethighcaliberexplosive-name
   components:
   - type: Projectile
     damage:
@@ -44,7 +44,7 @@
 
 - type: entity
   id: BulletAnaconda
-  name: bullet (.40 caseless)
+  name: entity-bulletanaconda-name
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:

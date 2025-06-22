@@ -1,7 +1,7 @@
 - type: entity
   id: N14FloorWaterDirtyEntity
-  name: water
-  description: A real thirst quencher.
+  name: entity-n14floorwaterdirtyentity-name
+  description: entity-n14floorwaterdirtyentity-description
   placement:
     mode: SnapgridCenter
     snap:
@@ -71,8 +71,8 @@
 - type: entity
   parent: N14FloorWaterDirtyEntity
   id: N14FloorWaterSewerDeep
-  name: deep sewer water
-  description: Years of built up feces and urine and other fluids.
+  name: entity-n14floorwatersewerdeep-name
+  description: entity-n14floorwatersewerdeep-description
   components:
   - type: Sprite
     sprite: _Nuclear14/Tiles/ms13/Water.rsi
@@ -85,8 +85,8 @@
 - type: entity
   parent: N14FloorWaterSewerDeep
   id: N14FloorWaterSewerMedium
-  name: sewer water
-  description: Years of built up feces and urine and other fluids.
+  name: entity-n14floorwatersewermedium-name
+  description: entity-n14floorwatersewerdeep-description
   components:
   - type: Sprite
     layers:
@@ -98,8 +98,8 @@
 - type: entity
   parent: N14FloorWaterSewerDeep
   id: N14FloorWaterSewerShallow
-  name: shallow sewer water
-  description: Years of built up feces and urine and other fluids.
+  name: entity-n14floorwatersewershallow-name
+  description: entity-n14floorwatersewerdeep-description
   components:
   - type: Sprite
     layers:
@@ -111,8 +111,8 @@
 - type: entity
   parent: N14FloorWaterSewerDeep
   id: N14FloorWaterDeep
-  name: deep water
-  description: Endless Abyss.
+  name: entity-n14floorwaterdeep-name
+  description: entity-n14floorwaterdeep-description
   components:
   - type: Sprite
     layers:
@@ -124,8 +124,8 @@
 - type: entity
   parent: N14FloorWaterSewerDeep
   id: N14FloorWaterMedium
-  name: water
-  description: Unclean water, likely highly unclean.
+  name: entity-n14floorwaterdirtyentity-name
+  description: entity-n14floorwatermedium-description
   components:
   - type: Sprite
     layers:
@@ -137,8 +137,8 @@
 - type: entity
   parent: N14FloorWaterSewerDeep
   id: N14FloorWaterShallow
-  name: shallow water
-  description: Unclean water, likely highly unclean
+  name: entity-n14floorwatershallow-name
+  description: entity-n14floorwatershallow-description
   components:
   - type: Sprite
     layers:
@@ -150,8 +150,8 @@
 - type: entity
   parent: N14FloorWaterSewerDeep
   id: N14FloorWaterSaltDeep
-  name: deep salt water
-  description: Endless Abyss.
+  name: entity-n14floorwatersaltdeep-name
+  description: entity-n14floorwaterdeep-description
   components:
   - type: Sprite
     layers:
@@ -170,8 +170,8 @@
 - type: entity
   parent: N14FloorWaterSaltDeep
   id: N14FloorWaterSaltMedium
-  name: salt water
-  description: Unclean water, tainted with salt.
+  name: entity-n14floorwatersaltmedium-name
+  description: entity-n14floorwatersaltmedium-description
   components:
   - type: Sprite
     layers:
@@ -183,8 +183,8 @@
 - type: entity
   parent: N14FloorWaterSaltDeep
   id: N14FloorWaterSaltShallow
-  name: shallow salt water
-  description: Unclean water, tainted with salt
+  name: entity-n14floorwatersaltshallow-name
+  description: entity-n14floorwatersaltshallow-description
   components:
   - type: Sprite
     layers:

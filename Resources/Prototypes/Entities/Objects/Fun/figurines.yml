@@ -3,8 +3,8 @@
 - type: entity
   parent: BaseItem
   id: BaseFigurine
-  name: figurine
-  description: A small miniature.
+  name: entity-basefigurine-name
+  description: entity-basefigurine-description
   abstract: true
   components:
   - type: Sprite
@@ -23,8 +23,8 @@
 - type: entity
   parent: BaseFigurine
   id: ToyFigurineHeadOfPersonnel
-  name: head of personnel figure
-  description: A figurine depicting the glorious head of all personnel, away from their office as usual.
+  name: entity-toyfigurineheadofpersonnel-name
+  description: entity-toyfigurineheadofpersonnel-description
   components:
   - type: Sprite
     state: hop
@@ -32,8 +32,8 @@
 - type: entity
   parent: BaseFigurine
   id: ToyFigurinePassenger
-  name: passenger figure
-  description: A figurine depicting an every day, run-of-the-mill passenger. No funny business here.
+  name: entity-toyfigurinepassenger-name
+  description: entity-toyfigurinepassenger-description
   components:
   - type: Sprite
     state: passenger
@@ -41,8 +41,8 @@
 - type: entity
   parent: BaseFigurine
   id: ToyFigurineGreytider
-  name: greytider figure
-  description: A figurine depicting a dubious-looking passenger. Greytide worldwide!
+  name: entity-toyfigurinegreytider-name
+  description: entity-toyfigurinegreytider-description
   components:
   - type: Sprite
     state: passenger_greytide
@@ -50,8 +50,8 @@
 - type: entity
   parent: BaseFigurine
   id: ToyFigurineClown
-  name: clown figure
-  description: A figurine depicting a clown. You shudder to think of what people have probably done to this figurine before.
+  name: entity-toyfigurineclown-name
+  description: entity-toyfigurineclown-description
   components:
   - type: Sprite
     state: clown
@@ -59,8 +59,8 @@
 - type: entity
   parent: BaseFigurine
   id: ToyFigurineHoloClown
-  name: holoclown figure
-  description: A figurine depicting a holoclown. Even more annoying than a clown and no less real.
+  name: entity-toyfigurineholoclown-name
+  description: entity-toyfigurineholoclown-description
   components:
   - type: Sprite
     state: holoclown
@@ -69,8 +69,8 @@
 - type: entity
   parent: BaseFigurine
   id: ToyFigurineMime
-  name: mime figure
-  description: A figurine depicting that silent bastard you are all too familiar with.
+  name: entity-toyfigurinemime-name
+  description: entity-toyfigurinemime-description
   components:
   - type: Sprite
     state: mime
@@ -78,8 +78,8 @@
 - type: entity
   parent: BaseFigurine
   id: ToyFigurineMusician
-  name: musician figure
-  description: A figurine depicting a Musician, his music was electrifying.
+  name: entity-toyfigurinemusician-name
+  description: entity-toyfigurinemusician-description
   components:
   - type: Sprite
     state: musician
@@ -87,8 +87,8 @@
 - type: entity
   parent: BaseFigurine
   id: ToyFigurineBoxer
-  name: boxer figure
-  description: A figurine depicting a Boxer holding their red gloves.
+  name: entity-toyfigurineboxer-name
+  description: entity-toyfigurineboxer-description
   components:
   - type: Sprite
     state: boxer
@@ -96,8 +96,8 @@
 - type: entity
   parent: BaseFigurine
   id: ToyFigurineCaptain
-  name: captain figure
-  description: A figurine depicting the standard outfit of a captain belonging to a civilian-sector Nanotrasen vessel.
+  name: entity-toyfigurinecaptain-name
+  description: entity-toyfigurinecaptain-description
   components:
   - type: Sprite
     state: captain
@@ -105,8 +105,8 @@
 - type: entity
   parent: BaseFigurine
   id: ToyFigurineHeadOfSecurity
-  name: head of security figure
-  description: A figurine depicting the glorious head of the Security department.
+  name: entity-toyfigurineheadofsecurity-name
+  description: entity-toyfigurineheadofsecurity-description
   components:
   - type: Sprite
     state: hos
@@ -114,8 +114,8 @@
 - type: entity
   parent: BaseFigurine
   id: ToyFigurineWarden
-  name: warden figure
-  description: A figurine depicting a Warden, ready to jail someone at any moment.
+  name: entity-toyfigurinewarden-name
+  description: entity-toyfigurinewarden-description
   components:
   - type: Sprite
     state: warden
@@ -123,8 +123,8 @@
 - type: entity
   parent: BaseFigurine
   id: ToyFigurineDetective
-  name: detective figure
-  description: A figurine depicting a Detective wearing their iconic trench coat.
+  name: entity-toyfigurinedetective-name
+  description: entity-toyfigurinedetective-description
   components:
   - type: Sprite
     state: detective
@@ -132,8 +132,8 @@
 - type: entity
   parent: BaseFigurine
   id: ToyFigurineSecurity
-  name: security officer figure
-  description: A figurine depicting a Security Officer holding a stunbaton, ready to defend the station.
+  name: entity-toyfigurinesecurity-name
+  description: entity-toyfigurinesecurity-description
   components:
   - type: Sprite
     state: security
@@ -141,8 +141,8 @@
 - type: entity
   parent: BaseFigurine
   id: ToyFigurineLawyer
-  name: lawyer figure
-  description: A figurine depicting a Lawyer sporting a freshly tailored suit.
+  name: entity-toyfigurinelawyer-name
+  description: entity-toyfigurinelawyer-description
   components:
   - type: Sprite
     state: lawyer
@@ -150,8 +150,8 @@
 - type: entity
   parent: BaseFigurine
   id: ToyFigurineCargoTech
-  name: cargo technican figure
-  description: A figurine depicting a reptillian Cargo Technican.
+  name: entity-toyfigurinecargotech-name
+  description: entity-toyfigurinecargotech-description
   components:
   - type: Sprite
     state: cargotech
@@ -159,8 +159,8 @@
 - type: entity
   parent: BaseFigurine
   id: ToyFigurineSalvage
-  name: salvage specialist figure
-  description: A figurine depicting a Salvage Specialist holding a survival knife.
+  name: entity-toyfigurinesalvage-name
+  description: entity-toyfigurinesalvage-description
   components:
   - type: Sprite
     state: salvage
@@ -177,8 +177,8 @@
 - type: entity
   parent: BaseFigurine
   id: ToyFigurineChiefEngineer
-  name: chief engineer figure
-  description: A figurine depicting the glorious head of the Engineering department.
+  name: entity-toyfigurinechiefengineer-name
+  description: entity-toyfigurinechiefengineer-description
   components:
   - type: Sprite
     state: ce
@@ -186,8 +186,8 @@
 - type: entity
   parent: BaseFigurine
   id: ToyFigurineEngineer
-  name: station engineer figure
-  description: A figurine depicting a Station Engineer holding a crowbar at-ready.
+  name: entity-toyfigurineengineer-name
+  description: entity-toyfigurineengineer-description
   components:
   - type: Sprite
     state: engineer
@@ -195,8 +195,8 @@
 - type: entity
   parent: BaseFigurine
   id: ToyFigurineAtmosTech
-  name: atmospheric technician figure
-  description: A figurine depicting an Atmos Tech holding an unlit welder.
+  name: entity-toyfigurineatmostech-name
+  description: entity-toyfigurineatmostech-description
   components:
   - type: Sprite
     state: atmos
@@ -213,8 +213,8 @@
 - type: entity
   parent: BaseFigurine
   id: ToyFigurineScientist
-  name: scientist figurine
-  description: A figurine depicting a Scientist donning a labcoat.
+  name: entity-toyfigurinescientist-name
+  description: entity-toyfigurinescientist-description
   components:
   - type: Sprite
     state: scientist
@@ -222,8 +222,8 @@
 - type: entity
   parent: BaseFigurine
   id: ToyFigurineChiefMedicalOfficer
-  name: chief medical officer figure
-  description: A figurine depicting the glorious head of the Medical department.
+  name: entity-toyfigurinechiefmedicalofficer-name
+  description: entity-toyfigurinechiefmedicalofficer-description
   components:
   - type: Sprite
     state: cmo
@@ -231,8 +231,8 @@
 - type: entity
   parent: BaseFigurine
   id: ToyFigurineChemist
-  name: chemist figure
-  description: A figurine depicting a Chemist probably planning to make meth.
+  name: entity-toyfigurinechemist-name
+  description: entity-toyfigurinechemist-description
   components:
   - type: Sprite
     state: chemist
@@ -240,8 +240,8 @@
 - type: entity
   parent: BaseFigurine
   id: ToyFigurineParamedic
-  name: paramedic figure
-  description: A figurine depicting a Paramedic wearing their void suit.
+  name: entity-toyfigurineparamedic-name
+  description: entity-toyfigurineparamedic-description
   components:
   - type: Sprite
     state: paramedic
@@ -249,8 +249,8 @@
 - type: entity
   parent: BaseFigurine
   id: ToyFigurineMedicalDoctor
-  name: medical doctor figure
-  description: A figurine depicting a Medical Doctor, donning a labcoat & syringe.
+  name: entity-toyfigurinemedicaldoctor-name
+  description: entity-toyfigurinemedicaldoctor-description
   components:
   - type: Sprite
     state: medical
@@ -258,8 +258,8 @@
 - type: entity
   parent: BaseFigurine
   id: ToyFigurineLibrarian
-  name: librarian figure
-  description: A figurine depicting the one-and-only librarian.
+  name: entity-toyfigurinelibrarian-name
+  description: entity-toyfigurinelibrarian-description
   components:
   - type: Sprite
     state: librarian
@@ -267,8 +267,8 @@
 - type: entity
   parent: BaseFigurine
   id: ToyFigurineChaplain
-  name: chaplain figure
-  description: A figurine depicting a Chaplain hopefully praying for good things.
+  name: entity-toyfigurinechaplain-name
+  description: entity-toyfigurinechaplain-description
   components:
   - type: Sprite
     state: chaplain
@@ -276,8 +276,8 @@
 - type: entity
   parent: BaseFigurine
   id: ToyFigurineChef
-  name: chef figure
-  description: A figurine depicting a chef, master of the culinary arts!.. most of the time.
+  name: entity-toyfigurinechef-name
+  description: entity-toyfigurinechef-description
   components:
   - type: Sprite
     state: chef
@@ -285,8 +285,8 @@
 - type: entity
   parent: BaseFigurine
   id: ToyFigurineBartender
-  name: bartender figure
-  description: A figurine depicting a Bartender looking stylish with their rockin shades and tophat.
+  name: entity-toyfigurinebartender-name
+  description: entity-toyfigurinebartender-description
   components:
   - type: Sprite
     state: bartender
@@ -294,8 +294,8 @@
 - type: entity
   parent: BaseFigurine
   id: ToyFigurineBotanist
-  name: botanist figure
-  description: A figurine depicting a Botanist that surely won't let kudzu get out of control.
+  name: entity-toyfigurinebotanist-name
+  description: entity-toyfigurinebotanist-description
   components:
   - type: Sprite
     state: botanist
@@ -303,8 +303,8 @@
 - type: entity
   parent: BaseFigurine
   id: ToyFigurineJanitor
-  name: janitor figure
-  description: A figurine depicting a Janitor with their galoshes.
+  name: entity-toyfigurinejanitor-name
+  description: entity-toyfigurinejanitor-description
   components:
   - type: Sprite
     state: janitor
@@ -312,8 +312,8 @@
 - type: entity
   parent: BaseFigurine
   id: ToyFigurineNukie
-  name: syndicate operative figure
-  description: A figurine depicting someone in a blood-red hardsuit, similar to what someone on a nuclear operative team might wear.
+  name: entity-toyfigurinenukie-name
+  description: entity-toyfigurinenukie-description
   components:
   - type: Sprite
     state: nukie
@@ -321,8 +321,8 @@
 - type: entity
   parent: BaseFigurine
   id: ToyFigurineNukieElite
-  name: elite syndicate operative figure
-  description: A figurine depicting someone in an elite blood-red hardsuit, similar to what someone on a nuclear operative team might wear.
+  name: entity-toyfigurinenukieelite-name
+  description: entity-toyfigurinenukieelite-description
   components:
   - type: Sprite
     state: nukie_elite
@@ -330,8 +330,8 @@
 - type: entity
   parent: BaseFigurine
   id: ToyFigurineNukieCommander
-  name: syndicate operative commander figure
-  description: A figurine depicting someone in a beefed-up blood-red hardsuit, similar to what the commander of a nuclear operative team might wear.
+  name: entity-toyfigurinenukiecommander-name
+  description: entity-toyfigurinenukiecommander-description
   components:
   - type: Sprite
     state: nukie_commander
@@ -339,8 +339,8 @@
 - type: entity
   parent: BaseFigurine
   id: ToyFigurineFootsoldier
-  name: syndicate footsoldier figure
-  description: A figurine depicting the outfit of a syndicate footsoldier.
+  name: entity-toyfigurinefootsoldier-name
+  description: entity-toyfigurinefootsoldier-description
   components:
   - type: Sprite
     state: footsoldier
@@ -348,8 +348,8 @@
 - type: entity
   parent: BaseFigurine
   id: ToyFigurineWizard
-  name: wizard figure
-  description: A figurine depicting someone with a long, silky beard wearing a wizard outfit. Warlocks wish they had anything on this.
+  name: entity-toyfigurinewizard-name
+  description: entity-toyfigurinewizard-description
   components:
   - type: Sprite
     state: wizard
@@ -357,8 +357,8 @@
 - type: entity
   parent: BaseFigurine
   id: ToyFigurineWizardFake
-  name: fake wizard figure
-  description: A figurine depicting someone in a fake-ass wizard costume. What a ripoff!
+  name: entity-toyfigurinewizardfake-name
+  description: entity-toyfigurinewizardfake-description
   components:
   - type: Sprite
     state: wizard_fake
@@ -368,8 +368,8 @@
 - type: entity
   parent: BaseFigurine
   id: ToyFigurineSpaceDragon
-  name: space dragon figure
-  description: A large figurine depicting a space dragon, its red eyes on gazing on its prey.
+  name: entity-toyfigurinespacedragon-name
+  description: entity-toyfigurinespacedragon-description
   components:
   - type: Sprite
     state: spacedragon
@@ -377,8 +377,8 @@
 - type: entity
   parent: BaseFigurine
   id: ToyFigurineQueen
-  name: xeno queen figure
-  description: A large figurine depicting a xeno queen, ready to attack.
+  name: entity-toyfigurinequeen-name
+  description: entity-toyfigurinequeen-description
   components:
   - type: Sprite
     state: queen
@@ -386,8 +386,8 @@
 - type: entity
   parent: BaseFigurine
   id: ToyFigurineRatKing
-  name: rat king figure
-  description: A large figurine depicting a rat king, prepared to make its nest.
+  name: entity-toyfigurineratking-name
+  description: entity-toyfigurineratking-description
   components:
   - type: Sprite
     state: ratking
@@ -395,8 +395,8 @@
 - type: entity
   parent: BaseFigurine
   id: ToyFigurineRatServant
-  name: rat servant figure
-  description: A figurine depicting a rat serving the king of rats!
+  name: entity-toyfigurineratservant-name
+  description: entity-toyfigurineratservant-description
   components:
   - type: Sprite
     state: ratservant
@@ -404,8 +404,8 @@
 - type: entity
   parent: BaseFigurine
   id: ToyFigurineMouse
-  name: mouse figure
-  description: A figurine depicting a mouse scuttling away to the nearest piece of food.
+  name: entity-toyfigurinemouse-name
+  description: entity-toyfigurinemouse-description
   components:
   - type: Sprite
     state: mouse
@@ -413,8 +413,8 @@
 - type: entity
   parent: BaseFigurine
   id: ToyFigurineSlime
-  name: slime figure
-  description: A figurine depicting a translucent blue slime.
+  name: entity-toyfigurineslime-name
+  description: entity-toyfigurineslime-description
   components:
   - type: Sprite
     state: slime
@@ -422,8 +422,8 @@
 - type: entity
   parent: BaseFigurine
   id: ToyFigurineHamlet
-  name: hamlet figure
-  description: A figurine depicting Hamlet, microwave not included.
+  name: entity-toyfigurinehamlet-name
+  description: entity-toyfigurinehamlet-description
   components:
   - type: Sprite
     state: hamlet
@@ -434,8 +434,8 @@
 - type: entity
   parent: BaseFigurine
   id: ToyGriffin
-  name: griffin figure
-  description: An action figure modeled after 'The Griffin', criminal mastermind.
+  name: entity-toygriffin-name
+  description: entity-toygriffin-description
   components:
   - type: Sprite
     state: griffinprize
@@ -443,8 +443,8 @@
 - type: entity
   parent: BaseFigurine
   id: ToyOwlman
-  name: owl figure
-  description: An action figure modeled after 'The Owl', defender of justice.
+  name: entity-toyowlman-name
+  description: entity-toyowlman-description
   components:
   - type: Sprite
     state: owlprize
@@ -452,8 +452,8 @@
 - type: entity
   parent: BaseFigurine
   id: ToySkeleton
-  name: skeleton figure
-  description: Spooked ya!
+  name: entity-toyskeleton-name
+  description: entity-toyskeleton-description
   components:
   - type: Sprite
     state: skeletonprize
@@ -461,8 +461,8 @@
 - type: entity
   parent: BaseFigurine
   id: ToyFigurineThief
-  name: thief character figure
-  description: Hiding in the shadows...
+  name: entity-toyfigurinethief-name
+  description: entity-toyfigurinethief-description
   components:
   - type: Sprite
     state: thiefcharacter

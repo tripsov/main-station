@@ -1,8 +1,8 @@
 - type: entity
   parent: GasFilter
   id: GasFilterHighFlow
-  name: high flow gas filter
-  description: Very useful for filtering gases. It can handle three times the volume of a standard filter, which makes it suitable for use in Supermatter engines.
+  name: entity-gasfilterhighflow-name
+  description: entity-gasfilterhighflow-description
   placement:
     mode: SnapgridCenter
   components:
@@ -14,7 +14,7 @@
 - type: entity
   parent: GasFilterFlipped
   id: GasFilterFlippedHighFlow
-  name: high flow gas filter
+  name: entity-gasfilterhighflow-name
   suffix: Flipped
   placement:
     mode: SnapgridCenter
@@ -27,8 +27,8 @@
 - type: entity
   parent: GasMixer
   id: GasMixerHighFlow
-  name: high pressure gas mixer
-  description: Used for mixing gasses at the extreme pressures required by Supermatter engines.
+  name: entity-gasmixerhighflow-name
+  description: entity-gasmixerhighflow-description
   placement:
     mode: SnapgridCenter
   components:
@@ -38,7 +38,7 @@
 - type: entity
   parent: GasMixerFlipped
   id: GasMixerFlippedHighFlow
-  name: high pressure gas mixer
+  name: entity-gasmixerhighflow-name
   suffix: Flipped
   placement:
     mode: SnapgridCenter
@@ -49,8 +49,8 @@
 - type: entity
   parent: PressureControlledValve
   id: PressureControlledValveHighFlow
-  name: blow-off valve
-  description: A variant on a pneumatic valve designed for fire suppression of Supermatter engines. When the pressure in its flow direction exceeds the "reference" pressure on its side, the valve opens.
+  name: entity-pressurecontrolledvalvehighflow-name
+  description: entity-pressurecontrolledvalvehighflow-description
   placement:
     mode: SnapgridCenter
   components:

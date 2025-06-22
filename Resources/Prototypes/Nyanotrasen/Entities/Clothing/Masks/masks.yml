@@ -1,7 +1,7 @@
 - type: entity
   parent: ClothingMaskPullableBase
   id: ClothingMaskOniBase
-  description: A mask depicting a ferocious creature from Japanese myth.
+  description: entity-clothingmaskonibase-description
   abstract: true
   components:
   - type: IngestionBlocker
@@ -12,7 +12,7 @@
 - type: entity
   parent: ClothingMaskOniBase
   id: ClothingMaskOniBlue
-  name: blue oni mask
+  name: entity-clothingmaskoniblue-name
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Mask/mask_oni_blue.rsi
@@ -22,7 +22,7 @@
 - type: entity
   parent: ClothingMaskOniBase
   id: ClothingMaskOniRed
-  name: red oni mask
+  name: entity-clothingmaskonired-name
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Mask/mask_oni_red.rsi

@@ -40,7 +40,7 @@
 - type: entity
   id: BorgChassisGeneric
   parent: BorgChassisSelectable
-  name: generic cyborg
+  name: entity-borgchassisgeneric-name
   suffix: type picked
   components:
   - type: BorgSwitchableType
@@ -49,7 +49,7 @@
 - type: entity
   id: BorgChassisMining
   parent: BorgChassisSelectable
-  name: salvage cyborg
+  name: entity-borgchassismining-name
   components:
   - type: BorgSwitchableType
     selectedBorgType: mining
@@ -57,7 +57,7 @@
 - type: entity
   id: BorgChassisEngineer
   parent: BorgChassisSelectable
-  name: engineer cyborg
+  name: entity-borgchassisengineer-name
   components:
   - type: BorgSwitchableType
     selectedBorgType: engineering
@@ -65,7 +65,7 @@
 - type: entity
   id: BorgChassisJanitor
   parent: BorgChassisSelectable
-  name: janitor cyborg
+  name: entity-borgchassisjanitor-name
   components:
   - type: BorgSwitchableType
     selectedBorgType: janitor
@@ -73,7 +73,7 @@
 - type: entity
   id: BorgChassisService
   parent: BorgChassisSelectable
-  name: service cyborg
+  name: entity-borgchassisservice-name
   components:
   - type: BorgSwitchableType
     selectedBorgType: service
@@ -81,7 +81,7 @@
 - type: entity
   id: BorgChassisMedical
   parent: BorgChassisSelectable
-  name: medical cyborg
+  name: entity-borgchassismedical-name
   components:
   - type: BorgSwitchableType
     selectedBorgType: medical
@@ -128,7 +128,7 @@
 - type: entity
   id: BorgChassisMiningBare
   parent: BaseBorgChassisNT
-  name: salvage cyborg
+  name: entity-borgchassismining-name
   components:
   - type: Sprite
     layers:
@@ -161,7 +161,7 @@
     sprite:
       sprite: Mobs/Silicon/chassis.rsi
       state: miner
-    name: salvage cyborg
+    name: entity-borgchassismining-name
   - type: Construction
     node: mining
   - type: IntrinsicRadioTransmitter
@@ -184,7 +184,7 @@
 - type: entity
   id: BorgChassisEngineerBare
   parent: BaseBorgChassisNT
-  name: engineer cyborg
+  name: entity-borgchassisengineer-name
   components:
   - type: Sprite
     layers:
@@ -209,7 +209,7 @@
     sprite:
       sprite: Mobs/Silicon/chassis.rsi
       state: engineer
-    name: engineer cyborg
+    name: entity-borgchassisengineer-name
   - type: Construction
     node: engineer
   - type: IntrinsicRadioTransmitter
@@ -234,7 +234,7 @@
 - type: entity
   id: BorgChassisJanitorBare
   parent: BaseBorgChassisNT
-  name: janitor cyborg
+  name: entity-borgchassisjanitor-name
   components:
   - type: Sprite
     layers:
@@ -267,7 +267,7 @@
     sprite:
       sprite: Mobs/Silicon/chassis.rsi
       state: janitor
-    name: janitor cyborg
+    name: entity-borgchassisjanitor-name
   - type: Construction
     node: janitor
   - type: IntrinsicRadioTransmitter
@@ -292,7 +292,7 @@
 - type: entity
   id: BorgChassisMedicalBare
   parent: BaseBorgChassisNT
-  name: medical cyborg
+  name: entity-borgchassismedical-name
   components:
   - type: Sprite
     layers:
@@ -325,7 +325,7 @@
     sprite:
       sprite: Mobs/Silicon/chassis.rsi
       state: medical
-    name: medical cyborg
+    name: entity-borgchassismedical-name
   - type: Construction
     node: medical
   - type: IntrinsicRadioTransmitter
@@ -374,7 +374,7 @@
 - type: entity
   id: BorgChassisServiceBare
   parent: BorgChassisSelectable
-  name: service cyborg
+  name: entity-borgchassisservice-name
   components:
   - type: Sprite
     layers:
@@ -399,7 +399,7 @@
     sprite:
       sprite: Mobs/Silicon/chassis.rsi
       state: service
-    name: service cyborg
+    name: entity-borgchassisservice-name
   - type: Construction
     node: service
   - type: IntrinsicRadioTransmitter
@@ -422,8 +422,8 @@
 - type: entity
   id: BorgChassisSyndicateAssault
   parent: BaseBorgChassisSyndicate
-  name: syndicate assault cyborg
-  description: A lean, mean killing machine with access to a variety of deadly modules.
+  name: entity-borgchassissyndicateassault-name
+  description: entity-borgchassissyndicateassault-description
   components:
     - type: Sprite
       layers:
@@ -454,8 +454,8 @@
 - type: entity
   id: BorgChassisSyndicateMedical
   parent: BaseBorgChassisSyndicate
-  name: syndicate medical cyborg
-  description: A combat medical cyborg. Has limited offensive potential, but makes more than up for it with its support capabilities.
+  name: entity-borgchassissyndicatemedical-name
+  description: entity-borgchassissyndicatemedical-description
   components:
     - type: Sprite
       layers:
@@ -493,8 +493,8 @@
 - type: entity
   id: BorgChassisSyndicateSaboteur
   parent: BaseBorgChassisSyndicate
-  name: syndicate saboteur cyborg
-  description: A streamlined engineering cyborg, equipped with covert modules. Its chameleon projector lets it disguise itself as a Nanotrasen cyborg.
+  name: entity-borgchassissyndicatesaboteur-name
+  description: entity-borgchassissyndicatesaboteur-description
   components:
     - type: Sprite
       layers:

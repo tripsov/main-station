@@ -122,7 +122,7 @@
 
 - type: entity
   id: PoweredLightPostSmallRed
-  name: post light
+  name: entity-poweredlightpostsmallred-name
   description: "A light fixture. Draws power and produces light when equipped with a light tube."
   suffix: Red
   parent: PoweredLightPostSmallEmpty
@@ -139,7 +139,7 @@
 
 - type: entity
   id: AlwaysPoweredLightPostSmallRed
-  name: post light
+  name: entity-poweredlightpostsmallred-name
   description: "A light fixture. Draws power and produces light when equipped with a light tube."
   suffix: Always Powered, Red
   parent: LightPostSmall

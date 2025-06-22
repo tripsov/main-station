@@ -3,8 +3,8 @@
   parent:
   - BaseMob
   - Incorporeal
-  name: revenant
-  description: A spooky ghostie.
+  name: entity-mobrevenant-name
+  description: entity-mobrevenant-description
   components:
   - type: Input
     context: "ghost"

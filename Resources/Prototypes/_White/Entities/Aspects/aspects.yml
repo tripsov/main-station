@@ -8,8 +8,8 @@
 - type: entity
   id: LandmineAspect
   parent: BaseAspect
-  name: Landmine
-  description: Someone laid mines at the station!
+  name: entity-landmineaspect-name
+  description: entity-landmineaspect-description
   categories: [ HideSpawnMenu ]
   components:
     - type: Aspect
@@ -23,8 +23,8 @@
 - type: entity
   id: TraitoredAspect
   parent: BaseAspect
-  name: Traitored
-  description: Someone has turned in all the traitors!
+  name: entity-traitoredaspect-name
+  description: entity-traitoredaspect-description
   categories: [ HideSpawnMenu ]
   components:
     - type: Aspect
@@ -35,8 +35,8 @@
 - type: entity
   id: PresentAspect
   parent: BaseAspect
-  name: Presents
-  description: Do you believe in Santa Claus?
+  name: entity-presentaspect-name
+  description: entity-presentaspect-description
   categories: [ HideSpawnMenu ]
   components:
     - type: Aspect
@@ -49,8 +49,8 @@
 - type: entity
   id: ReflectAspect
   parent: BaseAspect
-  name: Reflect
-  description: Your reflection is everywhere.
+  name: entity-reflectaspect-name
+  description: entity-reflectaspect-description
   categories: [ HideSpawnMenu ]
   components:
     - type: Aspect
@@ -62,8 +62,8 @@
 - type: entity
   id: NothingAspect
   parent: BaseAspect
-  name: Nothing
-  description: Nothing.
+  name: entity-nothingaspect-name
+  description: entity-nothingaspect-description
   categories: [ HideSpawnMenu ]
   components:
     - type: Aspect
@@ -75,8 +75,8 @@
 - type: entity
   id: RichTraitorAspect
   parent: BaseAspect
-  name: Rich Traitor
-  description: The syndicate has allocated 10 additional telecrystals for the traitors.
+  name: entity-richtraitoraspect-name
+  description: entity-richtraitoraspect-description
   categories: [ HideSpawnMenu ]
   components:
     - type: Aspect
@@ -88,8 +88,8 @@
 - type: entity
   id: ImmersiveAspect
   parent: BaseAspect
-  name: Immersive
-  description: Due to the recent tragic events, the station's crew became immersed in themselves.
+  name: entity-immersiveaspect-name
+  description: entity-immersiveaspect-description
   categories: [ HideSpawnMenu ]
   components:
   - type: Aspect

@@ -1,7 +1,7 @@
 #Spawners
 - type: entity
   id: RandomProduce
-  name: random produce spawner
+  name: entity-randomproduce-name
   parent: MarkerBase
   placement:
     mode: AlignTileAny

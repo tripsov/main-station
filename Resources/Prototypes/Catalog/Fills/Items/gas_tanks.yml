@@ -214,7 +214,7 @@
   id: NitrogenTankFilled
   parent: NitrogenTank
   suffix: Filled
-  name: nitrogen tank
+  name: entity-nitrogentankfilled-name
   components:
   - type: GasTank
     air:
@@ -229,7 +229,7 @@
   id: NitrousOxideTankFilled
   parent: NitrousOxideTank
   suffix: Filled
-  name: nitrous oxide tank
+  name: entity-nitrousoxidetankfilled-name
   components:
   - type: GasTank
     #      0.21  | % oxygen in normal atmosphere
@@ -256,7 +256,7 @@
 - type: entity
   id: PlasmaTankFilled
   parent: PlasmaTank
-  name: plasma tank
+  name: entity-plasmatankfilled-name
   suffix: Filled
   components:
   - type: GasTank

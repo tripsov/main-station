@@ -1,7 +1,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBeaverHat
-  name: beaver hat
+  name: entity-clothingheadhatbeaverhat-name
   description: 'Gentlemen?'
   components:
   - type: Sprite
@@ -12,8 +12,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBeret
-  name: beret
-  description: A beret, an artists favorite headwear.
+  name: entity-clothingheadhatberet-name
+  description: entity-clothingheadhatberet-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/beret.rsi
@@ -28,8 +28,8 @@
 - type: entity
   parent: ClothingHeadHatBeret
   id: ClothingHeadHatBeretWhite
-  name: beret
-  description: A beret, an artists favorite headwear.
+  name: entity-clothingheadhatberet-name
+  description: entity-clothingheadhatberet-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/beretwhite.rsi
@@ -39,8 +39,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBeretFrench
-  name: French beret
-  description: A French beret, "vive la France".
+  name: entity-clothingheadhatberetfrench-name
+  description: entity-clothingheadhatberetfrench-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/beret_french.rsi
@@ -56,8 +56,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBeretSecurity
-  name: security beret
-  description: A stylish clothing option for security officers.
+  name: entity-clothingheadhatberetsecurity-name
+  description: entity-clothingheadhatberetsecurity-description
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Head/Hats/beret_security.rsi # DeltaV - resprite
@@ -72,8 +72,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBeretArtist
-  name: artist beret
-  description: A beret fit for an artist.
+  name: entity-clothingheadhatberetartist-name
+  description: entity-clothingheadhatberetartist-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/beret_artist.rsi
@@ -86,8 +86,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBeretPeaked
-  name: peaked beret
-  description: A peaked beret.
+  name: entity-clothingheadhatberetpeaked-name
+  description: entity-clothingheadhatberetpeaked-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/beret_peaked.rsi
@@ -100,8 +100,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatCasa
-  name: casa
-  description: Cone-shaped hat
+  name: entity-clothingheadhatcasa-name
+  description: entity-clothingheadhatcasa-description
   components:
     - type: Sprite
       sprite: Clothing/Head/Hats/casa.rsi
@@ -111,8 +111,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBeretRND
-  name: scientific beret
-  description: A beret for real scientists.
+  name: entity-clothingheadhatberetrnd-name
+  description: entity-clothingheadhatberetrnd-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/beret_rnd.rsi
@@ -127,8 +127,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBeretEngineering
-  name: engineering beret
-  description: A beret with the engineering insignia emblazoned on it. For engineers that are more inclined towards style than safety.
+  name: entity-clothingheadhatberetengineering-name
+  description: entity-clothingheadhatberetengineering-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/beret_engineering.rsi
@@ -144,8 +144,8 @@
   parent: ClothingHeadBase
   id: ClothingHeadHatBeretQM
   # DeltaV - Logistics Department - Replace Quartermaster with Logistics Officer
-  name: logistics officer's beret
-  description: A beret with the logistics department's insignia emblazoned on it. For logistics officers that are more inclined towards style.
+  name: entity-clothingheadhatberetqm-name
+  description: entity-clothingheadhatberetqm-description
   # End of modified code
   components:
   - type: Sprite
@@ -161,8 +161,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBeretHoS
-  name: head of security's beret
-  description: A black beret with a commander's rank emblem. For officers that are more inclined towards style than safety.
+  name: entity-clothingheadhatberethos-name
+  description: entity-clothingheadhatberethos-description
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Head/Hats/beret_hos.rsi # DeltaV - resprite
@@ -177,7 +177,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBeretWarden
-  name: warden's beret
+  name: entity-clothingheadhatberetwarden-name
   description: A black beret with a warden's rank emblem. For officers that are more inclined towards style than safety. # DeltaV - changed description to match sprite
   components:
   - type: Sprite
@@ -188,8 +188,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBeretSeniorPhysician
-  name: physician beret
-  description: Donning the colours of medical and chemistry, physicians are the pride of this department!
+  name: entity-clothingheadhatberetseniorphysician-name
+  description: entity-clothingheadhatberetseniorphysician-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/beret_physician.rsi
@@ -199,8 +199,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBeretBrigmedic
-  name: brigmedical beret
-  description: White beret, looks like a cream pie on the head.
+  name: entity-clothingheadhatberetbrigmedic-name
+  description: entity-clothingheadhatberetbrigmedic-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/beret_brigmedic.rsi
@@ -210,8 +210,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBeretMerc
-  name: mercenary beret
-  description: Olive beret, the badge depicts a jackal on a rock.
+  name: entity-clothingheadhatberetmerc-name
+  description: entity-clothingheadhatberetmerc-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/beret_merc.rsi
@@ -221,8 +221,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBowlerHat
-  name: bowler hat
-  description: Stylish bowler hat.
+  name: entity-clothingheadhatbowlerhat-name
+  description: entity-clothingheadhatbowlerhat-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/bowler_hat.rsi
@@ -232,8 +232,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatCaptain
-  name: captain's hardhat
-  description: It's good being the king.
+  name: entity-clothingheadhatcaptain-name
+  description: entity-clothingheadhatcaptain-description
   components:
   - type: TinfoilHat # WWDP
     destroyOnFry: false
@@ -250,8 +250,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatCardborg
-  name: cardborg helmet
-  description: A hat made out of a box.
+  name: entity-clothingheadhatcardborg-name
+  description: entity-clothingheadhatcardborg-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/cardborg_h.rsi
@@ -265,7 +265,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatCentcom
-  name: CentCom brand hat
+  name: entity-clothingheadhatcentcom-name
   description: "It's good to be the emperor."
   components:
   - type: Sprite
@@ -276,7 +276,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatChef
-  name: chef's hat
+  name: entity-clothingheadhatchef-name
   description: "It's a hat used by chefs to keep hair out of your food. Judging by the food in the mess, they don't work."
   components:
   - type: Sprite
@@ -306,7 +306,7 @@
 - type: entity
   parent: ClothingHeadHatChef
   id: ClothingHeadHatChefNt
-  name: nanotrasen chef's hat
+  name: entity-clothingheadhatchefnt-name
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/chefhat_nt.rsi
@@ -316,7 +316,7 @@
 - type: entity
   parent: ClothingHeadHatChef
   id: ClothingHeadHatChefIdris
-  name: idris incorporated chef's hat
+  name: entity-clothingheadhatchefidris-name
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/chefhat_idris.rsi
@@ -326,7 +326,7 @@
 - type: entity
   parent: ClothingHeadHatChef
   id: ClothingHeadHatChefOrion
-  name: orion express' chef hat
+  name: entity-clothingheadhatcheforion-name
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/chefhat_orion.rsi
@@ -336,8 +336,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatFedoraBrown
-  name: brown fedora
-  description: It's a brown fedora.
+  name: entity-clothingheadhatfedorabrown-name
+  description: entity-clothingheadhatfedorabrown-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/brownfedora.rsi
@@ -352,8 +352,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatFedoraGrey
-  name: grey fedora
-  description: It's a grey fedora.
+  name: entity-clothingheadhatfedoragrey-name
+  description: entity-clothingheadhatfedoragrey-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/greyfedora.rsi
@@ -363,8 +363,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatFez
-  name: fez
-  description: A red fez.
+  name: entity-clothingheadhatfez-name
+  description: entity-clothingheadhatfez-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/fez.rsi
@@ -374,8 +374,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatHopcap
-  name: head of personnel's cap
-  description: A grand, stylish head of personnel's cap.
+  name: entity-clothingheadhathopcap-name
+  description: entity-clothingheadhathopcap-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/hopcap.rsi
@@ -390,7 +390,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatHoshat
-  name: head of security's hat
+  name: entity-clothingheadhathoshat-name
   description: "There's a new sheriff in station."
   components:
   - type: Sprite
@@ -406,8 +406,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatOutlawHat
-  name: outlaw's hat
-  description: A hat that makes you look like you carry a notched pistol, numbered one and nineteen more.
+  name: entity-clothingheadhatoutlawhat-name
+  description: entity-clothingheadhatoutlawhat-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/outlawhat.rsi
@@ -417,8 +417,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatWitch1
-  name: witch hat
-  description: A witch hat.
+  name: entity-clothingheadhatwitch1-name
+  description: entity-clothingheadhatwitch1-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/witchhat.rsi
@@ -428,8 +428,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatPaper
-  name: paper hat
-  description: A hat made of paper.
+  name: entity-clothingheadhatpaper-name
+  description: entity-clothingheadhatpaper-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/paper.rsi
@@ -439,7 +439,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatPirate
-  name: pirate hat
+  name: entity-clothingheadhatpirate-name
   description: 'Yo ho ho and a bottle of rum!'
   components:
   - type: Sprite
@@ -450,8 +450,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatPlaguedoctor
-  name: plague doctor hat
-  description: These were once used by plague doctors.
+  name: entity-clothingheadhatplaguedoctor-name
+  description: entity-clothingheadhatplaguedoctor-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/plaguedoctor.rsi
@@ -469,8 +469,8 @@
 - type: entity
   parent: ClothingHeadHatWizardBase
   id: ClothingHeadHatRedwizard
-  name: red wizard hat
-  description: Strange-looking red hat-wear that most certainly belongs to a real magic user.
+  name: entity-clothingheadhatredwizard-name
+  description: entity-clothingheadhatredwizard-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/redwizard.rsi
@@ -485,7 +485,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatSantahat
-  name: santa hat
+  name: entity-clothingheadhatsantahat-name
   description: "A festive hat worn by Santa Claus"
   components:
   - type: Sprite
@@ -496,7 +496,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatSombrero
-  name: sombrero
+  name: entity-clothingheadhatsombrero-name
   description: "Perfectly for Space Mexico, si?"
   components:
   - type: Sprite
@@ -509,8 +509,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatSurgcapBlue
-  name: surgical cap
-  description: A blue cap surgeons wear during operations. Keeps their hair from tickling your internal organs.
+  name: entity-clothingheadhatsurgcapblue-name
+  description: entity-clothingheadhatsurgcapblue-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/surgcap_blue.rsi
@@ -525,8 +525,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatSurgcapGreen
-  name: surgical cap
-  description: A green cap surgeons wear during operations. Keeps their hair from tickling your internal organs.
+  name: entity-clothingheadhatsurgcapblue-name
+  description: entity-clothingheadhatsurgcapgreen-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/surgcap_green.rsi
@@ -536,8 +536,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatSurgcapPurple
-  name: surgical cap
-  description: A purple cap surgeons wear during operations. Keeps their hair from tickling your internal organs.
+  name: entity-clothingheadhatsurgcapblue-name
+  description: entity-clothingheadhatsurgcappurple-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/surgcap_purple.rsi
@@ -547,8 +547,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatTophat
-  name: tophat
-  description: A stylish black tophat.
+  name: entity-clothingheadhattophat-name
+  description: entity-clothingheadhattophat-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/tophat.rsi
@@ -563,7 +563,7 @@
 - type: entity
   parent: [ClothingHeadBase, BaseFoldable]
   id: ClothingHeadHatUshanka
-  name: ushanka
+  name: entity-clothingheadhatushanka-name
   description: "Perfect for winter in Siberia, da?"
   components:
   - type: Clothing
@@ -589,7 +589,7 @@
 - type: entity
   parent: ClothingHeadHatWizardBase
   id: ClothingHeadHatVioletwizard
-  name: violet wizard hat
+  name: entity-clothingheadhatvioletwizard-name
   description: "Strange-looking violet hat-wear that most certainly belongs to a real magic user."
   components:
   - type: Sprite
@@ -605,7 +605,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatWarden
-  name: warden's cap
+  name: entity-clothingheadhatwarden-name
   description: The responsibility weighs heavy, like a barbed crown. # DeltaV - changed description to remove THE LAW
   components:
   - type: Sprite
@@ -618,8 +618,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatWitch
-  name: witch hat
-  description: A witch hat.
+  name: entity-clothingheadhatwitch1-name
+  description: entity-clothingheadhatwitch1-description
   components:
   - type: WizardClothes #Yes this will count
   - type: Sprite
@@ -637,8 +637,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatWizardFake
-  name: fake wizard hat
-  description: It has WIZZARD written across it in sequins. Comes with a cool beard.
+  name: entity-clothingheadhatwizardfake-name
+  description: entity-clothingheadhatwizardfake-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/wizard_fake.rsi
@@ -655,8 +655,8 @@
 - type: entity
   parent: ClothingHeadHatWizardBase
   id: ClothingHeadHatWizard
-  name: wizard hat
-  description: Strange-looking blue hat-wear that most certainly belongs to a powerful magic user.
+  name: entity-clothingheadhatwizard-name
+  description: entity-clothingheadhatwizard-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/wizardhat.rsi
@@ -676,7 +676,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatXmasCrown
-  name: xmas crown
+  name: entity-clothingheadhatxmascrown-name
   description: 'Happy Christmas!'
   components:
   - type: Sprite
@@ -687,8 +687,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatTrucker
-  name: trucker hat
-  description: Formerly Chucks, this hat is yours now.
+  name: entity-clothingheadhattrucker-name
+  description: entity-clothingheadhattrucker-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/truckershat.rsi
@@ -698,8 +698,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadPyjamaSyndicateBlack
-  name: syndicate black pyjama hat
-  description: For keeping that traitor head of yours warm.
+  name: entity-clothingheadpyjamasyndicateblack-name
+  description: entity-clothingheadpyjamasyndicateblack-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/pyjamasyndicateblack.rsi
@@ -709,8 +709,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadPyjamaSyndicatePink
-  name: syndicate pink pyjama hat
-  description: For keeping that traitor head of yours warm.
+  name: entity-clothingheadpyjamasyndicatepink-name
+  description: entity-clothingheadpyjamasyndicateblack-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/pyjamasyndicatepink.rsi
@@ -720,8 +720,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadPyjamaSyndicateRed
-  name: syndicate red pyjama hat
-  description: For keeping that traitor head of yours warm.
+  name: entity-clothingheadpyjamasyndicatered-name
+  description: entity-clothingheadpyjamasyndicateblack-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/pyjamasyndicatered.rsi
@@ -731,8 +731,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadPaperSack
-  name: papersack hat
-  description: A paper sack with crude holes cut out for eyes. Useful for hiding one's identity or ugliness.
+  name: entity-clothingheadpapersack-name
+  description: entity-clothingheadpapersack-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/papersack.rsi
@@ -743,8 +743,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadPaperSackSmile
-  name: smiling papersack hat
-  description: A paper sack with crude holes cut out for eyes and a sketchy smile drawn on the front. Not creepy at all.
+  name: entity-clothingheadpapersacksmile-name
+  description: entity-clothingheadpapersacksmile-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/papersacksmile.rsi
@@ -755,8 +755,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadFishCap
-  name: fishing cap
-  description: Women fear me. Fish fear me. Men turn their eyes away from me. As I walk no beast dares make a sound in my presence. I am alone on this barren Earth.
+  name: entity-clothingheadfishcap-name
+  description: entity-clothingheadfishcap-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/fishcap.rsi
@@ -766,8 +766,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadNurseHat
-  name: nurse hat
-  description: Somehow I feel I'm not supposed to leave this place.
+  name: entity-clothingheadnursehat-name
+  description: entity-clothingheadnursehat-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/nursehat.rsi
@@ -782,8 +782,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadRastaHat
-  name: rasta hat
-  description: Right near da beach, boyee.
+  name: entity-clothingheadrastahat-name
+  description: entity-clothingheadrastahat-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/rasta.rsi
@@ -793,8 +793,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadSafari
-  name: safari hat
-  description: Keeps the sun out of your eyes. Makes you a target for the locals.
+  name: entity-clothingheadsafari-name
+  description: entity-clothingheadsafari-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/safarihat.rsi
@@ -804,8 +804,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatJester
-  name: jester hat
-  description: A hat with bells, to add some merriness to the suit.
+  name: entity-clothingheadhatjester-name
+  description: entity-clothingheadhatjester-description
   components:
     - type: Sprite
       sprite: Clothing/Head/Hats/jester.rsi
@@ -824,8 +824,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBeretCmo
-  name: chief medical officer's beret
-  description: Turquoise beret with a cross on the front. The sight of it calms you down and makes it clear that you will be cured.
+  name: entity-clothingheadhatberetcmo-name
+  description: entity-clothingheadhatberetcmo-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/beret_cmo.rsi
@@ -840,7 +840,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatPirateTricorn
-  name: pirate hat
+  name: entity-clothingheadhatpirate-name
   description: 'Yo ho ho and a bottle of rum!'
   components:
   - type: Sprite
@@ -851,8 +851,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatWatermelon
-  name: watermelon helmet
-  description: A carelessly cut half of a watermelon, gutted from the inside, to be worn as a helmet. It can soften the blow to the head.
+  name: entity-clothingheadhatwatermelon-name
+  description: entity-clothingheadhatwatermelon-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/melon.rsi
@@ -866,8 +866,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatHolyWatermelon
-  name: watermelon halo
-  description: Holy moly.
+  name: entity-clothingheadhatholywatermelon-name
+  description: entity-clothingheadhatholywatermelon-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/holyhatmelon.rsi
@@ -881,8 +881,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatSyndie
-  name: syndicate hat
-  description: A souvenir hat from "Syndieland", their production has already been closed.
+  name: entity-clothingheadhatsyndie-name
+  description: entity-clothingheadhatsyndie-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/syndiecap.rsi
@@ -892,8 +892,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatSyndieMAA
-  name: master at arms hat
-  description: Master at arms hat, looks intimidating, I doubt that you will like to communicate with its owner...
+  name: entity-clothingheadhatsyndiemaa-name
+  description: entity-clothingheadhatsyndiemaa-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/syndiecap_maa.rsi
@@ -903,7 +903,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatTacticalMaidHeadband
-  name: tactical maid headband
+  name: entity-clothingheadhattacticalmaidheadband-name
   description: "A red headband - don't imagine yourself a Rambo and don't pick up a few machine guns."
   components:
   - type: Sprite
@@ -914,8 +914,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatHetmanHat
-  name: hetman hat
-  description: From the Zaporozhian Sich with love.
+  name: entity-clothingheadhathetmanhat-name
+  description: entity-clothingheadhathetmanhat-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/hetman_hat.rsi
@@ -925,7 +925,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatMagician
-  name: magician's tophat
+  name: entity-clothingheadhatmagician-name
   description: "A magician's tophat."
   components:
   - type: Icon
@@ -959,8 +959,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatCapcap
-  name: cap cap
-  description: A grand, stylish captain cap.
+  name: entity-clothingheadhatcapcap-name
+  description: entity-clothingheadhatcapcap-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/capcap.rsi
@@ -979,8 +979,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatCentcomcap
-  name: CentCom cap
-  description: An extravagant, fancy Central Commander cap.
+  name: entity-clothingheadhatcentcomcap-name
+  description: entity-clothingheadhatcentcomcap-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/comcap.rsi
@@ -995,8 +995,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatGladiator
-  name: gladiator helmet
-  description: Protects the head from harsh ash winds and toy spears.
+  name: entity-clothingheadhatgladiator-name
+  description: entity-clothingheadhatgladiator-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/gladiator.rsi
@@ -1006,8 +1006,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatPartyRed
-  name: red party hat
-  description: Spread a joy!
+  name: entity-clothingheadhatpartyred-name
+  description: entity-clothingheadhatpartyred-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/party_red.rsi
@@ -1021,7 +1021,7 @@
 - type: entity
   parent: ClothingHeadHatPartyRed
   id: ClothingHeadHatPartyYellow
-  name: yellow party hat
+  name: entity-clothingheadhatpartyyellow-name
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/party_yellow.rsi
@@ -1031,7 +1031,7 @@
 - type: entity
   parent: ClothingHeadHatPartyRed
   id: ClothingHeadHatPartyGreen
-  name: green party hat
+  name: entity-clothingheadhatpartygreen-name
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/party_green.rsi
@@ -1041,7 +1041,7 @@
 - type: entity
   parent: ClothingHeadHatPartyRed
   id: ClothingHeadHatPartyBlue
-  name: blue party hat
+  name: entity-clothingheadhatpartyblue-name
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/party_blue.rsi
@@ -1051,8 +1051,8 @@
 - type: entity
   parent: ClothingHeadHatPartyRed
   id: ClothingHeadHatPartyWaterCup
-  name: water cup party hat
-  description: Not as fulfilling as you had hoped...
+  name: entity-clothingheadhatpartywatercup-name
+  description: entity-clothingheadhatpartywatercup-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/party_water_cup.rsi
@@ -1062,8 +1062,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatGreyFlatcap
-  name: grey flatcap
-  description: Fashionable for both the working class and old man Jenkins.
+  name: entity-clothingheadhatgreyflatcap-name
+  description: entity-clothingheadhatgreyflatcap-description
   components:
   - type: Tag
     tags:
@@ -1079,8 +1079,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBrownFlatcap
-  name: brown flatcap
-  description: Stupid clown! You made me look bad!
+  name: entity-clothingheadhatbrownflatcap-name
+  description: entity-clothingheadhatbrownflatcap-description
   components:
   - type: Tag
     tags:
@@ -1096,8 +1096,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatCowboyBrown
-  name: brown cowboy hat
-  description: This hat ain't big enough for the both of us.
+  name: entity-clothingheadhatcowboybrown-name
+  description: entity-clothingheadhatcowboybrown-description
   components:
     - type: Sprite
       sprite: Clothing/Head/Hats/cowboyhatbrown.rsi
@@ -1110,7 +1110,7 @@
 - type: entity
   parent: ClothingHeadHatCowboyBrown
   id: ClothingHeadHatCowboyBlack
-  name: black cowboy hat
+  name: entity-clothingheadhatcowboyblack-name
   components:
     - type: Sprite
       sprite: Clothing/Head/Hats/cowboyhatblack.rsi
@@ -1120,7 +1120,7 @@
 - type: entity
   parent: ClothingHeadHatCowboyBrown
   id: ClothingHeadHatCowboyGrey
-  name: grey cowboy hat
+  name: entity-clothingheadhatcowboygrey-name
   components:
     - type: Sprite
       sprite: Clothing/Head/Hats/cowboyhatgrey.rsi
@@ -1130,7 +1130,7 @@
 - type: entity
   parent: ClothingHeadHatCowboyBrown
   id: ClothingHeadHatCowboyRed
-  name: red cowboy hat
+  name: entity-clothingheadhatcowboyred-name
   components:
     - type: Sprite
       sprite: Clothing/Head/Hats/cowboyhatred.rsi
@@ -1140,7 +1140,7 @@
 - type: entity
   parent: ClothingHeadHatCowboyBrown
   id: ClothingHeadHatCowboyWhite
-  name: white cowboy hat
+  name: entity-clothingheadhatcowboywhite-name
   components:
     - type: Sprite
       sprite: Clothing/Head/Hats/cowboyhatwhite.rsi
@@ -1150,7 +1150,7 @@
 - type: entity
   parent: ClothingHeadHatCowboyBrown
   id: ClothingHeadHatCowboyBountyHunter
-  name: bounty hunter cowboy hat
+  name: entity-clothingheadhatcowboybountyhunter-name
   components:
     - type: Sprite
       sprite: Clothing/Head/Hats/cowboyhatbountyhunter.rsi
@@ -1160,8 +1160,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatStrawHat
-  name: straw hat
-  description: A fancy hat for hot days! Not recommended to wear near fires.
+  name: entity-clothingheadhatstrawhat-name
+  description: entity-clothingheadhatstrawhat-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/straw_hat.rsi
@@ -1204,8 +1204,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBeretMedic
-  name: medical beret
-  description: White beret that encourages you to be clean.
+  name: entity-clothingheadhatberetmedic-name
+  description: entity-clothingheadhatberetmedic-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/beret_medic.rsi
@@ -1215,7 +1215,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatFlatcapBartenderNanotrasen
-  name: bartender's nanotrasen flatcap
+  name: entity-clothingheadhatflatcapbartendernanotrasen-name
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/flatcap_nt.rsi
@@ -1225,7 +1225,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatFlatcapBartenderIdris
-  name: bartender's idris incorporated flatcap
+  name: entity-clothingheadhatflatcapbartenderidris-name
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/flatcap_idris.rsi
@@ -1235,7 +1235,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatFlatcapBartenderOrion
-  name: bartender's orion express flatcap
+  name: entity-clothingheadhatflatcapbartenderorion-name
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/flatcap_orion.rsi
@@ -1245,8 +1245,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBeanie
-  name: beanie
-  description: A head-hugging brimless winter cap. This one is tight.
+  name: entity-clothingheadhatbeanie-name
+  description: entity-clothingheadhatbeanie-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/beanie.rsi
@@ -1258,8 +1258,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBeanieWinter
-  name: winter beanie
-  description: A head-hugging brimless winter cap. This one has flaps that cover the ears.
+  name: entity-clothingheadhatbeaniewinter-name
+  description: entity-clothingheadhatbeaniewinter-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/beanie_winter.rsi
@@ -1271,8 +1271,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBeanieSubmariner
-  name: submariner beanie
-  description: A design of tightly fitting beanie popular among Submarine station workers.
+  name: entity-clothingheadhatbeaniesubmariner-name
+  description: entity-clothingheadhatbeaniesubmariner-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/beanie_submariner.rsi
@@ -1284,8 +1284,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBeanieTight
-  name: tight beanie
-  description: A rather tight beanie that hides your hair.
+  name: entity-clothingheadhatbeanietight-name
+  description: entity-clothingheadhatbeanietight-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/beanie_tight.rsi
@@ -1300,8 +1300,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatSlouch
-  name: slouch hat
-  description: A wide brimmed hat folded to form a slouch.
+  name: entity-clothingheadhatslouch-name
+  description: entity-clothingheadhatslouch-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/slouch.rsi
@@ -1311,8 +1311,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatSunVisor
-  name: sun visor
-  description: A stylish visor intended for blocking out harsh sunlight.
+  name: entity-clothingheadhatsunvisor-name
+  description: entity-clothingheadhatsunvisor-description
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/sun_visor.rsi
@@ -1323,8 +1323,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBeanieGreen
-  name: green beanie
-  description: A dark green beanie.
+  name: entity-clothingheadhatbeaniegreen-name
+  description: entity-clothingheadhatbeaniegreen-description
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Head/FalloutHats/beanie.rsi
@@ -1334,8 +1334,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatMountie
-  name: mountie hat
-  description: A flat hat made 100% of fur felt.
+  name: entity-clothingheadhatmountie-name
+  description: entity-clothingheadhatmountie-description
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Head/FalloutHats/mountiehat.rsi

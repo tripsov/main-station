@@ -1,8 +1,8 @@
 - type: entity
   parent: [ClothingOuterStorageBase, AllowSuitStorageClothing]
   id: ClothingOuterArmorAblativeHeavy
-  name: heavy laser-ablative armor
-  description: A suit of heavy laser-ablative armor manufactured by Zavodskoi Interstellar and sold to NT Security. It trades mobility for unparalleled protection against laser weaponry.
+  name: entity-clothingouterarmorablativeheavy-name
+  description: entity-clothingouterarmorablativeheavy-description
   components:
     - type: Sprite
       sprite: _EE/Clothing/Generic/OuterClothing/heavy_armor_ablative.rsi
@@ -34,8 +34,8 @@
 - type: entity
   parent: [ClothingOuterStorageBase, AllowSuitStorageClothing]
   id: ClothingOuterArmorBallisticHeavy
-  name: heavy ballistic armor
-  description: A suit of heavy ballistic armor manufactured by Zavodskoi Interstellar and sold to NT Security. It trades mobility for unparalleled protection against ballistic weapons.
+  name: entity-clothingouterarmorballisticheavy-name
+  description: entity-clothingouterarmorballisticheavy-description
   components:
     - type: Sprite
       sprite: _EE/Clothing/Generic/OuterClothing/heavy_armor_ballistic.rsi
@@ -67,8 +67,8 @@
 - type: entity
   parent: [ClothingOuterStorageBase, AllowSuitStorageClothing]
   id: ClothingOuterArmorRiotHeavy
-  name: heavy riot armor
-  description: A suit of heavy riot gear manufactured by Zavodskoi Interstellar and sold to NT Security. It trades mobility for unparalleled protection against blunt force.
+  name: entity-clothingouterarmorriotheavy-name
+  description: entity-clothingouterarmorriotheavy-description
   components:
     - type: Sprite
       sprite: _EE/Clothing/Generic/OuterClothing/heavy_armor_riot.rsi
@@ -100,8 +100,8 @@
 - type: entity
   parent: [ClothingOuterStorageBase, AllowSuitStorageClothing]
   id: ClothingOuterArmorStandardHeavy
-  name: heavy security armor
-  description: A suit of heavy security armor manufactured by Zavodskoi Interstellar and sold to NT Security. It trades mobility for unparalleled protection against general threats.
+  name: entity-clothingouterarmorstandardheavy-name
+  description: entity-clothingouterarmorstandardheavy-description
   components:
     - type: Sprite
       sprite: _EE/Clothing/Generic/OuterClothing/heavy_armor_standard.rsi
@@ -138,8 +138,8 @@
 - type: entity
   parent: [ClothingOuterArmorStandardHeavy, AllowSuitStorageClothing]
   id: ClothingOuterArmorHoSHeavy
-  name: heavy tactical armor
-  description: A suit of heavy security armor manufactured by Zavodskoi Interstellar and sold to NT Security. It trades mobility for unparalleled protection against general threats. This one has NT Command staff markings.
+  name: entity-clothingouterarmorhosheavy-name
+  description: entity-clothingouterarmorhosheavy-description
   components:
     - type: Sprite
       sprite: _EE/Clothing/Generic/OuterClothing/heavy_armor_hos.rsi

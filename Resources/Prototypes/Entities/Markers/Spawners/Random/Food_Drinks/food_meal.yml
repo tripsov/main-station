@@ -1,6 +1,6 @@
 - type: entity
   id: RandomFoodMeal
-  name: random food spawner
+  name: entity-randomfoodmeal-name
   suffix: Meal
   parent: MarkerBase
   placement:

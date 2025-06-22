@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseCartridge
   id: CartridgeMusket
-  name: cartridge (musket)
-  description: A paper musket cartridge used to load a musket.
+  name: entity-cartridgemusket-name
+  description: entity-cartridgemusket-description
   components:
   - type: Tag
     tags:
