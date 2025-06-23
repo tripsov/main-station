@@ -156,7 +156,7 @@
   name: entity-flippolighter-name
   parent: BaseItem
   id: FlippoLighter
-  description: entity-flippolighter-description
+  description: "A rugged metal lighter, lasts quite a while."
   components:
   - type: Sprite
     sprite: Objects/Tools/lighters.rsi
