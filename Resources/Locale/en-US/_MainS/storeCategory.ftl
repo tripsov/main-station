@@ -1,1 +1,0 @@
-storecategory-uplinksales-name = Скидки

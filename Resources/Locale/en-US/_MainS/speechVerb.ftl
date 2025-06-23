@@ -1,1 +1,0 @@
-speechverb-gondola-name = Гондола
