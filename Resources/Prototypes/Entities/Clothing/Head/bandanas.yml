@@ -27,54 +27,54 @@
 - type: entity
   parent: [ClothingHeadBandBase, ClothingMaskBandWhite]
   id: ClothingHeadBandWhite
-  name: entity-clothingheadbandwhite-name
+  name: bandana
 
 - type: entity
   parent: [ClothingHeadBandBase, ClothingMaskBandBlack]
   id: ClothingHeadBandBlack
-  name: entity-clothingheadbandblack-name
+  name: black bandana
 
 - type: entity
   parent: [ClothingHeadBandBase, ClothingMaskBandBlue]
   id: ClothingHeadBandBlue
-  name: entity-clothingheadbandblue-name
+  name: blue bandana
 
 - type: entity
   parent: [ClothingHeadBandBase, ClothingMaskBandBotany]
   id: ClothingHeadBandBotany
-  name: entity-clothingheadbandbotany-name
+  name: botany bandana
 
 - type: entity
   parent: [ClothingHeadBandBase, ClothingMaskBandGold]
   id: ClothingHeadBandGold
-  name: entity-clothingheadbandgold-name
+  name: gold bandana
 
 - type: entity
   parent: [ClothingHeadBandBase, ClothingMaskBandGreen]
   id: ClothingHeadBandGreen
-  name: entity-clothingheadbandgreen-name
+  name: green bandana
 
 - type: entity
   parent: [ClothingHeadBandBase, ClothingMaskBandGrey]
   id: ClothingHeadBandGrey
-  name: entity-clothingheadbandgrey-name
+  name: grey bandana
 
 - type: entity
   parent: [ClothingHeadBandBase, ClothingMaskBandRed]
   id: ClothingHeadBandRed
-  name: entity-clothingheadbandred-name
+  name: red bandana
 
 - type: entity
   parent: [ClothingHeadBandBase, ClothingMaskBandSkull]
   id: ClothingHeadBandSkull
-  name: entity-clothingheadbandskull-name
+  name: skull bandana
 
 - type: entity
   parent: [ClothingHeadBandBase, ClothingMaskBandMerc]
   id: ClothingHeadBandMerc
-  name: entity-clothingheadbandmerc-name
+  name: mercenary bandana
 
 - type: entity
   parent: [ClothingHeadBandBase, ClothingMaskBandBrown]
   id: ClothingHeadBandBrown
-  name: entity-clothingheadbandbrown-name
+  name: brown bandana

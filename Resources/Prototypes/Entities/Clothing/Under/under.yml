@@ -4,8 +4,8 @@
 - type: entity
   parent: ClothingShoesBase
   id: ClothingUnderSocksBee
-  name: entity-clothingundersocksbee-name
-  description: entity-clothingundersocksbee-description
+  name: bee socks
+  description: Make them loins buzz!
   components:
   - type: Sprite
     sprite: Clothing/Under/Socks/bee.rsi
@@ -15,8 +15,8 @@
 - type: entity
   parent: ClothingShoesBase
   id: ClothingUnderSocksCoder
-  name: entity-clothingundersockscoder-name
-  description: entity-clothingundersockscoder-description
+  name: coder socks
+  description: It's time to code sisters!!11!
   components:
   - type: Sprite
     sprite: Clothing/Under/Socks/coder.rsi

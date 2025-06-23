@@ -64,8 +64,8 @@
 - type: entity
   parent: BaseArrow
   id: ArrowRegular
-  name: entity-arrowregular-name
-  description: entity-arrowregular-description
+  name: arrow
+  description: You can feel the power of the steppe within you.
   components:
   - type: Sprite
     layers:
@@ -85,8 +85,8 @@
 - type: entity
   parent: BaseArrow
   id: ArrowImprovised
-  name: entity-arrowimprovised-name
-  description: entity-arrowimprovised-description
+  name: glass shard arrow
+  description: The greyshirt's preferred projectile.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Projectiles/arrows.rsi

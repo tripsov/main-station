@@ -128,8 +128,8 @@
 - type: entity
   parent: MobSiliconBase
   id: MobHonkBot
-  name: entity-mobhonkbot-name
-  description: entity-mobhonkbot-description
+  name: honkbot
+  description: Horrifying.
   components:
   - type: SpamEmitSound
     minInterval: 2
@@ -192,8 +192,8 @@
 - type: entity
   parent: MobHonkBot
   id: MobJonkBot
-  name: entity-mobjonkbot-name
-  description: entity-mobhonkbot-description
+  name: jonkbot
+  description: Horrifying.
   components:
   - type: SpamEmitSound
     sound:
@@ -232,8 +232,8 @@
 - type: entity
   parent: MobSiliconBase
   id: MobCleanBot
-  name: entity-mobcleanbot-name
-  description: entity-mobcleanbot-description
+  name: cleanbot
+  description: The creep of automation now threatening space janitors.
   components:
   - type: Sprite
     sprite: Mobs/Silicon/Bots/cleanbot.rsi
@@ -283,8 +283,8 @@
 - type: entity
   parent: MobSiliconBase
   id: MobMedibot
-  name: entity-mobmedibot-name
-  description: entity-mobmedibot-description
+  name: medibot
+  description: No substitute for a doctor, but better than nothing.
   components:
   - type: Medibot
     treatments:
@@ -337,8 +337,8 @@
 - type: entity
   parent: MobSiliconBase
   id: MobMimeBot
-  name: entity-mobmimebot-name
-  description: entity-mobmimebot-description
+  name: mimebot
+  description: Why not give mimebot a friendly wave.
   components:
   - type: InventorySlots
   - type: Strippable
@@ -376,8 +376,8 @@
 - type: entity
   parent: MobSiliconBase
   id: MobSupplyBot
-  name: entity-mobsupplybot-name
-  description: entity-mobsupplybot-description
+  name: supplybot
+  description: Delivers cargo!
   components:
   - type: Sprite
     sprite: Mobs/Silicon/Bots/supplybot.rsi

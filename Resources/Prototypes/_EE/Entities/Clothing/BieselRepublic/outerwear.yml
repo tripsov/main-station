@@ -1,9 +1,9 @@
 - type: entity
   parent: [ClothingOuterHardsuitShanlinUnpainted, TCFLInfo]
   id: ClothingOuterHardsuitTCFL
-  name: entity-clothingouterhardsuittcfl-name
+  name: TCFL Tacsuit
   suffix: TCFL
-  description: entity-clothingouterhardsuittcfl-description
+  description: Standard-issue body armor for Solarian marines. While the rest of their gear may be cheap, the armor worn on top was apparently made by the highest bidder. A suit of polymer fabric encases a large plastitanium plate. The inside is sewn with, "Manufactured by CyberSun Armaments, For Solarian-Use Only".
   components:
     - type: Sprite
       sprite: _EE/Clothing/BieselRepublic/OuterClothing/TCFL_tacsuit.rsi
@@ -20,9 +20,9 @@
 - type: entity
   parent: [ClothingOuterStorageBase, AllowSuitStorageClothing, TCFLInfo]
   id: ClothingOuterArmorTCFLHeavy
-  name: entity-clothingouterarmortcflheavy-name
+  name: TCAF heavy armor
   suffix: TCFL
-  description: entity-clothingouterarmortcflheavy-description
+  description: A suit of heavy armor used by members of the Tau-Ceti Armed Forces. Once common to the Sol Alliance, this wargear is often now made locally by companies such as Five-Points Armory, BRDI, or even NanoTrasen.
   components:
     - type: Sprite
       sprite: _EE/Clothing/BieselRepublic/OuterClothing/TCAF_plate_carrier_heavy.rsi
@@ -54,9 +54,9 @@
 - type: entity
   parent: [ClothingOuterStorageBase, AllowSuitStorageClothing, TCFLInfo]
   id: ClothingOuterArmorTCFLLight
-  name: entity-clothingouterarmortcfllight-name
+  name: TCAF plate carrier
   suffix: TCFL
-  description: entity-clothingouterarmortcfllight-description
+  description: A plate carrier worn by members of the Tau-Ceti Armed Forces. Once common to the Sol Alliance, this wargear is often now made locally by companies such as Five-Points Armory, BRDI, or even NanoTrasen.
   components:
     - type: Sprite
       sprite: _EE/Clothing/BieselRepublic/OuterClothing/TCAF_plate_carrier_light.rsi
@@ -87,9 +87,9 @@
 - type: entity
   parent: [ClothingOuterStorageBase, AllowSuitStorageClothing, TCFLInfo]
   id: ClothingOuterJacketTCAF
-  name: entity-clothingouterjackettcaf-name
+  name: TCAF Jacket
   suffix: TCFL
-  description: entity-clothingouterjackettcaf-description
+  description: A high quality jacket made from a blend of tear resistant and fire retardant fabric. It's commonly worn by current and former members of the Tau-Ceti Armed Forces
   components:
     - type: Sprite
       sprite: _EE/Clothing/BieselRepublic/OuterClothing/TCAF_jacket.rsi

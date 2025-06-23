@@ -1,6 +1,6 @@
 - type: entity
   id: RandomWoodenSupport
-  name: entity-randomwoodensupport-name
+  name: wooden support spawner
   parent: MarkerBase
   components:
   - type: Sprite
@@ -18,7 +18,7 @@
 
 - type: entity
   id: RandomWoodenWall
-  name: entity-randomwoodenwall-name
+  name: wooden wall spawner
   parent: MarkerBase
   components:
   - type: Sprite
@@ -34,7 +34,7 @@
 
 - type: entity
   id: RandomStalagmiteOrCrystal
-  name: entity-randomstalagmiteorcrystal-name
+  name: stalagmite or crystal spawner
   parent: MarkerBase
   components:
   - type: Sprite
@@ -52,7 +52,7 @@
 
 - type: entity
   id: RandomBrownStalagmite
-  name: entity-randombrownstalagmite-name
+  name: brown stalagmite spawner
   parent: MarkerBase
   components:
   - type: Sprite
@@ -73,7 +73,7 @@
 
 - type: entity
   id: RandomGreyStalagmite
-  name: entity-randomgreystalagmite-name
+  name: grey stalagmite spawner
   parent: MarkerBase
   components:
   - type: Sprite

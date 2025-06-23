@@ -1,8 +1,8 @@
 - type: entity
   id: Emitter
-  name: entity-emitter-name
+  name: emitter
   parent: SmallConstructibleMachine
-  description: entity-emitter-description
+  description: A heavy duty industrial laser. Shoots non-stop when turned on.
   placement:
     mode: SnapgridCenter
   components:

@@ -1,7 +1,7 @@
 - type: entity
   id: BoxingBell
-  name: entity-boxingbell-name
-  description: entity-boxingbell-description
+  name: boxing bell
+  description: Ding ding!
   placement:
     mode: SnapgridCenter
     snap:

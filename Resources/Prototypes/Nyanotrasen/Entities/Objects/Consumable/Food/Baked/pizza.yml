@@ -1,8 +1,8 @@
 - type: entity
-  name: entity-foodpizzacorncob-name
+  name: corncob crust pizza
   parent: FoodPizzaBase
   id: FoodPizzaCorncob
-  description: entity-foodpizzacorncob-description
+  description: Cobbled together as a sick joke. Best served with liquid butter.
   components:
   - type: FlavorProfile
     flavors:
@@ -26,10 +26,10 @@
     - Pizza
 
 - type: entity
-  name: entity-foodpizzacorncobslice-name
+  name: slice of corncob crust pizza
   parent: FoodPizzaSliceBase
   id: FoodPizzaCorncobSlice
-  description: entity-foodpizzacorncob-description
+  description: Cobbled together as a sick joke. Best served with liquid butter.
   components:
   - type: FlavorProfile
     flavors:
@@ -51,10 +51,10 @@
     - Pizza
 
 - type: entity
-  name: entity-foodmothpizzafirecracker-name
+  name: firecracker pizza
   parent: FoodPizzaBase
   id: FoodMothPizzaFirecracker
-  description: entity-foodmothpizzafirecracker-description
+  description: They're not kidding when they call this a hot pizza pie.
   components:
   - type: FlavorProfile
     flavors:
@@ -86,10 +86,10 @@
     - ClothMade # Mothic Food
 
 - type: entity
-  name: entity-foodmothpizzafirecrackerslice-name
+  name: slice of firecracker pizza
   parent: FoodPizzaSliceBase
   id: FoodMothPizzaFirecrackerSlice
-  description: entity-foodmothpizzafirecrackerslice-description
+  description: A spicy slice of something quite nice.
   components:
   - type: FlavorProfile
     flavors:
@@ -120,10 +120,10 @@
 # Tastes like crust, chili, corn, cheese
 
 - type: entity
-  name: entity-foodmothpizzafivecheese-name
+  name: quattro formaggi pizza
   parent: FoodPizzaBase
   id: FoodMothPizzaFiveCheese
-  description: entity-foodmothpizzafivecheese-description
+  description: For centuries, scholars have asked; how much cheese is too much cheese?
   components:
   - type: FlavorProfile
     flavors:
@@ -141,10 +141,10 @@
     - ClothMade # Mothic Food
 
 - type: entity
-  name: entity-foodmothpizzafivecheeseslice-name
+  name: slice of quattro formaggi pizza
   parent: FoodPizzaSliceBase
   id: FoodMothPizzaFiveCheeseSlice
-  description: entity-foodmothpizzafivecheeseslice-description
+  description: It's the cheesiest slice in the galaxy!
   components:
   - type: FlavorProfile
     flavors:
@@ -161,10 +161,10 @@
 # Tastes like crust, cheese, more cheese, excessive amount of cheese
 
 - type: entity
-  name: entity-foodmothpizzapesto-name
+  name: pesto pizza
   parent: FoodPizzaBase
   id: FoodMothPizzaPesto
-  description: entity-foodmothpizzapesto-description
+  description: Pesto is a popular pizza topping for moths, quite possibly because it exemplifies their favourite flavours; cheese, herbs, and veggies.
   components:
   - type: FlavorProfile
     flavors:
@@ -194,10 +194,10 @@
     - Fruit
 
 - type: entity
-  name: entity-foodmothpizzapestoslice-name
+  name: slice of pesto pizza
   parent: FoodPizzaSliceBase
   id: FoodMothPizzaPestoSlice
-  description: entity-foodmothpizzapestoslice-description
+  description: Green as the grass in the garden.
   components:
   - type: FlavorProfile
     flavors:
@@ -227,10 +227,10 @@
 # Tastes like crust, pesto, cheese
 
 - type: entity
-  name: entity-foodmothpizzacotton-name
+  name: cotton pizza
   parent: FoodPizzaBase
   id: FoodMothPizzaCotton
-  description: entity-foodmothpizzacotton-description
+  description: A crime to some, a delicious pizza to others. Cotton and cheese.
   components:
   - type: FlavorProfile
     flavors:
@@ -259,10 +259,10 @@
     - ClothMade
 
 - type: entity
-  name: entity-foodmothpizzacottonslice-name
+  name: slice of cotton pizza
   parent: FoodPizzaSliceBase
   id: FoodMothPizzaCottonSlice
-  description: entity-foodmothpizzacottonslice-description
+  description: White as a sheet of paper.
   components:
   - type: FlavorProfile
     flavors:

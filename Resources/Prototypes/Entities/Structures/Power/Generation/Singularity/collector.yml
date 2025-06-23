@@ -1,8 +1,8 @@
 - type: entity
   id: RadiationCollector
-  name: entity-radiationcollector-name
+  name: radiation collector
   suffix: Empty tank
-  description: entity-radiationcollector-description
+  description: A machine that collects radiation and turns it into power. Requires plasma gas to function.
   placement:
     mode: SnapgridCenter
   components:

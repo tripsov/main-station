@@ -26,8 +26,8 @@
 - type: entity
   parent: GasBinaryBase
   id: GasPressurePump
-  name: entity-gaspressurepump-name
-  description: entity-gaspressurepump-description
+  name: gas pump
+  description: A pump that moves gas by pressure.
   placement:
     mode: SnapgridCenter
   components:
@@ -69,8 +69,8 @@
 - type: entity
   parent: GasBinaryBase
   id: GasVolumePump
-  name: entity-gasvolumepump-name
-  description: entity-gasvolumepump-description
+  name: volumetric gas pump
+  description: A pump that moves gas by volume.
   placement:
     mode: SnapgridCenter
   components:
@@ -121,8 +121,8 @@
 - type: entity
   parent: GasBinaryBase
   id: GasPassiveGate
-  name: entity-gaspassivegate-name
-  description: entity-gaspassivegate-description
+  name: passive gate
+  description: A one-way air valve that does not require power.
   placement:
     mode: SnapgridCenter
   components:
@@ -152,8 +152,8 @@
 - type: entity
   parent: GasBinaryBase
   id: GasValve
-  name: entity-gasvalve-name
-  description: entity-gasvalve-description
+  name: manual valve
+  description: A pipe with a valve that can be used to disable the flow of gas through it.
   placement:
     mode: SnapgridCenter
   components:
@@ -202,8 +202,8 @@
 - type: entity
   parent: GasBinaryBase
   id: SignalControlledValve
-  name: entity-signalcontrolledvalve-name
-  description: entity-signalcontrolledvalve-description
+  name: signal valve
+  description: A pipe with a valve that can be controlled with signals.
   placement:
     mode: SnapgridCenter
   components:
@@ -263,8 +263,8 @@
 - type: entity
   parent: GasBinaryBase
   id: GasPort
-  name: entity-gasport-name
-  description: entity-gasport-description
+  name: connector port
+  description: For connecting portable devices related to atmospherics control.
   placement:
     mode: SnapgridCenter
   components:
@@ -294,8 +294,8 @@
 - type: entity
   parent: GasVentPump
   id: GasDualPortVentPump
-  name: entity-gasdualportventpump-name
-  description: entity-gasdualportventpump-description
+  name: dual-port air vent
+  description: Has a valve and a pump attached to it. There are two ports, one is an input for releasing air, the other is an output when siphoning.
   placement:
     mode: SnapgridCenter
   components:
@@ -351,8 +351,8 @@
 - type: entity
   parent: [ BaseMachine, ConstructibleMachine ]
   id: GasRecycler
-  name: entity-gasrecycler-name
-  description: entity-gasrecycler-description
+  name: gas recycler
+  description: Recycles carbon dioxide and nitrous oxide. Heater and compressor not included.
   placement:
     mode: SnapgridCenter
   components:
@@ -415,8 +415,8 @@
 - type: entity
   parent: GasBinaryBase
   id: HeatExchanger
-  name: entity-heatexchanger-name
-  description: entity-heatexchanger-description
+  name: radiator
+  description: Transfers heat between the pipe and its surroundings.
   placement:
     mode: SnapgridCenter
   components:

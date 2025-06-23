@@ -1,8 +1,8 @@
 - type: entity
   id: Jukebox
-  name: entity-jukebox-name
+  name: jukebox
   parent: [ BaseMachinePowered, ConstructibleMachine ]
-  description: entity-jukebox-description
+  description: A machine capable of playing a wide variety of tunes. Enjoyment not guaranteed.
   components:
   - type: StationAiWhitelist
   - type: Sprite

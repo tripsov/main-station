@@ -1,8 +1,8 @@
 - type: entity
   id: Fireplace
   parent: BaseStructure
-  name: entity-fireplace-name
-  description: entity-fireplace-description
+  name: fireplace
+  description: A place that has fire. Cozy!
   components:
   - type: Sprite
     sprite: Structures/Decoration/fireplace.rsi

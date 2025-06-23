@@ -1,8 +1,8 @@
 - type: entity
   parent: DrinkBaseCup
   id: DrinkSakeCup
-  name: entity-drinksakecup-name
-  description: entity-drinksakecup-description
+  name: sakazuki
+  description: A ceremonial white cup for drinking sake.
   components:
   - type: SolutionContainerManager
     solutions:

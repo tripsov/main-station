@@ -1,6 +1,6 @@
 - type: entity
   parent: SeedBase
-  name: entity-killertomatoseeds-name
+  name: packet of killer tomato seeds
   id: KillerTomatoSeeds
   components:
     - type: Seed

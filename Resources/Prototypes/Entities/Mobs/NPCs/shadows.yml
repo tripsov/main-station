@@ -38,10 +38,10 @@
       80: 0.5
 
 - type: entity
-  name: entity-mobcatshadow-name
+  name: shadow cat
   parent: BaseShadowMob
   id: MobCatShadow
-  description: entity-mobcatshadow-description
+  description: A lovely piece of darkness. Hope he doesn't bring you a curse.
   components:
   - type: Sprite
     drawdepth: Mobs

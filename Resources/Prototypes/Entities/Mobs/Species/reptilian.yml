@@ -1,6 +1,6 @@
 - type: entity
   save: false
-  name: entity-basemobreptilian-name
+  name: Urisst' Mzhand
   parent: BaseMobSpeciesOrganic
   id: BaseMobReptilian
   abstract: true
@@ -143,7 +143,7 @@
   parent: BaseSpeciesDummy
   id: MobReptilianDummy
   categories: [ HideSpawnMenu ]
-  description: entity-mobreptiliandummy-description
+  description: A dummy reptilian meant to be used in character setup.
   components:
   - type: HumanoidAppearance
     species: Reptilian

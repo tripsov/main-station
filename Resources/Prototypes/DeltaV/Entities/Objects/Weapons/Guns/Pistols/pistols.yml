@@ -1,8 +1,8 @@
 - type: entity
-  name: entity-weaponpistolviperwood-name
+  name: viper
   parent: BaseWeaponPistol
   id: WeaponPistolViperWood
-  description: entity-weaponpistolviperwood-description
+  description: A small, low-power pistol with pleasant lacquered wooden grips. Uses .35 auto ammo.
   suffix: Wood
   components:
   - type: Sprite
@@ -34,20 +34,20 @@
       gun_chamber: !type:ContainerSlot
 
 - type: entity
-  name: entity-weaponpistolviperwood-name
+  name: viper
   parent: WeaponPistolViperWood
   id: WeaponPistolViperWoodSecurity
-  description: entity-weaponpistolviperwood-description
+  description: A small, low-power pistol with pleasant lacquered wooden grips. Uses .35 auto ammo.
                The serial number on the handguard marks this gun as belonging to an NT Security Officer.
   components:
   - type: GuideHelp
     guides: [ SecurityWeapons ]
 
 - type: entity
-  name: entity-weaponpistolpollock-name
+  name: Pollock
   parent: BaseWeaponPistol
   id: WeaponPistolPollock
-  description: entity-weaponpistolpollock-description
+  description: A compact and mass-produced combat pistol. Uses .35 auto ammo.
   suffix: Mercenary
   components:
   - type: Sprite
@@ -83,20 +83,20 @@
       gun_chamber: !type:ContainerSlot
 
 - type: entity
-  name: entity-weaponpistolpollock-name
+  name: Pollock
   parent: WeaponPistolPollock
   id: WeaponPistolPollockSecurity
-  description: entity-weaponpistolpollock-description
+  description: A compact and mass-produced combat pistol. Uses .35 auto ammo.
                The serial number on the handguard marks this gun as belonging to an NT Security Officer.
   components:
   - type: GuideHelp
     guides: [ SecurityWeapons ]
 
 - type: entity
-  name: entity-weaponpistolpsibreaker-name
+  name: psi-breaker
   parent: BaseWeaponPistol
   id: WeaponPistolPsiBreaker
-  description: entity-weaponpistolpsibreaker-description
+  description: A small, flashy pistol with a marble style grip. Provides no tactical advantage. Uses .38 special ammo.
   components:
   - type: Sprite
     sprite: DeltaV/Objects/Weapons/Guns/Pistols/psibreaker.rsi
@@ -130,11 +130,11 @@
       gun_chamber: !type:ContainerSlot
 
 - type: entity
-  name: entity-weaponpistolflintlockcrafted-name
+  name: flintlock
   suffix: "craftable"
   parent: WeaponPistolFlintlock
   id: WeaponPistolFlintlockCrafted
-  description: entity-weaponpistolflintlockcrafted-description
+  description: An old flintlock, feels like 1800s gang warfare. Uses musket cartridges.
   components:
   - type: BallisticAmmoProvider
     whitelist:

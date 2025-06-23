@@ -1,10 +1,10 @@
 #Salads
 
 - type: entity
-  name: entity-foodmothcapresesalad-name
+  name: caprese salad
   parent: FoodBakingBase
   id: FoodMothCapreseSalad
-  description: entity-foodmothcapresesalad-description
+  description: A very tasty yet simple to prepare salad.
   components:
   - type: FlavorProfile
     flavors:
@@ -29,10 +29,10 @@
 #Tastes like mozzarella, tomato and balsamic
 
 - type: entity
-  name: entity-foodmothfleetsalad-name
+  name: fleet salad
   parent: FoodBowlBase
   id: FoodMothFleetSalad
-  description: entity-foodmothfleetsalad-description
+  description: The grilled cheese makes it particularly filling, while the croutons provide a crunchy kick.
   components:
   - type: FlavorProfile
     flavors:
@@ -59,10 +59,10 @@
 #Tastes like cheese, salad and bread
 
 - type: entity
-  name: entity-foodmothcottonsalad-name
+  name: cotton salad
   parent: FoodBowlBase
   id: FoodMothCottonSalad
-  description: entity-foodmothcottonsalad-description
+  description: A salad with added cotton and a basic dressing. Presumably moths are around.
   components:
   - type: FlavorProfile
     flavors:
@@ -89,7 +89,7 @@
 #Tastes like cheese, salad and cotton
 
 - type: entity
-  name: entity-foodmothkachumbarisalad-name
+  name: kachumbari salad
   parent: FoodBowlBase
   id: FoodMothKachumbariSalad
   description:

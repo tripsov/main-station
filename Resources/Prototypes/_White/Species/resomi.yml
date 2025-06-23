@@ -1,6 +1,6 @@
 - type: species
   id: Resomi
-  name: species-resomi-name
+  name: species-name-resomi
   roundStart: false
   prototype: MobResomi
   bodyTypes:

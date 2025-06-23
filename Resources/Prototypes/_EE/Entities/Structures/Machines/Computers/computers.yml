@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseComputerAiAccess
   id: ComputerSupermatter
-  name: entity-computersupermatter-name
-  description: entity-computersupermatter-description
+  name: supermatter monitoring console
+  description: Used to monitor the status of supermatter crystals.
   components:
   - type: Computer
     board: SupermatterComputerCircuitboard

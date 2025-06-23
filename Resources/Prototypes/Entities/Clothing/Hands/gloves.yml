@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingHandsBase
   id: ClothingHandsGlovesBoxingRed
-  name: entity-clothinghandsglovesboxingred-name
-  description: entity-clothinghandsglovesboxingred-description
+  name: red boxing gloves
+  description: Red gloves for competitive boxing.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/Boxing/boxingred.rsi
@@ -33,8 +33,8 @@
 - type: entity
   parent: ClothingHandsGlovesBoxingRed
   id: ClothingHandsGlovesBoxingBlue
-  name: entity-clothinghandsglovesboxingblue-name
-  description: entity-clothinghandsglovesboxingblue-description
+  name: blue boxing gloves
+  description: Blue gloves for competitive boxing.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/Boxing/boxingblue.rsi
@@ -49,8 +49,8 @@
 - type: entity
   parent: ClothingHandsGlovesBoxingRed
   id: ClothingHandsGlovesBoxingGreen
-  name: entity-clothinghandsglovesboxinggreen-name
-  description: entity-clothinghandsglovesboxinggreen-description
+  name: green boxing gloves
+  description: Green gloves for competitive boxing.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/Boxing/boxinggreen.rsi
@@ -65,8 +65,8 @@
 - type: entity
   parent: ClothingHandsGlovesBoxingRed
   id: ClothingHandsGlovesBoxingYellow
-  name: entity-clothinghandsglovesboxingyellow-name
-  description: entity-clothinghandsglovesboxingyellow-description
+  name: yellow boxing gloves
+  description: Yellow gloves for competitive boxing.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/Boxing/boxingyellow.rsi
@@ -96,8 +96,8 @@
 - type: entity
   parent: ClothingHandsBase
   id: ClothingHandsGlovesCaptain
-  name: entity-clothinghandsglovescaptain-name
-  description: entity-clothinghandsglovescaptain-description
+  name: captain gloves
+  description: Regal blue gloves, with a nice gold trim. Swanky.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/captain.rsi
@@ -114,8 +114,8 @@
 - type: entity
   parent: ClothingHandsBase
   id: ClothingHandsGlovesHop
-  name: entity-clothinghandsgloveshop-name
-  description: entity-clothinghandsgloveshop-description
+  name: papercut-proof gloves
+  description: Perfect for dealing with paperwork and matters with bureaucracy.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/hop.rsi
@@ -134,8 +134,8 @@
 - type: entity
   parent: ClothingHandsButcherable
   id: ClothingHandsGlovesLatex
-  name: entity-clothinghandsgloveslatex-name
-  description: entity-clothinghandsgloveslatex-description
+  name: latex gloves
+  description: Thin sterile latex gloves. Basic PPE for any doctor.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/latex.rsi
@@ -148,8 +148,8 @@
 - type: entity
   parent: ClothingHandsButcherable
   id: ClothingHandsGlovesNitrile
-  name: entity-clothinghandsglovesnitrile-name
-  description: entity-clothinghandsglovesnitrile-description
+  name: nitrile gloves
+  description: High-quality nitrile gloves. Expensive medical PPE.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/nitrile.rsi
@@ -162,8 +162,8 @@
 - type: entity
   parent: ClothingHandsButcherable
   id: ClothingHandsGlovesLeather
-  name: entity-clothinghandsglovesleather-name
-  description: entity-clothinghandsglovesleather-description
+  name: botanist's leather gloves
+  description: These leather gloves protect against thorns, barbs, prickles, spikes and other harmful objects of floral origin. They're also quite warm.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/leather.rsi
@@ -179,7 +179,7 @@
 - type: entity
   parent: ClothingHandsBase
   id: ClothingHandsGlovesPowerglove
-  name: entity-clothinghandsglovespowerglove-name
+  name: power gloves
   description: Now I'm playin' with power! Wait... they're turned off. #Use "Now I'm playin' with power! BAM!" for when they're turned on
   components:
   - type: Sprite
@@ -193,8 +193,8 @@
 - type: entity
   parent: ClothingHandsButcherable
   id: ClothingHandsGlovesRobohands
-  name: entity-clothinghandsglovesrobohands-name
-  description: entity-clothinghandsglovesrobohands-description
+  name: robohands gloves
+  description: Beep boop borp!
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/robohands.rsi
@@ -208,8 +208,8 @@
 - type: entity
   parent: [ClothingHandsBase, BaseToggleClothing]
   id: ClothingHandsGlovesSpaceNinja
-  name: entity-clothinghandsglovesspaceninja-name
-  description: entity-clothinghandsglovesspaceninja-description
+  name: space ninja gloves
+  description: These black nano-enhanced gloves insulate from electricity and provide fire resistance.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/spaceninja.rsi
@@ -263,8 +263,8 @@
 - type: entity
   parent: ClothingHandsGlovesColorBlack
   id: ClothingHandsGlovesCombat
-  name: entity-clothinghandsglovescombat-name
-  description: entity-clothinghandsglovescombat-description
+  name: combat gloves
+  description: These tactical gloves are fireproof and shock resistant.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/combat.rsi
@@ -286,8 +286,8 @@
 - type: entity
   parent: ClothingHandsGlovesSyntheticBase
   id: ClothingHandsTacticalMaidGloves
-  name: entity-clothinghandstacticalmaidgloves-name
-  description: entity-clothinghandstacticalmaidgloves-description
+  name: tactical maid gloves
+  description: Tactical maid gloves, every self-respecting maid should be able to discreetly eliminate her goals.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/tacticalmaidgloves.rsi
@@ -308,8 +308,8 @@
 - type: entity
   parent: ClothingHandsGlovesCombat
   id: ClothingHandsMercGlovesCombat
-  name: entity-clothinghandsmercglovescombat-name
-  description: entity-clothinghandsmercglovescombat-description
+  name: mercenary combat gloves
+  description: High-quality combat gloves to protect hands from mechanical damage during combat.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/mercbattle.rsi
@@ -332,8 +332,8 @@
 - type: entity
   parent: ClothingHandsButcherable
   id: ClothingHandsGlovesFingerless
-  name: entity-clothinghandsglovesfingerless-name
-  description: entity-clothinghandsglovesfingerless-description
+  name: fingerless gloves
+  description: Plain black gloves without fingertips for the hard working.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/fingerless.rsi
@@ -346,8 +346,8 @@
 - type: entity
   parent: ClothingHandsButcherable
   id: ClothingHandsGlovesFingerlessWhite
-  name: entity-clothinghandsglovesfingerless-name
-  description: entity-clothinghandsglovesfingerlesswhite-description
+  name: fingerless gloves
+  description: Plain gloves without fingertips.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/fingerlesswhite.rsi
@@ -360,8 +360,8 @@
 - type: entity
   parent: ClothingHandsBase
   id: ClothingHandsGlovesFingerlessInsulated
-  name: entity-clothinghandsglovesfingerlessinsulated-name
-  description: entity-clothinghandsglovesfingerlessinsulated-description
+  name: fingerless insulated gloves
+  description: Insulated gloves resistant to shocks, or at least they used to.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/fingerlessinsuls.rsi
@@ -374,8 +374,8 @@
 - type: entity
   parent: ClothingHandsButcherable
   id: ClothingHandsGlovesMercFingerless
-  name: entity-clothinghandsglovesmercfingerless-name
-  description: entity-clothinghandsglovesmercfingerless-description
+  name: mercenary fingerless gloves
+  description: Gloves that may not protect you from finger burns, but will make you cooler.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/mercfingerless.rsi
@@ -400,17 +400,17 @@
 - type: entity
   parent: ClothingHandsGlovesColorWhite
   id: ClothingHandsGlovesCluwne
-  name: entity-clothinghandsglovescluwne-name
+  name: cluwne hands
   suffix: Unremoveable
-  description:  entity-clothinghandsglovescluwne-description
+  description:  A cursed pair of cluwne hands.
   components:
   - type: Unremoveable
 
 - type: entity
   parent: ClothingHandsButcherable
   id: ClothingHandsGlovesNorthStar
-  name: entity-clothinghandsglovesnorthstar-name
-  description: entity-clothinghandsglovesnorthstar-description
+  name: gloves of the north star
+  description: These gloves allow you to punch incredibly fast.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/northstar.rsi
@@ -448,8 +448,8 @@
 - type: entity
   parent: ClothingHandsBase
   id: ClothingHandsGlovesForensic
-  name: entity-clothinghandsglovesforensic-name
-  description: entity-clothinghandsglovesforensic-description
+  name: forensic gloves
+  description: Do not leave fibers or fingerprints. If you work without them, you're A TERRIBLE DETECTIVE.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/forensic.rsi
@@ -464,8 +464,8 @@
 - type: entity
   parent: ClothingHandsBase
   id: ClothingHandsGlovesJanitor
-  name: entity-clothinghandsglovesjanitor-name
-  description: entity-clothinghandsglovesjanitor-description
+  name: rubber gloves
+  description: High-quality rubber gloves, squeaky to do some cleaning!
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/janitor.rsi
@@ -479,8 +479,8 @@
 - type: entity
   parent: ClothingHandsGlovesSyntheticBase
   id: ClothingHandsGlovesEvening
-  name: entity-clothinghandsglovesevening-name
-  description: entity-clothinghandsglovesevening-description
+  name: evening gloves
+  description: Gloves that reach past the elbow. Serving elegance and serving looks!
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/evening_gloves.rsi
@@ -490,8 +490,8 @@
 - type: entity
   parent: ClothingHandsGlovesSyntheticBase
   id: ClothingHandsTacticalMaidGlovesLoadout
-  name: entity-clothinghandstacticalmaidgloves-name
-  description: entity-clothinghandstacticalmaidglovesloadout-description
+  name: tactical maid gloves
+  description: Tactical maid gloves, every self-respecting maid should be able to discreetly eliminate the stains the passengers leave.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/tacticalmaidgloves.rsi

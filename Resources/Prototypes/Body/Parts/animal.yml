@@ -34,7 +34,7 @@
 
 - type: entity
   id: HandsAnimal
-  name: entity-handsanimal-name
+  name: animal hands
   parent: PartAnimal
   categories: [ HideSpawnMenu ]
   components:
@@ -49,7 +49,7 @@
 
 - type: entity
   id: LegsAnimal
-  name: entity-legsanimal-name
+  name: animal legs
   parent: PartAnimal
   categories: [ HideSpawnMenu ]
   components:
@@ -64,7 +64,7 @@
 
 - type: entity
   id: FeetAnimal
-  name: entity-feetanimal-name
+  name: animal feet
   parent: PartAnimal
   categories: [ HideSpawnMenu ]
   components:
@@ -78,7 +78,7 @@
 
 - type: entity
   id: TorsoAnimal
-  name: entity-torsoanimal-name
+  name: animal torso
   parent: PartAnimal
   categories: [ HideSpawnMenu ]
   components:

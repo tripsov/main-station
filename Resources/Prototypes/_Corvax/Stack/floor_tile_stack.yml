@@ -1,107 +1,107 @@
 - type: stack
   id: FloorTileItemWoodParquet
-  name: stack-floortileitemwoodparquet-name
+  name: black wood floor
   spawn: FloorTileItemWoodParquet
   maxCount: 30
 
 - type: stack
   id: FloorTileItemWoodBlack
-  name: stack-floortileitemwoodparquet-name
+  name: black wood floor
   spawn: FloorTileItemWoodBlack
   maxCount: 30
 
 - type: stack
   id: FloorTileItemWoodDark
-  name: stack-floortileitemwooddark-name
+  name: dark wood floor
   spawn: FloorTileItemWoodDark
   maxCount: 30
 
 - type: stack
   id: FloorTileItemWoodLight
-  name: stack-floortileitemwoodlight-name
+  name: light wood floor
   spawn: FloorTileItemWoodLight
   maxCount: 30
 
 - type: stack
   id: FloorTileItemWoodRed
-  name: stack-floortileitemwoodred-name
+  name: red wood floor
   spawn: FloorTileItemWoodRed
   maxCount: 30
 
 - type: stack
   id: FloorTileItemWoodLargeBlack
-  name: stack-floortileitemwoodlargeblack-name
+  name: large black wood floor
   spawn: FloorTileItemWoodLargeBlack
   maxCount: 30
 
 - type: stack
   id: FloorTileItemWoodLargeDark
-  name: stack-floortileitemwoodlargedark-name
+  name: large dark wood floor
   spawn: FloorTileItemWoodLargeDark
   maxCount: 30
 
 - type: stack
   id: FloorTileItemWoodLargeLight
-  name: stack-floortileitemwoodlargelight-name
+  name: large light wood floor
   spawn: FloorTileItemWoodLargeLight
   maxCount: 30
 
 - type: stack
   id: FloorTileItemWoodLargeRed
-  name: stack-floortileitemwoodlargered-name
+  name: large red wood floor
   spawn: FloorTileItemWoodLargeRed
   maxCount: 30
 
 - type: stack
   id: FloorTileItemWoodParquetBlack
-  name: stack-floortileitemwoodparquetblack-name
+  name: parquet black wood floor
   spawn: FloorTileItemWoodParquetBlack
   maxCount: 30
 
 - type: stack
   id: FloorTileItemWoodParquetDark
-  name: stack-floortileitemwoodparquetdark-name
+  name: parquet dark wood floor
   spawn: FloorTileItemWoodParquetDark
   maxCount: 30
 
 - type: stack
   id: FloorTileItemWoodParquetLight
-  name: stack-floortileitemwoodparquetlight-name
+  name: parquet light wood floor
   spawn: FloorTileItemWoodParquetLight
   maxCount: 30
 
 - type: stack
   id: FloorTileItemWoodParquetRed
-  name: stack-floortileitemwoodparquetred-name
+  name: parquet red wood floor
   spawn: FloorTileItemWoodParquetRed
   maxCount: 30
 
 - type: stack
   id: FloorTileItemWoodChess
-  name: stack-floortileitemwoodchess-name
+  name: chess wood floor
   spawn: FloorTileItemWoodChess
   maxCount: 30
 
 - type: stack
   id: FloorTileItemWoodChessBlack
-  name: stack-floortileitemwoodchessblack-name
+  name: chess black wood floor
   spawn: FloorTileItemWoodChessBlack
   maxCount: 30
 
 - type: stack
   id: FloorTileItemWoodChessDark
-  name: stack-floortileitemwoodchessdark-name
+  name: chess dark wood floor
   spawn: FloorTileItemWoodChessDark
   maxCount: 30
 
 - type: stack
   id: FloorTileItemWoodChessLight
-  name: stack-floortileitemwoodchesslight-name
+  name: chess light wood floor
   spawn: FloorTileItemWoodChessLight
   maxCount: 30
 
 - type: stack
   id: FloorTileItemWoodChessRed
-  name: stack-floortileitemwoodchessred-name
+  name: chess red wood floor
   spawn: FloorTileItemWoodChessRed
   maxCount: 30

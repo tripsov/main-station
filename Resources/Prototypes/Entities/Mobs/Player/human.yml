@@ -1,6 +1,6 @@
 - type: entity
   save: false
-  name: entity-mobhuman-name
+  name: Urist McHands
   parent: BaseMobHuman
   id: MobHuman
 
@@ -8,7 +8,7 @@
 - type: entity
   parent: MobHuman
   id: MobHumanSyndicateAgentBase
-  name: entity-mobhumansyndicateagentbase-name
+  name: syndicate agent
   suffix: Human, Base
   components:
     - type: Loadout
@@ -22,7 +22,7 @@
 - type: entity
   parent: MobHumanSyndicateAgentBase
   id: MobHumanSyndicateAgent
-  name: entity-mobhumansyndicateagentbase-name
+  name: syndicate agent
   suffix: Human, Traitor
   components:
   # make the player a traitor once its taken
@@ -39,7 +39,7 @@
 # Nuclear Operative
 - type: entity
   categories: [ HideSpawnMenu ]
-  name: entity-mobhumannukeop-name
+  name: Nuclear Operative
   parent: MobHuman
   id: MobHumanNukeOp
   components:
@@ -52,7 +52,7 @@
   categories: [ HideSpawnMenu ]
   parent: MobHuman
   id: MobHumanLoneNuclearOperative
-  name: entity-mobhumanlonenuclearoperative-name
+  name: Lone Operative
   components:
     - type: RandomHumanoidAppearance
       randomizeName: false

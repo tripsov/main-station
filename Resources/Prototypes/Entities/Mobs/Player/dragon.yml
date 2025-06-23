@@ -2,8 +2,8 @@
   parent: [ SimpleSpaceMobBase, FlyingMobBase ]
   id: BaseMobDragon
   suffix: ""
-  name: entity-basemobdragon-name
-  description: entity-basemobdragon-description
+  name: space dragon
+  description: A flying leviathan, loosely related to space carps.
   abstract: true
   components:
   - type: Body # Shitmed
@@ -168,8 +168,8 @@
 - type: entity
   categories: [ HideSpawnMenu ]
   id: DragonsBreathGun
-  name: entity-dragonsbreathgun-name
-  description: entity-dragonsbreathgun-description
+  name: dragon's lung
+  description: For dragon's breathing
   components:
   - type: RechargeBasicEntityAmmo
     rechargeCooldown: 5
@@ -213,8 +213,8 @@
 
 - type: entity
   id: ActionSpawnRift
-  name: entity-actionspawnrift-name
-  description: entity-actionspawnrift-description
+  name: Summon Carp Rift
+  description: Summons a carp rift that will periodically spawns carps.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -228,7 +228,7 @@
 - type: entity
   id: ActionDevour
   name: "[color=red]Devour[/color]"
-  description: entity-actiondevour-description
+  description: Attempt to break a structure with your jaws or swallow a creature.
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityTargetAction
@@ -241,7 +241,7 @@
   categories: [ HideSpawnMenu ]
   id: ActionDragonsBreath
   name: "[color=orange]Dragon's Breath[/color]"
-  description: entity-actiondragonsbreath-description
+  description: Spew out flames at anyone foolish enough to attack you!
   components:
   - type: WorldTargetAction
     # TODO: actual sprite

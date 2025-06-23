@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseSign
   id: SignAME
-  name: entity-signame-name
-  description: entity-signame-description
+  name: AME sign
+  description: A sign indicating the AME.
   components:
   - type: Sprite
     sprite: _White/Structures/Wallmounts/Signs/32x32.rsi
@@ -11,8 +11,8 @@
 - type: entity
   parent: BaseSign
   id: SignArrivals
-  name: entity-signarrivals-name
-  description: entity-signarrivals-description
+  name: arrivals sign
+  description: A sign indicating the arrivals.
   components:
   - type: Sprite
     sprite: _White/Structures/Wallmounts/Signs/32x32.rsi
@@ -21,8 +21,8 @@
 - type: entity
   parent: BaseSign
   id: SignBoxing
-  name: entity-signboxing-name
-  description: entity-signboxing-description
+  name: boxing sign
+  description: A sign indicating the boxing.
   components:
   - type: Sprite
     sprite: _White/Structures/Wallmounts/Signs/32x32.rsi
@@ -31,8 +31,8 @@
 - type: entity
   parent: BaseSign
   id: SignBrig
-  name: entity-signbrig-name
-  description: entity-signbrig-description
+  name: brig sign
+  description: A sign indicating the brig.
   components:
   - type: Sprite
     sprite: _White/Structures/Wallmounts/Signs/32x32.rsi
@@ -41,8 +41,8 @@
 - type: entity
   parent: BaseSign
   id: SignCaptain
-  name: entity-signcaptain-name
-  description: entity-signcaptain-description
+  name: captain sign
+  description: A sign indicating the captain office.
   components:
   - type: Sprite
     sprite: _White/Structures/Wallmounts/Signs/32x32.rsi
@@ -51,8 +51,8 @@
 - type: entity
   parent: BaseSign
   id: SignDorms
-  name: entity-signdorms-name
-  description: entity-signdorms-description
+  name: dorms sign
+  description: A sign indicating the dorms.
   components:
   - type: Sprite
     sprite: _White/Structures/Wallmounts/Signs/32x32.rsi
@@ -61,8 +61,8 @@
 - type: entity
   parent: BaseSign
   id: SignEquip
-  name: entity-signequip-name
-  description: entity-signequip-description
+  name: equipment sign
+  description: A sign indicating the equipment.
   components:
   - type: Sprite
     sprite: _White/Structures/Wallmounts/Signs/32x32.rsi
@@ -71,8 +71,8 @@
 - type: entity
   parent: BaseSign
   id: SignEvac
-  name: entity-signevac-name
-  description: entity-signevac-description
+  name: evacuation sign
+  description: A sign indicating the evacuation.
   components:
   - type: Sprite
     sprite: _White/Structures/Wallmounts/Signs/32x32.rsi
@@ -81,8 +81,8 @@
 - type: entity
   parent: BaseSign
   id: SignGate
-  name: entity-signgate-name
-  description: entity-signgate-description
+  name: gate sign
+  description: A sign indicating the gate.
   components:
   - type: Sprite
     sprite: _White/Structures/Wallmounts/Signs/32x32.rsi
@@ -91,8 +91,8 @@
 - type: entity
   parent: BaseSign
   id: SignGenetics
-  name: entity-signgenetics-name
-  description: entity-signgenetics-description
+  name: genetics sign
+  description: A sign indicating the genetics.
   components:
   - type: Sprite
     sprite: _White/Structures/Wallmounts/Signs/32x32.rsi
@@ -101,8 +101,8 @@
 - type: entity
   parent: BaseSign
   id: SignHydro
-  name: entity-signhydro-name
-  description: entity-signhydro-description
+  name: hydroponics sign
+  description: A sign indicating the hydroponics area.
   components:
   - type: Sprite
     sprite: _White/Structures/Wallmounts/Signs/32x32.rsi
@@ -111,8 +111,8 @@
 - type: entity
   parent: BaseSign
   id: SignHOP
-  name: entity-signhop-name
-  description: entity-signhop-description
+  name: HOP sign
+  description: A sign indicating the HOP office.
   components:
   - type: Sprite
     sprite: _White/Structures/Wallmounts/Signs/32x32.rsi
@@ -121,8 +121,8 @@
 - type: entity
   parent: BaseSign
   id: SignCheckpoint
-  name: entity-signcheckpoint-name
-  description: entity-signcheckpoint-description
+  name: checkpoint sign
+  description: A sign indicating the checkpoint.
   components:
   - type: Sprite
     sprite: _White/Structures/Wallmounts/Signs/32x32.rsi
@@ -131,8 +131,8 @@
 - type: entity
   parent: BaseSign
   id: SignCourt
-  name: entity-signcourt-name
-  description: entity-signcourt-description
+  name: court sign
+  description: A sign indicating the court.
   components:
   - type: Sprite
     sprite: _White/Structures/Wallmounts/Signs/32x32.rsi
@@ -141,8 +141,8 @@
 - type: entity
   parent: BaseSign
   id: SignNukeVault
-  name: entity-signnukevault-name
-  description: entity-signnukevault-description
+  name: nuclear vault sign
+  description: A sign indicating the nuclear.
   components:
   - type: Sprite
     sprite: _White/Structures/Wallmounts/Signs/32x32.rsi
@@ -151,8 +151,8 @@
 - type: entity
   parent: BaseSign
   id: SignPA
-  name: entity-signpa-name
-  description: entity-signpa-description
+  name: PA sign
+  description: A sign indicating the PA.
   components:
   - type: Sprite
     sprite: _White/Structures/Wallmounts/Signs/32x32.rsi
@@ -161,8 +161,8 @@
 - type: entity
   parent: BaseSign
   id: SignSMES
-  name: entity-signsmes-name
-  description: entity-signsmes-description
+  name: SMES sign
+  description: A sign indicating the SMES room.
   components:
   - type: Sprite
     sprite: _White/Structures/Wallmounts/Signs/32x32.rsi
@@ -171,8 +171,8 @@
 - type: entity
   parent: BaseSign
   id: SignSolar
-  name: entity-signsolar-name
-  description: entity-signsolar-description
+  name: solar pannels sign
+  description: A sign indicating the solar pannels.
   components:
   - type: Sprite
     sprite: _White/Structures/Wallmounts/Signs/32x32.rsi
@@ -181,8 +181,8 @@
 - type: entity
   parent: BaseSign
   id: SignStorage
-  name: entity-signstorage-name
-  description: entity-signstorage-description
+  name: storage sign
+  description: A sign indicating the storage.
   components:
   - type: Sprite
     sprite: _White/Structures/Wallmounts/Signs/32x32.rsi
@@ -191,8 +191,8 @@
 - type: entity
   parent: BaseSign
   id: SignTheatre
-  name: entity-signtheatre-name
-  description: entity-signtheatre-description
+  name: theatre sign
+  description: A sign indicating the theatre.
   components:
   - type: Sprite
     sprite: _White/Structures/Wallmounts/Signs/32x32.rsi
@@ -201,8 +201,8 @@
 - type: entity
   parent: BaseSign
   id: SignToilet
-  name: entity-signtoilet-name
-  description: entity-signtoilet-description
+  name: toilet sign
+  description: A sign indicating the toilet.
   components:
   - type: Sprite
     sprite: _White/Structures/Wallmounts/Signs/32x32.rsi
@@ -211,8 +211,8 @@
 - type: entity
   parent: BaseSign
   id: SignTVR1
-  name: entity-signtvr1-name
-  description: entity-signtvr1-description
+  name: TVR sign
+  description: A sign indicating the TVR.
   suffix: part 1
   components:
   - type: Sprite

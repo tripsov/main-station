@@ -1,6 +1,6 @@
 - type: entity
   id: FloorBananiumEntity
-  name: entity-floorbananiumentity-name
+  name: bananium floor
   placement:
     mode: SnapgridCenter
   components:

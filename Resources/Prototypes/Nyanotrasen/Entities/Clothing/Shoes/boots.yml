@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesBootsMantis
-  name: entity-clothingshoesbootsmantis-name
-  description: entity-clothingshoesbootsmantis-description
+  name: mantis' boots
+  description: Soft, comfortable, and good for rough terrain.
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Shoes/Boots/mantis_boots.rsi

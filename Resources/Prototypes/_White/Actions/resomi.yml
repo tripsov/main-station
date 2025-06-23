@@ -1,7 +1,7 @@
 - type: entity
   id: SwitchAgilityAction
-  name: entity-switchagilityaction-name
-  description: entity-switchagilityaction-description
+  name: Switch agility
+  description: Switching agility
   components:
   - type: InstantAction
     icon: _White/Mobs/Species/Resomi/Abilities/AgilityOff.png

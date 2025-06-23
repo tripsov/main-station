@@ -2,7 +2,7 @@
   abstract: true
   parent: BaseMagazineBox
   id: BaseMagazineBoxLightRifle
-  name: entity-basemagazineboxlightrifle-name
+  name: ammunition box (.30 rifle)
   components:
   - type: BallisticAmmoProvider
     mayTransfer: true
@@ -28,7 +28,7 @@
 - type: entity
   parent: BaseMagazineBoxLightRifle
   id: MagazineBoxLightRifleBig
-  name: entity-magazineboxlightriflebig-name
+  name: bulk ammunition box (.30 rifle)
   components:
   - type: BallisticAmmoProvider
     capacity: 200
@@ -48,7 +48,7 @@
 - type: entity
   parent: MagazineBoxLightRifleBig
   id: MagazineBoxLightRifleBigPractice
-  name: entity-magazineboxlightriflebigpractice-name
+  name: bulk ammunition box (.30 rifle practice)
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeLightRiflePractice
@@ -56,7 +56,7 @@
 - type: entity
   parent: MagazineBoxLightRifleBig
   id: MagazineBoxLightRifleBigIncendiary
-  name: entity-magazineboxlightriflebigincendiary-name
+  name: bulk ammunition box (.30 rifle incendiary)
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeLightRifleIncendiary
@@ -64,7 +64,7 @@
 - type: entity
   parent: MagazineBoxLightRifleBig
   id: MagazineBoxLightRifleBigUranium
-  name: entity-magazineboxlightriflebiguranium-name
+  name: bulk ammunition box (.30 rifle uranium)
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeLightRifleUranium
@@ -72,7 +72,7 @@
 - type: entity
   parent: MagazineBoxLightRifleBig
   id: MagazineBoxLightRifleBigShrapnel
-  name: entity-magazineboxlightriflebigshrapnel-name
+  name: bulk ammunition box (.30 rifle shrapnel)
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeLightRifleShrapnel
@@ -80,7 +80,7 @@
 - type: entity
   parent: BaseMagazineBoxLightRifle
   id: MagazineBoxLightRifle
-  name: entity-basemagazineboxlightrifle-name
+  name: ammunition box (.30 rifle)
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeLightRifle
@@ -94,7 +94,7 @@
 - type: entity
   parent: BaseMagazineBoxLightRifle
   id: MagazineBoxLightRiflePractice
-  name: entity-magazineboxlightriflepractice-name
+  name: ammunition box (.30 rifle practice)
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeLightRiflePractice
@@ -109,7 +109,7 @@
 - type: entity
   id: MagazineBoxLightRifleIncendiary
   parent: BaseMagazineBoxLightRifle
-  name: entity-magazineboxlightrifleincendiary-name
+  name: ammunition box (.30 rifle incendiary)
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeLightRifleIncendiary
@@ -124,7 +124,7 @@
 - type: entity
   parent: BaseMagazineBoxLightRifle
   id: MagazineBoxLightRifleUranium
-  name: entity-magazineboxlightrifleuranium-name
+  name: ammunition box (.30 rifle uranium)
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeLightRifleUranium
@@ -139,7 +139,7 @@
 - type: entity
   parent: MagazineBoxLightRifle
   id: MagazineBoxLightRifleShrapnel
-  name: entity-magazineboxlightrifleshrapnel-name
+  name: ammunition box (.30 rifle shrapnel)
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeLightRifleShrapnel

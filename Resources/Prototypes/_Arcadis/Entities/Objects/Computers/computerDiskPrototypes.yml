@@ -1,11 +1,11 @@
 - type: entity
   id: UnburnedDiskPrototype
-  name: entity-unburneddiskprototype-name
+  name: unburned disk dummy prototype
   categories: [HideSpawnMenu]
 
 - type: entity
   id: CrewMonitorDiskPrototype
-  name: entity-crewmonitordiskprototype-name
+  name: Crew Monitor
   categories: [HideSpawnMenu]
   components:
     - type: ActivatableUI
@@ -23,7 +23,7 @@
 
 - type: entity
   id: CommunicationsConsoleDiskPrototype
-  name: entity-communicationsconsolediskprototype-name
+  name: Communications Console
   categories: [HideSpawnMenu]
   components:
     - type: AccessReader

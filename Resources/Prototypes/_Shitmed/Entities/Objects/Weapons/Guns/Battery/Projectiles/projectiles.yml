@@ -1,7 +1,7 @@
 - type: entity
   id: BaseBulletStarlight
-  name: entity-basebulletstarlight-name
-  description: entity-basebulletstarlight-description
+  name: BaseBullet
+  description: If you can see this you're probably dead!
   abstract: true
   components:
   - type: Reflective
@@ -48,7 +48,7 @@
 
 - type: entity
   id: BulletDeclone
-  name: entity-bulletdeclone-name
+  name: decloner bolt
   parent: BaseBulletStarlight
   categories: [ HideSpawnMenu ]
   components:

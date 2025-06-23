@@ -1,6 +1,6 @@
 - type: entity
-  name: entity-energycrossbowmini-name
-  description: entity-energycrossbowmini-description
+  name: small energy crossbow
+  description: Shoots energy bolts that poison and stun the target.
   parent: BaseItem
   id: EnergyCrossbowMini
   components:

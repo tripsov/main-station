@@ -1,6 +1,6 @@
 ﻿- type: body
   id: Gingerbread
-  name: body-gingerbread-name
+  name: gingerbread
   root: torso
   slots:
     head:

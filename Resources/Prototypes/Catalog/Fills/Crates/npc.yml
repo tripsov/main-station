@@ -1,8 +1,8 @@
 - type: entity
   id: CrateNPCBee
   parent: CrateLivestock
-  name: entity-cratenpcbee-name
-  description: entity-cratenpcbee-description
+  name: crate of bees
+  description: A crate containing a swarm of eight bees.
   components:
   - type: StorageFill
     contents:
@@ -12,8 +12,8 @@
 - type: entity
   id: CrateNPCButterflies
   parent: CrateLivestock
-  name: entity-cratenpcbutterflies-name
-  description: entity-cratenpcbutterflies-description
+  name: crate of butterflies
+  description: A crate containing five butterflies.
   components:
   - type: StorageFill
     contents:
@@ -23,8 +23,8 @@
 - type: entity
   id: CrateNPCCat
   parent: CrateLivestock
-  name: entity-cratenpccat-name
-  description: entity-cratenpccat-description
+  name: cat crate
+  description: A crate containing a single cat.
   components:
   - type: StorageFill
     contents:
@@ -47,8 +47,8 @@
 - type: entity
   id: CrateNPCChicken
   parent: CrateLivestock
-  name: entity-cratenpcchicken-name
-  description: entity-cratenpcchicken-description
+  name: chicken crate
+  description: A crate containing four fully grown chickens.
   components:
   - type: StorageFill
     contents:
@@ -58,8 +58,8 @@
 - type: entity
   id: CrateNPCCrab
   parent: CrateLivestock
-  name: entity-cratenpccrab-name
-  description: entity-cratenpccrab-description
+  name: crab crate
+  description: A crate containing three huge crabs.
   components:
   - type: StorageFill
     contents:
@@ -69,8 +69,8 @@
 - type: entity
   id: CrateNPCDuck
   parent: CrateLivestock
-  name: entity-cratenpcduck-name
-  description: entity-cratenpcduck-description
+  name: duck crate
+  description: A crate containing six fully grown ducks.
   components:
   - type: StorageFill
     contents:
@@ -84,7 +84,7 @@
 - type: entity
   id: CrateNPCPibble
   parent: CrateLivestock
-  name: entity-cratenpcpibble-name
+  name: pitbull crate
   description: "Note from the shelter: Lab mix. Looking for a home without cats, birds, or children. Anxious when pet."
   components:
   - type: StorageFill
@@ -95,8 +95,8 @@
 - type: entity
   id: CrateNPCCorgi
   parent: CrateLivestock
-  name: entity-cratenpccorgi-name
-  description: entity-cratenpccorgi-description
+  name: corgi crate
+  description: A crate containing a single corgi.
   components:
   - type: StorageFill
     contents:
@@ -105,8 +105,8 @@
 - type: entity
   id: CrateNPCPuppyCorgi
   parent: CrateLivestock
-  name: entity-cratenpcpuppycorgi-name
-  description: entity-cratenpcpuppycorgi-description
+  name: puppy corgi crate
+  description: A crate containing a single puppy corgi. Awww.
   components:
   - type: StorageFill
     contents:
@@ -115,8 +115,8 @@
 - type: entity
   id: CrateNPCCow
   parent: CrateLivestock
-  name: entity-cratenpccow-name
-  description: entity-cratenpccow-description
+  name: cow crate
+  description: A crate containing a single cow.
   components:
   - type: StorageFill
     contents:
@@ -125,8 +125,8 @@
 - type: entity
   id: CrateNPCGoat
   parent: CrateLivestock
-  name: entity-cratenpcgoat-name
-  description: entity-cratenpcgoat-description
+  name: goat crate
+  description: A crate containing a single goat.
   components:
   - type: StorageFill
     contents:
@@ -135,8 +135,8 @@
 - type: entity
   id: CrateNPCGoose
   parent: CrateLivestock
-  name: entity-cratenpcgoose-name
-  description: entity-cratenpcgoose-description
+  name: goose crate
+  description: A crate containing two geese.
   components:
   - type: StorageFill
     contents:
@@ -146,8 +146,8 @@
 - type: entity
   id: CrateNPCGorilla
   parent: CrateLivestock
-  name: entity-cratenpcgorilla-name
-  description: entity-cratenpcgorilla-description
+  name: gorilla crate
+  description: A crate containing a single gorilla.
   components:
   - type: StorageFill
     contents:
@@ -156,8 +156,8 @@
 - type: entity
   id: CrateNPCMonkeyCube
   parent: CrateGenericSteel
-  name: entity-cratenpcmonkeycube-name
-  description: entity-cratenpcmonkeycube-description
+  name: monkey cube crate
+  description: A crate containing single box of monkey cubes.
   components:
   - type: StorageFill
     contents:
@@ -166,8 +166,8 @@
 - type: entity
   id: CrateNPCKoboldCube
   parent: CrateGenericSteel
-  name: entity-cratenpckoboldcube-name
-  description: entity-cratenpckoboldcube-description
+  name: kobold cube crate
+  description: A crate containing single box of kobold cubes.
   components:
   - type: StorageFill
     contents:
@@ -176,8 +176,8 @@
 - type: entity
   id: CrateNPCMouse
   parent: CrateLivestock
-  name: entity-cratenpcmouse-name
-  description: entity-cratenpcmouse-description
+  name: mice crate
+  description: A crate containing five mice.
   components:
   - type: StorageFill
     contents:
@@ -187,8 +187,8 @@
 - type: entity
   id: CrateNPCParrot
   parent: CrateLivestock
-  name: entity-cratenpcparrot-name
-  description: entity-cratenpcparrot-description
+  name: parrot crate
+  description: A crate containing three parrots.
   components:
   - type: StorageFill
     contents:
@@ -198,8 +198,8 @@
 - type: entity
   id: CrateNPCPenguin
   parent: CrateLivestock
-  name: entity-cratenpcpenguin-name
-  description: entity-cratenpcpenguin-description
+  name: penguin crate
+  description: A crate containing two penguins.
   components:
   - type: StorageFill
     contents:
@@ -209,8 +209,8 @@
 - type: entity
   id: CrateNPCPig
   parent: CrateLivestock
-  name: entity-cratenpcpig-name
-  description: entity-cratenpcpig-description
+  name: pig crate
+  description: A crate containing a single pig.
   components:
   - type: StorageFill
     contents:
@@ -219,8 +219,8 @@
 - type: entity
   id: CrateNPCSnake
   parent: CrateLivestock
-  name: entity-cratenpcsnake-name
-  description: entity-cratenpcsnake-description
+  name: snake crate
+  description: A crate containing three snakes.
   components:
   - type: StorageFill
     contents:
@@ -248,8 +248,8 @@
 - type: entity
   id: CrateNPCLizard
   parent: CrateLivestock
-  name: entity-cratenpclizard-name
-  description: entity-cratenpclizard-description
+  name: lizard crate
+  description: A crate containing a lizard.
   components:
     - type: StorageFill
       contents:
@@ -258,8 +258,8 @@
 - type: entity
   id: CrateNPCKangaroo
   parent: CrateLivestock
-  name: entity-cratenpckangaroo-name
-  description: entity-cratenpckangaroo-description
+  name: kangaroo crate
+  description: A crate containing a kangaroo.
   components:
   - type: StorageFill
     contents:
@@ -268,8 +268,8 @@
 - type: entity
   id: CrateNPCMothroach
   parent: CrateLivestock
-  name: entity-cratenpcmothroach-name
-  description: entity-cratenpcmothroach-description
+  name: crate of mothroaches
+  description: A crate containing four mothroaches.
   components:
   - type: StorageFill
     contents:

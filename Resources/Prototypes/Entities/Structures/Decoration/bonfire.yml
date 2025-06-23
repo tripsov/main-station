@@ -1,8 +1,8 @@
 - type: entity
   id: Bonfire
   parent: BaseStructure
-  name: entity-bonfire-name
-  description: entity-bonfire-description
+  name: bonfire
+  description: What can be better then late evening under the sky with guitar and friends.
   components:
   - type: Sprite
     noRot: true
@@ -41,8 +41,8 @@
 - type: entity
   id: LegionnaireBonfire
   parent: Bonfire
-  name: entity-legionnairebonfire-name
-  description: entity-legionnairebonfire-description
+  name: legionnaire bonfire
+  description: There, in the land of lava and ash, place to to cook marshmallow and potato.
   components:
   - type: Sprite
     layers:

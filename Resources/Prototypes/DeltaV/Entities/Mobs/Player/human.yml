@@ -2,7 +2,7 @@
   categories: [ HideSpawnMenu ]
   parent: MobHumanSyndicateAgent
   id: MobHumanSyndicateListener
-  name: entity-mobhumansyndicatelistener-name
+  name: Syndicate Listener
   components:
     - type: Loadout
       prototypes: [SyndicateListenerGear]

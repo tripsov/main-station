@@ -1,6 +1,6 @@
 ﻿- type: palette 
   id: WoodColors
-  name: palette-woodcolors-name
+  name: Wood
   colors:
     Light: "#a88661"
     Default: "#55391a"

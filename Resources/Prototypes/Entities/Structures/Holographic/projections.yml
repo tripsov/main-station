@@ -1,7 +1,7 @@
 - type: entity
   id: HolosignWetFloor
-  name: entity-holosignwetfloor-name
-  description: entity-holosignwetfloor-description
+  name: wet floor sign
+  description: The words flicker as if they mean nothing.
   placement:
     mode: SnapgridCenter
   components:
@@ -38,8 +38,8 @@
 - type: entity
   id: HoloFan
   parent: HolosignWetFloor
-  name: entity-holofan-name
-  description: entity-holofan-description
+  name: holofan
+  description: A barrier of hard light that blocks air, but nothing else.
   components:
   - type: Sprite
     sprite: Structures/Holo/holofan.rsi
@@ -56,8 +56,8 @@
 - type: entity
   id: HolosignSecurity
   parent: HolosignWetFloor
-  name: entity-holosignsecurity-name
-  description: entity-holosignsecurity-description
+  name: holographic barrier
+  description: A barrier of hard light that blocks movement, but pretty weak.
   components:
   - type: Physics
     bodyType: Static
@@ -84,8 +84,8 @@
 - type: entity
   id: HolosignForcefield
   parent: HolosignWetFloor
-  name: entity-holosignforcefield-name
-  description: entity-holosignforcefield-description
+  name: holographic force field
+  description: A powerful temporal containment field that doesn't let anything through, not even a tesla or singularity.
   components:
   - type: Physics
     bodyType: Static

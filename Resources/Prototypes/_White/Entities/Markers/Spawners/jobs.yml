@@ -1,7 +1,7 @@
 - type: entity
   id: SpawnPointHobo
   parent: SpawnPointJobBase
-  name: entity-spawnpointhobo-name
+  name: hobo
   components:
   - type: SpawnPoint
     job_id: Hobo
@@ -13,7 +13,7 @@
 - type: entity
   id: SpawnPointMaid
   parent: SpawnPointJobBase
-  name: entity-spawnpointmaid-name
+  name: maid
   components:
   - type: SpawnPoint
     job_id: Maid

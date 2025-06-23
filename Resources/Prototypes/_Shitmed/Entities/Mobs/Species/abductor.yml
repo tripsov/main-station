@@ -1,6 +1,6 @@
 - type: entity
   save: false
-  name: entity-mobabductor-name
+  name: Urist McAlien
   parent:
   - MobBloodstream
   - MobFlammable

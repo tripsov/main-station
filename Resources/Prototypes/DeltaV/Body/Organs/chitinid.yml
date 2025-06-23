@@ -1,7 +1,7 @@
 - type: entity
   id: OrganChitinidStomach
   parent: OrganAnimalStomach
-  name: entity-organchitinidstomach-name
+  name: stomach
   description: "Gross. This is hard to stomach."
   components:
   - type: Organ # Shitmed Change
@@ -35,7 +35,7 @@
 - type: entity
   id: OrganChitinidLiver
   parent: BaseAnimalOrgan
-  name: entity-organchitinidliver-name
+  name: liver
   categories: [ HideSpawnMenu ]
   components:
   - type: Organ

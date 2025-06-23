@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseMagazineBoxLightRifle
   id: MagazineBoxLightRifleSubsonic
-  name: entity-magazineboxlightriflesubsonic-name
+  name: ammunition box (.30 rifle subsonic)
   components:
   - type: BallisticAmmoProvider
     capacity: 70

@@ -1,5 +1,5 @@
 - type: entity
-  name: entity-weaponenergygun-name
+  name: energy gun
   parent: [BaseWeaponBattery, BaseWeaponOverheatLamp] # wwdp edit - overheating
   id: WeaponEnergyGun
   description: "A basic hybrid energy gun with two settings: disable and kill."
@@ -68,10 +68,10 @@
           Special: { state: mode-stun } # Unused
 
 - type: entity
-  name: entity-weaponenergygunmultiphase-name
+  name: x-01 multiphase energy gun
   parent: [BaseWeaponBatterySmall, BaseWeaponOverheat, BaseWeaponOverheatLamp] # wwdp edit - overheat
   id: WeaponEnergyGunMultiphase
-  description: entity-weaponenergygunmultiphase-description
+  description: This is an expensive, modern recreation of an antique laser gun. This gun has several unique firemodes, but lacks the ability to recharge over time.
   components:
   - type: Item # wwdp edit # i fucking hate this test
     heldPrefix: disabler
@@ -140,10 +140,10 @@
     stealGroup: HoSAntiqueWeapon
 
 - type: entity
-  name: entity-weaponenergygunmini-name
+  name: miniature energy gun
   parent: BaseWeaponBatterySmall
   id: WeaponEnergyGunMini
-  description: entity-weaponenergygunmini-description
+  description: A light version of the Energy gun with a smaller capacity.
   components:
   - type: Item # wwdp # I HATE UNIT TESTS I HATE UNIT TESTS I HATE UNIT TESTS
     heldPrefix: disabler
@@ -206,20 +206,20 @@
     staminaCost: 5
 
 - type: entity
-  name: entity-weaponenergygunmini-name
+  name: miniature energy gun
   parent: WeaponEnergyGunMini
   id: WeaponEnergyGunMiniSecurity
-  description: entity-weaponenergygunmini-description
+  description: A light version of the Energy gun with a smaller capacity.
                The serial number on the handguard marks this gun as belonging to an NT Security Officer.
   components:
   - type: GuideHelp
     guides: [ SecurityWeapons ]
 
 - type: entity
-  name: entity-weaponenergygunpistol-name
+  name: PDW-9 Energy Pistol
   parent: BaseWeaponBatterySmall
   id: WeaponEnergyGunPistol
-  description: entity-weaponenergygunpistol-description
+  description: A military grade sidearm, used by many militia forces throughout the local sector.
   components:
   - type: Item # wwdp # i am putting this first in the comp list as a sign of protest against the tyranny of uninitsavetest
     heldPrefix: disabler
@@ -289,17 +289,17 @@
     staminaCost: 5
 
 - type: entity
-  name: entity-weaponenergygunpistol-name
+  name: PDW-9 Energy Pistol
   parent: WeaponEnergyGunPistol
   id: WeaponEnergyGunPistolSecurity
-  description: entity-weaponenergygunpistol-description
+  description: A military grade sidearm, used by many militia forces throughout the local sector.
                The serial number on the handguard marks this gun as belonging to an NT Security Officer.
   components:
   - type: GuideHelp
     guides: [ SecurityWeapons ]
 
 - type: entity
-  name: entity-weapongunlasercarbineautomatic-name
+  name: IK-60 energy carbine
   parent: [BaseWeaponBattery, BaseWeaponOverheatLamp] # wwdp edit - overheating
   id: WeaponGunLaserCarbineAutomatic
   description: "A 150 round semi-automatic energy carbine. Unstable power supply leads to increased load on regulator lamps, making them more prone to burning out."

@@ -1,9 +1,9 @@
 - type: entity
   parent: BaseStructure
   id: N14DoorMetalBlueTall
-  name: entity-n14doormetalbluetall-name
+  name: metal Door
   suffix: tall
-  description: entity-n14doormetalbluetall-description
+  description: An old blue metal door.
   components:
   - type: InteractionOutline
   - type: AnimationPlayer
@@ -98,9 +98,9 @@
 - type: entity
   parent: N14DoorMetalBlueTall
   id: N14DoorMetalRedTall
-  name: entity-n14doormetalbluetall-name
+  name: metal Door
   suffix: tall
-  description: entity-n14doormetalredtall-description
+  description: An old red metal door.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Doors/TallDoors/metalred.rsi
@@ -121,9 +121,9 @@
 - type: entity
   parent: N14DoorMetalBlueTall
   id: N14DoorMetalBlueWindowTall
-  name: entity-n14doormetalbluetall-name
+  name: metal Door
   suffix: tall, windowed
-  description: entity-n14doormetalbluewindowtall-description
+  description: An old blue metal door with a window.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Doors/TallDoors/metalbluewindow.rsi
@@ -139,7 +139,7 @@
   parent: N14DoorMetalBlueWindowTall
   id: N14DoorMetalGrateTall
   suffix: tall, grate
-  description: entity-n14doormetalgratetall-description
+  description: A metal mesh door.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Doors/TallDoors/metal_grate.rsi
@@ -151,7 +151,7 @@
   parent: N14DoorMetalBlueWindowTall
   id: N14DoorMetalBarTall
   suffix: tall, bar
-  description: entity-n14doormetalbartall-description
+  description: A metal bar door.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Doors/TallDoors/metal_bar.rsi
@@ -163,7 +163,7 @@
   parent: N14DoorMetalBlueWindowTall
   id: N14DoorMetalFenceTall
   suffix: tall, fence
-  description: entity-n14doormetalfencetall-description
+  description: A metal fence gate.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Doors/TallDoors/fence.rsi
@@ -175,7 +175,7 @@
   parent: N14DoorMetalBlueWindowTall
   id: N14DoorMetalFenceBarbedTall
   suffix: tall, fence barbed
-  description: entity-n14doormetalfencebarbedtall-description
+  description: A metal barbed fence gate.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Doors/TallDoors/fence_barbed.rsi
@@ -187,9 +187,9 @@
 - type: entity
   parent: N14DoorMetalBlueTall
   id: N14DoorWoodTall
-  name: entity-n14doorwoodtall-name
+  name: wooden door
   suffix: tall
-  description: entity-n14doorwoodtall-description
+  description: A wooden door.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Doors/TallDoors/wood.rsi
@@ -257,8 +257,8 @@
 - type: entity
   parent: N14DoorMetalBlueTall
   id: N14DoorCell
-  name: entity-n14doorcell-name
-  description: entity-n14doorcell-description
+  name: cell door
+  description: A door to be in cell.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Doors/TallDoors/cell.rsi
@@ -295,9 +295,9 @@
 - type: entity
   parent: N14DoorMetalBlueTall
   id: N14DoorAirlockTall
-  name: entity-n14doorairlocktall-name
+  name: airlock
   suffix: tall
-  description: entity-n14doorairlocktall-description
+  description: An old bunker airlock.
   components:
   - type: Sprite
     drawdepth: Mobs

@@ -2,7 +2,7 @@
 - type: entity
   parent: FloorTileItemBase
   id: FloorCarpetItemRed
-  name: entity-floorcarpetitemred-name
+  name: red carpet
   suffix: Item
   components:
   - type: Sprite
@@ -26,7 +26,7 @@
 - type: entity
   parent: FloorCarpetItemRed
   id: FloorCarpetItemBlack
-  name: entity-floorcarpetitemblack-name
+  name: black carpet
   suffix: Item
   components:
   - type: Sprite
@@ -47,7 +47,7 @@
 - type: entity
   parent: FloorCarpetItemRed
   id: FloorCarpetItemBlue
-  name: entity-floorcarpetitemblue-name
+  name: blue carpet
   suffix: Item
   components:
   - type: Sprite
@@ -68,7 +68,7 @@
 - type: entity
   parent: FloorCarpetItemRed
   id: FloorCarpetItemGreen
-  name: entity-floorcarpetitemgreen-name
+  name: green carpet
   suffix: Item
   components:
   - type: Sprite
@@ -89,7 +89,7 @@
 - type: entity
   parent: FloorCarpetItemRed
   id: FloorCarpetItemOrange
-  name: entity-floorcarpetitemorange-name
+  name: orange carpet
   suffix: Item
   components:
   - type: Sprite
@@ -110,7 +110,7 @@
 - type: entity
   parent: FloorCarpetItemRed
   id: FloorCarpetItemSkyBlue
-  name: entity-floorcarpetitemskyblue-name
+  name: sky blue carpet
   suffix: Item
   components:
   - type: Sprite
@@ -131,7 +131,7 @@
 - type: entity
   parent: FloorCarpetItemRed
   id: FloorCarpetItemPurple
-  name: entity-floorcarpetitempurple-name
+  name: purple carpet
   suffix: Item
   components:
   - type: Sprite
@@ -152,7 +152,7 @@
 - type: entity
   parent: FloorCarpetItemRed
   id: FloorCarpetItemPink
-  name: entity-floorcarpetitempink-name
+  name: pink carpet
   suffix: Item
   components:
   - type: Sprite
@@ -173,7 +173,7 @@
 - type: entity
   parent: FloorCarpetItemRed
   id: FloorCarpetItemCyan
-  name: entity-floorcarpetitemcyan-name
+  name: cyan carpet
   suffix: Item
   components:
   - type: Sprite
@@ -194,7 +194,7 @@
 - type: entity
   parent: FloorCarpetItemRed
   id: FloorCarpetItemWhite
-  name: entity-floorcarpetitemwhite-name
+  name: white carpet
   suffix: Item
   components:
   - type: Sprite

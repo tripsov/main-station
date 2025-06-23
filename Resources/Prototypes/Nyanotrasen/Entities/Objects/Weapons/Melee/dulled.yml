@@ -1,9 +1,9 @@
 - type: entity
-  name: entity-katanadulled-name
+  name: katana
   suffix: Dulled
   parent: BaseItem
   id: KatanaDulled
-  description: entity-katanadulled-description
+  description: Ancient craftwork made with not so ancient plasteel. This one has been dulled.
   components:
   - type: Tag
     tags:
@@ -25,11 +25,11 @@
     sprite: Objects/Weapons/Melee/katana.rsi
 
 - type: entity
-  name: entity-claymoredulled-name
+  name: claymore
   suffix: Dulled
   parent: BaseItem
   id: ClaymoreDulled
-  description: entity-claymoredulled-description
+  description: An ancient war blade. This one has been dulled.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/claymore.rsi

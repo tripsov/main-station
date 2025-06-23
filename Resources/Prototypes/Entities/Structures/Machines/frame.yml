@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: UnfinishedMachineFrame
-  name: entity-unfinishedmachineframe-name
-  description: entity-unfinishedmachineframe-description
+  name: machine frame
+  description: A machine under construction. Needs more parts.
   suffix: Unfinished
   placement:
     mode: SnapgridCenter
@@ -59,7 +59,7 @@
 
 - type: entity
   id: MachineFrame
-  name: entity-unfinishedmachineframe-name
+  name: machine frame
   suffix: Ready
   placement:
     mode: SnapgridCenter
@@ -128,7 +128,7 @@
 - type: entity
   id: MachineFrameDestroyed
   parent: BaseStructureDynamic
-  name: entity-machineframedestroyed-name
+  name: destroyed machine frame
   placement:
     mode: SnapgridCenter
   components:

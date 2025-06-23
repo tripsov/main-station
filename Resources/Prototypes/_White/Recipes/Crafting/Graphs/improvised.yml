@@ -1,12 +1,12 @@
 ﻿- type: construction
-  name: construction-improvisedpistol-name
+  name: improvised pistol
   id: improvisedpistol
   graph: ImprovisedShotgunGraph
   startNode: start
   targetNode: shotgunsawn
   category: construction-category-weapons
   objectType: Item
-  description: construction-improvisedpistol-description
+  description: A shitty, single-shot .50 caliber pistol made from salvaged and hand-crafted gun parts. Ammo not included.
   icon:
     sprite: Objects/Weapons/Guns/Shotguns/hm_pistol.rsi
     state: icon
@@ -90,14 +90,14 @@
     entity: WeaponShotgunImprovised
 
 - type: construction
-  name: construction-materialgunpowder-name
+  name: gunpowder
   id: MaterialGunpowder
   graph: MaterialGunpowderGraph
   startNode: start
   targetNode: gunpowder
   category: construction-category-weapons
   objectType: Item
-  description: construction-materialgunpowder-description
+  description: Gunpowder used for crafting handmade ammunition.
   icon:
     sprite: Objects/Misc/reagent_fillings.rsi
     state: powderpile
@@ -140,14 +140,14 @@
     entity: MaterialGunpowder
 
 - type: construction
-  name: construction-snappop-name
+  name: snap pop
   id: snappop
   graph: PaperGraph
   startNode: startsnappop
   targetNode: snappop
   category: construction-category-weapons
   objectType: Item
-  description: construction-snappop-description
+  description: Throw it at the floor and listen to it POP!
   icon:
     sprite: Objects/Fun/toys.rsi
     state: snappop

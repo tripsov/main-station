@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseComputer
   id: N14ComputerVDU
-  name: entity-n14computervdu-name
-  description: entity-n14computervdu-description
+  name: VDU
+  description: A wall mounted video display unit.
   components:
   - type: Sprite
     drawdepth: Overdoors

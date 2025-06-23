@@ -48,9 +48,9 @@
 - type: entity
   id: PlasticFlapsClear
   parent: PlasticFlapsBase
-  name: entity-plasticflapsclear-name
+  name: plastic flaps
   suffix: Clear
-  description: entity-plasticflapsclear-description
+  description: Heavy duty, plastic flaps. Definitely can't get past those. No way.
   components:
   - type: Construction
     graph: PlasticFlapsGraph
@@ -59,9 +59,9 @@
 - type: entity
   id: PlasticFlapsOpaque
   parent: PlasticFlapsBase
-  name: entity-plasticflapsclear-name
+  name: plastic flaps
   suffix: Opaque
-  description: entity-plasticflapsclear-description
+  description: Heavy duty, plastic flaps. Definitely can't get past those. No way.
   components:
   - type: Fixtures
     fixtures:
@@ -84,9 +84,9 @@
 - type: entity
   id: PlasticFlapsAirtightClear
   parent: PlasticFlapsBase
-  name: entity-plasticflapsairtightclear-name
+  name: airtight plastic flaps
   suffix: Airtight, Clear
-  description: entity-plasticflapsairtightclear-description
+  description: Heavy duty, slightly stronger, airtight plastic flaps. Definitely can't get past those. No way.
   components:
   - type: Destructible
     thresholds:
@@ -106,9 +106,9 @@
 - type: entity
   id: PlasticFlapsAirtightOpaque
   parent: PlasticFlapsBase
-  name: entity-plasticflapsairtightclear-name
+  name: airtight plastic flaps
   suffix: Airtight, Opaque
-  description: entity-plasticflapsairtightclear-description
+  description: Heavy duty, slightly stronger, airtight plastic flaps. Definitely can't get past those. No way.
   components:
   - type: Destructible
     thresholds:

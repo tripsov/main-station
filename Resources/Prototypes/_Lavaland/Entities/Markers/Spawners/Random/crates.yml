@@ -1,7 +1,7 @@
 - type: entity
   parent: MarkerBase
   id: LavalandCrateNecropolisRandom
-  name: entity-lavalandcratenecropolisrandom-name
+  name: random necropolis chest spawner
   suffix: Lavaland
   components:
   - type: Sprite

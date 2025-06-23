@@ -10,7 +10,7 @@
   parent: BaseItem
   id: HoloparasiteInfo
   name: "holoparasite terms and conditions"
-  description: entity-holoparasiteinfo-description
+  description: A tiny volumetric display for documents, makes one wonder if Cybersun's legal budget is way too high.
   components:
   - type: Sprite
     sprite: Objects/Misc/guardian_info.rsi

@@ -1,8 +1,8 @@
 - type: entity
   parent: CloningPod
   id: MetempsychoticMachine
-  name: entity-metempsychoticmachine-name
-  description: entity-metempsychoticmachine-description
+  name: metempsychotic machine
+  description: Speeds along the transmigration of a soul to its next vessel.
   components:
     - type: CloningPod
       doMetempsychosis: true

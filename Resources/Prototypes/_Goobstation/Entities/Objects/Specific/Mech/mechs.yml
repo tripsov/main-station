@@ -42,8 +42,8 @@
 - type: entity
   id: MechRipley2
   parent: [ BaseMech, IndustrialMech ]
-  name: entity-mechripley2-name
-  description: entity-mechripley2-description
+  name: Ripley APLU MK-II
+  description: The "MK-II" has a pressurized cabin for space operations, but the added weight has slowed it down.
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -100,8 +100,8 @@
 - type: entity
   id: MechClarke
   parent: [ BaseMech, IndustrialMech ]
-  name: entity-mechclarke-name
-  description: entity-mechclarke-description
+  name: Clarke
+  description: A fast-moving mech for space travel. It has built-in trusts.
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -171,8 +171,8 @@
 - type: entity
   id: MechGygax
   parent: [ BaseMech, CombatMech ]
-  name: entity-mechgygax-name
-  description: entity-mechgygax-description
+  name: Gygax
+  description: While lightly armored, the Gygax has incredible mobility thanks to its ability that lets it smash through walls at high speeds.
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -230,8 +230,8 @@
 - type: entity
   id: MechDurand
   parent: [ BaseMech, CombatMech ]
-  name: entity-mechdurand-name
-  description: entity-mechdurand-description
+  name: Durand
+  description: A slow but beefy combat exosuit that is extra scary in confined spaces due to its punches. Xenos hate it!
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -297,7 +297,7 @@
 - type: entity
   id: MechMarauder
   parent: [ BaseMech, CombatMech ]
-  name: entity-mechmarauder-name
+  name: Marauder
   description: Looks like we're all saved. # ERT mech
   components:
   - type: Sprite
@@ -370,7 +370,7 @@
 - type: entity
   id: MechSeraph
   parent: [ BaseMech, CombatMech ]
-  name: entity-mechseraph-name
+  name: Seraph
   description: That's the last thing you'll see. # Death Squad mech
   components:
   - type: Sprite
@@ -446,8 +446,8 @@
 - type: entity
   id: MechGygaxSyndie
   parent: [ BaseMech, CombatMech ]
-  name: entity-mechgygaxsyndie-name
-  description: entity-mechgygaxsyndie-description
+  name: Dark Gygax
+  description: A modified Gygax used for nefarious purposes. On the back of the armor plate there is an inscription "Cybersun Inc."
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -519,8 +519,8 @@
 - type: entity
   id: MechMaulerSyndie
   parent: [ BaseMech, CombatMech ]
-  name: entity-mechmaulersyndie-name
-  description: entity-mechmaulersyndie-description
+  name: Mauler
+  description: A modified Marauder used by the Syndicate that's not as maneuverable as the Dark Gygax, but it makes up for that in armor and sheer firepower. On the back of the armor plate there is an inscription "Cybersun Inc."
   components:
   - type: Sprite
     drawdepth: Mobs

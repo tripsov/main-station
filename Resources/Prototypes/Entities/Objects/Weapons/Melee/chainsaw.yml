@@ -1,8 +1,8 @@
 - type: entity
-  name: entity-chainsaw-name
+  name: chainsaw
   parent: BaseItem
   id: Chainsaw
-  description: entity-chainsaw-description
+  description: A very large chainsaw. Usually you use this for cutting down trees... usually.
   components:
   - type: Wieldable
     wieldSound: !type:SoundPathSpecifier

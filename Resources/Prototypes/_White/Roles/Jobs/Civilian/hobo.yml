@@ -1,7 +1,7 @@
 - type: job
   id: Hobo
   name: job-name-hobo
-  description: job-hobo-description
+  description: job-description-hobo
   playTimeTracker: JobHobo
   requirements:
   - !type:CharacterDepartmentTimeRequirement

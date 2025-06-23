@@ -2,7 +2,7 @@
   parent: BaseItem
   id: AiRemoteBrain
   name: "B.O.R.I.S. AI-Cyborg Remote Control"
-  description: entity-airemotebrain-description
+  description: Artificial Intelligence cyborg control board.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi

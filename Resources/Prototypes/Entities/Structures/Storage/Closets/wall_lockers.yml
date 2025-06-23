@@ -1,8 +1,8 @@
 - type: entity
   id: ClosetWall
   parent: BaseWallCloset
-  name: entity-closetwall-name
-  description: entity-closetwall-description
+  name: maintenance wall closet
+  description: It's a storage unit.
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -12,9 +12,9 @@
 
 - type: entity
   id: ClosetWallEmergency
-  name: entity-closetwallemergency-name
+  name: emergency wall closet
   parent: BaseWallCloset
-  description: entity-closetwallemergency-description
+  description: It's a storage unit for emergency breath masks and O2 tanks.
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -24,9 +24,9 @@
 
 - type: entity
   id: ClosetWallRadiation
-  name: entity-closetwallradiation-name
+  name: radiation wall closet
   parent: BaseWallCloset
-  description: entity-closetwallradiation-description
+  description: It's a storage unit for radiation equipment
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -36,9 +36,9 @@
 
 - type: entity
   id: ClosetWallFire
-  name: entity-closetwallfire-name
+  name: fire-safety wall closet
   parent: BaseWallCloset
-  description: entity-closetwallfire-description
+  description: It's a storage unit for fire-fighting supplies.
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -49,7 +49,7 @@
 - type: entity
   id: ClosetWallBlue
   parent: BaseWallCloset
-  name: entity-closetwallblue-name
+  name: blue wall closet
   description: "A wardrobe packed with stylish blue clothing."
   components:
   - type: Appearance
@@ -61,7 +61,7 @@
 - type: entity
   id: ClosetWallPink
   parent: BaseWallCloset
-  name: entity-closetwallpink-name
+  name: pink wall closet
   description: "A wardrobe packed with fabulous pink clothing."
   components:
   - type: Appearance
@@ -73,7 +73,7 @@
 - type: entity
   id: ClosetWallBlack
   parent: BaseWallCloset
-  name: entity-closetwallblack-name
+  name: black wall closet
   description: "A wardrobe packed with stylish black clothing."
   components:
   - type: Appearance
@@ -85,7 +85,7 @@
 - type: entity
   id: ClosetWallGreen
   parent: BaseWallCloset
-  name: entity-closetwallgreen-name
+  name: green wall closet
   description: "A wardrobe packed with stylish green clothing."
   components:
   - type: Appearance
@@ -97,7 +97,7 @@
 - type: entity
   id: ClosetWallOrange
   parent: BaseWallCloset
-  name: entity-closetwallorange-name
+  name: prison wall closet
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -108,7 +108,7 @@
 - type: entity
   id: ClosetWallYellow
   parent: BaseWallCloset
-  name: entity-closetwallyellow-name
+  name: yellow wall closet
   description: "A wardrobe packed with stylish yellow clothing."
   components:
   - type: Appearance
@@ -120,7 +120,7 @@
 - type: entity
   id: ClosetWallWhite
   parent: BaseWallCloset
-  name: entity-closetwallwhite-name
+  name: white wall closet
   description: "A wardrobe packed with stylish white clothing."
   components:
   - type: Appearance
@@ -132,7 +132,7 @@
 - type: entity
   id: ClosetWallGrey
   parent: BaseWallCloset
-  name: entity-closetwallgrey-name
+  name: grey wall closet
   description: "A wardrobe packed with a tide of grey clothing."
   components:
   - type: Appearance
@@ -144,7 +144,7 @@
 - type: entity
   id: ClosetWallMixed
   parent: BaseWallCloset
-  name: entity-closetwallmixed-name
+  name: mixed wall closet
   description: "A wardrobe packed with a mix of colorful clothing."
   components:
   - type: Appearance
@@ -156,7 +156,7 @@
 - type: entity
   id: ClosetWallAtmospherics
   parent: BaseWallCloset
-  name: entity-closetwallatmospherics-name
+  name: atmospherics wall closet
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -167,7 +167,7 @@
 - type: entity
   id: LockerWallMedical
   parent: BaseWallLocker
-  name: entity-lockerwallmedical-name
+  name: medical wall locker
   components:
   - type: Appearance
   - type: EntityStorageVisuals

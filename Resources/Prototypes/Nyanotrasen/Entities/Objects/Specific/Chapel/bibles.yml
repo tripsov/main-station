@@ -1,8 +1,8 @@
 - type: entity
   parent: Bible
   id: BibleMystagogue
-  name: entity-biblemystagogue-name
-  description: entity-biblemystagogue-description
+  name: book of mysteries
+  description: The mystagogue's holy book.
   components:
   - type: Summonable
     specialItem: SpawnPointGhostIfrit

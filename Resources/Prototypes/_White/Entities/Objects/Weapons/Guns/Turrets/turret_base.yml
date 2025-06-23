@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseStructure
   id: BaseWeaponTurretNoHTR
-  name: entity-baseweaponturretnohtr-name
+  name: turret
   abstract: true
   components:
   - type: Clickable

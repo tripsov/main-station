@@ -2,8 +2,8 @@
 
 - type: entity
   id: Cobweb1
-  name: entity-cobweb1-name
-  description: entity-cobweb1-description
+  name: cobweb
+  description: Somebody should remove that.
   placement:
     mode: SnapgridCenter
   components:

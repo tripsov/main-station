@@ -1,8 +1,8 @@
 - type: entity
-  name: entity-mobratking-name
+  name: Rat King
   id: MobRatKing
   parent: [ SimpleMobBase, MobCombat ]
-  description: entity-mobratking-description
+  description: He's da rat. He make da roolz.
   components:
   - type: CombatMode
   - type: MovementSpeedModifier
@@ -179,10 +179,10 @@
   - type: Fauna # Lavaland Change
 
 - type: entity
-  name: entity-mobratservant-name
+  name: Rat Servant
   id: MobRatServant
   parent: [ SimpleMobBase, MobCombat ]
-  description: entity-mobratservant-description
+  description: He's da mini rat. He don't make da roolz.
   categories: [ HideSpawnMenu ] #Must be configured to a King or the AI breaks.
   components:
   - type: Carriable
@@ -342,8 +342,8 @@
 
 - type: entity
   id: ActionRatKingRaiseArmy
-  name: entity-actionratkingraisearmy-name
-  description: entity-actionratkingraisearmy-description
+  name: Raise Army
+  description: Spend some hunger to summon an allied rat to help defend you.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -355,8 +355,8 @@
 
 - type: entity
   id: ActionRatKingDomain
-  name: entity-actionratkingdomain-name
-  description: entity-actionratkingdomain-description
+  name: Rat King's Domain
+  description: Spend some hunger to release a cloud of ammonia into the air.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -368,8 +368,8 @@
 
 - type: entity
   id: ActionRatKingOrderStay
-  name: entity-actionratkingorderstay-name
-  description: entity-actionratkingorderstay-description
+  name: Stay
+  description: Command your army to stand in place.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -387,8 +387,8 @@
 
 - type: entity
   id: ActionRatKingOrderFollow
-  name: entity-actionratkingorderfollow-name
-  description: entity-actionratkingorderfollow-description
+  name: Follow
+  description: Command your army to follow you around.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -406,8 +406,8 @@
 
 - type: entity
   id: ActionRatKingOrderCheeseEm
-  name: entity-actionratkingordercheeseem-name
-  description: entity-actionratkingordercheeseem-description
+  name: Cheese 'Em
+  description: Command your army to attack whoever you point at.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -425,8 +425,8 @@
 
 - type: entity
   id: ActionRatKingOrderLoose
-  name: entity-actionratkingorderloose-name
-  description: entity-actionratkingorderloose-description
+  name: Loose
+  description: Command your army to act at their own will.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction

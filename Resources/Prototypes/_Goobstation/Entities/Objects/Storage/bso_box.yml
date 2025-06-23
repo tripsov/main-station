@@ -1,7 +1,7 @@
 - type: entity
   id: BlueshieldAmmunitionBox
-  name: entity-blueshieldammunitionbox-name
-  description: entity-blueshieldammunitionbox-description
+  name: blueshield ammunition box
+  description: A box containing various ammunition and magazines for magnum type weapons.
   parent: BaseStorageItem
   components:
   - type: Sprite

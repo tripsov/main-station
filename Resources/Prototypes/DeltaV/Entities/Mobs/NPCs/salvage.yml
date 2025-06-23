@@ -1,5 +1,5 @@
 - type: entity
-  name: entity-mobradioguard-name
+  name: Syndicate Guard
   parent: BaseMobHuman
   id: MobRadioGuard
   description: "Mindwiped and hypno-indoctrinated into perfect loyalty by the Syndicate. They will throw their life away to defend their objective."

@@ -1,8 +1,8 @@
 ﻿- type: entity
   id: StorageTank
   parent: BaseStructureDynamic
-  name: entity-storagetank-name
-  description: entity-storagetank-description
+  name: storage tank
+  description: A liquids storage tank.
   abstract: true
   components:
   - type: Sprite

@@ -1,8 +1,8 @@
 - type: entity
   parent: RingBase
   id: GoldRing
-  name: entity-goldring-name
-  description: entity-goldring-description
+  name: gold ring
+  description: A precious ring.
   components:
     - type: Sprite
       sprite: Clothing/Hands/Rings/basic.rsi
@@ -16,8 +16,8 @@
 - type: entity
   parent: RingBase
   id: SilverRing
-  name: entity-silverring-name
-  description: entity-silverring-description
+  name: silver ring
+  description: Looks slightly less valuable than a gold one.
   components:
     - type: Sprite
       sprite: Clothing/Hands/Rings/basic.rsi
@@ -30,8 +30,8 @@
 - type: entity
   parent: RingBase
   id: GoldRingDiamond
-  name: entity-goldringdiamond-name
-  description: entity-goldringdiamond-description
+  name: gold diamond ring
+  description: Made from ethically mined space diamonds.
   components:
     - type: Sprite
       sprite: Clothing/Hands/Rings/basic.rsi
@@ -47,8 +47,8 @@
 - type: entity
   parent: RingBase
   id: SilverRingDiamond
-  name: entity-silverringdiamond-name
-  description: entity-goldringdiamond-description
+  name: silver diamond ring
+  description: Made from ethically mined space diamonds.
   components:
     - type: Sprite
       sprite: Clothing/Hands/Rings/basic.rsi
@@ -63,8 +63,8 @@
 - type: entity
   parent: RingBase
   id: GoldRingGem
-  name: entity-goldringgem-name
-  description: entity-goldringgem-description
+  name: gold gem ring
+  description: Shiny and valuable!
   components:
     - type: Sprite
       sprite: Clothing/Hands/Rings/basic.rsi
@@ -85,8 +85,8 @@
 - type: entity
   parent: RingBase
   id: SilverRingGem
-  name: entity-silverringgem-name
-  description: entity-silverringgem-description
+  name: silver gem ring
+  description: Shiny and not quite as valuable!
   components:
     - type: Sprite
       sprite: Clothing/Hands/Rings/basic.rsi

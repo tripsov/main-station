@@ -1,6 +1,6 @@
 - type: entity
   id: SpawnPointGhostIfrit
-  name: entity-spawnpointghostifrit-name
+  name: ghost role spawn point
   suffix: Ifrit
   parent: MarkerBase
   categories: [ HideSpawnMenu ]
@@ -20,7 +20,7 @@
 
 - type: entity
   id: SpawnPointGhostFugitive
-  name: entity-spawnpointghostifrit-name
+  name: ghost role spawn point
   parent: MarkerBase
   categories: [ HideSpawnMenu ]
   components:
@@ -41,7 +41,7 @@
 
 - type: entity
   id: SpawnPointLocationMidRoundAntag
-  name: entity-spawnpointlocationmidroundantag-name
+  name: possible spawn location
   suffix: MidRoundAntag
   parent: MarkerBase
   components:

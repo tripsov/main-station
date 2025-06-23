@@ -1,7 +1,7 @@
 - type: entity
   parent: [ BoxCardboard, BaseBagOpenClose ]
   id: CardBoxBase
-  name: entity-cardboxbase-name
+  name: deck box
   categories: [ HideSpawnMenu ]
   components:
   - type: Item
@@ -32,7 +32,7 @@
 - type: entity
   parent: [BaseItem]
   id: CardStackBase
-  name: entity-cardstackbase-name
+  name: stack of cards
   abstract: true
   components:
   - type: Item
@@ -48,7 +48,7 @@
   parent: CardStackBase
   id: CardHandBase
   categories: [ HideSpawnMenu ]
-  name: entity-cardhandbase-name
+  name: hand of cards
   components:
   - type: CardHand
   - type: Sprite
@@ -65,7 +65,7 @@
   parent: CardStackBase
   id: CardDeckBase
   categories: [ HideSpawnMenu ]
-  name: entity-carddeckbase-name
+  name: deck of cards
   components:
   - type: Sprite
     sprite: EstacaoPirata/Objects/Misc/cards.rsi
@@ -78,7 +78,7 @@
 - type: entity
   parent: CardBoxBase
   id: CardBoxBlack
-  name: entity-cardboxblack-name
+  name: black deck box
   components:
   - type: Item
     size: Small
@@ -97,7 +97,7 @@
 - type: entity
   parent: CardDeckBase
   id: CardDeckBlack
-  name: entity-carddeckbase-name
+  name: deck of cards
   components:
   - type: Sprite
     sprite: EstacaoPirata/Objects/Misc/cards.rsi
@@ -166,7 +166,7 @@
 - type: entity
   parent: BaseItem
   id: CardBase
-  name: entity-cardbase-name
+  name: card
   categories: [ HideSpawnMenu ]
   components:
   - type: EmitSoundOnLand

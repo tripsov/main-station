@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: BaseHandheldInstrument
   id: MusicalLungInstrument
-  name: entity-musicallunginstrument-name
-  description: entity-musicallunginstrument-description
+  name: musical lung
+  description: The spiritual and magical lung of a former opera singer. Though, to be honest, the vocal chords make the performance.
   components:
   - type: Sprite
     sprite: Mobs/Species/Human/organs.rsi
@@ -15,8 +15,8 @@
 - type: entity
   parent: BaseHandheldInstrument
   id: SeashellInstrument
-  name: entity-seashellinstrument-name
-  description: entity-seashellinstrument-description
+  name: seashell
+  description: For laying down the shoreline beat.
   components:
   - type: Sprite
     sprite: Objects/Fun/Instruments/otherinstruments.rsi
@@ -29,8 +29,8 @@
 - type: entity
   parent: BaseHandheldInstrument
   id: BirdToyInstrument
-  name: entity-birdtoyinstrument-name
-  description: entity-birdtoyinstrument-description
+  name: bird whistle
+  description: A delightful little whistle in the shape of a bird. It sings beautifully.
   components:
   - type: Sprite
     sprite: Objects/Fun/Instruments/otherinstruments.rsi
@@ -47,8 +47,8 @@
 - type: entity
   parent: BaseHandheldInstrument
   id: PhoneInstrumentUpstream # Harmony
-  name: entity-phoneinstrumentupstream-name
-  description: entity-phoneinstrumentupstream-description
+  name: red phone
+  description: Should anything ever go wrong...
   components:
   - type: Sprite
     sprite: Objects/Fun/Instruments/otherinstruments.rsi
@@ -69,8 +69,8 @@
 - type: entity
   parent: PhoneInstrumentUpstream # Harmony, due to hijacked 'PhoneInstrument'
   id: PhoneInstrumentSyndicate
-  name: entity-phoneinstrumentsyndicate-name
-  description: entity-phoneinstrumentsyndicate-description
+  name: blood-red phone
+  description: For evil people to call their friends.
   components:
   - type: Sprite
     sprite: Objects/Fun/Instruments/blood_red_phone.rsi
@@ -82,8 +82,8 @@
 - type: entity
   parent: BaseHandheldInstrument
   id: HelicopterInstrument
-  name: entity-helicopterinstrument-name
-  description: entity-helicopterinstrument-description
+  name: toy helicopter
+  description: Ch-ka-ch-ka-ch-ka-ch-ka-ch-ka-ch-ka...
   components:
   - type: Sprite
     sprite: Objects/Fun/Instruments/otherinstruments.rsi
@@ -97,8 +97,8 @@
 - type: entity
   parent: BaseHandheldInstrument
   id: CannedApplauseInstrument
-  name: entity-cannedapplauseinstrument-name
-  description: entity-cannedapplauseinstrument-description
+  name: canned applause
+  description: Seems like someone already used it all up...
   components:
   - type: Sprite
     sprite: Objects/Fun/Instruments/otherinstruments.rsi
@@ -111,8 +111,8 @@
 - type: entity
   parent: BaseHandheldInstrument
   id: GunpetInstrument
-  name: entity-gunpetinstrument-name
-  description: entity-gunpetinstrument-description
+  name: gunpet
+  description: Why do you need to examine this? Is it not self-explanatory?
   components:
   - type: Instrument
     program: 127
@@ -131,8 +131,8 @@
 - type: entity
   parent: BaseHandheldInstrument
   id: BikeHornInstrument
-  name: entity-bikehorninstrument-name
-  description: entity-bikehorninstrument-description
+  name: gilded bike horn
+  description: An exquisitely decorated bike horn, capable of honking in a variety of notes.
   components:
   - type: Instrument
     program: 1
@@ -155,8 +155,8 @@
 - type: entity
   parent: PhoneInstrumentUpstream # Harmony, due to hijacked 'PhoneInstrument'
   id: BananaPhoneInstrument
-  name: entity-bananaphoneinstrument-name
-  description: entity-bananaphoneinstrument-description
+  name: banana phone
+  description: A direct line to the Honkmother. Seems to always go to voicemail.
   components:
   - type: Sprite
     sprite: Objects/Fun/Instruments/otherinstruments.rsi

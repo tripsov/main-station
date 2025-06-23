@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: ShuttleCurse
-  name: entity-shuttlecurse-name
-  description: entity-shuttlecurse-description
+  name: cursed orb
+  description: You peer within this smokey orb and glimpse terrible fates befalling the emergency escape shuttle.
   components:
   - type: Sprite
     sprite: WhiteDream/BloodCult/Entities/Items/shuttle_curse.rsi
@@ -13,8 +13,8 @@
 - type: entity
   parent: BaseItem
   id: WhetstoneCult
-  name: entity-whetstonecult-name
-  description: entity-whetstonecult-description
+  name: eldritch whetstone
+  description: A block, empowered by dark magic. Sharp weapons will be enhanced when used on the stone.
   components:
   - type: Sprite
     sprite: WhiteDream/BloodCult/Entities/Items/whetstone_cult.rsi
@@ -40,8 +40,8 @@
 - type: entity
   parent: BaseItem
   id: VeilShifter
-  name: entity-veilshifter-name
-  description: entity-veilshifter-description
+  name: veil shifter
+  description: This relic instantly teleports you, and anything you're pulling, forward by a moderate distance.
   components:
   - type: Sprite
     sprite: WhiteDream/BloodCult/Entities/Items/veil_shifter.rsi
@@ -61,8 +61,8 @@
 - type: entity
   parent: BaseItem
   id: VoidTorch
-  name: entity-voidtorch-name
-  description: entity-voidtorch-description
+  name: void torch
+  description: Used by veteran cultists to instantly transport items to their needful brethren
   components:
   - type: Sprite
     sprite: WhiteDream/BloodCult/Entities/Items/void_torch.rsi
@@ -128,8 +128,8 @@
 - type: entity
   parent: BaseItem
   id: ShadowShackles
-  name: entity-shadowshackles-name
-  description: entity-shadowshackles-description
+  name: shadow shackles
+  description: Shackles that bind the wrists with sinister magic.
   components:
   - type: Item
     size: Small
@@ -149,8 +149,8 @@
 - type: entity
   parent: BaseItem
   id: MirrorShieldCult
-  name: entity-mirrorshieldcult-name
-  description: entity-mirrorshieldcult-description
+  name: mirror shield
+  description: An infamous shield used by Nar'Sien sects to confuse and disorient their enemies. Its edges are weighted for use as a throwing weapon - capable of disabling multiple foes with preternatural accuracy.
   components:
   - type: Sprite
     sprite: WhiteDream/BloodCult/Entities/Items/mirror_shield.rsi

@@ -1,7 +1,7 @@
 - type: entity
   id: MobObserverTelegnostic
-  name: entity-mobobservertelegnostic-name
-  description: entity-mobobservertelegnostic-description
+  name: telegnostic projection
+  description: Ominous. Placeholder sprite.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

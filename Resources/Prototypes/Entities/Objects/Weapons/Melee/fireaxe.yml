@@ -1,8 +1,8 @@
 - type: entity
-  name: entity-fireaxe-name
+  name: fireaxe
   parent: BaseItem
   id: FireAxe
-  description: entity-fireaxe-description
+  description: A versatile tool, capable of prying open airlocks and tearing through windows.
   components:
   - type: Tag
     tags:
@@ -74,9 +74,9 @@
 
 - type: entity
   id: FireAxeFlaming
-  name: entity-fireaxeflaming-name
+  name: fire axe
   parent: FireAxe
-  description: entity-fireaxeflaming-description
+  description: Why fight fire with an axe when you can fight with fire and axe? Now featuring rugged rubberized handle!
   components:
   - type: MeleeWeapon
     wideAnimationRotation: 90

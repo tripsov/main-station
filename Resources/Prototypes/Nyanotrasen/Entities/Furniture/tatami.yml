@@ -15,8 +15,8 @@
 - type: entity
   id: tatamisingle
   parent: tatamibase
-  name: entity-tatamisingle-name
-  description: entity-tatamisingle-description
+  name: tatami square
+  description: It's tatami, but a square.
   components:
   - type: Sprite
     state: tatami_1x1
@@ -27,8 +27,8 @@
 - type: entity
   id: tatamimat
   parent: tatamibase
-  name: entity-tatamimat-name
-  description: entity-tatamimat-description
+  name: tatami mat
+  description: It's a portion of a tatami mat.
   components:
   - type: Sprite
     state: tatami_1x1P

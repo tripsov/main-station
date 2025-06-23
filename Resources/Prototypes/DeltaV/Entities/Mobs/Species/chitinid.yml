@@ -1,6 +1,6 @@
 - type: entity
   save: false
-  name: entity-basemobchitinid-name
+  name: Urist McAnt
   parent: BaseMobSpeciesOrganic
   id: BaseMobChitinid
   abstract: true

@@ -3,8 +3,8 @@
   abstract: true
   id: ShelfBase
   parent: BaseStructure
-  name: entity-shelfbase-name
-  description: entity-shelfbase-description
+  name: shelf
+  description: a strange place to place, well, anything really. You feel like you shouldn't be seeing this.'
   components:
   - type: Sprite
     drawdepth: WallMountedItems
@@ -57,8 +57,8 @@
   abstract: true
   id: ShelfBaseReinforced
   parent: ShelfBase
-  name: entity-shelfbasereinforced-name
-  description: entity-shelfbasereinforced-description
+  name: reinforced shelf
+  description: It looks as strong as reality itself.
   components:
   - type: Lock
   - type: LockVisuals
@@ -87,8 +87,8 @@
 - type: entity
   id: ShelfWood
   parent: ShelfBase
-  name: entity-shelfwood-name
-  description: entity-shelfwood-description
+  name: wooden shelf
+  description: A convenient place to place, well, anything really.
   components:
   - type: Destructible
     thresholds:
@@ -117,8 +117,8 @@
 - type: entity
   id: ShelfMetal
   parent: ShelfBase
-  name: entity-shelfmetal-name
-  description: entity-shelfmetal-description
+  name: metal shelf
+  description: A sturdy place to place, well, anything really.
   components:
   - type: Sprite
     sprite: Structures/Storage/Shelfs/metal.rsi
@@ -152,8 +152,8 @@
 - type: entity
   id: ShelfGlass
   parent: ShelfBase
-  name: entity-shelfglass-name
-  description: entity-shelfglass-description
+  name: glass shelf
+  description: A fragile place to place, well, anything really.
   components:
   - type: Sprite
     sprite: Structures/Storage/Shelfs/glass.rsi
@@ -188,8 +188,8 @@
 - type: entity
   id: ShelfRWood
   parent: ShelfBaseReinforced
-  name: entity-shelfrwood-name
-  description: entity-shelfrwood-description
+  name: sturdy wood shelf
+  description: A safe place to put your favorite bottle of whiskey
   components:
   - type: Sprite
     sprite: Structures/Storage/Shelfs/wood.rsi
@@ -225,8 +225,8 @@
 - type: entity
   id: ShelfRMetal
   parent: ShelfBaseReinforced
-  name: entity-shelfrmetal-name
-  description: entity-shelfrmetal-description
+  name: sturdy metal shelf
+  description: A strong & shiny place to keep all your vials safe
   components:
   - type: Sprite
     sprite: Structures/Storage/Shelfs/metal.rsi
@@ -259,8 +259,8 @@
 - type: entity
   id: ShelfRGlass
   parent: ShelfBaseReinforced
-  name: entity-shelfrglass-name
-  description: entity-shelfrglass-description
+  name: sturdy glass shelf
+  description: Crystal clear reinforced glass doors to show off all your fancy bottles you definitely didn't sell a co-worker's favorite mothroach for.
   components:
   - type: Sprite
     sprite: Structures/Storage/Shelfs/glass.rsi
@@ -294,8 +294,8 @@
 - type: entity
   id: ShelfBar
   parent: ShelfBase
-  name: entity-shelfbar-name
-  description: entity-shelfbar-description
+  name: bar shelf
+  description: Made out of the finest synthetic wood for all alcohol holding needs.
   components:
   - type: Sprite
     sprite: Structures/Storage/Shelfs/Departments/Service/bar.rsi
@@ -336,8 +336,8 @@
 - type: entity
   id: ShelfKitchen
   parent: ShelfBase
-  name: entity-shelfkitchen-name
-  description: entity-shelfkitchen-description
+  name: cooking shelf
+  description: Holds knifes, spice, and everything nice!
   components:
   - type: Sprite
     sprite: Structures/Storage/Shelfs/Departments/Service/kitchen.rsi
@@ -384,8 +384,8 @@
 - type: entity
   id: ShelfChemistry
   parent: ShelfBaseReinforced
-  name: entity-shelfchemistry-name
-  description: entity-shelfchemistry-description
+  name: chemical shelf
+  description: Keeps all your chemicals safe and out of the clow- er, public hands!
   components:
   - type: Sprite
     sprite: Structures/Storage/Shelfs/Departments/Medical/chemistry.rsi

@@ -58,7 +58,7 @@
   abstract: true
   parent: ClothingHeadBase
   id: ClothingHeadLightBase
-  name: entity-clothingheadlightbase-name
+  name: base helmet with light
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -117,7 +117,7 @@
   abstract: true
   parent: ClothingHeadBase
   id: ClothingHeadEVAHelmetBase
-  name: entity-clothingheadevahelmetbase-name
+  name: base space helmet
   components:
   - type: Item
     size: Normal
@@ -149,7 +149,7 @@
   abstract: true
   parent: ClothingHeadBase
   id: ClothingHeadEVAHelmetNoIngestionBlocker
-  name: entity-clothingheadevahelmetbase-name
+  name: base space helmet
   components:
   - type: Item
     size: Normal
@@ -180,7 +180,7 @@
   abstract: true
   # No parent since we aren't actually an item.
   id: ClothingHeadHardsuitBase
-  name: entity-clothingheadhardsuitbase-name
+  name: base hardsuit helmet
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -238,7 +238,7 @@
   abstract: true
   parent: ClothingHeadBase
   id: ClothingHeadEnvirohelmBase
-  name: entity-clothingheadenvirohelmbase-name
+  name: base envirosuit helmet
   components:
   - type: Sprite
     layers:
@@ -338,7 +338,7 @@
   abstract: true
   parent: ClothingHeadEnvirohelmBase
   id: ClothingHeadEnvirohelmCustomBase
-  name: entity-clothingheadenvirohelmcustombase-name
+  name: base custom envirosuit helmet
   components:
   - type: ToggleableLightVisuals
     inhandVisuals:
@@ -400,7 +400,7 @@
   abstract: true
   parent: ClothingHeadHardsuitBase
   id: ClothingHeadHardsuitWithLightBase
-  name: entity-clothingheadhardsuitwithlightbase-name
+  name: base hardsuit helmet with light
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -453,8 +453,8 @@
 - type: entity
   abstract: true
   id: ClothingHeadHatHoodWinterBase
-  name: entity-clothingheadhathoodwinterbase-name
-  description: entity-clothingheadhathoodwinterbase-description
+  name: base winter coat hood
+  description: A hood, made to keep your head warm.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

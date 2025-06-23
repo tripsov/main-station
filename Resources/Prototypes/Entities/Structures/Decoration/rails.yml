@@ -1,6 +1,6 @@
 - type: entity
   id: Rails
-  name: entity-rails-name
+  name: railway
   placement:
     mode: SnapgridCenter
   components:

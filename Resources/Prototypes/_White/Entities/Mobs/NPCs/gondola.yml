@@ -6,8 +6,8 @@
     - MobBloodstream
     - MobFlammable
   id: MobGondola
-  name: entity-mobgondola-name
-  description: entity-mobgondola-description
+  name: Gondola
+  description: Having no hands, he embodies the Taoist principle of Wu wei (inaction), and the expression on his smiling face shows his complete acceptance of the world as it is.
   components:
   - type: FloatingVisuals
   - type: RotationVisuals

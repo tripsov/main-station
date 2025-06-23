@@ -1,8 +1,8 @@
 ﻿- type: entity
   id: SeedExtractor
-  name: entity-seedextractor-name
+  name: seed extractor
   parent: [ BaseMachinePowered, ConstructibleMachine ]
-  description: entity-seedextractor-description
+  description: Extracts seeds from produce.
   components:
   - type: Sprite
     sprite: Structures/Machines/seed_extractor.rsi

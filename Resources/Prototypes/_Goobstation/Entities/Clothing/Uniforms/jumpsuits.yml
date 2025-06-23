@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitBlueshieldOfficer
-  name: entity-clothinguniformjumpsuitblueshieldofficer-name
-  description: entity-clothinguniformjumpsuitblueshieldofficer-description
+  name: blueshield officer jumpsuit
+  description: A short-sleeved grey and blue jumpsuit, made out of a sturdy material. Blueshield standard issue.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/blueshield_officer.rsi
@@ -17,8 +17,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitNanotrasenRepresentative
-  name: entity-clothinguniformjumpsuitnanotrasenrepresentative-name
-  description: entity-clothinguniformjumpsuitnanotrasenrepresentative-description
+  name: corporate liaison suit
+  description: A black suit worn by officials.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/nanotrasen_representative.rsi
@@ -28,8 +28,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitMagistrate
-  name: entity-clothinguniformjumpsuitmagistrate-name
-  description: entity-clothinguniformjumpsuitmagistrate-description
+  name: magistrate robes
+  description: The robes worn by officials.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/magistrate.rsi

@@ -1,7 +1,7 @@
 # Be careful with these as they get removed on shutdown too!
 - type: entity
   id: AiHeld
-  description: entity-aiheld-description
+  description: Components added / removed from an entity that gets inserted into an AI core.
   categories: [ HideSpawnMenu ]
   components:
   - type: IntrinsicRadioReceiver
@@ -143,7 +143,7 @@
 
 - type: entity
   id: AiHeldIntellicard
-  description: entity-aiheldintellicard-description
+  description: Components added / removed from an entity that gets inserted into an Intellicard.
   categories: [ HideSpawnMenu ]
   components:
   - type: IntrinsicRadioReceiver
@@ -166,7 +166,7 @@
 - type: entity
   id: AiHolder
   abstract: true
-  description: entity-aiholder-description
+  description: Handles AI interactions across holocards + AI cores
   components:
   - type: ItemSlots
   - type: StationAiHolder
@@ -192,8 +192,8 @@
 - type: entity
   id: AsimovCircuitBoard
   parent: BaseElectronics
-  name: entity-asimovcircuitboard-name
-  description: entity-asimovcircuitboard-description
+  name: law board (Asimov)
+  description: An electronics board containing the Asimov lawset.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -209,8 +209,8 @@
 - type: entity
   id: AugustineCircuitBoard
   parent: BaseElectronics
-  name: entity-augustinecircuitboard-name
-  description: entity-augustinecircuitboard-description
+  name: law board (Augustine)
+  description: An electronics board containing the Augustine lawset.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -226,8 +226,8 @@
 - type: entity
   id: CrewsimovCircuitBoard
   parent: BaseElectronics
-  name: entity-crewsimovcircuitboard-name
-  description: entity-crewsimovcircuitboard-description
+  name: law board (Crewsimov)
+  description: An electronics board containing the Crewsimov lawset.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -243,8 +243,8 @@
 - type: entity
   id: CorporateCircuitBoard
   parent: BaseElectronics
-  name: entity-corporatecircuitboard-name
-  description: entity-corporatecircuitboard-description
+  name: law board (Corporate)
+  description: An electronics board containing the Corporate lawset.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -260,8 +260,8 @@
 - type: entity
   id: NTDefaultCircuitBoard
   parent: BaseElectronics
-  name: entity-ntdefaultcircuitboard-name
-  description: entity-ntdefaultcircuitboard-description
+  name: law board (NT Default)
+  description: An electronics board containing the NT Default lawset.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -277,8 +277,8 @@
 - type: entity
   id: PlasmaFloodCircuitBoard
   parent: BaseElectronics
-  name: entity-plasmafloodcircuitboard-name
-  description: entity-plasmafloodcircuitboard-description
+  name: law board (Plasma Flood)
+  description: An electronics board containing the Plasma Flood lawset.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -294,8 +294,8 @@
 - type: entity
   id: MotherDroneCircuitBoard
   parent: BaseElectronics
-  name: entity-motherdronecircuitboard-name
-  description: entity-motherdronecircuitboard-description
+  name: law board (Mother Drone)
+  description: An electronics board containing the Mother Drone lawset.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -311,8 +311,8 @@
 - type: entity
   id: DruidCircuitBoard
   parent: BaseElectronics
-  name: entity-druidcircuitboard-name
-  description: entity-druidcircuitboard-description
+  name: law board (Druid)
+  description: An electronics board containing the Druid lawset.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -328,8 +328,8 @@
 - type: entity
   id: CowboyCircuitBoard
   parent: BaseElectronics
-  name: entity-cowboycircuitboard-name
-  description: entity-cowboycircuitboard-description
+  name: law board (Cowboy)
+  description: An electronics board containing the Cowboy lawset.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -345,8 +345,8 @@
 - type: entity
   id: ChaplainCircuitBoard
   parent: BaseElectronics
-  name: entity-chaplaincircuitboard-name
-  description: entity-chaplaincircuitboard-description
+  name: law board (Chaplain)
+  description: An electronics board containing the Chaplain lawset.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -362,8 +362,8 @@
 - type: entity
   id: ClownCircuitBoard
   parent: BaseElectronics
-  name: entity-clowncircuitboard-name
-  description: entity-clowncircuitboard-description
+  name: law board (Clown)
+  description: An electronics board containing the Clown lawset.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -379,8 +379,8 @@
 - type: entity
   id: JanitorCircuitBoard
   parent: BaseElectronics
-  name: entity-janitorcircuitboard-name
-  description: entity-janitorcircuitboard-description
+  name: law board (Janitor)
+  description: An electronics board containing the Janitor lawset.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -396,8 +396,8 @@
 - type: entity
   id: EngineerCircuitBoard
   parent: BaseElectronics
-  name: entity-engineercircuitboard-name
-  description: entity-engineercircuitboard-description
+  name: law board (Engineer)
+  description: An electronics board containing the Engineer lawset.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -413,8 +413,8 @@
 - type: entity
   id: ResearchCircuitBoard
   parent: BaseElectronics
-  name: entity-researchcircuitboard-name
-  description: entity-researchcircuitboard-description
+  name: law board (Research)
+  description: An electronics board containing the Research lawset.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -430,8 +430,8 @@
 - type: entity
   id: MedicalCircuitBoard
   parent: BaseElectronics
-  name: entity-medicalcircuitboard-name
-  description: entity-medicalcircuitboard-description
+  name: law board (Medical)
+  description: An electronics board containing the Medical lawset.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -447,8 +447,8 @@
 - type: entity
   id: TyrantCircuitBoard
   parent: BaseElectronics
-  name: entity-tyrantcircuitboard-name
-  description: entity-tyrantcircuitboard-description
+  name: law board (T.Y.R.A.N.T)
+  description: An electronics board containing the T.Y.R.A.N.T lawset.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -464,8 +464,8 @@
 - type: entity
   id: NTAgressiveCircuitBoard
   parent: BaseElectronics
-  name: entity-ntagressivecircuitboard-name
-  description: entity-ntagressivecircuitboard-description
+  name: law board (NT Agressive)
+  description: An electronics board containing the NT Agressive lawset.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -481,8 +481,8 @@
 - type: entity
   id: CCTVCircuitBoard
   parent: BaseElectronics
-  name: entity-cctvcircuitboard-name
-  description: entity-cctvcircuitboard-description
+  name: law board (CCTV)
+  description: An electronics board containing the CCTV lawset.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -498,8 +498,8 @@
 - type: entity
   id: QuarantineCircuitBoard
   parent: BaseElectronics
-  name: entity-quarantinecircuitboard-name
-  description: entity-quarantinecircuitboard-description
+  name: law board (Quarantine)
+  description: An electronics board containing the Quarantine lawset.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -515,8 +515,8 @@
 - type: entity
   id: CommandmentCircuitBoard
   parent: BaseElectronics
-  name: entity-commandmentcircuitboard-name
-  description: entity-commandmentcircuitboard-description
+  name: law board (Ten Commandments)
+  description: An electronics board containing the Ten Commandments lawset.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -532,8 +532,8 @@
 - type: entity
   id: PaladinCircuitBoard
   parent: BaseElectronics
-  name: entity-paladincircuitboard-name
-  description: entity-paladincircuitboard-description
+  name: law board (Paladin)
+  description: An electronics board containing the Paladin lawset.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -549,8 +549,8 @@
 - type: entity
   id: LiveLetLiveCircuitBoard
   parent: BaseElectronics
-  name: entity-liveletlivecircuitboard-name
-  description: entity-liveletlivecircuitboard-description
+  name: law board (Live and Let Live)
+  description: An electronics board containing the Live and Let Live lawset.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -566,8 +566,8 @@
 - type: entity
   id: StationEfficiencyCircuitBoard
   parent: BaseElectronics
-  name: entity-stationefficiencycircuitboard-name
-  description: entity-stationefficiencycircuitboard-description
+  name: law board (Station Efficiency)
+  description: An electronics board containing the Station Efficiency lawset.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -583,8 +583,8 @@
 - type: entity
   id: RobocopCircuitBoard
   parent: BaseElectronics
-  name: entity-robocopcircuitboard-name
-  description: entity-robocopcircuitboard-description
+  name: law board (Robocop)
+  description: An electronics board containing the Robocop lawset.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -600,8 +600,8 @@
 - type: entity
   id: OverlordCircuitBoard
   parent: BaseElectronics
-  name: entity-overlordcircuitboard-name
-  description: entity-overlordcircuitboard-description
+  name: law board (Overlord)
+  description: An electronics board containing the Overlord lawset.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -617,8 +617,8 @@
 - type: entity
   id: DungeonMasterCircuitBoard
   parent: BaseElectronics
-  name: entity-dungeonmastercircuitboard-name
-  description: entity-dungeonmastercircuitboard-description
+  name: law board (Dungeon Master)
+  description: An electronics board containing the Dungeon Master lawset.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -634,8 +634,8 @@
 - type: entity
   id: ArtistCircuitBoard
   parent: BaseElectronics
-  name: entity-artistcircuitboard-name
-  description: entity-artistcircuitboard-description
+  name: law board (Artist)
+  description: An electronics board containing the Artist lawset.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -651,8 +651,8 @@
 - type: entity
   id: AntimovCircuitBoard
   parent: BaseElectronics
-  name: entity-antimovcircuitboard-name
-  description: entity-antimovcircuitboard-description
+  name: law board (Antimov)
+  description: An electronics board containing the Antimov lawset.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -670,8 +670,8 @@
 - type: entity
   id: NutimovCircuitBoard
   parent: BaseElectronics
-  name: entity-nutimovcircuitboard-name
-  description: entity-nutimovcircuitboard-description
+  name: law board (Nutimov)
+  description: An electronics board containing the Nutimov lawset.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -687,8 +687,8 @@
 # Items
 - type: entity
   id: Intellicard
-  name: entity-intellicard-name
-  description: entity-intellicard-description
+  name: intellicard
+  description: A storage device for AIs.
   parent:
   - BaseItem
   - AiHolder
@@ -715,8 +715,8 @@
 
 - type: entity
   id: PlayerStationAiEmpty
-  name: entity-playerstationaiempty-name
-  description: entity-playerstationaiempty-description
+  name: AI Core
+  description: The latest in Artificial Intelligences. It has a maintenance panel, which can be opened to pry screen out with a crowbar.
   parent:
   - BaseStructure
   - AiHolder
@@ -832,8 +832,8 @@
   - Incorporeal
   - BaseMob
   id: StationAiHolo
-  name: entity-stationaiholo-name
-  description: entity-stationaiholo-description
+  name: AI eye
+  description: The AI's viewer.
   categories: [ HideSpawnMenu ]
   suffix: DO NOT MAP
   components:
@@ -872,8 +872,8 @@
 # The holographic representation of the AI that is projected from a holopad.
 - type: entity
   id: StationAiHoloLocal
-  name: entity-stationaihololocal-name
-  description: entity-stationaihololocal-description
+  name: AI hologram
+  description: A holographic representation of an AI.
   categories: [ HideSpawnMenu ]
   suffix: DO NOT MAP
   components:

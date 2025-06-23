@@ -1,9 +1,9 @@
 - type: entity
   parent: PlushieMoth
   id: PlushieMothRandom
-  name: entity-plushiemothrandom-name
+  name: moth plushie
   suffix: Random
-  description: entity-plushiemothrandom-description
+  description: A cute little mothperson that you can hold in the palm of your hand.
   components:
   - type: Sprite
     sprite: Nyanotrasen/Objects/Fun/Toys/moff.rsi
@@ -44,8 +44,8 @@
 - type: entity
   parent: PlushieMoth
   id: PlushieMothMusician
-  name: entity-plushiemothmusician-name
-  description: entity-plushiemothmusician-description
+  name: moth musician plushie
+  description: A plushie depicting an adorable mothperson with a tiny synthesizer and tiny glasses.
   components:
   - type: Sprite
     sprite: Nyanotrasen/Objects/Fun/Toys/moff.rsi
@@ -54,8 +54,8 @@
 - type: entity
   parent: PlushieMoth
   id: PlushieMothBartender
-  name: entity-plushiemothbartender-name
-  description: entity-plushiemothbartender-description
+  name: moth bartender plushie
+  description: A plushie depicting an adorable mothperson with a tiny tophat and tiny kevlar vest. It smells like cigarettes.
   components:
   - type: Sprite
     sprite: Nyanotrasen/Objects/Fun/Toys/moff.rsi

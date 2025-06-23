@@ -1,8 +1,8 @@
 - type: entity
-  name: entity-bowhardlight-name
+  name: hardlight bow
   parent: [BaseItem]
   id: BowHardlight
-  description: entity-bowhardlight-description
+  description: A modern bow that can fabricate hardlight arrows using an internal energy. This one is designed by the Syndicate for silent takedowns of targets.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Weapons/Guns/Bow/hardlight_bow.rsi

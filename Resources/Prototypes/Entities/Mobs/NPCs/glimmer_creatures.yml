@@ -1,8 +1,8 @@
 - type: entity
-  name: entity-mobglimmermite-name
+  name: glimmer mite
   parent: MobCockroach
   id: MobGlimmerMite
-  description: entity-mobglimmermite-description
+  description: A strange pest from a world beyond the noosphere.
   components:
   - type: Sprite
     sprite: DeltaV/Mobs/Ghosts/glimmermite.rsi
@@ -40,8 +40,8 @@
   - MobCombat
   - MobDamageable
   id: MobGlimmerWisp
-  name: entity-mobglimmerwisp-name
-  description: entity-mobglimmerwisp-description
+  name: glimmer wisp
+  description: A strange orb that moves with intent.
   components:
   # appearance
   - type: Sprite

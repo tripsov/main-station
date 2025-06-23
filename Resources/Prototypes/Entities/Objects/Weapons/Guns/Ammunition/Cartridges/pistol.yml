@@ -1,6 +1,6 @@
 - type: entity
   id: BaseCartridgePistol
-  name: entity-basecartridgepistol-name
+  name: cartridge (.35 auto)
   parent: BaseCartridge
   abstract: true
   components:
@@ -20,7 +20,7 @@
 
 - type: entity
   id: CartridgePistol
-  name: entity-basecartridgepistol-name
+  name: cartridge (.35 auto)
   parent: BaseCartridgePistol
   components:
   - type: CartridgeAmmo
@@ -28,7 +28,7 @@
 
 - type: entity
   id: CartridgePistolPractice
-  name: entity-cartridgepistolpractice-name
+  name: cartridge (.35 auto practice)
   parent: BaseCartridgePistol
   components:
   - type: CartridgeAmmo
@@ -43,7 +43,7 @@
 
 - type: entity
   id: CartridgePistolIncendiary
-  name: entity-cartridgepistolincendiary-name
+  name: cartridge (.35 auto incendiary)
   parent: BaseCartridgePistol
   components:
   - type: CartridgeAmmo
@@ -58,7 +58,7 @@
 
 - type: entity
   id: CartridgePistolUranium
-  name: entity-cartridgepistoluranium-name
+  name: cartridge (.35 auto uranium)
   parent: BaseCartridgePistol
   components:
   - type: CartridgeAmmo
@@ -73,7 +73,7 @@
 
 - type: entity
   id: CartridgePistolShrapnel
-  name: entity-cartridgepistolshrapnel-name
+  name: cartridge (.35 auto shrapnel)
   parent: BaseCartridgePistol
   components:
   - type: CartridgeAmmo

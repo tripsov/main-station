@@ -1,8 +1,8 @@
 - type: entity
-  name: entity-foodmothcheesecakeballs-name
+  name: cheesecake balls
   parent: FoodBakedBase
   id: FoodMothCheesecakeBalls
-  description: entity-foodmothcheesecakeballs-description
+  description: Made of soft cheese, powdered sugar and flour, rolled into balls, battered and then deep fried. They're often served with honey.
   components:
   - type: FlavorProfile
     flavors:
@@ -29,10 +29,10 @@
 #Tastes like cheesecake and honey
 
 - type: entity
-  name: entity-foodmothmothmallow-name
+  name: mothmallow tray
   parent: FoodBakedBase
   id: FoodMothMothmallow
-  description: entity-foodmothmothmallow-description
+  description: A light and fluffy vegan marshmallow flavoured with vanilla and rum. These are known to the moths as cloud squares.
   components:
   - type: FlavorProfile
     flavors:
@@ -60,10 +60,10 @@
 #Tastes like vanilla and clouds.
 
 - type: entity
-  name: entity-foodmothmothmallowslice-name
+  name: mothmallow slice
   parent: FoodBakedBase
   id: FoodMothMothmallowSlice
-  description: entity-foodmothmothmallowslice-description
+  description: Fluffy little clouds of joy- in a strangely moth-like form and colour.
   components:
   - type: FlavorProfile
     flavors:
@@ -88,10 +88,10 @@
 #Tastes like vanilla and clouds.
 
 - type: entity
-  name: entity-foodmothmoffin-name
+  name: moffin
   parent: FoodBakedBase
   id: FoodMothMoffin
-  description: entity-foodmothmoffin-description
+  description: A delicious, spongy and dusty little cake.
   components:
   - type: Sprite
     sprite: Nyanotrasen/Objects/Consumable/Food/Baked/misc.rsi

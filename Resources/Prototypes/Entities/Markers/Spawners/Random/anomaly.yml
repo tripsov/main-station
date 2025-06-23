@@ -1,6 +1,6 @@
 ﻿- type: entity
   id: RandomAnomalySpawner
-  name: entity-randomanomalyspawner-name
+  name: random anomaly spawner
   parent: MarkerBase
   components:
   - type: Sprite

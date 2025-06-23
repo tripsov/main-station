@@ -1,8 +1,8 @@
 - type: entity
-  name: entity-foodmealgrilledcheese-name
+  name: grilled cheese
   parent: FoodMealBase
   id: FoodMealGrilledCheese
-  description: entity-foodmealgrilledcheese-description
+  description: Two slices of bread cooked in butter with a lofty wedge of cheese in the middle.
   components:
   - type: FlavorProfile
     flavors:

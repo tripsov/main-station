@@ -1,8 +1,8 @@
 - type: entity
-  name: entity-foodcrystalthistle-name
+  name: CrystalThistle
   parent: FoodProduceBase
   id: FoodCrystalThistle
-  description: entity-foodcrystalthistle-description
+  description: A variant of galaxythistle that has sprouted sharp quartz shards.
   components:
   - type: FlavorProfile
     flavors:
@@ -24,10 +24,10 @@
     grindableSolutionName: food
 
 - type: entity
-  name: entity-foodghostpepper-name
+  name: Ghost Pepper
   parent: FoodProduceBase
   id: FoodGhostPepper
-  description: entity-foodghostpepper-description
+  description: So hot, you'll have one foot in the grave.
   components:
     - type: FlavorProfile
       flavors:
@@ -57,10 +57,10 @@
       - Vegetable
 
 - type: entity
-  name: entity-foodcosmicrevenant-name
+  name: Cosmic Revenant
   parent: FoodProduceBase
   id: FoodCosmicRevenant
-  description: entity-foodcosmicrevenant-description
+  description: Is this even a pepper? Looks... Haunted.
   components:
     - type: FlavorProfile
       flavors:

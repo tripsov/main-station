@@ -1,7 +1,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnHeadcrabNest
-  name: entity-spawnheadcrabnest-name
+  name: headcrab nest spawner
   components:
   - type: Sprite
     layers:
@@ -15,7 +15,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobHeadcrab
-  name: entity-spawnmobheadcrab-name
+  name: headcrab spawner
   components:
   - type: Sprite
     layers:
@@ -29,7 +29,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobHeadcrabFast
-  name: entity-spawnmobheadcrabfast-name
+  name: fast headcrab spawner
   components:
   - type: Sprite
     layers:
@@ -43,7 +43,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobHeadcrabPoison
-  name: entity-spawnmobheadcrabpoison-name
+  name: poison headcrab spawner
   components:
   - type: Sprite
     layers:

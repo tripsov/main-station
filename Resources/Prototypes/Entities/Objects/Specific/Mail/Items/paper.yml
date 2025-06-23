@@ -2,7 +2,7 @@
 # TODO: these should really be based on localization strings.
 - type: entity
   id: PaperMailNFPowerTool
-  name: entity-papermailnfpowertool-name
+  name: Hazard Fraught advertisement
   categories: [ HideSpawnMenu ]
   suffix: "power tool ad, formatted"
   parent: Paper
@@ -169,7 +169,7 @@
 
 - type: entity
   id: PaperMailNFPwrGameAd
-  name: entity-papermailnfpwrgamead-name
+  name: pwr game advertisement
   categories: [ HideSpawnMenu ]
   suffix: "pwr game ad"
   parent: Paper
@@ -183,7 +183,7 @@
 
 - type: entity
   id: PaperMailNFRedBoolAd
-  name: entity-papermailnfredboolad-name
+  name: red bool advertisement
   categories: [ HideSpawnMenu ]
   suffix: "red bool ad"
   parent: Paper
@@ -199,7 +199,7 @@
 
 - type: entity
   id: PaperMailNFSpaceColaAd
-  name: entity-papermailnfspacecolaad-name
+  name: space cola advertisement
   categories: [ HideSpawnMenu ]
   suffix: "space cola ad"
   parent: Paper
@@ -213,7 +213,7 @@
 
 - type: entity
   id: PaperMailNFSpaceMountainWindAd
-  name: entity-papermailnfspacemountainwindad-name
+  name: space mountain wind advertisement
   categories: [ HideSpawnMenu ]
   suffix: "space mountain wind ad"
   parent: Paper
@@ -227,7 +227,7 @@
 
 - type: entity
   id: PaperMailNFSpaceUpAd
-  name: entity-papermailnfspaceupad-name
+  name: space up advertisement
   categories: [ HideSpawnMenu ]
   suffix: "space up ad"
   parent: Paper
@@ -329,7 +329,7 @@
 
 - type: entity
   id: PaperMailNFPetBedAssemblyManual
-  name: entity-papermailnfpetbedassemblymanual-name
+  name: pet bed assembly manual
   categories: [ HideSpawnMenu ]
   suffix: "pet bed assembly manual"
   parent: Paper
@@ -380,7 +380,7 @@
 
 - type: entity
   id: PaperMailNFAntivirus
-  name: entity-papermailnfantivirus-name
+  name: Snortin Antivirus invoice
   categories: [ HideSpawnMenu ]
   suffix: "antivirus ad"
   parent: Paper
@@ -403,7 +403,7 @@
 - type: entity
   id: PaperMailNFEMPPreparedness
   categories: [ HideSpawnMenu ]
-  name: entity-papermailnfemppreparedness-name
+  name: EMP preparedness response form
   suffix: "emp preparedness" #DeltaV - Replaces mention of SR with HoS
   parent: Paper
   components:
@@ -424,7 +424,7 @@
 - type: entity
   id: PaperMailNFBuildABuddy
   categories: [ HideSpawnMenu ]
-  name: entity-papermailnfbuildabuddy-name
+  name: Build-a-Buddy adoption letter
   suffix: "build-a-buddy" #DeltaV- Body text changed, because Goblins Aren't Real
   parent: Paper
   components:

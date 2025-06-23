@@ -65,8 +65,8 @@
 - type: entity
   parent: BaseDecoy
   id: BalloonOperative
-  name: entity-balloonoperative-name
-  description: entity-balloonoperative-description
+  name: operative balloon
+  description: Upon closer inspection, this Syndicate operative is actually a balloon.
   components:
   - type: Sprite
     sprite: Objects/Tools/Decoys/operative_decoy.rsi
@@ -80,8 +80,8 @@
 - type: entity
   parent: BaseDecoy
   id: BalloonAgent
-  name: entity-balloonagent-name
-  description: entity-balloonagent-description
+  name: agent balloon
+  description: Upon closer inspection, this Syndicate agent is actually a balloon.
   components:
   - type: Sprite
     sprite: Objects/Tools/Decoys/agent_decoy.rsi
@@ -95,8 +95,8 @@
 - type: entity
   parent: BaseDecoy
   id: BalloonElite
-  name: entity-balloonelite-name
-  description: entity-balloonelite-description
+  name: elite operative balloon
+  description: Upon closer inspection, this Syndicate elite operative is actually a balloon.
   components:
   - type: Sprite
     sprite: Objects/Tools/Decoys/elite_decoy.rsi
@@ -112,8 +112,8 @@
 - type: entity
   parent: BaseDecoy
   id: BalloonJuggernaut
-  name: entity-balloonjuggernaut-name
-  description: entity-balloonjuggernaut-description
+  name: juggernaut balloon
+  description: Upon closer inspection, this Syndicate juggernaut is actually a balloon.
   components:
   - type: Sprite
     sprite: Objects/Tools/Decoys/juggernaut_decoy.rsi
@@ -127,8 +127,8 @@
 - type: entity
   parent: BaseDecoy
   id: BalloonCommander
-  name: entity-ballooncommander-name
-  description: entity-ballooncommander-description
+  name: commander balloon
+  description: Upon closer inspection, this Syndicate commander is actually a balloon.
   components:
   - type: Sprite
     sprite: Objects/Tools/Decoys/commander_decoy.rsi

@@ -1,7 +1,7 @@
 - type: entity
   parent: MobObserver
   id: AdminObserver
-  name: entity-adminobserver-name
+  name: admin observer
   categories: [ HideSpawnMenu ]
   components:
   - type: Eye
@@ -130,8 +130,8 @@
 
 - type: entity
   id: ActionAGhostShowSolar
-  name: entity-actionaghostshowsolar-name
-  description: entity-actionaghostshowsolar-description
+  name: Solar Control Interface
+  description: View a solar control interface.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -143,8 +143,8 @@
 
 - type: entity
   id: ActionAGhostShowCommunications
-  name: entity-actionaghostshowcommunications-name
-  description: entity-actionaghostshowcommunications-description
+  name: Communications Interface
+  description: View a communications interface.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -156,8 +156,8 @@
 
 - type: entity
   id: ActionAGhostShowRadar
-  name: entity-actionaghostshowradar-name
-  description: entity-actionaghostshowradar-description
+  name: Mass Scanner Interface
+  description: View a mass scanner interface.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -169,8 +169,8 @@
 
 - type: entity
   id: ActionAGhostShowCargo
-  name: entity-actionaghostshowcargo-name
-  description: entity-actionaghostshowcargo-description
+  name: Cargo Ordering Interface
+  description: View a cargo ordering interface.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -182,8 +182,8 @@
 
 - type: entity
   id: ActionAGhostShowCrewMonitoring
-  name: entity-actionaghostshowcrewmonitoring-name
-  description: entity-actionaghostshowcrewmonitoring-description
+  name: Crew Monitoring Interface
+  description: View a crew monitoring interface.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -195,8 +195,8 @@
 
 - type: entity
   id: ActionAGhostShowStationRecords
-  name: entity-actionaghostshowstationrecords-name
-  description: entity-actionaghostshowstationrecords-description
+  name: Station Records Interface
+  description: View a station records Interface
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction

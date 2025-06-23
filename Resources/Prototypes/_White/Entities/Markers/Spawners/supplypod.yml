@@ -1,7 +1,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnStraySupplyPod
-  name: entity-spawnstraysupplypod-name
+  name: stray supply pod spawner
   components:
   - type: Sprite
     layers:
@@ -19,7 +19,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnStraySupplyPodSyndicate
-  name: entity-spawnstraysupplypodsyndicate-name
+  name: stray supply pod syndicate spawner
   components:
   - type: Sprite
     layers:

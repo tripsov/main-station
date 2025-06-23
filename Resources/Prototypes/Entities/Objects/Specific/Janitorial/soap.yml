@@ -1,8 +1,8 @@
 - type: entity
-  name: entity-soap-name
+  name: soap
   id: Soap
   parent: BaseItem
-  description: entity-soap-description
+  description: A cheap bar of soap. Doesn't smell.
   components:
   - type: Tag
     tags:
@@ -78,10 +78,10 @@
     residueColor: residue-green
 
 - type: entity
-  name: entity-soap-name
+  name: soap
   id: SoapNT
   parent: Soap
-  description: entity-soapnt-description
+  description: A Nanotrasen brand bar of soap. Smells of plasma.
   components:
   - type: Sprite
     layers:
@@ -103,10 +103,10 @@
     residueColor: residue-grey
 
 - type: entity
-  name: entity-soap-name
+  name: soap
   id: SoapDeluxe
   parent: Soap
-  description: entity-soapdeluxe-description
+  description: A deluxe Waffle Co. brand bar of soap. Smells of strawberries.
   components:
   - type: Sprite
     layers:
@@ -121,10 +121,10 @@
     residueColor: residue-brown
 
 - type: entity
-  name: entity-soap-name
+  name: soap
   id: SoapSyndie
   parent: Soap
-  description: entity-soapsyndie-description
+  description: An untrustworthy bar of soap. Smells of fear.
   components:
   - type: Sprite
     layers:
@@ -148,11 +148,11 @@
     residueColor: residue-red
 
 - type: entity
-  name: entity-soapletsyndie-name
+  name: soaplet
   id: SoapletSyndie
   categories: [ HideSpawnMenu ]
   parent: Soap
-  description: entity-soapletsyndie-description
+  description: A tiny piece of syndicate soap.
   components:
   - type: Sprite
     layers:
@@ -191,10 +191,10 @@
         volume: -20
 
 - type: entity
-  name: entity-soap-name
+  name: soap
   id: SoapHomemade
   parent: Soap
-  description: entity-soaphomemade-description
+  description: A homemade bar of soap. Smells of... well....
   components:
   - type: Sprite
     layers:
@@ -219,10 +219,10 @@
     residueColor: residue-red
 
 - type: entity
-  name: entity-soapomega-name
+  name: omega soap
   id: SoapOmega
   parent: Soap
-  description: entity-soapomega-description
+  description: The most advanced soap known to mankind. Smells of bluespace.
   components:
   - type: Sprite
     layers:

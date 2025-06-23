@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitSeniorTrooper
-  name: entity-clothinguniformjumpsuitseniortrooper-name
-  description: entity-clothinguniformjumpsuitseniortrooper-description
+  name: senior trooper uniform
+  description: A formal uniform issued to the Nanotrasen Troopers, usually it comes with a car.
   components:
   - type: Sprite
     sprite: _DEN/Clothing/Uniforms/Jumpsuit/seniortrooper.rsi

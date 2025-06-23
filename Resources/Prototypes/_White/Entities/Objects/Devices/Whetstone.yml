@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: BaseItem
   id: Whetstone
-  name: entity-whetstone-name
-  description: entity-whetstone-description
+  name: whetstone
+  description: You're going to sharpen kitchen knives with it, right?
   components:
   - type: Sprite
     sprite: _White/Objects/Devices/whetstone.rsi

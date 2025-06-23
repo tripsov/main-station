@@ -1,7 +1,7 @@
 - type: entity
   id: ActionClothingSeal
-  name: entity-actionclothingseal-name
-  description: entity-actionclothingseal-description
+  name: Seal/Unseal Clothing
+  description: Seals or unseals your current clothing.
   categories: [ HideSpawnMenu ]
   components:
   - type: ConfirmableAction

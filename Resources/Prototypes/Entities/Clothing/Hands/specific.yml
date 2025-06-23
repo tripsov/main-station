@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingHandsButcherable
   id: ClothingHandsChameleon # doesn't protect from electricity or heat
-  name: entity-clothinghandschameleon-name
-  description: entity-clothinghandschameleon-description
+  name: black gloves
+  description: Regular black gloves that do not keep you from frying.
   suffix: Chameleon
   components:
     - type: Tag

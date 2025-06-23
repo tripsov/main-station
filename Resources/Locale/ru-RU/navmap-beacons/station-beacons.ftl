@@ -8,7 +8,7 @@ station-beacon-hop = Глава Персонала
 
 station-beacon-security = Служба Безопасности
 station-beacon-brig = Бриг
-station-beacon-warden = Надзиратель
+station-beacon-warden = Смотритель
 station-beacon-hos = Глава Службы Безопасности
 station-beacon-armory = Оружейная
 station-beacon-perma-brig = Пермабриг

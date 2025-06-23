@@ -23,9 +23,9 @@
 - type: entity
   parent: N14SignBase
   id: N14FlagWallUS
-  name: entity-n14flagwallus-name
+  name: flag
   suffix: US
-  description: entity-n14flagwallus-description
+  description: A US flag.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Wallmounts/walldecor.rsi
@@ -35,7 +35,7 @@
   parent: N14FlagWallUS
   id: N14FlagWallChina
   suffix: China
-  description: entity-n14flagwallchina-description
+  description: A Chinese flag.
   components:
   - type: Sprite
     state: flag_china
@@ -44,7 +44,7 @@
   parent: N14FlagWallUS
   id: N14FlagWallCalifornia
   suffix: California
-  description: entity-n14flagwallcalifornia-description
+  description: A flag of California.
   components:
   - type: Sprite
     state: flag_cali
@@ -53,7 +53,7 @@
   parent: N14FlagWallUS
   id: N14FlagWallArizona
   suffix: Arizona
-  description: entity-n14flagwallarizona-description
+  description: A flag of Arizona.
   components:
   - type: Sprite
     state: flag_arizona
@@ -62,7 +62,7 @@
   parent: N14FlagWallUS
   id: N14FlagWallEnclave
   suffix: Enclave
-  description: entity-n14flagwallenclave-description
+  description: An Enclave flag.
   components:
   - type: Sprite
     state: flag_enclave
@@ -71,7 +71,7 @@
   parent: N14FlagWallUS
   id: N14FlagWallNCR
   suffix: NCR
-  description: entity-n14flagwallncr-description
+  description: An NCR flag.
   components:
   - type: Sprite
     state: flag_ncr
@@ -80,7 +80,7 @@
   parent: N14FlagWallUS
   id: N14FlagWallLegion
   suffix: Legion
-  description: entity-n14flagwalllegion-description
+  description: A Legion flag.
   components:
   - type: Sprite
     state: flag_legion
@@ -89,7 +89,7 @@
   parent: N14FlagWallUS
   id: N14FlagWallRangers
   suffix: Rangers
-  description: entity-n14flagwallrangers-description
+  description: A Rangers flag.
   components:
   - type: Sprite
     state: flag_rangers
@@ -98,7 +98,7 @@
   parent: N14FlagWallUS
   id: N14FlagWallWesternBrotherhood
   suffix: Midwestern BOS
-  description: entity-n14flagwallwesternbrotherhood-description
+  description: A Midwest Brotherhood of Steel flag.
   components:
   - type: Sprite
     state: flag_westbos
@@ -107,7 +107,7 @@
   parent: N14FlagWallUS
   id: N14FlagWallWashingtonBrotherhood # Actually Eastern but repurposed.
   suffix: Washington BOS
-  description: entity-n14flagwallwashingtonbrotherhood-description
+  description: A Washington Brotherhood of Steel flag.
   components:
   - type: Sprite
     state: flag_eastbos
@@ -116,7 +116,7 @@
   parent: N14FlagWallUS
   id: N14FlagWallColorado
   suffix: colorado
-  description: entity-n14flagwallcolorado-description
+  description: A flag for the state of Colorado
   components:
   - type: Sprite
     state: flag_colorado
@@ -125,7 +125,7 @@
   parent: N14FlagWallUS
   id: N14FlagWallDenver
   suffix: denver
-  description: entity-n14flagwalldenver-description
+  description: A flag for the state of Denver
   components:
   - type: Sprite
     state: flag_denver
@@ -134,8 +134,8 @@
 - type: entity
   parent: N14SignBase
   id: N14WallDecorClock
-  name: entity-n14walldecorclock-name
-  description: entity-n14walldecorclock-description
+  name: clock
+  description: A clock. Don't think it works.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Wallmounts/walldecor.rsi
@@ -145,8 +145,8 @@
 - type: entity
   parent: N14WallDecorClock
   id: N14WallDecorCalendar
-  name: entity-n14walldecorcalendar-name
-  description: entity-n14walldecorcalendar-description
+  name: calendar
+  description: A calendar for some forgotten year.
   components:
   - type: Sprite
     state: calendar
@@ -154,8 +154,8 @@
 - type: entity
   parent: N14WallDecorClock
   id: N14WallDecorCalendar1
-  name: entity-n14walldecorcalendar-name
-  description: entity-n14walldecorcalendar1-description
+  name: calendar
+  description: A blank calendar for some forgotten year.
   components:
   - type: Sprite
     state: calendar_blank
@@ -163,8 +163,8 @@
 - type: entity
   parent: N14WallDecorClock
   id: N14WallDecorCross
-  name: entity-n14walldecorcross-name
-  description: entity-n14walldecorcross-description
+  name: cross
+  description: A symbol from another time.
   components:
   - type: Sprite
     state: cross
@@ -172,8 +172,8 @@
 - type: entity
   parent: N14WallDecorClock
   id: N14WallDecorWallscreen
-  name: entity-n14walldecorwallscreen-name
-  description: entity-n14walldecorwallscreen-description
+  name: wall screen
+  description: A cluster of monitors hung on the wall.
   components:
   - type: Sprite
     state: wallscreen

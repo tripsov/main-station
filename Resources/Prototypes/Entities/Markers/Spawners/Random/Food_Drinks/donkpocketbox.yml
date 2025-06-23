@@ -1,5 +1,5 @@
 - type: entity
-  name: entity-donkpocketboxspawner-name
+  name: Donkpocket Box Spawner
   id: DonkpocketBoxSpawner
   parent: MarkerBase
   components:

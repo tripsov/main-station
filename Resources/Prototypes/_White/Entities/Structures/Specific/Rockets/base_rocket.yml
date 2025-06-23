@@ -3,8 +3,8 @@
   parent: BaseStructure
   id: BaseRocket
   abstract: true
-  name: entity-baserocket-name
-  description: entity-baserocket-description
+  name: rocket
+  description: Its nuked... ugh...
   placement:
     mode: AlignTileAny
   components:

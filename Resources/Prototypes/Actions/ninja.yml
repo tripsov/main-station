@@ -1,8 +1,8 @@
 # gloves
 - type: entity
   id: ActionToggleNinjaGloves
-  name: entity-actiontoggleninjagloves-name
-  description: entity-actiontoggleninjagloves-description
+  name: Toggle ninja gloves
+  description: Toggles all glove actions on left click. Includes your doorjack, draining power, stunning enemies and hacking certain computers.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -12,8 +12,8 @@
 # suit
 - type: entity
   id: ActionCreateThrowingStar
-  name: entity-actioncreatethrowingstar-name
-  description: entity-actioncreatethrowingstar-description
+  name: Create throwing star
+  description: Channels suit power into creating a throwing star that deals extra stamina damage.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -27,8 +27,8 @@
 
 - type: entity
   id: ActionRecallKatana
-  name: entity-actionrecallkatana-name
-  description: entity-actionrecallkatana-description
+  name: Recall katana
+  description: Teleports the Energy Katana linked to this suit to its wearer, cost based on distance.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -42,8 +42,8 @@
 
 - type: entity
   id: ActionNinjaEmp
-  name: entity-actionninjaemp-name
-  description: entity-actionninjaemp-description
+  name: EM Burst
+  description: Disable any nearby technology with an electro-magnetic pulse.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -56,8 +56,8 @@
 
 - type: entity
   id: ActionTogglePhaseCloak
-  name: entity-actiontogglephasecloak-name
-  description: entity-actiontogglephasecloak-description
+  name: Phase cloak
+  description: Toggles your suit's phase cloak. Beware that if you are hit, all abilities are disabled for 5 seconds, including your cloak!
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -69,8 +69,8 @@
 # katana
 - type: entity
   id: ActionEnergyKatanaDash
-  name: entity-actionenergykatanadash-name
-  description: entity-actionenergykatanadash-description
+  name: Katana dash
+  description: Teleport to anywhere you can see, if your Energy Katana is in your hand.
   categories: [ HideSpawnMenu ]
   components:
   - type: WorldTargetAction

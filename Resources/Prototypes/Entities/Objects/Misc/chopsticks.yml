@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: ChopSticks
-  name: entity-chopsticks-name
-  description: entity-chopsticks-description
+  name: chopsticks
+  description: A very traditional utensil.
   components:
   - type: Sprite
     sprite: Objects/Misc/chopstick.rsi
@@ -16,9 +16,9 @@
 
 - type: entity
   parent: BaseItem
-  name: entity-pairedchopsticks-name
+  name: paired chopsticks
   id: PairedChopsticks
-  description: entity-pairedchopsticks-description
+  description: You should probably seperate them.
   components:
   - type: SpawnItemsOnUse
     items:

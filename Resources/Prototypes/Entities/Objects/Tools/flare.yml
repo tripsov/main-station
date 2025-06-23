@@ -1,8 +1,8 @@
 ﻿- type: entity
-  name: entity-flare-name
+  name: emergency flare
   parent: BaseItem
   id: Flare
-  description: entity-flare-description
+  description: A flare that produces a very bright light for a short while. Point the flame away from yourself.
   components:
   - type: Tag
     tags:

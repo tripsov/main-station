@@ -1,8 +1,8 @@
 - type: entity
-  name: entity-boxcardboard-name
+  name: cardboard box
   parent: BoxBase
   id: BoxCardboard
-  description: entity-boxcardboard-description
+  description: A cardboard box for storing things.
   components:
   - type: Item
     size: Large
@@ -25,10 +25,10 @@
     - BoxCardboard
 
 - type: entity
-  name: entity-boxmousetrap-name
+  name: mousetrap box
   parent: BoxCardboard
   id: BoxMousetrap
-  description: entity-boxmousetrap-description
+  description: This box is filled with mousetraps. Try not to get your hand stuck in one.
   components:
     - type: StorageFill
       contents:
@@ -40,10 +40,10 @@
         - state: mousetraps
 
 - type: entity
-  name: entity-boxlightbulb-name
+  name: lightbulb box
   parent: BoxCardboard
   id: BoxLightbulb
-  description: entity-boxlightbulb-description
+  description: This box is shaped on the inside so that only light tubes and bulbs fit.
   components:
   - type: StorageFill
     contents:
@@ -61,10 +61,10 @@
       - LightBulb
 
 - type: entity
-  name: entity-boxlighttube-name
+  name: lighttube box
   parent: BoxCardboard
   id: BoxLighttube
-  description: entity-boxlightbulb-description
+  description: This box is shaped on the inside so that only light tubes and bulbs fit.
   components:
   - type: StorageFill
     contents:
@@ -82,10 +82,10 @@
       - LightBulb
 
 - type: entity
-  name: entity-boxlightmixed-name
+  name: mixed lights box
   parent: BoxCardboard
   id: BoxLightMixed
-  description: entity-boxlightbulb-description
+  description: This box is shaped on the inside so that only light tubes and bulbs fit.
   components:
   - type: StorageFill
     contents:
@@ -105,10 +105,10 @@
       - LightBulb
 
 - type: entity
-  name: entity-boxpda-name
+  name: PDA box
   parent: BoxCardboard
   id: BoxPDA
-  description: entity-boxpda-description
+  description: A box of spare PDA microcomputers.
   components:
   - type: StorageFill
     contents:
@@ -120,10 +120,10 @@
       - state: pda
 
 - type: entity
-  name: entity-boxid-name
+  name: ID card box
   parent: BoxCardboard
   id: BoxID
-  description: entity-boxid-description
+  description: A box of spare blank ID cards.
   components:
   - type: StorageFill
     contents:
@@ -135,10 +135,10 @@
       - state: pda
 
 - type: entity
-  name: entity-boxheadset-name
+  name: headset box
   parent: BoxCardboard
   id: BoxHeadset
-  description: entity-boxheadset-description
+  description: A box of spare passenger headsets.
   components:
   - type: StorageFill
     contents:
@@ -150,10 +150,10 @@
       - state: headset
 
 - type: entity
-  name: entity-boxmesonscanners-name
+  name: meson box
   parent: BoxCardboard
   id: BoxMesonScanners
-  description: entity-boxmesonscanners-description
+  description: A box of spare meson goggles.
   components:
   - type: StorageFill
     contents:
@@ -165,10 +165,10 @@
       - state: meson
 
 - type: entity
-  name: entity-boxmre-name
+  name: M.R.E.
   parent: BoxCardboard
   id: BoxMRE
-  description: entity-boxmre-description
+  description: A box of decades old military surplus rations. It is surprisingly not rotten.
   components:
   - type: StorageFill
     contents:
@@ -192,10 +192,10 @@
         amount: 3
 
 - type: entity
-  name: entity-boxinflatable-name
+  name: inflatable wall box
   parent: BoxCardboard
   id: BoxInflatable
-  description: entity-boxinflatable-description
+  description: Inflatable walls are not to be used as floatation devices.
   components:
   - type: StorageFill
     contents:
@@ -210,10 +210,10 @@
 
 
 - type: entity
-  name: entity-boxperformer-name
+  name: hatsune miku day bag
   parent: ClothingBackpackDuffel
   id: BoxPerformer
-  description: entity-boxperformer-description
+  description: Happy Hatsune Miku Day!
   components:
   - type: StorageFill
     contents:
@@ -223,10 +223,10 @@
         amount: 2
 
 - type: entity
-  name: entity-boxflare-name
+  name: flare box
   parent: BoxCardboard
   id: BoxFlare
-  description: entity-boxflare-description
+  description: A box of flares. Party time.
   components:
   - type: StorageFill
     contents:
@@ -238,10 +238,10 @@
       - state: flare
 
 - type: entity
-  name: entity-boxtrashbag-name
+  name: trashbag box
   parent: BoxCardboard
   id: BoxTrashbag
-  description: entity-boxtrashbag-description
+  description: A box of trashbags. Happy janitor noises.
   components:
   - type: StorageFill
     contents:
@@ -260,10 +260,10 @@
       - state: trashbag
 
 - type: entity
-  name: entity-boxencryptionkeypassenger-name
+  name: passenger encryption key box
   parent: BoxCardboard
   id: BoxEncryptionKeyPassenger
-  description: entity-boxencryptionkeypassenger-description
+  description: A box of spare encryption keys.
   components:
   - type: StorageFill
     contents:
@@ -289,7 +289,7 @@
         amount: 4
 
 - type: entity
-  name: entity-boxencryptionkeyengineering-name
+  name: engineering encryption key box
   parent: BoxEncryptionKeyPassenger
   id: BoxEncryptionKeyEngineering
   components:
@@ -299,7 +299,7 @@
         amount: 4
 
 - type: entity
-  name: entity-boxencryptionkeymedicalscience-name
+  name: med-sci encryption key box
   parent: BoxEncryptionKeyPassenger
   id: BoxEncryptionKeyMedicalScience
   components:
@@ -309,7 +309,7 @@
         amount: 4
 
 - type: entity
-  name: entity-boxencryptionkeymedical-name
+  name: medical encryption key box
   parent: BoxEncryptionKeyPassenger
   id: BoxEncryptionKeyMedical
   components:
@@ -319,7 +319,7 @@
         amount: 4
 
 - type: entity
-  name: entity-boxencryptionkeyrobo-name
+  name: robotech encryption key box
   parent: BoxEncryptionKeyPassenger
   id: BoxEncryptionKeyRobo
   components:
@@ -339,7 +339,7 @@
         amount: 4
 
 - type: entity
-  name: entity-boxencryptionkeysecurity-name
+  name: security encryption key box
   parent: BoxEncryptionKeyPassenger
   id: BoxEncryptionKeySecurity
   components:
@@ -349,7 +349,7 @@
         amount: 4
 
 - type: entity
-  name: entity-boxencryptionkeyservice-name
+  name: service encryption key box
   parent: BoxEncryptionKeyPassenger
   id: BoxEncryptionKeyService
   components:
@@ -359,10 +359,10 @@
         amount: 4
 
 - type: entity
-  name: entity-boxencryptionkeysyndie-name
+  name: syndicate encryption key box
   parent: BoxEncryptionKeyPassenger
   id: BoxEncryptionKeySyndie
-  description: entity-boxencryptionkeysyndie-description
+  description: Two syndicate encryption keys for the price of one. Miniaturized for ease of use.
   components:
   - type: Item
     size: Normal
@@ -373,10 +373,10 @@
   - type: Storage
 
 - type: entity
-  name: entity-boxdeathrattleimplants-name
+  name: deathrattle implant box
   parent: BoxCardboard
   id: BoxDeathRattleImplants
-  description: entity-boxdeathrattleimplants-description
+  description: Six deathrattle implants and handheld GPS devices for the whole squad.
   components:
   - type: Item
     size: Normal
@@ -395,11 +395,11 @@
       - state: syringe
 
 - type: entity
-  name: entity-boxleadlined-name
+  name: lead-lined box
   parent: BoxCardboard
   suffix: DEBUG
   id: BoxLeadLined
-  description: entity-boxleadlined-description
+  description: This box stymies the transmission of harmful radiation.
   components:
   - type: Sprite
     state: box
@@ -407,7 +407,7 @@
     resistance: 2
 
 - type: entity
-  name: entity-boxcandle-name
+  name: candle box
   parent: BoxCardboard
   id: BoxCandle
   components:
@@ -432,7 +432,7 @@
         amount: 3
 
 - type: entity
-  name: entity-boxcandlesmall-name
+  name: small candle box
   parent: BoxCardboard
   id: BoxCandleSmall
   components:
@@ -457,10 +457,10 @@
         amount: 5
 
 - type: entity
-  name: entity-boxdarts-name
+  name: darts box
   parent: BoxCardboard
   id: BoxDarts
-  description: entity-boxdarts-description
+  description: This box filled with colorful darts.
   components:
   - type: Item
     size: Normal

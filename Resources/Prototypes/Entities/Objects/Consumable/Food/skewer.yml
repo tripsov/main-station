@@ -2,10 +2,10 @@
 # Kebabs
 
 - type: entity
-  name: entity-foodkebabskewer-name
+  name: skewer
   parent: BaseItem
   id: FoodKebabSkewer
-  description: entity-foodkebabskewer-description
+  description: A thin rod of metal used to skewer just about anything and cook it.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/skewer.rsi
@@ -62,10 +62,10 @@
           Quantity: 2
 
 - type: entity
-  name: entity-foodmeatratdoublekebab-name
+  name: double rat kebab
   parent: FoodKebabSkewer
   id: FoodMeatRatdoubleKebab
-  description: entity-foodmeatratdoublekebab-description
+  description: A double serving of not so delicious rat meat, on a stick.
   components:
   - type: Sprite
     layers:
@@ -81,10 +81,10 @@
           Quantity: 6
 
 - type: entity
-  name: entity-foodmeatfiestakebab-name
+  name: fiesta kebab
   parent: FoodKebabSkewer
   id: FoodMeatFiestaKebab
-  description: entity-foodmeatfiestakebab-description
+  description: Always a cruise ship party somewhere in the world, right?
   components:
   - type: Sprite
     layers:
@@ -95,10 +95,10 @@
       - state: skewer-tomato
 
 - type: entity
-  name: entity-foodmeatsnakekebab-name
+  name: snake kebab
   parent: FoodKebabSkewer
   id: FoodMeatSnakeKebab
-  description: entity-foodmeatsnakekebab-description
+  description: Snake meat on a stick. It's a little tough.
   components:
   - type: Sprite
     layers:

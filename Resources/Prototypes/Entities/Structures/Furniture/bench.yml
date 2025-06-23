@@ -1,8 +1,8 @@
 - type: entity
-  name: entity-benchcomfy-name
+  name: comfortable bench
   id: BenchComfy
   parent: SeatBase
-  description: entity-benchcomfy-description
+  description: A bench with an extremely comfortable backrest.
   components:
   - type: Transform
     anchored: true
@@ -22,7 +22,7 @@
   id: BenchColorfulComfy
   suffix: Solo. Colorful
   parent: BenchComfy
-  description: entity-benchcomfy-description
+  description: A bench with an extremely comfortable backrest.
   components:
   - type: Sprite
     layers:

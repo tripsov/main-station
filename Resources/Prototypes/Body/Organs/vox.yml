@@ -1,6 +1,6 @@
 - type: entity
   id: OrganVoxLungs
-  name: entity-organvoxlungs-name
+  name: vox lungs
   parent: OrganHumanLungs
   suffix: "vox"
   components:

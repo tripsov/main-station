@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: ActionRevertPolymorph
-  name: entity-actionrevertpolymorph-name
-  description: entity-actionrevertpolymorph-description
+  name: Revert
+  description: Revert back into your original form.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -17,8 +17,8 @@
 
 - type: entity
   id: ActionPolymorphWizardSpider
-  name: entity-actionpolymorphwizardspider-name
-  description: entity-actionpolymorphwizardspider-description
+  name: Spider Polymorph
+  description: Polymorphs you into a Spider.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -32,8 +32,8 @@
 
 - type: entity
   id: ActionPolymorphWizardRod
-  name: entity-actionpolymorphwizardrod-name
-  description: entity-actionpolymorphwizardrod-description
+  name: Rod Form
+  description: CLANG!
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction

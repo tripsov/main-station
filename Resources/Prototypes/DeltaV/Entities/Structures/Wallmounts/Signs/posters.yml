@@ -1,8 +1,8 @@
 - type: entity
   parent: PosterBase
   id: PosterLegitFuckAround
-  name: entity-posterlegitfuckaround-name
-  description: entity-posterlegitfuckaround-description
+  name: Fuck Around...
+  description: ...and find out. Sponsored by the Intergalactic Bartenders' Federation, Delta branch.
   components:
   - type: Sprite
     sprite: DeltaV/Structures/Wallmounts/Posters/TJohnson.rsi

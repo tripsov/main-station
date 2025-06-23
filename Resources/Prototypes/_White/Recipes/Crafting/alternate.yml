@@ -31,13 +31,13 @@
 #     entity: MaterialCardboard1
 
 - type: construction
-  name: construction-cardboard-name
+  name: cardboard
   id: Cardboard
   graph: PaperGraph
   startNode: startcardboard
   targetNode: cardboard
   category: construction-category-materials
-  description: construction-cardboard-description
+  description: Just some home-made cardboard
   icon: {     sprite: Objects/Materials/materials.rsi , state: cardboard}
   objectType: Item
 

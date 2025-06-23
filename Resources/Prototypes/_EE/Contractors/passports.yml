@@ -1,9 +1,9 @@
 - type: entity
-  name: entity-basepassport-name
+  name: passport
   parent: BaseItem
   id: BasePassport
   abstract: true
-  description: entity-basepassport-description
+  description: A passport denoting an individual's nationality and identity.
   components:
     - type: Passport
     - type: Sprite
@@ -20,7 +20,7 @@
       sound: /Audio/SimpleStation14/Items/Handling/book_drop.ogg
 
 - type: entity
-  name: entity-bieselpassport-name
+  name: Biesel Republic passport
   parent: BasePassport
   id: BieselPassport
   components:
@@ -49,7 +49,7 @@
           - Solarian
 
 - type: entity
-  name: entity-solpassport-name
+  name: Solarian Alliance passport
   parent: BasePassport
   id: SolPassport
   components:
@@ -78,7 +78,7 @@
           - Solarian
 
 - type: entity
-  name: entity-elyranpassport-name
+  name: Republic of Elyra passport
   parent: BasePassport
   id: ElyranPassport
   components:
@@ -89,7 +89,7 @@
       - state: passport_species_human
 
 - type: entity
-  name: entity-valyrianpassport-name
+  name: Valyrian 4b passport
   parent: BasePassport
   id: ValyrianPassport
   components:
@@ -100,7 +100,7 @@
       - state: passport_species_human
 
 - type: entity
-  name: entity-nederlandicpassport-name
+  name: New-Netherlands passport
   parent: BasePassport
   id: NederlandicPassport
   components:
@@ -111,7 +111,7 @@
       - state: passport_species_human
 
 - type: entity
-  name: entity-izweskipassport-name
+  name: Izweski Hegemony passport
   parent: BasePassport
   id: IzweskiPassport
   components:
@@ -122,7 +122,7 @@
       - state: passport_species_human
 
 - type: entity
-  name: entity-adhomaipassport-name
+  name: People's Republic of Adhomai passport
   parent: BasePassport
   id: AdhomaiPassport
   components:
@@ -133,7 +133,7 @@
       - state: passport_species_human
 
 - type: entity
-  name: entity-goldendeeppassport-name
+  name: Golden Deep passport
   parent: BasePassport
   id: GoldenDeepPassport
   components:
@@ -144,7 +144,7 @@
       - state: passport_species_ipc
 
 - type: entity
-  name: entity-qiimaerupassport-name
+  name: Qiimaeru passport
   parent: BasePassport
   id: QiimaeruPassport
   components:

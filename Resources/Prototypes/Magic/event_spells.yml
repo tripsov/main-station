@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: ActionSummonGhosts
-  name: entity-actionsummonghosts-name
-  description: entity-actionsummonghosts-description
+  name: Summon Ghosts
+  description: Makes all current ghosts permanently invisible
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction

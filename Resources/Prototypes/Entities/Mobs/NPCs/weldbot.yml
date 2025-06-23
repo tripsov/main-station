@@ -1,8 +1,8 @@
 - type: entity
   parent: MobSiliconBase
   id: MobWeldbot
-  name: entity-mobweldbot-name
-  description: entity-mobweldbot-description
+  name: weldbot
+  description: No substitute for an engineer, but better than nothing.
   components:
   - type: Weldbot
   - type: Sprite

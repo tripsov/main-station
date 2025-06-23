@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: ActionChargeSpell
-  name: entity-actionchargespell-name
-  description: entity-actionchargespell-description
+  name: Charge
+  description: Adds a charge back to your wand
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction

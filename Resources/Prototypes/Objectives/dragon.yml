@@ -33,8 +33,8 @@
   categories: [ HideSpawnMenu ]
   parent: [BaseDragonObjective, BaseSurviveObjective]
   id: DragonSurviveObjective
-  name: entity-dragonsurviveobjective-name
-  description: entity-dragonsurviveobjective-description
+  name: Survive
+  description: You have to stay alive to maintain control.
   components:
   - type: Objective
     icon:

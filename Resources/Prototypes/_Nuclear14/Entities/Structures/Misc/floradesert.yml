@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseTree
   id: N14FloraDesertCactus
-  name: entity-n14floradesertcactus-name
-  description: entity-n14floradesertcactus-description
+  name: Cactus
+  description: Some kind of wasteland flora.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Misc/floradesert.rsi
@@ -23,7 +23,7 @@
   parent: N14FloraDesertCactus
   id: N14FloraDesertTree1
   name: "tree yucca"
-  description: entity-n14floradeserttree1-description
+  description: A Joshua Tree.
   components:
   - type: Sprite
     state: joshua_1
@@ -62,7 +62,7 @@
 - type: entity
   parent: N14FloraDesertCactus
   id: N14FloraTreeBald
-  name: entity-n14floratreebald-name
+  name: bald tree
   description: "What? Even trees go bald."
   components:
   - type: Sprite
@@ -82,8 +82,8 @@
 - type: entity
   parent: N14FloraTreeBald
   id: N14FloraTreePine
-  name: entity-n14floratreepine-name
-  description: entity-n14floratreepine-description
+  name: pine tree
+  description: It has an almost overwhelming scent.
   components:
   - type: Sprite
     layers:
@@ -98,8 +98,8 @@
 - type: entity
   parent: N14FloraTreeBald
   id: N14FloraTreeDead1
-  name: entity-n14floratreedead1-name
-  description: entity-n14floratreedead1-description
+  name: dead tree
+  description: A dead memory of a tree.
   components:
   - type: Sprite
     layers:

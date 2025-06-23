@@ -1,7 +1,7 @@
 - type: entity
   id: N14NoticeBoard2
-  name: entity-n14noticeboard2-name
-  description: entity-n14noticeboard2-description
+  name: notice board
+  description: Something important to post?
   placement:
     mode: SnapgridCenter
   components:

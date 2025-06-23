@@ -1,6 +1,6 @@
 ﻿- type: body
   id: Diona
-  name: body-diona-name
+  name: diona
   root: torso
   slots:
     head:

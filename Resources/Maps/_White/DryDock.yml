@@ -99415,7 +99415,7 @@ entities:
       setupAvailableNetworks:
       - SurveillanceCameraSecurity
       nameSet: True
-      id: Кабинет Надзирателя
+      id: Кабинет Смотрителя
 - proto: SurveillanceCameraService
   entities:
   - uid: 14239

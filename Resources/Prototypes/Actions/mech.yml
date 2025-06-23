@@ -1,7 +1,7 @@
 - type: entity
   id: ActionMechCycleEquipment
-  name: entity-actionmechcycleequipment-name
-  description: entity-actionmechcycleequipment-description
+  name: Cycle
+  description: Cycles currently selected equipment
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -14,8 +14,8 @@
 
 - type: entity
   id: ActionMechOpenUI
-  name: entity-actionmechopenui-name
-  description: entity-actionmechopenui-description
+  name: Control Panel
+  description: Opens the control panel for the mech
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -28,8 +28,8 @@
 
 - type: entity
   id: ActionMechEject
-  name: entity-actionmecheject-name
-  description: entity-actionmecheject-description
+  name: Eject
+  description: Ejects the pilot from the mech
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction

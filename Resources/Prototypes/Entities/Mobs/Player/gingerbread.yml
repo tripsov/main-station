@@ -1,6 +1,6 @@
 - type: entity
   save: false
-  name: entity-mobgingerbread-name
+  name: Urist McCookie
   parent: BaseMobGingerbread
   id: MobGingerbread
   components:

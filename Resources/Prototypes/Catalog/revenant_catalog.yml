@@ -1,7 +1,7 @@
 - type: listing
   id: RevenantDefile
-  name: listing-revenantdefile-name
-  description: listing-revenantdefile-description
+  name: Defile
+  description: Defiles the surrounding area, ripping up floors, damaging windows, opening containers, and throwing items. Using it leaves you vulnerable to attacks for a short period of time.
   productAction: ActionRevenantDefile
   cost:
     StolenEssence: 10
@@ -13,8 +13,8 @@
 
 - type: listing
   id: RevenantOverloadLights
-  name: listing-revenantoverloadlights-name
-  description: listing-revenantoverloadlights-description
+  name: Overload Lights
+  description: Overloads all nearby lights, causing lights to pulse and sending out dangerous lightning. Using it leaves you vulnerable to attacks for a long period of time.
   productAction: ActionRevenantOverloadLights
   cost:
     StolenEssence: 25
@@ -39,8 +39,8 @@
 
 - type: listing
   id: RevenantMalfunction
-  name: listing-revenantmalfunction-name
-  description: listing-revenantmalfunction-description
+  name: Malfunction
+  description: Makes nearby electronics stop working properly. Using it leaves you vulnerable to attacks for a long period of time.
   productAction: ActionRevenantMalfunction
   cost:
     StolenEssence: 125

@@ -1,7 +1,7 @@
 - type: entity
   id: GuidebookChangelingFluff
-  name: entity-guidebookchangelingfluff-name
-  description: entity-guidebookchangelingfluff-description
+  name: guidebook changeling
+  description: you shouldn't be seeing this normally.
   categories: [ HideSpawnMenu ]
   components:
     - type: Sprite

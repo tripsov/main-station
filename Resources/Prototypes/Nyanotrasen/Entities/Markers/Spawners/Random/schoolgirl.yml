@@ -1,5 +1,5 @@
 - type: entity
-  name: entity-schoolgirluniformspawner-name
+  name: Schoolgirl Uniform Spawner
   id: SchoolgirlUniformSpawner
   parent: MarkerBase
   components:

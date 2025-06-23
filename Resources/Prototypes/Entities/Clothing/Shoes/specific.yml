@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesChef
-  name: entity-clothingshoeschef-name
-  description: entity-clothingshoeschef-description
+  name: chef shoes
+  description: Sturdy shoes that minimize injury from falling objects or knives.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Specific/chef.rsi
@@ -31,7 +31,7 @@
 - type: entity
   parent: ClothingShoesClownBase
   id: ClothingShoesClown
-  name: entity-clothingshoesclown-name
+  name: clown shoes
   description: "The prankster's standard-issue clowning shoes. Damn they're huge!"
   components:
   - type: Sprite
@@ -53,7 +53,7 @@
 - type: entity
   parent: ClothingShoesClown
   id: ClothingShoesClownBanana
-  name: entity-clothingshoesclownbanana-name
+  name: banana clown shoes
   description: "When humor and footwear combine into new levels of absurdity."
   components:
   - type: Sprite
@@ -73,8 +73,8 @@
 - type: entity
   parent: ClothingShoesClownBase
   id: ClothingShoesBling
-  name: entity-clothingshoesbling-name
-  description: entity-clothingshoesbling-description
+  name: bling clown shoes
+  description: Made of refined bananium and shined with the pulp of a fresh banana peel. These make a flashy statement.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Specific/bling.rsi
@@ -93,8 +93,8 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesCult
-  name: entity-clothingshoescult-name
-  description: entity-clothingshoescult-description
+  name: cult shoes
+  description: A pair of boots worn by the followers of Nar'Sie.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Specific/cult.rsi
@@ -104,8 +104,8 @@
 - type: entity
   parent: ClothingShoesBase
   id: ClothingShoesGaloshes
-  name: entity-clothingshoesgaloshes-name
-  description: entity-clothingshoesgaloshes-description
+  name: galoshes
+  description: Rubber boots.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Specific/galoshes.rsi
@@ -116,8 +116,8 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesSpaceNinja
-  name: entity-clothingshoesspaceninja-name
-  description: entity-clothingshoesspaceninja-description
+  name: space ninja shoes
+  description: A pair of nano-enhanced boots with built-in magnetic suction cups.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Specific/spaceninja.rsi
@@ -133,8 +133,8 @@
 - type: entity
   parent: ClothingShoesMilitaryBase
   id: ClothingShoesSwat
-  name: entity-clothingshoesswat-name
-  description: entity-clothingshoesswat-description
+  name: swat shoes
+  description: When you want to turn up the heat.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Specific/swat.rsi
@@ -146,8 +146,8 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesWizard
-  name: entity-clothingshoeswizard-name
-  description: entity-clothingshoeswizard-description
+  name: wizard shoes
+  description: A pair of magic shoes.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Specific/wizard.rsi
@@ -157,9 +157,9 @@
 - type: entity
   parent: ClothingShoesBase
   id: ClothingShoesChameleon
-  name: entity-clothingshoeschameleon-name
+  name: black shoes
   suffix: Chameleon
-  description: entity-clothingshoeschameleon-description
+  description: Stylish black shoes.
   components:
     - type: Tag
       tags: [] # ignore "WhitelistChameleon" tag
@@ -199,15 +199,15 @@
   id: ClothingShoesChameleonNoSlips
   name: black shoes #actual name and description in uplink_catalog.yml
   suffix: No-slip, Chameleon
-  description: entity-clothingshoeschameleon-description
+  description: Stylish black shoes.
   components:
   - type: NoSlip
 
 - type: entity
   parent: ClothingShoesClown
   id: ClothingShoesJester
-  name: entity-clothingshoesjester-name
-  description: entity-clothingshoesjester-description
+  name: jester shoes
+  description: A court jester's shoes, updated with modern squeaking technology.
   components:
     - type: Sprite
       sprite: Clothing/Shoes/Specific/jester.rsi
@@ -220,7 +220,7 @@
 - type: entity
   parent: ClothingShoesClown
   id: ClothingShoesCluwne
-  name: entity-clothingshoescluwne-name
+  name: cluwne shoes
   suffix: Unremoveable
   description: "Cursed pair of cluwne shoes."
   components:
@@ -233,7 +233,7 @@
 - type: entity
   parent: ClothingShoesClown
   id: ClothingShoesClownLarge
-  name: entity-clothingshoesclownlarge-name
+  name: large clown shoes
   description: "When you need to stand out in a room full of clowns!"
   components:
   - type: Sprite
@@ -257,7 +257,7 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesSkates
-  name: entity-clothingshoesskates-name
+  name: roller skates
   description: "Get your skates on!"
   components:
   - type: Sprite

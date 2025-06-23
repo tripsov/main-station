@@ -1,65 +1,65 @@
 ﻿- type: construction
-  name: construction-cyanlight-name
+  name: cyan light tube
   id: CyanLight
   graph: CyanLight
   startNode: start
   targetNode: icon
   category: construction-category-utilities
-  description: construction-cyanlight-description
+  description: A high powered light tube containing a cyan crystal
   icon: { sprite: Objects/Power/light_tube.rsi, state: normal }
   objectType: Item
 
 - type: construction
-  name: construction-bluelight-name
+  name: blue light tube
   id: BlueLight
   graph: BlueLight
   startNode: start
   targetNode: icon
   category: construction-category-utilities
-  description: construction-bluelight-description
+  description: A high powered light tube containing a blue crystal
   icon: { sprite: Objects/Power/light_tube.rsi, state: normal }
   objectType: Item
 
 - type: construction
-  name: construction-pinklight-name
+  name: pink light tube
   id: PinkLight
   graph: PinkLight
   startNode: start
   targetNode: icon
   category: construction-category-utilities
-  description: construction-pinklight-description
+  description: A high powered light tube containing a pink crystal
   icon: { sprite: Objects/Power/light_tube.rsi, state: normal }
   objectType: Item
 
 - type: construction
-  name: construction-orangelight-name
+  name: orange light tube
   id: OrangeLight
   graph: OrangeLight
   startNode: start
   targetNode: icon
   category: construction-category-utilities
-  description: construction-orangelight-description
+  description: A high powered light tube containing an orange crystal
   icon: { sprite: Objects/Power/light_tube.rsi, state: normal }
   objectType: Item
 
 - type: construction
-  name: construction-redlight-name
+  name: red light tube
   id: RedLight
   graph: RedLight
   startNode: start
   targetNode: icon
   category: construction-category-utilities
-  description: construction-redlight-description
+  description: A high powered light tube containing a red crystal
   icon: { sprite: Objects/Power/light_tube.rsi, state: normal }
   objectType: Item
 
 - type: construction
-  name: construction-greenlight-name
+  name: green light tube
   id: GreenLight
   graph: GreenLight
   startNode: start
   targetNode: icon
   category: construction-category-utilities
-  description: construction-greenlight-description
+  description: A high powered light tube containing a green crystal
   icon: { sprite: Objects/Power/light_tube.rsi, state: normal }
   objectType: Item

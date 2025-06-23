@@ -23,8 +23,8 @@
   id: RaiseGlimmerObjective
   parent: BaseTraitorObjective
   categories: [ HideSpawnMenu ]
-  name: entity-raiseglimmerobjective-name
-  description: entity-raiseglimmerobjective-description
+  name: Raise Glimmer.
+  description: Get the glimmer above the specified amount.
   components:
   - type: Objective
     title: objective-condition-glimmer-title # WWDP Localization

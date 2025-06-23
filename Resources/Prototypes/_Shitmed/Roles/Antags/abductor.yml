@@ -1,6 +1,6 @@
 - type: antag
   id: LoneAbductorAntag
-  name: antag-loneabductorantag-name
+  name: abductors-ghost-role-name
   antagonist: true
   objective: roles-antag-abductor-objective
 

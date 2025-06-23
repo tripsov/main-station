@@ -1,6 +1,6 @@
 - type: entity
   id: LockerBlueshieldOfficer
-  name: entity-lockerblueshieldofficer-name
+  name: blueshield officer locker
   parent: LockerBaseSecure
   components:
   - type: Appearance
@@ -15,9 +15,9 @@
 
 - type: entity
   id: LockerNanorep
-  name: entity-lockernanorep-name
+  name: corporate liaison locker
   parent: LockerBaseSecure
-  description: entity-lockernanorep-description
+  description: A locker filled with equipment for corporate liaisons, courtesy of NanoTrasen Central Command.
   components:
   - type: Appearance
   - type: Sprite
@@ -31,7 +31,7 @@
 
 - type: entity
   id: LockerMagistrate
-  name: entity-lockermagistrate-name
+  name: magistrate locker
   parent: LockerBaseSecure
   components:
   - type: Appearance

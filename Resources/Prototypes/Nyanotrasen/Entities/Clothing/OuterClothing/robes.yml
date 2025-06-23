@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterRobeBrown
-  name: entity-clothingouterrobebrown-name
-  description: entity-clothingouterrobebrown-description
+  name: brown robe
+  description: This doesn't look creepy at all.
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/OuterClothing/Robes/brown.rsi
@@ -14,8 +14,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterRobeTechPriest
-  name: entity-clothingouterrobetechpriest-name
-  description: entity-clothingouterrobetechpriest-description
+  name: automaturge robe
+  description: Robots are basically bulls when you think about it, so best to wear red.
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/OuterClothing/Robes/techpriest.rsi

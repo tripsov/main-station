@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseHandheldInstrument
   id: Rickenbacker4003Instrument
-  name: entity-rickenbacker4003instrument-name
-  description: entity-rickenbacker4003instrument-description
+  name: Rickenbacker
+  description: Just a regular bass guitar.
   components:
   - type: Instrument
     program: 33
@@ -35,9 +35,9 @@
 - type: entity
   parent: Rickenbacker4003Instrument
   id: Rickenbacker4001Instrument
-  name: entity-rickenbacker4003instrument-name
+  name: Rickenbacker
   suffix: Antag
-  description: entity-rickenbacker4001instrument-description
+  description: It's the climax!
   components:
   - type: MeleeWeapon
     soundHit:

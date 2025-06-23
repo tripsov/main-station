@@ -4,7 +4,7 @@
   id: DelayedSmoke
   parent: BaseItem
   categories: [ HideSpawnMenu ]
-  name: entity-delayedsmoke-name
+  name: delayed smoke
   suffix: "(10s)"
   components:
   - type: Sprite #DeltaV: Apparently these want sprites, probably because they're baseitems
@@ -28,7 +28,7 @@
   id: DelayedEMP
   parent: BaseItem
   categories: [ HideSpawnMenu ]
-  name: entity-delayedemp-name
+  name: delayed EMP (7 meters)
   components:
   - type: Sprite #DeltaV: Apparently these want sprites, probably because they're baseitems
     sprite: /Textures/Objects/Fun/goldbikehorn.rsi
@@ -42,7 +42,7 @@
 - type: entity
   id: SyringeCognizine
   parent: Syringe
-  name: entity-syringecognizine-name
+  name: cognizine syringe
   components:
   - type: SolutionContainerManager
     solutions:
@@ -55,7 +55,7 @@
 - type: entity
   id: SyringeOpporozidone
   parent: Syringe
-  name: entity-syringeopporozidone-name
+  name: opporozidone syringe
   components:
   - type: SolutionContainerManager
     solutions:
@@ -68,7 +68,7 @@
 - type: entity
   id: NecrosolChemistryBottle
   parent: BaseChemistryBottleFilled
-  name: entity-necrosolchemistrybottle-name
+  name: necrosol bottle
   components:
   - type: SolutionContainerManager
     solutions:
@@ -83,35 +83,35 @@
 - type: entity
   id: DrinkPremiumVodkaBottleFull
   parent: DrinkVodkaBottleFull
-  name: entity-drinkpremiumvodkabottlefull-name
-  description: entity-drinkpremiumvodkabottlefull-description
+  name: Moment of Clarity vodka bottle
+  description: When things get a bit hectic, all you need is a Moment of Clarity.
 
 - type: entity
   id: DrinkPremiumGinBottleFull
   parent: DrinkGinBottleFull
-  name: entity-drinkpremiumginbottlefull-name
-  description: entity-drinkpremiumginbottlefull-description
+  name: Harry's gin bottle
+  description: An interesting set of botanicals, for sure. Is that pumpkin?
 
 - type: entity
   id: DrinkPremiumTequilaBottleFull
   parent: DrinkTequilaBottleFull
-  name: entity-drinkpremiumtequilabottlefull-name
-  description: entity-drinkpremiumtequilabottlefull-description
+  name: Casa del Eorg tequila bottle
+  description: Save the best for last. Casa del Eorg, 100% agave.
 
 - type: entity
   id: DrinkPremiumWhiskeyBottleFull
   parent: DrinkWhiskeyBottleFull
-  name: entity-drinkpremiumwhiskeybottlefull-name
-  description: entity-drinkpremiumwhiskeybottlefull-description
+  name: Ol' Prowler 18 whiskey bottle
+  description: Surprisingly smooth, it has a nasty habit of sneaking up on you.
 
 - type: entity
   id: DrinkPremiumRumBottleFull
   parent: DrinkRumBottleFull
-  name: entity-drinkpremiumrumbottlefull-name
-  description: entity-drinkpremiumrumbottlefull-description
+  name: Redeemer's Bounty rum bottle
+  description: Well, you asked for it. Navy strength.
 
 - type: entity
   id: DrinkPremiumAbsintheBottleFull
   parent: DrinkAbsintheBottleFull
-  name: entity-drinkpremiumabsinthebottlefull-name
-  description: entity-drinkpremiumabsinthebottlefull-description
+  name: Bureaucracy's Kiss absinthe bottle
+  description: A refined taste that tends to linger.

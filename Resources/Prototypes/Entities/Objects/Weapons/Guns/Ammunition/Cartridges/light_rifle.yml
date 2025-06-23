@@ -1,6 +1,6 @@
 - type: entity
   id: BaseCartridgeLightRifle
-  name: entity-basecartridgelightrifle-name
+  name: cartridge (.30 rifle)
   parent: BaseCartridge
   abstract: true
   components:
@@ -20,7 +20,7 @@
 
 - type: entity
   id: CartridgeLightRifle
-  name: entity-basecartridgelightrifle-name
+  name: cartridge (.30 rifle)
   parent: BaseCartridgeLightRifle
   components:
   - type: CartridgeAmmo
@@ -28,7 +28,7 @@
 
 - type: entity
   id: CartridgeLightRiflePractice
-  name: entity-cartridgelightriflepractice-name
+  name: cartridge (.30 rifle practice)
   parent: BaseCartridgeLightRifle
   components:
   - type: CartridgeAmmo
@@ -43,7 +43,7 @@
 
 - type: entity
   id: CartridgeLightRifleIncendiary
-  name: entity-cartridgelightrifleincendiary-name
+  name: cartridge (.30 rifle incendiary)
   parent: BaseCartridgeLightRifle
   components:
   - type: CartridgeAmmo
@@ -58,7 +58,7 @@
 
 - type: entity
   id: CartridgeLightRifleUranium
-  name: entity-cartridgelightrifleuranium-name
+  name: cartridge (.30 rifle uranium)
   parent: BaseCartridgeLightRifle
   components:
   - type: CartridgeAmmo
@@ -73,7 +73,7 @@
 
 - type: entity
   id: CartridgeLightRifleShrapnel
-  name: entity-cartridgelightrifleshrapnel-name
+  name: cartridge (.30 rifle shrapnel)
   parent: BaseCartridgeLightRifle
   components:
   - type: CartridgeAmmo

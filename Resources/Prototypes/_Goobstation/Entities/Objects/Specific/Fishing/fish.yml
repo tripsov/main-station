@@ -2,8 +2,8 @@
   id: BaseFish
   parent: BaseItem
   abstract: true
-  name: entity-basefish-name
-  description: entity-basefish-description
+  name: fish
+  description: Water-born creature from the infinite sea... Or toilet.
   components:
   - type: Fish
     difficulty: 0.030
@@ -18,8 +18,8 @@
   id: BaseFishRare
   parent: BaseFish
   abstract: true
-  name: entity-basefishrare-name
-  description: entity-basefish-description
+  name: rare fish
+  description: Water-born creature from the infinite sea... Or toilet.
   components:
   - type: Fish
     difficulty: 0.040
@@ -30,8 +30,8 @@
   id: BaseFishLegendary
   parent: BaseFish
   abstract: true
-  name: entity-basefishlegendary-name
-  description: entity-basefish-description
+  name: legendary fish
+  description: Water-born creature from the infinite sea... Or toilet.
   components:
   - type: Fish
     difficulty: 0.050
@@ -41,8 +41,8 @@
 - type: entity
   id: FishAlien
   parent: BaseFishLegendary
-  name: entity-fishalien-name
-  description: entity-fishalien-description
+  name: alien fish
+  description: Looks pretty... Abductory.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -53,8 +53,8 @@
 - type: entity
   id: FishAngler
   parent: BaseFishLegendary
-  name: entity-fishangler-name
-  description: entity-fishangler-description
+  name: angler fish
+  description: Scariest thing in existence, after bingles.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -65,8 +65,8 @@
 - type: entity
   id: FishBass
   parent: BaseFishLegendary
-  name: entity-fishbass-name
-  description: entity-fishbass-description
+  name: bass fish
+  description: Probably the most normal fish in existence. Unless you use it as bass guitar.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -77,8 +77,8 @@
 - type: entity
   id: FishBingle
   parent: BaseFishLegendary
-  name: entity-fishbingle-name
-  description: entity-fishbingle-description
+  name: bingle fish
+  description: bingle
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -89,8 +89,8 @@
 - type: entity
   id: FishBlob
   parent: BaseFishLegendary
-  name: entity-fishblob-name
-  description: entity-fishblob-description
+  name: blob fish
+  description: Unfortuantly, this is not a 5th level bio-hazard threat.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -101,8 +101,8 @@
 - type: entity
   id: FishBlueFintuna
   parent: BaseFishLegendary
-  name: entity-fishbluefintuna-name
-  description: entity-fishbluefintuna-description
+  name: blue fintuna
+  description: It's looking straight to you...
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -113,8 +113,8 @@
 - type: entity
   id: FishBoyFisher
   parent: BaseFishLegendary
-  name: entity-fishboyfisher-name
-  description: entity-fishboyfisher-description
+  name: boy fisher
+  description: You like kissing fish, don't you?
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -125,8 +125,8 @@
 - type: entity
   id: FishCat
   parent: BaseFishLegendary
-  name: entity-fishcat-name
-  description: entity-fishcat-description
+  name: cat fish
+  description: Ironically this looks nothing like a cat. And it doesn't meow.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -137,8 +137,8 @@
 - type: entity
   id: FishTropicalClown
   parent: BaseFishLegendary
-  name: entity-fishtropicalclown-name
-  description: entity-fishtropicalclown-description
+  name: clown clown fish
+  description: That is almost certanly some kind of joke.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -149,8 +149,8 @@
 - type: entity
   id: FishNukeDisk
   parent: BaseFishLegendary
-  name: entity-fishnukedisk-name
-  description: entity-fishnukedisk-description
+  name: nuke disk fish
+  description: Erm, Actually, it's a bad idea trying to fit a fish inside a nuclear explosion device.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -161,7 +161,7 @@
 - type: entity
   id: FishGib
   parent: BaseFishLegendary
-  name: entity-fishgib-name
+  name: gib stick fish
   description: "My face when i open a present and get gibstick:"
   components:
   - type: Sprite
@@ -173,8 +173,8 @@
 - type: entity
   id: FishMutant
   parent: BaseFishLegendary
-  name: entity-fishmutant-name
-  description: entity-fishmutant-description
+  name: mutant fish
+  description: Anomalous fish that looks like it ate some nuclear waste.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -185,8 +185,8 @@
 - type: entity
   id: FishNuker
   parent: BaseFishLegendary
-  name: entity-fishnuker-name
-  description: entity-fishnuker-description
+  name: nuclear operative fish
+  description: Predator of the nuke disk fish.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -197,8 +197,8 @@
 - type: entity
   id: FishPuffer
   parent: BaseFishLegendary
-  name: entity-fishpuffer-name
-  description: entity-fishpuffer-description
+  name: puffer fish
+  description: It is poisonous... in many ways.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -209,8 +209,8 @@
 - type: entity
   id: FishSilver
   parent: BaseFishLegendary
-  name: entity-fishsilver-name
-  description: entity-fishsilver-description
+  name: silver fish
+  description: Actually contains silver.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -221,8 +221,8 @@
 - type: entity
   id: FishTropicalSun
   parent: BaseFishLegendary
-  name: entity-fishtropicalsun-name
-  description: entity-fishtropicalsun-description
+  name: tropical sun fish
+  description: It probably looked at the sun for too long...?
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -233,7 +233,7 @@
 - type: entity
   id: FishToxic
   parent: BaseFishLegendary
-  name: entity-fishtoxic-name
+  name: toxic waste fish
   description: "Looking at this fish, you understand how much it was a bad idea to allow nuclear waste to be dumped into rivers."
   components:
   - type: Sprite
@@ -245,8 +245,8 @@
 - type: entity
   id: FishTropical
   parent: BaseFishLegendary
-  name: entity-fishtropical-name
-  description: entity-fishtropical-description
+  name: clown fish
+  description: This fish is always searching for something... Or maybe someone?
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -257,8 +257,8 @@
 - type: entity
   id: FishIan
   parent: BaseFishLegendary
-  name: entity-fishian-name
-  description: entity-fishian-description
+  name: ian fish
+  description: Water-born ian from the sea.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -271,8 +271,8 @@
 - type: entity
   id: FishGuppy
   parent: BaseFish
-  name: entity-fishguppy-name
-  description: entity-fishguppy-description
+  name: guppy
+  description: A small, colorful freshwater fish popular in aquariums.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -283,8 +283,8 @@
 - type: entity
   id: FishGreenchromis
   parent: BaseFish
-  name: entity-fishgreenchromis-name
-  description: entity-fishgreenchromis-description
+  name: greenchromis
+  description: A vibrant green saltwater fish often found in coral reefs.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -295,8 +295,8 @@
 - type: entity
   id: FishCardinalfish
   parent: BaseFish
-  name: entity-fishcardinalfish-name
-  description: entity-fishcardinalfish-description
+  name: cardinal fish
+  description: A nocturnal fish with striking silver markings.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -307,8 +307,8 @@
 - type: entity
   id: FishCatfish2
   parent: BaseFish
-  name: entity-fishcat-name
-  description: entity-fishcatfish2-description
+  name: cat fish
+  description: A bottom-dwelling fish with distinctive whisker-like barbels.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -319,8 +319,8 @@
 - type: entity
   id: FishPlastetra
   parent: BaseFish
-  name: entity-fishplastetra-name
-  description: entity-fishplastetra-description
+  name: plastetra
+  description: A mysterious fish with a translucent, bioluminescent body.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -331,8 +331,8 @@
 - type: entity
   id: FishAngelfish
   parent: BaseFish
-  name: entity-fishangelfish-name
-  description: entity-fishangelfish-description
+  name: angel fish
+  description: A graceful fish with elongated fins and vertical stripes.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -343,8 +343,8 @@
 - type: entity
   id: FishClownfish
   parent: BaseFish
-  name: entity-fishtropical-name
-  description: entity-fishclownfish-description
+  name: clown fish
+  description: A bright orange fish known for its symbiotic relationship with anemones.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -355,8 +355,8 @@
 - type: entity
   id: FishHoloClownfish
   parent: BaseFish
-  name: entity-fishholoclownfish-name
-  description: entity-fishholoclownfish-description
+  name: holo clownfish
+  description: A shimmering variant of the clownfish.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -367,8 +367,8 @@
 - type: entity
   id: FishLanternfish
   parent: BaseFish
-  name: entity-fishlanternfish-name
-  description: entity-fishlanternfish-description
+  name: lantern fish
+  description: A deep-sea dweller with light-producing organs along its body.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -379,8 +379,8 @@
 - type: entity
   id: FishGoldfish
   parent: BaseFish
-  name: entity-fishgoldfish-name
-  description: entity-fishgoldfish-description
+  name: gold fish
+  description: A hardy freshwater fish with iconic golden scales.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -391,8 +391,8 @@
 - type: entity
   id: FishDwarfMoonfish
   parent: BaseFish
-  name: entity-fishdwarfmoonfish-name
-  description: entity-fishdwarfmoonfish-description
+  name: dwarf moonfish
+  description: A small, silvery fish that glows faintly under moonlight.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -403,8 +403,8 @@
 - type: entity
   id: FishTiziraMoonfish
   parent: BaseFish
-  name: entity-fishtiziramoonfish-name
-  description: entity-fishtiziramoonfish-description
+  name: tizira moonfish
+  description: An exotic moonfish with iridescent scales and lunar patterns.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -415,8 +415,8 @@
 - type: entity
   id: FishGunnerJellyfish
   parent: BaseFish
-  name: entity-fishgunnerjellyfish-name
-  description: entity-fishgunnerjellyfish-description
+  name: gunner jellyfish
+  description: A translucent jellyfish with trailing stinging tentacles.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -427,8 +427,8 @@
 - type: entity
   id: FishNeedlefish
   parent: BaseFish
-  name: entity-fishneedlefish-name
-  description: entity-fishneedlefish-description
+  name: needle fish
+  description: A slender fish with a long, needle-like snout.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -439,8 +439,8 @@
 - type: entity
   id: FishPufferfish2
   parent: BaseFish
-  name: entity-fishpuffer-name
-  description: entity-fishpufferfish2-description
+  name: puffer fish
+  description: A spiky fish capable of inflating itself when threatened.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -451,8 +451,8 @@
 - type: entity
   id: FishEmulsijack
   parent: BaseFish
-  name: entity-fishemulsijack-name
-  description: entity-fishemulsijack-description
+  name: emulsijack
+  description: A rare hybrid fish with a glossy, oil-like sheen.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -463,8 +463,8 @@
 - type: entity
   id: FishDonkfish
   parent: BaseFish
-  name: entity-fishdonkfish-name
-  description: entity-fishdonkfish-description
+  name: donk fish
+  description: A bulky fish with a comically large head and small fins.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -475,8 +475,8 @@
 - type: entity
   id: FishChrab
   parent: BaseFish
-  name: entity-fishchrab-name
-  description: entity-fishchrab-description
+  name: chrab
+  description: A crustacean-like fish with armored plates and claws.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -487,8 +487,8 @@
 - type: entity
   id: FishCrab
   parent: BaseFish
-  name: entity-fishcrab-name
-  description: entity-fishcrab-description
+  name: crab
+  description: A ten-legged crustacean often found near ocean floors.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -499,8 +499,8 @@
 - type: entity
   id: FishBonemass
   parent: BaseFish
-  name: entity-fishbonemass-name
-  description: entity-fishbonemass-description
+  name: bonemass
+  description: A skeletal fish with exposed calcified structures.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -515,8 +515,8 @@
 - type: entity
   id: FishSludgefish
   parent: BaseFish
-  name: entity-fishsludgefish-name
-  description: entity-fishsludgefish-description
+  name: sludge fish
+  description: A fish that looks as gross as the water it swims in.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -527,8 +527,8 @@
 - type: entity
   id: FishStarfish
   parent: BaseFish
-  name: entity-fishstarfish-name
-  description: entity-fishstarfish-description
+  name: starfish
+  description: A star-shaped marine creature with regenerative abilities.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -539,8 +539,8 @@
 - type: entity
   id: FishZipzap
   parent: BaseFish
-  name: entity-fishzipzap-name
-  description: entity-fishzipzap-description
+  name: zipzap
+  description: A hyperactive fish that emits small electrical sparks.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -551,8 +551,8 @@
 - type: entity
   id: FishArcticChar
   parent: BaseFish
-  name: entity-fisharcticchar-name
-  description: entity-fisharcticchar-description
+  name: arctic char
+  description: A cold-water fish with pinkish flesh and speckled skin.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -563,8 +563,8 @@
 - type: entity
   id: FishStingray
   parent: BaseFish
-  name: entity-fishstingray-name
-  description: entity-fishstingray-description
+  name: stingray
+  description: A flat-bodied fish with a venomous tail spine.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -575,8 +575,8 @@
 - type: entity
   id: FishSockeye
   parent: BaseFish
-  name: entity-fishsockeye-name
-  description: entity-fishsockeye-description
+  name: sockeye
+  description: A red-bodied salmon species prized for its rich flavor.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -587,8 +587,8 @@
 - type: entity
   id: FishBumpy
   parent: BaseFish
-  name: entity-fishbumpy-name
-  description: entity-fishbumpy-description
+  name: bumpy
+  description: A fish covered in wart-like protrusions for camouflage.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -599,8 +599,8 @@
 - type: entity
   id: FishSandSurfer
   parent: BaseFish
-  name: entity-fishsandsurfer-name
-  description: entity-fishsandsurfer-description
+  name: sand surfer
+  description: A flat fish that burrows and glides through sandy seabeds.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -611,8 +611,8 @@
 - type: entity
   id: FishThreeEyes
   parent: BaseFish
-  name: entity-fishthreeeyes-name
-  description: entity-fishthreeeyes-description
+  name: three eyes
+  description: A mutant fish with a third eye for enhanced perception.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -623,8 +623,8 @@
 - type: entity
   id: FishTadpole
   parent: BaseFish
-  name: entity-fishtadpole-name
-  description: entity-fishtadpole-description
+  name: tadpole
+  description: The larval stage of amphibians, often mistaken for small fish.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -635,8 +635,8 @@
 - type: entity
   id: FishSquid
   parent: BaseFish
-  name: entity-fishsquid-name
-  description: entity-fishsquid-description
+  name: squid
+  description: A fast-moving cephalopod with tentacles and ink-squirting abilities.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -647,8 +647,8 @@
 - type: entity
   id: FishPerch
   parent: BaseFish
-  name: entity-fishperch-name
-  description: entity-fishperch-description
+  name: perch
+  description: A spiny-finned freshwater fish with a distinctive striped pattern.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -659,8 +659,8 @@
 - type: entity
   id: FishPlaice
   parent: BaseFish
-  name: entity-fishplaice-name
-  description: entity-fishplaice-description
+  name: plaice
+  description: A flatfish with both eyes on one side of its head.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -671,8 +671,8 @@
 - type: entity
   id: FishMonkfish
   parent: BaseFish
-  name: entity-fishmonkfish-name
-  description: entity-fishmonkfish-description
+  name: monk fish
+  description: A deep-sea predator with a large mouth and camouflaged body.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -683,8 +683,8 @@
 - type: entity
   id: FishBabyCarp
   parent: BaseFish
-  name: entity-fishbabycarp-name
-  description: entity-fishbabycarp-description
+  name: baby carp
+  description: A juvenile carp with delicate scales and rapid growth potential.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -695,8 +695,8 @@
 - type: entity
   id: FishFryish
   parent: BaseFish
-  name: entity-fishfryish-name
-  description: entity-fishfryish-description
+  name: fryish
+  description: A tiny, underdeveloped fish often seen in shallow waters.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -707,8 +707,8 @@
 - type: entity
   id: FishFritterish
   parent: BaseFish
-  name: entity-fishfritterish-name
-  description: entity-fishfritterish-description
+  name: fritterish
+  description: A golden-brown fish resembling a crispy fried snack.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -719,8 +719,8 @@
 - type: entity
   id: FishBernardfish
   parent: BaseFish
-  name: entity-fishbernardfish-name
-  description: entity-fishbernardfish-description
+  name: bernard fish
+  description: A rotund fish with a jovial appearance and slow movements.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -731,8 +731,8 @@
 - type: entity
   id: FishMatthewfish
   parent: BaseFish
-  name: entity-fishmatthewfish-name
-  description: entity-fishmatthewfish-description
+  name: matthew fish
+  description: A sleek, silver fish with a pattern resembling cursive writing.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -743,8 +743,8 @@
 - type: entity
   id: FishSacabambaspis
   parent: BaseFish
-  name: entity-fishsacabambaspis-name
-  description: entity-fishsacabambaspis-description
+  name: sacabambaspis
+  description: An ancient armored fish with a shield-like head structure.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -755,8 +755,8 @@
 - type: entity
   id: FishLubefish
   parent: BaseFishRare
-  name: entity-fishlubefish-name
-  description: entity-fishlubefish-description
+  name: lube fish
+  description: Slippery little thing. Hard to catch, harder to hold.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -775,8 +775,8 @@
 - type: entity
   id: FishFirefish
   parent: BaseFishRare
-  name: entity-fishfirefish-name
-  description: entity-fishfirefish-description
+  name: fire fish
+  description: A blazing-red fish with scales that flicker like dancing flames.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -805,8 +805,8 @@
 - type: entity
   id: FishArmorfish
   parent: BaseFishRare
-  name: entity-fisharmorfish-name
-  description: entity-fisharmorfish-description
+  name: armor fish
+  description: A heavily plated fish with metallic scales that deflect predators.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -821,8 +821,8 @@
 - type: entity
   id: FishRatfish
   parent: BaseFishRare
-  name: entity-fishratfish-name
-  description: entity-fishratfish-description
+  name: rat fish
+  description: A nimble scavenger with sharp teeth and a hair-like fin ridge.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -837,8 +837,8 @@
 - type: entity
   id: FishArcticChrab
   parent: BaseFishRare
-  name: entity-fisharcticchrab-name
-  description: entity-fisharcticchrab-description
+  name: arctic chrab
+  description: A frost-resistant hybrid crustacean with ice-blue claws and antennae.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -867,8 +867,8 @@
 - type: entity
   id: FishHalfFish
   parent: BaseFishRare
-  name: entity-fishhalffish-name
-  description: entity-fishhalffish-description
+  name: half fish
+  description: A bizarre translucent fish that appears only half-materialized.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -885,8 +885,8 @@
 - type: entity
   id: FishSlimefish
   parent: BaseFishRare
-  name: entity-fishslimefish-name
-  description: entity-fishslimefish-description
+  name: slime fish
+  description: A slippery fish coated in bioluminescent goo for protection.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -901,8 +901,8 @@
 - type: entity
   id: FishSludgefishPurple
   parent: BaseFishRare
-  name: entity-fishsludgefishpurple-name
-  description: entity-fishsludgefishpurple-description
+  name: sludgefish purple
+  description: A slimy, pollution-adapted fish with a toxic purple hue.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -924,8 +924,8 @@
 - type: entity
   id: FishLavaLoop
   parent: BaseFishRare
-  name: entity-fishlavaloop-name
-  description: entity-fishlavaloop-description
+  name: lava loop
+  description: A molten-hot fish that swims in circular patterns near volcanic vents.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -947,8 +947,8 @@
 - type: entity
   id: FishPlasmaLoop
   parent: BaseFishRare
-  name: entity-fishplasmaloop-name
-  description: entity-fishplasmaloop-description
+  name: plasma loop
+  description: An energy-wreathed fish that glows with unstable plasma currents.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -963,8 +963,8 @@
 - type: entity
   id: FishCheckered
   parent: BaseFishLegendary
-  name: entity-fishcheckered-name
-  description: entity-fishcheckered-description
+  name: checkered
+  description: A legendary fish with a hypnotic chessboard pattern that confuses predators.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -975,8 +975,8 @@
 - type: entity
   id: FishJumpercable
   parent: BaseFishLegendary
-  name: entity-fishjumpercable-name
-  description: entity-fishjumpercable-description
+  name: jumpercable
+  description: A rare bioelectric fish that generates sparks between its metallic fins.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -987,8 +987,8 @@
 - type: entity
   id: FishSkinCrab
   parent: BaseFishLegendary
-  name: entity-fishskincrab-name
-  description: entity-fishskincrab-description
+  name: skin crab
+  description: A grotesque crustacean with translucent, flesh-like exoskeleton.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -999,8 +999,8 @@
 - type: entity
   id: FishSoulfish
   parent: BaseFishLegendary
-  name: entity-fishsoulfish-name
-  description: entity-fishsoulfish-description
+  name: soul fish
+  description: A spectral fish said to contain fragments of ancient marine spirits.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi

@@ -1,8 +1,8 @@
 <Document>
 
-# Химикаты для ботаники
+# Botanical Chemicals
 
-Эти химикаты используются ботаниками для ухода за растениями. Некоторые вещества способны изменять свойства растений, влияя на урожайность, качество и даже на генетические особенности.
+These chemicals are used by botanists. Some of the chemicals change the properties of the plants.
 
 <GuideReagentEmbed Reagent="Ammonia"/>
 <GuideReagentEmbed Reagent="Diethylamine"/>

@@ -1,9 +1,9 @@
 - type: entity
-  name: entity-foodcartbase-name
+  name: Food Cart
   id: FoodCartBase
   abstract: true
   parent: BaseStructureDynamic
-  description: entity-foodcartbase-description
+  description: A cart for food.
   components:
     - type: Sprite
       netsync: false
@@ -67,10 +67,10 @@
     #      startingItem: PowerCellMedium
 
 - type: entity
-  name: entity-foodcarthot-name
+  name: hot food cart
   id: FoodCartHot
   parent: FoodCartBase
-  description: entity-foodcarthot-description
+  description: Get out there and slang some dogs.
   components:
     - type: Sprite
       netSync: false
@@ -148,10 +148,10 @@
         ketchup_slot: !type:ContainerSlot {}
 
 - type: entity
-  name: entity-foodcartcold-name
+  name: cold food cart
   id: FoodCartCold
   parent: FoodCartBase
-  description: entity-foodcartcold-description
+  description: It's the Ice Cream Man! It's the Ice Cream Man!
   components:
     - type: Sprite
       netSync: false

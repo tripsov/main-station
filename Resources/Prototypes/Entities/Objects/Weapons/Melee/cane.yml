@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: Cane
-  name: entity-cane-name
-  description: entity-cane-description
+  name: cane
+  description: A wooden cane.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/cane.rsi
@@ -29,10 +29,10 @@
     delay: 1
 
 - type: entity
-  name: entity-caneblade-name
+  name: cane blade
   parent: BaseItem
   id: CaneBlade
-  description: entity-caneblade-description
+  description: A sharp blade with a cane shaped hilt.
   components:
   - type: Sharp
   - type: Sprite

@@ -1,8 +1,8 @@
 - type: entity
-  name: entity-weaponenergyrevolver-name
+  name: EG-4 energy revolver
   parent: BaseWeaponBatterySmall
   id: WeaponEnergyRevolver
-  description: entity-weaponenergyrevolver-description
+  description: A highly advanced energy revolver capable of firing both lethal and disabling bullets.
   components:
   - type: Item # wwdp
     heldPrefix: disabler
@@ -70,10 +70,10 @@
     autoRechargePauseTime: 5
 
 - type: entity
-  name: entity-weaponenergyrevolver-name
+  name: EG-4 energy revolver
   parent: WeaponEnergyRevolver
   id: WeaponEnergyRevolverSecurity
-  description: entity-weaponenergyrevolversecurity-description
+  description: A highly advanced energy revolver capable of firing both lethal and disabling bullets. The serial number on the handguard marks this gun as belonging to an NT Security Officer.
   suffix: Security Loadouts
   components:
   - type: GuideHelp

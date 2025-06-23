@@ -3,7 +3,7 @@
   id: WardrobeBase
   parent: ClosetSteelBase
   abstract: true
-  description: entity-wardrobebase-description
+  description: It's a storage unit for standard-issue Nanotrasen attire.
 
 # Colored
 
@@ -11,7 +11,7 @@
 - type: entity
   id: WardrobeBlue
   parent: WardrobeBase
-  name: entity-wardrobeblue-name
+  name: blue wardrobe
   description: "A wardrobe packed with stylish blue clothing."
   components:
   - type: Appearance
@@ -24,7 +24,7 @@
 - type: entity
   id: WardrobePink
   parent: WardrobeBase
-  name: entity-wardrobepink-name
+  name: pink wardrobe
   description: "A wardrobe packed with fabulous pink clothing."
   components:
   - type: Appearance
@@ -37,7 +37,7 @@
 - type: entity
   id: WardrobeBlack
   parent: WardrobeBase
-  name: entity-wardrobeblack-name
+  name: black wardrobe
   description: "A wardrobe packed with stylish black clothing."
   components:
   - type: Appearance
@@ -50,7 +50,7 @@
 - type: entity
   id: WardrobeGreen
   parent: WardrobeBase
-  name: entity-wardrobegreen-name
+  name: green wardrobe
   description: "A wardrobe packed with stylish green clothing."
   components:
   - type: Appearance
@@ -63,7 +63,7 @@
 - type: entity
   id: WardrobePrison
   parent: WardrobeBase
-  name: entity-wardrobeprison-name
+  name: prison wardrobe
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -75,7 +75,7 @@
 - type: entity
   id: WardrobeYellow
   parent: WardrobeBase
-  name: entity-wardrobeyellow-name
+  name: yellow wardrobe
   description: "A wardrobe packed with stylish yellow clothing."
   components:
   - type: Appearance
@@ -88,7 +88,7 @@
 - type: entity
   id: WardrobeWhite
   parent: WardrobeBase
-  name: entity-wardrobewhite-name
+  name: white wardrobe
   description: "A wardrobe packed with stylish white clothing."
   components:
   - type: Appearance
@@ -101,7 +101,7 @@
 - type: entity
   id: WardrobeGrey
   parent: WardrobeBase
-  name: entity-wardrobegrey-name
+  name: grey wardrobe
   description: "A wardrobe packed with a tide of grey clothing."
   components:
   - type: Appearance
@@ -114,7 +114,7 @@
 - type: entity
   id: WardrobeMixed
   parent: WardrobeBase
-  name: entity-wardrobemixed-name
+  name: mixed wardrobe
   description: "A wardrobe packed with a mix of colorful clothing."
   components:
   - type: Appearance
@@ -128,7 +128,7 @@
 - type: entity
   id: WardrobeSecurity
   parent: WardrobeBase
-  name: entity-wardrobesecurity-name
+  name: security wardrobe
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -139,7 +139,7 @@
 - type: entity
   id: WardrobeAtmospherics
   parent: WardrobeBase
-  name: entity-wardrobeatmospherics-name
+  name: atmospherics wardrobe
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -150,32 +150,32 @@
 - type: entity
   id: ClosetJanitor
   parent: WardrobeMixed
-  name: entity-closetjanitor-name
-  description: entity-closetjanitor-description
+  name: custodial closet
+  description: It's a storage unit for janitorial clothes and gear.
 
 - type: entity
   id: WardrobeFormal
   parent: WardrobeBlack
-  name: entity-wardrobeformal-name
-  description: entity-wardrobeformal-description
+  name: formal closet
+  description: It's a storage unit for formal clothing.
 
 - type: entity
   id: ClosetChef
   parent: WardrobeBlack
-  name: entity-closetchef-name
-  description: entity-closetchef-description
+  name: chef's closet
+  description: It's a storage unit for foodservice garments and mouse traps.
 
 - type: entity
   id: WardrobeChapel
   parent: WardrobeBlack
-  name: entity-wardrobechapel-name
-  description: entity-wardrobechapel-description
+  name: chaplain's wardrobe
+  description: It's a storage unit for Nanotrasen-approved religious attire.
 
 - type: entity
   id: ClosetLegal
   parent: WardrobeBlue
-  name: entity-closetlegal-name
-  description: entity-closetlegal-description
+  name: legal closet
+  description: It's a storage unit for courtroom apparel and items.
 
 - type: entity
   id: WardrobeCargo
@@ -185,38 +185,38 @@
 - type: entity
   id: WardrobeSalvage
   parent: WardrobeMixed
-  name: entity-wardrobesalvage-name
-  description: entity-wardrobesalvage-description
+  name: salvage wardrobe
+  description: Notably not salvaged.
 
 - type: entity
   id: WardrobeEngineering
   parent: WardrobeYellow
-  name: entity-wardrobeengineering-name
+  name: engineering wardrobe
 
 - type: entity
   id: WardrobeMedicalDoctor
   parent: WardrobeWhite
-  name: entity-wardrobemedicaldoctor-name
+  name: medical doctor's wardrobe
 
 - type: entity
   id: WardrobeRobotics
   parent: WardrobeBlack
-  name: entity-wardroberobotics-name
+  name: robotics wardrobe
 
 - type: entity
   id: WardrobeChemistry
   parent: WardrobeWhite
-  name: entity-wardrobechemistry-name
+  name: chemistry wardrobe
 
 - type: entity
   id: WardrobeGenetics
   parent: WardrobeWhite
-  name: entity-wardrobegenetics-name
+  name: genetics wardrobe
 
 - type: entity
   id: WardrobeVirology
   parent: WardrobeWhite
-  name: entity-wardrobevirology-name
+  name: virology wardrobe
 
 - type: entity
   id: WardrobeScience
@@ -226,4 +226,4 @@
 - type: entity
   id: WardrobeBotanist
   parent: WardrobeGreen
-  name: entity-wardrobebotanist-name
+  name: botanist wardrobe

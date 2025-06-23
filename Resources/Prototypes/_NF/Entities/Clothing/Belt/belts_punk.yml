@@ -2,8 +2,8 @@
 - type: entity
   parent: ClothingBeltStorageBase
   id: ClothingBeltPunkRandomized
-  name: entity-clothingbeltpunkrandomized-name
-  description: entity-clothingbeltpunkrandomized-description
+  name: punk belt
+  description: A webbing with functional pockets.
   suffix: Random visuals
   components:
   - type: Sprite

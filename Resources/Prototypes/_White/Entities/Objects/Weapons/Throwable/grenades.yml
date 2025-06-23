@@ -1,8 +1,8 @@
 - type: entity
   parent: GrenadeBase
   id: GrenadeBarrier
-  name: entity-grenadebarrier-name
-  description: entity-grenadebarrier-description
+  name: barrier grenade
+  description: Instant cover.
   components:
   - type: Sprite
     sprite: _White/Objects/Weapons/Grenades/barrier.rsi #WWDP edit

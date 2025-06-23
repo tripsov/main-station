@@ -1,8 +1,8 @@
 - type: entity
-  name: entity-pickaxe-name
+  name: pickaxe
   parent: BaseItem
   id: Pickaxe
-  description: entity-pickaxe-description
+  description: Notched to perfection, for jamming it into rocks.
   components:
   - type: Tag
     tags:
@@ -47,10 +47,10 @@
   - type: UseDelay
 
 - type: entity
-  name: entity-miningdrill-name
+  name: mining drill
   parent: BaseItem
   id: MiningDrill
-  description: entity-miningdrill-description
+  description: Powerful tool used to quickly drill through rocks.
   components:
   - type: Item
     size: Large # WWDP
@@ -86,10 +86,10 @@
     angle: 270
 
 - type: entity
-  name: entity-miningdrilldiamond-name
+  name: diamond tipped mining drill
   parent: MiningDrill
   id: MiningDrillDiamond
-  description: entity-miningdrilldiamond-description
+  description: A significantly more efficient mining drill tipped with diamond.
   components:
   - type: Sprite
     sprite: Objects/Tools/handdrilldiamond.rsi
@@ -116,8 +116,8 @@
   abstract: true
   parent: BaseItem
   id: BaseWeaponCrusher # Crusher? But I...
-  name: entity-baseweaponcrusher-name
-  description: entity-baseweaponcrusher-description
+  name: crusher
+  description: An early design of the proto-kinetic accelerator.
   components:
   - type: Sharp
   - type: UnpoweredFlashlight
@@ -193,8 +193,8 @@
 - type: entity
   parent: BaseWeaponCrusher
   id: WeaponCrusherDagger
-  name: entity-weaponcrusherdagger-name
-  description: entity-weaponcrusherdagger-description
+  name: crusher dagger
+  description: A scaled down version of a proto-kinetic crusher. Uses kinetic energy to vibrate the blade at high speeds.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/crusher_dagger.rsi
@@ -226,8 +226,8 @@
 - type: entity
   parent: WeaponCrusher
   id: WeaponCrusherGlaive
-  name: entity-weaponcrusherglaive-name
-  description: entity-weaponcrusherglaive-description
+  name: crusher glaive
+  description: An early design of the proto-kinetic accelerator, in glaive form.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/crusher_glaive.rsi

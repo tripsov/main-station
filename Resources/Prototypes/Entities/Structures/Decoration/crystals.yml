@@ -2,8 +2,8 @@
   id: CrystalGreen
   parent: BaseStructure
   suffix: green
-  name: entity-crystalgreen-name
-  description: entity-crystalgreen-description
+  name: crystal
+  description: A crystaline solid.
   components:
     - type: Sprite
       sprite: Structures/Decoration/crystal.rsi

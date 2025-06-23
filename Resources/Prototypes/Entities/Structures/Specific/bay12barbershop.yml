@@ -1,7 +1,7 @@
 - type: entity
   parent: SeatBase
   id: ChairBarber
-  name: entity-chairbarber-name
+  name: barbers chair
   components:
   - type: Transform
     anchored: true
@@ -16,8 +16,8 @@
 - type: entity
   parent: BaseSign
   id: BarberSignPole
-  name: entity-barbersignpole-name
-  description: entity-barbersignpole-description
+  name: barber pole
+  description: Hypnotic.
   components:
   - type: Sprite
     sprite: Structures/Specific/barbershop.rsi
@@ -27,8 +27,8 @@
 - type: entity
   parent: BarberSignPole
   id: BarberSignThesnip
-  name: entity-barbersignthesnip-name
-  description: entity-barbersignthesnip-description
+  name: the snip
+  description: Let's hope it's not a medical practice...
   components:
   - type: Sprite
     sprite: Structures/Specific/barbershop.rsi

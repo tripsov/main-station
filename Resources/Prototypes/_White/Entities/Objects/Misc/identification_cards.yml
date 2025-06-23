@@ -1,7 +1,7 @@
 - type: entity
   parent: IDCardStandard
   id: HoboIDCard
-  name: entity-hoboidcard-name
+  name: Hobo ID card
   components:
   - type: Sprite
     layers:
@@ -13,7 +13,7 @@
 - type: entity
   parent: IDCardStandard
   id: MaidIDCard
-  name: entity-maididcard-name
+  name: Maid ID card
   components:
   - type: Sprite
     layers:

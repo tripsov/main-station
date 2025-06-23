@@ -1,8 +1,8 @@
 - type: entity
-  name: entity-baseweaponheavymachinegun-name
+  name: BaseWeaponHeavyMachineGun
   parent: BaseItem
   id: BaseWeaponHeavyMachineGun
-  description: entity-baseweaponheavymachinegun-description
+  description: Spray and pray
   abstract: true
   components:
   - type: Sprite
@@ -47,10 +47,10 @@
     staminaCost: 16
 
 - type: entity
-  name: entity-weaponminigun-name
+  name: minigun
   id: WeaponMinigun
   parent: BaseWeaponHeavyMachineGun
-  description: entity-weaponminigun-description
+  description: Vzzzzzt! Rahrahrahrah! Vrrrrr! Uses .10 rifle ammo.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/HMGs/minigun.rsi

@@ -1,6 +1,6 @@
 - type: job
   id: BlueshieldOfficer
-  name: job-blueshieldofficer-name
+  name: Blueshield Officer
   description: "Act as a bodyguard and advisor for Command and CentCom VIPs."
   playTimeTracker: JobBlueshieldOfficer
   setPreference: false # WWDP disabled

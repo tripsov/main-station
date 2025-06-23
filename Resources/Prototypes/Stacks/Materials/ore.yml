@@ -1,90 +1,90 @@
 - type: stack
   id: GoldOre
-  name: stack-goldore-name
+  name: gold ore
   icon: { sprite: /Textures/Objects/Materials/ore.rsi, state: gold }
   spawn: GoldOre1
   maxCount: 30
 
 - type: stack
   id: DiamondOre
-  name: stack-diamondore-name
+  name: rough diamond
   icon: { sprite: /Textures/Objects/Materials/ore.rsi, state: diamond }
   spawn: DiamondOre1
   maxCount: 30
 
 - type: stack
   id: SteelOre
-  name: stack-steelore-name
+  name: iron ore
   icon: { sprite: /Textures/Objects/Materials/ore.rsi, state: iron }
   spawn: SteelOre1
   maxCount: 30
 
 - type: stack
   id: PlasmaOre
-  name: stack-plasmaore-name
+  name: plasma ore
   icon: { sprite: /Textures/Objects/Materials/ore.rsi, state: plasma }
   spawn: PlasmaOre1
   maxCount: 30
 
 - type: stack
   id: SilverOre
-  name: stack-silverore-name
+  name: silver ore
   icon: { sprite: /Textures/Objects/Materials/ore.rsi, state: silver }
   spawn: SilverOre1
   maxCount: 30
 
 - type: stack
   id: SpaceQuartz
-  name: stack-spacequartz-name
+  name: space quartz
   icon: { sprite: /Textures/Objects/Materials/ore.rsi, state: spacequartz }
   spawn: SpaceQuartz1
   maxCount: 30
 
 - type: stack
   id: UraniumOre
-  name: stack-uraniumore-name
+  name: uranium ore
   icon: { sprite: /Textures/Objects/Materials/ore.rsi, state: uranium }
   spawn: UraniumOre1
   maxCount: 30
 
 - type: stack
   id: BananiumOre
-  name: stack-bananiumore-name
+  name: bananium ore
   icon: { sprite: /Textures/Objects/Materials/ore.rsi, state: bananium }
   spawn: BananiumOre1
   maxCount: 30
 
 - type: stack
   id: Coal
-  name: stack-coal-name
+  name: coal
   icon: { sprite: /Textures/Objects/Materials/ore.rsi, state: coal }
   spawn: Coal1
   maxCount: 30
 
 - type: stack
   id: SaltOre
-  name: stack-saltore-name
+  name: salt
   icon: { sprite: /Textures/Objects/Materials/ore.rsi, state: salt }
   spawn: Salt1
   maxCount: 30
 
 - type: stack
   id: BluespaceOre
-  name: stack-bluespaceore-name
+  name: raw bluespace
   icon: { sprite: Objects/Materials/ore.rsi, state: bluespace }
   spawn: BluespaceOre1
   maxCount: 30
 
 - type: stack
   id: NormalityOre
-  name: stack-normalityore-name
+  name: raw normality
   icon: { sprite: Objects/Materials/ore.rsi, state: normality }
   spawn: NormalityOre1
   maxCount: 30
 
 - type: stack
   id: TungstenOre
-  name: stack-tungstenore-name
+  name: raw wolframite
   icon: { sprite: Objects/Materials/ore.rsi, state: tungsten }
   spawn: TungstenOre1
   maxCount: 30

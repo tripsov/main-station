@@ -1,8 +1,8 @@
 - type: entity
-  name: entity-spear-name
+  name: spear
   parent: BaseItem
   id: Spear
-  description: entity-spear-description
+  description: Definition of a Classic. Keeping murder affordable since 200,000 BCE.
   components:
   - type: EmbeddableProjectile
     offset: 0.15,0.15
@@ -120,10 +120,10 @@
     fillBaseName: spear
 
 - type: entity
-  name: entity-spearreinforced-name
+  name: reinforced spear
   parent: Spear
   id: SpearReinforced
-  description: entity-spearreinforced-description
+  description: A spear with a reinforced glass shard as a tip.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/reinforced_spear.rsi
@@ -142,10 +142,10 @@
     graph: SpearReinforced
 
 - type: entity
-  name: entity-spearplasma-name
+  name: plasma spear
   parent: Spear
   id: SpearPlasma
-  description: entity-spearplasma-description
+  description: A spear with a plasma shard as a tip.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/plasma_spear.rsi
@@ -164,10 +164,10 @@
     graph: SpearPlasma
 
 - type: entity
-  name: entity-spearuranium-name
+  name: uranium spear
   parent: Spear
   id: SpearUranium
-  description: entity-spearuranium-description
+  description: A spear with a uranium shard as a tip.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/uranium_spear.rsi
@@ -187,10 +187,10 @@
     graph: SpearUranium
 
 - type: entity
-  name: entity-spearbone-name
+  name: bone spear
   parent: Spear
   id: SpearBone
-  description: entity-spearbone-description
+  description: A spear made of bones.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/bone_spear.rsi
@@ -198,10 +198,10 @@
     graph: SpearBone
 
 - type: entity
-  name: entity-salvageharpoon-name
+  name: salvage harpoon
   parent: BaseItem
   id: SalvageHarpoon
-  description: entity-salvageharpoon-description
+  description: A spear made of refined steel produced for salvage and hunting purposes. Hunters fancy it when it comes to hunting various carp species.
   components:
   - type: EmbeddableProjectile
     offset: 0.15,0.15

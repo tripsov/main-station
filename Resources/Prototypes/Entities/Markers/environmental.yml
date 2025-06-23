@@ -1,6 +1,6 @@
 # Radiation
 - type: entity
-  name: entity-markerradiation1-name
+  name: Marker Radiation
   id: MarkerRadiation1
   parent: MarkerBase
   suffix: intensity 1
@@ -58,7 +58,7 @@
     
 # Invisible Walls
 - type: entity
-  name: entity-markerblocker-name
+  name: Marker Blocker
   id: MarkerBlocker
   parent: MarkerBase
   suffix: invisible wall
@@ -90,7 +90,7 @@
 
 # Weather Blocker
 - type: entity
-  name: entity-markerweatherblocker-name
+  name: Marker Weather Blocker
   id: MarkerWeatherblocker
   parent: MarkerBase
   components:

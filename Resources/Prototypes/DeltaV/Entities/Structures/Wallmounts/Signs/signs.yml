@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseSignDirectional
   id: SignDirectionalLogistics
-  name: entity-signdirectionallogistics-name
-  description:  entity-signdirectionallogistics-description
+  name: logistics sign
+  description:  A direction sign, pointing out which way the Logistics department is.
   components:
   - type: Sprite
     sprite: DeltaV/Structures/Wallmounts/signs.rsi
@@ -11,8 +11,8 @@
 - type: entity
   parent: BaseSignDirectional
   id: SignDirectionalMail
-  name: entity-signdirectionalmail-name
-  description:  entity-signdirectionalmail-description
+  name: mailroom sign
+  description:  A direction sign, pointing out which way the mailroom is.
   components:
   - type: Sprite
     sprite: DeltaV/Structures/Wallmounts/signs.rsi
@@ -21,8 +21,8 @@
 - type: entity
   parent: BaseSignDirectional
   id: SignDirectionalJustice
-  name: entity-signdirectionaljustice-name
-  description:  entity-signdirectionaljustice-description
+  name: justice department sign
+  description:  A direction sign, pointing out which way the Justice department is.
   components:
   - type: Sprite
     sprite: DeltaV/Structures/Wallmounts/signs.rsi
@@ -31,8 +31,8 @@
 - type: entity
   parent: BaseSignDirectional
   id: SignDirectionaCourt
-  name: entity-signdirectionacourt-name
-  description:  entity-signdirectionacourt-description
+  name: court room sign
+  description:  A direction sign, pointing out which way the court room is.
   components:
   - type: Sprite
     sprite: DeltaV/Structures/Wallmounts/signs.rsi

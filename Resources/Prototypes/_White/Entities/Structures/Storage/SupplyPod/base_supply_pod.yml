@@ -3,8 +3,8 @@
   parent: BaseStructure
   id: BaseSupplyPod
   abstract: true
-  name: entity-basesupplypod-name
-  description: entity-basesupplypod-description
+  name: supply pod
+  description: It broke the goddamn floor... ugh...
   placement:
     mode: AlignTileAny
   components:

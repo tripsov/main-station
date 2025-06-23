@@ -1,5 +1,5 @@
 - type: entity
   save: false
-  name: entity-mobresomi-name
+  name: Urist McRaptor
   parent: BaseMobResomi
   id: MobResomi

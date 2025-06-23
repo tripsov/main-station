@@ -1,8 +1,8 @@
 - type: entity
   parent: [Clothing, ContentsExplosionResistanceBase]
   id: ClothingBackpack
-  name: entity-clothingbackpack-name
-  description: entity-clothingbackpack-description
+  name: backpack
+  description: You wear this on your back and put items into it.
   components:
   - type: Sprite
     sprite: Clothing/Back/Backpacks/backpack.rsi
@@ -49,8 +49,8 @@
 - type: entity
   parent: ClothingBackpack
   id: ClothingBackpackClown
-  name: entity-clothingbackpackclown-name
-  description: entity-clothingbackpackclown-description
+  name: giggles von honkerton
+  description: It's a backpack made by Honk! Co.
   components:
   - type: Sprite
     sprite: Clothing/Back/Backpacks/clown.rsi
@@ -61,8 +61,8 @@
 - type: entity
   parent: ClothingBackpack
   id: ClothingBackpackIan
-  name: entity-clothingbackpackian-name
-  description: entity-clothingbackpackian-description
+  name: Ian's backpack
+  description: Sometimes he wears it.
   components:
   - type: Sprite
     sprite: Clothing/Back/Backpacks/ian.rsi
@@ -73,8 +73,8 @@
 - type: entity
   parent: ClothingBackpackIan
   id: ClothingBackpackIanFilled
-  name: entity-clothingbackpackian-name
-  description: entity-clothingbackpackian-description
+  name: Ian's backpack
+  description: Sometimes he wears it.
   components:
   - type: StorageFill
     contents:
@@ -83,8 +83,8 @@
 - type: entity
   parent: ClothingBackpack
   id: ClothingBackpackSecurity
-  name: entity-clothingbackpacksecurity-name
-  description: entity-clothingbackpacksecurity-description
+  name: security backpack
+  description: It's a very robust backpack.
   components:
   - type: Sprite
     sprite: Clothing/Back/Backpacks/security.rsi
@@ -93,7 +93,7 @@
   parent: ClothingBackpack
   id: ClothingBackpackBrigmedic
   name: corpsman backpack # DeltaV - rename brig medic to corpsman
-  description: entity-clothingbackpackbrigmedic-description
+  description: It's a very sterile backpack.
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Back/Backpacks/brigmedic.rsi # DeltaV - resprite
@@ -101,8 +101,8 @@
 - type: entity
   parent: ClothingBackpack
   id: ClothingBackpackEngineering
-  name: entity-clothingbackpackengineering-name
-  description: entity-clothingbackpackengineering-description
+  name: engineering backpack
+  description: It's a tough backpack for the daily grind of station life.
   components:
   - type: Sprite
     sprite: Clothing/Back/Backpacks/engineering.rsi
@@ -110,8 +110,8 @@
 - type: entity
   parent: ClothingBackpack
   id: ClothingBackpackAtmospherics
-  name: entity-clothingbackpackatmospherics-name
-  description: entity-clothingbackpackatmospherics-description
+  name: atmospherics backpack
+  description: It's a backpack made of fire resistant fibers. Smells like plasma.
   components:
   - type: Sprite
     sprite: Clothing/Back/Backpacks/atmospherics.rsi
@@ -119,8 +119,8 @@
 - type: entity
   parent: ClothingBackpack
   id: ClothingBackpackMedical
-  name: entity-clothingbackpackmedical-name
-  description: entity-clothingbackpackmedical-description
+  name: medical backpack
+  description: It's a backpack especially designed for use in a sterile environment.
   components:
   - type: Sprite
     sprite: Clothing/Back/Backpacks/medical.rsi
@@ -128,8 +128,8 @@
 - type: entity
   parent: ClothingBackpack
   id: ClothingBackpackCaptain
-  name: entity-clothingbackpackcaptain-name
-  description: entity-clothingbackpackcaptain-description
+  name: captain's backpack
+  description: It's a special backpack made exclusively for Nanotrasen officers.
   components:
   - type: Sprite
     sprite: Clothing/Back/Backpacks/captain.rsi
@@ -137,8 +137,8 @@
 - type: entity
   parent: ClothingBackpack
   id: ClothingBackpackMime
-  name: entity-clothingbackpackmime-name
-  description: entity-clothingbackpackmime-description
+  name: mime backpack
+  description: A silent backpack made for those silent workers. Silence Co.
   components:
   - type: Sprite
     sprite: Clothing/Back/Backpacks/mime.rsi
@@ -146,8 +146,8 @@
 - type: entity
   parent: ClothingBackpack
   id: ClothingBackpackChemistry
-  name: entity-clothingbackpackchemistry-name
-  description: entity-clothingbackpackchemistry-description
+  name: chemistry backpack
+  description: A backpack specially designed to repel stains and hazardous liquids.
   components:
   - type: Sprite
     sprite: Clothing/Back/Backpacks/chemistry.rsi
@@ -155,8 +155,8 @@
 - type: entity
   parent: ClothingBackpack
   id: ClothingBackpackHydroponics
-  name: entity-clothingbackpackhydroponics-name
-  description: entity-clothingbackpackhydroponics-description
+  name: hydroponics backpack
+  description: It's a backpack made of all-natural fibers.
   components:
   - type: Sprite
     sprite: Clothing/Back/Backpacks/hydroponics.rsi
@@ -165,7 +165,7 @@
   parent: ClothingBackpack
   id: ClothingBackpackScience
   name: epistemics backpack # DeltaV - Epistemics Department replacing Science
-  description: entity-clothingbackpackchemistry-description
+  description: A backpack specially designed to repel stains and hazardous liquids.
   components:
   - type: Sprite
     sprite: Clothing/Back/Backpacks/science.rsi
@@ -173,8 +173,8 @@
 - type: entity
   parent: ClothingBackpack
   id: ClothingBackpackRobotics
-  name: entity-clothingbackpackrobotics-name
-  description: entity-clothingbackpackrobotics-description
+  name: robotics backpack
+  description: A sturdy backpack to store all the tools and parts.
   components:
   - type: Sprite
     sprite: Clothing/Back/Backpacks/robotics.rsi
@@ -182,8 +182,8 @@
 - type: entity
   parent: ClothingBackpack
   id: ClothingBackpackVirology
-  name: entity-clothingbackpackvirology-name
-  description: entity-clothingbackpackvirology-description
+  name: virology backpack
+  description: A backpack made of hypo-allergenic fibers. It's designed to help prevent the spread of disease. Smells like monkey.
   components:
   - type: Sprite
     sprite: Clothing/Back/Backpacks/virology.rsi
@@ -191,8 +191,8 @@
 - type: entity
   parent: ClothingBackpack
   id: ClothingBackpackGenetics
-  name: entity-clothingbackpackgenetics-name
-  description: entity-clothingbackpackgenetics-description
+  name: genetics backpack
+  description: A backpack designed to be super tough, just in case someone hulks out on you.
   components:
   - type: Sprite
     sprite: Clothing/Back/Backpacks/genetics.rsi
@@ -209,8 +209,8 @@
 - type: entity
   parent: ClothingBackpack
   id: ClothingBackpackSalvage
-  name: entity-clothingbackpacksalvage-name
-  description: entity-clothingbackpacksalvage-description
+  name: salvage bag
+  description: A robust backpack for stashing your loot.
   components:
     - type: Sprite
       sprite: Clothing/Back/Backpacks/salvage.rsi
@@ -218,8 +218,8 @@
 - type: entity
   parent: ClothingBackpack
   id: ClothingBackpackMerc
-  name: entity-clothingbackpackmerc-name
-  description: entity-clothingbackpackmerc-description
+  name: merc bag
+  description: A backpack that has been in many dangerous places, a reliable combat backpack.
   components:
     - type: Sprite
       sprite: Clothing/Back/Backpacks/merc.rsi
@@ -228,8 +228,8 @@
 - type: entity
   parent: ClothingBackpack
   id: ClothingBackpackERTLeader
-  name: entity-clothingbackpackertleader-name
-  description: entity-clothingbackpackertleader-description
+  name: ERT leader backpack
+  description: A spacious backpack with lots of pockets, worn by the Commander of an Emergency Response Team.
   components:
   - type: Sprite
     sprite: Clothing/Back/Backpacks/ertleader.rsi
@@ -240,8 +240,8 @@
 - type: entity
   parent: ClothingBackpackERTLeader
   id: ClothingBackpackERTSecurity
-  name: entity-clothingbackpackertsecurity-name
-  description: entity-clothingbackpackertsecurity-description
+  name: ERT security backpack
+  description: A spacious backpack with lots of pockets, worn by Security Officers of an Emergency Response Team.
   components:
   - type: Sprite
     sprite: Clothing/Back/Backpacks/ertsec.rsi
@@ -249,8 +249,8 @@
 - type: entity
   parent: ClothingBackpackERTLeader
   id: ClothingBackpackERTMedical
-  name: entity-clothingbackpackertmedical-name
-  description: entity-clothingbackpackertmedical-description
+  name: ERT medical backpack
+  description: A spacious backpack with lots of pockets, worn by Medical Officers of an Emergency Response Team.
   components:
   - type: Sprite
     sprite: Clothing/Back/Backpacks/ertmed.rsi
@@ -258,8 +258,8 @@
 - type: entity
   parent: ClothingBackpackERTLeader
   id: ClothingBackpackERTEngineer
-  name: entity-clothingbackpackertengineer-name
-  description: entity-clothingbackpackertengineer-description
+  name: ERT engineer backpack
+  description: A spacious backpack with lots of pockets, worn by Engineers of an Emergency Response Team.
   components:
   - type: Sprite
     sprite: Clothing/Back/Backpacks/erteng.rsi
@@ -267,8 +267,8 @@
 - type: entity
   parent: ClothingBackpackERTLeader
   id: ClothingBackpackERTJanitor
-  name: entity-clothingbackpackertjanitor-name
-  description: entity-clothingbackpackertjanitor-description
+  name: ERT janitor backpack
+  description: A spacious backpack with lots of pockets, worn by Janitors of an Emergency Response Team.
   components:
   - type: Sprite
     sprite: Clothing/Back/Backpacks/ertjanitor.rsi
@@ -276,8 +276,8 @@
 - type: entity
   parent: ClothingBackpackERTLeader
   id: ClothingBackpackERTClown
-  name: entity-clothingbackpackertclown-name
-  description: entity-clothingbackpackertclown-description
+  name: ERT clown backpack
+  description: A spacious backpack with lots of pockets, worn by Clowns of an Emergency Response Team.
   components:
   - type: Sprite
     sprite: Clothing/Back/Backpacks/ertclown.rsi
@@ -285,8 +285,8 @@
 - type: entity
   parent: ClothingBackpackERTLeader
   id: ClothingBackpackERTChaplain
-  name: entity-clothingbackpackertchaplain-name
-  description: entity-clothingbackpackertchaplain-description
+  name: ERT chaplain backpack
+  description: A spacious backpack with lots of pockets, worn by Chaplains of an Emergency Response Team.
   components:
   - type: Sprite
     sprite: Clothing/Back/Backpacks/ertchaplain.rsi
@@ -294,8 +294,8 @@
 - type: entity
   parent: ClothingBackpackERTSecurity
   id: ClothingBackpackDeathSquad
-  name: entity-clothingbackpackdeathsquad-name
-  description: entity-clothingbackpackdeathsquad-description
+  name: death squad backpack
+  description: Holds the kit of CentComm's most feared agents.
   components:
     - type: Storage
       grid:
@@ -305,7 +305,7 @@
 - type: entity
   parent: ClothingBackpack
   id: ClothingBackpackSyndicate
-  name: entity-clothingbackpacksyndicate-name
+  name: syndicate backpack
   description:
   components:
   - type: Sprite
@@ -317,8 +317,8 @@
 - type: entity
   parent: ClothingBackpack
   id: ClothingBackpackHolding
-  name: entity-clothingbackpackholding-name
-  description: entity-clothingbackpackholding-description
+  name: bag of holding
+  description: A backpack that opens into a localized pocket of bluespace.
   components:
   - type: Sprite
     sprite: Clothing/Back/Backpacks/holding.rsi
@@ -339,9 +339,9 @@
 - type: entity
   parent: ClothingBackpackClown
   id: ClothingBackpackCluwne
-  name: entity-clothingbackpackcluwne-name
+  name: jiggles von jonkerton
   suffix: Unremoveable
-  description: entity-clothingbackpackcluwne-description
+  description: It's a backpack made by Jonk! Co.
   components:
   - type: Sprite
     sprite: Clothing/Back/Backpacks/cluwne.rsi
@@ -352,8 +352,8 @@
 - type: entity
   parent: ClothingBackpack
   id: ClothingBackpackDebug
-  name: entity-clothingbackpackdebug-name
-  description: entity-clothingbackpackdebug-description
+  name: wackpack
+  description: What the fuck is this?
   suffix: Debug
   components:
   - type: Storage
@@ -368,8 +368,8 @@
 - type: entity
   parent: ClothingBackpack
   id: ClothingBackpackDebug2
-  name: entity-clothingbackpackdebug2-name
-  description: entity-clothingbackpackdebug-description
+  name: big wackpack
+  description: What the fuck is this?
   suffix: Debug
   components:
   - type: Storage
@@ -379,8 +379,8 @@
 - type: entity
   parent: ClothingBackpack
   id: ClothingBackpackDebug3
-  name: entity-clothingbackpackdebug3-name
-  description: entity-clothingbackpackdebug-description
+  name: gay wackpack
+  description: What the fuck is this?
   suffix: Debug
   components:
   - type: Storage
@@ -400,8 +400,8 @@
 - type: entity
   parent: ClothingBackpack
   id: ClothingBackpackDebug4
-  name: entity-clothingbackpackdebug4-name
-  description: entity-clothingbackpackdebug-description
+  name: offset wackpack
+  description: What the fuck is this?
   suffix: Debug
   components:
   - type: Storage

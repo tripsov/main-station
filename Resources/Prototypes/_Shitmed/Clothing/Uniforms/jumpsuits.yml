@@ -1,7 +1,7 @@
 - type: entity
   parent: UnsensoredClothingUniformBase
   id: ClothingUniformJumpsuitAbductor
-  name: entity-clothinguniformjumpsuitabductor-name
+  name: abductor uniform
   components:
   - type: Sprite
     sprite: _Shitmed/Clothing/Uniforms/Jumpsuit/abductor.rsi

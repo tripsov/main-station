@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterOverCoatHobo
-  name: entity-clothingouterovercoathobo-name
-  description: entity-clothingouterovercoathobo-description
+  name: hobo's overcoat
+  description: The jacket has been through a lot, time has not been tolerant of it and has left its scars.
   components:
   - type: Sprite
     sprite: _White/Clothing/OuterClothing/Coats/jacket.rsi
@@ -22,8 +22,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatCaptain
-  name: entity-clothingoutercoatcaptain-name
-  description: entity-clothingoutercoatcaptain-description
+  name: captain jacket
+  description: Captain formal jacket, inlaid with gold.
   components:
   - type: Sprite
     sprite: _White/Clothing/OuterClothing/Coats/captain.rsi
@@ -40,8 +40,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterVestCoatHop
-  name: entity-clothingoutervestcoathop-name
-  description: entity-clothingoutervestcoathop-description
+  name: HoP's coat
+  description: This coat was specifically designed for head of personnel.
   components:
   - type: Sprite
     sprite: _White/Clothing/OuterClothing/Coats/hopcoat.rsi

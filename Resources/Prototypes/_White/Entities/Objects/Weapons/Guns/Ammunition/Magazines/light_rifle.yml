@@ -1,6 +1,6 @@
 ﻿- type: entity
   id: MagazineLightRifleAK220
-  name: entity-magazinelightrifleak220-name
+  name: increased magazine .30
   parent: MagazineLightRifle
   components:
   - type: BallisticAmmoProvider

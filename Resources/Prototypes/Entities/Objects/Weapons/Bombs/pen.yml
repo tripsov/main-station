@@ -1,8 +1,8 @@
 - type: entity
-  name: entity-penexploding-name
+  name: pen
   suffix: Exploding
   parent: PenEmbeddable
-  description: entity-penexploding-description
+  description: A dark ink pen.
   id: PenExploding
   components:
   - type: OnUseTimerTrigger
@@ -24,8 +24,8 @@
 - type: entity
   parent: BaseItem
   id: PenExplodingBox
-  name: entity-penexplodingbox-name
-  description: entity-penexplodingbox-description
+  name: exploding pen box
+  description: A small box containing an exploding pen. Packaging disintegrates when opened, leaving no evidence behind.
   components:
   - type: Item
     size: Tiny

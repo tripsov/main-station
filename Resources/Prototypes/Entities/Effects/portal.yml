@@ -1,8 +1,8 @@
 ﻿- type: entity
   id: BasePortal
   abstract: true
-  name: entity-baseportal-name
-  description: entity-baseportal-description
+  name: bluespace portal
+  description: Transports you to a linked destination!
   components:
   - type: Transform
     anchored: True
@@ -28,7 +28,7 @@
 - type: entity
   id: PortalRed
   parent: BasePortal
-  description: entity-portalred-description
+  description: This one looks more like a redspace portal.
   components:
   - type: Sprite
     layers:
@@ -103,8 +103,8 @@
 
 - type: entity
   id: ShadowPortal
-  name: entity-shadowportal-name
-  description: entity-shadowportal-description
+  name: shadow rift
+  description: Looks unstable.
   parent: [ BasePortal, BaseShadow ]
   components:
   - type: Portal
@@ -125,9 +125,9 @@
       path: /Audio/Ambience/anomaly_scary.ogg
 
 - type: entity
-  name: entity-shadowportaltemp-name
+  name: unstable shadow rift
   id: ShadowPortalTemp
-  description: entity-shadowportaltemp-description
+  description: Its already closing!
   parent: ShadowPortal
   components:
     - type: TimedDespawn

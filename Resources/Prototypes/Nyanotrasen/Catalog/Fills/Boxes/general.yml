@@ -1,8 +1,8 @@
 - type: entity
-  name: entity-boxcoloredlighttube-name
+  name: colored lighttube box
   parent: BoxCardboard
   id: BoxColoredLighttube
-  description: entity-boxcoloredlighttube-description
+  description: This box is shaped on the inside so that only light tubes and bulbs fit.
   components:
   - type: StorageFill
     contents:
@@ -25,10 +25,10 @@
       - LightBulb
 
 - type: entity
-  name: entity-boxmaintenancelightbulb-name
+  name: maintenance lightbulb box
   parent: BoxCardboard
   id: BoxMaintenanceLightbulb
-  description: entity-boxcoloredlighttube-description
+  description: This box is shaped on the inside so that only light tubes and bulbs fit.
   components:
   - type: StorageFill
     contents:
@@ -49,10 +49,10 @@
       - LightBulb
 
 - type: entity
-  name: entity-boxholywater-name
+  name: holy water kit
   parent: BoxCardboard
   id: BoxHolyWater
-  description: entity-boxholywater-description
+  description: This box is filled with everything you need to make homemade holy water. Water not included.
   components:
   - type: StorageFill
     contents:

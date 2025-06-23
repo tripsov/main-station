@@ -1,8 +1,8 @@
 - type: entity
   parent: ReagentPacketBase
   id: ReagentContainerSalt
-  name: entity-reagentcontainersalt-name
-  description: entity-reagentcontainersalt-description
+  name: salt container
+  description: A big container of salt. Good for cooking!
   components:
   - type: Sprite
     sprite: DeltaV/Objects/Consumable/Food/ingredients.rsi
@@ -22,8 +22,8 @@
 - type: entity
   parent: ReagentPacketBase
   id: ReagentContainerPepper
-  name: entity-reagentcontainerpepper-name
-  description: entity-reagentcontainerpepper-description
+  name: pepper container
+  description: A big container of pepper. Good for cooking!
   components:
   - type: Sprite
     sprite: DeltaV/Objects/Consumable/Food/ingredients.rsi
@@ -39,8 +39,8 @@
 - type: entity
   parent: ReagentPacketBase
   id: ReagentContainerChocolate
-  name: entity-reagentcontainerchocolate-name
-  description: entity-reagentcontainerchocolate-description
+  name: cocoa powder bag
+  description: A big bag of cocoa powder. Good for cooking!
   components:
   - type: Sprite
     sprite: DeltaV/Objects/Consumable/Food/ingredients.rsi

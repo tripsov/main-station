@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseLightning
   id: SupermatterLightning
-  name: entity-supermatterlightning-name
+  name: supermatter arc
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -32,7 +32,7 @@
 - type: entity
   parent: SupermatterLightning
   id: SupermatterLightningCharged
-  name: entity-supermatterlightningcharged-name
+  name: charged supermatter arc
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -58,7 +58,7 @@
 - type: entity
   parent: SupermatterLightningCharged
   id: SupermatterLightningSupercharged
-  name: entity-supermatterlightningsupercharged-name
+  name: supercharged supermatter arc
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

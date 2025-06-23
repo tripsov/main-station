@@ -1,8 +1,8 @@
 - type: entity
-  name: entity-weaponprotokineticshotgun-name
+  name: proto-kinetic shotgun
   id: WeaponProtoKineticShotgun
   parent: [WeaponProtoKineticAcceleratorBase, BaseGunWieldable] # WWDP
-  description: entity-weaponprotokineticshotgun-description
+  description: Fires a spread of low-damage kinetic bolts.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Basic/kinetic_accelerator.rsi
@@ -40,10 +40,10 @@
     - 0,0,7,0 # WWDP
 
 - type: entity
-  name: entity-weaponprotokineticrepeater-name
+  name: proto-kinetic repeater
   id: WeaponProtoKineticRepeater
   parent: [WeaponProtoKineticAcceleratorBase, BaseGunWieldable] # WWDP
-  description: entity-weaponprotokineticrepeater-description
+  description: Fires a barrage of kinetic bolts at a short range.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Basic/kinetic_accelerator.rsi
@@ -91,10 +91,10 @@
     - 0,0,5,1 # WWDP
 
 - type: entity
-  name: entity-weaponprotokineticpistol-name
+  name: proto-kinetic pistol
   id: WeaponProtoKineticPistol
   parent: [WeaponProtoKineticAcceleratorBase]
-  description: entity-weaponprotokineticpistol-description
+  description: Fires low-damage kinetic bolts, has a higher mod capacity.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Basic/kinetic_accelerator.rsi

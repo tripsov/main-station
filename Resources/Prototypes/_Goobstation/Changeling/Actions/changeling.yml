@@ -3,8 +3,8 @@
 # starting
 - type: entity
   id: ActionEvolutionMenu
-  name: entity-actionevolutionmenu-name
-  description: entity-actionevolutionmenu-description
+  name: Open evolution menu
+  description: Opens the evolution menu.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -19,8 +19,8 @@
 
 - type: entity
   id: ActionAbsorbDNA
-  name: entity-actionabsorbdna-name
-  description: entity-actionabsorbdna-description
+  name: Absorb DNA
+  description: Absorb the target's DNA, husking them in the process. Costs 25 chemicals.
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityTargetAction
@@ -41,8 +41,8 @@
 
 - type: entity
   id: ActionInfectTarget
-  name: entity-actioninfecttarget-name
-  description: entity-actioninfecttarget-description
+  name: Infect Target
+  description: Injects a Changeling parasite into the target, eventually converting them into a fellow Changeling. Requires them to be incapacitated. Costs 60 chemicals.
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityTargetAction
@@ -63,8 +63,8 @@
 
 - type: entity
   id: ActionStingExtractDNA
-  name: entity-actionstingextractdna-name
-  description: entity-actionstingextractdna-description
+  name: Extract DNA sting
+  description: Steal your target's genetic information. Costs 25 chemicals.
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityTargetAction
@@ -85,8 +85,8 @@
 
 - type: entity
   id: ActionChangelingTransformCycle
-  name: entity-actionchangelingtransformcycle-name
-  description: entity-actionchangelingtransformcycle-description
+  name: Cycle DNA
+  description: Cycle your available DNA.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -101,8 +101,8 @@
 
 - type: entity
   id: ActionChangelingTransform
-  name: entity-actionchangelingtransform-name
-  description: entity-actionchangelingtransform-description
+  name: Transform
+  description: Transform into another humanoid. Doesn't come with clothes. Costs 5 chemicals.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -119,8 +119,8 @@
 
 - type: entity
   id: ActionEnterStasis
-  name: entity-actionenterstasis-name
-  description: entity-actionenterstasis-description
+  name: Enter regenerative stasis
+  description: Fake your death and start regenerating. Drains all your chemicals. Consumes biomass.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -137,8 +137,8 @@
 
 - type: entity
   id: ActionExitStasis
-  name: entity-actionexitstasis-name
-  description: entity-actionexitstasis-description
+  name: Exit stasis
+  description: Rise from the dead with full health. Costs 60 chemicals.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -157,8 +157,8 @@
 # combat
 - type: entity
   id: ActionToggleArmblade
-  name: entity-actiontogglearmblade-name
-  description: entity-actiontogglearmblade-description
+  name: Toggle Arm Blade
+  description: Reform one of your arms into a strong blade, composed of bone and flesh. Retract on secondary use. Costs 15 chemicals.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -173,8 +173,8 @@
 
 - type: entity
   id: ActionToggleHammer
-  name: entity-actiontogglehammer-name
-  description: entity-actiontogglehammer-description
+  name: Toggle Arm Hammer
+  description: Reform one of your arms into a strong hammer, composed of bone and flesh. Retract on secondary use. Costs 15 chemicals.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -189,8 +189,8 @@
 
 - type: entity
   id: ActionToggleClaw
-  name: entity-actiontoggleclaw-name
-  description: entity-actiontoggleclaw-description
+  name: Toggle Arm Claw
+  description: Reform one of your arms into a strong claw, composed of bone and flesh. Retract on secondary use. Costs 15 chemicals.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -205,8 +205,8 @@
 
 - type: entity
   id: ActionToggleDartGun
-  name: entity-actiontoggledartgun-name
-  description: entity-actiontoggledartgun-description
+  name: Toggle Dart Gun
+  description: Reform one of your arms into a dart gun, composed of bone and flesh. Retract on secondary use. Costs 15 chemicals.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -221,8 +221,8 @@
 
 - type: entity
   id: ActionCreateBoneShard
-  name: entity-actioncreateboneshard-name
-  description: entity-actioncreateboneshard-description
+  name: Form Bone Shard
+  description: Break off shards of your bone and shape them into a throwing star. Costs 15 chemicals.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -237,8 +237,8 @@
 
 - type: entity
   id: ActionToggleChitinousArmor
-  name: entity-actiontogglechitinousarmor-name
-  description: entity-actiontogglechitinousarmor-description
+  name: Toggle Armor
+  description: Inflate your body into an all-consuming chitinous mass of armor. Costs 25 chemicals.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -253,8 +253,8 @@
 
 - type: entity
   id: ActionToggleOrganicShield
-  name: entity-actiontoggleorganicshield-name
-  description: entity-actiontoggleorganicshield-description
+  name: Form Shield
+  description: Reform one of your arms into a large, fleshy shield. Costs 20 chemicals.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -269,8 +269,8 @@
 
 - type: entity
   id: ActionShriekDissonant
-  name: entity-actionshriekdissonant-name
-  description: entity-actionshriekdissonant-description
+  name: Dissonant Shriek
+  description: Emit an EMP blast, with just your voice. Costs 30 chemicals.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -287,8 +287,8 @@
 
 - type: entity
   id: ActionShriekResonant
-  name: entity-actionshriekresonant-name
-  description: entity-actionshriekresonant-description
+  name: Resonant Shriek
+  description: Disorient people and break lights, with just your voice. Costs 30 chemicals.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -305,8 +305,8 @@
 
 - type: entity
   id: ActionToggleStrainedMuscles
-  name: entity-actiontogglestrainedmuscles-name
-  description: entity-actiontogglestrainedmuscles-description
+  name: Strain Muscles
+  description: Move at extremely fast speeds. Deals stamina damage.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -324,8 +324,8 @@
 # stings
 - type: entity
   id: ActionStingBlind
-  name: entity-actionstingblind-name
-  description: entity-actionstingblind-description
+  name: Blind Sting
+  description: Silently sting your target, blinding them for a short time and rendering them near sighted. Costs 25 chemicals.
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityTargetAction
@@ -349,8 +349,8 @@
 
 - type: entity
   id: ActionStingCryo
-  name: entity-actionstingcryo-name
-  description: entity-actionstingcryo-description
+  name: Cryogenic Sting
+  description: Silently sting your target, constantly slowing and freezing them. Costs 25 chemicals.
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityTargetAction
@@ -374,8 +374,8 @@
 
 - type: entity
   id: ActionStingLethargic
-  name: entity-actionstinglethargic-name
-  description: entity-actionstinglethargic-description
+  name: Lethargic Sting
+  description: Silently inject a cocktail of anesthetics into the target. Costs 25 chemicals.
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityTargetAction
@@ -399,8 +399,8 @@
 
 - type: entity
   id: ActionStingMute
-  name: entity-actionstingmute-name
-  description: entity-actionstingmute-description
+  name: Mute Sting
+  description: Silently sting your target, completely silencing them for a short time. Costs 25 chemicals.
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityTargetAction
@@ -424,8 +424,8 @@
 
 - type: entity
   id: ActionStingFakeArmblade
-  name: entity-actionstingfakearmblade-name
-  description: entity-actionstingfakearmblade-description
+  name: Fake Armblade Sting
+  description: Silently sting your target, making them grow a dull armblade for a short time. Costs 50 chemicals.
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityTargetAction
@@ -446,8 +446,8 @@
 
 - type: entity
   id: ActionStingTransform
-  name: entity-actionstingtransform-name
-  description: entity-actionstingtransform-description
+  name: Transformation Sting
+  description: Silently sting your target, transforming them into a person of your choosing. Costs 75 chemicals.
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityTargetAction
@@ -468,8 +468,8 @@
 
 - type: entity
   id: ActionLayEgg
-  name: entity-actionlayegg-name
-  description: entity-actionlayegg-description
+  name: Lay Egg
+  description: Plant an egg in a dead corpse which will mature into a new form for us.
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityTargetAction
@@ -490,8 +490,8 @@
 # utility
 - type: entity
   id: ActionAnatomicPanacea
-  name: entity-actionanatomicpanacea-name
-  description: entity-actionanatomicpanacea-description
+  name: Anatomic Panacea
+  description: Cure yourself of diseases, disabilities, radiation, toxins, drunkedness and brain damage. Costs 30 chemicals.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -509,8 +509,8 @@
 
 - type: entity
   id: ActionAugmentedEyesight
-  name: entity-actionaugmentedeyesight-name
-  description: entity-actionaugmentedeyesight-description
+  name: Augmented Eyesight
+  description: Toggle thermal vision.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -524,8 +524,8 @@
 
 - type: entity
   id: ActionBiodegrade
-  name: entity-actionbiodegrade-name
-  description: entity-actionbiodegrade-description
+  name: Biodegrade
+  description: Vomit a caustic substance onto any restraints, or someone's face. Costs 30 chemicals.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -542,8 +542,8 @@
 
 - type: entity
   id: ActionChameleonSkin
-  name: entity-actionchameleonskin-name
-  description: entity-actionchameleonskin-description
+  name: Chameleon Skin
+  description: Slowly blend in with the environment. Costs 25 chemicals.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -560,8 +560,8 @@
 
 - type: entity
   id: ActionEphedrineOverdose
-  name: entity-actionephedrineoverdose-name
-  description: entity-actionephedrineoverdose-description
+  name: Ephedrine Overdose
+  description: Inject some stimulants into yourself. Costs 30 chemicals.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -579,8 +579,8 @@
 
 - type: entity
   id: ActionFleshmend
-  name: entity-actionfleshmend-name
-  description: entity-actionfleshmend-description
+  name: Fleshmend
+  description: Rapidly heal yourself. Costs 35 chemicals.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -598,8 +598,8 @@
 
 - type: entity
   id: ActionLastResort
-  name: entity-actionlastresort-name
-  description: entity-actionlastresort-description
+  name: Last Resort
+  description: Abandon your current body and escape in the form of a headslug. Costs 20 chemicals.
   categories: [ HideSpawnMenu ]
   components:
   - type: ConfirmableAction
@@ -618,8 +618,8 @@
 
 - type: entity
   id: ActionToggleLesserForm
-  name: entity-actiontogglelesserform-name
-  description: entity-actiontogglelesserform-description
+  name: Lesser Form
+  description: Abandon your current form and transform into a monkey. Costs 20 chemicals.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -635,8 +635,8 @@
 
 - type: entity
   id: ActionToggleSpacesuit
-  name: entity-actiontogglespacesuit-name
-  description: entity-actiontogglespacesuit-description
+  name: Toggle Space Suit
+  description: Make your body space proof. Costs 20 chemicals.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -651,8 +651,8 @@
 
 - type: entity
   id: ActionHivemindAccess
-  name: entity-actionhivemindaccess-name
-  description: entity-actionhivemindaccess-description
+  name: Hivemind Access
+  description: Tune your chemical receptors for hivemind communication.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -669,8 +669,8 @@
 
 - type: entity
   id: ActionAbsorbBiomatter
-  name: entity-actionabsorbbiomatter-name
-  description: entity-actionabsorbbiomatter-description
+  name: Absorb Biomatter
+  description: Absorb a food item to regain some chemicals.
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityTargetAction

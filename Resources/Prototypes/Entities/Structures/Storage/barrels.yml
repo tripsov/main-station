@@ -3,8 +3,8 @@
 - type: entity
   parent: BaseStructureDynamic
   id: BaseBarrel
-  name: entity-basebarrel-name
-  description: entity-basebarrel-description
+  name: barrel
+  description: This barrel looks like it could contain something.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -73,8 +73,8 @@
 - type: entity
   parent: BaseBarrel
   id: BlackBarrel
-  name: entity-blackbarrel-name
-  description: entity-blackbarrel-description
+  name: black barrel
+  description: A worn out black barrel. The label is torn off.
   components:
   - type: Sprite
     sprite: Structures/Storage/barrels.rsi
@@ -83,8 +83,8 @@
 - type: entity
   parent: BaseBarrel
   id: BlueBarrel
-  name: entity-bluebarrel-name
-  description: entity-bluebarrel-description
+  name: blue barrel
+  description: A blue barrel with a warning sign of. Maybe it contains water?
   components:
   - type: Sprite
     sprite: Structures/Storage/barrels.rsi
@@ -93,8 +93,8 @@
 - type: entity
   parent: BaseBarrel
   id: RedBarrel
-  name: entity-redbarrel-name
-  description: entity-redbarrel-description
+  name: red barrel
+  description: A red barrel with an explosive warning sign on. Better be careful.
   components:
   - type: Sprite
     sprite: Structures/Storage/barrels.rsi
@@ -106,8 +106,8 @@
 - type: entity
   parent: BaseBarrel
   id: YellowBarrel
-  name: entity-yellowbarrel-name
-  description: entity-yellowbarrel-description
+  name: yellow barrel
+  description: A yellow barrel with a radiation warning sign on. Better be careful.
   components:
   - type: Sprite
     sprite: Structures/Storage/barrels.rsi
@@ -121,8 +121,8 @@
   parent: BaseBarrelOpen
   id: BlackBarrelOpen
   suffix: open
-  name: entity-blackbarrel-name
-  description: entity-blackbarrelopen-description
+  name: black barrel
+  description: A worn out black barrel. The label is torn off. The lid is off and you can see inside.
   components:
   - type: Sprite
     sprite: Structures/Storage/barrels.rsi
@@ -132,8 +132,8 @@
   parent: BaseBarrelOpen
   id: BlueBarrelOpen
   suffix: open
-  name: entity-bluebarrel-name
-  description: entity-bluebarrelopen-description
+  name: blue barrel
+  description: A blue barrel with a warning sign of. The lid is off and you can see inside.
   components:
   - type: Sprite
     sprite: Structures/Storage/barrels.rsi
@@ -143,8 +143,8 @@
   parent: BaseBarrelOpen
   id: RedBarrelOpen
   suffix: open
-  name: entity-redbarrel-name
-  description: entity-redbarrelopen-description
+  name: red barrel
+  description: A red barrel with an explosive warning sign on. The lid is off and you can see inside.
   components:
   - type: Sprite
     sprite: Structures/Storage/barrels.rsi
@@ -154,8 +154,8 @@
   parent: BaseBarrelOpen
   id: YellowBarrelOpen
   suffix: open
-  name: entity-yellowbarrel-name
-  description: entity-yellowbarrelopen-description
+  name: yellow barrel
+  description: A yellow barrel with a radiation warning sign on. The lid is off and you can see inside but it still makes you twitch.
   components:
   - type: Sprite
     sprite: Structures/Storage/barrels.rsi
@@ -169,7 +169,7 @@
   parent: BlackBarrelOpen
   id: BlackBarrelFull
   suffix: full
-  description: entity-blackbarrelfull-description
+  description: A worn out black barrel. This one looks full of some dark liquid.
   components:
   - type: Sprite
     sprite: Structures/Storage/barrels.rsi
@@ -180,7 +180,7 @@
   parent: RedBarrelOpen
   id: RedBarrelFull
   suffix: full
-  description: entity-redbarrelfull-description
+  description: A red barrel with an explosive warning sign on. It has a golden liquid inside.
   components:
   - type: Sprite
     sprite: Structures/Storage/barrels.rsi
@@ -204,7 +204,7 @@
   parent: YellowBarrelOpen
   id: YellowBarrelFull
   suffix: full
-  description: entity-yellowbarrelfull-description
+  description: A yellow barrel with a radiation warning sign on. You can see the glowing goo bubble.
   components:
   - type: Sprite
     sprite: Structures/Storage/barrels.rsi
@@ -237,8 +237,8 @@
 - type: entity
   parent: BaseStructureDynamic
   id: BurningBarrel
-  name: entity-burningbarrel-name
-  description: entity-burningbarrel-description
+  name: burnt barrel
+  description: This barrel looks like it once contained a fire.
   components:
   - type: Sprite
     sprite: Structures/Storage/burningbarrel.rsi
@@ -261,8 +261,8 @@
 - type: entity
   parent: BurningBarrel
   id: BurningBarrelLit
-  name: entity-burningbarrellit-name
-  description: entity-burningbarrellit-description
+  name: burning barrel
+  description: This barrel is smoldering. Toasty
   components:
   - type: Sprite
     sprite: Structures/Storage/burningbarrel.rsi

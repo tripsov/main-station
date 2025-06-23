@@ -1,10 +1,10 @@
 # TODO: Have a seperate lid state that can be popped on and off (not as a seperate item) that changes whether the vial can be spilled or not.
 
 - type: entity
-  name: entity-basechemistryemptyvial-name
+  name: vial
   parent: BaseItem
   id: BaseChemistryEmptyVial
-  description: entity-basechemistryemptyvial-description
+  description: A small vial.
   components:
   - type: Tag
     tags:
@@ -105,7 +105,7 @@
 
 - type: entity
   id: VestineChemistryVial
-  name: entity-vestinechemistryvial-name
+  name: vestine vial
   parent: BaseChemistryEmptyVial
   components:
     - type: SolutionContainerManager

@@ -3,8 +3,8 @@
   abstract: true
   id: BaseSubstation
   parent: [ BaseMachine, ConstructibleMachine ]
-  name: entity-basesubstation-name
-  description: entity-basesubstation-description
+  name: substation
+  description: Reduces the voltage of electricity put into it.
   placement:
     mode: SnapgridCenter
   components:
@@ -118,8 +118,8 @@
 - type: entity
   id: BaseSubstationWall
   categories: [ HideSpawnMenu ]
-  name: entity-basesubstationwall-name
-  description: entity-basesubstationwall-description
+  name: wallmount substation
+  description: A substation designed for compact shuttles and spaces.
   placement:
     mode: SnapgridCenter
   components:
@@ -261,8 +261,8 @@
 - type: entity
   id: BaseSubstationWallFrame
   categories: [ HideSpawnMenu ]
-  name: entity-basesubstationwallframe-name
-  description: entity-basesubstationwallframe-description
+  name: wallmount substation frame
+  description: A substation frame for construction
   placement:
     mode: SnapgridCenter
   components:

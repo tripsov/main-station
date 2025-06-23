@@ -2,7 +2,7 @@
   abstract: true
   id: DisposalUnitBase
   parent: BaseMachinePowered
-  description: entity-disposalunitbase-description
+  description: A pneumatic waste disposal unit.
   placement:
     mode: SnapgridCenter
     snap:
@@ -69,7 +69,7 @@
 - type: entity
   id: DisposalUnit
   parent: DisposalUnitBase
-  name: entity-disposalunit-name
+  name: disposal unit
   components:
   - type: Sprite
     sprite: Structures/Piping/disposal.rsi
@@ -97,8 +97,8 @@
 - type: entity
   id: MailingUnit
   parent: DisposalUnitBase
-  name: entity-mailingunit-name
-  description: entity-mailingunit-description
+  name: mailing unit
+  description: A pneumatic mail delivery unit.
   components:
   - type: Sprite
     sprite: Structures/Piping/disposal.rsi

@@ -1,5 +1,5 @@
 - type: entity
-  name: entity-rubberstamppsychologist-name
+  name: psychologist's rubber stamp
   parent: RubberStampBase
   id: RubberStampPsychologist
   suffix: DO NOT MAP
@@ -13,7 +13,7 @@
     state: stamp-psychologist
 
 - type: entity
-  name: entity-rubberstamplawyer-name
+  name: lawyer's rubber stamp
   parent: RubberStampBase
   id: RubberStampLawyer
   suffix: DO NOT MAP
@@ -27,10 +27,10 @@
     state: stamp-lawyer
 
 - type: entity
-  name: entity-rubberstampnotary-name
+  name: notary stamp
   parent: RubberStampBase
   id: RubberStampNotary
-  description: entity-rubberstampnotary-description
+  description: An old-fashioned seal for marking important documents, made of polished bronze.
   components:
   - type: Stamp
     stampedName: stamp-component-stamped-name-notary
@@ -43,7 +43,7 @@
     stealGroup: RubberStampNotary
 
 - type: entity
-  name: entity-rubberstampchiefjustice-name
+  name: chief justice stamp
   parent: RubberStampBase
   id: RubberStampChiefJustice
   components:
@@ -56,7 +56,7 @@
     state: stamp-cj
 
 - type: entity
-  name: entity-rubberstampadminassistant-name
+  name: administrative assistant rubber stamp
   parent: RubberStampBase
   id: RubberStampAdminAssistant
   suffix: DO NOT MAP
@@ -70,7 +70,7 @@
     state: stamp-admin-assistant
 
 - type: entity
-  name: entity-rubberstampcorporateliaison-name
+  name: Liaison's rubber stamp
   parent: RubberStampBase
   id: RubberStampCorporateLiaison
   suffix: DO NOT MAP

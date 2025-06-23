@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckTieRed
-  name: entity-clothingnecktiered-name
-  description: entity-clothingnecktiered-description
+  name: red-tie
+  description: A neosilk clip-on red tie.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Ties/redtie.rsi
@@ -17,8 +17,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckTieDet
-  name: entity-clothingnecktiedet-name
-  description: entity-clothingnecktiedet-description
+  name: detective's tie
+  description: A loosely tied necktie, a perfect accessory for the over-worked detective.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Ties/dettie.rsi
@@ -28,8 +28,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckTieSci
-  name: entity-clothingnecktiesci-name
-  description: entity-clothingnecktiesci-description
+  name: scientist's tie
+  description: Why do we all have to wear these ridiculous ties?
   components:
   - type: Sprite
     sprite: Clothing/Neck/Ties/scitie.rsi
@@ -44,8 +44,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckTieColor
-  name: entity-clothingnecktiecolor-name
-  description: entity-clothingnecktiecolor-description
+  name: tie
+  description: A neosilk clip-on tie.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Ties/color.rsi
@@ -60,8 +60,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckTieShort
-  name: entity-clothingnecktieshort-name
-  description: entity-clothingnecktieshort-description
+  name: short tie
+  description: A short tie, perfect for vests.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Ties/shorttie.rsi
@@ -71,8 +71,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckTieBow
-  name: entity-clothingnecktiebow-name
-  description: entity-clothingnecktiebow-description
+  name: neck bow
+  description: A bow for adorning the neck.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Ties/bow.rsi
@@ -82,8 +82,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckTieBowTie
-  name: entity-clothingnecktiebowtie-name
-  description: entity-clothingnecktiebowtie-description
+  name: bow tie
+  description: A bow tie. Snazzy!
   components:
   - type: Sprite
     sprite: Clothing/Neck/Ties/bowtie.rsi
@@ -93,8 +93,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckTieRibbon
-  name: entity-clothingnecktieribbon-name
-  description: entity-clothingnecktieribbon-description
+  name: neck ribbon
+  description: A ribbon for adorning the neck.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Ties/ribbon.rsi

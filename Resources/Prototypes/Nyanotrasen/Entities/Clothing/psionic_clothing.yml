@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesTelegnosisSpectacles
-  name: entity-clothingeyestelegnosisspectacles-name
-  description: entity-clothingeyestelegnosisspectacles-description
+  name: strange spectacles
+  description: A pair of spectacular and strange spectacles with lenses constructed of an unknown material.
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Glasses/glasses.rsi
@@ -18,8 +18,8 @@
 - type: entity
   id: BedsheetInvisibilityCloak
   parent: BedsheetBase
-  name: entity-bedsheetinvisibilitycloak-name
-  description: entity-bedsheetinvisibilitycloak-description
+  name: tattered bedsheet
+  description: A tattered bedsheet, It looks like its been through hell and back.
   components:
   - type: Sprite
     state: sheetblack
@@ -34,8 +34,8 @@
 - type: entity
   parent: ClothingHandsBase
   id: ClothingHandsDispelGloves
-  name: entity-clothinghandsdispelgloves-name
-  description: entity-clothinghandsdispelgloves-description
+  name: patchwork gloves
+  description: These leather gloves are heavily worn, however they have been repaired in several places.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/leather.rsi
@@ -56,8 +56,8 @@
 - type: entity
   parent: ClothingHandsBase
   id: ClothingHandsGlovesColorYellowUnsulated
-  name: entity-clothinghandsglovescoloryellowunsulated-name
-  description: entity-clothinghandsglovescoloryellowunsulated-description
+  name: unsulated gloves
+  description: Flimsy synthrubber work gloves styled in a drab yellow color. They are not electrically insulated, and provide no protection against any shocks.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/Color/yellow.rsi

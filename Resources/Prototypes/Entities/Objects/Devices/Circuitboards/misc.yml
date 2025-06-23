@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseElectronics
   id: StationMapCircuitboard
-  name: entity-stationmapcircuitboard-name
-  description: entity-stationmapcircuitboard-description
+  name: station map electronics
+  description: An electronics board used in station maps.
   components:
   - type: Item
     storedRotation: 0
@@ -18,8 +18,8 @@
 - type: entity
   parent: BaseElectronics
   id: DroneElectronics
-  name: entity-droneelectronics-name
-  description: entity-droneelectronics-description
+  name: drone electronics
+  description: An electronics board used in the manufacturing of drones.
   components:
   - type: Item
     storedRotation: 0

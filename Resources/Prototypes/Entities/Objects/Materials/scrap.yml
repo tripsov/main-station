@@ -2,8 +2,8 @@
   parent: BaseItem
   id: BaseScrap
   abstract: true
-  name: entity-basescrap-name
-  description: entity-basescrap-description
+  name: scrap
+  description: Worthless junk. You could probably get some materials out of it though.
   suffix: Scrap
   components:
   - type: Sprite
@@ -30,8 +30,8 @@
   parent: BaseStructure
   id: BaseScrapLarge
   abstract: true
-  name: entity-basescrap-name
-  description: entity-basescrap-description
+  name: scrap
+  description: Worthless junk. You could probably get some materials out of it though.
   suffix: Scrap
   components:
   - type: InteractionOutline
@@ -69,8 +69,8 @@
 - type: entity
   parent: BaseScrap
   id: ScrapSteel
-  name: entity-scrapsteel-name
-  description: entity-scrapsteel-description
+  name: blasted steel pile
+  description: An pile of steel welded together in extreme heat. It's of a decent size overall; you could probably get a fair amount of sheets out of it.
   components:
   - type: Sprite
     layers:
@@ -95,8 +95,8 @@
 - type: entity
   parent: BaseScrap
   id: ScrapGlass
-  name: entity-scrapglass-name
-  description: entity-scrapglass-description
+  name: scrap circuitry
+  description: A huge lump of various circuits, strangely fused together. You could likely extract some materials out of this.
   components:
   - type: Sprite
     layers:
@@ -124,8 +124,8 @@
 - type: entity
   parent: BaseScrap
   id: ScrapAirlock1
-  name: entity-scrapairlock1-name
-  description: entity-scrapairlock1-description
+  name: airlock door
+  description: This used to keep air in. Now it doesn't seem to be doing anything at all.
   components:
   - type: Sprite
     layers:
@@ -149,8 +149,8 @@
 - type: entity
   parent: BaseScrap
   id: ScrapAirlock2
-  name: entity-scrapairlock2-name
-  description: entity-scrapairlock2-description
+  name: airlock light
+  description: Serves it right for flashing red all those times.
   components:
   - type: Sprite
     layers:
@@ -167,8 +167,8 @@
 - type: entity
   parent: BaseScrap
   id: ScrapBucket
-  name: entity-scrapbucket-name
-  description: entity-scrapbucket-description
+  name: busted bucket
+  description: Dear god...
   components:
   - type: Sprite
     layers:
@@ -180,8 +180,8 @@
 - type: entity
   parent: BaseScrap
   id: ScrapCamera
-  name: entity-scrapcamera-name
-  description: entity-scrapcamera-description
+  name: broken camera
+  description: It might still be watching.
   components:
   - type: Sprite
     layers:
@@ -194,8 +194,8 @@
 - type: entity
   parent: BaseScrap
   id: ScrapCanister1
-  name: entity-scrapcanister1-name
-  description: entity-scrapcanister1-description
+  name: canister handle
+  description: Helpful for holding a canister. Now you just need the actual canister part.
   components:
   - type: Sprite
     layers:
@@ -207,8 +207,8 @@
 - type: entity
   parent: BaseScrap
   id: ScrapCanister2
-  name: entity-scrapcanister2-name
-  description: entity-scrapcanister2-description
+  name: canister valve
+  description: A valve from a gas canister.
   components:
   - type: Sprite
     layers:
@@ -222,8 +222,8 @@
 - type: entity
   parent: BaseScrap
   id: ScrapCloset
-  name: entity-scrapcloset-name
-  description: entity-scrapcloset-description
+  name: closet door
+  description: A blown off door from a maintenance closet. Looks like a nice piece of wall decor.
   components:
   - type: Sprite
     layers:
@@ -241,8 +241,8 @@
 - type: entity
   parent: BaseScrap
   id: ScrapFaxMachine
-  name: entity-scrapfaxmachine-name
-  description: entity-scrapfaxmachine-description
+  name: fax machine
+  description: The unfortunate result of one too many ASCII arts being sent to Central Command.
   components:
   - type: Sprite
     layers:
@@ -257,8 +257,8 @@
 - type: entity
   parent: BaseScrap
   id: ScrapFireExtinguisher
-  name: entity-scrapfireextinguisher-name
-  description: entity-scrapfireextinguisher-description
+  name: split fire extinguisher
+  description: The large gash down the center makes you worry for the previous user.
   components:
   - type: Sprite
     layers:
@@ -270,8 +270,8 @@
 - type: entity
   parent: BaseScrap
   id: ScrapFirelock1
-  name: entity-scrapfirelock1-name
-  description: entity-scrapfirelock1-description
+  name: firelock door
+  description: At least you still know what it's meant for.
   components:
   - type: Sprite
     layers:
@@ -289,8 +289,8 @@
 - type: entity
   parent: BaseScrap
   id: ScrapFirelock2
-  name: entity-scrapfirelock1-name
-  description: entity-scrapfirelock2-description
+  name: firelock door
+  description: OH! That's where the other half went!
   components:
   - type: Sprite
     layers:
@@ -308,7 +308,7 @@
 - type: entity
   parent: BaseScrap
   id: ScrapFirelock3
-  name: entity-scrapfirelock3-name
+  name: firelock frame
   components:
   - type: Sprite
     layers:
@@ -322,8 +322,8 @@
 - type: entity
   parent: BaseScrap
   id: ScrapIntercom
-  name: entity-scrapintercom-name
-  description: entity-scrapintercom-description
+  name: intercom scrap
+  description: You wish it at least came with some encryption keys.
   components:
   - type: Sprite
     layers:
@@ -344,8 +344,8 @@
 - type: entity
   parent: BaseScrap
   id: ScrapJetpack
-  name: entity-scrapjetpack-name
-  description: entity-scrapjetpack-description
+  name: busted jetpack
+  description: Looks like it won't be flying any more.
   components:
   - type: Sprite
     layers:
@@ -361,8 +361,8 @@
 - type: entity
   parent: BaseScrap
   id: ScrapMedkit
-  name: entity-scrapmedkit-name
-  description: entity-scrapmedkit-description
+  name: snapped medkit
+  description: Hopefully they got some use out of it.
   components:
   - type: Sprite
     layers:
@@ -382,8 +382,8 @@
 - type: entity
   parent: BaseScrap
   id: ScrapMopBucket
-  name: entity-scrapmopbucket-name
-  description: entity-scrapmopbucket-description
+  name: half a mop bucket
+  description: Tiders die. Janitors survive.
   components:
   - type: Sprite
     layers:
@@ -397,8 +397,8 @@
 - type: entity
   parent: BaseScrap
   id: ScrapPAI
-  name: entity-scrappai-name
-  description: entity-scrappai-description
+  name: personal ai device
+  description: A buddy! You still in there? Hello? Buddy???
   components:
   - type: Sprite
     layers:
@@ -413,8 +413,8 @@
 - type: entity
   parent: BaseScrap
   id: ScrapPAIGold
-  name: entity-scrappaigold-name
-  description: entity-scrappaigold-description
+  name: gilded personal ai device
+  description: Wow! What a one-in-a-million find! This would be worth a fortune... if it was in good condition.
   components:
   - type: Sprite
     layers:
@@ -429,8 +429,8 @@
 - type: entity
   parent: BaseScrap
   id: ScrapTube
-  name: entity-scraptube-name
-  description: entity-scraptube-description
+  name: shattered sample tube
+  description: A glass tube containing some kind of rare sample. Or at least, it used to contain it. Not much left in there now.
   components:
   - type: Sprite
     layers:
@@ -455,8 +455,8 @@
 - type: entity
   parent: BaseScrapLarge
   id: ScrapGeneratorPlasmaLeaking
-  name: entity-scrapgeneratorplasmaleaking-name
-  description: entity-scrapgeneratorplasmaleaking-description
+  name: leaking P.A.C.M.A.N. generator
+  description: An old looking P.A.C.M.A.N. generator whos plasma tanks started leaking.
   components:
   - type: Sprite
     sprite: Objects/Materials/Scrap/generator.rsi
@@ -473,8 +473,8 @@
 - type: entity
   parent: BaseScrapLarge
   id: ScrapGeneratorPlasma
-  name: entity-scrapgeneratorplasma-name
-  description: entity-scrapgeneratorplasma-description
+  name: old P.A.C.M.A.N. generator
+  description: An old looking P.A.C.M.A.N. generator. It's in very poor condition and non functional.
   components:
   - type: Sprite
     sprite: Objects/Materials/Scrap/generator.rsi
@@ -489,8 +489,8 @@
 - type: entity
   parent: BaseScrapLarge
   id: ScrapGeneratorUraniumLeaking
-  name: entity-scrapgeneratoruraniumleaking-name
-  description: entity-scrapgeneratoruraniumleaking-description
+  name: leaking S.U.P.E.R.P.A.C.M.A.N. generator
+  description: A S.U.P.E.R.P.A.C.M.A.N. generator that appears to have had some kind of catastrophic failure. Its leaking uranium.
   components:
   - type: Sprite
     sprite: Objects/Materials/Scrap/generator.rsi
@@ -518,8 +518,8 @@
 - type: entity
   parent: BaseScrapLarge
   id: ScrapGeneratorUranium
-  name: entity-scrapgeneratoruranium-name
-  description: entity-scrapgeneratoruranium-description
+  name: destroyed S.U.P.E.R.P.A.C.M.A.N. generator
+  description: A S.U.P.E.R.P.A.C.M.A.N. generator that appears to have had some kind of catastrophic failure.
   components:
   - type: Sprite
     sprite: Objects/Materials/Scrap/generator.rsi
@@ -542,8 +542,8 @@
 - type: entity
   parent: BaseScrapLarge
   id: ScrapGeneratorFrame
-  name: entity-scrapgeneratorframe-name
-  description: entity-scrapgeneratorframe-description
+  name: generator frame
+  description: A frame of a P.A.C.M.A.N. or S.U.P.E.R.P.A.C.M.A.N. type generator. Where is the rest of it?
   components:
   - type: Sprite
     sprite: Objects/Materials/Scrap/generator.rsi
@@ -556,8 +556,8 @@
 - type: entity
   parent: BaseScrap
   id: ScrapGeneratorFuelTank
-  name: entity-scrapgeneratorfueltank-name
-  description: entity-scrapgeneratorfueltank-description
+  name: fuel tank
+  description: A fuel tank from a S.U.P.E.R.P.A.C.M.A.N. type generator. The gauge indicates its got a little fuel left.
   components:
   - type: Sprite
     sprite: Objects/Materials/Scrap/generator.rsi

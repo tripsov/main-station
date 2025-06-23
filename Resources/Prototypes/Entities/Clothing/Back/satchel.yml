@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingBackpack
   id: ClothingBackpackSatchel
-  name: entity-clothingbackpacksatchel-name
-  description: entity-clothingbackpacksatchel-description
+  name: satchel
+  description: A trendy looking satchel.
   components:
   - type: Sprite
     sprite: Clothing/Back/Satchels/satchel.rsi
@@ -15,8 +15,8 @@
 - type: entity
   parent: ClothingBackpackSatchel
   id: ClothingBackpackSatchelLeather
-  name: entity-clothingbackpacksatchelleather-name
-  description: entity-clothingbackpacksatchelleather-description
+  name: leather satchel
+  description: A trend-setting satchel from a bygone era.
   components:
   - type: Sprite
     sprite: Clothing/Back/Satchels/leather.rsi
@@ -24,8 +24,8 @@
 - type: entity
   parent: ClothingBackpackSatchel
   id: ClothingBackpackSatchelEngineering
-  name: entity-clothingbackpacksatchelengineering-name
-  description: entity-clothingbackpacksatchelengineering-description
+  name: engineering satchel
+  description: A tough satchel with extra pockets.
   components:
   - type: Sprite
     sprite: Clothing/Back/Satchels/engineering.rsi
@@ -33,8 +33,8 @@
 - type: entity
   parent: ClothingBackpackSatchel
   id: ClothingBackpackSatchelAtmospherics
-  name: entity-clothingbackpacksatchelatmospherics-name
-  description: entity-clothingbackpacksatchelatmospherics-description
+  name: atmospherics satchel
+  description: A tough satchel made of fire resistant fibers. Smells like plasma.
   components:
   - type: Sprite
     sprite: Clothing/Back/Satchels/atmospherics.rsi
@@ -42,8 +42,8 @@
 - type: entity
   parent: ClothingBackpackSatchel
   id: ClothingBackpackSatchelClown
-  name: entity-clothingbackpacksatchelclown-name
-  description: entity-clothingbackpacksatchelclown-description
+  name: clown satchel
+  description: For fast running from security.
   components:
   - type: Sprite
     sprite: Clothing/Back/Satchels/clown.rsi
@@ -54,8 +54,8 @@
 - type: entity
   parent: ClothingBackpackSatchel
   id: ClothingBackpackSatchelMime
-  name: entity-clothingbackpacksatchelmime-name
-  description: entity-clothingbackpacksatchelmime-description
+  name: mime satchel
+  description: A satchel designed for the silent and expressive art of miming.
   components:
   - type: Sprite
     sprite: Clothing/Back/Satchels/mime.rsi
@@ -63,8 +63,8 @@
 - type: entity
   parent: ClothingBackpackSatchel
   id: ClothingBackpackSatchelMedical
-  name: entity-clothingbackpacksatchelmedical-name
-  description: entity-clothingbackpacksatchelmedical-description
+  name: medical satchel
+  description: A sterile satchel used in medical departments.
   components:
   - type: Sprite
     sprite: Clothing/Back/Satchels/medical.rsi
@@ -72,8 +72,8 @@
 - type: entity
   parent: ClothingBackpackSatchel
   id: ClothingBackpackSatchelChemistry
-  name: entity-clothingbackpacksatchelchemistry-name
-  description: entity-clothingbackpacksatchelchemistry-description
+  name: chemistry satchel
+  description: A sterile satchel with chemist colours.
   components:
   - type: Sprite
     sprite: Clothing/Back/Satchels/chemistry.rsi
@@ -81,8 +81,8 @@
 - type: entity
   parent: ClothingBackpackSatchel
   id: ClothingBackpackSatchelVirology
-  name: entity-clothingbackpacksatchelvirology-name
-  description: entity-clothingbackpacksatchelvirology-description
+  name: virology satchel
+  description: A satchel made of hypo-allergenic fibers. It's designed to help prevent the spread of disease. Smells like monkey.
   components:
   - type: Sprite
     sprite: Clothing/Back/Satchels/virology.rsi
@@ -90,8 +90,8 @@
 - type: entity
   parent: ClothingBackpackSatchel
   id: ClothingBackpackSatchelGenetics
-  name: entity-clothingbackpacksatchelgenetics-name
-  description: entity-clothingbackpacksatchelgenetics-description
+  name: genetics satchel
+  description: A sterile satchel with geneticist colours.
   components:
   - type: Sprite
     sprite: Clothing/Back/Satchels/genetics.rsi
@@ -100,7 +100,7 @@
   parent: ClothingBackpackSatchel
   id: ClothingBackpackSatchelScience
   name: epistemics satchel # DeltaV - Epistemics Department replacing Science
-  description: entity-clothingbackpacksatchelscience-description
+  description: Useful for holding research materials.
   components:
   - type: Sprite
     sprite: Clothing/Back/Satchels/science.rsi
@@ -108,8 +108,8 @@
 - type: entity
   parent: ClothingBackpackSatchel
   id: ClothingBackpackSatchelRobotics
-  name: entity-clothingbackpacksatchelrobotics-name
-  description: entity-clothingbackpacksatchelrobotics-description
+  name: robotics satchel
+  description: A sturdy satchel to store the various tools and duct tape.
   components:
   - type: Sprite
     sprite: Clothing/Back/Satchels/robotics.rsi
@@ -117,8 +117,8 @@
 - type: entity
   parent: ClothingBackpackSatchel
   id: ClothingBackpackSatchelSecurity
-  name: entity-clothingbackpacksatchelsecurity-name
-  description: entity-clothingbackpacksatchelsecurity-description
+  name: security satchel
+  description: A robust satchel for security related needs.
   components:
   - type: Sprite
     sprite: Clothing/Back/Satchels/security.rsi
@@ -127,7 +127,7 @@
   parent: ClothingBackpackSatchel
   id: ClothingBackpackSatchelBrigmedic
   name: corpsman satchel # DeltaV - rename brigmedic to corpsman
-  description: entity-clothingbackpacksatchelbrigmedic-description
+  description: A sterile satchel for medical related needs.
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Back/Satchels/brigmedic.rsi # DeltaV - resprite
@@ -135,8 +135,8 @@
 - type: entity
   parent: ClothingBackpackSatchel
   id: ClothingBackpackSatchelCaptain
-  name: entity-clothingbackpacksatchelcaptain-name
-  description: entity-clothingbackpacksatchelcaptain-description
+  name: captain's satchel
+  description: An exclusive satchel for Nanotrasen officers.
   components:
   - type: Sprite
     sprite: Clothing/Back/Satchels/captain.rsi
@@ -144,8 +144,8 @@
 - type: entity
   parent: ClothingBackpackSatchel
   id: ClothingBackpackSatchelHydroponics
-  name: entity-clothingbackpacksatchelhydroponics-name
-  description: entity-clothingbackpacksatchelhydroponics-description
+  name: hydroponics satchel
+  description: A satchel made of all natural fibers.
   components:
   - type: Sprite
     sprite: Clothing/Back/Satchels/hydroponics.rsi
@@ -162,8 +162,8 @@
 - type: entity
   parent: ClothingBackpackSatchel
   id: ClothingBackpackSatchelSalvage
-  name: entity-clothingbackpacksatchelsalvage-name
-  description: entity-clothingbackpacksatchelsalvage-description
+  name: salvage satchel
+  description: A robust satchel for stashing your loot.
   components:
     - type: Sprite
       sprite: Clothing/Back/Satchels/salvage.rsi
@@ -171,8 +171,8 @@
 - type: entity
   parent: ClothingBackpackSatchel
   id: ClothingBackpackSatchelHolding
-  name: entity-clothingbackpacksatchelholding-name
-  description: entity-clothingbackpacksatchelholding-description
+  name: satchel of holding
+  description: A satchel that opens into a localized pocket of bluespace.
   components:
   - type: Sprite
     sprite: Clothing/Back/Satchels/holding.rsi
@@ -191,8 +191,8 @@
 - type: entity
   parent: [ClothingBackpackSatchel, BaseFoldable]
   id: ClothingBackpackSatchelPurse
-  name: entity-clothingbackpacksatchelpurse-name
-  description: entity-clothingbackpacksatchelpurse-description
+  name: purse
+  description: A small, fashionable bag typically worn over the shoulder.
   components:
   - type: Sprite
     sprite: Clothing/Back/Satchels/purse.rsi

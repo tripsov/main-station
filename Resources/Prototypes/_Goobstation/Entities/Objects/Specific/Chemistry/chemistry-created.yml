@@ -1,7 +1,7 @@
 - type: entity
   parent: ShardCrystalRed
   id: ShardCrystalStyptic
-  name: entity-shardcrystalstyptic-name
+  name: styptic crystal shard
   components:
   - type: Extractable
     grindableSolutionName: crystal

@@ -1,6 +1,6 @@
 - type: entity
-  name: entity-handcuffs-name
-  description: entity-handcuffs-description
+  name: handcuffs
+  description: Used to detain criminals and other assholes.
   id: Handcuffs
   parent: BaseItem
   components:
@@ -31,8 +31,8 @@
     delay: 6
 
 - type: entity
-  name: entity-cablecuffs-name
-  description: entity-cablecuffs-description
+  name: makeshift handcuffs
+  description: Homemade handcuffs crafted from spare cables.
   id: Cablecuffs
   parent: Handcuffs
   components:
@@ -72,8 +72,8 @@
     color: forestgreen
 
 - type: entity
-  name: entity-zipties-name
-  description: entity-zipties-description
+  name: zipties
+  description: Tough single-use plastic zipties, ideal for restraining rowdy prisoners.
   id: Zipties
   parent: Handcuffs
   components:
@@ -116,8 +116,8 @@
       Plastic: 25
 
 - type: entity
-  name: entity-ziptiesbroken-name
-  description: entity-ziptiesbroken-description
+  name: broken zipties
+  description: These zipties look like they tried to manage the wrong cables.
   id: ZiptiesBroken
   parent: BaseHandcuffsBroken
   components:
@@ -126,8 +126,8 @@
     state: cuff-broken
 
 - type: entity
-  name: entity-cablecuffsbroken-name
-  description: entity-cablecuffsbroken-description
+  name: broken cables
+  description: These cables are broken in several places and don't seem very useful.
   id: CablecuffsBroken
   parent: BaseHandcuffsBroken
   components:
@@ -147,8 +147,8 @@
 - type: entity
   parent: Handcuffs
   id: ClothingOuterStraightjacket
-  name: entity-clothingouterstraightjacket-name
-  description: entity-clothingouterstraightjacket-description
+  name: straitjacket
+  description: Used to restrain those who may cause harm to themselves or others.
   components:
   - type: Item
     size: Normal

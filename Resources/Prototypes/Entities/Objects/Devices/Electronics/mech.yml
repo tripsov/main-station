@@ -3,8 +3,8 @@
 - type: entity
   id: RipleyCentralElectronics
   parent: BaseElectronics
-  name: entity-ripleycentralelectronics-name
-  description: entity-ripleycentralelectronics-description
+  name: ripley central control module
+  description: The electrical control center for the ripley mech.
   components:
     - type: Item
       storedRotation: 0
@@ -21,8 +21,8 @@
 - type: entity
   id: RipleyPeripheralsElectronics
   parent: BaseElectronics
-  name: entity-ripleyperipheralselectronics-name
-  description: entity-ripleyperipheralselectronics-description
+  name: ripley peripherals control module
+  description: The electrical peripherals control for the ripley mech.
   components:
     - type: Sprite
       sprite: Objects/Misc/module.rsi
@@ -39,8 +39,8 @@
 - type: entity
   id: HonkerCentralElectronics
   parent: BaseElectronics
-  name: entity-honkercentralelectronics-name
-  description: entity-honkercentralelectronics-description
+  name: H.O.N.K. central control module
+  description: The electrical control center for the H.O.N.K. mech.
   components:
     - type: Item
       storedRotation: 0
@@ -57,8 +57,8 @@
 - type: entity
   id: HonkerPeripheralsElectronics
   parent: BaseElectronics
-  name: entity-honkerperipheralselectronics-name
-  description: entity-honkerperipheralselectronics-description
+  name: H.O.N.K. peripherals control module
+  description: The electrical peripherals control for the H.O.N.K. mech.
   components:
     - type: Sprite
       sprite: Objects/Misc/module.rsi
@@ -73,8 +73,8 @@
 - type: entity
   id: HonkerTargetingElectronics
   parent: BaseElectronics
-  name: entity-honkertargetingelectronics-name
-  description: entity-honkertargetingelectronics-description
+  name: H.O.N.K. weapon control and targeting module
+  description: The electrical targeting control for the H.O.N.K. mech.
   components:
     - type: Sprite
       sprite: Objects/Misc/module.rsi
@@ -91,8 +91,8 @@
 - type: entity
   id: HamtrCentralElectronics
   parent: BaseElectronics
-  name: entity-hamtrcentralelectronics-name
-  description: entity-hamtrcentralelectronics-description
+  name: HAMTR central control module
+  description: The electrical control center for the HAMTR mech.
   components:
     - type: Item
       storedRotation: 0
@@ -109,8 +109,8 @@
 - type: entity
   id: HamtrPeripheralsElectronics
   parent: BaseElectronics
-  name: entity-hamtrperipheralselectronics-name
-  description: entity-hamtrperipheralselectronics-description
+  name: HAMTR peripherals control module
+  description: The electrical peripherals control for the HAMTR mech.
   components:
     - type: Sprite
       sprite: Objects/Misc/module.rsi

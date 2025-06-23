@@ -1,9 +1,9 @@
 ﻿# Tool closet
 - type: entity
   id: ClosetTool
-  name: entity-closettool-name
+  name: tool closet
   parent: ClosetSteelBase
-  description: entity-closettool-description
+  description: It's a storage unit for tools.
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -14,7 +14,7 @@
 # Radiation suit closet
 - type: entity
   id: ClosetRadiationSuit
-  name: entity-closetradiationsuit-name
+  name: radiation suit closet
   parent: ClosetSteelBase
   description: "More comfortable than radiation poisioning."
   components:
@@ -27,9 +27,9 @@
 # Emergency closet
 - type: entity
   id: ClosetEmergency
-  name: entity-closetemergency-name
+  name: emergency closet
   parent: ClosetSteelBase
-  description: entity-closetemergency-description
+  description: It's a storage unit for emergency breath masks and O2 tanks.
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -40,9 +40,9 @@
 # Emergency N2 closet
 - type: entity
   id: ClosetEmergencyN2
-  name: entity-closetemergencyn2-name
+  name: emergency nitrogen closet
   parent: ClosetSteelBase
-  description: entity-closetemergencyn2-description
+  description: It's full of life-saving equipment. Assuming, that is, that you breathe nitrogen.
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -53,9 +53,9 @@
 # Fire safety closet
 - type: entity
   id: ClosetFire
-  name: entity-closetfire-name
+  name: fire-safety closet
   parent: ClosetSteelBase
-  description: entity-closetfire-description
+  description: It's a storage unit for fire-fighting supplies.
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -66,9 +66,9 @@
 # EOD closet
 - type: entity
   id: ClosetBomb
-  name: entity-closetbomb-name
+  name: EOD closet
   parent: ClosetSteelBase
-  description: entity-closetbomb-description
+  description: It's a storage unit for explosion-protective suits.
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -79,9 +79,9 @@
 # Janitorial bomb suit closet
 - type: entity
   id: ClosetJanitorBomb
-  name: entity-closetjanitorbomb-name
+  name: janitorial bomb suit closet
   parent: ClosetSteelBase
-  description: entity-closetjanitorbomb-description
+  description: It's a storage unit for janitorial explosion-protective suits.
   suffix: DO NOT MAP
   components:
   - type: Appearance
@@ -96,8 +96,8 @@
 - type: entity
   id: ClosetL3
   parent: ClosetSteelBase
-  name: entity-closetl3-name
-  description: entity-closetl3-description
+  name: level 3 biohazard gear closet
+  description: It's a storage unit for level 3 biohazard gear.
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -141,9 +141,9 @@
 # Maintenance closet
 - type: entity
   id: ClosetMaintenance
-  name: entity-closetmaintenance-name
+  name: maintenance closet
   parent: ClosetSteelBase
-  description: entity-closetmaintenance-description
+  description: It's a storage unit.
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -153,9 +153,9 @@
 # Syndicate
 - type: entity
   id: LockerSyndicate
-  name: entity-lockersyndicate-name
+  name: armory closet
   parent: ClosetSteelBase
-  description: entity-closetmaintenance-description
+  description: It's a storage unit.
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -166,10 +166,10 @@
 # Bluespace closet
 - type: entity
   id: ClosetBluespace
-  name: entity-closetbluespace-name
+  name: suspicious closet
   suffix: Bluespace
   parent: ClosetMaintenance
-  description: entity-closetbluespace-description
+  description: It's a storage unit... right?
   components:
     - type: BluespaceLocker
       pickLinksFromSameMap: true
@@ -184,10 +184,10 @@
 # Unstable bluespace closet
 - type: entity
   id: ClosetBluespaceUnstable
-  name: entity-closetbluespace-name
+  name: suspicious closet
   suffix: Bluespace unstable
   parent: ClosetMaintenance
-  description: entity-closetbluespace-description
+  description: It's a storage unit... right?
   components:
     - type: BluespaceLocker
       pickLinksFromSameMap: true

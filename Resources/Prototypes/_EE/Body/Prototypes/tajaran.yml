@@ -1,6 +1,6 @@
 - type: body
   id: Tajaran
-  name: body-tajaran-name
+  name: tajaran
   root: torso
   slots:
     head:

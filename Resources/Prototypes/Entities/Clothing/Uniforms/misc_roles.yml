@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: UniformShortsRed
-  name: entity-uniformshortsred-name
-  description: entity-uniformshortsred-description
+  name: boxing shorts
+  description: These are shorts, not boxers.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Shorts/Color/red.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: UniformShortsRedWithTop
-  name: entity-uniformshortsredwithtop-name
-  description: entity-uniformshortsred-description
+  name: boxing shorts with top
+  description: These are shorts, not boxers.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Shorts/Color/red_female.rsi

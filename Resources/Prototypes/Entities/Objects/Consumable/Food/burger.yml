@@ -2,10 +2,10 @@
 # Bun
 
 - type: entity
-  name: entity-foodbreadbun-name
+  name: bun
   parent: FoodBreadSliceBase
   id: FoodBreadBun
-  description: entity-foodbreadbun-description
+  description: A hamburger bun. Round and convenient to hold.
   components:
   - type: Food
   - type: Sprite
@@ -30,7 +30,7 @@
 - type: entity
   id: FoodBreadBunBottom
   parent: FoodBreadSliceBase
-  name: entity-foodbreadbunbottom-name
+  name: bottom bun
   description: It's time to start building the burger tower. 
   components:
   - type: Item
@@ -65,8 +65,8 @@
 - type: entity
   id: FoodBreadBunTop
   parent: FoodBreadSliceBase
-  name: entity-foodbreadbuntop-name
-  description: entity-foodbreadbuntop-description
+  name: top bun
+  description: the perfect finish for your burger tower
   components:
   - type: Food
   - type: Sprite
@@ -114,10 +114,10 @@
 # Custom Burger Example
 
 - type: entity
-  name: entity-foodburgerjelly-name
+  name: jelly burger
   parent: FoodBurgerBase
   id: FoodBurgerJelly
-  description: entity-foodburgerjelly-description
+  description: Culinary delight..?
   components:
   - type: FlavorProfile
     flavors:
@@ -133,10 +133,10 @@
 # Burger
 
 - type: entity
-  name: entity-foodburgerappendix-name
+  name: appendix burger
   parent: FoodBurgerBase
   id: FoodBurgerAppendix
-  description: entity-foodburgerappendix-description
+  description: Tastes like appendicitis.
   components:
   - type: FlavorProfile
     flavors:
@@ -161,10 +161,10 @@
 # Tastes like bun, grass.
 
 - type: entity
-  name: entity-foodburgerbacon-name
+  name: bacon burger
   parent: FoodBurgerBase
   id: FoodBurgerBacon
-  description: entity-foodburgerbacon-description
+  description: The perfect combination of all things American.
   components:
   - type: FlavorProfile
     flavors:
@@ -187,10 +187,10 @@
 # Tastes like bun, bacon.
 
 - type: entity
-  name: entity-foodburgerbaseball-name
+  name: baseball burger
   parent: FoodBurgerBase
   id: FoodBurgerBaseball
-  description: entity-foodburgerbaseball-description
+  description: It's still warm. The steam coming off of it smells kinda sweaty.
   components:
   - type: FlavorProfile
     flavors:
@@ -214,10 +214,10 @@
     - Meat
 
 - type: entity
-  name: entity-foodburgerbear-name
+  name: bearger
   parent: FoodBurgerBase
   id: FoodBurgerBear
-  description: entity-foodburgerbear-description
+  description: Best served rawr.
   components:
   - type: FlavorProfile
     flavors:
@@ -241,10 +241,10 @@
     - Meat
 
 - type: entity
-  name: entity-foodburgerbig-name
+  name: big bite burger
   parent: FoodBurgerBase
   id: FoodBurgerBig
-  description: entity-foodburgerbig-description
+  description: Forget the Big Mac. THIS is the future!
   components:
   - type: FlavorProfile
     flavors: # What bun?
@@ -268,10 +268,10 @@
 # Tastes like bun, silver, magic.
 
 - type: entity
-  name: entity-foodburgerbrain-name
+  name: brain burger
   parent: FoodBurgerBase
   id: FoodBurgerBrain
-  description: entity-foodburgerbrain-description
+  description: A strange looking burger. It looks almost sentient.
   components:
   - type: FlavorProfile
     flavors:
@@ -296,10 +296,10 @@
 # Tastes like bun, brains.
 
 - type: entity
-  name: entity-foodburgercat-name
+  name: cat burger
   parent: FoodBurgerBase
   id: FoodBurgerCat
-  description: entity-foodburgercat-description
+  description: Finally those cats and catpeople are worth something!
   components:
   - type: Sprite
     state: cat
@@ -324,10 +324,10 @@
     - Meat
 
 - type: entity
-  name: entity-foodburgercheese-name
+  name: cheese burger
   parent: FoodBurgerBase
   id: FoodBurgerCheese
-  description: entity-foodburgercheese-description
+  description: This noble burger stands proudly clad in golden cheese.
   components:
   - type: FlavorProfile
     flavors:
@@ -364,7 +364,7 @@
   name: chicken sandwich # Burger for you euro-cucks
   parent: FoodBurgerBase
   id: FoodBurgerChicken
-  description: entity-foodburgerchicken-description
+  description: A delicious chicken sandwich, it is said the proceeds from this treat helps criminalize disarming people on the space frontier.
   components:
   - type: FlavorProfile
     flavors:
@@ -391,10 +391,10 @@
 # Tastes like bun, chicken.
 
 - type: entity
-  name: entity-foodburgerclown-name
+  name: clown burger
   parent: FoodBurgerBase
   id: FoodBurgerClown
-  description: entity-foodburgerclown-description
+  description: This tastes funny...
   components:
   - type: FlavorProfile
     flavors:
@@ -421,7 +421,7 @@
   name: corger #not curger
   parent: FoodBurgerBase
   id: FoodBurgerCorgi
-  description: entity-foodburgercorgi-description
+  description: The Head of Personnel's favorite!
   components:
   - type: FlavorProfile
     flavors:
@@ -443,10 +443,10 @@
     - Meat
 
 - type: entity
-  name: entity-foodburgercrab-name
+  name: crab burger
   parent: FoodBurgerBase
   id: FoodBurgerCrab
-  description: entity-foodburgercrab-description
+  description: A delicious patty of the crabby kind, slapped in between a bun.
   components:
   - type: FlavorProfile
     flavors:
@@ -473,7 +473,7 @@
   name: crazy hamburger # Burger for you euro-cucks
   parent: FoodBurgerBase
   id: FoodBurgerCrazy
-  description: entity-foodburgercrazy-description
+  description: This looks like the sort of food that a demented clown in a trenchcoat would make.
   components:
   - type: FlavorProfile
     flavors:
@@ -504,7 +504,7 @@
   name: duck sandwich # Burger for you sick bastards
   parent: FoodBurgerBase
   id: FoodBurgerDuck
-  description: entity-foodburgerduck-description
+  description: A duck sandwich, only the criminally insane would dare to eat the meat of such an adorable creature.
   components:
   - type: FlavorProfile
     flavors:
@@ -529,10 +529,10 @@
 # Tastes like bun, duck.
 
 - type: entity
-  name: entity-foodburgerempowered-name
+  name: empowered burger
   parent: FoodBurgerBase
   id: FoodBurgerEmpowered
-  description: entity-foodburgerempowered-description
+  description: It's shockingly good, if you live off of electricity that is.
   components:
   - type: Sprite
     state: empowered
@@ -552,10 +552,10 @@
 # Tastes like bun, pure electricity.
 
 - type: entity
-  name: entity-foodburgercarp-name
+  name: fillet-o-carp burger
   parent: FoodBurgerBase
   id: FoodBurgerCarp
-  description: entity-foodburgercarp-description
+  description: Almost like a carp is yelling somewhere...
   components:
   - type: FlavorProfile
     flavors:
@@ -569,10 +569,10 @@
 # Tastes like bun, fish.
 
 - type: entity
-  name: entity-foodburgerfive-name
+  name: five alarm burger
   parent: FoodBurgerBase
   id: FoodBurgerFive
-  description: entity-foodburgerfive-description
+  description: HOT! HOT! HOT!
   components:
   - type: FlavorProfile
     flavors:
@@ -597,10 +597,10 @@
 # Tastes like bun, HEAT.
 
 - type: entity
-  name: entity-foodburgerghost-name
+  name: ghost burger
   parent: FoodBurgerBase
   id: FoodBurgerGhost
-  description: entity-foodburgerghost-description
+  description: Too spooky!
   components:
   - type: FlavorProfile
     flavors:
@@ -624,10 +624,10 @@
 # Tastes like bun, ectoplasm.
 
 - type: entity
-  name: entity-foodburgerhuman-name
+  name: human burger
   parent: FoodBurgerBase
   id: FoodBurgerHuman
-  description: entity-foodburgerhuman-description
+  description: You cant tell who this is made of...
   components:
   - type: FlavorProfile
     flavors:
@@ -651,10 +651,10 @@
     - Meat
 
 - type: entity
-  name: entity-foodburgermcguffin-name
+  name: McGuffin
   parent: FoodBurgerBase
   id: FoodBurgerMcguffin
-  description: entity-foodburgermcguffin-description
+  description: A cheap and greasy imitation of an eggs Benedict.
   components:
   - type: FlavorProfile
     flavors:
@@ -678,10 +678,10 @@
     - Meat
 
 - type: entity
-  name: entity-foodburgermcrib-name
+  name: BBQ Rib Sandwich
   parent: FoodBurgerBase
   id: FoodBurgerMcrib
-  description: entity-foodburgermcrib-description
+  description: An elusive rib shaped burger with limited availability across the galaxy. Not as good as you remember it.
   components:
   - type: Food
     trash: 
@@ -711,10 +711,10 @@
 # Tastes like bun, pork patty.
 
 - type: entity
-  name: entity-foodburgermime-name
+  name: mime burger
   parent: FoodBurgerBase
   id: FoodBurgerMime
-  description: entity-foodburgermime-description
+  description: Its taste defies language.
   components:
   - type: FlavorProfile
     flavors:
@@ -738,10 +738,10 @@
 # Tastes like  .
 
 - type: entity
-  name: entity-foodburgerplain-name
+  name: plain burger
   parent: FoodBurgerBase
   id: FoodBurgerPlain
-  description: entity-foodburgerplain-description
+  description: A boring, dry burger.
   components:
   - type: FlavorProfile
     flavors:
@@ -765,10 +765,10 @@
     - Meat
 
 - type: entity
-  name: entity-foodburgerrat-name
+  name: rat burger
   parent: FoodBurgerBase
   id: FoodBurgerRat
-  description: entity-foodburgerrat-description
+  description: Pretty much what you'd expect...
   components:
   - type: FlavorProfile
     flavors:
@@ -793,10 +793,10 @@
 # Tastes like bun, HEAT.
 
 - type: entity
-  name: entity-foodburgerrobot-name
+  name: roburger
   parent: FoodBurgerBase
   id: FoodBurgerRobot
-  description: entity-foodburgerrobot-description
+  description: The lettuce is the only organic component. Beep.
   components:
   - type: FlavorProfile
     flavors:
@@ -820,10 +820,10 @@
 # Tastes like bun, lettuce, sludge.
 
 - type: entity
-  name: entity-foodburgersoy-name
+  name: soylent burger
   parent: FoodBurgerBase
   id: FoodBurgerSoy
-  description: entity-foodburgersoy-description
+  description: After eating this you have the overwhelming urge to purchase overpriced figurines of superheroes.
   components:
   - type: FlavorProfile
     flavors:
@@ -845,10 +845,10 @@
 # Tastes like bun, redditors.
 
 - type: entity
-  name: entity-foodburgerspell-name
+  name: spell burger
   parent: FoodBurgerBase
   id: FoodBurgerSpell
-  description: entity-foodburgerspell-description
+  description: This is absolutely Ei Nath.
   components:
   - type: FlavorProfile
     flavors:
@@ -870,10 +870,10 @@
 # Tastes like bun, silver.
 
 - type: entity
-  name: entity-foodburgersuper-name
+  name: super bite burger
   parent: FoodBurgerBase
   id: FoodBurgerSuper
-  description: entity-foodburgersuper-description
+  description: This is a mountain of a burger. FOOD!
   components:
   - type: FlavorProfile
     flavors: # What bun?
@@ -901,10 +901,10 @@
 # Tastes like bun, diabetes.
 
 - type: entity
-  name: entity-foodburgertofu-name
+  name: tofu burger
   parent: FoodBurgerBase
   id: FoodBurgerTofu
-  description: entity-foodburgertofu-description
+  description: What... is that meat?
   components:
   - type: FlavorProfile
     flavors:
@@ -926,10 +926,10 @@
 # Tastes like bun, tofu.
 
 - type: entity
-  name: entity-foodburgerxeno-name
+  name: xenoburger
   parent: FoodBurgerBase
   id: FoodBurgerXeno
-  description: entity-foodburgerxeno-description
+  description: Smells caustic. Tastes like heresy.
   components:
   - type: FlavorProfile
     flavors:
@@ -958,10 +958,10 @@
 # I'd rather wait for a custom burger component.
 
 - type: entity
-  name: entity-foodburgermothroach-name
+  name: mothroachburger
   parent: FoodBurgerBase
   id: FoodBurgerMothRoach
-  description: entity-foodburgermothroach-description
+  description: The last lamp it saw was the one inside the microwave.
   components:
   - type: FlavorProfile
     flavors:

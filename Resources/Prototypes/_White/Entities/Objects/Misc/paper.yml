@@ -1,6 +1,6 @@
 ﻿- type: entity
-  name: entity-paperwrittencommunist-name
-  description: entity-paperwrittencommunist-description
+  name: Commie propaganda
+  description: A piece of white paper with communist slogans written on it.
   id: PaperWrittenCommunist
   parent: Paper
   components:
@@ -21,8 +21,8 @@
     node: communistpaper
 
 - type: entity
-  name: entity-ungluedcardboard-name
-  description: entity-ungluedcardboard-description
+  name: unglued cardboard
+  description: Pieces of white paper stacked together, ready to become cardboard. Just add some glue and another layer!
   id: UngluedCardboard
   parent: Paper
   components:

@@ -2,8 +2,8 @@
   parent: BaseItem
   id: BaseAnomalyCore
   abstract: true
-  name: entity-baseanomalycore-name
-  description: entity-baseanomalycore-description
+  name: anomaly core
+  description: The core of a destroyed incomprehensible object.
   components:
   - type: Sprite
     sprite: Structures/Specific/Anomalies/Cores/gravity_core.rsi

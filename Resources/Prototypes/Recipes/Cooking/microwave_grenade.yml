@@ -1,6 +1,6 @@
 - type: microwaveMealRecipe
   id: RecipeCleaningGrenadeNuke
-  name: microwavemealrecipe-recipecleaninggrenadenuke-name
+  name: clean nuke recipe
   result: CleanerGrenadeNuke
   time: 10
   solids:
@@ -11,7 +11,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeCleaningGrenadeNuke1
-  name: microwavemealrecipe-recipecleaninggrenadenuke-name
+  name: clean nuke recipe
   result: CleanerGrenadeNuke
   time: 10
   solids:
@@ -22,7 +22,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeCleaningGrenadeNuke2
-  name: microwavemealrecipe-recipecleaninggrenadenuke-name
+  name: clean nuke recipe
   result: CleanerGrenadeNuke
   time: 10
   solids:
@@ -33,7 +33,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeCleaningGrenadeNuke3
-  name: microwavemealrecipe-recipecleaninggrenadenuke-name
+  name: clean nuke recipe
   result: CleanerGrenadeNuke
   time: 10
   solids:
@@ -44,7 +44,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeCleaningGrenadeNuke4
-  name: microwavemealrecipe-recipecleaninggrenadenuke-name
+  name: clean nuke recipe
   result: CleanerGrenadeNuke
   time: 10
   solids:

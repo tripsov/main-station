@@ -1,7 +1,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: WeldingMaskBase
-  name: entity-weldingmaskbase-name
+  name: welding mask
   abstract: true
   components:
   - type: Item
@@ -34,8 +34,8 @@
 - type: entity
   parent: WeldingMaskBase
   id: ClothingHeadHatWelding
-  name: entity-weldingmaskbase-name
-  description: entity-clothingheadhatwelding-description
+  name: welding mask
+  description: A head-mounted face cover designed to protect the wearer completely from space-arc eye.
   components:
   - type: Sprite
     sprite: Clothing/Head/Welding/welding.rsi
@@ -50,8 +50,8 @@
 - type: entity
   parent: WeldingMaskBase
   id: ClothingHeadHatWeldingMaskFlame
-  name: entity-clothingheadhatweldingmaskflame-name
-  description: entity-clothingheadhatweldingmaskflame-description
+  name: flame welding mask
+  description: A painted welding helmet, this one has flames on it.
   components:
   - type: Sprite
     sprite: Clothing/Head/Welding/flame_welding_mask.rsi
@@ -61,8 +61,8 @@
 - type: entity
   parent: WeldingMaskBase
   id: ClothingHeadHatWeldingMaskFlameBlue
-  name: entity-clothingheadhatweldingmaskflameblue-name
-  description: entity-clothingheadhatweldingmaskflameblue-description
+  name: blue-flame welding mask
+  description: A painted welding helmet, this one has blue flames on it.
   components:
   - type: Sprite
     sprite: Clothing/Head/Welding/blue_flame_welding_mask.rsi
@@ -72,8 +72,8 @@
 - type: entity
   parent: WeldingMaskBase
   id: ClothingHeadHatWeldingMaskPainted
-  name: entity-clothingheadhatweldingmaskpainted-name
-  description: entity-clothingheadhatweldingmaskpainted-description
+  name: painted welding mask
+  description: A welding helmet, painted in crimson.
   components:
   - type: Sprite
     sprite: Clothing/Head/Welding/paintedwelding.rsi

@@ -1,7 +1,7 @@
 - type: entity
   parent: IDCardStandard
   id: PrisonerIDCard
-  name: entity-prisoneridcard-name
+  name: prisoner ID card
   components:
   - type: Sprite
     layers:
@@ -17,7 +17,7 @@
 - type: entity
   parent: IDCardStandard
   id: GladiatorIDCard
-  name: entity-gladiatoridcard-name
+  name: gladiator ID card
   components:
   - type: Sprite
     layers:
@@ -33,7 +33,7 @@
 - type: entity
   parent: IDCardStandard
   id: PrisonGuardIDCard
-  name: entity-prisonguardidcard-name
+  name: prison guard ID card
   components:
   - type: Sprite
     layers:
@@ -66,7 +66,7 @@
 - type: entity
   parent: IDCardStandard
   id: MartialArtistIDCard
-  name: entity-martialartistidcard-name
+  name: martial artist ID card
   components:
   - type: Sprite
     layers:
@@ -82,7 +82,7 @@
 - type: entity
   parent: IDCardStandard
   id: ForensicMantisIDCard
-  name: entity-forensicmantisidcard-name
+  name: mantis ID card
   components:
   - type: Sprite
     layers:

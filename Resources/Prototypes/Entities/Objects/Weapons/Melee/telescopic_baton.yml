@@ -1,8 +1,8 @@
 - type: entity
   id: TelescopicBaton
   parent: BaseItem
-  name: entity-telescopicbaton-name
-  description: entity-telescopicbaton-description
+  name: telescopic baton
+  description: A compact and harmless personal defense weapon. Sturdy enough to knock the feet out from under attackers.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/telebaton.rsi
@@ -71,8 +71,8 @@
 - type: entity
   parent: TelescopicBaton
   id: TelescopicBatonAdmeme
-  name: entity-telescopicbatonadmeme-name
-  description: entity-telescopicbatonadmeme-description
+  name: robust telescopic baton
+  description: A compact and HARMFUL personal defense weapon. Sturdy enough to break legs of the attackers, making them unable to walk again.
   suffix: admeme, DO NOT MAP
   components:
   - type: TelescopicBaton

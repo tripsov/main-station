@@ -1,7 +1,7 @@
 - type: entity
   id: IceCrust
-  name: entity-icecrust-name
-  description: entity-icecrust-description
+  name: ice crust
+  description: It's cold and slippery.
   placement:
     mode: SnapgridCenter
     snap:

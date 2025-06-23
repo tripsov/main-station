@@ -1,8 +1,8 @@
 - type: entity
-  name: entity-basesword-name
+  name: Sword
   parent: BaseItem
   id: BaseSword
-  description: entity-basesword-description
+  description: A sharp sword.
   abstract: true
   components:
   - type: Sharp
@@ -25,10 +25,10 @@
       path: /Audio/Items/Culinary/chop.ogg
 
 - type: entity
-  name: entity-captainsabre-name
+  name: captain's sabre
   parent: BaseSword
   id: CaptainSabre
-  description: entity-captainsabre-description
+  description: A ceremonial weapon belonging to the captain of the station.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/captain_sabre.rsi
@@ -81,10 +81,10 @@
 
 
 - type: entity
-  name: entity-katana-name
+  name: katana
   parent: BaseSword
   id: Katana
-  description: entity-katana-description
+  description: Ancient craftwork made with not so ancient plasteel.
   components:
   - type: Tag
     tags:
@@ -124,10 +124,10 @@
     delay: 6.1
 
 - type: entity
-  name: entity-energykatana-name
+  name: energy katana
   parent: Katana
   id: EnergyKatana
-  description: entity-energykatana-description
+  description: A katana infused with strong energy.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/energykatana.rsi
@@ -163,10 +163,10 @@
     velocityBeforeMinProb: 10.0
 
 - type: entity
-  name: entity-machete-name
+  name: machete
   parent: BaseSword
   id: Machete
-  description: entity-machete-description
+  description: A large, vicious looking blade.
   components:
   - type: Tag
     tags:
@@ -201,10 +201,10 @@
     sprite: Objects/Weapons/Melee/machete.rsi
 
 - type: entity
-  name: entity-claymore-name
+  name: claymore
   parent: BaseSword
   id: Claymore
-  description: entity-claymore-description
+  description: An ancient war blade.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/claymore.rsi
@@ -243,10 +243,10 @@
     - back
 
 - type: entity
-  name: entity-cutlass-name
+  name: cutlass
   parent: BaseSword
   id: Cutlass
-  description: entity-cutlass-description
+  description: A wickedly curved blade, often seen in the hands of space pirates.
   components:
   - type: Tag
     tags:
@@ -282,10 +282,10 @@
     sprite: Objects/Weapons/Melee/cutlass.rsi
 
 - type: entity
-  name: entity-throngler-name
+  name: The Throngler
   parent: BaseSword
   id: Throngler
-  description: entity-throngler-description
+  description: Why would someone make this?
   components:
     - type: Sprite
       sprite: Objects/Weapons/Melee/Throngler2.rsi

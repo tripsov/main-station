@@ -1,6 +1,6 @@
 - type: entity
   id: BaseCartridgeMagnum
-  name: entity-basecartridgemagnum-name
+  name: cartridge (.45 magnum)
   parent: BaseCartridge
   abstract: true
   components:
@@ -20,7 +20,7 @@
 
 - type: entity
   id: CartridgeMagnum
-  name: entity-basecartridgemagnum-name
+  name: cartridge (.45 magnum)
   parent: BaseCartridgeMagnum
   components:
   - type: CartridgeAmmo
@@ -28,7 +28,7 @@
 
 - type: entity
   id: CartridgeMagnumPractice
-  name: entity-cartridgemagnumpractice-name
+  name: cartridge (.45 magnum practice)
   parent: BaseCartridgeMagnum
   components:
   - type: CartridgeAmmo
@@ -43,7 +43,7 @@
 
 - type: entity
   id: CartridgeMagnumIncendiary
-  name: entity-cartridgemagnumincendiary-name
+  name: cartridge (.45 magnum incendiary)
   parent: BaseCartridgeMagnum
   components:
   - type: CartridgeAmmo
@@ -58,7 +58,7 @@
 
 - type: entity
   id: CartridgeMagnumAP
-  name: entity-cartridgemagnumap-name
+  name: cartridge (.45 magnum armor-piercing)
   parent: BaseCartridgeMagnum
   components:
   - type: CartridgeAmmo
@@ -73,7 +73,7 @@
 
 - type: entity
   id: CartridgeMagnumUranium
-  name: entity-cartridgemagnumuranium-name
+  name: cartridge (.45 magnum uranium)
   parent: BaseCartridgeMagnum
   components:
   - type: CartridgeAmmo
@@ -88,7 +88,7 @@
 
 - type: entity
   id: CartridgeMagnumShrapnel
-  name: entity-cartridgemagnumshrapnel-name
+  name: cartridge (.45 magnum shrapnel)
   parent: BaseCartridgeMagnum
   components:
   - type: CartridgeAmmo

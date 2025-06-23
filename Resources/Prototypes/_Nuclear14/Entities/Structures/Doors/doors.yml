@@ -3,9 +3,9 @@
 - type: entity
   id: N14BaseDoor # Metal Base
   parent: BaseStructure
-  name: entity-n14basedoor-name
+  name: door
   abstract: true
-  description: entity-n14basedoor-description
+  description: A door, where will it lead?
   components:
   - type: InteractionOutline
   - type: Sprite
@@ -67,8 +67,8 @@
 - type: entity
   parent: N14BaseDoor
   id: N14DoorMakeshift # Base Door Wood
-  name: entity-n14doormakeshift-name
-  description: entity-n14doormakeshift-description
+  name: makeshift door
+  description: It's a wooden door. It looks dirty and handmade.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Doors/FalloutDoors/wooddoor.rsi
@@ -101,9 +101,9 @@
 - type: entity
   parent: N14DoorMakeshift
   id: N14DoorWoodHousePainted
-  name: entity-n14doorwoodhousepainted-name
+  name: wooden door
   suffix: painted
-  description: entity-n14doorwoodhousepainted-description
+  description: It's a painted door.
   components:
   - type: Sprite
     netsync: false
@@ -121,8 +121,8 @@
 - type: entity
   parent: N14DoorMakeshift
   id: N14DoorWoodRoom
-  name: entity-n14doorwoodhousepainted-name
-  description: entity-n14doorwoodroom-description
+  name: wooden door
+  description: A door used inside pre-war buildigs that section off rooms.
   components:
   - type: Sprite
     netsync: false
@@ -134,8 +134,8 @@
 - type: entity
   parent: N14DoorMakeshift
   id: N14DoorWoodInterior
-  name: entity-n14doorwoodhousepainted-name
-  description: entity-n14doorwoodinterior-description
+  name: wooden door
+  description: A door used inside pre-war buildings.
   components:
   - type: Sprite
     netsync: false
@@ -148,8 +148,8 @@
   parent: N14DoorMakeshift
   id: N14DoorWoodRoomDamaged
   suffix: damaged
-  name: entity-n14doorwoodhousepainted-name
-  description: entity-n14doorwoodroomdamaged-description
+  name: wooden door
+  description: A door used inside pre-war houses. Unsuprisingly, it looks like it'll fall apart at any moment.
   components:
   - type: Sprite
     netsync: false
@@ -161,9 +161,9 @@
 - type: entity
   parent: BaseMaterialDoor
   id: N14DoorRoomRepaired
-  name: entity-n14basedoor-name
+  name: door
   suffix: repaired
-  description: entity-n14doorroomrepaired-description
+  description: This door looks worse for wear, but fixed up a little.
   components:
   - type: Sprite
     netsync: false
@@ -175,8 +175,8 @@
 - type: entity
   parent: N14DoorMakeshift
   id: N14DoorWoodSecure
-  name: entity-n14doorwoodsecure-name
-  description: entity-n14doorwoodsecure-description
+  name: secure door
+  description: It's a secure door, made out of wood. Hope you brought bobby pins.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Doors/FalloutDoors/securedoor.rsi
@@ -196,8 +196,8 @@
 - type: entity
   parent: N14BaseDoor
   id: N14DoorMetalReinforced
-  name: entity-n14doormetalreinforced-name
-  description: entity-n14doormetalreinforced-description
+  name: metal reinforced door
+  description: It's a door, reinforced with metal. Hope you brought you bobby pins.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Doors/FalloutDoors/metaldoor.rsi
@@ -208,8 +208,8 @@
 - type: entity
   parent: N14DoorMetalReinforced
   id: N14DoorMetalSecureBrotherhood
-  name: entity-n14doormetalsecurebrotherhood-name
-  description: entity-n14doormetalsecurebrotherhood-description
+  name: secure brotherhood door
+  description: It's secure, AND branded! What more could you want?
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Doors/FalloutDoors/bosdoor.rsi
@@ -220,8 +220,8 @@
 - type: entity
   parent: N14BaseDoor
   id: N14DoorCellMetal
-  name: entity-n14doorcellmetal-name
-  description: entity-n14doorcellmetal-description
+  name: cell door
+  description: A door that bad guys are locked behind.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Doors/FalloutDoors/celldoor.rsi
@@ -243,8 +243,8 @@
 - type: entity
   parent: N14DoorCellMetal
   id: N14DoorMetalBar
-  name: entity-n14doormetalbar-name
-  description: entity-n14doormetalbar-description
+  name: barred door
+  description: A door made from metal bars.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Doors/FalloutDoors/barreddoor.rsi
@@ -255,8 +255,8 @@
 - type: entity
   parent: N14DoorMetalReinforced
   id: N14DoorMetalSecure
-  name: entity-n14doorwoodsecure-name
-  description: entity-n14doormetalsecure-description
+  name: secure door
+  description: A secure door made from steel.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Doors/FalloutDoors/securesteeldoor.rsi
@@ -267,8 +267,8 @@
 - type: entity
   parent: N14DoorCellMetal
   id: N14DoorSpikedGate
-  name: entity-n14doorspikedgate-name
-  description: entity-n14doorspikedgate-description
+  name: spiked gate
+  description: A spiked gate to scare off the weak.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Doors/FalloutDoors/spikedgate.rsi
@@ -280,8 +280,8 @@
 - type: entity
   parent: N14DoorMakeshift
   id: N14DoorGlass
-  name: entity-n14doorglass-name
-  description: entity-n14doorglass-description
+  name: glass door
+  description: It's a door with panels made of clean glass.
   components:
   - type: Sprite
     netsync: false
@@ -322,8 +322,8 @@
 - type: entity
   parent: N14DoorGlass
   id: N14DoorGlassDirty
-  name: entity-n14doorglassdirty-name
-  description: entity-n14doorglassdirty-description
+  name: dirty glass door
+  description: It's a glass door. You can barely make out what's behind it...
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Doors/FalloutDoors/dirtyglassdoor.rsi
@@ -338,8 +338,8 @@
 - type: entity
   parent: N14DoorGlass
   id: N14DoorGlassBroken
-  name: entity-n14doorglassbroken-name
-  description: entity-n14doorglassbroken-description
+  name: broken glass door
+  description: Shattered, just like your marriage.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Doors/FalloutDoors/brokenglassdoor.rsi
@@ -361,8 +361,8 @@
 - type: entity
   parent: N14DoorGlass
   id: N14DoorGlassStore
-  name: entity-n14doorglassstore-name
-  description: entity-n14doorglassstore-description
+  name: store door
+  description: It's a glass door found at pre-war stores. Hey, that rhymes!
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Doors/FalloutDoors/storedoor.rsi
@@ -398,8 +398,8 @@
 - type: entity
   parent: N14DoorGlassStore
   id: N14DoorGlassStoreDirty
-  name: entity-n14doorglassstoredirty-name
-  description: entity-n14doorglassstoredirty-description
+  name: dirty store door
+  description: It's a glass door used at pre-war stores. It doesn't seem like it's been washed recently.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Doors/FalloutDoors/dirtystoredoor.rsi
@@ -410,8 +410,8 @@
 - type: entity
   parent: N14DoorGlassBroken
   id: N14DoorGlassStoreBroken
-  name: entity-n14doorglassbroken-name
-  description: entity-n14doorglassbroken-description
+  name: broken glass door
+  description: Shattered, just like your marriage.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Doors/FalloutDoors/brokenstoredoor.rsi
@@ -423,9 +423,9 @@
 - type: entity
   parent: BaseMaterialDoor
   id: N14DoorTentflap
-  name: entity-n14doortentflap-name
+  name: tent flap
   suffix: smoothed tent
-  description: entity-n14doortentflap-description
+  description: A door for a tent.
   components:
   - type: Sprite
     netsync: false
@@ -467,8 +467,8 @@
 - type: entity
   parent: N14DoorTentflap
   id: N14DoorTentLeatherflap
-  name: entity-n14doortentflap-name
-  description: entity-n14doortentleatherflap-description
+  name: tent flap
+  description: A door for a tent. Leathery.
   components:
   - type: Sprite
     netsync: false
@@ -480,8 +480,8 @@
 - type: entity
   parent: N14DoorTentflap
   id: N14DoorTentClothflap
-  name: entity-n14doortentflap-name
-  description: entity-n14doortentclothflap-description
+  name: tent flap
+  description: A door for a tent. Cloth.
   components:
   - type: Sprite
     netsync: false

@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseLathe
   id: MedicalBiofabricator
-  name: entity-medicalbiofabricator-name
-  description: entity-medicalbiofabricator-description
+  name: medical biofabricator
+  description: Produces organs and other organic matter that can be surgically grafted onto patients with biomass.
   components:
   - type: Sprite
     sprite: _Shitmed/Structures/Machines/limbgrower.rsi

@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: ActionForceWall
-  name: entity-actionforcewall-name
-  description: entity-actionforcewall-description
+  name: Forcewall
+  description: Creates a magical barrier.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction

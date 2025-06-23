@@ -1,8 +1,8 @@
 - type: entity
-  name: entity-weaponrevolverargenti-name
+  name: Argenti
   parent: BaseWeaponRevolver
   id: WeaponRevolverArgenti
-  description: entity-weaponrevolverargenti-description
+  description: The civilian grade Argenti Type 20 revolver. Manufactured by Silver Industries. While the design with expanded cylinder is quite ancient, the right gunslinger will know how to utilise it well. Uses .20 rifle ammo.
   components:
   - type: Sprite
     scale: 0.75 , 0.75

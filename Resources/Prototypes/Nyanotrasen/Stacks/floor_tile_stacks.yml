@@ -1,23 +1,23 @@
 ﻿- type: stack
   id: FloorTileGrassDark
-  name: stack-floortilegrassdark-name
+  name: dark grass floor tile
   spawn: FloorTileItemGrassDark
   maxCount: 30
 
 - type: stack
   id: FloorTileGrassLight
-  name: stack-floortilegrasslight-name
+  name: light grass floor tile
   spawn: FloorTileItemGrassLight
   maxCount: 30
 
 - type: stack
   id: FloorTileDirt
-  name: stack-floortiledirt-name
+  name: dirt floor tile
   spawn: FloorTileItemDirt
   maxCount: 30
 
 - type: stack
   id: FloorTileBedrock
-  name: stack-floortilebedrock-name
+  name: bedrock floor tile
   spawn: FloorTileItemBedrock
   maxCount: 30

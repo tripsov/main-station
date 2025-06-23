@@ -65,7 +65,7 @@
 - type: entity
   id: DisposalHolder
   categories: [ HideSpawnMenu ]
-  name: entity-disposalholder-name
+  name: disposal holder
   components:
   - type: DisposalHolder
   - type: ContainerContainer
@@ -77,8 +77,8 @@
 - type: entity
   id: DisposalPipeBroken
   parent: DisposalPipeBase
-  name: entity-disposalpipebroken-name
-  description: entity-disposalpipebroken-description
+  name: broken disposal pipe
+  description: A BBP (big broken pipe)
   components:
   - type: Sprite
     drawdepth: ThickPipe
@@ -93,8 +93,8 @@
 - type: entity
   id: DisposalPipe
   parent: DisposalPipeBase
-  name: entity-disposalpipe-name
-  description: entity-disposalpipe-description
+  name: disposal pipe segment
+  description: A huge pipe segment used for constructing disposal systems.
   components:
   - type: Sprite
     drawdepth: ThickPipe
@@ -121,8 +121,8 @@
 - type: entity
   id: DisposalTagger
   parent: DisposalPipeBase
-  name: entity-disposaltagger-name
-  description: entity-disposaltagger-description
+  name: disposal pipe tagger
+  description: A pipe that tags entities for routing.
   components:
   - type: Sprite
     drawdepth: ThickPipe
@@ -155,8 +155,8 @@
 - type: entity
   id: DisposalTrunk
   parent: DisposalPipeBase
-  name: entity-disposaltrunk-name
-  description: entity-disposaltrunk-description
+  name: disposal trunk
+  description: A pipe trunk used as an entry point for disposal systems.
   components:
   - type: Sprite
     drawdepth: ThickPipe
@@ -191,8 +191,8 @@
 - type: entity
   id: DisposalRouter
   parent: DisposalPipeBase
-  name: entity-disposalrouter-name
-  description: entity-disposalrouter-description
+  name: disposal router
+  description: A three-way router. Entities with matching tags get routed to the side via configurable filters.
   components:
   - type: Sprite
     drawdepth: ThickPipe
@@ -238,7 +238,7 @@
 
 - type: entity
   id: DisposalRouterFlipped
-  description: entity-disposalrouterflipped-description
+  description: A three-way router. Entities with matching tags get routed to the side.
   parent: DisposalRouter
   suffix: flipped
   components:
@@ -280,8 +280,8 @@
 - type: entity
   id: DisposalJunction
   parent: DisposalPipeBase
-  name: entity-disposaljunction-name
-  description: entity-disposaljunction-description
+  name: disposal junction
+  description: A three-way junction. The arrow indicates where items exit.
   components:
   - type: Sprite
     drawdepth: ThickPipe
@@ -322,7 +322,7 @@
 
 - type: entity
   id: DisposalJunctionFlipped
-  description: entity-disposaljunction-description
+  description: A three-way junction. The arrow indicates where items exit.
   parent: DisposalJunction
   suffix: flipped
   components:
@@ -364,8 +364,8 @@
 - type: entity
   id: DisposalYJunction
   parent: DisposalPipeBase
-  name: entity-disposalyjunction-name
-  description: entity-disposalyjunction-description
+  name: disposal y-junction
+  description: A three-way junction with another exit point.
   components:
   - type: Sprite
     drawdepth: ThickPipe
@@ -404,8 +404,8 @@
 - type: entity
   id: DisposalBend
   parent: DisposalPipeBase
-  name: entity-disposalbend-name
-  description: entity-disposalbend-description
+  name: disposal bend
+  description: A tube bent at a 90 degree angle.
   components:
   - type: Sprite
     drawdepth: ThickPipe
@@ -440,8 +440,8 @@
 - type: entity
   parent: DisposalJunction
   id: DisposalSignalRouter
-  name: entity-disposalsignalrouter-name
-  description: entity-disposalsignalrouter-description
+  name: disposal signal router
+  description: A signal-controlled three-way router.
   components:
   - type: Sprite
     drawdepth: ThickPipe

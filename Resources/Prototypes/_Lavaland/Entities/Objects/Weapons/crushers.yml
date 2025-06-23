@@ -32,8 +32,8 @@
 - type: entity
   parent: [LavalandWeaponKineticBase]
   id: LavalandWeaponKineticSpear
-  name: entity-lavalandweaponkineticspear-name
-  description: entity-lavalandweaponkineticspear-description
+  name: kinetic spear
+  description: A long-ranged melee weapon. Deals less damage than a normal crusher, but has longer attack range.
   components:
   - type: Tag
     tags:
@@ -93,8 +93,8 @@
 - type: entity
   parent: LavalandWeaponKineticBase
   id: LavalandWeaponKineticHammer
-  name: entity-lavalandweaponkinetichammer-name
-  description: entity-lavalandweaponkinetichammer-description
+  name: kinetic hammer
+  description: A beefy, two-handed weapon that inflicts knockback and heavier damage than a crusher.
   components:
   - type: Sprite
     sprite: _Lavaland/Objects/Weapons/Crushers/crusher_hammer.rsi
@@ -132,8 +132,8 @@
 - type: entity
   parent: [LavalandWeaponKineticBase, ClothingHandsBase]
   id: LavalandWeaponKineticClaws
-  name: entity-lavalandweaponkineticclaws-name
-  description: entity-lavalandweaponkineticclaws-description
+  name: kinetic claws
+  description: Unleash your inner edgelord with this one-handed claw small enough to fit in your backpack. Deals a lot more damage when backstabbing marked targets.
   components:
   - type: Sprite
     sprite: _Lavaland/Objects/Weapons/Crushers/crusher_claws.rsi
@@ -174,8 +174,8 @@
 - type: entity
   parent: LavalandWeaponKineticBase
   id: LavalandWeaponKineticMachete
-  name: entity-lavalandweaponkineticmachete-name
-  description: entity-lavalandweaponkineticmachete-description
+  name: kinetic machete
+  description: A smaller, one-handed variant of the crusher which allows you to block attacks.
   components:
   - type: Sprite
     sprite: _Lavaland/Objects/Weapons/Crushers/crusher_machete.rsi

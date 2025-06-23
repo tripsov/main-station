@@ -1,4 +1,4 @@
-job-name-warden = Надзиратель
+job-name-warden = Смотритель
 job-name-security = Офицер СБ
 job-name-cadet = Кадет СБ
 job-name-hos = Глава Службы Безопасности
@@ -124,5 +124,5 @@ JobStationAi = Станционный ИИ
 JobStationEngineer = Инженер
 JobTechnicalAssistant = Технический Ассистент
 JobVisitor = Посетитель
-JobWarden = Надзиратель
+JobWarden = Смотритель
 JobZookeeper = Зоотехник

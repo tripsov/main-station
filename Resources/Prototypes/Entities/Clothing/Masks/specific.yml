@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingMaskBase
   id: ClothingMaskGasChameleon
-  name: entity-clothingmaskgaschameleon-name
-  description: entity-clothingmaskgaschameleon-description
+  name: gas mask
+  description: A face-covering mask that can be connected to an air supply.
   suffix: Chameleon
   components:
     - type: Tag
@@ -43,8 +43,8 @@
 - type: entity
   parent: ClothingMaskBase
   id: ClothingMaskWeldingGas
-  name: entity-clothingmaskweldinggas-name
-  description: entity-clothingmaskweldinggas-description
+  name: welding gas mask
+  description: A gas mask with built in welding goggles and face shield. Looks like a skull, clearly designed by a nerd.
   components:
   - type: Sprite
     sprite: Clothing/Mask/welding-gas.rsi
@@ -72,8 +72,8 @@
 - type: entity
   parent: ClothingMaskBase
   id: ClothingMaskGoldenCursed
-  name: entity-clothingmaskgoldencursed-name
-  description: entity-clothingmaskgoldencursed-description
+  name: golden mask
+  description: Previously used in strange pantomimes, after one of the actors went mad on stage these masks have avoided use. You swear its face contorts when you're not looking.
   components:
   - type: Sprite
     sprite: Clothing/Mask/goldenmask.rsi

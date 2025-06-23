@@ -2,7 +2,7 @@
 - type: entity
   parent: BaseMobSpeciesOrganic
   id: BaseMobXelthia
-  name: entity-basemobxelthia-name
+  name: Urist McTentacles
   abstract: true
   components:
   - type: Hunger
@@ -173,11 +173,11 @@
 
 - type: entity
   save: false
-  name: entity-mobxelthiadummy-name
+  name: Urist McHands
   parent: MobHumanDummy
   id: MobXelthiaDummy
   categories: [ HideSpawnMenu ]
-  description: entity-mobxelthiadummy-description
+  description: A dummy xelthia meant to be used in character setup.
   components:
   - type: HumanoidAppearance
     species: Xelthia

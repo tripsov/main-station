@@ -9,7 +9,7 @@
 - type: entity
   parent: Implanter
   id: ImplanterSyndi
-  description: entity-implantersyndi-description
+  description: A compact disposable syringe exclusively designed for the quick injection and extraction of subdermal implants.
   components:
     - type: Item
       sprite: Objects/Specific/Medical/syndi_implanter.rsi
@@ -22,7 +22,7 @@
 - type: entity
   parent: BaseImplantOnlyImplanterSyndi
   id: HardlightSpearImplanter
-  name: entity-hardlightspearimplanter-name
+  name: hardlight spear implanter
   suffix: hardlight spear
   components:
     - type: Implanter

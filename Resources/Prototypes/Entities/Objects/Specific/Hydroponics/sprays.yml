@@ -1,8 +1,8 @@
 - type: entity
-  name: entity-plantbgonespray-name
+  name: Plant-B-Gone
   id: PlantBGoneSpray
   parent: SprayBottle
-  description: entity-plantbgonespray-description
+  description: Kills those pesky weeds!
   suffix: "Filled"
   components:
   - type: Tag
@@ -25,10 +25,10 @@
     heldPrefix: plantbgone
 
 - type: entity
-  name: entity-weedspray-name
+  name: weed spray
   id: WeedSpray
   parent: SprayBottle
-  description: entity-weedspray-description
+  description: It's a toxic mixture, in spray form, to kill small weeds.
   suffix: "Filled"
   components:
   - type: Sprite
@@ -54,10 +54,10 @@
     sprite: Objects/Tools/Hydroponics/sprays.rsi
 
 - type: entity
-  name: entity-pestspray-name
+  name: pest spray
   id: PestSpray
   parent: WeedSpray
-  description: entity-pestspray-description
+  description: It's some pest eliminator spray! Do not inhale!
   suffix: "Filled"
   components:
   - type: Sprite

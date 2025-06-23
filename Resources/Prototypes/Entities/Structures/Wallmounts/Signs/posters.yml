@@ -30,7 +30,7 @@
 - type: entity
   parent: BaseSign
   id: PosterBroken
-  name: entity-posterbroken-name
+  name: broken poster
   description: "You can't make out anything from the poster's original print. It's ruined."
   components:
   - type: Sprite
@@ -1130,7 +1130,7 @@
   parent: PosterBase
   id: PosterLegitJustAWeekAway
   name: "Just a Week Away..."
-  description: entity-posterlegitjustaweekaway-description
+  description: A poster advertising a long delayed project, it still claims it to be 'just a week away...'
   components:
   - type: Sprite
     state: poster38_legit

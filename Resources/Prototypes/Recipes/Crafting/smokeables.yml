@@ -1,5 +1,5 @@
 - type: construction
-  name: construction-smokeablejoint-name
+  name: joint
   id: smokeableJoint
   graph: smokeable # WD EDIT
   startNode: start
@@ -10,7 +10,7 @@
   objectType: Item
 
 - type: construction
-  name: construction-smokeablejointrainbow-name
+  name: rainbow joint
   id: smokeableJointRainbow
   graph: smokeable # WD EDIT
   startNode: start
@@ -21,7 +21,7 @@
   objectType: Item
 
 - type: construction
-  name: construction-smokeableblunt-name
+  name: blunt
   id: smokeableBlunt
   graph: smokeableBlunt
   startNode: start
@@ -32,7 +32,7 @@
   objectType: Item
 
 - type: construction
-  name: construction-smokeablebluntrainbow-name
+  name: rainbow blunt
   id: smokeableBluntRainbow
   graph: smokeableBlunt # WWDP
   startNode: start
@@ -43,7 +43,7 @@
   objectType: Item
 
 - type: construction
-  name: construction-smokeable-name
+  name: cigarette
   id: smokeable # WD EDIT
   graph: smokeable # WD EDIT
   startNode: start
@@ -56,7 +56,7 @@
 # I wanted to put a hand-grinder here but we need construction graphs that use non-consumed catalysts first.
 
 - type: construction
-  name: construction-smokeablegroundcannabis-name
+  name: ground cannabis
   id: smokeableGroundCannabis
   graph: smokeableGroundCannabis
   startNode: start
@@ -68,7 +68,7 @@
   objectType: Item
 
 - type: construction
-  name: construction-smokeablegroundcannabisrainbow-name
+  name: ground rainbow cannabis
   id: smokeableGroundCannabisRainbow
   graph: smokeableGroundCannabisRainbow
   startNode: start
@@ -79,7 +79,7 @@
   objectType: Item
 
 - type: construction
-  name: construction-smokeablegroundtobacco-name
+  name: ground tobacco
   id: smokeableGroundTobacco
   graph: smokeableGroundTobacco
   startNode: start

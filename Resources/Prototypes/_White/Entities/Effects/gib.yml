@@ -1,6 +1,6 @@
 ﻿- type: entity
   id: giber
-  name: entity-giber-name
+  name: giber
   components:
   - type: InteractionOutline
   - type: Physics

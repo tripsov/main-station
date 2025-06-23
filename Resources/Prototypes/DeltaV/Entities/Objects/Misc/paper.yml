@@ -1,5 +1,5 @@
 - type: entity
-  name: entity-paperstationwarrant-name
+  name: station warrant
   parent: Paper
   id: PaperStationWarrant
   description: 'A paper warrant issued by the justice department.'
@@ -27,7 +27,7 @@
 - type: entity
   parent: Paper
   id: PaperCrateHydroCoConsumption
-  name: entity-papercratehydrococonsumption-name
+  name: HydroCo Notice
   categories: [ HideSpawnMenu ]
   components:
   - type: Paper
@@ -54,7 +54,7 @@
 - type: entity
   parent: Paper
   id: PaperMailHydroCoTrial
-  name: entity-papermailhydrocotrial-name
+  name: HydroCo Trial Message
   categories: [ HideSpawnMenu ]
   components:
   - type: Paper

@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: BaseHandheldInstrument
   id: TrumpetInstrument
-  name: entity-trumpetinstrument-name
-  description: entity-trumpetinstrument-description
+  name: trumpet
+  description: The favorite instrument of jazz musicians and egotistical middle schoolers.
   components:
   - type: Instrument
     program: 56
@@ -23,8 +23,8 @@
 - type: entity
   parent: BaseHandheldInstrument
   id: TromboneInstrument
-  name: entity-tromboneinstrument-name
-  description: entity-tromboneinstrument-description
+  name: trombone
+  description: Everyone's favorite sliding brass instrument.
   components:
   - type: Instrument
     program: 57
@@ -41,8 +41,8 @@
 - type: entity
   parent: BaseHandheldInstrument
   id: FrenchHornInstrument
-  name: entity-frenchhorninstrument-name
-  description: entity-frenchhorninstrument-description
+  name: french horn
+  description: The fact that holding it involves using your hand to muffle it may suggest something about its sound.
   components:
   - type: Instrument
     program: 60
@@ -59,8 +59,8 @@
 - type: entity
   parent: BaseHandheldInstrument
   id: EuphoniumInstrument
-  name: entity-euphoniuminstrument-name
-  description: entity-euphoniuminstrument-description
+  name: euphonium
+  description: A baby tuba? A Baritone? Whatever it is, it's a pretty cool mess of pipes.
   components:
   - type: Instrument
     program: 3

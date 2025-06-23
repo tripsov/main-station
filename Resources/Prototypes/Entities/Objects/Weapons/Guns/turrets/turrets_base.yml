@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseWeaponTurretNoHTR # WD EDIT
   id: BaseWeaponTurret
-  name: entity-baseweaponturret-name
+  name: turret
   abstract: true
   components:
     - type: HTN
@@ -16,8 +16,8 @@
 - type: entity
   parent: BaseWeaponTurret
   id: BaseWeaponBallisticTurret
-  description: entity-baseweaponballisticturret-description
-  name: entity-baseweaponballisticturret-name
+  description: A ballistic machine gun auto-turret.
+  name: ballistic turret
   abstract: true
   components:
     - type: ContainerContainer
@@ -39,7 +39,7 @@
 - type: entity
   parent: [BaseWeaponBallisticTurret, BaseTurret3D] # wwdp edit
   id: BaseWeaponTurretMinigun
-  name: entity-baseweaponturretminigun-name
+  name: minigun turret
   abstract: true
   components:
     - type: Gun
@@ -60,8 +60,8 @@
 - type: entity
   parent: BaseWeaponTurret
   id: BaseWeaponEnergyTurret
-  name: entity-baseweaponenergyturret-name
-  description: entity-baseweaponenergyturret-description
+  name: laser turret
+  description: An auto-turret armed with a heavy laser. Its weapon will recharge while connected to an active power grid.
   abstract: true
   components:
   - type: Sprite

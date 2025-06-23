@@ -1,8 +1,8 @@
 - type: entity
   parent: CombatKnife
   id: AntiPsychicKnife
-  name: entity-antipsychicknife-name
-  description: entity-antipsychicknife-description
+  name: anti-psychic knife
+  description: A special knife designed for killing psychics.
   components:
   - type: MeleeWeapon
     attackRate: .6666

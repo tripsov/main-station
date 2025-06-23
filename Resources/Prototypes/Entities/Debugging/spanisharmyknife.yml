@@ -1,8 +1,8 @@
 - type: entity
-  name: entity-tooldebug-name
+  name: spanish army knife
   parent: BaseItem
   id: ToolDebug
-  description: entity-tooldebug-description
+  description: The pain of using this is almost too great to bear.
   suffix: DEBUG
   components:
   - type: Tag

@@ -1,7 +1,7 @@
 - type: entity
   id: GhostBarSpawner
   parent: MarkerBase
-  name: entity-ghostbarspawner-name
+  name: ghost bar spawn point
   components:
   - type: Sprite
     sprite: Markers/jobs.rsi

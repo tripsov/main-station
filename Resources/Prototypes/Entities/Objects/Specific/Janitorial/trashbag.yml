@@ -1,5 +1,5 @@
 - type: entity
-  name: entity-trashbag-name
+  name: trash bag
   id: TrashBag
   parent: BaseStorageItem
   components:
@@ -39,7 +39,7 @@
     size: Normal
 
 - type: entity
-  name: entity-trashbag-name
+  name: trash bag
   id: TrashBagBlue
   parent: TrashBag
   components:
@@ -53,7 +53,7 @@
     fillBaseName: blue-icon
 
 - type: entity
-  name: entity-bagofsummoninggarbage-name
+  name: spell of all-consuming cleanliness
   id: BagOfSummoningGarbage
   parent: TrashBagBlue
   components:

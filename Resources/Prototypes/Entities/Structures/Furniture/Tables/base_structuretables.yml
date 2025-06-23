@@ -1,8 +1,8 @@
 - type: entity
   id: TableBase
   parent: BaseStructure
-  name: entity-tablebase-name
-  description: entity-tablebase-description
+  name: table
+  description: A square piece of metal standing on four metal legs.
   abstract: true
   components:
   - type: Damageable
@@ -43,7 +43,7 @@
 - type: entity
   id: CounterBase
   parent: TableBase
-  name: entity-counterbase-name
+  name: counter
   abstract: true
   components:
   - type: Fixtures
