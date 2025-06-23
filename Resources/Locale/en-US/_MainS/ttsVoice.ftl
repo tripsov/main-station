@@ -1,0 +1,9 @@
+ttsvoice-npc1-name = голос NPC 1
+ttsvoice-npc2-name = голос NPC 2
+ttsvoice-npc3-name = голос NPC 3
+ttsvoice-garithos-name = голос Гаритоса
+ttsvoice-trainingrobot-name = голос учебного робота
+ttsvoice-kelthuzad-name = голос Кел’Тузада
+ttsvoice-maiev-name = голос Маев
+ttsvoice-myron-name = голос Майрона
+ttsvoice-borgs-name = голос боргов
