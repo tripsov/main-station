@@ -3,8 +3,8 @@
   id: CrateCybersunDarkGygaxBundle
   suffix: Filled
   parent: CrateSyndicate
-  name: entity-cratecybersundarkgygaxbundle-name
-  description: entity-cratecybersundarkgygaxbundle-description
+  name: Cybersun gygax bundle
+  description: Contains a set of Cybersan light armored mechs.
   components:
   - type: StorageFill
     contents:
@@ -18,8 +18,8 @@
   id: CrateCybersunMaulerBundle
   suffix: Filled
   parent: CrateSyndicate
-  name: entity-cratecybersunmaulerbundle-name
-  description: entity-cratecybersunmaulerbundle-description
+  name: Cybersun mauler bundle
+  description: Contains a set of Cybersan heavy armored mechs.
   components:
   - type: StorageFill
     contents:
@@ -33,7 +33,7 @@
   suffix: Filled
   parent: CrateSyndicate
   id: CrateSyndicateDreadnought
-  name: entity-cratesyndicatedreadnought-name
+  name: cybersun dreadnought bundle
   description: "An advanced cybersun dreadnought bundle."
   components:
   - type: StorageFill

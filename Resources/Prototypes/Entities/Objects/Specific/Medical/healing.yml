@@ -14,8 +14,8 @@
     price: 0
 
 - type: entity
-  name: entity-ointment-name
-  description: entity-ointment-description
+  name: ointment
+  description: Used to treat those nasty burns. Less effective on caustic burns.
   parent: BaseHealingItem
   id: Ointment
   suffix: Full
@@ -65,8 +65,8 @@
     count: 10
 
 - type: entity
-  name: entity-regenerativemesh-name
-  description: entity-regenerativemesh-description
+  name: regenerative mesh
+  description: Used to treat even the nastiest burns. Also effective against caustic burns.
   parent: BaseHealingItem
   id: RegenerativeMesh
   suffix: Full
@@ -107,8 +107,8 @@
     count: 1
 
 - type: entity
-  name: entity-brutepack-name
-  description: entity-brutepack-description
+  name: bruise pack
+  description: A therapeutic gel pack and bandages designed to treat blunt-force trauma.
   parent: BaseHealingItem
   id: Brutepack
   suffix: Full
@@ -153,8 +153,8 @@
     count: 10
 
 - type: entity
-  name: entity-medicatedsuture-name
-  description: entity-medicatedsuture-description
+  name: medicated suture
+  description: A suture soaked in medicine, treats blunt-force trauma effectively and closes wounds.
   parent: BaseHealingItem
   id: MedicatedSuture
   suffix: Full
@@ -194,8 +194,8 @@
     count: 1
 
 - type: entity
-  name: entity-bloodpack-name
-  description: entity-bloodpack-description
+  name: blood pack
+  description: Contains a groundbreaking universal blood replacement created by Nanotrasen's advanced medical science.
   parent: BaseHealingItem
   id: Bloodpack
   suffix: Full
@@ -233,8 +233,8 @@
 - type: entity
   parent: BaseHealingItem
   id: Tourniquet
-  name: entity-tourniquet-name
-  description: entity-tourniquet-description
+  name: tourniquet
+  description: Stops bleeding! Hopefully.
   components:
     - type: Tag
       tags:
@@ -257,8 +257,8 @@
         path: "/Audio/Items/Medical/brutepack_end.ogg"
 
 - type: entity
-  name: entity-gauze-name
-  description: entity-gauze-description
+  name: roll of gauze
+  description: Some sterile gauze to wrap around bloody stumps.
   parent: BaseHealingItem
   id: Gauze
   suffix: Full
@@ -307,8 +307,8 @@
     count: 1
 
 - type: entity
-  name: entity-aloecream-name
-  description: entity-aloecream-description
+  name: aloe cream
+  description: A topical cream for burns.
   parent: Ointment ##Yes it's a direct reskin
   id: AloeCream
   components:
@@ -322,8 +322,8 @@
 - type: entity
   parent: BaseHealingItem
   id: HealingToolbox
-  name: entity-healingtoolbox-name
-  description: entity-healingtoolbox-description
+  name: healing toolbox
+  description: A powerful toolbox imbued with robust energy. It can heal your wounds and fill you with murderous intent.
   suffix: DO NOT MAP
   components:
   - type: Sprite
@@ -866,7 +866,7 @@
 
 # Syringes
 - type: entity
-  name: entity-syringeephedrine-name
+  name: ephedrine syringe
   parent: PrefilledSyringe
   id: SyringeEphedrine
   components:
@@ -879,7 +879,7 @@
           Quantity: 15
 
 - type: entity
-  name: entity-syringeinaprovaline-name
+  name: inaprovaline syringe
   parent: PrefilledSyringe
   id: SyringeInaprovaline
   components:
@@ -892,7 +892,7 @@
           Quantity: 15
 
 - type: entity
-  name: entity-syringetranexamicacid-name
+  name: tranexamic acid syringe
   parent: PrefilledSyringe
   id: SyringeTranexamicAcid
   components:
@@ -905,7 +905,7 @@
           Quantity: 15
 
 - type: entity
-  name: entity-syringebicaridine-name
+  name: bicaridine syringe
   parent: PrefilledSyringe
   id: SyringeBicaridine
   components:
@@ -918,7 +918,7 @@
           Quantity: 15
 
 - type: entity
-  name: entity-syringedermaline-name
+  name: dermaline syringe
   parent: PrefilledSyringe
   id: SyringeDermaline
   components:
@@ -931,7 +931,7 @@
           Quantity: 15
 
 - type: entity
-  name: entity-syringehyronalin-name
+  name: hyronalin syringe
   parent: PrefilledSyringe
   id: SyringeHyronalin
   components:
@@ -944,7 +944,7 @@
           Quantity: 15
 
 - type: entity
-  name: entity-syringeipecac-name
+  name: ipecac syringe
   parent: PrefilledSyringe
   id: SyringeIpecac
   components:
@@ -957,7 +957,7 @@
           Quantity: 15
 
 - type: entity
-  name: entity-syringeambuzol-name
+  name: ambuzol syringe
   parent: PrefilledSyringe
   id: SyringeAmbuzol
   components:
@@ -970,7 +970,7 @@
               Quantity: 15
 
 - type: entity
-  name: entity-syringesigynate-name
+  name: sigynate syringe
   parent: PrefilledSyringe
   id: SyringeSigynate
   components:
@@ -983,7 +983,7 @@
               Quantity: 15
 
 - type: entity
-  name: entity-syringeethylredoxrazine-name
+  name: ethylredoxrazine syringe
   parent: PrefilledSyringe
   id: SyringeEthylredoxrazine
   components:
@@ -996,7 +996,7 @@
               Quantity: 15
 
 - type: entity
-  name: entity-syringephalanximine-name
+  name: phalanximine syringe
   parent: PrefilledSyringe
   id: SyringePhalanximine
   components:
@@ -1009,7 +1009,7 @@
               Quantity: 15
 
 - type: entity
-  name: entity-syringesaline-name
+  name: saline syringe
   parent: PrefilledSyringe
   id: SyringeSaline
   components:
@@ -1023,7 +1023,7 @@
 
 #this is where all the syringes are so i didn't know where to put it
 - type: entity
-  name: entity-syringeromerol-name
+  name: romerol syringe
   parent: PrefilledSyringe
   id: SyringeRomerol
   components:
@@ -1036,7 +1036,7 @@
           Quantity: 15
 
 - type: entity
-  name: entity-syringestimulants-name
+  name: stimulants syringe
   parent: PrefilledSyringe
   id: SyringeStimulants
   components:

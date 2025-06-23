@@ -1,8 +1,8 @@
 - type: entity
-  name: entity-courierbag-name
+  name: courier bag
   id: CourierBag
   parent: MailBag
-  description: entity-courierbag-description
+  description: Keeps your parcels safe.
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Belt/courierbag.rsi

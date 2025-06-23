@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: SheetOtherBase
   id: RunedMetal
-  name: entity-runedmetal-name
-  description: entity-runedmetal-description
+  name: runic metal
+  description: An unusual sheet of metal with a pulsating rune.
   suffix: Full
   components:
   - type: Sprite

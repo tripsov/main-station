@@ -1,6 +1,6 @@
 - type: entity
-  name: entity-abductorhandcuffs-name
-  description: entity-abductorhandcuffs-description
+  name: wondercuffs
+  description: Made out of a metal more durable than anything Nanotrasen could dream of.
   id: AbductorHandcuffs
   parent: Handcuffs
   components:

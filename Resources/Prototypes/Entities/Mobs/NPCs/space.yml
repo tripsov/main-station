@@ -1,9 +1,9 @@
 - type: entity
-  name: entity-mobspacebasic-name
+  name: basic
   id: MobSpaceBasic
   parent: SimpleSpaceMobBase
   abstract: true
-  description: entity-mobspacebasic-description
+  description: It looks friendly. Why don't you give it a hug?
   components:
   - type: HTN
     rootTask:
@@ -70,10 +70,10 @@
   - type: Fauna # Lavaland Change
 
 - type: entity
-  name: entity-mobbearspace-name
+  name: space bear
   id: MobBearSpace
   parent: MobSpaceBasic
-  description: entity-mobspacebasic-description
+  description: It looks friendly. Why don't you give it a hug?
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -120,10 +120,10 @@
   - type: SalvageMobRestrictions
 
 - type: entity
-  name: entity-mobkangaroospace-name
+  name: space kangaroo
   id: MobKangarooSpace
   parent: MobSpaceBasic
-  description: entity-mobspacebasic-description
+  description: It looks friendly. Why don't you give it a hug?
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -186,10 +186,10 @@
   - type: SalvageMobRestrictions
 
 - type: entity
-  name: entity-mobspiderspace-name
+  name: space spider
   id: MobSpiderSpace
   parent: MobSpaceBasic
-  description: entity-mobspiderspace-description
+  description: It's so glowing, it looks dangerous.
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -290,10 +290,10 @@
   - type: SalvageMobRestrictions
 
 - type: entity
-  name: entity-mobcobraspace-name
+  name: space cobra
   id: MobCobraSpace
   parent: MobSpaceBasic
-  description: entity-mobcobraspace-description
+  description: Long fangs and a glowing hood, and the alluring look begs to come closer.
   components:
     - type: Body # Shitmed Change
       prototype: SpaceCobra
@@ -388,8 +388,8 @@
 - type: entity
   parent: SimpleSpaceMobBase
   id: MobSnail
-  name: entity-mobsnail-name
-  description: entity-mobsnail-description
+  name: snail
+  description: Revolting unless you're french.
   components:
   - type: Body
     prototype: Mouse
@@ -568,7 +568,7 @@
 - type: entity
   parent: MobSnail
   id: MobSnailMoth
-  name: entity-mobsnailmoth-name
+  name: Snoth
   components:
   - type: Body
     prototype: Mothroach

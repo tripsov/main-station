@@ -1,9 +1,9 @@
 # Curd cheese, substitute for a lot of things
 - type: entity
-  name: entity-foodcurdcheese-name
+  name: curd cheese
   parent: FoodBakingBase
   id: FoodCurdCheese
-  description: entity-foodcurdcheese-description
+  description: Known by many names throughout cuisine, curd cheese is useful for a wide variety of dishes.
   components:
   - type: FlavorProfile
     flavors:
@@ -26,10 +26,10 @@
       - ClothMade # Mothic Food
 
 - type: entity
-  name: entity-foodcheesecurds-name
+  name: cheese curds
   parent: FoodBakingBase
   id: FoodCheeseCurds
-  description: entity-foodcheesecurds-description
+  description: Not to be mistaken for curd cheese. Tasty deep fried.
   components:
   - type: FlavorProfile
     flavors:
@@ -50,10 +50,10 @@
 
 # Mozzarella
 - type: entity
-  name: entity-foodmozzarella-name
+  name: mozzarella cheese
   parent: FoodBakingBase
   id: FoodMozzarella
-  description: entity-foodmozzarella-description
+  description: Delicious, creamy, and cheesy, all in one simple package.
   components:
   - type: FlavorProfile
     flavors:
@@ -75,10 +75,10 @@
       - ClothMade # Mothic Food
 
 - type: entity
-  name: entity-foodmothherbycheese-name
+  name: herby cheese
   parent: FoodBakingBase
   id: FoodMothHerbyCheese
-  description: entity-foodmothherbycheese-description
+  description: As a staple of mothic cuisine, cheese is often augmented with various flavours to keep variety in their diet.
   components:
   - type: FlavorProfile
     flavors:
@@ -104,10 +104,10 @@
 #Tastes like cheese, herbs
 
 - type: entity
-  name: entity-foodmothsaladbase-name
+  name: mothic salad
   parent: FoodBowlBase
   id: FoodMothSaladBase
-  description: entity-foodmothsaladbase-description
+  description: A basic salad of cabbage, red onion and tomato.
   components:
   - type: FlavorProfile
     flavors:

@@ -1,9 +1,9 @@
 - type: entity
-  name: entity-filingcabinet-name
+  name: filing cabinet
   parent: [ BaseStructureDynamic, BaseBagOpenClose ]
   id: filingCabinet
   suffix: Empty
-  description: entity-filingcabinet-description
+  description: A cabinet for all your filing needs.
   components:
   - type: Storage
     grid:
@@ -69,7 +69,7 @@
     price: 20
 
 - type: entity
-  name: entity-filingcabinettall-name
+  name: tall cabinet
   parent: filingCabinet
   id: filingCabinetTall
   suffix: Empty
@@ -87,11 +87,11 @@
     node: tallCabinet
 
 - type: entity
-  name: entity-filingcabinetdrawer-name
+  name: chest drawer
   parent: [ BaseStructureDynamic, BaseBagOpenClose ] ##wwdp fix
   id: filingCabinetDrawer
   suffix: Empty
-  description: entity-filingcabinetdrawer-description
+  description: A small drawer for all your filing needs, Now with wheels!
   components:
   - type: Storage
     grid:

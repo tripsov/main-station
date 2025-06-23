@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseMachineCircuitboard
   id: AutodocCircuitboard
-  name: entity-autodoccircuitboard-name
-  description: entity-autodoccircuitboard-description
+  name: autodoc machine board
+  description: A machine printed circuit board for an autodoc.
   components:
   - type: MachineBoard
     prototype: Autodoc
@@ -41,8 +41,8 @@
 - type: entity
   id: MedicalBiofabMachineBoard
   parent: BaseMachineCircuitboard
-  name: entity-medicalbiofabmachineboard-name
-  description: entity-medicalbiofabmachineboard-description
+  name: medical biofab machine board
+  description: A machine printed circuit board for a medical biofab.
   components:
   - type: Sprite
     state: medical

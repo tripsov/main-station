@@ -1,7 +1,7 @@
 - type: entity
   id: BulletBB
-  description: entity-bulletbb-description
-  name: entity-bulletbb-name
+  description: Don't shoot your eye out.
+  name: BB
   parent: BaseItem
   components:
     - type: Item

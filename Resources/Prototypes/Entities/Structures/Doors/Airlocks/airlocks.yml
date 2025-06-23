@@ -108,7 +108,7 @@
 - type: entity
   parent: Airlock
   id: AirlockMaint
-  name: entity-airlockmaint-name
+  name: maintenance access
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/maint.rsi
@@ -142,7 +142,7 @@
 - type: entity
   parent: Airlock
   id: AirlockHatch
-  name: entity-airlockhatch-name
+  name: airtight hatch
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/hatch.rsi
@@ -150,7 +150,7 @@
 - type: entity
   parent: Airlock
   id: AirlockHatchMaintenance
-  name: entity-airlockhatchmaintenance-name
+  name: maintenance hatch
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/hatch_maint.rsi

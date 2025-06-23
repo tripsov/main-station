@@ -2,7 +2,7 @@
 - type: entity
   id: CarpetBase
   parent: BaseStructure
-  name: entity-carpetbase-name
+  name: carpet
   description: "Fancy walking surface."
   abstract: true
   components:

@@ -3,8 +3,8 @@
 - type: entity
   id: N14FreeTableBase # Base off this for metal tables
   parent: BaseStructure
-  name: entity-n14freetablebase-name
-  description: entity-n14freetablebase-description
+  name: table
+  description: A square piece of metal standing on four metal legs.
   abstract: true
   components:
   - type: Damageable
@@ -60,9 +60,9 @@
 - type: entity
   parent: N14TableMetalRound
   id: N14TableMetalRoundDirty
-  name: entity-n14tablemetalrounddirty-name
+  name: round table
   suffix: dirty
-  description: entity-n14tablemetalrounddirty-description
+  description: A round metal table. Prison like.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/Tables/tables.rsi
@@ -71,8 +71,8 @@
 - type: entity
   parent: N14FreeTableBase
   id: N14TableDeskSchool
-  name: entity-n14tabledeskschool-name
-  description: entity-n14tabledeskschool-description
+  name: end table
+  description: A wooden end table.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/Tables/tables.rsi
@@ -92,8 +92,8 @@
 - type: entity
   parent: N14TableDeskSchool
   id: N14TableWoodEnd
-  name: entity-n14tabledeskschool-name
-  description: entity-n14tabledeskschool-description
+  name: end table
+  description: A wooden end table.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/Tables/tables.rsi
@@ -113,8 +113,8 @@
 - type: entity
   parent: N14TableWoodSquare
   id: N14TableWoodRound
-  name: entity-n14tablewoodround-name
-  description: entity-n14tablewoodround-description
+  name: wooden table
+  description: A wooden round table.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/Tables/tables.rsi
@@ -123,8 +123,8 @@
 - type: entity
   parent: N14TableDeskSchool
   id: N14TableWoodSquare
-  name: entity-n14tablewoodround-name
-  description: entity-n14tablewoodsquare-description
+  name: wooden table
+  description: A wooden square table.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/Tables/tables.rsi
@@ -144,8 +144,8 @@
 - type: entity
   parent: N14TableWoodSquare
   id: N14TableWoodLow
-  name: entity-n14tablewoodround-name
-  description: entity-n14tablewoodlow-description
+  name: wooden table
+  description: A low wooden square table.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/Tables/tables.rsi
@@ -162,8 +162,8 @@
 - type: entity
   parent: N14TableWoodSquare
   id: N14TableWoodCabledrum
-  name: entity-n14tablewoodcabledrum-name
-  description: entity-n14tablewoodcabledrum-description
+  name: cable drum
+  description: A convenient table.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/Tables/tables.rsi
@@ -172,8 +172,8 @@
 - type: entity
   parent: N14TableWoodSquare
   id: N14TableCasinoDice
-  name: entity-n14tablecasinodice-name
-  description: entity-n14tablecasinodice-description
+  name: dice table
+  description: A table for playing dice games.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/Tables/tables.rsi
@@ -192,8 +192,8 @@
 - type: entity
   parent: N14FreeTableBase
   id: N14TableDeskMetal
-  name: entity-n14tabledeskmetal-name
-  description: entity-n14tabledeskmetal-description
+  name: metal desk
+  description: A metal desk for working at. Sturdy.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/Tables/desks.rsi
@@ -231,8 +231,8 @@
 - type: entity
   parent: N14TableDeskSchool
   id: N14TableDeskWood
-  name: entity-n14tabledeskwood-name
-  description: entity-n14tabledeskwood-description
+  name: wooden desk
+  description: A wooden desk for working at.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/Tables/desks.rsi
@@ -271,8 +271,8 @@
 - type: entity
   parent: N14TableDeskWood
   id: N14TableCasinoCards
-  name: entity-n14tablecasinocards-name
-  description: entity-n14tablecasinocards-description
+  name: cards table
+  description: A fancy table for playing cards at.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/64x64_furniture.rsi
@@ -281,8 +281,8 @@
 - type: entity
   parent: N14TableCasinoCards
   id: N14TableCasinoPool
-  name: entity-n14tablecasinopool-name
-  description: entity-n14tablecasinopool-description
+  name: pool table
+  description: A fancy table for playing pool at.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/64x64_furniture.rsi
@@ -291,8 +291,8 @@
 - type: entity
   parent: N14TableCasinoCards
   id: N14TableWoodenOvalWide
-  name: entity-n14tablewoodround-name
-  description: entity-n14tablewoodenovalwide-description
+  name: wooden table
+  description: An oval table made from wood.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/64x64_furniture.rsi
@@ -301,8 +301,8 @@
 - type: entity
   parent: N14TableCasinoCards
   id: N14TableWoodenSquareWide
-  name: entity-n14tablewoodround-name
-  description: entity-n14tablewoodensquarewide-description
+  name: wooden table
+  description: A wide square table made from wood.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/64x64_furniture.rsi
@@ -311,8 +311,8 @@
 - type: entity
   parent: N14TableCasinoCards
   id: N14TableMetalWide
-  name: entity-n14tablemetalwide-name
-  description: entity-n14tablemetalwide-description
+  name: metal table
+  description: A wide metal table.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/64x64_furniture.rsi
@@ -322,7 +322,7 @@
 - type: entity
   parent: N14TableDeskSchool
   id: N14TableCounter
-  name: entity-n14tablecounter-name
+  name: wooden counter
   suffix: full
   components:
   - type: Sprite
@@ -370,7 +370,7 @@
 - type: entity
   parent: N14TableCounter
   id: N14TableCounterCraft
-  description: entity-n14tablecountercraft-description
+  description: This counter looks like scrap.
   suffix: craft full
   components:
   - type: Sprite
@@ -407,8 +407,8 @@
 - type: entity
   parent: N14FreeTableBase
   id: N14TableCounterMetal
-  name: entity-n14tablecountermetal-name
-  description: entity-n14tablecountermetal-description
+  name: metal counter
+  description: A cold, hard metal counter.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/Tables/counters.rsi
@@ -456,8 +456,8 @@
 - type: entity
   id: N14TableMetalGrate
   parent: Table
-  name: entity-n14tablemetalwide-name
-  description: entity-n14tablemetalgrate-description
+  name: metal table
+  description: A cold handmade metal table made from grating.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/Tables/metalgrate.rsi
@@ -470,8 +470,8 @@
 - type: entity
   id: N14TableWoodSettler
   parent: Table
-  name: entity-n14tablewoodround-name
-  description: entity-n14tablewoodsettler-description
+  name: wooden table
+  description: A wooden table used by settlers.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/Tables/table_settler.rsi
@@ -495,8 +495,8 @@
 - type: entity
   parent: TableWood
   id: N14TableCounterBar
-  name: entity-n14tablecounterbar-name
-  description: entity-n14tablecounterbar-description
+  name: bar counter
+  description: An alcohol stained bartop.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/Tables/barcounter.rsi

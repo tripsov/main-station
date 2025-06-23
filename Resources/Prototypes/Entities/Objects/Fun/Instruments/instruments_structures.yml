@@ -1,8 +1,8 @@
 ﻿- type: entity
-  name: entity-pianoinstrument-name
+  name: piano
   parent: BasePlaceableInstrumentRotatable
   id: PianoInstrument
-  description: entity-pianoinstrument-description
+  description: Play Needles Piano Now.
   components:
   - type: Instrument
     program: 1
@@ -11,10 +11,10 @@
   - type: Climbable
 
 - type: entity
-  name: entity-uprightpianoinstrument-name
+  name: upright piano
   parent: BasePlaceableInstrumentRotatable
   id: UprightPianoInstrument
-  description: entity-uprightpianoinstrument-description
+  description: I said Piannie!
   components:
   - type: Instrument
     program: 3
@@ -23,10 +23,10 @@
   - type: Climbable
 
 - type: entity
-  name: entity-vibraphoneinstrument-name
+  name: vibraphone
   id: VibraphoneInstrument
   parent: BasePlaceableInstrumentRotatable
-  description: entity-vibraphoneinstrument-description
+  description: Good vibes all around.
   components:
   - type: Instrument
     program: 11
@@ -34,7 +34,7 @@
     state: vibraphone
 
 - type: entity
-  name: entity-marimbainstrument-name
+  name: marimba
   id: MarimbaInstrument
   parent: BasePlaceableInstrumentRotatable
   components:
@@ -44,10 +44,10 @@
     state: marimba
 
 - type: entity
-  name: entity-churchorganinstrument-name
+  name: church organ
   parent: BasePlaceableInstrumentRotatable
   id: ChurchOrganInstrument
-  description: entity-churchorganinstrument-description
+  description: This thing really blows!
   components:
   - type: Instrument
     program: 19
@@ -55,10 +55,10 @@
     state: church-organ
 
 - type: entity
-  name: entity-tubainstrument-name
+  name: tuba
   parent: BasePlaceableInstrument
   id: TubaInstrument
-  description: entity-tubainstrument-description
+  description: The big daddy of the brass family. Standing next to its majesty makes you feel insecure.
   components:
   - type: Instrument
     program: 58
@@ -68,8 +68,8 @@
 - type: entity
   id: HarpInstrument
   parent: BasePlaceableInstrument
-  name: entity-harpinstrument-name
-  description: entity-harpinstrument-description
+  name: harp
+  description: Plucking at the strings cuts your fingers, but at least the music is pretty.
   components:
   - type: Instrument
     program: 46
@@ -79,8 +79,8 @@
 - type: entity
   id: TimpaniInstrument
   parent: BasePlaceableInstrumentRotatable
-  name: entity-timpaniinstrument-name
-  description: entity-timpaniinstrument-description
+  name: timpani
+  description: It goes BOOM BOOM BOOM BOOM!
   components:
   - type: Instrument
     program: 47
@@ -90,8 +90,8 @@
 - type: entity
   id: TaikoInstrument
   parent: BasePlaceableInstrumentRotatable
-  name: entity-taikoinstrument-name
-  description: entity-taikoinstrument-description
+  name: taiko
+  description: A large drum. Looking at it fills you with the urge to slap it.
   components:
   - type: Instrument
     program: 116
@@ -101,8 +101,8 @@
 - type: entity
   id: ContrabassInstrument
   parent: BasePlaceableInstrument
-  name: entity-contrabassinstrument-name
-  description: entity-contrabassinstrument-description
+  name: contrabass
+  description: Perfect for laying down a nice jazzy beat.
   components:
   - type: Instrument
     program: 43
@@ -126,10 +126,10 @@
         - BulletImpassable
 
 - type: entity
-  name: entity-minimooginstrument-name
+  name: minimoog
   parent: BasePlaceableInstrumentRotatable
   id: MinimoogInstrument
-  description: entity-minimooginstrument-description
+  description: This is a minimoog, like a space piano, but more spacey!
   components:
   - type: Instrument
     program: 81
@@ -139,8 +139,8 @@
 - type: entity
   id: TomDrumsInstrument
   parent: BasePlaceableInstrumentRotatable
-  name: entity-tomdrumsinstrument-name
-  description: entity-tomdrumsinstrument-description
+  name: tom drums
+  description: Where'd the rest of the kit go?
   components:
   - type: Instrument
     program: 117
@@ -150,8 +150,8 @@
 - type: entity
   parent: [ BasePlaceableInstrument, ConstructibleMachine]
   id: DawInstrument
-  name: entity-dawinstrument-name
-  description: entity-dawinstrument-description
+  name: digital audio workstation
+  description: Cutting edge music technology, straight from the 90s.
   components:
   - type: Sprite
     layers:

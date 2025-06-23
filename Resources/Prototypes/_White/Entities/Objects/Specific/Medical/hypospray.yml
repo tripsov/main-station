@@ -1,8 +1,8 @@
 - type: entity
-  name: entity-stimpackexperimental-name
+  name: experimental stimulant injector
   parent: ChemicalMedipen
   id: StimpackExperimental
-  description: entity-stimpackexperimental-description
+  description: There's a red label on the side of it. It says "PRODUCT HAS EXTREME SIDE EFFECTS, PRODUCTION HALTED. DO NOT DISTRIBUTE."
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/medipen.rsi

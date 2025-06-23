@@ -1,8 +1,8 @@
 - type: entity
   id: CrateFunATV
   parent: CrateLivestock
-  name: entity-cratefunatv-name
-  description: entity-cratefunatv-description
+  name: ATV crate
+  description: An Absolutely Taxable Vehicle to help cargo with hauling.
   components:
   - type: StorageFill
     contents:
@@ -12,8 +12,8 @@
 - type: entity
   id: CrateFunSyndicateSegway
   parent: CrateLivestock
-  name: entity-cratefunsyndicatesegway-name
-  description: entity-cratefunsyndicatesegway-description
+  name: Syndicate segway crate
+  description: A crate containing a two-wheeler that will help you escape from the security officers. Or not.
   components:
     - type: StorageFill
       contents:

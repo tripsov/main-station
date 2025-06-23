@@ -1,8 +1,8 @@
 - type: entity
   parent: [ClothingShoesBase, BaseToggleClothing]
   id: ClothingShoesBootsMagBase
-  name: entity-clothingshoesbootsmagbase-name
-  description: entity-clothingshoesbootsmagbase-description
+  name: magboots
+  description: Magnetic boots, often used during extravehicular activity to ensure the user remains safely attached to the vehicle.
   abstract: true
   components:
   - type: Sprite
@@ -41,8 +41,8 @@
 - type: entity
   parent: ClothingShoesBootsMag
   id: ClothingShoesBootsMagAdv
-  name: entity-clothingshoesbootsmagadv-name
-  description: entity-clothingshoesbootsmagadv-description
+  name: advanced magboots
+  description: State-of-the-art magnetic boots that do not slow down their wearer.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Boots/magboots-advanced.rsi
@@ -69,8 +69,8 @@
 - type: entity
   parent: ClothingShoesBootsMag
   id: ClothingShoesBootsMagBlinding
-  name: entity-clothingshoesbootsmagblinding-name
-  description: entity-clothingshoesbootsmagblinding-description
+  name: magboots of blinding speed
+  description: These would look fetching on a fetcher like you.
   components:
   - type: ClothingSpeedModifier
     walkModifier: 1.10 #PVS isn't too much of an issue when you are blind...
@@ -81,8 +81,8 @@
 - type: entity
   parent: [ClothingShoesBootsMagBase, BaseJetpack]
   id: ClothingShoesBootsMagSyndie
-  name: entity-clothingshoesbootsmagsyndie-name
-  description: entity-clothingshoesbootsmagsyndie-description
+  name: blood-red magboots
+  description: Reverse-engineered magnetic boots that have a heavy magnetic pull and integrated thrusters.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Boots/magboots-syndicate.rsi
@@ -129,8 +129,8 @@
 - type: entity
   parent: ClothingShoesBootsMag
   id: ClothingShoesBootsMagEng
-  name: entity-clothingshoesbootsmageng-name
-  description: entity-clothingshoesbootsmageng-description
+  name: engineering magboots
+  description: Expensive magboots made with lighter materials for quick engineering responses.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Boots/magboots.rsi
@@ -154,8 +154,8 @@
 - type: entity
   parent: [ClothingShoesBootsMag, ClothingSlotBase] # WD EDIT - ClothingSlotBase
   id: ClothingShoesBootsMagSec
-  name: entity-clothingshoesbootsmagsec-name
-  description: entity-clothingshoesbootsmagsec-description
+  name: combat magboots
+  description: Heavy-duty magboots with added protection and a convenient sidearm strap.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Boots/magboots-combat.rsi
@@ -200,8 +200,8 @@
 
 - type: entity
   id: ActionToggleMagboots
-  name: entity-actiontogglemagboots-name
-  description: entity-actiontogglemagboots-description
+  name: Toggle Magboots
+  description: Toggles the magboots on and off.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction

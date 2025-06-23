@@ -1,23 +1,23 @@
 ﻿- type: stack
   id: ArtifactFragment
-  name: stack-artifactfragment-name
+  name: artifact fragment
   spawn: ArtifactFragment1
   maxCount: 30
 
 - type: stack
   id: Capacitor
-  name: stack-capacitor-name
+  name: capacitor
   spawn: CapacitorStockPart
   maxCount: 10
 
 - type: stack
   id: MicroManipulator
-  name: stack-micromanipulator-name
+  name: micro manipulator
   spawn: MicroManipulatorStockPart
   maxCount: 10
 
 - type: stack
   id: MatterBin
-  name: stack-matterbin-name
+  name: matter bin
   spawn: MatterBinStockPart
   maxCount: 10

@@ -1,8 +1,8 @@
 ﻿- type: entity
-  name: entity-weaponsecurityriotlauncher-name
+  name: riot launcher
   parent: BaseItem
   id: WeaponSecurityRiotLauncher
-  description: entity-weaponsecurityriotlauncher-description
+  description: A compact, single-shot launcher that fires grenades.
   components:
   - type: Sprite
     sprite: _White/Objects/Weapons/Guns/Launchers/riot_launcher.rsi

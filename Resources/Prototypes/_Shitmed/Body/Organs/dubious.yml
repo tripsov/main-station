@@ -1,10 +1,10 @@
 - type: entity
   id: OrganDubiousBase
   parent: OrganHumanHeart
-  name: entity-organdubiousbase-name
+  name: mysterious gland
   categories: [ HideSpawnMenu ]
   abstract: true
-  description: entity-organdubiousbase-description
+  description: Suspicious alien gland, replaces the heart.
   components:
   - type: Sprite
     sprite: _Shitmed/Mobs/Species/Misc/Dubious/organs.rsi

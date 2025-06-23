@@ -1,6 +1,6 @@
 - type: entity
   id: BulletSpecial
-  name: entity-bulletspecial-name
+  name: bullet (.38 special)
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:
@@ -11,7 +11,7 @@
 
 - type: entity
   id: BulletSpecialPractice
-  name: entity-bulletspecialpractice-name
+  name: bullet (.38 special practice)
   parent: BaseBulletPractice
   categories: [ HideSpawnMenu ]
   components:
@@ -22,7 +22,7 @@
 
 - type: entity
   id: BulletSpecialIncendiary
-  name: entity-bulletspecialincendiary-name
+  name: bullet (.38 special incendiary)
   parent: BaseBulletIncendiary
   categories: [ HideSpawnMenu ]
   components:
@@ -34,7 +34,7 @@
 
 - type: entity
   id: BulletSpecialUranium
-  name: entity-bulletspecialuranium-name
+  name: bullet (.38 special uranium)
   parent: BaseBulletUranium
   categories: [ HideSpawnMenu ]
   components:
@@ -46,7 +46,7 @@
 
 - type: entity
   id: BulletSpecialHoly
-  name: entity-bulletspecialholy-name
+  name: bullet (.38 special holy)
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:
@@ -58,7 +58,7 @@
 
 - type: entity
   id: BulletSpecialMindbreaker
-  name: entity-bulletspecialmindbreaker-name
+  name: bullet (.38 special mindbreaker)
   parent: BaseBulletPractice
   categories: [ HideSpawnMenu ]
   components:

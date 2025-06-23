@@ -2,8 +2,8 @@
   parent: BaseItem
   abstract: true
   id: BaseRegulatorLamp
-  name: entity-baseregulatorlamp-name
-  description: entity-baseregulatorlamp-description
+  name: regulator lamp
+  description: A 90s looking lamp.
   components:
   - type: Sprite
     sprite: _White/Objects/Weapons/Guns/regulator_lamp.rsi
@@ -76,14 +76,14 @@
 - type: entity
   parent: BaseRegulatorLamp
   id: BasicRegulatorLamp
-  name: entity-basicregulatorlamp-name
-  description: entity-basicregulatorlamp-description
+  name: standard-issue regulator lamp
+  description: A 90s looking lamp. You're not sure what it's really for, but without it most energy weapons will not work.
 
 - type: entity
   parent: BaseRegulatorLamp
   id: AdvancedRegulatorLamp
-  name: entity-advancedregulatorlamp-name
-  description: entity-advancedregulatorlamp-description
+  name: advanced regulator lamp
+  description: A 00s looking lamp.
   components:
   - type: Sprite
     sprite: _White/Objects/Weapons/Guns/regulator_lamp.rsi
@@ -98,10 +98,10 @@
     unsafeTemp: 840
 
 - type: entity
-  name: entity-boxbasicregulatorlamp-name
+  name: regulator lamp box
   parent: BoxCardboard
   id: BoxBasicRegulatorLamp
-  description: entity-boxbasicregulatorlamp-description
+  description: The saviour of incompetent security officers sector-wide. Holds 6 spare regulator lamps.
   components:
   - type: StorageFill
     contents:
@@ -115,10 +115,10 @@
       - RegulatorLamp
 
 - type: entity
-  name: entity-boxbasicregulatorlampbig-name
+  name: big regulator lamp box
   parent: BoxCardboard
   id: BoxBasicRegulatorLampBig
-  description: entity-boxbasicregulatorlampbig-description
+  description: The saviour of incompetent security officers sector-wide. Holds 12 spare regulator lamps.
   components:
   - type: StorageFill
     contents:

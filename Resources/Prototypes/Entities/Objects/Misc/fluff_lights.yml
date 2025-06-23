@@ -1,5 +1,5 @@
 - type: entity
-  name: entity-baselamp-name
+  name: lantern
   parent: BaseItem
   id: BaseLamp
   abstract: true
@@ -54,10 +54,10 @@
     stealGroup: LAMP
 
 - type: entity
-  name: entity-lamp-name
+  name: lamp
   id: Lamp
   parent: BaseLamp
-  description: entity-lamp-description
+  description: A light emitting device.
   components:
   - type: Sprite
     sprite: Objects/Misc/Lights/lamp.rsi
@@ -83,10 +83,10 @@
           festive: { state: christmaslamp-on }
 
 - type: entity
-  name: entity-lampbanana-name
+  name: banana lamp
   id: LampBanana
   parent: BaseLamp
-  description: entity-lampbanana-description
+  description: A light emitting device, shaped like a banana.
   components:
   - type: Sprite
     layers:
@@ -97,10 +97,10 @@
         map: [ "light" ]
 
 - type: entity
-  name: entity-lampgold-name
+  name: desk lamp
   id: LampGold
   parent: BaseLamp
-  description: entity-lampgold-description
+  description: A light emitting device that would look great on a desk.
   components:
   - type: Sprite
     sprite: Objects/Misc/Lights/lampgreen.rsi
@@ -130,10 +130,10 @@
             state: christmaslamp-on
 
 - type: entity
-  name: entity-lampinterrogator-name
+  name: interrogator lamp
   id: LampInterrogator
   parent: BaseLamp
-  description: entity-lampinterrogator-description
+  description: Ultra-bright lamp for the bad cop
   components:
   - type: Sprite
     sprite: Objects/Misc/Lights/lampint.rsi
@@ -184,10 +184,10 @@
           False: {visible: false}
 
 - type: entity
-  name: entity-floodlight-name
+  name: floodlight
   id: Floodlight
   parent: BaseLamp
-  description: entity-floodlight-description
+  description: A pole with powerful mounted lights on it.
   components:
   - type: Item
     size: Normal
@@ -240,10 +240,10 @@
         acts: [ "Destruction" ]
 
 - type: entity
-  name: entity-floodlightbroken-name
+  name: broken floodlight
   id: FloodlightBroken
   parent: BaseItem
-  description: entity-floodlightbroken-description
+  description: A pole with powerful mounted lights on it. It's broken.
   components:
   - type: Sprite
     sprite: Objects/Misc/Lights/lights.rsi

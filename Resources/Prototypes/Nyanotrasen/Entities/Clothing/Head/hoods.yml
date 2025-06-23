@@ -4,8 +4,8 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterMailCarrier
   categories: [ HideSpawnMenu ]
-  name: entity-clothingheadhathoodwintermailcarrier-name
-  description: entity-clothingheadhathoodwintermailcarrier-description
+  name: mail carrier's winter coat hood
+  description: A hood for keeping the humble mailman's head warm while making all those deliveries.
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Head/Hoods/Coat/hoodmail.rsi

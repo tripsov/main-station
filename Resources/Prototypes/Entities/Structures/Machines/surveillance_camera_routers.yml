@@ -2,8 +2,8 @@
   abstract: true
   parent: [ BaseMachinePowered, ConstructibleMachine ]
   id: SurveillanceCameraRouterBase
-  name: entity-surveillancecamerarouterbase-name
-  description: entity-surveillancecamerarouterbase-description
+  name: camera router
+  description: A surveillance camera router. It routes. Perhaps.
   components:
     - type: DeviceNetwork
       deviceNetId: Wired
@@ -106,8 +106,8 @@
 - type: entity
   parent: [ BaseMachinePowered, ConstructibleMachine ]
   id: SurveillanceCameraWirelessRouterBase
-  name: entity-surveillancecamerawirelessrouterbase-name
-  description: entity-surveillancecamerawirelessrouterbase-description
+  name: wireless camera router
+  description: A wireless surveillance camera router. It routes. Perhaps.
   components:
     - type: DeviceNetwork
       deviceNetId: Wireless

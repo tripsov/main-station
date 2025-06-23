@@ -1,6 +1,6 @@
 - type: palette
   id: Browns
-  name: palette-browns-name
+  name: brown
   colors:
     brown: "#6e4e40"
     brown1: "#593d31"

@@ -1,6 +1,6 @@
 - type: entity
   id: BaseMagazinePistolSpecial
-  name: entity-basemagazinepistolspecial-name
+  name: pistol magazine (.38 special)
   parent: BaseItem
   abstract: true
   components:
@@ -33,7 +33,7 @@
 
 - type: entity
   id: MagazinePistolSpecial
-  name: entity-basemagazinepistolspecial-name
+  name: pistol magazine (.38 special)
   parent: BaseMagazinePistolSpecial
   components:
   - type: BallisticAmmoProvider
@@ -47,7 +47,7 @@
 
 - type: entity
   id: MagazinePistolSpecialPractice
-  name: entity-magazinepistolspecialpractice-name
+  name: pistol magazine (.38 special practice)
   parent: BaseMagazinePistolSpecial
   components:
   - type: BallisticAmmoProvider
@@ -61,7 +61,7 @@
 
 - type: entity
   id: MagazinePistolSpecialMindbreaker
-  name: entity-magazinepistolspecialmindbreaker-name
+  name: pistol magazine (.38 special mindbreaker)
   parent: BaseMagazinePistolSpecial
   components:
   - type: BallisticAmmoProvider

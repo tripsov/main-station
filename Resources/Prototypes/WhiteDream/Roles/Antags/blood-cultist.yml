@@ -16,7 +16,7 @@
 - type: entity
   parent: BaseMindRoleAntag
   id: MindRoleBloodCultist
-  name: entity-mindrolebloodcultist-name
+  name: Blood Cultist Role
 #  description: mind-role-traitor-description
   components:
   - type: MindRole

@@ -4,8 +4,8 @@
 - type: entity
   id: RGBStaff
   parent: BaseItem
-  name: entity-rgbstaff-name
-  description: entity-rgbstaff-description
+  name: RGB staff
+  description: Helps fix the underabundance of RGB gear on the station.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Basic/staves.rsi

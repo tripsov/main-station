@@ -1,8 +1,8 @@
 ﻿- type: entity
   id: AutolatheMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: entity-autolathemachinecircuitboard-name
-  description: entity-autolathemachinecircuitboard-description
+  name: autolathe machine board
+  description: A machine printed circuit board for an autolathe
   components:
     - type: MachineBoard
       prototype: Autolathe
@@ -15,8 +15,8 @@
 - type: entity
   parent: BaseMachineCircuitboard
   id: AutolatheHyperConvectionMachineCircuitboard
-  name: entity-autolathehyperconvectionmachinecircuitboard-name
-  description: entity-autolathehyperconvectionmachinecircuitboard-description
+  name: hyper convection autolathe machine board
+  description: A machine printed circuit board for a hyper convection autolathe
   components:
   - type: MachineBoard
     prototype: AutolatheHyperConvection
@@ -37,8 +37,8 @@
 - type: entity
   id: ProtolatheMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: entity-protolathemachinecircuitboard-name
-  description: entity-protolathemachinecircuitboard-description
+  name: protolathe machine board
+  description: A machine printed circuit board for a protolathe.
   components:
     - type: MachineBoard
       prototype: Protolathe
@@ -54,8 +54,8 @@
 - type: entity
   parent: BaseMachineCircuitboard
   id: ProtolatheHyperConvectionMachineCircuitboard
-  name: entity-protolathehyperconvectionmachinecircuitboard-name
-  description: entity-protolathehyperconvectionmachinecircuitboard-description
+  name: hyper convection protolathe machine board
+  description: A machine printed circuit board for a hyper convection protolathe.
   components:
   - type: MachineBoard
     prototype: ProtolatheHyperConvection
@@ -78,8 +78,8 @@
 - type: entity
   id: BiofabricatorMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: entity-biofabricatormachinecircuitboard-name
-  description: entity-biofabricatormachinecircuitboard-description
+  name: biofabricator machine board
+  description: A machine printed circuit board for a biofabricator.
   components:
     - type: MachineBoard
       prototype: Biofabricator
@@ -95,8 +95,8 @@
 - type: entity
   id: SecurityTechFabCircuitboard
   parent: BaseMachineCircuitboard
-  name: entity-securitytechfabcircuitboard-name
-  description: entity-securitytechfabcircuitboard-description
+  name: security techfab machine board
+  description: A machine printed circuit board for a security techfab.
   components:
     - type: Sprite
       state: security
@@ -114,8 +114,8 @@
 - type: entity
   id: AmmoTechFabCircuitboard
   parent: BaseMachineCircuitboard
-  name: entity-ammotechfabcircuitboard-name
-  description: entity-ammotechfabcircuitboard-description
+  name: ammo techfab circuit board
+  description: A machine printed circuit board for an ammo techfab
   components:
     - type: Sprite
       state: security
@@ -128,8 +128,8 @@
 - type: entity
   id: MedicalTechFabCircuitboard
   parent: BaseMachineCircuitboard
-  name: entity-medicaltechfabcircuitboard-name
-  description: entity-medicaltechfabcircuitboard-description
+  name: medical techfab machine board
+  description: A machine printed circuit board for a medical techfab.
   components:
     - type: Sprite
       state: medical
@@ -149,7 +149,7 @@
 - type: entity
   id: CircuitImprinterMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: entity-circuitimprintermachinecircuitboard-name
+  name: circuit imprinter machine board
   components:
   - type: Sprite
     state: science
@@ -167,8 +167,8 @@
 - type: entity
   parent: BaseMachineCircuitboard
   id: CircuitImprinterHyperConvectionMachineCircuitboard
-  name: entity-circuitimprinterhyperconvectionmachinecircuitboard-name
-  description: entity-circuitimprinterhyperconvectionmachinecircuitboard-description
+  name: hyper convection circuit imprinter machine board
+  description: A machine printed circuit board for a hyper convection circuit imprinter.
   components:
   - type: Sprite
     state: science
@@ -189,7 +189,7 @@
 - type: entity
   id: ExosuitFabricatorMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: entity-exosuitfabricatormachinecircuitboard-name
+  name: exosuit fabricator machine board
   components:
   - type: Sprite
     state: science
@@ -212,8 +212,8 @@
 - type: entity
   id: ResearchAndDevelopmentServerMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: entity-researchanddevelopmentservermachinecircuitboard-name
-  description: entity-researchanddevelopmentservermachinecircuitboard-description
+  name: R&D server machine board
+  description: A machine printed circuit board for the R&D server.
   components:
   - type: Sprite
     state: science
@@ -225,7 +225,7 @@
 - type: entity
   id: UniformPrinterMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: entity-uniformprintermachinecircuitboard-name
+  name: uniform printer machine board
   components:
   - type: MachineBoard
     prototype: UniformPrinter
@@ -236,7 +236,7 @@
 - type: entity
   id: VaccinatorMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: entity-vaccinatormachinecircuitboard-name
+  name: vaccinator machine board
   components:
   - type: Sprite
     state: medical
@@ -260,7 +260,7 @@
 - type: entity
   id: DiagnoserMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: entity-diagnosermachinecircuitboard-name
+  name: diagnoser machine board
   components:
   - type: Sprite
     state: medical
@@ -286,8 +286,8 @@
 - type: entity
   id: ArtifactAnalyzerMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: entity-artifactanalyzermachinecircuitboard-name
-  description: entity-artifactanalyzermachinecircuitboard-description
+  name: artifact analyzer machine board
+  description: A machine printed circuit board for an artifact analyzer.
   components:
     - type: Sprite
       state: science
@@ -306,8 +306,8 @@
 - type: entity
   id: ArtifactCrusherMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: entity-artifactcrushermachinecircuitboard-name
-  description: entity-artifactcrushermachinecircuitboard-description
+  name: artifact crusher machine board
+  description: A machine printed circuit board for an artifact crusher.
   components:
   - type: Sprite
     state: science
@@ -326,8 +326,8 @@
 - type: entity
   parent: BaseMachineCircuitboard
   id: AnomalyVesselCircuitboard
-  name: entity-anomalyvesselcircuitboard-name
-  description: entity-anomalyvesselcircuitboard-description
+  name: anomaly vessel machine board
+  description: A machine printed circuit board for an anomaly vessel.
   components:
     - type: Sprite
       state: science
@@ -346,8 +346,8 @@
 - type: entity
   parent: BaseMachineCircuitboard
   id: AnomalyVesselExperimentalCircuitboard
-  name: entity-anomalyvesselexperimentalcircuitboard-name
-  description: entity-anomalyvesselexperimentalcircuitboard-description
+  name: experimental anomaly vessel machine board
+  description: A machine printed circuit board for an experimental anomaly vessel.
   components:
   - type: Sprite
     state: science
@@ -367,8 +367,8 @@
 - type: entity
   parent: BaseMachineCircuitboard
   id: AnomalySynchronizerCircuitboard
-  name: entity-anomalysynchronizercircuitboard-name
-  description: entity-anomalysynchronizercircuitboard-description
+  name: anomaly synchronizer machine board
+  description: A machine printed circuit board for an anomaly synchronizer.
   components:
     - type: Sprite
       state: science
@@ -388,8 +388,8 @@
 - type: entity
   parent: BaseMachineCircuitboard
   id: APECircuitboard
-  name: entity-apecircuitboard-name
-  description: entity-apecircuitboard-description
+  name: A.P.E. machine board
+  description: A machine printed circuit board for an A.P.E.
   components:
     - type: Sprite
       state: science
@@ -408,8 +408,8 @@
 - type: entity
   id: ThermomachineFreezerMachineCircuitBoard
   parent: BaseMachineCircuitboard
-  name: entity-thermomachinefreezermachinecircuitboard-name
-  description: entity-thermomachinefreezermachinecircuitboard-description
+  name: freezer thermomachine machine board
+  description: Looks like you could use a screwdriver to change the board type.
   components:
   - type: Sprite
     state: engineering
@@ -432,8 +432,8 @@
 - type: entity
   id: ThermomachineHeaterMachineCircuitBoard
   parent: BaseMachineCircuitboard
-  name: entity-thermomachineheatermachinecircuitboard-name
-  description: entity-thermomachinefreezermachinecircuitboard-description
+  name: heater thermomachine machine board
+  description: Looks like you could use a screwdriver to change the board type.
   components:
   - type: Sprite
     state: engineering
@@ -452,8 +452,8 @@
 - type: entity
   parent: BaseMachineCircuitboard
   id: HellfireFreezerMachineCircuitBoard
-  name: entity-hellfirefreezermachinecircuitboard-name
-  description: entity-thermomachinefreezermachinecircuitboard-description
+  name: hellfire freezer machine board
+  description: Looks like you could use a screwdriver to change the board type.
   components:
   - type: Sprite
     state: engineering
@@ -476,8 +476,8 @@
 - type: entity
   parent: BaseMachineCircuitboard
   id: HellfireHeaterMachineCircuitBoard
-  name: entity-hellfireheatermachinecircuitboard-name
-  description: entity-thermomachinefreezermachinecircuitboard-description
+  name: hellfire heater machine board
+  description: Looks like you could use a screwdriver to change the board type.
   components:
   - type: Sprite
     state: engineering
@@ -496,8 +496,8 @@
 - type: entity
   id: CondenserMachineCircuitBoard
   parent: BaseMachineCircuitboard
-  name: entity-condensermachinecircuitboard-name
-  description: entity-condensermachinecircuitboard-description
+  name: condenser machine board
+  description: A machine printed circuit board for a condenser.
   components:
   - type: Sprite
     state: engineering
@@ -511,8 +511,8 @@
 - type: entity
   id: PortableScrubberMachineCircuitBoard
   parent: BaseMachineCircuitboard
-  name: entity-portablescrubbermachinecircuitboard-name
-  description: entity-portablescrubbermachinecircuitboard-description
+  name: portable scrubber machine board
+  description: A machine printed circuit board for a portable scrubber.
   components:
   - type: Sprite
     state: engineering
@@ -531,8 +531,8 @@
 - type: entity
   id: SpaceHeaterMachineCircuitBoard
   parent: BaseMachineCircuitboard
-  name: entity-spaceheatermachinecircuitboard-name
-  description: entity-spaceheatermachinecircuitboard-description
+  name: space heater machine board
+  description: A machine printed circuit board for a space heater.
   components:
   - type: Sprite
     state: engineering
@@ -547,8 +547,8 @@
 - type: entity
   id: CloningPodMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: entity-cloningpodmachinecircuitboard-name
-  description: entity-cloningpodmachinecircuitboard-description
+  name: cloning pod machine board
+  description: A machine printed circuit board for a cloning pod.
   components:
     - type: Sprite
       state: medical
@@ -568,8 +568,8 @@
 - type: entity
   id: MetempsychoticMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: entity-metempsychoticmachinecircuitboard-name
-  description: entity-metempsychoticmachinecircuitboard-description
+  name: metempsychotic machine machine board
+  description: A machine printed circuit board for a cloning pod
   components:
     - type: Sprite
       state: medical
@@ -589,8 +589,8 @@
 - type: entity
   id: MedicalScannerMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: entity-medicalscannermachinecircuitboard-name
-  description: entity-medicalscannermachinecircuitboard-description
+  name: medical scanner machine board
+  description: A machine printed circuit board for a medical scanner.
   components:
     - type: Sprite
       state: medical
@@ -609,8 +609,8 @@
 - type: entity
   id: CrewMonitoringServerMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: entity-crewmonitoringservermachinecircuitboard-name
-  description: entity-crewmonitoringservermachinecircuitboard-description
+  name: crew monitoring server machine board
+  description: A machine printed circuit board for a crew monitoring server.
   components:
     - type: MachineBoard
       prototype: CrewMonitoringServer
@@ -621,8 +621,8 @@
 - type: entity
   id: CryoPodMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: entity-cryopodmachinecircuitboard-name
-  description: entity-cryopodmachinecircuitboard-description
+  name: cryo pod machine board
+  description: A machine printed circuit board for a cryo pod.
   components:
     - type: Sprite
       state: medical
@@ -639,8 +639,8 @@
 - type: entity
   id: ChemMasterMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: entity-chemmastermachinecircuitboard-name
-  description: entity-chemmastermachinecircuitboard-description
+  name: ChemMaster 4000 machine board
+  description: A machine printed circuit board for a ChemMaster 4000.
   components:
     - type: Sprite
       state: medical
@@ -660,8 +660,8 @@
 - type: entity
   id: ChemDispenserMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: entity-chemdispensermachinecircuitboard-name
-  description: entity-chemdispensermachinecircuitboard-description
+  name: chem dispenser machine board
+  description: A machine printed circuit board for a chem dispenser.
   components:
     - type: Sprite
       state: medical
@@ -681,8 +681,8 @@
 - type: entity
   id: BiomassReclaimerMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: entity-biomassreclaimermachinecircuitboard-name
-  description: entity-biomassreclaimermachinecircuitboard-description
+  name: biomass reclaimer machine board
+  description: A machine printed circuit board for a biomass reclaimer.
   components:
     - type: MachineBoard
       prototype: BiomassReclaimer
@@ -704,8 +704,8 @@
 - type: entity
   id: HydroponicsTrayMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: entity-hydroponicstraymachinecircuitboard-name
-  description: entity-hydroponicstraymachinecircuitboard-description
+  name: hydroponics tray machine board
+  description: A machine printed circuit board for a hydroponics tray.
   components:
     - type: Sprite
       state: service
@@ -728,8 +728,8 @@
 - type: entity
   id: SeedExtractorMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: entity-seedextractormachinecircuitboard-name
-  description: entity-seedextractormachinecircuitboard-description
+  name: seed extractor machine board
+  description: A machine printed circuit board for a seed extractor.
   components:
     - type: Sprite
       state: service
@@ -750,8 +750,8 @@
 - type: entity
   id: SMESMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: entity-smesmachinecircuitboard-name
-  description: entity-smesmachinecircuitboard-description
+  name: SMES machine board
+  description: A machine printed circuit board for a SMES.
   components:
     - type: Sprite
       sprite: Objects/Misc/module.rsi
@@ -767,8 +767,8 @@
 - type: entity
   id: SMESAdvancedMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: entity-smesadvancedmachinecircuitboard-name
-  description: entity-smesadvancedmachinecircuitboard-description
+  name: advanced SMES machine board
+  description: A machine printed circuit board for an Advanced SMES.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -784,8 +784,8 @@
 - type: entity
   id: CellRechargerCircuitboard
   parent: BaseMachineCircuitboard
-  name: entity-cellrechargercircuitboard-name
-  description: entity-cellrechargercircuitboard-description
+  name: cell recharger machine board
+  description: A machine printed circuit board for a cell recharger.
   components:
     - type: Sprite
       sprite: Objects/Misc/module.rsi
@@ -806,8 +806,8 @@
 - type: entity
   id: PowerCageRechargerCircuitboard
   parent: BaseMachineCircuitboard
-  name: entity-powercagerechargercircuitboard-name
-  description: entity-powercagerechargercircuitboard-description
+  name: cage recharger machine board
+  description: A machine printed circuit board for a energy cage recharger.
   components:
     - type: Sprite
       sprite: Objects/Misc/module.rsi
@@ -829,8 +829,8 @@
 - type: entity
   id: BorgChargerCircuitboard
   parent: BaseMachineCircuitboard
-  name: entity-borgchargercircuitboard-name
-  description: entity-borgchargercircuitboard-description
+  name: cyborg recharging station machine board
+  description: A machine printed circuit board for a robot recharging station.
   components:
     - type: Sprite
       sprite: Objects/Misc/module.rsi
@@ -851,8 +851,8 @@
 - type: entity
   id: WeaponCapacitorRechargerCircuitboard
   parent: BaseMachineCircuitboard
-  name: entity-weaponcapacitorrechargercircuitboard-name
-  description: entity-weaponcapacitorrechargercircuitboard-description
+  name: recharger machine board
+  description: A machine printed circuit board for a recharger.
   components:
     - type: Sprite
       sprite: Objects/Misc/module.rsi
@@ -873,8 +873,8 @@
 - type: entity
   id: TurboItemRechargerCircuitboard
   parent: BaseMachineCircuitboard
-  name: entity-turboitemrechargercircuitboard-name
-  description: entity-turboitemrechargercircuitboard-description
+  name: turbo recharger machine board
+  description: A machine printed circuit board for a turbo recharger.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -897,8 +897,8 @@
 - type: entity
   id: SubstationMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: entity-substationmachinecircuitboard-name
-  description: entity-substationmachinecircuitboard-description
+  name: substation machine board
+  description: A machine printed circuit board for a substation.
   components:
     - type: MachineBoard
       prototype: SubstationBasicEmpty
@@ -919,7 +919,7 @@
 - type: entity
   parent: BaseMachineCircuitboard
   id: DawInstrumentMachineCircuitboard
-  name: entity-dawinstrumentmachinecircuitboard-name
+  name: digital audio workstation machine board
   components:
     - type: MachineBoard
       prototype: DawInstrument
@@ -956,7 +956,7 @@
 - type: entity
   id: PortableGeneratorPacmanMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: entity-portablegeneratorpacmanmachinecircuitboard-name
+  name: P.A.C.M.A.N.-type portable generator machine board
   components:
     - type: Sprite
       state: engineering
@@ -981,7 +981,7 @@
 - type: entity
   id: ThrusterMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: entity-thrustermachinecircuitboard-name
+  name: thruster machine board
   components:
   - type: MachineBoard
     prototype: Thruster
@@ -997,7 +997,7 @@
 - type: entity
   id: GyroscopeMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: entity-gyroscopemachinecircuitboard-name
+  name: gyroscope machine board
   components:
   - type: MachineBoard
     prototype: Gyroscope
@@ -1014,7 +1014,7 @@
 - type: entity
   id: PortableGeneratorSuperPacmanMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: entity-portablegeneratorsuperpacmanmachinecircuitboard-name
+  name: S.U.P.E.R.P.A.C.M.A.N.-type portable generator machine board
   components:
     - type: Sprite
       state: engineering
@@ -1039,7 +1039,7 @@
 - type: entity
   id: PortableGeneratorJrPacmanMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: entity-portablegeneratorjrpacmanmachinecircuitboard-name
+  name: J.R.P.A.C.M.A.N.-type portable generator machine board
   components:
     - type: Sprite
       state: engineering
@@ -1064,8 +1064,8 @@
 - type: entity
   id: ReagentGrinderMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: entity-reagentgrindermachinecircuitboard-name
-  description: entity-reagentgrindermachinecircuitboard-description
+  name: reagent grinder machine board
+  description: A machine printed circuit board for a reagent grinder.
   components:
     - type: MachineBoard
       prototype: KitchenReagentGrinder
@@ -1085,8 +1085,8 @@
 - type: entity
   id: HotplateMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: entity-hotplatemachinecircuitboard-name
-  description: entity-hotplatemachinecircuitboard-description
+  name: hotplate machine board
+  description: A machine printed circuit board for a hotplate.
   components:
     - type: MachineBoard
       prototype: ChemistryHotplate
@@ -1102,8 +1102,8 @@
 - type: entity
   parent: BaseMachineCircuitboard
   id: ElectricGrillMachineCircuitboard
-  name: entity-electricgrillmachinecircuitboard-name
-  description: entity-electricgrillmachinecircuitboard-description
+  name: electric grill machine board
+  description: A machine printed circuit board for an electric grill.
   components:
   - type: MachineBoard
     prototype: KitchenElectricGrill
@@ -1120,7 +1120,7 @@
 - type: entity
   id: StasisBedMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: entity-stasisbedmachinecircuitboard-name
+  name: stasis bed machine board
   components:
     - type: Sprite
       state: medical
@@ -1140,8 +1140,8 @@
 - type: entity
   id: ElectrolysisUnitMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: entity-electrolysisunitmachinecircuitboard-name
-  description: entity-electrolysisunitmachinecircuitboard-description
+  name: electrolysis unit machine board
+  description: A machine printed circuit board for an electrolysis unit.
   components:
   - type: Sprite
     state: medical
@@ -1155,8 +1155,8 @@
 - type: entity
   id: CentrifugeMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: entity-centrifugemachinecircuitboard-name
-  description: entity-centrifugemachinecircuitboard-description
+  name: centrifuge machine board
+  description: A machine printed circuit board for a centrifuge.
   components:
   - type: Sprite
     state: medical
@@ -1170,7 +1170,7 @@
 - type: entity
   id: MaterialReclaimerMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: entity-materialreclaimermachinecircuitboard-name
+  name: material reclaimer machine board
   components:
     - type: Sprite
       state: supply
@@ -1189,7 +1189,7 @@
 - type: entity
   id: OreProcessorMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: entity-oreprocessormachinecircuitboard-name
+  name: ore processor machine board
   components:
     - type: Sprite
       state: supply
@@ -1204,7 +1204,7 @@
 - type: entity
   parent: BaseMachineCircuitboard
   id: OreProcessorIndustrialMachineCircuitboard
-  name: entity-oreprocessorindustrialmachinecircuitboard-name
+  name: industrial ore processor machine board
   components:
   - type: Sprite
     state: supply
@@ -1223,7 +1223,7 @@
 - type: entity
   id: SheetifierMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: entity-sheetifiermachinecircuitboard-name
+  name: sheet-meister 2000 machine board
   components:
   - type: MachineBoard
     prototype: Sheetifier
@@ -1234,7 +1234,7 @@
 - type: entity
   id: MicrowaveMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: entity-microwavemachinecircuitboard-name
+  name: microwave machine board
   components:
     - type: Sprite
       state: service
@@ -1252,7 +1252,7 @@
 - type: entity
   id: SyndicateMicrowaveMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: entity-syndicatemicrowavemachinecircuitboard-name
+  name: donk co. microwave machine board
   components:
     - type: Sprite
       state: service
@@ -1267,7 +1267,7 @@
 - type: entity
   id: FatExtractorMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: entity-fatextractormachinecircuitboard-name
+  name: lipid extractor machine board
   components:
     - type: Sprite
       state: service
@@ -1288,7 +1288,7 @@
 - type: entity
   parent: BaseMachineCircuitboard
   id: FlatpackerMachineCircuitboard
-  name: entity-flatpackermachinecircuitboard-name
+  name: Flatpacker 1001 machine board
   components:
   - type: MachineBoard
     prototype: MachineFlatpacker
@@ -1305,7 +1305,7 @@
 - type: entity
   id: EmitterCircuitboard
   parent: BaseMachineCircuitboard
-  name: entity-emittercircuitboard-name
+  name: emitter machine board
   components:
     - type: Sprite
       state: engineering
@@ -1324,8 +1324,8 @@
 - type: entity
   id: SurveillanceCameraRouterCircuitboard
   parent: BaseMachineCircuitboard
-  name: entity-surveillancecameraroutercircuitboard-name
-  description: entity-surveillancecameraroutercircuitboard-description
+  name: surveillance camera router board
+  description: A machine printed circuit board for a surveillance camera router.
   components:
     - type: MachineBoard
       prototype: SurveillanceCameraRouterConstructed
@@ -1339,8 +1339,8 @@
 - type: entity
   id: SurveillanceCameraWirelessRouterCircuitboard
   parent: BaseMachineCircuitboard
-  name: entity-surveillancecamerawirelessroutercircuitboard-name
-  description: entity-surveillancecamerawirelessroutercircuitboard-description
+  name: surveillance camera wireless router board
+  description: A machine printed circuit board for a surveillance camera wireless router.
   components:
     - type: MachineBoard
       prototype: SurveillanceCameraWirelessRouterConstructed
@@ -1355,8 +1355,8 @@
 - type: entity
   id: SurveillanceWirelessCameraMovableCircuitboard
   parent: BaseMachineCircuitboard
-  name: entity-surveillancewirelesscameramovablecircuitboard-name
-  description: entity-surveillancewirelesscameramovablecircuitboard-description
+  name: movable wireless camera board
+  description: A machine printed circuit board for a movable wireless camera.
   components:
     - type: MachineBoard
       prototype: SurveillanceWirelessCameraMovableConstructed
@@ -1371,8 +1371,8 @@
 - type: entity
   id: SurveillanceWirelessCameraAnchoredCircuitboard
   parent: BaseMachineCircuitboard
-  name: entity-surveillancewirelesscameraanchoredcircuitboard-name
-  description: entity-surveillancewirelesscameraanchoredcircuitboard-description
+  name: wireless camera board
+  description: A machine printed circuit board for a wireless camera.
   components:
     - type: MachineBoard
       prototype: SurveillanceWirelessCameraAnchoredConstructed
@@ -1387,8 +1387,8 @@
 - type: entity
   id: GasRecyclerMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: entity-gasrecyclermachinecircuitboard-name
-  description: entity-gasrecyclermachinecircuitboard-description
+  name: gas recycler board
+  description: A printed circuit board for a gas recycler.
   components:
   - type: MachineBoard
     prototype: GasRecycler
@@ -1406,8 +1406,8 @@
 - type: entity
   id: BoozeDispenserMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: entity-boozedispensermachinecircuitboard-name
-  description: entity-boozedispensermachinecircuitboard-description
+  name: booze dispenser machine board
+  description: A machine printed circuit board for a booze dispenser.
   components:
     - type: Sprite
       state: service
@@ -1424,8 +1424,8 @@
 - type: entity
   id: CargoTelepadMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: entity-cargotelepadmachinecircuitboard-name
-  description: entity-cargotelepadmachinecircuitboard-description
+  name: cargo telepad machine board
+  description: A machine printed circuit board for a cargo telepad.
   components:
     - type: Sprite
       state: supply
@@ -1444,8 +1444,8 @@
 - type: entity
   id: SodaDispenserMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: entity-sodadispensermachinecircuitboard-name
-  description: entity-sodadispensermachinecircuitboard-description
+  name: soda dispenser machine board
+  description: A machine printed circuit board for a soda dispenser.
   components:
     - type: Sprite
       state: service
@@ -1462,8 +1462,8 @@
 - type: entity
   id: TelecomServerCircuitboard
   parent: BaseMachineCircuitboard
-  name: entity-telecomservercircuitboard-name
-  description: entity-telecomservercircuitboard-description
+  name: telecommunication server machine board
+  description: A machine printed circuit board for an telecommunication server.
   components:
     - type: MachineBoard
       prototype: TelecomServer
@@ -1477,8 +1477,8 @@
 - type: entity
   parent: BaseMachineCircuitboard
   id: SalvageMagnetMachineCircuitboard
-  name: entity-salvagemagnetmachinecircuitboard-name
-  description: entity-salvagemagnetmachinecircuitboard-description
+  name: salvage magnet machine board
+  description: A machine printed circuit board for a salvage magnet.
   components:
   - type: MachineBoard
     prototype: SalvageMagnet
@@ -1495,8 +1495,8 @@
 - type: entity
   parent: BaseMachineCircuitboard
   id: MiniGravityGeneratorCircuitboard
-  name: entity-minigravitygeneratorcircuitboard-name
-  description: entity-minigravitygeneratorcircuitboard-description
+  name: mini gravity generator machine board
+  description: A machine printed circuit board for a mini gravity generator.
   components:
   - type: MachineBoard
     prototype: GravityGeneratorMini
@@ -1515,8 +1515,8 @@
 - type: entity
   id: ShuttleGunSvalinnMachineGunCircuitboard
   parent: BaseMachineCircuitboard
-  name: entity-shuttlegunsvalinnmachineguncircuitboard-name
-  description: entity-shuttlegunsvalinnmachineguncircuitboard-description
+  name: LSE-400c "Svalinn machine gun" machine board
+  description: A machine printed circuit board for an LSE-400c "Svalinn machine gun"
   components:
   - type: Sprite
     state: security
@@ -1536,8 +1536,8 @@
 - type: entity
   id: ShuttleGunPerforatorCircuitboard
   parent: BaseMachineCircuitboard
-  name: entity-shuttlegunperforatorcircuitboard-name
-  description: entity-shuttlegunperforatorcircuitboard-description
+  name: LSE-1200c "Perforator" machine board
+  description: A machine printed circuit board for an LSE-1200c "Perforator"
   components:
   - type: Sprite
     state: security
@@ -1557,8 +1557,8 @@
 - type: entity
   id: ShuttleGunFriendshipCircuitboard
   parent: BaseMachineCircuitboard
-  name: entity-shuttlegunfriendshipcircuitboard-name
-  description: entity-shuttlegunfriendshipcircuitboard-description
+  name: EXP-320g "Friendship" machine board
+  description: A machine printed circuit board for an EXP-320g "Friendship"
   components:
   - type: Sprite
     state: security
@@ -1578,8 +1578,8 @@
 - type: entity
   id: ShuttleGunDusterCircuitboard
   parent: BaseMachineCircuitboard
-  name: entity-shuttlegundustercircuitboard-name
-  description: entity-shuttlegundustercircuitboard-description
+  name: EXP-2100g "Duster" machine board
+  description: A machine printed circuit board for an EXP-2100g "Duster"
   components:
   - type: Sprite
     state: security
@@ -1600,8 +1600,8 @@
 - type: entity
   id: ShuttleGunKineticCircuitboard
   parent: BaseMachineCircuitboard
-  name: entity-shuttlegunkineticcircuitboard-name
-  description: entity-shuttlegunkineticcircuitboard-description
+  name: PTK-800 "Matter Dematerializer" machine board
+  description: A machine printed circuit board for an PTK-800 "Matter Dematerializer"
   components:
   - type: Sprite
     state: security
@@ -1621,8 +1621,8 @@
 - type: entity
   parent: BaseMachineCircuitboard
   id: StationAnchorCircuitboard
-  name: entity-stationanchorcircuitboard-name
-  description: entity-stationanchorcircuitboard-description
+  name: station anchor machine board
+  description: A machine printed circuit board for a station anchor.
   components:
   - type: MachineBoard
     prototype: StationAnchor
@@ -1638,7 +1638,7 @@
 - type: entity
   parent: BaseMachineCircuitboard
   id: ReagentGrinderIndustrialMachineCircuitboard
-  name: entity-reagentgrinderindustrialmachinecircuitboard-name
+  name: industrial reagent grinder machine board
   components:
   - type: MachineBoard
     prototype: ReagentGrinderIndustrial
@@ -1655,8 +1655,8 @@
 - type: entity
   parent: BaseMachineCircuitboard
   id: JukeboxCircuitBoard
-  name: entity-jukeboxcircuitboard-name
-  description: entity-jukeboxcircuitboard-description
+  name: jukebox machine board
+  description: A machine printed circuit board for a jukebox.
   components:
   - type: MachineBoard
     prototype: Jukebox
@@ -1673,8 +1673,8 @@
 - type: entity
   id: TraversalDistorterMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: entity-traversaldistortermachinecircuitboard-name
-  description: entity-traversaldistortermachinecircuitboard-description
+  name: traversal distorter machine board
+  description: A machine printed circuit board for a traversal distorter.
   components:
     - type: Sprite
       state: science
@@ -1690,8 +1690,8 @@
 - type: entity
   id: MaterialSiloCircuitboard
   parent: BaseMachineCircuitboard
-  name: entity-materialsilocircuitboard-name
-  description: entity-materialsilocircuitboard-description
+  name: material silo machine board
+  description: A machine printed circuit board for a material silo.
   components:
     - type: Sprite
       state: supply
@@ -1707,8 +1707,8 @@
 - type: entity
   id: BookPressMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: entity-bookpressmachinecircuitboard-name
-  description: entity-bookpressmachinecircuitboard-description
+  name: book press machine board
+  description: A machine printed circuit board for a book press
   components:
     - type: MachineBoard
       prototype: BookPress

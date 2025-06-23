@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseComputer
   id: BaseComputerModular
-  name: entity-basecomputermodular-name
-  description: entity-basecomputermodular-description
+  name: modular computer
+  description: Part of a recent initiative to make computers less static. Comes with a disk slot for various "program disks".
   components:
     - type: Computer
       board: BaseComputerModularCircuitBoard
@@ -32,8 +32,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: BaseComputerModularCircuitBoard
-  name: entity-basecomputermodularcircuitboard-name
-  description: entity-basecomputermodularcircuitboard-description
+  name: modular computer board
+  description: A computer printed circuit board for a modular computer.
   components:
     - type: ComputerBoard
       prototype: BaseComputerModular

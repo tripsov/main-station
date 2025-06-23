@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: Gavel
-  name: entity-gavel-name
-  description: entity-gavel-description
+  name: gavel
+  description: A hardwood mallet made to keep order in the court.
   components:
     - type: Sprite
       sprite: DeltaV/Objects/Specific/Justice/gavel.rsi

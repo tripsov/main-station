@@ -6,6 +6,6 @@
 
 - type: hudTheme
   id: SS14HalloweenTheme
-  name: hudtheme-ss14halloweentheme-name
+  name: ui-options-hud-theme-halloween
   path: /Textures/_White/Interface/Halloween/
   order: 8

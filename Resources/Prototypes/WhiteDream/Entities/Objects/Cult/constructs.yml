@@ -1,7 +1,7 @@
 - type: entity
   id: ConstructShell
-  name: entity-constructshell-name
-  description: entity-constructshell-description
+  name: construct shell
+  description: empty construct shell
   parent: BaseItem
   components:
   - type: Sprite
@@ -113,8 +113,8 @@
 - type: entity
   id: ConstructJuggernaut
   parent: ConstructBase
-  name: entity-constructjuggernaut-name
-  description: entity-constructjuggernaut-description
+  name: juggernaut
+  description: A massive, armored construct built to spearhead attacks and soak up enemy fire.
   components:
   - type: Sprite
     layers:
@@ -154,8 +154,8 @@
 - type: entity
   parent: ConstructBase
   id: ConstructArtificer
-  name: entity-constructartificer-name
-  description: entity-constructartificer-description
+  name: artificer
+  description: A bulbous construct dedicated to building and maintaining the Cult of Nar'Sie's armies.
   components:
   - type: Sprite
     layers:
@@ -193,8 +193,8 @@
 - type: entity
   parent: ConstructBase
   id: ConstructWraith
-  name: entity-constructwraith-name
-  description: entity-constructwraith-description
+  name: wraith
+  description: A wicked, clawed shell constructed to assassinate enemies and sow chaos behind enemy lines.
   components:
   - type: Sprite
     layers:
@@ -239,8 +239,8 @@
 - type: entity
   id: ConstructHarvester
   parent: ConstructBase
-  name: entity-constructharvester-name
-  description: entity-constructharvester-description
+  name: harvester
+  description: A long, thin construct built to herald Nar'Sie's rise. It'll be all over soon.
   components:
   - type: Sprite
     layers:
@@ -269,8 +269,8 @@
 - type: entity
   id: ShadeCult
   parent: ConstructBase # It's not technically a construct but it code wise? it is.
-  name: entity-shadecult-name
-  description: entity-shadecult-description
+  name: shade
+  description: A bound spirit.
   components:
   - type: Sprite
     state: shade_cult
@@ -293,7 +293,7 @@
 - type: entity
   id: ConstructJuggernautHoly
   parent: ConstructJuggernaut
-  name: entity-constructjuggernautholy-name
+  name: purified juggernaut
   components:
   - type: Sprite
     layers:
@@ -314,8 +314,8 @@
 - type: entity
   id: ConstructArtificerHoly
   parent: ConstructArtificer
-  name: entity-constructartificerholy-name
-  description: entity-constructartificerholy-description
+  name: purified artificer
+  description: A bulbous construct dedicated to building and maintaining the holy armies.
   components:
   - type: Sprite
     layers:
@@ -339,7 +339,7 @@
 - type: entity
   id: ConstructWraithHoly
   parent: ConstructWraith
-  name: entity-constructwraithholy-name
+  name: purified wraith
   components:
   - type: Sprite
     layers:
@@ -360,7 +360,7 @@
 - type: entity
   id: ShadeHoly
   parent: ShadeCult
-  name: entity-shadeholy-name
+  name: purified shade
   components:
   - type: Sprite
     state: shade_holy

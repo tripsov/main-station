@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: BasePlushie
   id: PlushieSanabi
-  name: entity-plushiesanabi-name
-  description: entity-plushiesanabi-description
+  name: brigadier plushie
+  description: A small stuffed doll of the brigadier general.
   components:
   - type: Item
     size: Normal

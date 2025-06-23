@@ -1,8 +1,8 @@
 - type: entity
   parent: StunprodBase
   id: Snatcherprod
-  name: entity-snatcherprod-name
-  description: entity-snatcherprod-description
+  name: snatcher prod
+  description: It sparkles with a thirst for theft and treachery.
   components:
   - type: Sprite
     sprite: _White/Objects/Weapons/Melee/snatcherprod.rsi

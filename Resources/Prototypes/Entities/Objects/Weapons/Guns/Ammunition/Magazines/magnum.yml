@@ -1,6 +1,6 @@
 - type: entity
   id: BaseMagazineMagnum
-  name: entity-basemagazinemagnum-name
+  name: pistol magazine (.45 magnum)
   parent: BaseMagazinePistol
   abstract: true
   components:
@@ -49,7 +49,7 @@
 
 - type: entity
   id: MagazineMagnumEmpty
-  name: entity-magazinemagnumempty-name
+  name: pistol magazine (.45 magnum any)
   suffix: empty
   parent: BaseMagazineMagnum
   components:
@@ -62,7 +62,7 @@
 
 - type: entity
   id: MagazineMagnum
-  name: entity-basemagazinemagnum-name
+  name: pistol magazine (.45 magnum)
   parent: BaseMagazineMagnum
   components:
   - type: BallisticAmmoProvider
@@ -76,7 +76,7 @@
 
 - type: entity
   id: MagazineMagnumPractice
-  name: entity-magazinemagnumpractice-name
+  name: pistol magazine (.45 magnum practice)
   parent: BaseMagazineMagnum
   components:
   - type: BallisticAmmoProvider
@@ -90,7 +90,7 @@
 
 - type: entity
   id: MagazineMagnumIncendiary
-  name: entity-magazinemagnumincendiary-name
+  name: pistol magazine (.45 magnum incendiary)
   parent: BaseMagazineMagnum
   components:
   - type: BallisticAmmoProvider
@@ -104,7 +104,7 @@
 
 - type: entity
   id: MagazineMagnumUranium
-  name: entity-magazinemagnumuranium-name
+  name: pistol magazine (.45 magnum uranium)
   parent: BaseMagazineMagnum
   components:
   - type: BallisticAmmoProvider
@@ -118,7 +118,7 @@
 
 - type: entity
   id: MagazineMagnumAP
-  name: entity-magazinemagnumap-name
+  name: pistol magazine (.45 magnum armor-piercing)
   parent: BaseMagazineMagnum
   components:
   - type: BallisticAmmoProvider
@@ -132,7 +132,7 @@
 
 - type: entity
   id: MagazineMagnumShrapnel
-  name: entity-magazinemagnumshrapnel-name
+  name: pistol magazine (.45 magnum shrapnel)
   parent: BaseMagazineMagnum
   components:
   - type: BallisticAmmoProvider

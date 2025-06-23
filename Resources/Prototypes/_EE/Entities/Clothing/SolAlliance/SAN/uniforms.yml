@@ -2,9 +2,9 @@
 - type: entity
   parent: [ClothingUniformBase, SolAllianceInfo]
   id: ClothingUniformJumpsuitSolArmyService
-  name: entity-clothinguniformjumpsuitsolarmyservice-name
+  name: Solarian army uniform
   suffix: SAN
-  description: entity-clothinguniformjumpsuitsolarmyservice-description
+  description: A standard service uniform for enlisted men in the Solarian Army. It is rarely used, as most enlisted men instead will wear their BDUs except for formal occasions.
   components:
     - type: Sprite
       sprite: _EE/Clothing/SolAlliance/Uniforms/SAN_army_service.rsi
@@ -14,9 +14,9 @@
 - type: entity
   parent: [ClothingUniformBase, SolAllianceInfo]
   id: ClothingUniformJumpsuitSolArmyServiceGeneral
-  name: entity-clothinguniformjumpsuitsolarmyservicegeneral-name
+  name: Solarian army general uniform
   suffix: SAN
-  description: entity-clothinguniformjumpsuitsolarmyservicegeneral-description
+  description: A standard service uniform for officers in the Solarian Army. It is to be worn by generals in the field.
   components:
     - type: Sprite
       sprite: _EE/Clothing/SolAlliance/Uniforms/SAN_army_service_general.rsi
@@ -26,9 +26,9 @@
 - type: entity
   parent: [ClothingUniformBase, SolAllianceInfo]
   id: ClothingUniformJumpsuitSolArmyServiceOfficer
-  name: entity-clothinguniformjumpsuitsolarmyserviceofficer-name
+  name: Solarian army officer uniform
   suffix: SAN
-  description: entity-clothinguniformjumpsuitsolarmyserviceofficer-description
+  description: A standard service uniform for officers in the Solarian Army.
   components:
     - type: Sprite
       sprite: _EE/Clothing/SolAlliance/Uniforms/SAN_army_service_officer.rsi
@@ -38,9 +38,9 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase, SolAllianceInfo]
   id: ClothingUniformJumpsuitSolFatigueGreen
-  name: entity-clothinguniformjumpsuitsolfatiguegreen-name
+  name: Solarian green BDUs
   suffix: SAN
-  description: entity-clothinguniformjumpsuitsolfatiguegreen-description
+  description: A common uniform worn by "grunts" in the Solarian Armed Forces. Although Earth is no longer the green paradise of old, olive BDUs remain an emblem of old Earth's militaries.
   components:
     - type: Sprite
       sprite: _EE/Clothing/SolAlliance/Uniforms/SAN_fatigue_green.rsi
@@ -50,9 +50,9 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase, SolAllianceInfo]
   id: ClothingUniformJumpsuitSolFatigueGrey
-  name: entity-clothinguniformjumpsuitsolfatiguegrey-name
+  name: Solarian grey BDUs
   suffix: SAN
-  description: entity-clothinguniformjumpsuitsolfatiguegrey-description
+  description: A common uniform worn by "grunts" in the Solarian Armed Forces. Although not as common as olive BDUs, "stone gray" remains a popular choice of uniform color.
   components:
     - type: Sprite
       sprite: _EE/Clothing/SolAlliance/Uniforms/SAN_fatigue_grey.rsi
@@ -62,9 +62,9 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase, SolAllianceInfo]
   id: ClothingUniformJumpsuitSolFatigueIPC
-  name: entity-clothinguniformjumpsuitsolfatigueipc-name
+  name: Solarian IPC fatigues
   suffix: SAN
-  description: entity-clothinguniformjumpsuitsolfatigueipc-description
+  description: IPCs serve as the only exception to the infamous xenophobia of the Solarians Armed Forces. For while SAN has never once permitted an alien to serve, it is eager to make use of synthetics to save pure humans from back breaking labor or charging into meat grinders.
   components:
     - type: Sprite
       sprite: _EE/Clothing/SolAlliance/Uniforms/SAN_fatigue_ipc.rsi
@@ -74,9 +74,9 @@
 - type: entity
   parent: [ClothingUniformBase, SolAllianceInfo]
   id: ClothingUniformJumpsuitSolFatigueTan
-  name: entity-clothinguniformjumpsuitsolfatiguetan-name
+  name: Solarian fatigues
   suffix: SAN
-  description: entity-clothinguniformjumpsuitsolfatiguetan-description
+  description: A common uniform worn by "grunts" in the Solarian Armed Forces. This one is colored khaki for desert environments.
   components:
     - type: Sprite
       sprite: _EE/Clothing/SolAlliance/Uniforms/SAN_fatigue_tan.rsi
@@ -86,9 +86,9 @@
 - type: entity
   parent: [ClothingUniformBase, SolAllianceInfo]
   id: ClothingUniformJumpsuitSolMarineDress
-  name: entity-clothinguniformjumpsuitsolmarinedress-name
+  name: Solarian marine dress blues
   suffix: SAN
-  description: entity-clothinguniformjumpsuitsolmarinedress-description
+  description: A set of "Dress Blues" worn by Solarian marines during formal occasions.
   components:
     - type: Sprite
       sprite: _EE/Clothing/SolAlliance/Uniforms/SAN_mahreen_dress.rsi
@@ -98,9 +98,9 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase, SolAllianceInfo]
   id: ClothingUniformJumpsuitSolNavyCoveralls
-  name: entity-clothinguniformjumpsuitsolnavycoveralls-name
+  name: Solarian navy coveralls
   suffix: SAN
-  description: entity-clothinguniformjumpsuitsolnavycoveralls-description
+  description: A common working uniform for members of the Solarian Navy.
   components:
     - type: Sprite
       sprite: _EE/Clothing/SolAlliance/Uniforms/SAN_navy_coveralls.rsi
@@ -110,9 +110,9 @@
 - type: entity
   parent: [ClothingUniformBase, SolAllianceInfo]
   id: ClothingUniformJumpsuitSolNavyDress
-  name: entity-clothinguniformjumpsuitsolnavydress-name
+  name: Solarian navy dress uniform
   suffix: SAN
-  description: entity-clothinguniformjumpsuitsolnavydress-description
+  description: A dress worn by Solarian navy personnel during formal occasions. Or by officers as a standard uniform.
   components:
     - type: Sprite
       sprite: _EE/Clothing/SolAlliance/Uniforms/SAN_navy_dress.rsi
@@ -122,9 +122,9 @@
 - type: entity
   parent: [ClothingUniformBase, SolAllianceInfo]
   id: ClothingUniformJumpsuitSolNavyDressAdmiral
-  name: entity-clothinguniformjumpsuitsolnavydressadmiral-name
+  name: Solarian navy dress admiral uniform
   suffix: SAN
-  description: entity-clothinguniformjumpsuitsolnavydressadmiral-description
+  description: A formal dress uniform for Solarian Admiralty. Unlike other ranks, the Admiralty are required to wear this as their service uniform as well.
   components:
     - type: Sprite
       sprite: _EE/Clothing/SolAlliance/Uniforms/SAN_navy_dress_admiral.rsi
@@ -134,9 +134,9 @@
 - type: entity
   parent: [ClothingUniformBase, SolAllianceInfo]
   id: ClothingUniformJumpsuitSolNavyDressOfficer
-  name: entity-clothinguniformjumpsuitsolnavydressofficer-name
+  name: Solarian navy dress officer uniform
   suffix: SAN
-  description: entity-clothinguniformjumpsuitsolnavydressofficer-description
+  description: A formal dress uniform for Solarian Navy officers. Depending on the rank, it may also be the service uniform.
   components:
     - type: Sprite
       sprite: _EE/Clothing/SolAlliance/Uniforms/SAN_navy_dress_officer.rsi
@@ -146,9 +146,9 @@
 - type: entity
   parent: [ClothingUniformBase, SolAllianceInfo]
   id: ClothingUniformJumpsuitSolNavyDressSeniorOfficer
-  name: entity-clothinguniformjumpsuitsolnavydressseniorofficer-name
+  name: Solarian navy dress senior officer uniform
   suffix: SAN
-  description: entity-clothinguniformjumpsuitsolnavydressseniorofficer-description
+  description: A formal dress uniform for Solarian Navy senior officers. It is also to be worn as a service uniform.
   components:
     - type: Sprite
       sprite: _EE/Clothing/SolAlliance/Uniforms/SAN_navy_dress_senior_officer.rsi
@@ -158,9 +158,9 @@
 - type: entity
   parent: [ClothingUniformBase, SolAllianceInfo]
   id: ClothingUniformJumpsuitSolNavySailor
-  name: entity-clothinguniformjumpsuitsolnavysailor-name
+  name: Solarian navy sailor uniform
   suffix: SAN
-  description: entity-clothinguniformjumpsuitsolnavysailor-description
+  description: A service uniform for enlisted members of the Solarian Navy.
   components:
     - type: Sprite
       sprite: _EE/Clothing/SolAlliance/Uniforms/SAN_sailor.rsi
@@ -170,9 +170,9 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase, SolAllianceInfo]
   id: ClothingUniformJumpsuitSolServiceWhite
-  name: entity-clothinguniformjumpsuitsolarmyservice-name
+  name: Solarian army uniform
   suffix: SAN
-  description: entity-clothinguniformjumpsuitsolservicewhite-description
+  description: A service uniform for enlisted members of the Solarian Navy. This one is colored in Summer White and is to be worn during times of peace. Today it is almost never seen.
   components:
     - type: Sprite
       sprite: _EE/Clothing/SolAlliance/Uniforms/SAN_service_white.rsi

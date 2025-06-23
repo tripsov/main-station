@@ -1,5 +1,5 @@
 - type: entity
-  name: entity-spawnmobarcticfoxsiobhan-name
+  name: Arctic Fox Siobhan Spawner
   id: SpawnMobArcticFoxSiobhan
   parent: MarkerBase
   components:
@@ -12,7 +12,7 @@
       - MobArcticFoxSiobhan
 
 - type: entity
-  name: entity-spawnmobsecdoglaika-name
+  name: Sec Dog Laika Spawner
   id: SpawnMobSecDogLaika
   parent: MarkerBase
   components:
@@ -25,7 +25,7 @@
       - MobSecDogLaika
 
 - type: entity
-  name: entity-spawnmobradioguard-name
+  name: Syndicate Guard Spawner
   id: SpawnMobRadioGuard
   parent: MarkerBase
   components:

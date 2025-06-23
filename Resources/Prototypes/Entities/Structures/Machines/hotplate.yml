@@ -30,7 +30,7 @@
 - type: entity
   parent: BaseHeaterMachine
   id: ChemistryHotplate
-  name: entity-chemistryhotplate-name
+  name: hotplate
   description: "The descendent of the microwaves, our newest invention in beaker heating technology: the hotplate!"
   components:
   - type: Sprite

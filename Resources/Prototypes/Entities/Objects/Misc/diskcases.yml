@@ -1,8 +1,8 @@
 - type: entity
-  name: entity-diskcase-name
+  name: diskcase
   parent: BaseStorageItem
   id: DiskCase
-  description: entity-diskcase-description
+  description: Case for storing a coordinates disk.
   components:
   - type: Sprite
     sprite: Objects/Misc/diskcases.rsi

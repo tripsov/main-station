@@ -35,7 +35,7 @@
   parent: FoodInjectableBase # Not sliceable
   id: FoodPieSliceBase
   abstract: true
-  description: entity-foodpieslicebase-description
+  description: A slice of pie. Tasty!
   components:
   - type: Item
     size: Tiny
@@ -61,10 +61,10 @@
 # Pie
 
 - type: entity
-  name: entity-foodpieapple-name
+  name: apple pie
   parent: FoodPieBase
   id: FoodPieApple
-  description: entity-foodpieapple-description
+  description: A pie containing sweet, sweet love... or apple.
   components:
   - type: FlavorProfile
     flavors:
@@ -82,7 +82,7 @@
     - Pie
 
 - type: entity
-  name: entity-foodpieappleslice-name
+  name: slice of apple pie
   parent: FoodPieSliceBase
   id: FoodPieAppleSlice
   components:
@@ -103,10 +103,10 @@
 # Tastes like pie, apple.
 
 - type: entity
-  name: entity-foodpiebaklava-name
+  name: baklava
   parent: FoodPieBase
   id: FoodPieBaklava
-  description: entity-foodpiebaklava-description
+  description: A delightful healthy snack made of nut layers with thin bread.
   components:
   - type: FlavorProfile
     flavors:
@@ -120,10 +120,10 @@
     slice: FoodPieBaklavaSlice
 
 - type: entity
-  name: entity-foodpiebaklavaslice-name
+  name: slice of baklava
   parent: FoodPieSliceBase
   id: FoodPieBaklavaSlice
-  description: entity-foodpiebaklavaslice-description
+  description: A portion of a delightful healthy snack made of nut layers with thin bread.
   components:
   - type: FlavorProfile
     flavors:
@@ -134,10 +134,10 @@
 # Tastes like pie, nuts.
 
 - type: entity
-  name: entity-foodpiebananacream-name
+  name: banana cream pie
   parent: FoodPieBase
   id: FoodPieBananaCream
-  description: entity-foodpiebananacream-description
+  description: Just like back home, on clown planet! HONK!
   components:
   - type: FlavorProfile
     flavors:
@@ -172,10 +172,10 @@
     slice: FoodPieBananaCreamSlice
 
 - type: entity
-  name: entity-foodpiebananacreamslice-name
+  name: slice of banana cream pie
   parent: FoodPieSliceBase
   id: FoodPieBananaCreamSlice
-  description: entity-foodpiebananacream-description
+  description: Just like back home, on clown planet! HONK!
   components:
   - type: FlavorProfile
     flavors:
@@ -192,10 +192,10 @@
 # Tastes like pie, cream, banana.
 
 - type: entity
-  name: entity-foodpieclafoutis-name
+  name: berry clafoutis
   parent: FoodPieBase
   id: FoodPieClafoutis
-  description: entity-foodpieclafoutis-description
+  description: No black birds, this is a good sign.
   components:
   - type: FlavorProfile
     flavors:
@@ -214,7 +214,7 @@
     - Pie
 
 - type: entity
-  name: entity-foodpieclafoutisslice-name
+  name: slice of berry clafoutis
   parent: FoodPieSliceBase
   id: FoodPieClafoutisSlice
   components:
@@ -235,10 +235,10 @@
 # Tastes like pie, blackberries.
 
 - type: entity
-  name: entity-foodpiecherry-name
+  name: cherry pie
   parent: FoodPieBase
   id: FoodPieCherry
-  description: entity-foodpiecherry-description
+  description: Tastes good enough to make a grown man cry.
   components:
   - type: FlavorProfile
     flavors:
@@ -255,7 +255,7 @@
     - Pie
 
 - type: entity
-  name: entity-foodpiecherryslice-name
+  name: slice of cherry pie
   parent: FoodPieSliceBase
   id: FoodPieCherrySlice
   components:
@@ -275,10 +275,10 @@
 # Tastes like pie, cherries.
 
 - type: entity
-  name: entity-foodpiemeat-name
+  name: meat pie
   parent: FoodPieBase
   id: FoodPieMeat
-  description: entity-foodpiemeat-description
+  description: An old barber recipe, very delicious!
   components:
   - type: FlavorProfile
     flavors:
@@ -295,7 +295,7 @@
     - Pie
 
 - type: entity
-  name: entity-foodpiemeatslice-name
+  name: slice of meat pie
   parent: FoodPieSliceBase
   id: FoodPieMeatSlice
   components:
@@ -315,7 +315,7 @@
 # Tastes like pie, meat.
 
 - type: entity
-  name: entity-foodpiexeno-name
+  name: xeno pie
   parent: FoodPieBase
   id: FoodPieXeno
   components:
@@ -335,7 +335,7 @@
     - Pie
 
 - type: entity
-  name: entity-foodpiexenoslice-name
+  name: slice of xeno pie
   parent: FoodPieSliceBase
   id: FoodPieXenoSlice
   components:
@@ -356,10 +356,10 @@
 # Tastes like pie, meat, acid.
 
 - type: entity
-  name: entity-foodpiefrosty-name
+  name: frosty pie
   parent: FoodPieBase
   id: FoodPieFrosty
-  description: entity-foodpiefrosty-description
+  description: Tastes like blue and cold.
   components:
   - type: FlavorProfile
     flavors:
@@ -372,7 +372,7 @@
     slice: FoodPieFrostySlice
 
 - type: entity
-  name: entity-foodpiefrostyslice-name
+  name: slice of frosty pie
   parent: FoodPieSliceBase
   id: FoodPieFrostySlice
   components:
@@ -387,7 +387,7 @@
 # Tastes like pie, mint.
 
 - type: entity
-  name: entity-foodtartmime-name
+  name: mime tart
   parent: FoodPieBase
   id: FoodTartMime
   description: "\"      \""
@@ -403,7 +403,7 @@
     slice: FoodTartMimeSlice
 
 - type: entity
-  name: entity-foodtartmimeslice-name
+  name: slice of mime tart
   parent: FoodPieSliceBase
   id: FoodTartMimeSlice
   components:
@@ -420,10 +420,10 @@
 # No Slice
 
 - type: entity
-  name: entity-foodpieamanita-name
+  name: amanita pie
   parent: FoodPieBase
   id: FoodPieAmanita
-  description: entity-foodpieamanita-description
+  description: Sweet and tasty poison pie.
   components:
   - type: FlavorProfile
     flavors:
@@ -444,10 +444,10 @@
 # Tastes like pie, mushrooms.
 
 - type: entity
-  name: entity-foodpieplump-name
+  name: plump pie
   parent: FoodPieBase
   id: FoodPiePlump
-  description: entity-foodpieplump-description
+  description: I bet you love stuff made out of plump helmets!
   components:
   - type: FlavorProfile
     flavors:
@@ -459,10 +459,10 @@
 # Tart
 
 - type: entity
-  name: entity-foodtartgrape-name
+  name: grape tart
   parent: FoodPieBase
   id: FoodTartGrape
-  description: entity-foodtartgrape-description
+  description: A tasty dessert that reminds you of the wine you didn't make.
   components:
   - type: FlavorProfile
     flavors:
@@ -476,10 +476,10 @@
 # Tastes like tart, grape.
 
 - type: entity
-  name: entity-foodtartgapple-name
+  name: golden apple streusel tart
   parent: FoodPieBase
   id: FoodTartGapple
-  description: entity-foodtartgapple-description
+  description: A tasty dessert that won't make it through a metal detector.
   components:
   - type: FlavorProfile
     flavors:
@@ -493,10 +493,10 @@
 # Tastes like tart, apple, expensive metal.
 
 - type: entity
-  name: entity-foodtartcoco-name
+  name: chocolate lava tart
   parent: FoodPieBase
   id: FoodTartCoco
-  description: entity-foodtartcoco-description
+  description: A tasty dessert made of chocolate, with a liquid core.
   components:
   - type: FlavorProfile
     flavors:

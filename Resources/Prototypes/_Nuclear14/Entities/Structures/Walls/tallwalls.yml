@@ -52,7 +52,7 @@
 - type: entity
   parent: N14BaseWallTall
   id: N14WallBrickTall
-  name: entity-n14wallbricktall-name
+  name: brick wall
   suffix: tall
   components:
   - type: Sprite
@@ -66,7 +66,7 @@
 - type: entity
   parent: N14BaseWallTall
   id: N14WallBrickAltTall
-  name: entity-n14wallbricktall-name
+  name: brick wall
   suffix: tall
   components:
   - type: Sprite
@@ -80,7 +80,7 @@
 - type: entity
   parent: N14BaseWallTall
   id: N14WallBrickGrayTall
-  name: entity-n14wallbricktall-name
+  name: brick wall
   suffix: tall
   components:
   - type: Sprite
@@ -94,7 +94,7 @@
 - type: entity
   parent: N14BaseWallTall
   id: N14WallConcreteTall
-  name: entity-n14wallconcretetall-name
+  name: concrete wall
   suffix: tall
   components:
   - type: Sprite
@@ -113,7 +113,7 @@
 - type: entity
   parent: N14BaseWallTall
   id: N14WallConcreteAltTall
-  name: entity-n14wallconcretetall-name
+  name: concrete wall
   suffix: tall
   components:
   - type: Sprite
@@ -127,7 +127,7 @@
 - type: entity
   parent: N14BaseWallTallMetal
   id: N14WallMetalTall
-  name: entity-n14wallmetaltall-name
+  name: metal wall
   suffix: tall
   components:
   - type: Sprite
@@ -141,7 +141,7 @@
 - type: entity
   parent: N14BaseWallTallMetal
   id: N14WallReinfMetalTall
-  name: entity-n14wallreinfmetaltall-name
+  name: reinforced metal wall
   suffix: tall
   components:
   - type: Sprite
@@ -155,7 +155,7 @@
 - type: entity
   parent: N14BaseWallTall
   id: N14WallRockTall
-  name: entity-n14wallrocktall-name
+  name: rock wall
   suffix: tall
   components:
   - type: Sprite
@@ -185,7 +185,7 @@
 - type: entity
   parent: N14WallRockTall
   id: N14WallRockDroughtTall
-  name: entity-n14wallrockdroughttall-name
+  name: drought rock wall
   suffix: tall
   components:
   - type: Sprite
@@ -199,7 +199,7 @@
 - type: entity
   parent: N14WallRockTall
   id: N14WallRockMammothTall
-  name: entity-n14wallrockmammothtall-name
+  name: mammoth rock wall
   suffix: tall
   components:
   - type: Sprite
@@ -213,7 +213,7 @@
 - type: entity
   parent: N14BaseWallTallMetalWeak
   id: N14WallRoughScrapTall
-  name: entity-n14wallroughscraptall-name
+  name: rough scrap wall
   suffix: tall
   components:
   - type: Sprite
@@ -227,7 +227,7 @@
 - type: entity
   parent: N14BaseWallTallMetal
   id: N14WallIndustrialRustTall
-  name: entity-n14wallindustrialrusttall-name
+  name: industrial rust wall
   suffix: tall
   components:
   - type: Sprite
@@ -241,7 +241,7 @@
 - type: entity
   parent: N14BaseWallTallMetal
   id: N14WallMetalRustTall
-  name: entity-n14wallmetalrusttall-name
+  name: metal rust wall
   suffix: tall
   components:
   - type: Sprite
@@ -255,7 +255,7 @@
 - type: entity
   parent: N14BaseWallTallMetalWeak
   id: N14WallScrapTall
-  name: entity-n14wallscraptall-name
+  name: scrap wall
   suffix: tall
   components:
   - type: Sprite
@@ -269,7 +269,7 @@
 - type: entity
   parent: N14BaseWallTallMetalWeak
   id: N14WallScrapBlueTall
-  name: entity-n14wallscrapbluetall-name
+  name: blue scrap wall
   suffix: tall
   components:
   - type: Sprite
@@ -283,7 +283,7 @@
 - type: entity
   parent: N14BaseWallTallMetalWeak
   id: N14WallScrapRedTall
-  name: entity-n14wallscrapredtall-name
+  name: red scrap wall
   suffix: tall
   components:
   - type: Sprite
@@ -297,7 +297,7 @@
 - type: entity
   parent: N14BaseWallTallMetalWeak
   id: N14WallScrapWhiteTall
-  name: entity-n14wallscrapwhitetall-name
+  name: white scrap wall
   suffix: tall
   components:
   - type: Sprite
@@ -311,7 +311,7 @@
 - type: entity
   parent: N14BaseWallTallMetal
   id: N14WallSewerTall
-  name: entity-n14wallsewertall-name
+  name: sewer wall
   suffix: tall
   components:
   - type: Sprite
@@ -325,7 +325,7 @@
 - type: entity
   parent: N14BaseWallTallWood
   id: N14WallSidingTall
-  name: entity-n14wallsidingtall-name
+  name: siding wall
   suffix: tall
   components:
   - type: Sprite
@@ -339,7 +339,7 @@
 - type: entity
   parent: N14BaseWallTallWood
   id: N14WallSidingBlueTall
-  name: entity-n14wallsidingbluetall-name
+  name: blue siding wall
   suffix: tall
   components:
   - type: Sprite
@@ -353,7 +353,7 @@
 - type: entity
   parent: N14BaseWallTallWood
   id: N14WallSidingRedTall
-  name: entity-n14wallsidingredtall-name
+  name: red siding wall
   suffix: tall
   components:
   - type: Sprite
@@ -367,7 +367,7 @@
 - type: entity
   parent: N14BaseWallTallWood
   id: N14WallSidingGreenTall
-  name: entity-n14wallsidinggreentall-name
+  name: green siding wall
   suffix: tall
   components:
   - type: Sprite
@@ -381,7 +381,7 @@
 - type: entity
   parent: N14BaseWallTallWood
   id: N14WallWoodTall
-  name: entity-n14wallwoodtall-name
+  name: wood wall
   suffix: tall
   components:
   - type: Sprite
@@ -395,7 +395,7 @@
 - type: entity
   parent: N14BaseWallTallWood
   id: N14WallWoodAltTall
-  name: entity-n14wallwoodtall-name
+  name: wood wall
   suffix: tall
   components:
   - type: Sprite

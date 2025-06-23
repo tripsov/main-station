@@ -14,7 +14,7 @@
 
 - type: combo
   id: CQCSlam
-  name: combo-cqcslam-name
+  name: Slam
   martialArtsForm: CloseQuartersCombat
   attacks:
   - Grab
@@ -26,7 +26,7 @@
 
 - type: combo
   id: CQCKick
-  name: combo-cqckick-name
+  name: Kick
   martialArtsForm: CloseQuartersCombat
   attacks:
   - Harm
@@ -37,7 +37,7 @@
 
 - type: combo
   id: CQCRestrain
-  name: combo-cqcrestrain-name
+  name: Restrain
   martialArtsForm: CloseQuartersCombat
   attacks:
   - Grab
@@ -48,7 +48,7 @@
 
 - type: combo
   id: CQCPressure
-  name: combo-cqcpressure-name
+  name: Pressure
   martialArtsForm: CloseQuartersCombat
   attacks:
   - Disarm
@@ -58,7 +58,7 @@
 
 - type: combo
   id: CQCConsecutive
-  name: combo-cqcconsecutive-name
+  name: Consecutive
   martialArtsForm: CloseQuartersCombat
   attacks:
   - Disarm

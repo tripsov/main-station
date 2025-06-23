@@ -1,8 +1,8 @@
 - type: entity
-  name: entity-weaponriflem90-name
+  name: M-90
   parent: BaseWeaponRifle
   id: WeaponRifleM90
-  description: entity-weaponriflem90-description
+  description: A revision of the M-90gl that removes the inbuilt grenade launcher. Uses .20 rifle ammo.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Weapons/Guns/Rifles/m90.rsi
@@ -44,10 +44,10 @@
     fireRate: 6
 
 - type: entity
-  name: entity-weaponrifleannie-name
+  name: Annie
   parent: BaseWeaponRifle
   id: WeaponRifleAnnie
-  description: entity-weaponrifleannie-description
+  description: A beast designed to shoulder the weight of impossible missions. Uses .30 rifle ammo.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Weapons/Guns/Rifles/annie.rsi
@@ -101,10 +101,10 @@
   - type: Appearance
 
 - type: entity
-  name: entity-weaponriflewspr-name
+  name: WSPR
   parent: BaseWeaponRifle
   id: WeaponRifleWSPR
-  description: entity-weaponriflewspr-description
+  description: A cutting-edge rifle from Cybersun with a powerful integrated suppression system. Uses .30 subsonic ammunition
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Weapons/Guns/Rifles/wspr.rsi

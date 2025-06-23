@@ -1,8 +1,8 @@
 - type: entity
   id: PlantAnalyzer
   parent: [BaseItem, PowerCellSlotSmallItem]
-  name: entity-plantanalyzer-name
-  description: entity-plantanalyzer-description
+  name: plant analyzer
+  description: A scanner used to evaluate a plant's various areas of growth, genetic traits and chemicals.
   components:
   - type: PowerCellDraw
     drawRate: 0.8
@@ -34,10 +34,10 @@
     - Chemicals
 
 - type: entity
-  name: entity-plantanalyzerreportpaper-name
+  name: plant analyzer report
   parent: Paper
   id: PlantAnalyzerReportPaper
-  description: entity-plantanalyzerreportpaper-description
+  description: A printout from a plant analyzer.
   components:
   - type: Sprite
     sprite: Objects/Misc/bureaucracy.rsi

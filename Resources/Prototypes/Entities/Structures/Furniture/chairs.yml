@@ -1,8 +1,8 @@
 - type: entity
-  name: entity-seatbase-name
+  name: chair
   id: SeatBase
   abstract: true
-  description: entity-seatbase-description
+  description: You sit in this. Either by will or force.
   placement:
     mode: PlaceFree
   components:
@@ -56,7 +56,7 @@
 
 #Starts unanchored, cannot be rotated while anchored
 - type: entity
-  name: entity-seatbase-name
+  name: chair
   id: UnanchoredChairBase
   parent: SeatBase
   abstract: true
@@ -66,7 +66,7 @@
 
 #Start anchored, cannot be rotated while anchored
 - type: entity
-  name: entity-seatbase-name
+  name: chair
   id: ChairBase
   abstract: true
   parent: UnanchoredChairBase
@@ -80,7 +80,7 @@
 
 #Starts unanchored, can be rotated while anchored
 - type: entity
-  name: entity-seatbase-name
+  name: chair
   id: OfficeChairBase
   parent: UnanchoredChairBase
   abstract: true
@@ -90,9 +90,9 @@
 
 # Goobstation - rolly chairs that actually roll!
 - type: entity
-  name: entity-seatbase-name
+  name: chair
   id: RollingOfficeChairBase
-  description: entity-rollingofficechairbase-description
+  description: Scoot from desk to desk because standing is for interns.
   parent: BaseVehicle
   abstract: true
   components:
@@ -148,7 +148,7 @@
 
 #Starts anchored, can be rotated while anchored
 - type: entity
-  name: entity-stoolbase-name
+  name: stool
   id: StoolBase
   parent: OfficeChairBase
   abstract: true
@@ -161,7 +161,7 @@
     anchored: true
 
 - type: entity
-  name: entity-seatbase-name
+  name: chair
   id: Chair
   parent: ChairBase
   components:
@@ -172,7 +172,7 @@
     node: chair
 
 - type: entity
-  name: entity-seatbase-name
+  name: chair
   id: ChairGreyscale
   parent: Chair
   suffix: White
@@ -181,10 +181,10 @@
     state: chair-greyscale
 
 - type: entity
-  name: entity-stoolbase-name
+  name: stool
   id: Stool
   parent: UnanchoredChairBase
-  description: entity-stool-description
+  description: Apply butt.
   components:
   - type: Sprite
     state: stool
@@ -193,7 +193,7 @@
     node: stool
 
 - type: entity
-  name: entity-stoolbar-name
+  name: bar stool
   id: StoolBar
   parent: StoolBase
   components:
@@ -204,7 +204,7 @@
     node: stoolBar
 
 - type: entity
-  name: entity-chairbrass-name
+  name: brass chair
   id: ChairBrass
   parent: StoolBase
   components:
@@ -215,7 +215,7 @@
     node: chairBrass
 
 - type: entity
-  name: entity-chairofficelight-name
+  name: white office chair
   id: ChairOfficeLight
   parent: OfficeChairBase # Goobstation - make the rolly chairs roll!    # WWDP edit Съебись в страхе чудище кривозубое со своими ебаными блять стульями на колесиках гондон ты драный
   components:
@@ -226,7 +226,7 @@
     node: chairOffice
 
 - type: entity
-  name: entity-chairofficedark-name
+  name: dark office chair
   id: ChairOfficeDark
   parent: ChairOfficeLight
   components:
@@ -237,10 +237,10 @@
     node: chairOfficeDark
 
 - type: entity
-  name: entity-comfychair-name
+  name: comfy chair
   id: ComfyChair
   parent: ChairBase
-  description: entity-comfychair-description
+  description: It looks comfy.
   components:
   - type: Sprite
     state: comfy
@@ -249,10 +249,10 @@
     node: chairComfy
 
 - type: entity
-  name: entity-chairpilotseat-name
+  name: pilot seat
   id: ChairPilotSeat
   parent: ChairBase
-  description: entity-chairpilotseat-description
+  description: The pilot seat of a prestigious ship.
   components:
   - type: Sprite
     state: shuttle
@@ -261,7 +261,7 @@
     node: chairPilotSeat
 
 - type: entity
-  name: entity-chairwood-name
+  name: wooden chair
   id: ChairWood
   parent: UnanchoredChairBase
   components:
@@ -297,10 +297,10 @@
     price: 75
 
 - type: entity
-  name: entity-chairritual-name
+  name: ritual chair
   id: ChairRitual
   parent: ChairWood
-  description: entity-chairritual-description
+  description: Looks uncomfortable.
   components:
   - type: Sprite
     sprite: Structures/Furniture/chairs.rsi #WWDP edit
@@ -312,8 +312,8 @@
 - type: entity
   id: ChairMeat
   parent: UnanchoredChairBase
-  name: entity-chairmeat-name
-  description: entity-chairmeat-description
+  name: meat chair
+  description: Uncomfortably sweaty.
   components:
   - type: Sprite
     state: meat
@@ -322,10 +322,10 @@
     node: chairMeat
 
 - type: entity
-  name: entity-chaircursed-name
+  name: cursed chair
   id: ChairCursed
   parent: ChairWood
-  description: entity-chaircursed-description
+  description: It's staring back.
   components:
   - type: Sprite
     sprite: Structures/Furniture/chairs.rsi #WWDP edit
@@ -354,9 +354,9 @@
     node: chairCursed
 
 - type: entity
-  name: entity-chairweb-name
+  name: web chair
   id: ChairWeb
-  description: entity-chairweb-description
+  description: For true web developers.
   parent: UnanchoredChairBase
   components:
   - type: Sprite
@@ -392,8 +392,8 @@
 - type: entity
   parent: [SeatBase, BaseFoldable]
   id: ChairFolding
-  name: entity-chairfolding-name
-  description: entity-chairfolding-description
+  name: folding chair
+  description: If you carry six of these you become the coolest kid at church.
   components:
   - type: Rotatable
   - type: Sprite
@@ -428,10 +428,10 @@
     enabled: False
 
 - type: entity
-  name: entity-steelbench-name
+  name: steel bench
   id: SteelBench
   parent: ChairBase
-  description: entity-steelbench-description
+  description: A long chair made for a metro. Really standard design.
   components:
   - type: Sprite
     state: steel-bench
@@ -440,10 +440,10 @@
     node: chairSteelBench
 
 - type: entity
-  name: entity-woodenbench-name
+  name: wooden bench
   id: WoodenBench
   parent: ChairBase
-  description: entity-woodenbench-description
+  description: Did you get a splinter? Well, at least it’s eco friendly.
   components:
   - type: Sprite
     state: wooden-bench

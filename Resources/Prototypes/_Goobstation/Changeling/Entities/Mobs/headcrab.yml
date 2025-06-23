@@ -1,8 +1,8 @@
 - type: entity
-  name: entity-headslug-name
+  name: head slug
   parent: [SimpleSpaceMobBase] # no dying in space
   id: Headslug # WD EDIT
-  description: entity-headslug-description
+  description: You don't want to touch it.
   components:
   - type: Sprite
     drawdepth: SmallMobs

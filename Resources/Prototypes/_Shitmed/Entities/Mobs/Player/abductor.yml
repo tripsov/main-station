@@ -33,7 +33,7 @@
     speedModifier: 10 # WWDP
 
 - type: entity
-  name: entity-mobloneabductor-name
+  name: lone abductor
   parent: MobAbductorAntag
   id: MobLoneAbductor
   components:
@@ -59,7 +59,7 @@
       - LoneAbductorGear
 
 - type: entity
-  name: entity-mobabductorscientist-name
+  name: abductor scientist
   parent: MobAbductorAntag
   id: MobAbductorScientist
   components:
@@ -82,7 +82,7 @@
       - AbductorScientistGear
 
 - type: entity
-  name: entity-mobabductoragent-name
+  name: abductor agent
   parent: MobAbductorAntag
   id: MobAbductorAgent
   components:
@@ -156,7 +156,7 @@
 # Spawners
 
 - type: entity
-  name: entity-spawnpointloneabductor-name
+  name: lone abductor spawner
   id: SpawnPointLoneAbductor
   parent: MarkerBase
   components:
@@ -196,7 +196,7 @@
         state: radiation
 
 - type: entity
-  name: entity-spawnpointabductoragent-name
+  name: abductor agent spawner
   id: SpawnPointAbductorAgent
   parent: MarkerBase
   components:
@@ -233,7 +233,7 @@
         state: radiation
 
 - type: entity
-  name: entity-spawnpointabductorscientist-name
+  name: abductor scientist spawner
   id: SpawnPointAbductorScientist
   parent: MarkerBase
   components:

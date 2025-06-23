@@ -1,6 +1,6 @@
 - type: entity
-  name: entity-bible-name
-  description: entity-bible-description
+  name: bible
+  description: New Interstellar Version 2340
   parent: BaseStorageItem
   id: Bible
   components:
@@ -63,7 +63,7 @@
 
 - type: entity
   parent: Bible
-  name: entity-biblenecronomicon-name
+  name: necronomicon
   description: "There's a note: Klatuu, Verata, Nikto -- Don't forget it again!"
   id: BibleNecronomicon
   components:
@@ -91,8 +91,8 @@
 
 - type: entity
   id: ActionBibleSummon
-  name: entity-actionbiblesummon-name
-  description: entity-actionbiblesummon-description
+  name: Summon familiar
+  description: Summon a familiar that will aid you and gain humanlike intelligence once inhabited by a soul.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction

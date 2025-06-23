@@ -1,7 +1,7 @@
 - type: entity
   id: BinglePit
-  name: entity-binglepit-name
-  description: entity-binglepit-description
+  name: binglepit
+  description: Looks Hungry
   placement:
     mode: SnapgridCenter
   components:

@@ -11,7 +11,7 @@
   categories: [ HideSpawnMenu ]
   parent: BaseParadoxAnomalyObjective
   id: ParadoxAnomalyKillObjective
-  description: entity-paradoxanomalykillobjective-description
+  description: This universe doesn't have room for both of us.
   components:
   - type: Objective
     icon:
@@ -26,7 +26,7 @@
   categories: [ HideSpawnMenu ]
   parent: BaseParadoxAnomalyObjective
   id: ParadoxAnomalyFriendObjective
-  description: entity-paradoxanomalyfriendobjective-description
+  description: Perhaps there is room, as friends.
   components:
   - type: Objective
     icon:
@@ -40,8 +40,8 @@
   categories: [ HideSpawnMenu ]
   parent: [BaseParadoxAnomalyObjective, BaseLivingObjective]
   id: ParadoxAnomalyEscapeObjective
-  name: entity-paradoxanomalyescapeobjective-name
-  description: entity-paradoxanomalyescapeobjective-description
+  name: Escape to centcom alive and unrestrained.
+  description: This is your universe now.
   components:
   - type: Objective
     title: objective-condition-escape-shuttle-title # WWDP Localization

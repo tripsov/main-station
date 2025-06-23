@@ -1,8 +1,8 @@
 - type: entity
   parent: BoxCardboard
-  name: entity-monkeycubebox-name
+  name: monkey cube box
   id: MonkeyCubeBox
-  description: entity-monkeycubebox-description
+  description: Drymate brand monkey cubes. Just add water!
   components:
   - type: StorageFill
     contents:
@@ -17,10 +17,10 @@
 
 - type: entity
   parent: BaseItem
-  name: entity-monkeycubewrapped-name
+  name: monkey cube
   suffix: Wrapped
   id: MonkeyCubeWrapped
-  description: entity-monkeycubewrapped-description
+  description: Unwrap this to get a monkey cube.
   components:
   - type: Item
     size: Tiny
@@ -38,9 +38,9 @@
 
 - type: entity
   parent: MonkeyCubeBox
-  name: entity-koboldcubebox-name
+  name: kobold cube box
   id: KoboldCubeBox
-  description: entity-koboldcubebox-description
+  description: Condensed kobolds in a cube. Just add water!
   components:
   - type: StorageFill
     contents:
@@ -52,9 +52,9 @@
 
 - type: entity
   parent: MonkeyCubeBox
-  name: entity-variantcubebox-name
+  name: variant cube box
   id: VariantCubeBox
-  description: entity-variantcubebox-description
+  description: Both kobold cubes and monkey cubes. Just add water!
   components:
   - type: StorageFill
     contents:
@@ -68,10 +68,10 @@
 
 - type: entity
   parent: MonkeyCubeWrapped
-  name: entity-koboldcubewrapped-name
+  name: kobold cube
   suffix: Wrapped
   id: KoboldCubeWrapped
-  description: entity-koboldcubewrapped-description
+  description: Unwrap this to get a kobold cube.
   components:
   - type: SpawnItemsOnUse
     items:
@@ -84,10 +84,10 @@
 
 - type: entity
   parent: MonkeyCubeBox
-  name: entity-monkeycubebox-name
+  name: monkey cube box
   suffix: Syndicate
   id: SyndicateSpongeBox
-  description: entity-monkeycubebox-description
+  description: Drymate brand monkey cubes. Just add water!
   components:
   - type: Storage
     whitelist:
@@ -103,10 +103,10 @@
 
 - type: entity
   parent: MonkeyCubeWrapped
-  name: entity-monkeycubewrapped-name
+  name: monkey cube
   suffix: Wrapped, Syndicate
   id: SyndicateSpongeWrapped
-  description: entity-monkeycubewrapped-description
+  description: Unwrap this to get a monkey cube.
   components:
   - type: SpawnItemsOnUse
     items:

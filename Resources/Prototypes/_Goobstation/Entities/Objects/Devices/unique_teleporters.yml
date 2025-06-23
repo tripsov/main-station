@@ -2,8 +2,8 @@
   parent: BaseItem
   id: BaseLockerTeleporter
   abstract: true
-  name: entity-baselockerteleporter-name
-  description: entity-baselockerteleporter-description
+  name: special equipment teleporter
+  description: Device that allows you to request delivery of special equipment.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Devices/unique_teleporters.rsi
@@ -16,8 +16,8 @@
 - type: entity
   parent: BaseLockerTeleporter
   id: BlueshieldOfficerLockerTeleporter
-  name: entity-blueshieldofficerlockerteleporter-name
-  description: entity-blueshieldofficerlockerteleporter-description
+  name: blueshield locker teleporter
+  description: Device that allows you to request delivery of blueshield officer locker.
   components:
   - type: Sprite
     state: bso
@@ -40,8 +40,8 @@
 - type: entity
   parent: BaseLockerTeleporter
   id: NanorepLockerTeleporter
-  name: entity-nanoreplockerteleporter-name
-  description: entity-nanoreplockerteleporter-description
+  name: corporate liaison locker teleporter
+  description: Device that allows you to request delivery of a locker containing items prepared for the corporate liaison, courtesy of Central Command.
   components:
   - type: Sprite
     state: ntr
@@ -64,8 +64,8 @@
 - type: entity
   parent: BaseLockerTeleporter
   id: MagistrateLockerTeleporter
-  name: entity-magistratelockerteleporter-name
-  description: entity-magistratelockerteleporter-description
+  name: magistrate locker teleporter
+  description: Device that allows you to request delivery of magistrate locker.
   components:
   - type: Sprite
     state: mag

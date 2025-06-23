@@ -1,8 +1,8 @@
 - type: entity
-  name: entity-mobnukiemouse-name
+  name: nuclear operative mouse
   parent: [ SimpleMobBase, MobCombat ]
   id: MobNukieMouse
-  description: entity-mobnukiemouse-description
+  description: A Nuclear Operative... MOUSE?!
   suffix: syndicate
   components:
   - type: GhostRole

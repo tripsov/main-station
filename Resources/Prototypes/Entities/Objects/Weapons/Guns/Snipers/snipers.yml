@@ -1,8 +1,8 @@
 - type: entity
-  name: entity-baseweaponsniper-name
+  name: BaseWeaponSniper
   parent: BaseItem
   id: BaseWeaponSniper
-  description: entity-baseweaponsniper-description
+  description: A rooty tooty point and shooty.
   abstract: true
   components:
   - type: Sprite
@@ -81,10 +81,10 @@
       collection: SnipersDrop
 
 - type: entity
-  name: entity-weaponsnipermosin-name
+  name: Kardashev-Mosin
   parent: [BaseWeaponSniper, BaseGunWieldable]
   id: WeaponSniperMosin
-  description: entity-weaponsnipermosin-description
+  description: A weapon for hunting, or endless trench warfare, with a bayonet attached at the barrel. Uses .30 rifle ammo.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Snipers/bolt_gun_wood.rsi
@@ -128,10 +128,10 @@
     - 0,0,7,0
 
 - type: entity
-  name: entity-weaponsnipermosin-name
+  name: Kardashev-Mosin
   parent: WeaponSniperMosin
   id: WeaponSniperMosinEmpty
-  description: entity-weaponsnipermosinempty-description
+  description: A weapon for hunting, or endless trench warfare. Uses .30 rifle ammo.
   suffix: Empty
   components:
   - type: BallisticAmmoProvider
@@ -144,10 +144,10 @@
       requireDetailRange: false
 
 - type: entity
-  name: entity-weaponsniperhristov-name
+  name: Hristov
   parent: [BaseWeaponSniper, BaseGunWieldable]
   id: WeaponSniperHristov
-  description: entity-weaponsniperhristov-description
+  description: A portable anti-materiel rifle. Fires armor piercing 14.5mm shells. Uses .60 anti-materiel ammo.
   components:
   # WD EDIT START
   - type: Sprite
@@ -185,7 +185,7 @@
   # WD EDIT END
 
 - type: entity
-  name: entity-musket-name
+  name: musket
   parent: BaseWeaponSniper
   id: Musket
   description: This should've been in a museum long before you were born. Uses musket catridges. # Delta V - swapping to our crafted musket ammo
@@ -243,7 +243,7 @@
     angle: 225
 
 - type: entity
-  name: entity-weaponpistolflintlock-name
+  name: flintlock pistol
   parent: BaseWeaponShotgunSmall # WWDP
   id: WeaponPistolFlintlock
   description: A pirate's companion. Yarrr! Uses musket cartridges. # Delta V - Ditto the above

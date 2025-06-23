@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: BaseItem
   id: NotekeeperCartridge
-  name: entity-notekeepercartridge-name
-  description: entity-notekeepercartridge-description
+  name: notekeeper cartridge
+  description: A program for keeping notes
   components:
   - type: Sprite
     sprite: Objects/Devices/cartridge.rsi
@@ -19,8 +19,8 @@
 - type: entity
   parent: BaseItem
   id: NewsReaderCartridge
-  name: entity-newsreadercartridge-name
-  description: entity-newsreadercartridge-description
+  name: news cartridge
+  description: A program for reading news
   components:
   - type: Sprite
     sprite: Objects/Devices/cartridge.rsi
@@ -37,8 +37,8 @@
 - type: entity
   parent: BaseItem
   id: CrewManifestCartridge
-  name: entity-crewmanifestcartridge-name
-  description: entity-crewmanifestcartridge-description
+  name: crew manifest cartridge
+  description: A program for listing your fellow crewmembers
   components:
     - type: Sprite
       sprite: Objects/Devices/cartridge.rsi
@@ -55,8 +55,8 @@
 - type: entity
   parent: BaseItem
   id: NetProbeCartridge
-  name: entity-netprobecartridge-name
-  description: entity-netprobecartridge-description
+  name: NetProbe cartridge
+  description: A program for getting the address and frequency of network devices
   components:
     - type: Sprite
       sprite: Objects/Devices/cartridge.rsi
@@ -73,8 +73,8 @@
 - type: entity
   parent: BaseItem
   id: LogProbeCartridge
-  name: entity-logprobecartridge-name
-  description: entity-logprobecartridge-description
+  name: LogProbe cartridge
+  description: A program for getting access logs from devices
   components:
     - type: Sprite
       sprite: Objects/Devices/cartridge.rsi
@@ -97,8 +97,8 @@
 - type: entity
   parent: BaseItem
   id: MedTekCartridge
-  name: entity-medtekcartridge-name
-  description: entity-medtekcartridge-description
+  name: MedTek cartridge
+  description: A program that provides medical diagnostic tools.
   components:
     - type: Sprite
       sprite: Objects/Devices/cartridge.rsi
@@ -116,8 +116,8 @@
 - type: entity
   parent: BaseItem
   id: AstroNavCartridge
-  name: entity-astronavcartridge-name
-  description: entity-astronavcartridge-description
+  name: AstroNav cartridge
+  description: A program for navigation that provides GPS coordinates.
   components:
     - type: Sprite
       sprite: Objects/Devices/cartridge.rsi
@@ -136,8 +136,8 @@
 - type: entity
   parent: BaseItem
   id: PsiWatchCartridge
-  name: entity-psiwatchcartridge-name
-  description: entity-psiwatchcartridge-description
+  name: psi watch cartridge
+  description: A cartridge that tracks the status of currently documented psionics individuals.
   components:
   - type: Sprite
     sprite: Objects/Devices/cartridge.rsi

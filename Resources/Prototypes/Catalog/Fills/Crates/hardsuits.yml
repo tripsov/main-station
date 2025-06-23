@@ -2,8 +2,8 @@
 - type: entity
   id: CrateEngineeringFotiaHardsuit
   parent: CrateEngineering
-  name: entity-crateengineeringfotiahardsuit-name
-  description: entity-crateengineeringfotiahardsuit-description
+  name: fotia hardsuit crate
+  description: Contains a single HpI-19t "Fotia" hardsuit. Requires Engineering access to open.
   components:
   - type: StorageFill
     contents:
@@ -12,8 +12,8 @@
 - type: entity
   id: CrateEngineeringLampsiHardsuit
   parent: CrateEngineering
-  name: entity-crateengineeringlampsihardsuit-name
-  description: entity-crateengineeringlampsihardsuit-description
+  name: lampsi hardsuit crate
+  description: Contains a single HpI-19r "Lampsi" hardsuit. The suit comes unpainted. Requires Engineering access to open.
   components:
   - type: StorageFill
     contents:
@@ -23,8 +23,8 @@
 - type: entity
   id: CrateLogisticsKritiHardsuit
   parent: CrateGenericSteel
-  name: entity-cratelogisticskritihardsuit-name
-  description: entity-cratelogisticskritihardsuit-description
+  name: kriti hardsuit crate
+  description: Contains a single HpI-20s "Kriti" hardsuit.
   components:
   - type: StorageFill
     contents:
@@ -33,8 +33,8 @@
 - type: entity
   id: CrateLogisticsLavrionHardsuit
   parent: CrateGenericSteel
-  name: entity-cratelogisticslavrionhardsuit-name
-  description: entity-cratelogisticslavrionhardsuit-description
+  name: lavrion hardsuit crate
+  description: Contains a single HpI-20a "Lavrion" hardsuit.
   components:
   - type: StorageFill
     contents:
@@ -44,8 +44,8 @@
 - type: entity
   id: CrateSecurityShanlinTacsuit
   parent: CrateSecgear
-  name: entity-cratesecurityshanlintacsuit-name
-  description: entity-cratesecurityshanlintacsuit-description
+  name: shanlin tacsuit crate
+  description: Contains a single CSA-51a "Shanlin" tacsuit. Requires Security access to open.
   components:
   - type: StorageFill
     contents:
@@ -54,8 +54,8 @@
 - type: entity
   id: CrateSecurityShiweiTacsuit
   parent: CrateSecgear
-  name: entity-cratesecurityshiweitacsuit-name
-  description: entity-cratesecurityshiweitacsuit-description
+  name: shiwei tacsuit crate
+  description: Contains a single CSA-54UA "Shiwei" tacsuit. Requires Security access to open.
   components:
   - type: StorageFill
     contents:
@@ -64,8 +64,8 @@
 - type: entity
   id: CrateSecurityGuanYuTacsuit
   parent: CrateSecgear
-  name: entity-cratesecurityguanyutacsuit-name
-  description: entity-cratesecurityguanyutacsuit-description
+  name: guan-yu tacsuit crate
+  description: Contains a single CSA-80UA "Guan-Yu" tacsuit. Requires Security access to open.
   components:
   - type: StorageFill
     contents:
@@ -74,8 +74,8 @@
 - type: entity
   id: CrateSecurityBaghaturTacsuit
   parent: CrateSecgear
-  name: entity-cratesecuritybaghaturtacsuit-name
-  description: entity-cratesecuritybaghaturtacsuit-description
+  name: baghatur tacsuit crate
+  description: Contains a single FPA-83s "Baghatur" tacsuit. Requires Security access to open.
   components:
   - type: StorageFill
     contents:
@@ -84,8 +84,8 @@
 - type: entity
   id: CrateSecuritySuldeTacsuit
   parent: CrateSecgear
-  name: entity-cratesecuritysuldetacsuit-name
-  description: entity-cratesecuritysuldetacsuit-description
+  name: sulde tacsuit crate
+  description: Contains a single FPA-93 - "Sulde Mk.II" tacsuit. Requires Security access to open.
   components:
   - type: StorageFill
     contents:
@@ -94,8 +94,8 @@
 - type: entity
   id: CrateSecurityTsagaanTacsuit
   parent: CrateSecgear
-  name: entity-cratesecuritytsagaantacsuit-name
-  description: entity-cratesecuritytsagaantacsuit-description
+  name: tsagaan tacsuit crate
+  description: Contains a single FPA-86 - "Tsagaan Mk.II" tacsuit. Requires Security access to open.
   components:
   - type: StorageFill
     contents:

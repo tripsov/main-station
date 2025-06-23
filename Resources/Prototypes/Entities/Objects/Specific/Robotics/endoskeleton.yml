@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: CyborgEndoskeleton
-  name: entity-cyborgendoskeleton-name
-  description: entity-cyborgendoskeleton-description
+  name: cyborg endoskeleton
+  description: A frame that cyborgs are built on. Significantly less spooky than expected.
   components:
   - type: Clickable
   - type: InteractionOutline

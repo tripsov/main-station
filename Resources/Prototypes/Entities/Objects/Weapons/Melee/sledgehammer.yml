@@ -1,8 +1,8 @@
 - type: entity
-  name: entity-sledgehammer-name
+  name: sledgehammer
   parent: BaseItem
   id: Sledgehammer
-  description: entity-sledgehammer-description
+  description: The perfect tool for wanton carnage.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/sledgehammer.rsi

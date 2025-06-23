@@ -1,8 +1,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: N14CrateFootlocker
-  name: entity-n14cratefootlocker-name
-  description: entity-n14cratefootlocker-description
+  name: footlocker
+  description: A footlocker for someones equipment.
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/footlocker.rsi
@@ -22,8 +22,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: N14CrateAluminium
-  name: entity-n14cratealuminium-name
-  description: entity-n14cratealuminium-description
+  name: aluminium crate
+  description: An aluminium crate for storing stuff.
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/aluminiumcrate.rsi
@@ -38,8 +38,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: N14CrateArmy
-  name: entity-n14cratearmy-name
-  description: entity-n14cratearmy-description
+  name: army crate
+  description: A crate with a US Army star on.
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/armycrate.rsi
@@ -54,8 +54,8 @@
 - type: entity
   parent: N14CrateFootlocker
   id: N14CrateEnclave
-  name: entity-n14crateenclave-name
-  description: entity-n14crateenclave-description
+  name: metal crate
+  description: An advanced looking crate. Might have high tech stuff in.
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
@@ -72,8 +72,8 @@
   parent: N14CrateFootlocker
   id: N14CrateEnclaveDirectional
   suffix: directional
-  name: entity-n14crateenclave-name
-  description: entity-n14crateenclave-description
+  name: metal crate
+  description: An advanced looking crate. Might have high tech stuff in.
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/enclavecrate.rsi
@@ -88,8 +88,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: N14CrateMedical
-  name: entity-n14cratemedical-name
-  description: entity-n14cratemedical-description
+  name: medical crate
+  description: A metal crate for storing medical equipment.
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/medicalcrate.rsi
@@ -109,8 +109,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: N14CrateRed
-  name: entity-n14cratered-name
-  description: entity-n14cratered-description
+  name: red crate
+  description: A faded red crate for storing stuff.
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/redcrate.rsi
@@ -120,8 +120,8 @@
 - type: entity
   parent: CrateGeneric
   id: N14Trashbin
-  name: entity-n14trashbin-name
-  description: entity-n14trashbin-description
+  name: trash bin
+  description: A trash bin for putting rubbish in.
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/trashbin.rsi
@@ -136,8 +136,8 @@
 - type: entity
   parent: N14CrateFootlocker
   id: N14CrateTrashcart
-  name: entity-n14cratetrashcart-name
-  description: entity-n14cratetrashcart-description
+  name: trash cart
+  description: A trash cart for transporting waste.
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/trashcart.rsi
@@ -149,8 +149,8 @@
 - type: entity
   parent: CrateGeneric
   id: N14CrateFreezer
-  name: entity-n14cratefreezer-name
-  description: entity-n14cratefreezer-description
+  name: freezer
+  description: A freezer for keeping things cool.
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/freezer.rsi
@@ -172,7 +172,7 @@
 - type: entity
   parent: CrateGeneric
   id: N14CrateWooden
-  name: entity-n14cratewooden-name
+  name: wooden crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/cratewooden.rsi
@@ -209,8 +209,8 @@
 - type: entity
   parent: N14CrateWooden
   id: N14CrateMilitary
-  name: entity-n14cratemilitary-name
-  description: entity-n14cratemilitary-description
+  name: military crate
+  description: An old wooden crate. Looks like it might have some supplies in.
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/cratemilitary.rsi
@@ -231,8 +231,8 @@
 - type: entity
   parent: BaseStructureDynamic
   id: N14CrateBreakBase
-  name: entity-n14cratewooden-name
-  description: entity-n14cratebreakbase-description
+  name: wooden crate
+  description: Might have to break it to see whats inside.
   abstract: true
   components:
   - type: Damageable
@@ -294,7 +294,7 @@
 - type: entity
   parent: N14CrateBreakBase
   id: N14CrateBreakSarsaparilla
-  name: entity-n14cratebreaksarsaparilla-name
+  name: sunset sarsaparilla crate
   components:
   - type: Sprite
     state: sarsaparilla_crate
@@ -310,7 +310,7 @@
 - type: entity
   parent: N14CrateBreakBase
   id: N14CrateBreakArmy
-  name: entity-n14cratearmy-name
+  name: army crate
   components:
   - type: Sprite
     state: army_crate

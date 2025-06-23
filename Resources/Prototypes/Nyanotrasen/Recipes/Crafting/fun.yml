@@ -1,11 +1,11 @@
 - type: construction
-  name: construction-mothplushie-name
+  name: moth plushie
   id: mothplushie
   graph: MothPlushie
   startNode: start
   targetNode: plush
   category: construction-category-misc
-  description: construction-mothplushie-description
+  description: A cute little moth plushie.
   icon:
     sprite: Objects/Fun/toys.rsi
     state: plushie_moth

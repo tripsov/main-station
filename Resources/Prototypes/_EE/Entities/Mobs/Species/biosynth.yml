@@ -1,8 +1,8 @@
 - type: entity
   parent: MobHuman
   id: MobSynthHuman
-  name: entity-mobsynthhuman-name
-  description: entity-mobsynthhuman-description
+  name: bio-synthetic torso
+  description: A customizable synthetic human body.
   suffix: Alive
   components:
   - type: HumanoidAppearance

@@ -2,12 +2,12 @@
   id: BaseTranslatorImplanter
   abstract: true
   parent: BaseImplantOnlyImplanter
-  name: entity-basetranslatorimplanter-name
+  name: basic translator implanter
 
 - type: entity
   id: BasicGalaticCommonTranslatorImplanter
   parent: BaseTranslatorImplanter
-  name: entity-basicgalaticcommontranslatorimplanter-name
+  name: basic common translator implanter
   components:
   - type: Implanter
     implant: BasicTauCetiBasicTranslatorImplant
@@ -15,7 +15,7 @@
 - type: entity
   id: AdvancedGalaticCommonTranslatorImplanter
   parent: BaseTranslatorImplanter
-  name: entity-advancedgalaticcommontranslatorimplanter-name
+  name: advanced common translator implanter
   components:
   - type: Implanter
     implant: TauCetiBasicTranslatorImplant
@@ -23,7 +23,7 @@
 - type: entity
   id: BubblishTranslatorImplanter
   parent: BaseTranslatorImplanter
-  name: entity-bubblishtranslatorimplanter-name
+  name: bubblish translator implant
   components:
   - type: Implanter
     implant: BubblishTranslatorImplant
@@ -31,7 +31,7 @@
 - type: entity
   id: NekomimeticTranslatorImplanter
   parent: [ BaseTranslatorImplanter ]
-  name: entity-nekomimetictranslatorimplanter-name
+  name: nekomimetic translator implant
   components:
   - type: Implanter
     implant: NekomimeticTranslatorImplant
@@ -39,7 +39,7 @@
 - type: entity
   id: DraconicTranslatorImplanter # Intended for Admins Only, this item is for lore reasons not obtainable.
   parent: [ BaseTranslatorImplanter ]
-  name: entity-draconictranslatorimplanter-name
+  name: unathi translator implant
   components:
   - type: Implanter
     implant: DraconicTranslatorImplant
@@ -47,7 +47,7 @@
 - type: entity
   id: CanilunztTranslatorImplanter
   parent: [ BaseTranslatorImplanter ]
-  name: entity-canilunzttranslatorimplanter-name
+  name: canilunzt translator implant
   components:
   - type: Implanter
     implant: CanilunztTranslatorImplant
@@ -55,7 +55,7 @@
 - type: entity
   id: SolCommonTranslatorImplanter
   parent: [ BaseTranslatorImplanter ]
-  name: entity-solcommontranslatorimplanter-name
+  name: sol-common translator implant
   components:
   - type: Implanter
     implant: SolCommonTranslatorImplant
@@ -63,7 +63,7 @@
 - type: entity
   id: NovuNedericTranslatorImplanter
   parent: [ BaseTranslatorImplanter ]
-  name: entity-novunederictranslatorimplanter-name
+  name: novu-nederic translator implant
   components:
   - type: Implanter
     implant: NovuNedericTranslatorImplant
@@ -71,7 +71,7 @@
 - type: entity
   id: RootSpeakTranslatorImplanter
   parent: [ BaseTranslatorImplanter ]
-  name: entity-rootspeaktranslatorimplanter-name
+  name: root-speak translator implant
   components:
   - type: Implanter
     implant: RootSpeakTranslatorImplant
@@ -79,7 +79,7 @@
 - type: entity
   id: MofficTranslatorImplanter
   parent: [ BaseTranslatorImplanter ]
-  name: entity-moffictranslatorimplanter-name
+  name: moffic translator implant
   components:
   - type: Implanter
     implant: MofficTranslatorImplant
@@ -87,7 +87,7 @@
 - type: entity
   id: ValyrianStandardTranslatorImplanter
   parent: [ BaseTranslatorImplanter ]
-  name: entity-valyrianstandardtranslatorimplanter-name
+  name: valyrian standard translator implant
   components:
   - type: Implanter
     implant: ValyrianStandardTranslatorImplant
@@ -95,7 +95,7 @@
 - type: entity
   id: AzazibaTranslatorImplanter
   parent: [ BaseTranslatorImplanter ]
-  name: entity-azazibatranslatorimplanter-name
+  name: azaziba translator implant
   components:
   - type: Implanter
     implant: AzazibaTranslatorImplant
@@ -103,7 +103,7 @@
 - type: entity
   id: ChittinTranslatorImplanter
   parent: [ BaseTranslatorImplanter ]
-  name: entity-chittintranslatorimplanter-name
+  name: chittin translator implant
   components:
   - type: Implanter
     implant: ChittinTranslatorImplant
@@ -111,7 +111,7 @@
 - type: entity
   id: SiikMaasTranslatorImplanter
   parent: [ BaseTranslatorImplanter ]
-  name: entity-siikmaastranslatorimplanter-name
+  name: siik'maas translator implant
   components:
   - type: Implanter
     implant: SiikMaasTranslatorImplant

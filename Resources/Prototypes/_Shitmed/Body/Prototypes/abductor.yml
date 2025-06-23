@@ -1,6 +1,6 @@
 - type: body
   id: Abductor
-  name: body-abductor-name
+  name: Abductor
   root: torso
   slots:
     head:

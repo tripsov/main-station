@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: ClusterBang
-  name: entity-clusterbang-name
-  description: entity-clusterbang-description
+  name: clusterbang
+  description: Can be used only with flashbangs. Explodes several times.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Grenades/clusterbang.rsi
@@ -27,8 +27,8 @@
 - type: entity
   parent: GrenadeBase
   id: ClusterBangFull
-  name: entity-clusterbangfull-name
-  description: entity-clusterbangfull-description
+  name: ClusterBang
+  description: Launches three flashbangs after the timer runs out.
   suffix: Full
   components:
   - type: Sprite
@@ -61,8 +61,8 @@
 - type: entity
   parent: GrenadeBase
   id: ClusterGrenade
-  name: entity-clustergrenade-name
-  description: entity-clustergrenade-description
+  name: clustergrenade
+  description: Why use one grenade when you can use three at once!
   components:
   - type: Sprite
     sprite: Objects/Weapons/Grenades/clusterbomb.rsi
@@ -92,8 +92,8 @@
 - type: entity
   parent: BaseItem
   id: ClusterBananaPeel
-  name: entity-clusterbananapeel-name
-  description: entity-clusterbananapeel-description
+  name: cluster banana peel
+  description: Splits into 6 explosive banana peels after throwing, guaranteed fun!
   components:
   - type: Sprite
     sprite: Objects/Specific/Hydroponics/banana.rsi
@@ -129,8 +129,8 @@
 - type: entity
   parent: GrenadeBase
   id: GrenadeStinger
-  name: entity-grenadestinger-name
-  description: entity-grenadestinger-description
+  name: stinger grenade
+  description: Nothing to see here, please disperse.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Grenades/stingergrenade.rsi
@@ -160,8 +160,8 @@
 - type: entity
   parent: GrenadeBase
   id: GrenadeIncendiary
-  name: entity-grenadeincendiary-name
-  description: entity-grenadeincendiary-description
+  name: incendiary grenade
+  description: Guaranteed to light up the mood.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Grenades/pyrogrenade.rsi
@@ -191,8 +191,8 @@
 - type: entity
   parent: GrenadeBase
   id: GrenadeShrapnel
-  name: entity-grenadeshrapnel-name
-  description: entity-grenadeshrapnel-description
+  name: shrapnel grenade
+  description: Releases a deadly spray of shrapnel that causes severe bleeding.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Grenades/shrapnelgrenade.rsi
@@ -222,8 +222,8 @@
 - type: entity
   parent: SoapSyndie
   id: SlipocalypseClusterSoap
-  name: entity-slipocalypseclustersoap-name
-  description: entity-slipocalypseclustersoap-description
+  name: slipocalypse clustersoap
+  description: Spreads small pieces of syndicate soap over an area upon landing on the floor.
   components:
   - type: Sprite
     sprite: Objects/Specific/Janitorial/soap.rsi
@@ -264,8 +264,8 @@
 - type: entity
   parent: GrenadeShrapnel
   id: GrenadeFoamDart
-  name: entity-grenadefoamdart-name
-  description: entity-grenadefoamdart-description
+  name: foam dart grenade
+  description: Releases a bothersome spray of foam darts that cause severe welching.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Grenades/foamdart.rsi

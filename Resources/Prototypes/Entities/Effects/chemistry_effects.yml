@@ -35,7 +35,7 @@
 - type: entity
   parent: BaseFoam
   id: Smoke
-  name: entity-smoke-name
+  name: smoke
   categories: [ HideSpawnMenu ]
   components:
   - type: Occluder
@@ -51,7 +51,7 @@
 - type: entity
   parent: BaseFoam
   id: Foam
-  name: entity-foam-name
+  name: foam
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -86,7 +86,7 @@
 
 - type: entity
   id: MetalFoam
-  name: entity-metalfoam-name
+  name: metal foam
   categories: [ HideSpawnMenu ]
   parent: Foam
   components:
@@ -110,7 +110,7 @@
 
 - type: entity
   id: IronMetalFoam
-  name: entity-ironmetalfoam-name
+  name: iron metal foam
   categories: [ HideSpawnMenu ]
   parent: MetalFoam
   components:
@@ -119,7 +119,7 @@
 
 - type: entity
   id: AluminiumMetalFoam
-  name: entity-aluminiummetalfoam-name
+  name: aluminium metal foam
   categories: [ HideSpawnMenu ]
   parent: MetalFoam
   components:
@@ -128,7 +128,7 @@
 
 - type: entity
   id: BaseFoamedMetal
-  name: entity-basefoamedmetal-name
+  name: base foamed metal
   abstract: true
   placement:
     mode: SnapgridCenter
@@ -176,7 +176,7 @@
 
 - type: entity
   id: FoamedIronMetal
-  name: entity-foamedironmetal-name
+  name: foamed iron metal
   description: "For sealing hull breaches."
   parent: BaseFoamedMetal
   components:
@@ -198,7 +198,7 @@
 
 - type: entity
   id: FoamedAluminiumMetal
-  name: entity-foamedaluminiummetal-name
+  name: foamed aluminium metal
   description: "For sealing hull breaches."
   parent: BaseFoamedMetal
   components:

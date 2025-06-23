@@ -1,7 +1,7 @@
 # These should be lathe recipes but lathe code sucks so hard rn so they'll be crafted by hand.
 
 - type: construction
-  name: construction-tilesteel-name
+  name: steel tile
   id: TileSteel
   graph: TileSteel
   startNode: start
@@ -12,7 +12,7 @@
   objectType: Item
 
 - type: construction
-  name: construction-tilewood-name
+  name: wood floor
   id: TileWood
   graph: TileWood
   startNode: start
@@ -23,7 +23,7 @@
   objectType: Item
   
 - type: construction
-  name: construction-tilebrassfilled-name
+  name: filled brass plate
   id: TileBrassFilled
   graph: TilesBrass
   startNode: start
@@ -34,7 +34,7 @@
   objectType: Item
   
 - type: construction
-  name: construction-tilebrassreebe-name
+  name: smooth brass plate
   id: TileBrassReebe
   graph: TilesBrass
   startNode: start
@@ -45,7 +45,7 @@
   objectType: Item
 
 - type: construction
-  name: construction-tilewhite-name
+  name: white tile
   id: TileWhite
   graph: TileWhite
   startNode: start
@@ -56,7 +56,7 @@
   objectType: Item
 
 - type: construction
-  name: construction-tiledark-name
+  name: dark tile
   id: TileDark
   graph: TileDark
   startNode: start
@@ -67,7 +67,7 @@
   objectType: Item
 
 - type: construction
-  name: construction-tileflesh-name
+  name: flesh tile
   id: TileFlesh
   graph: TileFlesh
   startNode: start
@@ -188,7 +188,7 @@
 #   objectType: Item
 
 - type: construction
-  name: construction-tilewoodlarge-name
+  name: large wood floor
   id: TileWoodLarge
   graph: TileWoodLarge
   startNode: start

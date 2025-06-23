@@ -1,9 +1,9 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatHoodBioGeneral
-  name: entity-clothingheadhathoodbiogeneral-name
+  name: bio hood
   suffix: Generic
-  description: entity-clothingheadhathoodbiogeneral-description
+  description: A hood that protects the head and face from biological contaminants.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Bio/general.rsi
@@ -22,9 +22,9 @@
 - type: entity
   parent: ClothingHeadHatHoodBioGeneral
   id: ClothingHeadHatHoodBioCmo
-  name: entity-clothingheadhathoodbiogeneral-name
+  name: bio hood
   suffix: CMO
-  description: entity-clothingheadhathoodbiocmo-description
+  description: An advanced hood for chief medical officers that protects the head and face from biological contaminants.
   components:
   - type: IdentityBlocker
   - type: Sprite
@@ -35,9 +35,9 @@
 - type: entity
   parent: ClothingHeadHatHoodBioGeneral
   id: ClothingHeadHatHoodBioJanitor
-  name: entity-clothingheadhathoodbiogeneral-name
+  name: bio hood
   suffix: Janitor
-  description: entity-clothingheadhathoodbiogeneral-description
+  description: A hood that protects the head and face from biological contaminants.
   components:
   - type: IdentityBlocker
   - type: Sprite
@@ -48,9 +48,9 @@
 - type: entity
   parent: ClothingHeadHatHoodBioGeneral
   id: ClothingHeadHatHoodBioScientist
-  name: entity-clothingheadhathoodbiogeneral-name
+  name: bio hood
   suffix: Epistemics # DeltaV - Epistemics Department replacing Science
-  description: entity-clothingheadhathoodbiogeneral-description
+  description: A hood that protects the head and face from biological contaminants.
   components:
   - type: IdentityBlocker
   - type: Sprite
@@ -61,9 +61,9 @@
 - type: entity
   parent: ClothingHeadHatHoodBioGeneral
   id: ClothingHeadHatHoodBioSecurity
-  name: entity-clothingheadhathoodbiogeneral-name
+  name: bio hood
   suffix: Security
-  description: entity-clothingheadhathoodbiogeneral-description
+  description: A hood that protects the head and face from biological contaminants.
   components:
   - type: IdentityBlocker
   - type: Sprite
@@ -74,9 +74,9 @@
 - type: entity
   parent: ClothingHeadHatHoodBioGeneral
   id: ClothingHeadHatHoodBioVirology
-  name: entity-clothingheadhathoodbiogeneral-name
+  name: bio hood
   suffix: Virology
-  description: entity-clothingheadhathoodbiogeneral-description
+  description: A hood that protects the head and face from biological contaminants.
   components:
   - type: IdentityBlocker
   - type: Sprite
@@ -88,8 +88,8 @@
   parent: ClothingHeadBase
   id: ClothingHeadHatHoodChaplainHood
   categories: [ HideSpawnMenu ]
-  name: entity-clothingheadhathoodchaplainhood-name
-  description: entity-clothingheadhathoodchaplainhood-description
+  name: chaplain's hood
+  description: Maximum piety in this star system.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/chaplain.rsi
@@ -106,8 +106,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatHoodCulthood
-  name: entity-clothingheadhathoodculthood-name
-  description: entity-clothingheadhathoodculthood-description
+  name: cult hood
+  description: There's no cult without cult hoods.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/cult.rsi
@@ -123,8 +123,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatHoodNunHood
-  name: entity-clothingheadhathoodnunhood-name
-  description: entity-clothingheadhathoodchaplainhood-description
+  name: nun hood
+  description: Maximum piety in this star system.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/nun.rsi
@@ -141,8 +141,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatHoodRad
-  name: entity-clothingheadhathoodrad-name
-  description: entity-clothingheadhathoodrad-description
+  name: radiation hood
+  description: A hood of the hazmat suit, designed for protection from high radioactivity.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/rad.rsi
@@ -162,8 +162,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatHoodGoliathCloak
-  name: entity-clothingheadhathoodgoliathcloak-name
-  description: entity-clothingheadhathoodgoliathcloak-description
+  name: goliath cloak hood
+  description: A hood of a goliath cloak, it is made from the hide of resilient fauna from a distant planet.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/goliathcloak.rsi
@@ -180,8 +180,8 @@
   parent: ClothingHeadBase
   id: ClothingHeadHatHoodIan
   categories: [ HideSpawnMenu ]
-  name: entity-clothingheadhathoodian-name
-  description: entity-clothingheadhathoodian-description
+  name: ian hood
+  description: A hood to complete the 'Good boy' look.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/iansuit.rsi
@@ -195,8 +195,8 @@
   parent: ClothingHeadBase
   id: ClothingHeadHatHoodCarp
   categories: [ HideSpawnMenu ]
-  name: entity-clothingheadhathoodcarp-name
-  description: entity-clothingheadhathoodcarp-description
+  name: carp hood
+  description: A gnarly hood adorned with plastic space carp teeth.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/carpsuit.rsi
@@ -225,8 +225,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatHoodMoth
-  name: entity-clothingheadhathoodmoth-name
-  description: entity-clothingheadhathoodmoth-description
+  name: moth mask
+  description: A mask in the form of a moths head is usually made of lightweight materials. It mimics the shape of a moths head with large eyes and long antennae. Such masks are often used in cosplay, or when shooting movies and videos.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/moth.rsi
@@ -246,7 +246,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterDefault
   categories: [ HideSpawnMenu ]
-  name: entity-clothingheadhathoodwinterdefault-name
+  name: default winter coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hooddefault.rsi
@@ -257,7 +257,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterBartender
   categories: [ HideSpawnMenu ]
-  name: entity-clothingheadhathoodwinterbartender-name
+  name: bartender winter coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodbartender.rsi
@@ -268,8 +268,8 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterCaptain
   categories: [ HideSpawnMenu ]
-  name: entity-clothingheadhathoodwintercaptain-name
-  description: entity-clothingheadhathoodwintercaptain-description
+  name: captain's winter coat hood
+  description: An expensive hood, to keep the captain's head warm.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodcaptain.rsi
@@ -291,7 +291,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterCE
   categories: [ HideSpawnMenu ]
-  name: entity-clothingheadhathoodwinterce-name
+  name: chief engineer's winter coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodce.rsi
@@ -302,8 +302,8 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterCentcom
   categories: [ HideSpawnMenu ]
-  name: entity-clothingheadhathoodwintercentcom-name
-  description: entity-clothingheadhathoodwintercentcom-description
+  name: Centcom winter coat hood
+  description: A hood for keeping the central comander's head warm.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodcentcom.rsi
@@ -314,7 +314,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterChem
   categories: [ HideSpawnMenu ]
-  name: entity-clothingheadhathoodwinterchem-name
+  name: chemist winter coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodchemist.rsi
@@ -325,7 +325,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterCMO
   categories: [ HideSpawnMenu ]
-  name: entity-clothingheadhathoodwintercmo-name
+  name: chief medical officer's winter coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodcmo.rsi
@@ -336,7 +336,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterEngineer
   categories: [ HideSpawnMenu ]
-  name: entity-clothingheadhathoodwinterengineer-name
+  name: engineer winter coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodengi.rsi
@@ -347,7 +347,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterHOP
   categories: [ HideSpawnMenu ]
-  name: entity-clothingheadhathoodwinterhop-name
+  name: head of personel's winter coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodhop.rsi
@@ -358,7 +358,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterHOS
   categories: [ HideSpawnMenu ]
-  name: entity-clothingheadhathoodwinterhos-name
+  name: head of security's winter coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodhos.rsi
@@ -369,7 +369,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterHydro
   categories: [ HideSpawnMenu ]
-  name: entity-clothingheadhathoodwinterhydro-name
+  name: hydroponics coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodhydro.rsi
@@ -380,7 +380,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterJani
   categories: [ HideSpawnMenu ]
-  name: entity-clothingheadhathoodwinterjani-name
+  name: janitor coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodjani.rsi
@@ -391,7 +391,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterMed
   categories: [ HideSpawnMenu ]
-  name: entity-clothingheadhathoodwintermed-name
+  name: medic coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodmed.rsi
@@ -402,7 +402,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterMime
   categories: [ HideSpawnMenu ]
-  name: entity-clothingheadhathoodwintermime-name
+  name: mime coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodmime.rsi
@@ -413,7 +413,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterMiner
   categories: [ HideSpawnMenu ]
-  name: entity-clothingheadhathoodwinterminer-name
+  name: miner coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodminer.rsi
@@ -424,7 +424,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterPara
   categories: [ HideSpawnMenu ]
-  name: entity-clothingheadhathoodwinterpara-name
+  name: paramedic coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodpara.rsi
@@ -457,7 +457,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterRobo
   categories: [ HideSpawnMenu ]
-  name: entity-clothingheadhathoodwinterrobo-name
+  name: robotics coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodrobo.rsi
@@ -468,7 +468,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterSci
   categories: [ HideSpawnMenu ]
-  name: entity-clothingheadhathoodwintersci-name
+  name: scientist coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodsci.rsi
@@ -479,7 +479,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterSec
   categories: [ HideSpawnMenu ]
-  name: entity-clothingheadhathoodwintersec-name
+  name: security coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodsec.rsi
@@ -490,7 +490,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterSyndie
   categories: [ HideSpawnMenu ]
-  name: entity-clothingheadhathoodwintersyndie-name
+  name: syndicate coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodsyndicate.rsi
@@ -501,7 +501,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterWarden
   categories: [ HideSpawnMenu ]
-  name: entity-clothingheadhathoodwinterwarden-name
+  name: warden's coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodsec.rsi
@@ -512,7 +512,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterWeb
   categories: [ HideSpawnMenu ]
-  name: entity-clothingheadhathoodwinterweb-name
+  name: web coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodweb.rsi
@@ -522,8 +522,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatHoodRedHood
-  name: entity-clothingheadhathoodredhood-name
-  description: entity-clothingheadhathoodredhood-description
+  name: Red Hood
+  description: A hood of a red cloak, made to keep the harsh light out of a traveler's eyes. Sometimes it sparkles in the light of the sun.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/redhood.rsi

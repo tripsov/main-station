@@ -1,6 +1,6 @@
 - type: entity
   id: CartridgeMagnumEnsnaring
-  name: entity-cartridgemagnumensnaring-name
+  name: cartridge (.45 magnum ensnaring)
   parent: BaseCartridgeMagnum
   components:
   - type: CartridgeAmmo
@@ -30,7 +30,7 @@
 
 - type: entity
   id: CartridgeMagnumFlash
-  name: entity-cartridgemagnumflash-name
+  name: cartridge (.45 magnum flash)
   parent: BaseCartridgeMagnum
   components:
   - type: CartridgeAmmo

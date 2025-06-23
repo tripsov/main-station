@@ -1,8 +1,8 @@
 - type: entity
   parent: VendingMachine
   id: CaptainDrobe
-  name: entity-captaindrobe-name
-  description: entity-captaindrobe-description
+  name: CaptainDrobe
+  description: Stylish uniform, for a strong leader!
   components:
   - type: VendingMachine
     pack: CaptainDrobeInventory

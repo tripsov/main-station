@@ -2,8 +2,8 @@
 - type: entity
   parent: ClothingModsuitStandard
   id: ClothingModsuitCorporate
-  name: entity-clothingmodsuitcorporate-name
-  description: entity-clothingmodsuitcorporate-description
+  name: Corporate modsuit control
+  description: The main controller for a Corporate modsuit.
   components:
     - type: Sprite
       sprite: _EE/Clothing/NanoTrasen/Modsuits/corporate.rsi
@@ -35,8 +35,8 @@
 - type: entity
   parent: ClothingModsuitGauntletsStandard
   id: ClothingModsuitGauntletsCorporate
-  name: entity-clothingmodsuitgauntletscorporate-name
-  description: entity-clothingmodsuitgauntletscorporate-description
+  name: Corporate modsuit gauntlets
+  description: A pair of gauntlets made for the Corporate modsuit.
   categories: [HideSpawnMenu]
   components:
     - type: Sprite
@@ -49,8 +49,8 @@
 - type: entity
   parent: [ClothingModsuitHelmetStandard, ShowSecurityIcons, BaseClothingRadio]
   id: ClothingModsuitHelmetCorporate
-  name: entity-clothingmodsuithelmetcorporate-name
-  description: entity-clothingmodsuithelmetcorporate-description
+  name: Corporate modsuit helmet
+  description: A state-of-the-art helmet designed by NanoTrasen for the Corporate modsuit. It includes a built-in HUD.
   categories: [HideSpawnMenu]
   components:
     - type: Sprite
@@ -99,8 +99,8 @@
 - type: entity
   parent: ClothingModsuitChestplateStandard
   id: ClothingModsuitChestplateCorporate
-  name: entity-clothingmodsuitchestplatecorporate-name
-  description: entity-clothingmodsuitchestplatecorporate-description
+  name: Corporate modsuit chestplate
+  description: A state of the art chestplate designed by NanoTrasen for the Corporate Modsuit. It incorporates powered servos to reduce the equipment load.
   categories: [HideSpawnMenu]
   components:
     - type: Sprite
@@ -152,8 +152,8 @@
 - type: entity
   parent: ClothingModsuitBootsStandard
   id: ClothingModsuitBootsCorporate
-  name: entity-clothingmodsuitbootscorporate-name
-  description: entity-clothingmodsuitbootscorporate-description
+  name: Corporate modsuit boots
+  description: A state-of-the-art pair of magboots for the Corporate modsuit. So long as the suit is powered, these will not slow the wearer down.
   categories: [HideSpawnMenu]
   components:
     - type: Appearance

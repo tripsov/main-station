@@ -1,8 +1,8 @@
 - type: entity
   parent: BasePDA
   id: HoboPDA
-  name: entity-hobopda-name
-  description: entity-hobopda-description
+  name: hobo PDA
+  description: Life has passed and all that's left to do is move forward.
   components:
   - type: Pda
     id: HoboIDCard
@@ -11,8 +11,8 @@
 - type: entity
   parent: BasePDA
   id: MaidPDA
-  name: entity-maidpda-name
-  description: entity-maidpda-description
+  name: maid PDA
+  description: Shining from her own purity.
   components:
   - type: Pda
     id: MaidIDCard

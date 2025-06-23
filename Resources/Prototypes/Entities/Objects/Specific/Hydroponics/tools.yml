@@ -1,8 +1,8 @@
 - type: entity
-  name: entity-hydroponicstoolminihoe-name
+  name: mini hoe
   parent: BaseItem
   id: HydroponicsToolMiniHoe
-  description: entity-hydroponicstoolminihoe-description
+  description: It's used for removing weeds or scratching your back.
   components:
   - type: Tag
     tags:
@@ -31,10 +31,10 @@
     sprite: Objects/Tools/Hydroponics/hoe.rsi
 
 - type: entity
-  name: entity-hydroponicstoolclippers-name
+  name: plant clippers
   parent: BaseItem
   id: HydroponicsToolClippers
-  description: entity-hydroponicstoolclippers-description
+  description: A tool used to take samples from plants.
   components:
   - type: Tag
     tags:
@@ -71,10 +71,10 @@
       path: /Audio/_Shitmed/Medical/Surgery/retractor2.ogg
 
 - type: entity
-  name: entity-hydroponicstoolscythe-name
+  name: scythe
   parent: BaseItem
   id: HydroponicsToolScythe
-  description: entity-hydroponicstoolscythe-description
+  description: A sharp and curved blade on a long fibremetal handle, this tool makes it easy to reap what you sow.
   components:
   - type: Sharp
   - type: Sprite
@@ -109,10 +109,10 @@
     price: 40
 
 - type: entity
-  name: entity-hydroponicstoolhatchet-name
+  name: hatchet
   parent: BaseItem
   id: HydroponicsToolHatchet
-  description: entity-hydroponicstoolhatchet-description
+  description: A very sharp axe blade upon a short fibremetal handle. It has a long history of chopping things, but now it is used for chopping wood.
   components:
   - type: Tag
     tags:
@@ -148,10 +148,10 @@
       path: /Audio/_Shitmed/Medical/Surgery/saw.ogg
 
 - type: entity
-  name: entity-hydroponicstoolspade-name
+  name: spade
   parent: BaseItem
   id: HydroponicsToolSpade
-  description: entity-hydroponicstoolspade-description
+  description: A small tool for digging and moving dirt.
   components:
   - type: Tag
     tags:
@@ -182,10 +182,10 @@
     speedModifier: 0.85 # slower at digging than a full-sized shovel
 
 - type: entity
-  name: entity-plantbag-name
+  name: plant bag
   id: PlantBag
   parent: BaseStorageItem
-  description: entity-plantbag-description
+  description: A bag for botanists to easily move their huge harvests.
   components:
   - type: Sprite
     sprite: Objects/Specific/Hydroponics/Equipment/plant_bag.rsi

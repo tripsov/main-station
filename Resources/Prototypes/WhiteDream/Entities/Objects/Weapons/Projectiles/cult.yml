@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: BaseBulletTrigger
   id: ProjectileGauntlet
-  name: entity-projectilegauntlet-name
-  description: entity-projectilegauntlet-description
+  name: gauntlet
+  description: Oh no.
   categories: [ HideSpawnMenu ]
   components:
   - type: PointLight

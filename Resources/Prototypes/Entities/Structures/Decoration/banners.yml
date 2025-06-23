@@ -1,8 +1,8 @@
 - type: entity
   id: BannerBase
   parent: BaseStructureDynamic
-  name: entity-bannerbase-name
-  description: entity-bannerbase-description
+  name: base banner
+  description: It's the concept of a banner, you shouldn't be seeing this.
   abstract: true
   components:
   - type: Sprite
@@ -30,8 +30,8 @@
 - type: entity
   id: BannerNanotrasen
   parent: BannerBase
-  name: entity-bannernanotrasen-name
-  description: entity-bannernanotrasen-description
+  name: nanotrasen banner
+  description: A banner displaying the Nanotrasen logo. It looks rather cheap.
   components:
   - type: Sprite
     sprite: Structures/Decoration/banner.rsi
@@ -40,7 +40,7 @@
 - type: entity
   id: BannerCargo
   parent: BannerBase
-  name: entity-bannercargo-name
+  name: logistics banner
   description: A banner displaying the colors of the logistics department. Not. Cargonia. # DeltaV - Logistics Department replacing Cargo
   components:
   - type: Sprite
@@ -50,8 +50,8 @@
 - type: entity
   id: BannerEngineering
   parent: BannerBase
-  name: entity-bannerengineering-name
-  description: entity-bannerengineering-description
+  name: engineering banner
+  description: A banner displaying the colors of the engineering department. Scrungularty.
   components:
   - type: Sprite
     sprite: Structures/Decoration/banner.rsi
@@ -60,8 +60,8 @@
 - type: entity
   id: BannerMedical
   parent: BannerBase
-  name: entity-bannermedical-name
-  description: entity-bannermedical-description
+  name: medical banner
+  description: A banner displaying the colors of the medical department. How sterile.
   components:
   - type: Sprite
     sprite: Structures/Decoration/banner.rsi
@@ -70,8 +70,8 @@
 - type: entity
   id: BannerRevolution
   parent: BannerBase
-  name: entity-bannerrevolution-name
-  description: entity-bannerrevolution-description
+  name: revolution banner
+  description: A banner displaying revolution. Viva!
   components:
   - type: Sprite
     sprite: Structures/Decoration/banner.rsi
@@ -80,8 +80,8 @@
 - type: entity
   id: BannerSyndicate
   parent: BannerBase
-  name: entity-bannersyndicate-name
-  description: entity-bannersyndicate-description
+  name: syndicate banner
+  description: A banner from which, according to the syndicate, you should feel hatred for NT.
   components:
   - type: Sprite
     sprite: Structures/Decoration/banner.rsi
@@ -100,8 +100,8 @@
 - type: entity
   id: BannerSecurity
   parent: BannerBase
-  name: entity-bannersecurity-name
-  description: entity-bannersecurity-description
+  name: security banner
+  description: A banner displaying the colors of the shitcurity department. Security, my bad.
   components:
   - type: Sprite
     sprite: Structures/Decoration/banner.rsi
@@ -110,8 +110,8 @@
 - type: entity
   id: BannerBlue
   parent: BannerBase
-  name: entity-bannerblue-name
-  description: entity-bannerblue-description
+  name: blue banner
+  description: A banner displaying the color blue. Dabudidabudai.
   components:
   - type: Sprite
     sprite: Structures/Decoration/banner.rsi
@@ -120,8 +120,8 @@
 - type: entity
   id: BannerRed
   parent: BannerBase
-  name: entity-bannerred-name
-  description: entity-bannerred-description
+  name: red banner
+  description: A banner displaying the color red. The edgy one.
   components:
   - type: Sprite
     sprite: Structures/Decoration/banner.rsi
@@ -130,8 +130,8 @@
 - type: entity
   id: BannerYellow
   parent: BannerBase
-  name: entity-banneryellow-name
-  description: entity-banneryellow-description
+  name: yellow banner
+  description: A banner displaying the color yellow. Reminds you of ducks and lemon stands.
   components:
   - type: Sprite
     sprite: Structures/Decoration/banner.rsi
@@ -140,8 +140,8 @@
 - type: entity
   id: BannerGreen
   parent: BannerBase
-  name: entity-bannergreen-name
-  description: entity-bannergreen-description
+  name: green banner
+  description: A banner displaying the color green. Grass, leaves, guacamole.
   components:
   - type: Sprite
     sprite: Structures/Decoration/banner.rsi

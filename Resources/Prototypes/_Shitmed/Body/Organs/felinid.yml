@@ -1,7 +1,7 @@
 - type: entity
   id: OrganFelinidEars
   parent: OrganHumanEars
-  name: entity-organfelinidears-name
+  name: cat ears
   description: "Holding these might potentially be contagious."
   components:
   - type: Sprite
@@ -13,7 +13,7 @@
 - type: entity
   id: OrganFelinidTail
   parent: BaseHumanOrgan
-  name: entity-organfelinidtail-name
+  name: cat tail
   description: "Should you really have this?"
   components:
   - type: Sprite

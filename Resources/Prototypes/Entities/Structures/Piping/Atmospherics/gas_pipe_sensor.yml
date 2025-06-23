@@ -1,7 +1,7 @@
 - type: entity
   parent: [AirSensorBase, GasPipeBase]
   id: GasPipeSensor
-  name: entity-gaspipesensor-name
+  name: gas pipe sensor
   description: Reports on the status of the gas in the attached pipe network. 
   placement:
     mode: SnapgridCenter

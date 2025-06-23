@@ -1,8 +1,8 @@
 - type: entity
   id: ReverseEngineeringMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: entity-reverseengineeringmachinecircuitboard-name
-  description: entity-reverseengineeringmachinecircuitboard-description
+  name: reverse engineering machine machine board
+  description: A machine printed circuit board for a reverse engineering machine
   components:
     - type: Sprite
       state: engineering
@@ -27,7 +27,7 @@
 - type: entity
   id: DeepFryerMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: entity-deepfryermachinecircuitboard-name
+  name: deep fryer machine board
   components:
     - type: Sprite
       state: service
@@ -47,7 +47,7 @@
 - type: entity
   id: MailTeleporterMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: entity-mailteleportermachinecircuitboard-name
+  name: mail teleporter machine board
   components:
     - type: Sprite
       state: supply

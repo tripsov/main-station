@@ -1,8 +1,8 @@
 - type: entity
-  name: entity-boxcleanergrenades-name
+  name: cleanades box
   parent: BoxCardboard
   id: BoxCleanerGrenades
-  description: entity-boxcleanergrenades-description
+  description: A box full of cleanades.
   components:
   - type: StorageFill
     contents:

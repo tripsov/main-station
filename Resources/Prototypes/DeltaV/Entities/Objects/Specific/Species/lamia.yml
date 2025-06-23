@@ -38,9 +38,9 @@
   id: LamiaSegment
   save: false
   parent: LamiaInitialSegment
-  name: entity-lamiasegment-name
+  name: lamia segment
   categories: [ HideSpawnMenu ]
-  description: entity-lamiasegment-description
+  description: A tail segment, hopefully attached to a lamia.
   components:
   - type: Sprite
   - type: Tag

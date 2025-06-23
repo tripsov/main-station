@@ -5,8 +5,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitBasic
-  name: entity-clothingouterhardsuitbasic-name
-  description: entity-clothingouterhardsuitbasic-description
+  name: basic hardsuit
+  description: A basic, universal hardsuit that protects the wearer against the horrors of life in space. Beats not having a hardsuit, at least.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/basic.rsi
@@ -32,8 +32,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitAtmos
-  name: entity-clothingouterhardsuitatmos-name
-  description: entity-clothingouterhardsuitatmos-description
+  name: atmos hardsuit
+  description: A special suit that protects against hazardous, low pressure environments. Has thermal shielding.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/atmospherics.rsi
@@ -74,8 +74,8 @@
 - type: entity
   parent: ClothingOuterHardsuitEngineering
   id: ClothingOuterHardsuitEngineeringUnpainted
-  name: entity-clothingouterhardsuitengineeringunpainted-name
-  description: entity-clothingouterhardsuitengineeringunpainted-description
+  name: engineering hardsuit
+  description: A special suit that protects against hazardous, low pressure environments. Has radiation shielding.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/engineering-base.rsi
@@ -92,8 +92,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitEngineering
-  name: entity-clothingouterhardsuitengineeringunpainted-name
-  description: entity-clothingouterhardsuitengineeringunpainted-description
+  name: engineering hardsuit
+  description: A special suit that protects against hazardous, low pressure environments. Has radiation shielding.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/engineering.rsi
@@ -137,8 +137,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitSpatio
-  name: entity-clothingouterhardsuitspatio-name
-  description: entity-clothingouterhardsuitspatio-description
+  name: spationaut hardsuit
+  description: A lightweight hardsuit designed for industrial EVA in zero gravity.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/spatio.rsi
@@ -168,8 +168,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitSalvage
-  name: entity-clothingouterhardsuitsalvage-name
-  description: entity-clothingouterhardsuitsalvage-description
+  name: mining hardsuit
+  description: A special suit that protects against hazardous, low pressure environments. Has reinforced plating for wildlife encounters.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/salvage.rsi
@@ -201,8 +201,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitVoidParamed
-  name: entity-clothingouterhardsuitvoidparamed-name
-  description: entity-clothingouterhardsuitvoidparamed-description
+  name: paramedic hardsuit
+  description: A hardsuit made for paramedics.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/paramed.rsi
@@ -234,8 +234,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBaseMedium
   id: ClothingOuterHardsuitMaxim
-  name: entity-clothingouterhardsuitmaxim-name
-  description: entity-clothingouterhardsuitmaxim-description
+  name: salvager maxim hardsuit
+  description: Fire. Heat. These things forge great weapons, they also forge great salvagers.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/maxim.rsi
@@ -270,8 +270,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBaseMedium
   id: ClothingOuterHardsuitSecurity
-  name: entity-clothingouterhardsuitsecurity-name
-  description: entity-clothingouterhardsuitsecurity-description
+  name: security hardsuit
+  description: A special suit that protects against hazardous, low pressure environments. Has an additional layer of armor.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/security.rsi
@@ -335,8 +335,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBaseHeavy
   id: ClothingOuterHardsuitWarden
-  name: entity-clothingouterhardsuitwarden-name
-  description: entity-clothingouterhardsuitwarden-description
+  name: warden's hardsuit
+  description: A specialized riot suit geared to combat low pressure environments.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/security-warden.rsi
@@ -368,8 +368,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBaseMedium
   id: ClothingOuterHardsuitCap
-  name: entity-clothingouterhardsuitcap-name
-  description: entity-clothingouterhardsuitcap-description
+  name: captain's armored spacesuit
+  description: A formal armored spacesuit, made for the station's captain.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/capspace.rsi
@@ -403,8 +403,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBaseMedium
   id: ClothingOuterHardsuitEngineeringWhite
-  name: entity-clothingouterhardsuitengineeringwhite-name
-  description: entity-clothingouterhardsuitengineeringwhite-description
+  name: chief engineer's hardsuit
+  description: A special hardsuit that protects against hazardous, low pressure environments, made for the chief engineer of the station.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/engineering-white.rsi
@@ -451,8 +451,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitMedical
-  name: entity-clothingouterhardsuitmedical-name
-  description: entity-clothingouterhardsuitmedical-description
+  name: chief medical officer's hardsuit
+  description: A special suit that protects against hazardous, low pressure environments. Built with lightweight materials for easier movement.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/medical.rsi
@@ -478,8 +478,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBaseHeavy
   id: ClothingOuterHardsuitRd
-  name: entity-clothingouterhardsuitrd-name
-  description: entity-clothingouterhardsuitsecurity-description
+  name: experimental research hardsuit
+  description: A special suit that protects against hazardous, low pressure environments. Has an additional layer of armor.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/rd.rsi
@@ -526,8 +526,8 @@
 - type: entity
   parent: ClothingOuterHardsuitSecurity
   id: ClothingOuterHardsuitSecurityRed
-  name: entity-clothingouterhardsuitsecurityred-name
-  description: entity-clothingouterhardsuitsecurity-description
+  name: head of security's hardsuit
+  description: A special suit that protects against hazardous, low pressure environments. Has an additional layer of armor.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/security-red.rsi
@@ -560,7 +560,7 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitLuxury #DO NOT MAP - https://github.com/space-wizards/space-station-14/pull/19738#issuecomment-1703486738
-  name: entity-clothingouterhardsuitluxury-name
+  name: luxury mining hardsuit
   description: A refurbished mining hardsuit, fashioned after the Logistics Officer's colors. Graphene lining provides less protection, but is much easier to move. # DeltaV - Logistics Department replacing Cargo
   components:
   - type: Sprite
@@ -594,8 +594,8 @@
 - type: entity
   parent: ClothingOuterHardsuitSyndie
   id: ClothingOuterHardsuitShanlinUnpainted
-  name: entity-clothingouterhardsuitshanlinunpainted-name
-  description: entity-clothingouterhardsuitengineeringunpainted-description
+  name: Cybersun tacsuit
+  description: A special suit that protects against hazardous, low pressure environments. Has radiation shielding.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/syndicate-base.rsi
@@ -612,8 +612,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBaseMedium
   id: ClothingOuterHardsuitSyndie
-  name: entity-clothingouterhardsuitsyndie-name
-  description: entity-clothingouterhardsuitsyndie-description
+  name: blood-red hardsuit
+  description: A heavily armored hardsuit designed for work in special operations. Property of Gorlex Marauders.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/syndicate.rsi # WD EDIT - WD nuke sprite
@@ -654,8 +654,8 @@
 - type: entity
   parent: ClothingOuterHardsuitSyndie
   id: ClothingOuterHardsuitSyndieMedic
-  name: entity-clothingouterhardsuitsyndiemedic-name
-  description: entity-clothingouterhardsuitsyndiemedic-description
+  name: blood-red medic hardsuit
+  description: A heavily armored and agile advanced hardsuit specifically designed for field medic operations.
   components:
   - type: Sprite
     sprite: _Impstation/Clothing/OuterClothing/Hardsuits/syndicate_agent.rsi
@@ -680,8 +680,8 @@
 - type: entity
   parent: ClothingOuterHardsuitSyndieElite
   id: ClothingOuterHardsuitShiweiUnpainted
-  name: entity-clothingouterhardsuitshanlinunpainted-name
-  description: entity-clothingouterhardsuitengineeringunpainted-description
+  name: Cybersun tacsuit
+  description: A special suit that protects against hazardous, low pressure environments. Has radiation shielding.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/syndicate-elite-base.rsi
@@ -698,8 +698,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitSyndieElite
-  name: entity-clothingouterhardsuitsyndieelite-name
-  description: entity-clothingouterhardsuitsyndieelite-description
+  name: syndicate elite hardsuit
+  description: An elite version of the blood-red hardsuit, with improved mobility and fireproofing. Property of Gorlex Marauders.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/syndieelite.rsi # WD EDIT - WD nuke sprite
@@ -738,8 +738,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBaseHeavy
   id: ClothingOuterHardsuitSyndieCommander
-  name: entity-clothingouterhardsuitsyndiecommander-name
-  description: entity-clothingouterhardsuitsyndiecommander-description
+  name: syndicate commander hardsuit
+  description: A bulked up version of the blood-red hardsuit, purpose-built for the commander of a syndicate operative squad. Has significantly improved armor for those deadly front-lines firefights.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/syndiecommander.rsi # WD EDIT - WD nuke sprite
@@ -774,8 +774,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBaseHeavy
   id: ClothingOuterHardsuitJuggernaut
-  name: entity-clothingouterhardsuitjuggernaut-name
-  description: entity-clothingouterhardsuitjuggernaut-description
+  name: cybersun juggernaut suit
+  description: A suit made by the cutting edge R&D department at cybersun to be hyper resilient.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/cybersun.rsi # WD EDIT - WD nuke sprite
@@ -826,8 +826,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitWizard
-  name: entity-clothingouterhardsuitwizard-name
-  description: entity-clothingouterhardsuitwizard-description
+  name: wizard hardsuit
+  description: A bizarre gem-encrusted suit that radiates magical energies.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/wizard.rsi
@@ -860,8 +860,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitLing
-  name: entity-clothingouterhardsuitling-name
-  description: entity-clothingouterhardsuitling-description
+  name: organic space suit
+  description: A spaceworthy biomass of pressure and temperature resistant tissue.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/lingspacesuit.rsi
@@ -891,9 +891,9 @@
 - type: entity
   parent:  ClothingOuterHardsuitBase
   id:  ClothingOuterHardsuitPirateEVA
-  name: entity-clothingouterhardsuitpirateeva-name
+  name: deep space EVA suit
   suffix: Pirate
-  description: entity-clothingouterhardsuitpirateeva-description
+  description: A heavy space suit that provides some basic protection from the cold harsh realities of deep space.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/pirateeva.rsi
@@ -922,8 +922,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitPirateCap
-  name: entity-clothingouterhardsuitpiratecap-name
-  description: entity-clothingouterhardsuitpiratecap-description
+  name: pirate captain's hardsuit
+  description: An ancient armored hardsuit, perfect for defending against space scurvy and toolbox-wielding scallywags.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/piratecaptain.rsi
@@ -961,8 +961,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBaseMedium
   id: ClothingOuterHardsuitERTSecurity
-  name: entity-clothingouterhardsuitertsecurity-name
-  description: entity-clothingouterhardsuitertsecurity-description
+  name: ERT security's hardsuit
+  description: A protective hardsuit worn by the security officers of an emergency response team.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/ERTSuits/ertsecurity.rsi
@@ -1002,8 +1002,8 @@
 - type: entity
   parent: ClothingOuterHardsuitERTSecurity # WWDP EDIT
   id: ClothingOuterHardsuitERTLeader
-  name: entity-clothingouterhardsuitertleader-name
-  description: entity-clothingouterhardsuitertleader-description
+  name: ERT leader's hardsuit
+  description: A protective hardsuit worn by the leader of an emergency response team.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/ERTSuits/ertleader.rsi
@@ -1016,8 +1016,8 @@
 - type: entity
   parent: ClothingOuterHardsuitERTSecurity # WWDP EDIT
   id: ClothingOuterHardsuitERTChaplain
-  name: entity-clothingouterhardsuitertchaplain-name
-  description: entity-clothingouterhardsuitertchaplain-description
+  name: ERT chaplain's hardsuit
+  description: A protective hardsuit worn by the chaplains of an Emergency Response Team.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/ERTSuits/ertchaplain.rsi #if you change this, please update the humanoid.yml with a better markers sprite.
@@ -1030,8 +1030,8 @@
 - type: entity
   parent: ClothingOuterHardsuitERTSecurity  # WWDP EDIT
   id: ClothingOuterHardsuitERTEngineer
-  name: entity-clothingouterhardsuitertengineer-name
-  description: entity-clothingouterhardsuitertengineer-description
+  name: ERT engineer's hardsuit
+  description: A protective hardsuit worn by the engineers of an emergency response team.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/ERTSuits/ertengineer.rsi
@@ -1049,8 +1049,8 @@
 - type: entity
   parent: ClothingOuterHardsuitERTSecurity  # WWDP edit
   id: ClothingOuterHardsuitERTMedical
-  name: entity-clothingouterhardsuitertmedical-name
-  description: entity-clothingouterhardsuitertmedical-description
+  name: ERT medic's hardsuit
+  description: A protective hardsuit worn by the medics of an emergency response team.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/ERTSuits/ertmedical.rsi
@@ -1063,8 +1063,8 @@
 - type: entity
   parent: ClothingOuterHardsuitERTSecurity  # WWDP edit
   id: ClothingOuterHardsuitERTJanitor
-  name: entity-clothingouterhardsuitertjanitor-name
-  description: entity-clothingouterhardsuitertjanitor-description
+  name: ERT janitor's hardsuit
+  description: A protective hardsuit worn by the janitors of an emergency response team.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/ERTSuits/ertjanitor.rsi
@@ -1078,8 +1078,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBaseHeavy
   id: ClothingOuterHardsuitDeathsquad
-  name: entity-clothingouterhardsuitdeathsquad-name
-  description: entity-clothingouterhardsuitdeathsquad-description
+  name: death squad hardsuit
+  description: An advanced hardsuit favored by commandos for use in special operations.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/deathsquad.rsi
@@ -1115,8 +1115,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBaseMedium
   id: ClothingOuterHardsuitCBURN
-  name: entity-clothingouterhardsuitcburn-name
-  description: entity-clothingouterhardsuitcburn-description
+  name: CBURN exosuit
+  description: A lightweight yet strong exosuit used for special cleanup operations.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/cburn.rsi
@@ -1152,8 +1152,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitClown
-  name: entity-clothingouterhardsuitclown-name
-  description: entity-clothingouterhardsuitclown-description
+  name: clown hardsuit
+  description: A custom-made clown hardsuit.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/clown.rsi
@@ -1185,8 +1185,8 @@
 - type: entity
   parent: ClothingOuterHardsuitClown
   id: ClothingOuterHardsuitMime
-  name: entity-clothingouterhardsuitmime-name
-  description: entity-clothingouterhardsuitmime-description
+  name: mime hardsuit
+  description: A custom-made mime hardsuit.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/mime.rsi
@@ -1202,8 +1202,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitSanta
-  name: entity-clothingouterhardsuitsanta-name
-  description: entity-clothingouterhardsuitsanta-description
+  name: Santa's hardsuit
+  description: A festive, cheerful hardsuit that protects the jolly gift-giver while on sleighrides in space. Offers some resistance against asteroid strikes.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/santahardsuit.rsi

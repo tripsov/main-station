@@ -18,9 +18,9 @@
 
 - type: entity
   id: Kudzu
-  name: entity-kudzu-name
+  name: kudzu
   parent: BaseKudzu
-  description: entity-kudzu-description
+  description: A rapidly growing, dangerous plant. WHY ARE YOU STOPPING TO LOOK AT IT?!
   components:
     - type: MeleeSound
       soundGroups:
@@ -107,9 +107,9 @@
 
 - type: entity
   id: KudzuFlowerFriendly
-  name: entity-kudzuflowerfriendly-name
+  name: floral carpet
   suffix: Friendly, Floral Anomaly
-  description: entity-kudzuflowerfriendly-description
+  description: A colorful carpet of flowers sprawling in every direction. You're not sure whether to take it down or leave it up.
   parent: Kudzu
   components:
     - type: Sprite
@@ -159,9 +159,9 @@
 
 - type: entity
   id: FleshKudzu
-  name: entity-fleshkudzu-name
+  name: tendons
   parent: BaseKudzu
-  description: entity-fleshkudzu-description
+  description: A rapidly growing cluster of meaty tendons. WHY ARE YOU STOPPING TO LOOK AT IT?!
   placement:
     mode: SnapgridCenter
     snap:
@@ -252,7 +252,7 @@
           Asphyxiation: -0.25
 
 - type: entity
-  name: entity-shadowkudzu-name
+  name: dark haze
   id: ShadowKudzu
   parent: [BaseKudzu, BaseShadow]
   components:
@@ -292,7 +292,7 @@
             data: { state: spookysmoke_static }
 
 - type: entity
-  name: entity-shadowkudzuweak-name
+  name: Haze
   id: ShadowKudzuWeak
   parent: ShadowKudzu
   components:
@@ -300,7 +300,7 @@
       spreadChance: 0 #appears during pulsation. It shouldnt spreading.
 
 - type: entity
-  name: entity-shadowkinshadow-name
+  name: Shadowkin Haze
   id: ShadowkinShadow
   parent: ShadowKudzuWeak
   components:
@@ -315,7 +315,7 @@
       lifetime: 5
 
 - type: entity
-  name: entity-shadowkudzutemp-name
+  name: fading haze
   id: ShadowKudzuTemp
   parent: ShadowKudzuWeak
   components:

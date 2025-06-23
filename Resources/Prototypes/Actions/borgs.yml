@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: ActionViewLaws
-  name: entity-actionviewlaws-name
-  description: entity-actionviewlaws-description
+  name: View Laws
+  description: View the laws that you must follow.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -14,7 +14,7 @@
 
 - type: entity
   id: ActionSelectBorgType
-  name: entity-actionselectborgtype-name
+  name: Select Cyborg Type
   components:
   - type: InstantAction
     itemIconStyle: NoItem

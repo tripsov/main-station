@@ -1,8 +1,8 @@
 - type: entity
   id: CrateScienceModsuitCoresFilled
   parent: CrateScienceSecure
-  name: entity-cratesciencemodsuitcoresfilled-name
-  description: entity-cratesciencemodsuitcoresfilled-description
+  name: MOD cores crate
+  description: Contains three MOD cores inside.
   components:
   - type: StorageFill
     contents:

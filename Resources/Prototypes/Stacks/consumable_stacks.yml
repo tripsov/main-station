@@ -2,7 +2,7 @@
 
 - type: stack
   id: Pancake
-  name: stack-pancake-name
+  name: pancake
   spawn: FoodBakedPancake
   maxCount: 3
 
@@ -10,7 +10,7 @@
 
 - type: stack
   id: PizzaBox
-  name: stack-pizzabox-name
+  name: pizza box
   icon: { sprite: Objects/Consumable/Food/Baked/pizza.rsi, state: box }
   spawn: FoodBoxPizza
   maxCount: 30
@@ -19,55 +19,55 @@
 
 - type: stack
   id: PaperRolling
-  name: stack-paperrolling-name
+  name: rolling paper
   icon: { sprite: /Textures/Objects/Consumable/Smokeables/Cigarettes/paper.rsi, state: cigpaper }
   spawn: PaperRolling
   maxCount: 5
 
 - type: stack
   id: CigaretteFilter
-  name: stack-cigarettefilter-name
+  name: cigarette filter
   icon: { sprite: /Textures/Objects/Consumable/Smokeables/Cigarettes/paper.rsi, state: cigfilter }
   spawn: CigaretteFilter
   maxCount: 5
 
 - type: stack
   id: GroundTobacco
-  name: stack-groundtobacco-name
+  name: ground tobacco
   icon: { sprite: /Textures/Objects/Misc/reagent_fillings.rsi, state: powderpile }
   spawn: GroundTobacco
   maxCount: 5
 
 - type: stack
   id: GroundCannabis
-  name: stack-groundcannabis-name
+  name: ground cannabis
   icon: { sprite: /Textures/Objects/Misc/reagent_fillings.rsi, state: powderpile }
   spawn: GroundCannabis
   maxCount:
 
 - type: stack
   id: GroundCannabisRainbow
-  name: stack-groundcannabisrainbow-name
+  name: ground rainbow cannabis
   icon: { sprite: /Textures/Objects/Specific/Hydroponics/rainbow_cannabis.rsi, state: powderpile_rainbow }
   spawn: GroundCannabisRainbow
   maxCount:
 
 - type: stack
   id: LeavesTobaccoDried
-  name: stack-leavestobaccodried-name
+  name: dried tobacco leaves
   icon: { sprite: /Textures/Objects/Specific/Hydroponics/tobacco.rsi, state: dried }
   spawn: LeavesTobaccoDried
   maxCount: 5
 
 - type: stack
   id: LeavesCannabisDried
-  name: stack-leavescannabisdried-name
+  name: dried cannabis leaves
   icon: { sprite: /Textures/Objects/Specific/Hydroponics/tobacco.rsi, state: dried }
   spawn: LeavesCannabisDried
   maxCount: 5
 
 - type: stack
   id: LeavesCannabisRainbowDried
-  name: stack-leavescannabisrainbowdried-name
+  name: dried rainbow cannabis leaves
   icon: { sprite: /Textures/Objects/Specific/Hydroponics/rainbow_cannabis.rsi, state: dried }
   spawn: LeavesCannabisRainbowDried

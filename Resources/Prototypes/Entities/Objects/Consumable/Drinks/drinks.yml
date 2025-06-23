@@ -125,8 +125,8 @@
 
 # Transformable container - normal glass
 - type: entity
-  name: entity-drinkglass-name
-  description: entity-drinkglass-description
+  name: glass cup
+  description: A glass cup, able to hold a variety of liquids for your drinking pleasure.
   parent: DrinkGlassBase
   id: DrinkGlass
   components:
@@ -155,8 +155,8 @@
   - type: TransformableContainer
 
 - type: entity
-  name: entity-drinkglasscoupeshaped-name
-  description: entity-drinkglasscoupeshaped-description
+  name: coupe glass
+  description: A classic thin neck coupe glass, the icon of fragile labels on crates around the galaxy.
   parent: DrinkGlassBase
   id: DrinkGlassCoupeShaped
   components:
@@ -1025,7 +1025,7 @@
   parent: DrinkGlass
   id: DrinkHoochGlass
   suffix: hooch
-  description: entity-drinkhoochglass-description
+  description: You've really hit rock bottom now... your liver packed its bags and left last night.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1993,7 +1993,7 @@
   parent: DrinkGlassBase
   id: DrinkTeapot
   name: teapot  # short and stout
-  description: entity-drinkteapot-description
+  description: An elegant teapot. It simply oozes class.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2182,8 +2182,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkWaterJug
-  name: entity-drinkwaterjug-name
-  description: entity-drinkwaterjug-description
+  name: water jug
+  description: Stay hydrated
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2326,7 +2326,7 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkShakeBlue
-  name: entity-drinkshakeblue-name
+  name: blue milkshake
   description: ''
   components:
   - type: Drink
@@ -2336,7 +2336,7 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkShakeEmpty
-  name: entity-drinkshakeempty-name
+  name: shakeempty
   description: ''
   components:
   - type: Drink
@@ -2346,7 +2346,7 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkShakeMeat
-  name: entity-drinkshakemeat-name
+  name: meat shake
   description: ''
   components:
   - type: Drink
@@ -2356,7 +2356,7 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkShakeRobo
-  name: entity-drinkshakerobo-name
+  name: robo shake
   description: ''
   components:
   - type: Drink
@@ -2366,7 +2366,7 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkShakeWhite
-  name: entity-drinkshakewhite-name
+  name: white shake
   description: ''
   components:
   - type: Drink
@@ -2405,8 +2405,8 @@
 - type: entity
   parent: DrinkBasePlastic
   id: DrinkFitnessShakerBlack
-  name: entity-drinkfitnessshakerblack-name
-  description: entity-drinkfitnessshakerblack-description
+  name: fitness shaker
+  description: Big enough to contain enough protein to get perfectly swole. Don't mind the bits.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/shakerblack.rsi

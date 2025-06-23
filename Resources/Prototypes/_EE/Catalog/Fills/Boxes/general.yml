@@ -1,8 +1,8 @@
 - type: entity
-  name: entity-boxcardboardsmall-name
+  name: cardboard box small
   parent: BoxBase
   id: BoxCardboardSmall
-  description: entity-boxcardboardsmall-description
+  description: A cardboard box for storing things.
   components:
   - type: Item
     size: Normal

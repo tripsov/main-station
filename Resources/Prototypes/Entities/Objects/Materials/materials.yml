@@ -2,7 +2,7 @@
   abstract: true
   parent: BaseItem
   id: MaterialBase
-  description: entity-materialbase-description
+  description: A raw material.
   components:
   - type: Sprite
     sprite: Objects/Materials/materials.rsi
@@ -26,7 +26,7 @@
 - type: entity
   parent: MaterialBase
   id: MaterialCardboard
-  name: entity-materialcardboard-name
+  name: cardboard
   suffix: Full
   components:
   - type: Material
@@ -99,7 +99,7 @@
 - type: entity
   parent: MaterialBase
   id: MaterialCloth
-  name: entity-materialcloth-name
+  name: cloth
   suffix: Full
   components:
   - type: Healing
@@ -232,7 +232,7 @@
 - type: entity
   parent: MaterialBase
   id: MaterialDurathread
-  name: entity-materialdurathread-name
+  name: durathread
   suffix: Full
   components:
   - type: Stack
@@ -291,7 +291,7 @@
 - type: entity
   parent: MaterialBase
   id: MaterialWoodPlank
-  name: entity-materialwoodplank-name
+  name: wood
   suffix: Full
   components:
   - type: Material
@@ -449,7 +449,7 @@
 - type: entity
   parent: MaterialBase
   id: MaterialBiomass
-  name: entity-materialbiomass-name
+  name: biomass
   suffix: Full
   components:
   - type: Material
@@ -479,7 +479,7 @@
 - type: entity
   parent: MaterialBase
   id: MaterialHideBear
-  name: entity-materialhidebear-name
+  name: bear hide
   components:
   - type: Sprite
     sprite: Objects/Materials/materials.rsi
@@ -506,8 +506,8 @@
 - type: entity
   parent: MaterialBase
   id: MaterialHideCorgi
-  name: entity-materialhidecorgi-name
-  description: entity-materialhidecorgi-description
+  name: corgi hide
+  description: Luxury pelt used in only the most elite fashion. Rumors say this is found when a corgi is sent to the nice farm.
   components:
   - type: Sprite
     sprite: Objects/Materials/materials.rsi
@@ -531,7 +531,7 @@
 - type: entity
   parent: MaterialBase
   id: MaterialDiamond
-  name: entity-materialdiamond-name
+  name: refined diamond
   suffix: Full
   components:
   - type: Stack
@@ -573,7 +573,7 @@
 - type: entity
   parent: MaterialBase
   id: MaterialCotton
-  name: entity-materialcotton-name
+  name: cotton
   suffix: Full
   components:
   - type: Stack
@@ -638,7 +638,7 @@
 - type: entity
   parent: MaterialBase
   id: MaterialPyrotton
-  name: entity-materialpyrotton-name
+  name: pyrotton
   suffix: Full
   components:
   - type: Stack
@@ -690,7 +690,7 @@
 - type: entity
   parent: MaterialBase
   id: MaterialBananium
-  name: entity-materialbananium-name
+  name: bananium
   suffix: Full
   components:
   - type: Material
@@ -771,8 +771,8 @@
 - type: entity
   parent: MaterialBase
   id: MaterialWebSilk
-  name: entity-materialwebsilk-name
-  description: entity-materialwebsilk-description
+  name: silk
+  description: A webby material.
   suffix: Full
   components:
   - type: Material
@@ -828,7 +828,7 @@
 - type: entity
   parent: MaterialBase
   id: MaterialBones
-  name: entity-materialbones-name
+  name: bones
   suffix: Full
   components:
   - type: Stack
@@ -879,8 +879,8 @@
 - type: entity
   parent: MaterialBase
   id: MaterialGunpowder
-  name: entity-materialgunpowder-name
-  description: entity-materialgunpowder-description
+  name: gunpowder
+  description: An explosive compound.
   components:
   - type: Stack
     stackType: Gunpowder
@@ -901,8 +901,8 @@
 - type: entity
   parent: MaterialBase
   id: MaterialGoliathHide
-  name: entity-materialgoliathhide-name
-  description: entity-materialgoliathhide-description
+  name: goliath hide plates
+  description: Pieces of a goliath's rocky hide, these might be able to make your suit a bit more durable to attack from the local fauna.
   suffix: Full
   components:
   - type: Sprite

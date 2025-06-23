@@ -1,8 +1,8 @@
 - type: entity
-  name: entity-energyswordbase-name
+  name: energy sword
   parent: BaseItem
   id: EnergySwordBase
-  description: entity-energyswordbase-description
+  description: A very loud & dangerous sword with a beam made of pure, concentrated plasma. Cuts through unarmored targets like butter.
   abstract: true
   components:
   - type: EnergySword
@@ -107,10 +107,10 @@
       path: /Audio/Weapons/eblade1.ogg
 
 - type: entity
-  name: entity-energyswordbase-name
+  name: energy sword
   parent: EnergySwordBase
   id: EnergySword
-  description: entity-energyswordbase-description
+  description: A very loud & dangerous sword with a beam made of pure, concentrated plasma. Cuts through unarmored targets like butter.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/e_sword.rsi
@@ -138,10 +138,10 @@
     - EnergySword
 
 - type: entity
-  name: entity-energyswordhos-name
+  name: antique energy sword
   parent: EnergySword
   id: EnergySwordHoS
-  description: entity-energyswordhos-description
+  description: An elegant weapon fit for a prince, this otherwise plain silver hilt is engraved with, "My Love".
   components:
   - type: EnergySword
     activatedColor: "#00CCFF"
@@ -151,7 +151,7 @@
     stealGroup: HoSAntiqueWeapon
 
 - type: entity
-  name: entity-energydagger-name
+  name: pen
   parent: EnergySwordBase
   id: EnergyDagger
   suffix: E-Dagger
@@ -234,9 +234,9 @@
 - type: entity
   parent: BaseItem
   id: EnergyDaggerBox
-  name: entity-energydaggerbox-name
+  name: e-dagger box
   suffix: E-Dagger
-  description: entity-energydaggerbox-description
+  description: A small box containing an e-dagger. Packaging disintegrates when opened, leaving no evidence behind.
   components:
   - type: Sprite
     sprite: Objects/Storage/penbox.rsi
@@ -250,7 +250,7 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
-  name: entity-energycutlass-name
+  name: energy cutlass
   parent: EnergySwordBase
   id: EnergyCutlass
   description: An exotic energy weapon, brutal blade crackling with crudely harnessed plasma. #DeltaV - nicer description.
@@ -282,7 +282,7 @@
         Blunt: 6
 
 - type: entity
-  name: entity-energycutlass-name
+  name: energy cutlass
   parent: EnergyCutlass
   id: EnergyCutlassSecurity
   description: A sleek energy weapon, its blade hums with volatile plasma, expertly contained to cut through nearly any material. The serial number on the hilt marks this gun as belonging to an NT Security Officer. # how do I make the text blue
@@ -299,10 +299,10 @@
     guides: [ SecurityWeapons ]
 
 - type: entity
-  name: entity-energysworddouble-name
+  name: double-bladed energy sword
   parent: EnergySwordBase
   id: EnergySwordDouble
-  description: entity-energysworddouble-description
+  description: Syndicate Command's intern thought that having only one blade on energy swords was not cool enough. This can be stored in pockets.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/e_sword_double.rsi

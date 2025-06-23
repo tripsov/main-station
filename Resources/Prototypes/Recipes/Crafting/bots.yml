@@ -1,181 +1,181 @@
 - type: construction
-  name: construction-cleanbot-name
+  name: cleanbot
   id: cleanbot
   graph: CleanBot
   startNode: start
   targetNode: bot
   category: construction-category-utilities
   objectType: Item
-  description: construction-cleanbot-description
+  description: This bot wanders around the station, mopping up any puddles it sees.
   icon:
     sprite: Mobs/Silicon/Bots/cleanbot.rsi
     state: cleanbot
 
 - type: construction
-  name: construction-honkbot-name
+  name: honkbot
   id: honkbot
   graph: HonkBot
   startNode: start
   targetNode: bot
   category: construction-category-utilities
   objectType: Item
-  description: construction-honkbot-description
+  description: This bot honks and slips people.
   icon:
     sprite: Mobs/Silicon/Bots/honkbot.rsi
     state: honkbot
 
 - type: construction
-  name: construction-jonkbot-name
+  name: jonkbot
   id: jonkbot
   graph: JonkBot
   startNode: start
   targetNode: bot
   category: construction-category-utilities
   objectType: Item
-  description: construction-jonkbot-description
+  description: This cursed bot honks, laughs and slips people.
   icon:
     sprite: Mobs/Silicon/Bots/honkbot.rsi
     state: jonkbot
 
 - type: construction
-  name: construction-medibot-name
+  name: medibot
   id: medibot
   graph: MediBot
   startNode: start
   targetNode: bot
   category: construction-category-utilities
   objectType: Item
-  description: construction-medibot-description
+  description: This bot can help supply basic healing.
   icon:
     sprite: Mobs/Silicon/Bots/medibot.rsi
     state: medibot
 
 - type: construction
-  name: construction-mimebot-name
+  name: mimebot
   id: mimebot
   graph: MimeBot
   startNode: start
   targetNode: bot
   category: construction-category-utilities
   objectType: Item
-  description: construction-mimebot-description
+  description: This bot knows how to wave.
   icon:
     sprite: Mobs/Silicon/Bots/mimebot.rsi
     state: mimebot
 
 - type: construction
-  name: construction-supplybot-name
+  name: supplybot
   id: supplybot
   graph: SupplyBot
   startNode: start
   targetNode: bot
   category: construction-category-utilities
   objectType: Item
-  description: construction-supplybot-description
+  description: This bot can be loaded with cargo to make deliveries.
   icon:
     sprite: Mobs/Silicon/Bots/supplybot.rsi
     state: supplybot
 
 - type: construction
-  name: construction-gladiabot-name
+  name: gladiabot
   id: gladiabot
   graph: GladiaBot
   startNode: start
   targetNode: bot
   category: construction-category-utilities
   objectType: Item
-  description: construction-gladiabot-description
+  description: This bot fights for honour and glory!
   icon:
     sprite: Mobs/Silicon/Bots/gladiabot.rsi
     state: GladiabotFFA
 
 - type: construction
-  name: construction-batonbot-name
+  name: batonbot
   id: batonbot
   graph: BatonBot
   startNode: start
   targetNode: bot
   category: construction-category-utilities
   objectType: Item
-  description: construction-batonbot-description
+  description: Defends the station from hostile wildlife.
   icon:
     sprite: Mobs/Silicon/Bots/batonbot.rsi
     state: batonbot
 
 - type: construction
-  name: construction-minebot-name
+  name: minebot
   id: minebot
   graph: MineBot
   startNode: start
   targetNode: bot
   category: construction-category-utilities
   objectType: Item
-  description: construction-minebot-description
+  description: Helps the miners with their work.
   icon:
     sprite: Mobs/Silicon/Bots/minebot.rsi
     state: minebot
 
 - type: construction
-  name: construction-disablerbot-name
+  name: disablerbot
   id: disablerbot
   graph: DisablerBot
   startNode: start
   targetNode: bot
   category: construction-category-utilities
   objectType: Item
-  description: construction-batonbot-description
+  description: Defends the station from hostile wildlife.
   icon:
     sprite: Mobs/Silicon/Bots/disablerbot.rsi
     state: disablerbot
 
 - type: construction
-  name: construction-weldbot-name
+  name: weldbot
   id: weldbot
   graph: WeldBot
   startNode: start
   targetNode: bot
   category: construction-category-utilities
   objectType: Item
-  description: construction-weldbot-description
+  description: Repairs the inorganic crew.
   icon:
     sprite: Mobs/Silicon/Bots/weldbot.rsi
     state: weldbot
 
 - type: construction
-  name: construction-plantbot-name
+  name: plantbot
   id: plantbot
   graph: PlantBot
   startNode: start
   targetNode: bot
   category: construction-category-utilities
   objectType: Item
-  description: construction-plantbot-description
+  description: This bot takes care of the plants.
   icon:
     sprite: Mobs/Silicon/Bots/plantbot.rsi
     state: plantbot
 
 - type: construction
-  name: construction-fillbot-name
+  name: fillbot
   id: fillbot
   graph: FillBot
   startNode: start
   targetNode: bot
   category: construction-category-utilities
   objectType: Item
-  description: construction-fillbot-description
+  description: This bot is linked to a machine that items can be inserted into using a multitool.
   icon:
     sprite: Mobs/Silicon/Bots/fillbot.rsi
     state: fillbot
 
 - type: construction
-  name: construction-drone-name
+  name: drone
   id: drone
   graph: Drone
   startNode: start
   targetNode: bot
   category: construction-category-utilities
   objectType: Item
-  description: construction-drone-description
+  description: This bot is an extremely advanced AI controlled engineer.
   icon:
     sprite: _Imp/Drone/drone.rsi
     state: shell

@@ -12,7 +12,7 @@
 - type: entity
   parent: BaseFlag
   id: BlankFlag
-  name: entity-blankflag-name
+  name: blank flag
   description: "Some piece of white cloth. Definitely not the flag of France."
   components:
   - type: Sprite
@@ -21,7 +21,7 @@
 - type: entity
   parent: BaseFlag
   id: NTFlag
-  name: entity-ntflag-name
+  name: Nanotrasen flag
   description: "Glory to NT! Wait, they really made a flag for a corporation?"
   components:
   - type: Sprite
@@ -30,7 +30,7 @@
 - type: entity
   parent: BaseFlag
   id: SyndieFlag
-  name: entity-syndieflag-name
+  name: syndicate flag
   description: "Smells bloody. Death to NT!"
   components:
   - type: Sprite
@@ -39,7 +39,7 @@
 - type: entity
   parent: BaseFlag
   id: LGBTQFlag
-  name: entity-lgbtqflag-name
+  name: LGBTQ flag
   description: "Be gay do crime flag"
   components:
   - type: Sprite
@@ -48,7 +48,7 @@
 - type: entity
   parent: BaseFlag
   id: PirateFlag
-  name: entity-pirateflag-name
+  name: pirate flag
   description: "Raise the jolly roger, scallywags!"
   components:
   - type: Sprite

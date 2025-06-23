@@ -1,8 +1,8 @@
 - type: entity
   id: CrateVendingMachineRestockBoozeFilled
   parent: CratePlastic
-  name: entity-cratevendingmachinerestockboozefilled-name
-  description: entity-cratevendingmachinerestockboozefilled-description
+  name: Booze-O-Mat restock crate
+  description: Contains a restock box for the Booze-O-Mat.
   components:
   - type: StorageFill
     contents:
@@ -11,8 +11,8 @@
 - type: entity
   id: CrateVendingMachineRestockChefvendFilled
   parent: CratePlastic
-  name: entity-cratevendingmachinerestockchefvendfilled-name
-  description: entity-cratevendingmachinerestockchefvendfilled-description
+  name: ChefVend restock crate
+  description: Contains a restock box for the ChefVend.
   components:
   - type: StorageFill
     contents:
@@ -21,8 +21,8 @@
 - type: entity
   id: CrateVendingMachineRestockClothesFilled
   parent: CratePlastic
-  name: entity-cratevendingmachinerestockclothesfilled-name
-  description: entity-cratevendingmachinerestockclothesfilled-description
+  name: clothing restock crate
+  description: Contains a restock box for the clothes vending machines.
   components:
   - type: StorageFill
     contents:
@@ -31,8 +31,8 @@
 - type: entity
   id: CrateVendingMachineRestockAutoDrobeFilled
   parent: CratePlastic
-  name: entity-cratevendingmachinerestockautodrobefilled-name
-  description: entity-cratevendingmachinerestockautodrobefilled-description
+  name: AutoDrobe restock crate
+  description: Contains a restock box for the AutoDrobe.
   components:
   - type: StorageFill
     contents:
@@ -41,8 +41,8 @@
 - type: entity
   id: CrateVendingMachineRestockCondimentStationFilled
   parent: CratePlastic
-  name: entity-cratevendingmachinerestockcondimentstationfilled-name
-  description: entity-cratevendingmachinerestockcondimentstationfilled-description
+  name: condiment station restock crate
+  description: Contains a restock box for the condiment station.
   components:
   - type: StorageFill
     contents:
@@ -51,8 +51,8 @@
 - type: entity
   id: CrateVendingMachineRestockDinnerwareFilled
   parent: CratePlastic
-  name: entity-cratevendingmachinerestockdinnerwarefilled-name
-  description: entity-cratevendingmachinerestockdinnerwarefilled-description
+  name: Plasteel Chef restock crate
+  description: Contains a restock box for the Plasteel Chef vending machine.
   components:
   - type: StorageFill
     contents:
@@ -61,8 +61,8 @@
 - type: entity
   id: CrateVendingMachineRestockEngineeringFilled
   parent: CrateEngineeringSecure
-  name: entity-cratevendingmachinerestockengineeringfilled-name
-  description: entity-cratevendingmachinerestockengineeringfilled-description
+  name: EngiVend restock crate
+  description: Contains a restock box for the EngiVend. Also supports the YouTool.
   components:
   - type: StorageFill
     contents:
@@ -71,8 +71,8 @@
 - type: entity
   id: CrateVendingMachineRestockGamesFilled
   parent: CratePlastic
-  name: entity-cratevendingmachinerestockgamesfilled-name
-  description: entity-cratevendingmachinerestockgamesfilled-description
+  name: Good Clean Fun restock crate
+  description: Contains a restock box for the Good Clean Fun vending machine.
   components:
   - type: StorageFill
     contents:
@@ -81,8 +81,8 @@
 - type: entity
   id: CrateVendingMachineRestockHotDrinksFilled
   parent: CratePlastic
-  name: entity-cratevendingmachinerestockhotdrinksfilled-name
-  description: entity-cratevendingmachinerestockhotdrinksfilled-description
+  name: Solar's Best restock crate
+  description: Contains two restock boxes for Solar's Best Hot Drinks vending machine.
   components:
   - type: StorageFill
     contents:
@@ -92,8 +92,8 @@
 - type: entity
   id: CrateVendingMachineRestockMedicalFilled
   parent: CrateMedicalSecure
-  name: entity-cratevendingmachinerestockmedicalfilled-name
-  description: entity-cratevendingmachinerestockmedicalfilled-description
+  name: NanoMed restock crate
+  description: Contains a restock box, compatible with the NanoMed and NanoMedPlus.
   components:
   - type: StorageFill
     contents:
@@ -102,8 +102,8 @@
 - type: entity
   id: CrateVendingMachineRestockChemVendFilled
   parent: CrateMedicalSecure
-  name: entity-cratevendingmachinerestockchemvendfilled-name
-  description: entity-cratevendingmachinerestockchemvendfilled-description
+  name: ChemVend restock crate
+  description: Contains a restock box for the ChemVend.
   components:
   - type: StorageFill
     contents:
@@ -112,8 +112,8 @@
 - type: entity
   id: CrateVendingMachineRestockNutriMaxFilled
   parent: CrateHydroSecure
-  name: entity-cratevendingmachinerestocknutrimaxfilled-name
-  description: entity-cratevendingmachinerestocknutrimaxfilled-description
+  name: NutriMax restock crate
+  description: Contains a restock box for the NutriMax vending machine.
   components:
   - type: StorageFill
     contents:
@@ -122,8 +122,8 @@
 - type: entity
   id: CrateVendingMachineRestockPTechFilled
   parent: CratePlastic
-  name: entity-cratevendingmachinerestockptechfilled-name
-  description: entity-cratevendingmachinerestockptechfilled-description
+  name: PTech restock crate
+  description: Contains a restock box for the PTech bureaucracy dispenser.
   components:
   - type: StorageFill
     contents:
@@ -132,8 +132,8 @@
 - type: entity
   id: CrateVendingMachineRestockRobustSoftdrinksFilled
   parent: CratePlastic
-  name: entity-cratevendingmachinerestockrobustsoftdrinksfilled-name
-  description: entity-cratevendingmachinerestockrobustsoftdrinksfilled-description
+  name: Robust Softdrinks restock crate
+  description: Contains two restock boxes for the Robust Softdrinks LLC vending machine.
   components:
   - type: StorageFill
     contents:
@@ -153,8 +153,8 @@
 - type: entity
   id: CrateVendingMachineRestockSecTechFilled
   parent: CrateSecgear
-  name: entity-cratevendingmachinerestocksectechfilled-name
-  description: entity-cratevendingmachinerestocksectechfilled-description
+  name: SecTech restock crate
+  description: Contains a restock box for the SecTech vending machine.
   components:
   - type: StorageFill
     contents:
@@ -163,8 +163,8 @@
 - type: entity
   id: CrateVendingMachineRestockSeedsFilled
   parent: CrateHydroSecure
-  name: entity-cratevendingmachinerestockseedsfilled-name
-  description: entity-cratevendingmachinerestockseedsfilled-description
+  name: MegaSeed restock crate
+  description: Contains a restock box for the MegaSeed vending machine.
   components:
   - type: StorageFill
     contents:
@@ -173,8 +173,8 @@
 - type: entity
   id: CrateVendingMachineRestockSmokesFilled
   parent: CratePlastic
-  name: entity-cratevendingmachinerestocksmokesfilled-name
-  description: entity-cratevendingmachinerestocksmokesfilled-description
+  name: ShadyCigs restock crate
+  description: Contains two restock boxes for the ShadyCigs vending machine.
   components:
   - type: StorageFill
     contents:
@@ -184,8 +184,8 @@
 - type: entity
   id: CrateVendingMachineRestockVendomatFilled
   parent: CratePlastic
-  name: entity-cratevendingmachinerestockvendomatfilled-name
-  description: entity-cratevendingmachinerestockvendomatfilled-description
+  name: Vendomat restock crate
+  description: Contains a restock box for a Vendomat vending machine.
   components:
   - type: StorageFill
     contents:
@@ -194,8 +194,8 @@
 - type: entity
   id: CrateVendingMachineRestockRoboticsFilled
   parent: CrateScienceSecure
-  name: entity-cratevendingmachinerestockroboticsfilled-name
-  description: entity-cratevendingmachinerestockroboticsfilled-description
+  name: Robotech Deluxe restock crate
+  description: Contains a restock box for a Robotech Deluxe vending machine.
   components:
   - type: StorageFill
     contents:
@@ -204,8 +204,8 @@
 - type: entity
   id: CrateVendingMachineRestockTankDispenserFilled
   parent: CratePlastic
-  name: entity-cratevendingmachinerestocktankdispenserfilled-name
-  description: entity-cratevendingmachinerestocktankdispenserfilled-description
+  name: tank dispenser restock crate
+  description: Contains a restock box for an Engineering or Atmospherics tank dispenser.
   components:
   - type: StorageFill
     contents:
@@ -214,8 +214,8 @@
 - type: entity
   id: CrateVendingMachineRestockHappyHonkFilled
   parent: CratePlastic
-  name: entity-cratevendingmachinerestockhappyhonkfilled-name
-  description: entity-cratevendingmachinerestockhappyhonkfilled-description
+  name: Happy Honk restock crate
+  description: Contains a restock box for a happy honk dispenser.
   components:
   - type: StorageFill
     contents:
@@ -225,8 +225,8 @@
 - type: entity
   id: CrateVendingMachineRestockGetmoreChocolateCorpFilled
   parent: CratePlastic
-  name: entity-cratevendingmachinerestockgetmorechocolatecorpfilled-name
-  description: entity-cratevendingmachinerestockgetmorechocolatecorpfilled-description
+  name: Getmore Chocolate Corp restock crate
+  description: Contains a restock box for a Getmore Chocolate Corp dispenser.
   components:
   - type: StorageFill
     contents:
@@ -236,8 +236,8 @@
 - type: entity
   id: CrateVendingMachineRestockChangFilled
   parent: CratePlastic
-  name: entity-cratevendingmachinerestockchangfilled-name
-  description: entity-cratevendingmachinerestockchangfilled-description
+  name: Chang restock crate
+  description: Contains a restock box for a Mr. Chang dispenser.
   components:
   - type: StorageFill
     contents:
@@ -247,8 +247,8 @@
 - type: entity
   id: CrateVendingMachineRestockDiscountDansFilled
   parent: CratePlastic
-  name: entity-cratevendingmachinerestockdiscountdansfilled-name
-  description: entity-cratevendingmachinerestockdiscountdansfilled-description
+  name: Discount Dans restock crate
+  description: Contains a restock box for a Discount Dan's dispenser.
   components:
   - type: StorageFill
     contents:
@@ -258,8 +258,8 @@
 - type: entity
   id: CrateVendingMachineRestockDonutFilled
   parent: CratePlastic
-  name: entity-cratevendingmachinerestockdonutfilled-name
-  description: entity-cratevendingmachinerestockdonutfilled-description
+  name: Donut restock crate
+  description: Contains a restock box for a Monkin' Donuts dispenser.
   components:
   - type: StorageFill
     contents:

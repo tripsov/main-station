@@ -7,10 +7,10 @@
 # Large Plate
 
 - type: entity
-  name: entity-foodplate-name
+  name: large plate
   parent: BaseItem
   id: FoodPlate
-  description: entity-foodplate-description
+  description: A large plate, excellent for bread.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/plates.rsi
@@ -67,10 +67,10 @@
         - BulletImpassable # Ever seen a John Woo movie?
 
 - type: entity
-  name: entity-foodplatetrash-name
+  name: broken plate
   parent: BaseItem
   id: FoodPlateTrash
-  description: entity-foodplatetrash-description
+  description: A broken plate. Useless.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/plates.rsi
@@ -87,10 +87,10 @@
 # Small Plate
 
 - type: entity
-  name: entity-foodplatesmall-name
+  name: small plate
   parent: FoodPlate
   id: FoodPlateSmall
-  description: entity-foodplatesmall-description
+  description: A small plate. Delicate.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/plates.rsi
@@ -133,10 +133,10 @@
 # Plastic Plate
 
 - type: entity
-  name: entity-foodplateplastic-name
+  name: plastic plate
   parent: BaseItem
   id: FoodPlatePlastic
-  description: entity-foodplateplastic-description
+  description: A large blue plastic plate, excellent for a birthday cake.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/plates.rsi
@@ -150,10 +150,10 @@
     - Trash
 
 - type: entity
-  name: entity-foodplateplastic-name
+  name: plastic plate
   parent: BaseItem
   id: FoodPlateSmallPlastic
-  description: entity-foodplatesmallplastic-description
+  description: A blue plastic plate, excellent for slices of birthday cake.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/plates.rsi
@@ -169,10 +169,10 @@
 # Pie Tin
 
 - type: entity
-  name: entity-foodplatetin-name
+  name: pie tin
   parent: BaseItem
   id: FoodPlateTin
-  description: entity-foodplatetin-description
+  description: A cheap foil tin for pies.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/plates.rsi

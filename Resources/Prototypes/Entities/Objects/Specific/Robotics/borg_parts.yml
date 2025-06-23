@@ -86,7 +86,7 @@
   - type: entity
     id: LeftArmBorgEngineer
     parent: BaseBorgLeftArm
-    name: entity-leftarmborgengineer-name
+    name: engineer cyborg left arm
     components:
     - type: Sprite
       state: engineer_l_arm
@@ -101,7 +101,7 @@
   - type: entity
     id: RightArmBorgEngineer
     parent: BaseBorgRightArm
-    name: entity-rightarmborgengineer-name
+    name: engineer cyborg right arm
     components:
     - type: Sprite
       state: engineer_r_arm
@@ -116,7 +116,7 @@
   - type: entity
     id: LeftLegBorgEngineer
     parent: BaseBorgLegLeft
-    name: entity-leftlegborgengineer-name
+    name: engineer cyborg left leg
     components:
     - type: Sprite
       state: engineer_l_leg
@@ -131,7 +131,7 @@
   - type: entity
     id: RightLegBorgEngineer
     parent: BaseBorgLegRight
-    name: entity-rightlegborgengineer-name
+    name: engineer cyborg right leg
     components:
     - type: Sprite
       state: engineer_r_leg
@@ -146,7 +146,7 @@
   - type: entity
     id: HeadBorgEngineer
     parent: BaseLightHeadBorg
-    name: entity-headborgengineer-name
+    name: engineer cyborg head
     components:
     - type: Sprite
       state: engineer_head
@@ -161,7 +161,7 @@
   - type: entity
     id: TorsoBorgEngineer
     parent: BaseBorgTorso
-    name: entity-torsoborgengineer-name
+    name: engineer cyborg torso
     components:
     - type: Sprite
       state: engineer_chest
@@ -176,7 +176,7 @@
   - type: entity
     id: LeftLegBorgJanitor
     parent: BaseBorgLegLeft
-    name: entity-leftlegborgjanitor-name
+    name: janitor cyborg left leg
     components:
     - type: Sprite
       state: janitor_l_leg
@@ -191,7 +191,7 @@
   - type: entity
     id: RightLegBorgJanitor
     parent: BaseBorgLegRight
-    name: entity-rightlegborgjanitor-name
+    name: janitor cyborg right leg
     components:
     - type: Sprite
       state: janitor_r_leg
@@ -206,7 +206,7 @@
   - type: entity
     id: HeadBorgJanitor
     parent: BaseLightHeadBorg
-    name: entity-headborgjanitor-name
+    name: janitor cyborg head
     components:
     - type: Sprite
       state: janitor_head
@@ -221,7 +221,7 @@
   - type: entity
     id: TorsoBorgJanitor
     parent: BaseBorgTorso
-    name: entity-torsoborgjanitor-name
+    name: janitor cyborg torso
     components:
     - type: Sprite
       state: janitor_chest
@@ -236,7 +236,7 @@
   - type: entity
     id: LeftArmBorgMedical
     parent: BaseBorgLeftArm
-    name: entity-leftarmborgmedical-name
+    name: medical cyborg left arm
     components:
     - type: Sprite
       state: medical_l_arm
@@ -251,7 +251,7 @@
   - type: entity
     id: RightArmBorgMedical
     parent: BaseBorgRightArm
-    name: entity-rightarmborgmedical-name
+    name: medical cyborg right arm
     components:
     - type: Sprite
       state: medical_r_arm
@@ -266,7 +266,7 @@
   - type: entity
     id: LeftLegBorgMedical
     parent: BaseBorgLegLeft
-    name: entity-leftlegborgmedical-name
+    name: medical cyborg left leg
     components:
     - type: Sprite
       state: medical_l_leg
@@ -281,7 +281,7 @@
   - type: entity
     id: RightLegBorgMedical
     parent: BaseBorgLegRight
-    name: entity-rightlegborgmedical-name
+    name: medical cyborg right leg
     components:
     - type: Sprite
       state: medical_r_leg
@@ -296,7 +296,7 @@
   - type: entity
     id: HeadBorgMedical
     parent: BaseLightHeadBorg
-    name: entity-headborgmedical-name
+    name: medical cyborg head
     components:
     - type: Sprite
       state: medical_head
@@ -311,7 +311,7 @@
   - type: entity
     id: TorsoBorgMedical
     parent: BaseBorgTorso
-    name: entity-torsoborgmedical-name
+    name: medical cyborg torso
     components:
     - type: Sprite
       state: medical_chest
@@ -326,7 +326,7 @@
   - type: entity
     id: LeftArmBorgMining
     parent: BaseBorgLeftArm
-    name: entity-leftarmborgmining-name
+    name: mining cyborg left arm
     components:
     - type: Sprite
       state: mining_l_arm
@@ -341,7 +341,7 @@
   - type: entity
     id: RightArmBorgMining
     parent: BaseBorgRightArm
-    name: entity-rightarmborgmining-name
+    name: mining cyborg right arm
     components:
     - type: Sprite
       state: mining_r_arm
@@ -356,7 +356,7 @@
   - type: entity
     id: LeftLegBorgMining
     parent: BaseBorgLegLeft
-    name: entity-leftlegborgmining-name
+    name: mining cyborg left leg
     components:
     - type: Sprite
       state: mining_l_leg
@@ -371,7 +371,7 @@
   - type: entity
     id: RightLegBorgMining
     parent: BaseBorgLegRight
-    name: entity-rightlegborgmining-name
+    name: mining cyborg right leg
     components:
     - type: Sprite
       state: mining_r_leg
@@ -386,7 +386,7 @@
   - type: entity
     id: HeadBorgMining
     parent: BaseLightHeadBorg
-    name: entity-headborgmining-name
+    name: mining cyborg head
     components:
     - type: Sprite
       state: mining_head
@@ -401,7 +401,7 @@
   - type: entity
     id: TorsoBorgMining
     parent: BaseBorgTorso
-    name: entity-torsoborgmining-name
+    name: mining cyborg torso
     components:
     - type: Sprite
       state: mining_chest
@@ -416,7 +416,7 @@
   - type: entity
     id: LeftArmBorgService
     parent: BaseBorgLeftArm
-    name: entity-leftarmborgservice-name
+    name: service cyborg left arm
     components:
     - type: Sprite
       state: service_l_arm
@@ -431,7 +431,7 @@
   - type: entity
     id: RightArmBorgService
     parent: BaseBorgRightArm
-    name: entity-rightarmborgservice-name
+    name: service cyborg right arm
     components:
     - type: Sprite
       state: service_r_arm
@@ -446,7 +446,7 @@
   - type: entity
     id: LeftLegBorgService
     parent: BaseBorgLegLeft
-    name: entity-leftlegborgservice-name
+    name: service cyborg left leg
     components:
     - type: Sprite
       state: service_l_leg
@@ -461,7 +461,7 @@
   - type: entity
     id: RightLegBorgService
     parent: BaseBorgLegRight
-    name: entity-rightlegborgservice-name
+    name: service cyborg right leg
     components:
     - type: Sprite
       state: service_r_leg
@@ -476,7 +476,7 @@
   - type: entity
     id: HeadBorgService
     parent: BaseLightHeadBorg
-    name: entity-headborgservice-name
+    name: service cyborg head
     components:
     - type: Sprite
       state: service_head
@@ -491,7 +491,7 @@
   - type: entity
     id: TorsoBorgService
     parent: BaseBorgTorso
-    name: entity-torsoborgservice-name
+    name: service cyborg torso
     components:
     - type: Sprite
       state: service_chest

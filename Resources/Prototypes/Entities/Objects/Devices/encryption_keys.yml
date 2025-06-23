@@ -2,8 +2,8 @@
   abstract: true
   parent: BaseItem
   id: EncryptionKey
-  name: entity-encryptionkey-name
-  description: entity-encryptionkey-description
+  name: encryption key
+  description: A small cypher chip for headsets.
   components:
   - type: EncryptionKey
   - type: Item
@@ -14,8 +14,8 @@
 - type: entity
   parent: EncryptionKey
   id: EncryptionKeyCommon
-  name: entity-encryptionkeycommon-name
-  description: entity-encryptionkeycommon-description
+  name: common encryption key
+  description: An encryption key used by anyone.
   components:
   - type: EncryptionKey
     channels:
@@ -30,7 +30,7 @@
   parent: EncryptionKey
   id: EncryptionKeyCargo
   name: logistics encryption key # DeltaV - Logistics Department replacing Cargo
-  description: entity-encryptionkeycargo-description
+  description: An encryption key used by supply employees.
   components:
   - type: EncryptionKey
     channels:
@@ -44,8 +44,8 @@
 - type: entity
   parent: EncryptionKey
   id: EncryptionKeyCentCom
-  name: entity-encryptionkeycentcom-name
-  description: entity-encryptionkeycentcom-description
+  name: central command encryption key
+  description: An encryption key used by captain's bosses.
   components:
   - type: EncryptionKey
     channels:
@@ -59,8 +59,8 @@
 - type: entity
   parent: EncryptionKey
   id: EncryptionKeyStationMaster
-  name: entity-encryptionkeystationmaster-name
-  description: entity-encryptionkeystationmaster-description
+  name: station master encryption key
+  description: An encryption key used by station's bosses.
   components:
   - type: EncryptionKey
     channels:
@@ -83,8 +83,8 @@
 - type: entity
   parent: EncryptionKey
   id: EncryptionKeyCommand
-  name: entity-encryptionkeycommand-name
-  description: entity-encryptionkeycommand-description
+  name: command encryption key
+  description: An encryption key used by crew's bosses.
   components:
   - type: EncryptionKey
     channels:
@@ -98,8 +98,8 @@
 - type: entity
   parent: EncryptionKey
   id: EncryptionKeyEngineering
-  name: entity-encryptionkeyengineering-name
-  description: entity-encryptionkeyengineering-description
+  name: engineering encryption key
+  description: An encryption key used by the engineers.
   components:
   - type: EncryptionKey
     channels:
@@ -113,8 +113,8 @@
 - type: entity
   parent: EncryptionKey
   id: EncryptionKeyMedical
-  name: entity-encryptionkeymedical-name
-  description: entity-encryptionkeymedical-description
+  name: medical encryption key
+  description: An encryption key used by those who save lives.
   components:
   - type: EncryptionKey
     channels:
@@ -129,7 +129,7 @@
   parent: EncryptionKey
   id: EncryptionKeyMedicalScience
   name: med-epi encryption key # DeltaV - Epistemics Department replacing Science
-  description: entity-encryptionkeymedicalscience-description
+  description: An encryption key used by someone who hasn't decided which side to take.
   components:
   - type: EncryptionKey
     channels:
@@ -145,7 +145,7 @@
   parent: EncryptionKey
   id: EncryptionKeyScience
   name: epistemics encryption key # DeltaV - Epistemics Department replacing Science
-  description: entity-encryptionkeyscience-description
+  description: An encryption key used by scientists. Maybe it is plasmaproof?
   components:
   - type: EncryptionKey
     channels:
@@ -159,8 +159,8 @@
 - type: entity
   parent: EncryptionKey
   id: EncryptionKeyRobo
-  name: entity-encryptionkeyrobo-name
-  description: entity-encryptionkeyrobo-description
+  name: robotech encryption key
+  description: An encryption key used by robototech engineers. Maybe it has a LAH-6000 on it?
   components:
   - type: EncryptionKey
     channels:
@@ -174,8 +174,8 @@
 - type: entity
   parent: EncryptionKey
   id: EncryptionKeySecurity
-  name: entity-encryptionkeysecurity-name
-  description: entity-encryptionkeysecurity-description
+  name: security encryption key
+  description: An encryption key used by security.
   components:
   - type: EncryptionKey
     channels:
@@ -190,8 +190,8 @@
 - type: entity
   parent: EncryptionKey
   id: EncryptionKeyService
-  name: entity-encryptionkeyservice-name
-  description: entity-encryptionkeyservice-description
+  name: service encryption key
+  description: An encryption key used by the service staff, tasked with keeping the station full, happy and clean.
   components:
   - type: EncryptionKey
     channels:
@@ -205,8 +205,8 @@
 - type: entity
   parent: EncryptionKey
   id: EncryptionKeySyndie
-  name: entity-encryptionkeysyndie-name
-  description: entity-encryptionkeysyndie-description
+  name: blood-red encryption key
+  description: An encryption key used by... wait... Who is the owner of this chip?
   components:
   - type: EncryptionKey
     channels:
@@ -224,8 +224,8 @@
 - type: entity
   parent: EncryptionKey
   id: EncryptionKeyBinary
-  name: entity-encryptionkeybinary-name
-  description: entity-encryptionkeybinary-description
+  name: binary translator key
+  description: An encryption key that translates binary signals used by silicons.
   components:
   - type: EncryptionKey
     channels:
@@ -239,8 +239,8 @@
 - type: entity
   parent: EncryptionKey
   id: EncryptionKeyBinarySyndicate
-  name: entity-encryptionkeybinary-name
-  description: entity-encryptionkeybinarysyndicate-description
+  name: binary translator key
+  description: A syndicate encryption key that translates binary signals used by silicons.
   components:
   - type: EncryptionKey
     channels:
@@ -254,8 +254,8 @@
 - type: entity
   parent: EncryptionKey
   id: EncryptionKeyFreelance
-  name: entity-encryptionkeyfreelance-name
-  description: entity-encryptionkeyfreelance-description
+  name: freelancer encryption key
+  description: An encryption key used by freelancers, who may or may not have an affiliation. It looks like its worn out.
   components:
     - type: EncryptionKey
       channels:

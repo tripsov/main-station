@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingBackpack
   id: ClothingBackpackChameleon
-  name: entity-clothingbackpackchameleon-name
-  description: entity-clothingbackpackchameleon-description
+  name: backpack
+  description: You wear this on your back and put items into it.
   suffix: Chameleon
   components:
     - type: Tag
@@ -22,8 +22,8 @@
 - type: entity
   parent: Clothing
   id: ClothingBackpackWaterTank
-  name: entity-clothingbackpackwatertank-name
-  description: entity-clothingbackpackwatertank-description
+  name: backpack water tank
+  description: Holds a large amount of fluids. Supplies to spray nozzles in your hands.
   components:
   - type: Tag
     tags:
@@ -65,8 +65,8 @@
 - type: entity
   parent: Clothing
   id: ClothingBackpackEtherealTeleporter
-  name: entity-clothingbackpacketherealteleporter-name
-  description: entity-clothingbackpacketherealteleporter-description
+  name: ethereal teleporter
+  description: Originally created while several research facilities were experimenting on Shadowkin, this backpack allows the wearer to jump the gap between the "normal" dimension and The Dark.
   components:
     - type: Tag
       tags:

@@ -1,5 +1,5 @@
 - type: entity
-  name: entity-welder-name
+  name: welding tool
   parent: BaseItem
   id: Welder
   description: "Melts anything as long as it's fueled, don't forget your eye protection!"
@@ -148,7 +148,7 @@
         friction: 0.2
 
 - type: entity
-  name: entity-welderindustrial-name
+  name: industrial welding tool
   parent: Welder
   id: WelderIndustrial
   description: "An industrial welder with over double the fuel capacity."
@@ -177,7 +177,7 @@
         friction: 0.2
 
 - type: entity
-  name: entity-welderindustrialadvanced-name
+  name: advanced industrial welding tool
   parent: WelderIndustrial
   id: WelderIndustrialAdvanced
   description: "An advanced industrial welder with over five times the fuel capacity and a hotter flame."
@@ -197,7 +197,7 @@
     speedModifier: 1.5
 
 - type: entity
-  name: entity-welderexperimental-name
+  name: experimental welding tool
   parent: Welder
   id: WelderExperimental
   description: "An experimental welder that is less harmful to the eyes while having a hotter flame and slowly regenerating fuel."
@@ -238,7 +238,7 @@
         friction: 0.2
 
 - type: entity
-  name: entity-weldermini-name
+  name: emergency welding tool
   parent: Welder
   id: WelderMini
   description: "A miniature welder used during emergencies."

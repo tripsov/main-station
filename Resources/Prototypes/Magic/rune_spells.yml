@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: ActionFlashRune
-  name: entity-actionflashrune-name
-  description: entity-actionflashrune-description
+  name: Flash Rune
+  description: Summons a rune that flashes if used.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -15,8 +15,8 @@
 
 - type: entity
   id: ActionExplosionRune
-  name: entity-actionexplosionrune-name
-  description: entity-actionexplosionrune-description
+  name: Explosion Rune
+  description: Summons a rune that explodes if used.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -30,8 +30,8 @@
 
 - type: entity
   id: ActionIgniteRune
-  name: entity-actionigniterune-name
-  description: entity-actionigniterune-description
+  name: Ignite Rune
+  description: Summons a rune that ignites if used.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -45,8 +45,8 @@
 
 - type: entity
   id: ActionStunRune
-  name: entity-actionstunrune-name
-  description: entity-actionstunrune-description
+  name: Stun Rune
+  description: Summons a rune that stuns if used.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction

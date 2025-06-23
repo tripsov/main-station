@@ -1,6 +1,6 @@
 - type: entity
   id: MeteorLarge
-  name: entity-meteorlarge-name
+  name: meteor
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

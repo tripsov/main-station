@@ -2,8 +2,8 @@
 - type: entity
   parent: Crowbar
   id: CrowbarAbductor
-  name: entity-crowbarabductor-name
-  description: entity-crowbarabductor-description
+  name: high-tech crowbar
+  description: Made out of metal more durable than anything Nanotrasen could dream of.
   components:
   - type: Sprite
     sprite: _Shitmed/Objects/Specific/Abductor/crowbar.rsi
@@ -19,10 +19,10 @@
     - Abductors
 
 - type: entity
-  name: entity-wirecutterabductor-name
+  name: high-tech wirecutter
   parent: BaseItem
   id: WirecutterAbductor
-  description: entity-wirecutterabductor-description
+  description: Cuts through wires like a hot knife through butter.
   components:
   - type: Sprite
     sprite: _Shitmed/Objects/Specific/Abductor/wirecutters.rsi
@@ -74,10 +74,10 @@
     - Abductors
 
 - type: entity
-  name: entity-screwdriverabductor-name
+  name: high-tech screwdriver
   parent: BaseItem
   id: ScrewdriverAbductor
-  description: entity-screwdriverabductor-description
+  description: More efficient than anything Nanotrasen could dream of. Not to be confused with a sonic screwdriver.
   components:
   - type: Sprite
     sprite: _Shitmed/Objects/Specific/Abductor/screwdriver.rsi
@@ -123,10 +123,10 @@
     - Abductors
 
 - type: entity
-  name: entity-wrenchabductor-name
+  name: high-tech wrench
   parent: Wrench
   id: WrenchAbductor
-  description: entity-wrenchabductor-description
+  description: Can take a bolt off in a single turn. Not intended for melee combat.
   components:
   - type: Sprite
     sprite: _Shitmed/Objects/Specific/Abductor/wrench.rsi
@@ -149,7 +149,7 @@
     - Abductors
 
 - type: entity
-  name: entity-welderabductor-name
+  name: high-tech welding tool
   parent: Welder
   id: WelderAbductor
   description: "A highly advanced welder capable of producing infinite fuel."
@@ -184,10 +184,10 @@
     - Abductors
 
 - type: entity
-  name: entity-multitoolabductor-name
+  name: high-tech multitool
   parent: BaseItem
   id: MultitoolAbductor
-  description: entity-multitoolabductor-description
+  description: A highly advanced hacking tool capable of viewing wire functionality. Can be used as Cryptographic sequencer in its alternate mode.
   components:
   - type: EmitSoundOnLand
     sound:

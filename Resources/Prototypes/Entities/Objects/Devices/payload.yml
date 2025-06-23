@@ -20,7 +20,7 @@
         acts: [ "Destruction" ]
 
 - type: entity
-  name: entity-explosivepayload-name
+  name: explosive payload
   parent: BasePayload
   id: ExplosivePayload
   components:
@@ -50,10 +50,10 @@
         acts: [ "Destruction" ]
 
 - type: entity
-  name: entity-chemicalpayload-name
+  name: chemical payload
   parent: BasePayload
   id: ChemicalPayload
-  description: entity-chemicalpayload-description
+  description: A chemical payload. Has space to store two beakers. In combination with a trigger and a case, this can be used to initiate chemical reactions.
   components:
   - type: Sprite
     sprite: Objects/Devices/payload.rsi
@@ -86,10 +86,10 @@
     price: 60
 
 - type: entity
-  name: entity-flashpayload-name
+  name: flash payload
   parent: BasePayload
   id: FlashPayload
-  description: entity-flashpayload-description
+  description: A single-use flash payload.
   components:
     - type: Sprite
       sprite: Objects/Devices/payload.rsi

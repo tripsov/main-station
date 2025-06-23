@@ -1,6 +1,6 @@
 - type: entity
   id: PelletClusterRubber
-  name: entity-pelletclusterrubber-name
+  name: pellet (ball, Rubber)
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
   components:
@@ -25,7 +25,7 @@
 
 - type: entity
   id: PelletClusterLethal
-  name: entity-pelletclusterlethal-name
+  name: pellet (ball, Lethal)
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
   components:
@@ -42,7 +42,7 @@
 
 - type: entity
   id: PelletClusterIncendiary
-  name: entity-pelletclusterincendiary-name
+  name: pellet (ball, incendiary)
   categories: [ HideSpawnMenu ]
   parent: BaseBulletIncendiary
   components:

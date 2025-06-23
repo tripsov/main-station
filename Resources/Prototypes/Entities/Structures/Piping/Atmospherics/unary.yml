@@ -23,8 +23,8 @@
 - type: entity
   parent: [GasUnaryBase, AirSensorBase]
   id: GasVentPump
-  name: entity-gasventpump-name
-  description: entity-gasventpump-description
+  name: air vent
+  description: Has a valve and a pump attached to it.
   placement:
     mode: SnapgridCenter
   components:
@@ -74,8 +74,8 @@
 - type: entity
   parent: GasUnaryBase
   id: GasPassiveVent
-  name: entity-gaspassivevent-name
-  description: entity-gaspassivevent-description
+  name: passive vent
+  description: It's an open vent.
   placement:
     mode: SnapgridCenter
   components:
@@ -102,8 +102,8 @@
 - type: entity
   parent: [GasUnaryBase, AirSensorBase]
   id: GasVentScrubber
-  name: entity-gasventscrubber-name
-  description: entity-gasventscrubber-description
+  name: air scrubber
+  description: Has a valve and pump attached to it.
   placement:
     mode: SnapgridCenter
   components:
@@ -154,8 +154,8 @@
 - type: entity
   parent: GasUnaryBase
   id: GasOutletInjector
-  name: entity-gasoutletinjector-name
-  description: entity-gasventscrubber-description
+  name: air injector
+  description: Has a valve and pump attached to it.
   placement:
     mode: SnapgridCenter
   components:
@@ -195,7 +195,7 @@
 - type: entity
   parent: [ BaseMachinePowered, ConstructibleMachine ]
   id: BaseGasThermoMachine
-  name: entity-basegasthermomachine-name
+  name: thermomachine
   abstract: true
   placement:
     mode: SnapgridCenter
@@ -241,8 +241,8 @@
 - type: entity
   parent: BaseGasThermoMachine
   id: GasThermoMachineFreezer
-  name: entity-gasthermomachinefreezer-name
-  description: entity-gasthermomachinefreezer-description
+  name: freezer
+  description: Cools gas in connected pipes.
   placement:
     mode: SnapgridCenter
   components:
@@ -286,8 +286,8 @@
 - type: entity
   parent: BaseGasThermoMachine
   id: GasThermoMachineHeater
-  name: entity-gasthermomachineheater-name
-  description: entity-gasthermomachineheater-description
+  name: heater
+  description: Heats gas in connected pipes.
   placement:
     mode: SnapgridCenter
   components:
@@ -331,8 +331,8 @@
 - type: entity
   parent: GasThermoMachineFreezer
   id: GasThermoMachineHellfireFreezer
-  name: entity-gasthermomachinehellfirefreezer-name
-  description: entity-gasthermomachinehellfirefreezer-description
+  name: hellfire freezer
+  description: An advanced machine that cools gas in connected pipes. Has the side effect of chilling the surrounding area. Cold as Hell!
   components:
   - type: Sprite
     sprite: Structures/Piping/Atmospherics/hellfirethermomachine.rsi
@@ -346,8 +346,8 @@
 - type: entity
   parent: GasThermoMachineHeater
   id: GasThermoMachineHellfireHeater
-  name: entity-gasthermomachinehellfireheater-name
-  description: entity-gasthermomachinehellfireheater-description
+  name: hellfire heater
+  description: An advanced machine that heats gas in connected pipes. Has the side effect of leaking heat into the surrounding area. Hot as Hell!
   components:
   - type: Sprite
     sprite: Structures/Piping/Atmospherics/hellfirethermomachine.rsi
@@ -361,8 +361,8 @@
 - type: entity
   parent: [ BaseMachinePowered, SmallConstructibleMachine ]
   id: BaseGasCondenser
-  name: entity-basegascondenser-name
-  description: entity-basegascondenser-description
+  name: condenser
+  description: Condenses gases into liquids. Now we just need some plumbing.
   placement:
     mode: SnapgridCenter
   components:

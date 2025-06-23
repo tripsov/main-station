@@ -1,7 +1,7 @@
 - type: entity
   id: OperatingTable
   parent: Bed
-  name: entity-operatingtable-name
+  name: operating table
   description: Used for advanced medical procedures. # Shitmed
   components:
   - type: Sprite

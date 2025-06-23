@@ -1,7 +1,7 @@
 - type: entity
   id: PresentBase
-  name: entity-presentbase-name
-  description: entity-presentbase-description
+  name: present
+  description: A little box with incredible surprises inside.
   abstract: true
   components:
   - type: Sprite
@@ -441,8 +441,8 @@
   id: PresentTrash
   categories: [ HideSpawnMenu ]
   parent: BaseItem
-  name: entity-presenttrash-name
-  description: entity-presenttrash-description
+  name: Wrapping Paper
+  description: Carefully folded, taped, and tied with a bow. Then ceremoniously ripped apart and tossed on the floor.
   components:
   - type: Sprite
     sprite: Objects/Decoration/present.rsi

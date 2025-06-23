@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: FloorChasmEntity
-  name: entity-floorchasmentity-name
-  description: entity-floorchasmentity-description
+  name: chasm
+  description: You can't even see the bottom.
   placement:
     mode: SnapgridCenter
     snap:

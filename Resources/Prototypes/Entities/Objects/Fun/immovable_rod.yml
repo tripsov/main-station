@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: ImmovableRod
-  name: entity-immovablerod-name
-  description: entity-immovablerod-description
+  name: immovable rod
+  description: You can sense that it's hungry. That's usually a bad sign.
   components:
   - type: Clickable
   - type: InteractionOutline

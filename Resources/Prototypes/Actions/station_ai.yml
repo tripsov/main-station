@@ -1,8 +1,8 @@
 ﻿# Actions
 - type: entity
   id: ActionJumpToCore
-  name: entity-actionjumptocore-name
-  description: entity-actionjumptocore-description
+  name: Jump to core
+  description: Sends your eye back to the core.
   components:
   - type: InstantAction
     priority: -10
@@ -14,8 +14,8 @@
 
 - type: entity
   id: ActionShowJobIcons
-  name: entity-actionshowjobicons-name
-  description: entity-actionshowjobicons-description
+  name: Show job icons
+  description: Shows job icons for crew members.
   components:
   - type: InstantAction
     priority: -5
@@ -30,8 +30,8 @@
 
 - type: entity
   id: ActionSurvCameraLights
-  name: entity-actionsurvcameralights-name
-  description: entity-actionsurvcameralights-description
+  name: Toggle camera lights
+  description: Enable surveillance camera lights near wherever you're viewing.
   components:
   - type: InstantAction
     priority: -6
@@ -56,8 +56,8 @@
 
 - type: entity
   id: ActionAIViewLaws
-  name: entity-actionaiviewlaws-name
-  description: entity-actionaiviewlaws-description
+  name: View Laws
+  description: View the laws that you must follow.
   components:
   - type: InstantAction
     priority: -3

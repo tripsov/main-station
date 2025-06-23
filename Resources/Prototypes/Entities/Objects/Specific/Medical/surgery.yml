@@ -16,10 +16,10 @@
 # Cautery
 
 - type: entity
-  name: entity-cautery-name
+  name: cautery
   id: Cautery
   parent: BaseToolSurgery
-  description: entity-cautery-description
+  description: A surgical tool used to cauterize open wounds.
   components:
   - type: Sprite
     sprite: _Shitmed/Objects/Specific/Medical/Surgery/cautery.rsi
@@ -47,10 +47,10 @@
 # Drill
 
 - type: entity
-  name: entity-drill-name
+  name: drill
   id: Drill
   parent: BaseToolSurgery
-  description: entity-drill-description
+  description: A surgical drill for making holes into hard material.
   components:
   - type: Sprite
     sprite: _Shitmed/Objects/Specific/Medical/Surgery/drill.rsi
@@ -94,10 +94,10 @@
 # Scalpel
 
 - type: entity
-  name: entity-scalpel-name
+  name: scalpel
   id: Scalpel
   parent: BaseToolSurgery
-  description: entity-scalpel-description
+  description: A surgical tool used to make incisions into flesh.
   components:
   - type: Sharp
     butcherDelayModifier: 1.5 # Butchering with a scalpel, regardless of the type, will take 50% longer
@@ -148,7 +148,7 @@
     - Knife
 
 - type: entity
-  name: entity-scalpelshiv-name
+  name: shiv
   id: ScalpelShiv
   parent: Scalpel
   description: A pointy piece of glass, abraded to an edge and wrapped in tape for a handle. # Could become a decent tool or weapon with right tool mods.
@@ -162,10 +162,10 @@
     heldPrefix: shiv
 
 - type: entity
-  name: entity-scalpeladvanced-name
+  name: advanced scalpel
   id: ScalpelAdvanced
   parent: Scalpel
-  description: entity-scalpeladvanced-description
+  description: Made of more expensive materials, sharper and generally more reliable.
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/Surgery/scalpel.rsi
@@ -185,10 +185,10 @@
     - Knife
 
 - type: entity
-  name: entity-scalpellaser-name
+  name: laser scalpel
   id: ScalpelLaser
   parent: Scalpel
-  description: entity-scalpellaser-description
+  description: A scalpel which uses a directed laser to slice instead of a blade, for more precise surgery while also cauterizing as it cuts.
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/Surgery/scalpel.rsi
@@ -213,10 +213,10 @@
 # Retractor
 
 - type: entity
-  name: entity-retractor-name
+  name: retractor
   id: Retractor
   parent: BaseToolSurgery
-  description: entity-retractor-description
+  description: A surgical tool used to hold open incisions.
   components:
   - type: Sprite
     sprite: _Shitmed/Objects/Specific/Medical/Surgery/retractor.rsi
@@ -256,10 +256,10 @@
 # Hemostat
 
 - type: entity
-  name: entity-hemostat-name
+  name: hemostat
   id: Hemostat
   parent: BaseToolSurgery # Shitmed Change
-  description: entity-hemostat-description
+  description: A surgical tool used to compress blood vessels to prevent bleeding.
   components:
   - type: Sprite
     sprite: _Shitmed/Objects/Specific/Medical/Surgery/hemostat.rsi # Shitmed Change
@@ -302,8 +302,8 @@
 - type: entity
   parent: BaseToolSurgery
   id: Bonesetter
-  name: entity-bonesetter-name
-  description: entity-bonesetter-description
+  name: bone setter
+  description: Used for setting bones back into place.
   components:
   - type: Sprite
     sprite: _Shitmed/Objects/Specific/Medical/Surgery/bonesetter.rsi
@@ -319,8 +319,8 @@
 - type: entity
   parent: BaseToolSurgery
   id: BoneGel
-  name: entity-bonegel-name
-  description: entity-bonegel-description
+  name: bottle of bone gel
+  description: A container for bone gel that often needs to be refilled from a specialized machine.
   components:
   - type: Sprite
     sprite: _Shitmed/Objects/Specific/Medical/Surgery/bone-gel.rsi
@@ -330,10 +330,10 @@
 # Saws
 
 - type: entity
-  name: entity-saw-name
+  name: metal saw
   id: Saw
   parent: BaseToolSurgery
-  description: entity-saw-description
+  description: For cutting wood and other objects to pieces. Or sawing bones, in case of emergency.
   components:
   - type: Sharp
   - type: Utensil
@@ -377,7 +377,7 @@
       path: /Audio/_Shitmed/Medical/Surgery/saw.ogg
 
 - type: entity
-  name: entity-sawimprov-name
+  name: choppa
   id: SawImprov
   parent: Saw
   description: A wicked serrated blade made of whatever nasty sharp things you could find. # It would make a pretty decent weapon, given there are more space for some tool mods too.
@@ -411,10 +411,10 @@
     speed: 0.5
 
 - type: entity
-  name: entity-sawelectric-name
+  name: circular saw
   id: SawElectric
   parent: Saw
-  description: entity-sawelectric-description
+  description: For heavy duty cutting.
   components:
   - type: Sprite
     sprite: _Shitmed/Objects/Specific/Medical/Surgery/circular-saw.rsi
@@ -457,10 +457,10 @@
       path: /Audio/_Shitmed/Medical/Surgery/saw.ogg
 
 - type: entity
-  name: entity-sawadvanced-name
+  name: advanced circular saw
   id: SawAdvanced
   parent: SawElectric
-  description: entity-sawadvanced-description
+  description: You think you can cut anything with it.
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/Surgery/saw.rsi
@@ -503,10 +503,10 @@
 # Shitmed Tools
 
 - type: entity
-  name: entity-energycautery-name
+  name: searing tool
   id: EnergyCautery
   parent: Cautery
-  description: entity-energycautery-description
+  description: A cautery with an energy tip, also serves as a drill in its powered state.
   components:
   - type: Sprite
     sprite: _Shitmed/Objects/Specific/Medical/Surgery/e-cautery.rsi
@@ -566,10 +566,10 @@
             volume: -5
 
 - type: entity
-  name: entity-energyscalpel-name
+  name: energy scalpel
   id: EnergyScalpel
   parent: Scalpel
-  description: entity-energyscalpel-description
+  description: A scalpel which uses an energy blade, also serves as a saw in its powered state.
   components:
   - type: Sprite
     sprite: _Shitmed/Objects/Specific/Medical/Surgery/e-scalpel.rsi
@@ -629,10 +629,10 @@
             volume: -5
 
 - type: entity
-  name: entity-advancedretractor-name
+  name: mechanical pinches
   id: AdvancedRetractor
   parent: Retractor
-  description: entity-advancedretractor-description
+  description: A retractor with mechanical pinches, also serves as a hemostat in its powered state.
   components:
   - type: Sprite
     sprite: _Shitmed/Objects/Specific/Medical/Surgery/adv-retractor.rsi
@@ -696,7 +696,7 @@
             volume: -5
 
 - type: entity
-  name: entity-omnimedtool-name
+  name: medical multitool
   description: "A complex, refined medical multitool, designed by Nanotrasen to speed up operation times, as well as conserve space."
   id: OmnimedTool
   parent: BaseToolSurgery
@@ -741,7 +741,7 @@
     heldPrefix: evil
 
 - type: entity
-  name: entity-omnimedtoollite-name
+  name: CMO's Proto Multitool
   description: "A prototypical medical multitool designed by Nanotrasen to save valuable space in the backpacks of high ranking medical officers."
   id: OmnimedToolLite
   parent: OmnimedTool

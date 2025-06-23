@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: ClothingShoesBase
   id: ClothingModsuitBootsInfiltrator
-  name: entity-clothingmodsuitbootsinfiltrator-name
-  description: entity-clothingmodsuitbootsinfiltrator-description
+  name: infiltrator modsuit boots
+  description: Purpose-built boots that can be neatly folded and store in the infiltrator suit's main unit.
   categories: [ HideSpawnMenu ]
   components:
   - type: Appearance

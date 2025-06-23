@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: ActionSmite
-  name: entity-actionsmite-name
-  description: entity-actionsmite-description
+  name: Smite
+  description: Instantly gibs a target.
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityTargetAction

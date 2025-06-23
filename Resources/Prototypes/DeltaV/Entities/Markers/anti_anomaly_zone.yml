@@ -1,6 +1,6 @@
 - type: entity
-  name: entity-antianomalyzone-name
-  description: entity-antianomalyzone-description
+  name: anti anomaly zone
+  description: Anomalies will not be able to appear within a 10 block radius of this point.
   id: AntiAnomalyZone
   suffix: "range 10"
   parent: MarkerBase
@@ -18,7 +18,7 @@
   parent: AntiAnomalyZone
   id: AntiAnomalyZone20
   suffix: "range 20"
-  description: entity-antianomalyzone20-description
+  description: Anomalies will not be able to appear within a 20 block radius of this point.
   components:
   - type: AntiAnomalyZone
     zoneRadius: 20
@@ -27,7 +27,7 @@
   parent: AntiAnomalyZone
   id: AntiAnomalyZone50
   suffix: "range 50"
-  description: entity-antianomalyzone50-description
+  description: Anomalies will not be able to appear within a 50 block radius of this point.
   components:
   - type: AntiAnomalyZone
     zoneRadius: 50

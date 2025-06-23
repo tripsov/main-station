@@ -4,7 +4,7 @@
 
 - type: entity
   save: false
-  name: entity-moblamiabase-name
+  name: Lamia
   parent: BaseMobHuman #parenting human so I can remove most of these components
   id: MobLamiaBase
   abstract: true
@@ -230,10 +230,10 @@
 
 - type: entity
   save: false
-  name: entity-moblamiadummy-name
+  name: Lamia Dummy
   parent: MobHumanDummy
   id: MobLamiaDummy
-  description: entity-moblamiadummy-description
+  description: A dummy lamia meant to be used in character setup.
   components:
   - type: Sprite
     netsync: false

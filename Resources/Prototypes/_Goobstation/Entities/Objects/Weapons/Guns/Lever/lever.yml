@@ -1,8 +1,8 @@
 - type: entity
-  name: entity-weaponleverchester-name
+  name: Chester
   parent: [ BaseWeaponRifle, BaseGunWieldable ]
   id: WeaponLeverChester
-  description: entity-weaponleverchester-description
+  description: An improved lever-action rifle designed to fire specialized .45 caliber ammunition for rapid threat removal.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Weapons/Guns/Lever/chester.rsi

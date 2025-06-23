@@ -1,8 +1,8 @@
 - type: entity
   id: MysteryFigureBoxTrash
   parent: BaseItem
-  name: entity-mysteryfigureboxtrash-name
-  description: entity-mysteryfigureboxtrash-description
+  name: unfolded cardboard box
+  description: A small, unfolded cardboard toy box.
   components:
   - type: PhysicalComposition
     materialComposition:
@@ -18,8 +18,8 @@
 - type: entity
   parent: PresentRandom
   id: MysteryFigureBox
-  name: entity-mysteryfigurebox-name
-  description: entity-mysteryfigurebox-description
+  name: mystery spacemen minifigure box
+  description: A box containing a mystery minifigure. The side of the box depicts a few blacked-out 'rare' figures, including one with a large, non-humanoid shilouette.
   components:
   - type: Sprite
     sprite: Objects/Fun/figurines.rsi

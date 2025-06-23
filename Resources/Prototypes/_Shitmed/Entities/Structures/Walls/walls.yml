@@ -1,9 +1,9 @@
 #shuttle walls
 - type: entity
   id: WallAbductorDiagonal
-  name: entity-wallabductordiagonal-name
+  name: shuttle wall
   suffix: Diagonal
-  description: entity-wallabductordiagonal-description
+  description: Keeps the air in and the bloodthirsty salvagers out.
   placement:
     mode: SnapgridCenter
     snap:
@@ -59,9 +59,9 @@
 - type: entity
   parent: BaseWall
   id: WallAbductor
-  name: entity-wallabductordiagonal-name
+  name: shuttle wall
   suffix: Reinforced, Exterior
-  description: entity-wallabductordiagonal-description
+  description: Keeps the air in and the bloodthirsty salvagers out.
   components:
   - type: Damageable
     damageContainer: StructuralInorganic

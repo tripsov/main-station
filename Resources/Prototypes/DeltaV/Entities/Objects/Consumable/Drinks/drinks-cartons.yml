@@ -48,8 +48,8 @@
 - type: entity
   parent: DrinkJuiceBoxBaseFull
   id: DrinkJuiceOrangeJuicebox
-  name: entity-drinkjuiceorangejuicebox-name
-  description: entity-drinkjuiceorangejuicebox-description
+  name: orange juice box
+  description: A great source of vitamins. Stay healthy!
   components:
   - type: SolutionContainerManager
     solutions:
@@ -63,8 +63,8 @@
 - type: entity
   parent: DrinkJuiceBoxBaseFull
   id: DrinkJuicePineappleJuicebox
-  name: entity-drinkjuicepineapplejuicebox-name
-  description: entity-drinkjuicepineapplejuicebox-description
+  name: pineapple juice box
+  description: Everyone's favourite juice.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -78,8 +78,8 @@
 - type: entity
   parent: DrinkJuiceBoxBaseFull
   id: DrinkJuiceAppleJuicebox
-  name: entity-drinkjuiceapplejuicebox-name
-  description: entity-drinkjuiceapplejuicebox-description
+  name: apple juice box
+  description: Sweet apple juice. Don't be late for school!
   components:
   - type: SolutionContainerManager
     solutions:
@@ -93,8 +93,8 @@
 - type: entity
   parent: DrinkJuiceBoxBaseFull
   id: DrinkJuiceGrapeJuicebox
-  name: entity-drinkjuicegrapejuicebox-name
-  description: entity-drinkjuicegrapejuicebox-description
+  name: grape juice box
+  description: Tasty grape juice in a fun little container. Non-alcoholic!
   components:
   - type: SolutionContainerManager
     solutions:
@@ -108,8 +108,8 @@
 - type: entity
   parent: DrinkJuiceBoxBaseFull
   id: DrinkChocolateJuicebox
-  name: entity-drinkchocolatejuicebox-name
-  description: entity-drinkchocolatejuicebox-description
+  name: chocolate milk juice box
+  description: Tasty chocolate juice and milk in a small box. Contains Theobromine.
   components:
   - type: SolutionContainerManager
     solutions:

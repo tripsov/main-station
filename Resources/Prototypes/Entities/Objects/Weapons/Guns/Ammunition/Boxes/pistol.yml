@@ -2,7 +2,7 @@
   abstract: true
   parent: BaseMagazineBox
   id: BaseMagazineBoxPistol
-  name: entity-basemagazineboxpistol-name
+  name: ammunition box (.35 auto)
   components:
   - type: BallisticAmmoProvider
     mayTransfer: true
@@ -28,7 +28,7 @@
 - type: entity
   parent: BaseMagazineBoxPistol
   id: MagazineBoxPistol
-  name: entity-basemagazineboxpistol-name
+  name: ammunition box (.35 auto)
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistol
@@ -42,7 +42,7 @@
 - type: entity
   parent: BaseMagazineBoxPistol
   id: MagazineBoxPistolPractice
-  name: entity-magazineboxpistolpractice-name
+  name: ammunition box (.35 auto practice)
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistolPractice
@@ -57,7 +57,7 @@
 - type: entity
   id: MagazineBoxPistolIncendiary
   parent: BaseMagazineBoxPistol
-  name: entity-magazineboxpistolincendiary-name
+  name: ammunition box (.35 auto incendiary)
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistolIncendiary
@@ -72,7 +72,7 @@
 - type: entity
   id: MagazineBoxPistolUranium
   parent: BaseMagazineBoxPistol
-  name: entity-magazineboxpistoluranium-name
+  name: ammunition box (.35 auto uranium)
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistolUranium
@@ -87,7 +87,7 @@
 - type: entity
   parent: BaseMagazineBoxPistol
   id: MagazineBoxPistolShrapnel
-  name: entity-magazineboxpistolshrapnel-name
+  name: ammunition box (.35 auto shrapnel)
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistolShrapnel

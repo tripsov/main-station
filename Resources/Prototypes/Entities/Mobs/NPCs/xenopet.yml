@@ -1,8 +1,8 @@
 - type: entity
-  name: entity-mobxenoneutralrouny-name
+  name: Neutral Rouny
   id: MobXenoNeutralRouny
   parent: MobXenoRounyNPC
-  description: entity-mobxenoneutralrouny-description
+  description: They mostly come at night. Mostly.
   components:
   - type: NpcFactionMember
     factions:
@@ -25,10 +25,10 @@
     - TauCetiBasic
 
 - type: entity
-  name: entity-mobxenoneutralpraetorian-name
+  name: Neutral Praetorian
   id: MobXenoNeutralPraetorian
   parent: MobXenoPraetorianNPC
-  description: entity-mobxenoneutralrouny-description
+  description: They mostly come at night. Mostly.
   components:
   - type: NpcFactionMember
     factions:
@@ -50,10 +50,10 @@
     - TauCetiBasic
 
 - type: entity
-  name: entity-mobxenoneutraldrone-name
+  name: Neutral Drone
   id: MobXenoNeutralDrone
   parent: MobXenoDroneNPC
-  description: entity-mobxenoneutralrouny-description
+  description: They mostly come at night. Mostly.
   components:
   - type: NpcFactionMember
     factions:
@@ -75,10 +75,10 @@
     - TauCetiBasic
 
 - type: entity
-  name: entity-mobxenoneutralravager-name
+  name: Neutral Ravager
   id: MobXenoNeutralRavager
   parent: MobXenoRavagerNPC
-  description: entity-mobxenoneutralrouny-description
+  description: They mostly come at night. Mostly.
   components:
   - type: NpcFactionMember
     factions:
@@ -124,10 +124,10 @@
     displayName: Mask
 
 - type: entity
-  name: entity-mobxenofriendshaped-name
+  name: Friend-Shaped
   parent: MobXenoNeutralRouny
   id: MobXenoFriendShaped
-  description: entity-mobxenofriendshaped-description
+  description: A very clearly friend-shaped Xeno.
   components:
   - type: NpcFactionMember
     factions:
@@ -168,10 +168,10 @@
       path: /Audio/Animals/lizard_happy.ogg
 
 - type: entity
-  name: entity-mobxenopatriarch-name
+  name: Patriach
   parent: MobXenoNeutralPraetorian
   id: MobXenoPatriarch
-  description: entity-mobxenopatriarch-description
+  description: A not entirely clearly friend-shaped Xeno.
   components:
   - type: NpcFactionMember
     factions:
@@ -216,10 +216,10 @@
       path: /Audio/Animals/lizard_happy.ogg
 
 - type: entity
-  name: entity-mobxenofxes-name
+  name: FXES
   parent: MobXenoNeutralDrone
   id: MobXenoFXES
-  description: entity-mobxenofriendshaped-description
+  description: A very clearly friend-shaped Xeno.
   components:
   - type: NpcFactionMember
     factions:
@@ -250,10 +250,10 @@
       path: /Audio/Animals/lizard_happy.ogg
 
 - type: entity
-  name: entity-mobxenohellshaped-name
+  name: Hell-Shaped
   parent: MobXenoNeutralRavager
   id: MobXenoHellShaped
-  description: entity-mobxenofriendshaped-description
+  description: A very clearly friend-shaped Xeno.
   components:
   - type: NpcFactionMember
     factions:
@@ -284,10 +284,10 @@
       path: /Audio/Animals/lizard_happy.ogg
 
 - type: entity
-  name: entity-mobxenosubjecttess-name
+  name: FXE Subject 7355
   parent: MobXenoNeutralRavager
   id: MobXenoSubjectTess
-  description: entity-mobxenosubjecttess-description
+  description: An extremely oddly coloured xeno, with glowing stripes. An odd mutation.
   components:
   - type: NpcFactionMember
     factions:
@@ -516,7 +516,7 @@
       prob: 0.01
 
 - type: entity
-  name: entity-friendlyxenospawner-name
+  name: Friendly Xeno spawner
   id: friendlyxenoSpawner
   parent: MarkerBase
   components:

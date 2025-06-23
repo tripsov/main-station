@@ -1,5 +1,5 @@
 - type: entity
-  name: entity-spawnmobmothroach-name
+  name: Mothroach Spawner
   id: SpawnMobMothroach
   parent: MarkerBase
   components:
@@ -14,7 +14,7 @@
       - MobMothroach
 
 - type: entity
-  name: entity-spawnmobferret-name
+  name: Ferret Spawner
   id: SpawnMobFerret
   parent: MarkerBase
   components:

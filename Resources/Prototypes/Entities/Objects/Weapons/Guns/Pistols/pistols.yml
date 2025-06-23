@@ -1,8 +1,8 @@
 - type: entity
-  name: entity-baseweaponpistol-name
+  name: BasePistol
   parent: BaseItem
   id: BaseWeaponPistol
-  description: entity-baseweaponpistol-description
+  description: A rooty tooty point and shooty.
   abstract: true
   components:
   - type: Sprite
@@ -99,10 +99,10 @@
     malus: 0.3
 
 - type: entity
-  name: entity-weaponpistolviper-name
+  name: viper
   parent: BaseWeaponPistol
   id: WeaponPistolViper
-  description: entity-weaponpistolviper-description
+  description: A small, easily concealable, but somewhat underpowered gun, produced by a bulk arms manufacturer now defunct for over a century. Uses .35 auto ammo.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Pistols/viper.rsi
@@ -140,7 +140,7 @@
     fireOnDropChance: 0.3
 
 - type: entity
-  name: entity-weaponpistolviper-name
+  name: viper
   parent: WeaponPistolViper
   id: WeaponPistolViperEmpty
   suffix: Empty
@@ -166,7 +166,7 @@
             - CartridgePistol
 
 - type: entity
-  name: entity-weaponpistolviper-name
+  name: viper
   parent: WeaponPistolViper
   id: WeaponPistolViperSecurity
   description: A small, easily concealable, but somewhat underpowered gun, produced by a bulk arms manufacturer now defunct for over a century.
@@ -177,10 +177,10 @@
     guides: [ SecurityWeapons ]
 
 - type: entity
-  name: entity-weaponpistolcobra-name
+  name: cobra
   parent: BaseWeaponPistol
   id: WeaponPistolCobra
-  description: entity-weaponpistolcobra-description
+  description: A rugged, robust operator handgun with inbuilt silencer. Uses .25 caseless ammo.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Pistols/cobra.rsi
@@ -227,7 +227,7 @@
       gun_chamber: !type:ContainerSlot
 
 - type: entity
-  name: entity-weaponpistolcobra-name
+  name: cobra
   parent: WeaponPistolCobra
   id: WeaponPistolCobraEmpty
   suffix: Empty
@@ -252,10 +252,10 @@
             - CartridgeCaselessRifle
 
 - type: entity
-  name: entity-weaponpistolmk58-name
+  name: mk 58
   parent: BaseWeaponPistol
   id: WeaponPistolMk58
-  description: entity-weaponpistolmk58-description
+  description: A cheap, ubiquitous sidearm, produced by a NanoTrasen subsidiary. Uses .35 auto ammo.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Pistols/mk58.rsi
@@ -275,7 +275,7 @@
     fireOnDropChance: 0.5
 
 - type: entity
-  name: entity-weaponpistolmk58empty-name
+  name: mk58
   parent: WeaponPistolMk58
   id: WeaponPistolMk58Empty
   suffix: Empty
@@ -300,10 +300,10 @@
             - CartridgePistol
 
 - type: entity
-  name: entity-weaponpistolmk58-name
+  name: mk 58
   parent: WeaponPistolMk58
   id: WeaponPistolMk58Security
-  description: entity-weaponpistolmk58-description
+  description: A cheap, ubiquitous sidearm, produced by a NanoTrasen subsidiary. Uses .35 auto ammo.
                The serial number on the handguard marks this gun as belonging to an NT Security Officer.
   suffix: Security Loadouts
   components:
@@ -311,10 +311,10 @@
     guides: [ SecurityWeapons ]
 
 - type: entity
-  name: entity-weaponpistoln1984-name
+  name: N1984
   parent: BaseWeaponPistol
   id: WeaponPistolN1984 # the spaces in description are for formatting.
-  description: entity-weaponpistoln1984-description
+  description: The sidearm of any self respecting officer.     Comes in .45 magnum, the lord's caliber.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Pistols/N1984.rsi
@@ -357,7 +357,7 @@
             - CartridgeMagnum
 
 - type: entity
-  name: entity-weaponpistoln1984-name
+  name: N1984
   parent: WeaponPistolN1984
   id: WeaponPistolN1984Empty
   suffix: Empty
@@ -382,10 +382,10 @@
             - CartridgeMagnum
 
 - type: entity
-  name: entity-weaponpistoln1984-name
+  name: N1984
   parent: WeaponPistolN1984
   id: WeaponPistolN1984Security # the spaces in description are for formatting.
-  description: entity-weaponpistoln1984-description
+  description: The sidearm of any self respecting officer.     Comes in .45 magnum, the lord's caliber.
                The serial number on the handguard marks this gun as belonging to an NT Security Officer.
   suffix: Security Loadouts
   components:

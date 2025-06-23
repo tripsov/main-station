@@ -1,8 +1,8 @@
 - type: entity
-  name: entity-boxpdasecurity-name
+  name: security PDA box
   parent: BoxPDA
   id: BoxPDASecurity
-  description: entity-boxpdasecurity-description
+  description: A box of spare PDA microcomputers for the security department.
   components:
   - type: StorageFill
     contents:
@@ -12,10 +12,10 @@
       - id: WardenPDA
 
 - type: entity
-  name: entity-boxpdaprisoner-name
+  name: prisoner PDA box
   parent: BoxPDA
   id: BoxPDAPrisoner
-  description: entity-boxpdaprisoner-description
+  description: A box of spare PDA microcomputers for the warden to use for prisoners.
   components:
   - type: StorageFill
     contents:
@@ -23,10 +23,10 @@
         amount: 4
 
 - type: entity
-  name: entity-boxpdamedical-name
+  name: medical PDA box
   parent: BoxPDA
   id: BoxPDAMedical
-  description: entity-boxpdamedical-description
+  description: A box of spare PDA microcomputers for the medical department.
   components:
   - type: StorageFill
     contents:
@@ -36,10 +36,10 @@
       - id: ParamedicPDA
 
 - type: entity
-  name: entity-boxpdascience-name
+  name: epistemics PDA box
   parent: BoxPDA
   id: BoxPDAScience
-  description: entity-boxpdascience-description
+  description: A box of spare PDA microcomputers for the epistemics department.
   components:
   - type: Item
     shape:
@@ -56,10 +56,10 @@
       - id: RoboticsPDA
 
 - type: entity
-  name: entity-boxpdaengineering-name
+  name: engineering PDA box
   parent: BoxPDA
   id: BoxPDAEngineering
-  description: entity-boxpdaengineering-description
+  description: A box of spare PDA microcomputers for the engineering department.
   components:
   - type: StorageFill
     contents:
@@ -68,10 +68,10 @@
       - id: AtmosPDA
 
 - type: entity
-  name: entity-boxpdacargo-name
+  name: logistics PDA box
   parent: BoxPDA
   id: BoxPDACargo
-  description: entity-boxpdacargo-description
+  description: A box of spare PDA microcomputers for the logistics department.
   components:
   - type: StorageFill
     contents:
@@ -83,10 +83,10 @@
         amount: 1
 
 - type: entity
-  name: entity-boxpdajustice-name
+  name: justice PDA box
   parent: BoxPDA
   id: BoxPDAJustice
-  description: entity-boxpdajustice-description
+  description: A box of spare PDA microcomputers for the justice department.
   components:
   - type: StorageFill
     contents:

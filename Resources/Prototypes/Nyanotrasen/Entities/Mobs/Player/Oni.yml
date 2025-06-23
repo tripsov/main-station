@@ -1,6 +1,6 @@
 - type: entity
   save: false
-  name: entity-moboni-name
+  name: Urist McOni
   parent: MobOniBase
   id: MobOni
   components:

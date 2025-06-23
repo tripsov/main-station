@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatLettermanBlue
-  name: entity-clothingoutercoatlettermanblue-name
-  description: entity-clothingoutercoatlettermanblue-description
+  name: blue letterman jacket
+  description: It's a blue highschool jacket with a big '14' stitched onto the back.
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Misc/letterman_jacket_blue.rsi
@@ -14,8 +14,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatLettermanRed
-  name: entity-clothingoutercoatlettermanred-name
-  description: entity-clothingoutercoatlettermanred-description
+  name: red letterman jacket
+  description: It's a red highschool jacket with a big '14' stitched onto the back.
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Misc/letterman_jacket_red.rsi
@@ -28,8 +28,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatMNKWhiteHoodie
-  name: entity-clothingoutercoatmnkwhitehoodie-name
-  description: entity-clothingoutercoatmnkwhitehoodie-description
+  name: MNK white hoodie
+  description: A classic MNK produced white hoodie.
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Misc/hoodie_white.rsi
@@ -40,8 +40,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatMNKBlackTopCoat
-  name: entity-clothingoutercoatmnkblacktopcoat-name
-  description: entity-clothingoutercoatmnkblacktopcoat-description
+  name: MNK black top coat
+  description: A sturdy MNK black top coat.
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Misc/black_top_coat.rsi
@@ -52,8 +52,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatMNKBlackJacket
-  name: entity-clothingoutercoatmnkblackjacket-name
-  description: entity-clothingoutercoatmnkblackjacket-description
+  name: MNK black jacket
+  description: A light MNK black jacket.
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Misc/black_jacket.rsi
@@ -65,9 +65,9 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterWizardFake
-  name: entity-clothingouterwizardfake-name
+  name: wizard robes
   suffix: fake
-  description: entity-clothingouterwizardfake-description
+  description: A set of blue robes.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/wizard.rsi

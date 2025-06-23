@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckMantleCap
-  name: entity-clothingneckmantlecap-name
-  description: entity-clothingneckmantlecap-description
+  name: captain's mantle
+  description: A comfortable and chique mantle befitting of only the most experienced captain.
   components:
   - type: Sprite
     sprite: Clothing/Neck/mantles/capmantle.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckMantleCE
-  name: entity-clothingneckmantlece-name
-  description: entity-clothingneckmantlece-description
+  name: chief engineer's mantle
+  description: High visibility, check. RIG system, check. High capacity cell, check. Everything a chief engineer could need in a stylish mantle.
   components:
   - type: Sprite
     sprite: Clothing/Neck/mantles/cemantle.rsi
@@ -23,8 +23,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckMantleCMO
-  name: entity-clothingneckmantlecmo-name
-  description: entity-clothingneckmantlecmo-description
+  name: chief medical officer's mantle
+  description: For a CMO that has been in enough medbays to know that more PPE means less central command dry cleaning visits when the shift is over.
   components:
   - type: Sprite
     sprite: Clothing/Neck/mantles/cmomantle.rsi
@@ -34,8 +34,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckMantleHOP
-  name: entity-clothingneckmantlehop-name
-  description: entity-clothingneckmantlehop-description
+  name: head of personnel's mantle
+  description: A good HOP knows that paper pushing is only half the job... petting your dog and looking fashionable is the other half.
   components:
   - type: Sprite
     sprite: Clothing/Neck/mantles/hopmantle.rsi
@@ -45,8 +45,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckMantleHOS
-  name: entity-clothingneckmantlehos-name
-  description: entity-clothingneckmantlehos-description
+  name: head of security's mantle
+  description: Shootouts with nukies are just another Tuesday for this HoS. This mantle is a symbol of commitment to the station.
   components:
   - type: Sprite
     sprite: Clothing/Neck/mantles/hosmantle.rsi
@@ -68,7 +68,7 @@
   parent: ClothingNeckBase
   id: ClothingNeckMantleQM
   name: logistics officer's mantle # DeltaV - Logistics Department replacing Cargo
-  description: entity-clothingneckmantleqm-description
+  description: For the master of goods and materials to rule over the department, a befitting mantle to show off superiority!
   components:
   - type: Sprite
     sprite: Clothing/Neck/mantles/qmmantle.rsi
@@ -78,8 +78,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckOldMantle
-  name: entity-clothingneckoldmantle-name
-  description: entity-clothingneckoldmantle-description
+  name: old wrap
+  description: A tattered fabric wrap, faded over the years. Smells faintly of cigars.
   components:
   - type: Sprite
     sprite: Clothing/Neck/mantles/oldmantle.rsi
@@ -89,8 +89,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckUnathiMantle
-  name: entity-clothingneckunathimantle-name
-  description: entity-clothingneckunathimantle-description
+  name: hide mantle
+  description: A rather grisly selection of cured hides and skin, sewn together to form a ragged mantle.
   components:
   - type: Sprite
     sprite: Clothing/Neck/mantles/unathimantle.rsi

@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseStructure
   id: Roboisseur
-  name: entity-roboisseur-name
-  description: entity-roboisseur-description
+  name: Mr. Butlertron
+  description: It asks for food to deliver to exotic customers across the cosmos. Powered by the latest technology in bluespace food delivery.
   components:
   - type: Anchorable
   - type: Pullable

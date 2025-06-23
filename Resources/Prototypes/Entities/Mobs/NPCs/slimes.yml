@@ -1,9 +1,9 @@
 - type: entity
-  name: entity-basemobadultslimes-name
+  name: basic slime
   id: BaseMobAdultSlimes
   parent: [ SimpleMobBase, MobCombat ]
   abstract: true
-  description: entity-basemobadultslimes-description
+  description: It looks so much like jelly. I wonder what it tastes like?
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -121,11 +121,11 @@
   - type: Fauna # Lavaland Change
 
 - type: entity
-  name: entity-basemobadultslimes-name
+  name: basic slime
   id: MobAdultSlimes
   parent: BaseMobAdultSlimes
   abstract: true
-  description: entity-basemobadultslimes-description
+  description: It looks so much like jelly. I wonder what it tastes like?
   components:
   - type: LanguageKnowledge
     speaks:
@@ -152,8 +152,8 @@
       task: SimpleHostileCompound
 
 - type: entity
-  name: entity-mobslimesgeras-name
-  description: entity-mobslimesgeras-description
+  name: geras
+  description: A geras of a slime - the name is ironic, isn't it?
   id: MobSlimesGeras
   parent: BaseMobAdultSlimes
   categories: [ HideSpawnMenu ]
@@ -187,7 +187,7 @@
         Base: blue_adult_slime_dead
 
 - type: entity
-  name: entity-mobadultslimesblue-name
+  name: blue slime
   id: MobAdultSlimesBlue
   parent: MobAdultSlimes
   components:
@@ -199,7 +199,7 @@
         Base: blue_adult_slime_dead
 
 - type: entity
-  name: entity-mobadultslimesblue-name
+  name: blue slime
   parent: MobAdultSlimesBlue
   id: MobAdultSlimesBlueAngry
   suffix: Angry
@@ -216,7 +216,7 @@
         settings: short
 
 - type: entity
-  name: entity-mobadultslimesgreen-name
+  name: green slime
   parent: MobAdultSlimes
   id: MobAdultSlimesGreen
   components:
@@ -239,7 +239,7 @@
           Poison: 4
 
 - type: entity
-  name: entity-mobadultslimesgreen-name
+  name: green slime
   parent: MobAdultSlimesGreen
   id: MobAdultSlimesGreenAngry
   suffix: Angry
@@ -256,7 +256,7 @@
         settings: short
 
 - type: entity
-  name: entity-mobadultslimesyellow-name
+  name: yellow slime
   parent: MobAdultSlimes
   id: MobAdultSlimesYellow
   components:
@@ -279,7 +279,7 @@
           Cellular: 3
 
 - type: entity
-  name: entity-mobadultslimesyellow-name
+  name: yellow slime
   parent: MobAdultSlimesYellow
   id: MobAdultSlimesYellowAngry
   suffix: Angry

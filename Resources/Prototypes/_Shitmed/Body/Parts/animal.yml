@@ -2,7 +2,7 @@
 - type: entity
   parent: [PartAnimal, BaseHead]
   id: HeadAnimal
-  name: entity-headanimal-name
+  name: animal head
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -21,8 +21,8 @@
   categories: [ HideSpawnMenu ]
   parent: BaseCarpPart
   id: TailCarp
-  name: entity-tailcarp-name
-  description: entity-tailcarp-description
+  name: carp tail
+  description: Unique glands in this tail let space carp fly in a vacuum.
   components:
   - type: Sprite
     layers:
@@ -39,7 +39,7 @@
   categories: [ HideSpawnMenu ]
   parent: BaseCarpPart
   id: TorsoCarp
-  name: entity-torsocarp-name
+  name: carp torso
   components:
   - type: Sprite
     layers:

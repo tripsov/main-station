@@ -47,7 +47,7 @@
     stepOn: true
 
 - type: entity
-  name: entity-landminekick-name
+  name: kick mine
   parent: BaseLandMine
   id: LandMineKick
   components:
@@ -55,8 +55,8 @@
   - type: DeleteOnTrigger
 
 - type: entity
-  name: entity-landminemodular-name
-  description: entity-landminemodular-description
+  name: modular mine
+  description: This bad boy could be packing any number of dangers. Or a bike horn.
   parent: BaseLandMine
   id: LandMineModular
   components:
@@ -66,7 +66,7 @@
     node: emptyCase
 
 - type: entity
-  name: entity-landmineexplosive-name
+  name: explosive mine
   parent: BaseLandMine
   id: LandMineExplosive
   components:

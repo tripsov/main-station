@@ -2,8 +2,8 @@
 - type: entity
   parent: BaseBoardEntity
   id: ParchisBoard
-  name: entity-parchisboard-name
-  description: entity-parchisboard-description
+  name: parchís board
+  description: Cross and circle board game famous for destroying countless friendships.
   components:
   - type: Sprite
     sprite: Objects/Fun/Tabletop/parchis.rsi
@@ -18,7 +18,7 @@
 # Parchís tabletop item (item only visible in tabletop game)
 - type: entity
   id: ParchisBoardTabletop
-  name: entity-parchisboardtabletop-name
+  name: parchís
   parent: BaseBoardTabletop
   categories: [ HideSpawnMenu ]
   components:

@@ -27,7 +27,7 @@
 - type: entity
   parent: BaseMagazineBoxMagnum
   id: MagazineBoxMagnum
-  name: entity-magazineboxmagnum-name
+  name: ammunition box (.45 magnum)
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeMagnum
@@ -41,7 +41,7 @@
 - type: entity
   parent: BaseMagazineBoxMagnum
   id: MagazineBoxMagnumPractice
-  name: entity-magazineboxmagnumpractice-name
+  name: ammunition box (.45 magnum practice)
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeMagnumPractice
@@ -56,7 +56,7 @@
 - type: entity
   id: MagazineBoxMagnumIncendiary
   parent: BaseMagazineBoxMagnum
-  name: entity-magazineboxmagnumincendiary-name
+  name: ammunition box (.45 magnum incendiary)
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeMagnumIncendiary
@@ -71,7 +71,7 @@
 - type: entity
   id: MagazineBoxMagnumUranium
   parent: BaseMagazineBoxMagnum
-  name: entity-magazineboxmagnumuranium-name
+  name: ammunition box (.45 magnum uranium)
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeMagnumUranium
@@ -86,7 +86,7 @@
 - type: entity
   id: MagazineBoxMagnumAP
   parent: BaseMagazineBoxMagnum
-  name: entity-magazineboxmagnumap-name
+  name: ammunition box (.45 magnum armor-piercing)
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeMagnumAP
@@ -101,7 +101,7 @@
 - type: entity
   parent: BaseMagazineBoxMagnum
   id: MagazineBoxMagnumShrapnel
-  name: entity-magazineboxmagnumshrapnel-name
+  name: ammunition box (.45 magnum shrapnel)
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeMagnumShrapnel

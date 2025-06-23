@@ -1,6 +1,6 @@
 ﻿- type: entity
   id: CultRuneBase
-  name: entity-cultrunebase-name
+  name: based rune
   abstract: true
   placement:
     mode: SnapgridCenter
@@ -28,8 +28,8 @@
 - type: entity
   parent: CultRuneBase
   id: CultRuneOffering
-  name: entity-cultruneoffering-name
-  description: entity-cultruneoffering-description
+  name: rune of offering
+  description: Offers a noncultist above it to Nar'Sie, either converting them or sacrificing them. One cultists required for dead sacrifice, two for conversion and three for living sacrifices and sacrifice targets.
   components:
   - type: Sprite
     state: "offering"
@@ -40,8 +40,8 @@
 - type: entity
   parent: CultRuneBase
   id: CultRuneEmpower
-  name: entity-cultruneempower-name
-  description: entity-cultruneempower-description
+  name: rune of empower
+  description: Allows cultists to prepare greater amounts of blood magic at far less of a cost.
   components:
   - type: Sprite
     state: strength
@@ -52,8 +52,8 @@
 - type: entity
   parent: CultRuneBase
   id: CultRuneTeleport
-  name: entity-cultruneteleport-name
-  description: entity-cultruneteleport-description
+  name: rune of teleportation
+  description: Warps everything above it to another chosen teleport rune
   components:
   - type: Sprite
     state: teleport
@@ -70,8 +70,8 @@
 - type: entity
   parent: CultRuneBase
   id: CultRuneRevive
-  name: entity-cultrunerevive-name
-  description: entity-cultrunerevive-description
+  name: rune of rejuvenation
+  description: Requires a dead, mindless, or inactive cultist placed upon the rune. Provided there have been sufficient sacrifices, they will be given a new life.
   components:
   - type: Sprite
     state: revive
@@ -82,8 +82,8 @@
 - type: entity
   parent: CultRuneBase
   id: CultRuneBarrier
-  name: entity-cultrunebarrier-name
-  description: entity-cultrunebarrier-description
+  name: rune of barrier
+  description: When invoked, makes a temporary invisible wall to block passage.
   components:
   - type: Sprite
     state: barrier
@@ -98,8 +98,8 @@
 - type: entity
   parent: CultRuneBase
   id: CultRuneSummoning
-  name: entity-cultrunesummoning-name
-  description: entity-cultrunesummoning-description
+  name: rune of summoning
+  description: Summons a single cultist to the rune. Requires 2 invokers.
   components:
   - type: Sprite
     state: summon
@@ -115,8 +115,8 @@
 - type: entity
   parent: CultRuneBase
   id: CultRuneBloodBoil
-  name: entity-cultrunebloodboil-name
-  description: entity-cultrunebloodboil-description
+  name: rune of boiling blood
+  description: Boils the blood of non-believers who can see the rune, rapidly dealing extreme amounts of damage. Requires 3 invokers.
   components:
   - type: Sprite
     state: blood_boil
@@ -131,8 +131,8 @@
 - type: entity
   parent: CultRuneBase
   id: CultRuneApocalypse
-  name: entity-cultruneapocalypse-name
-  description: entity-cultruneapocalypse-description
+  name: rune of apocalypse
+  description: Harbinger of the end times. Grows in strength with the cult's desperation - but at the risk of... side effects. Requires 3 invokers.
   components:
   - type: Sprite
     sprite: WhiteDream/BloodCult/Entities/Runes/apocalypse.rsi
@@ -157,8 +157,8 @@
 - type: entity
   parent: CultRuneBase
   id: CultRuneDimensionalRending
-  name: entity-cultrunedimensionalrending-name
-  description: entity-cultrunedimensionalrending-description
+  name: rune of dimensional rending
+  description: Tears apart dimensional barriers, calling forth the Geometer. Requires 10 invokers
   components:
   - type: Sprite
     sprite: WhiteDream/BloodCult/Entities/Runes/dimensional_rending.rsi

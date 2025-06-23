@@ -80,7 +80,7 @@
 - type: entity
   abstract: true
   id: MobOreCrab
-  name: entity-moborecrab-name
+  name: ore crab
   parent: [ MobElementalBase, MobCombat ]
   components:
   - type: Sprite
@@ -116,7 +116,7 @@
 - type: entity
   parent: MobOreCrab
   id: MobQuartzCrab
-  description: entity-mobquartzcrab-description
+  description: An ore crab made from Quartz.
   components:
   - type: Sprite
     state: quartz_crab
@@ -140,7 +140,7 @@
 - type: entity
   parent: MobOreCrab
   id: MobIronCrab
-  description: entity-mobironcrab-description
+  description: An ore crab made from iron.
   components:
   - type: Sprite
     state: iron_crab
@@ -171,7 +171,7 @@
 - type: entity
   parent: MobOreCrab
   id: MobUraniumCrab
-  description: entity-moburaniumcrab-description
+  description: An ore crab made from uranium.
   components:
   - type: FactionException
   - type: NPCRetaliation
@@ -206,8 +206,8 @@
 - type: entity
   parent: MobOreCrab
   id: MobSilverCrab
-  name: entity-moborecrab-name
-  description: entity-mobsilvercrab-description
+  name: ore crab
+  description: An ore crab made from silver.
   components:
   - type: Sprite
     state: silver_crab
@@ -233,11 +233,11 @@
         acts: [ "Destruction" ]
 
 - type: entity
-  name: entity-reagentslime-name
+  name: Reagent slime
   id: ReagentSlime
   suffix: Water
   parent: [ MobAdultSlimes, MobCombat ]
-  description: entity-reagentslime-description
+  description: It consists of a liquid, and it wants to dissolve you in itself.
   components:
   - type: GhostRole
     prob: 0
@@ -320,7 +320,7 @@
   - type: Fauna # Lavaland Change
 
 - type: entity
-  name: entity-reagentslimespawner-name
+  name: Reagent Slime Spawner
   id: ReagentSlimeSpawner
   parent: MarkerBase
   components:

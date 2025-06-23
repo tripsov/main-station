@@ -1,5 +1,5 @@
 - type: entity
   save: false
-  name: entity-mobthaven-name
+  name: Urist McEars
   parent: BaseMobThaven
   id: MobThaven

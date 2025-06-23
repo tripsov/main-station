@@ -1,8 +1,8 @@
 ﻿- type: entity
   id: CultFactoryBase
   parent: BaseStructure
-  name: entity-cultfactorybase-name
-  description: entity-cultfactorybase-description
+  name: base cult factory
+  description: You can make things here.
   abstract: true
   components:
   - type: Sprite
@@ -59,8 +59,8 @@
 - type: entity
   id: CultFactoryAltar
   parent: CultFactoryBase
-  name: entity-cultfactoryaltar-name
-  description: entity-cultfactoryaltar-description
+  name: altar
+  description: A bloodstained altar dedicated to Nar'Sie.
   components:
   - type: Sprite
     sprite: WhiteDream/BloodCult/Entities/Structures/altar.rsi
@@ -75,8 +75,8 @@
 - type: entity
   id: CultFactoryForge
   parent: CultFactoryBase
-  name: entity-cultfactoryforge-name
-  description: entity-cultfactoryforge-description
+  name: daemon forge
+  description: A forge used in crafting the unholy weapons used by the armies of Nar'Sie.
   components:
   - type: Sprite
     sprite: WhiteDream/BloodCult/Entities/Structures/forge.rsi
@@ -94,8 +94,8 @@
 - type: entity
   id: CultFactoryArchives
   parent: CultFactoryBase
-  name: entity-cultfactoryarchives-name
-  description: entity-cultfactoryarchives-description
+  name: archives
+  description: A desk covered in arcane manuscripts and tomes in unknown languages. Looking at the text makes your skin crawl.
   components:
   - type: Sprite
     sprite: WhiteDream/BloodCult/Entities/Structures/archives.rsi

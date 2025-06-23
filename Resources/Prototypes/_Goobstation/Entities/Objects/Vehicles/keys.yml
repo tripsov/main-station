@@ -13,8 +13,8 @@
 - type: entity
   parent: BaseKey
   id: VehicleKeySecway
-  name: entity-vehiclekeysecway-name
-  description: entity-vehiclekeysecway-description
+  name: secway keys
+  description: The keys to the future.
   components:
   - type: Sprite
     sprite: Objects/Vehicles/secway.rsi
@@ -27,8 +27,8 @@
 - type: entity
   parent: BaseKey
   id: VehicleKeySyndicateSegway
-  name: entity-vehiclekeysyndicatesegway-name
-  description: entity-vehiclekeysyndicatesegway-description
+  name: syndicate segway keys
+  description: Patterned after the iconic EMAG design.
   components:
   - type: Sprite
     sprite: Objects/Vehicles/syndicatesegway.rsi
@@ -41,8 +41,8 @@
 - type: entity
   parent: BaseKey
   id: VehicleKeyATV
-  name: entity-vehiclekeyatv-name
-  description: entity-vehiclekeyatv-description
+  name: ATV keys
+  description: Think this looks like just one key? ATV keys means "actually two vehicle keys."
   components:
   - type: Sprite
     sprite: Objects/Vehicles/atv.rsi
@@ -55,8 +55,8 @@
 - type: entity
   parent: BaseKey
   id: VehicleKeyJanicart
-  name: entity-vehiclekeyjanicart-name
-  description: entity-vehiclekeyjanicart-description
+  name: janicart keys
+  description: Interesting design.
   components:
   - type: Sprite
     sprite: Objects/Vehicles/janicart.rsi

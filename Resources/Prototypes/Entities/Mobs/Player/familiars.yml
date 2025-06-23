@@ -69,10 +69,10 @@
         Heat: 100
 
 - type: entity
-  name: entity-mobbatremilia-name
+  name: Remilia
   parent: BaseMobPsionicFamiliar
   id: MobBatRemilia
-  description: entity-mobbatremilia-description
+  description: The chaplain's familiar. Likes fruit.
   components:
   - type: GhostRole
     makeSentient: true
@@ -138,10 +138,10 @@
       30: Dead
 
 - type: entity
-  name: entity-mobcorgicerberus-name
+  name: Cerberus
   parent: MobCorgiNarsi
   id: MobCorgiCerberus
-  description: entity-mobcorgicerberus-description
+  description: This pupper is not wholesome.
   components:
   - type: GhostRole
     makeSentient: true
@@ -208,10 +208,10 @@
       Unsexed: Cerberus
 
 - type: entity
-  name: entity-mobpsionicfamiliarimp-name
+  name: imp familiar
   parent: BaseMobPsionicFamiliar
   id: MobPsionicFamiliarImp
-  description: entity-mobpsionicfamiliarimp-description
+  description: A living mote of flame summoned from Gehenna.
   components:
   - type: Sprite
     drawdepth: Mobs

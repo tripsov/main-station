@@ -1,7 +1,7 @@
 - type: entity
   parent: ClothingNeckBase
   id: ShockCollar
-  name: entity-shockcollar-name
+  name: shock collar
   description: Shocking. # DeltaV: sprite is fine
   components:
   - type: Sprite

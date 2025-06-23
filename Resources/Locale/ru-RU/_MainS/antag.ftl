@@ -1,1 +1,0 @@
-antag-loneabductorantag-name = Абдуктор

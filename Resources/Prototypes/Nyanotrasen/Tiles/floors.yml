@@ -1,6 +1,6 @@
 - type: tile
   id: FloorBedrock
-  name: tile-floorbedrock-name
+  name: tiles-bedrock-floor
   sprite: /Textures/Nyanotrasen/Tiles/bedrock.png
   variants: 4
   placementVariants:

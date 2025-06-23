@@ -47,8 +47,8 @@
 
 - type: entity
   id: ActionMimeInvisibleWall
-  name: entity-actionmimeinvisiblewall-name
-  description: entity-actionmimeinvisiblewall-description
+  name: Create Invisible Wall
+  description: Create an invisible wall in front of you, if placeable there.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction

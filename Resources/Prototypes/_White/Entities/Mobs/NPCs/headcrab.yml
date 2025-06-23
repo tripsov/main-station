@@ -10,8 +10,8 @@
     - MobFlammable
   id: BaseMobHeadcrab
   abstract: true
-  name: entity-basemobheadcrab-name
-  description: entity-basemobheadcrab-description
+  name: headcrab
+  description: It looks like something parasitic.
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRole
@@ -119,7 +119,7 @@
 - type: entity
   parent: BaseMobHeadcrab
   id: MobHeadcrabFast
-  name: entity-mobheadcrabfast-name
+  name: fast headcrab
   components:
   - type: Sprite
     sprite: _White/Mobs/Animals/headcrab_fast.rsi
@@ -135,7 +135,7 @@
 - type: entity
   parent: BaseMobHeadcrab
   id: MobHeadcrabPoison
-  name: entity-mobheadcrabpoison-name
+  name: poison headcrab
   components:
   - type: Sprite
     sprite: _White/Mobs/Animals/headcrab_poison.rsi

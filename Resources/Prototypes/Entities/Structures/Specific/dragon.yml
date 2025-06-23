@@ -1,7 +1,7 @@
 - type: entity
   id: CarpRift
-  name: entity-carprift-name
-  description: entity-carprift-description
+  name: carp rift
+  description: A rift akin to the ones space carp use to travel long distances.
   placement:
     mode: SnapgridCenter
   components:

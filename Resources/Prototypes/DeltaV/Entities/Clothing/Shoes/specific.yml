@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingShoesBase
   id: ClothingShoesEnclosedChem
-  name: entity-clothingshoesenclosedchem-name
-  description: entity-clothingshoesenclosedchem-description
+  name: enclosed shoes
+  description: Those shoes will protect you from melting your feet while working.
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Shoes/Specific/enclosedshoes.rsi

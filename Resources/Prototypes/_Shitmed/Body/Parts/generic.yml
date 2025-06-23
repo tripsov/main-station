@@ -1,8 +1,8 @@
 - type: entity
   parent: LeftArmHuman
   id: BioSynthLeftArm
-  name: entity-biosynthleftarm-name
-  description: entity-biosynthleftarm-description
+  name: bio-synthetic left arm
+  description: This left arm can be transplanted into any living organism and it will adapt to its recipient.
   components:
   - type: BodyPart
     children:
@@ -13,8 +13,8 @@
 - type: entity
   parent: RightArmHuman
   id: BioSynthRightArm
-  name: entity-biosynthrightarm-name
-  description: entity-biosynthrightarm-description
+  name: bio-synthetic right arm
+  description: This right arm can be transplanted into any living organism and it will adapt to its recipient.
   components:
   - type: BodyPart
     children:
@@ -25,20 +25,20 @@
 - type: entity
   parent: LeftHandHuman
   id: BioSynthLeftHand
-  name: entity-biosynthlefthand-name
-  description: entity-biosynthlefthand-description
+  name: bio-synthetic left hand
+  description: This left hand can be transplanted into any living organism and it will adapt to its recipient.
 
 - type: entity
   parent: RightHandHuman
   id: BioSynthRightHand
-  name: entity-biosynthrighthand-name
-  description: entity-biosynthrighthand-description
+  name: bio-synthetic right hand
+  description: This right hand can be transplanted into any living organism and it will adapt to its recipient.
 
 - type: entity
   parent: LeftLegHuman
   id: BioSynthLeftLeg
-  name: entity-biosynthleftleg-name
-  description: entity-biosynthleftleg-description
+  name: bio-synthetic left leg
+  description: This left leg can be transplanted into any living organism and it will adapt to its recipient.
   components:
   - type: BodyPart
     children:
@@ -49,8 +49,8 @@
 - type: entity
   parent: RightLegHuman
   id: BioSynthRightLeg
-  name: entity-biosynthrightleg-name
-  description: entity-biosynthrightleg-description
+  name: bio-synthetic right leg
+  description: This right leg can be transplanted into any living organism and it will adapt to its recipient.
   components:
   - type: BodyPart
     children:
@@ -61,34 +61,34 @@
 - type: entity
   parent: LeftFootHuman
   id: BioSynthLeftFoot
-  name: entity-biosynthleftfoot-name
-  description: entity-biosynthleftfoot-description
+  name: bio-synthetic left foot
+  description: This left foot can be transplanted into any living organism and it will adapt to its recipient.
 
 - type: entity
   parent: RightFootHuman
   id: BioSynthRightFoot
-  name: entity-biosynthrightfoot-name
-  description: entity-biosynthrightfoot-description
+  name: bio-synthetic right foot
+  description: This right foot can be transplanted into any living organism and it will adapt to its recipient.
 
 - type: entity
   parent: HeadHuman
   id: BioSynthHead
-  name: entity-biosynthhead-name
-  description: entity-biosynthhead-description
+  name: bio-synthetic head
+  description: This head can be transplanted into any living organism and it will adapt to its recipient.
 
 - type: entity
   parent: TorsoHuman
   id: BioSynthTorso
-  name: entity-biosynthtorso-name
-  description: entity-biosynthtorso-description
+  name: bio-synthetic torso
+  description: This torso can be transplanted into any living organism and it will adapt to its recipient.
 
 # JOKE ITEMS
 
 - type: entity
   parent: LeftArmHuman
   id: PizzaLeftArm
-  name: entity-pizzaleftarm-name
-  description: entity-pizzaleftarm-description
+  name: pizza left arm
+  description: For when you want to turn someone into a Space John's.
   components:
   - type: BodyPart
     partType: Arm
@@ -102,8 +102,8 @@
 - type: entity
   parent: RightArmHuman
   id: PizzaRightArm
-  name: entity-pizzarightarm-name
-  description: entity-pizzaleftarm-description
+  name: pizza right arm
+  description: For when you want to turn someone into a Space John's.
   components:
   - type: BodyPart
     partType: Arm

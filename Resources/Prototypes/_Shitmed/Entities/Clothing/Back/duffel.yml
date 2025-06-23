@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingBackpackDuffel
   id: ClothingBackpackDuffelAbductor
-  name: entity-clothingbackpackduffelabductor-name
-  description: entity-clothingbackpackduffelabductor-description
+  name: alien duffel bag
+  description: An ordinary duffel bag woven from a durable fiber.
   components:
   - type: Sprite
     sprite: _Shitmed/Clothing/Back/Duffels/abductor.rsi

@@ -2,8 +2,8 @@
 - type: entity
   parent: [ClothingModsuitStandard, SolAllianceInfo]
   id: ClothingModsuitSANMarine
-  name: entity-clothingmodsuitsanmarine-name
-  description: entity-clothingmodsuitsanmarine-description
+  name: CSA-85x "Mazu" modsuit control
+  description: The main controller for a "Mazu" modsuit. A rare and incredibly valuable piece of military hardware typically reserved for Solarian special forces.
   components:
     - type: Sprite
       sprite: _EE/Clothing/SolAlliance/Modsuits/csa_85x.rsi
@@ -31,8 +31,8 @@
 - type: entity
   parent: [ClothingModsuitGauntletsStandard, SolAllianceInfo]
   id: ClothingModsuitGauntletsSANMarine
-  name: entity-clothingmodsuitgauntletssanmarine-name
-  description: entity-clothingmodsuitgauntletssanmarine-description
+  name: CSA-85x "Mazu" modsuit gauntlets
+  description: A pair of gauntlets made for crushing alien skulls. It is part of the "Mazu" modsuit.
   categories: [HideSpawnMenu]
   components:
     - type: Sprite
@@ -41,8 +41,8 @@
 - type: entity
   parent: [ClothingModsuitHelmetStandard, SolAllianceInfo, ShowSecurityIcons, BaseClothingRadio]
   id: ClothingModsuitHelmetSANMarine
-  name: entity-clothingmodsuithelmetsanmarine-name
-  description: entity-clothingmodsuithelmetsanmarine-description
+  name: CSA-85x "Mazu" modsuit helmet
+  description: A state-of-the-art helmet designed by CyberSun Armaments for the "Mazu" modsuit. It includes a built-in HUD.
   categories: [HideSpawnMenu]
   components:
     - type: Sprite
@@ -69,8 +69,8 @@
 - type: entity
   parent: [ClothingModsuitChestplateStandard, SolAllianceInfo]
   id: ClothingModsuitChestplateSANMarine
-  name: entity-clothingmodsuitchestplatesanmarine-name
-  description: entity-clothingmodsuitchestplatesanmarine-description
+  name: CSA-85x "Mazu" modsuit chestplate
+  description: A state of the art chestplate for the "Mazu" Modsuit. It uses the same armor plating as a "Shanlin" tacsuit, but also incorporates powered servos to reduce the equipment load.
   categories: [HideSpawnMenu]
   components:
     - type: Sprite
@@ -103,8 +103,8 @@
 - type: entity
   parent: [ClothingModsuitBootsStandard, SolAllianceInfo]
   id: ClothingModsuitBootsSANMarine
-  name: entity-clothingmodsuitbootssanmarine-name
-  description: entity-clothingmodsuitbootssanmarine-description
+  name: CSA-85x "Mazu" modsuit boots
+  description: A state-of-the-art pair of magboots for the "Mazu" modsuit. So long as the suit is powered, these will not slow the wearer down.
   categories: [HideSpawnMenu]
   components:
     - type: Appearance
@@ -127,7 +127,7 @@
 - type: entity
   parent: [ClothingModsuitSANMarine]
   id: ClothingModsuitSANMarineFilledMarine
-  name: entity-clothingmodsuitsanmarine-name
+  name: CSA-85x "Mazu" modsuit control
   suffix: SAN, Marine Kit
   components:
     - type: StorageFill
@@ -146,7 +146,7 @@
 - type: entity
   parent: [ClothingModsuitSANMarine]
   id: ClothingModsuitSANMarineFilledOfficer
-  name: entity-clothingmodsuitsanmarine-name
+  name: CSA-85x "Mazu" modsuit control
   suffix: SAN, Officer Kit
   components:
     - type: StorageFill
@@ -169,8 +169,8 @@
   id: CrateSANModsuit
   suffix: Filled
   parent: [CrateAluminium, SolAllianceInfo]
-  name: entity-cratesanmodsuit-name
-  description: entity-cratesanmodsuit-description
+  name: Solarian marine modsuit bundle
+  description: Contains the full uniform of a Solarian marine, complete with a modsuit.
   components:
   - type: StorageFill
     contents:
@@ -180,8 +180,8 @@
   id: CrateSANModsuitGroup
   suffix: Filled
   parent: [CrateAluminium, SolAllianceInfo]
-  name: entity-cratesanmodsuit-name
-  description: entity-cratesanmodsuitgroup-description
+  name: Solarian marine modsuit bundle
+  description: Contains five full Solarian marine uniforms, complete with modsuits.
   components:
   - type: StorageFill
     contents: # 4 Marines, 1 Officer

@@ -3,8 +3,8 @@
 - type: entity
   parent: BaseItem
   id: ReinforcementRadioSyndicate
-  name: entity-reinforcementradiosyndicate-name
-  description: entity-reinforcementradiosyndicate-description
+  name: syndicate reinforcement radio
+  description: Call in a syndicate agent of questionable quality, instantly! Only basic equipment provided.
   components:
   - type: Sprite
     sprite: Objects/Devices/communication.rsi
@@ -44,8 +44,8 @@
 - type: entity
   parent: ReinforcementRadioSyndicate
   id: ReinforcementRadioSyndicateAncestor
-  name: entity-reinforcementradiosyndicateancestor-name
-  description: entity-reinforcementradiosyndicateancestor-description
+  name: syndicate genetic ancestor reinforcement radio
+  description: Calls in a specially trained ancestor of your choosing to assist you.
   components:
   - type: GhostRole
     name: ghost-role-information-syndicate-monkey-reinforcement-name
@@ -71,8 +71,8 @@
 - type: entity
   parent: ReinforcementRadioSyndicate
   id: ReinforcementRadioSyndicateSyndiCat
-  name: entity-reinforcementradiosyndicatesyndicat-name
-  description: entity-reinforcementradiosyndicatesyndicat-description
+  name: syndicat reinforcement radio
+  description: Calls in a faithfully trained cat with a microbomb to assist you.
   components:
   - type: GhostRole
     name: ghost-role-information-SyndiCat-name
@@ -90,8 +90,8 @@
 - type: entity
   parent: ReinforcementRadioSyndicate
   id: ReinforcementRadioSyndicateCyborgAssault # Reinforcement radio exclusive to nukeops uplink
-  name: entity-reinforcementradiosyndicatecyborgassault-name
-  description: entity-reinforcementradiosyndicatecyborgassault-description
+  name: syndicate assault cyborg reinforcement radio
+  description: Call in a well armed assault cyborg, instantly!
   suffix: NukeOps
   components:
     - type: GhostRole

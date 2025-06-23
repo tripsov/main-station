@@ -3,7 +3,7 @@
 - type: entity
   parent: [FoodInjectableBase, ItemHeftyBase]
   id: FoodEggBase
-  description: entity-foodeggbase-description
+  description: An egg!
   abstract: true
   components:
   - type: Tag
@@ -71,10 +71,10 @@
 
 # Splat
 - type: entity
-  name: entity-eggshells-name
+  name: eggshells
   parent: BaseItem
   id: Eggshells
-  description: entity-eggshells-description
+  description: You're walkin' on 'em bud.
   components:
   - type: Food
   - type: Sprite
@@ -100,7 +100,7 @@
 - type: entity
   parent: FoodEggBase
   id: FoodEgg
-  name: entity-foodegg-name
+  name: egg
   components:
   - type: Sprite
     layers:
@@ -118,8 +118,8 @@
 - type: entity
   parent: FoodEggBase
   id: FoodEggBoiled
-  name: entity-foodeggboiled-name
-  description: entity-foodeggboiled-description
+  name: boiled egg
+  description: A delicious hardboiled egg.
   components:
   - type: Sprite
     layers:

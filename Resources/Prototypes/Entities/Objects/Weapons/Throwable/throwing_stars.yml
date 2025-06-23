@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: ThrowingStar
-  name: entity-throwingstar-name
-  description: entity-throwingstar-description
+  name: throwing star
+  description: An ancient weapon still used to this day, due to its ease of lodging itself into its victim's body parts.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Throwable/throwing_star.rsi
@@ -46,7 +46,7 @@
 - type: entity
   parent: ThrowingStar
   id: ThrowingStarNinja
-  name: entity-throwingstarninja-name
+  name: ninja throwing star
   components:
   # prevent ninja crashing server + filling bag with 20 stars to instakill a single person
   # also limits the crew's use

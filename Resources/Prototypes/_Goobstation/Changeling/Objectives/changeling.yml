@@ -10,8 +10,8 @@
 - type: entity
   parent: [BaseChangelingObjective, BaseSurviveObjective]
   id: ChangelingSurviveObjective
-  name: entity-changelingsurviveobjective-name
-  description: entity-changelingsurviveobjective-description
+  name: Survive
+  description: I must survive no matter what.
   components:
   - type: Objective
     icon:
@@ -51,7 +51,7 @@
 - type: entity
   parent: BaseChangelingObjective
   id: EscapeIdentityObjective
-  description: entity-escapeidentityobjective-description
+  description: I need to escape on the evacuation shuttle. Undercover.
   components:
   - type: Objective
     icon:

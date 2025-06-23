@@ -1,8 +1,8 @@
 - type: entity
   parent: CrateLivestock
   id: CrateNPCGondola
-  name: entity-cratenpcgondola-name
-  description: entity-cratenpcgondola-description
+  name: Gondola crate
+  description: A crate containing a single Gondola.
   components:
     - type: StorageFill
       contents:

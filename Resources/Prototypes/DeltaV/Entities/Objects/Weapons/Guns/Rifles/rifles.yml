@@ -1,8 +1,8 @@
 - type: entity
-  name: entity-weaponriflevulcan-name
+  name: Vulcan
   parent: BaseWeaponRifle
   id: WeaponRifleVulcan
-  description: entity-weaponriflevulcan-description
+  description: One of the first firearms modified for space usage, this rifle was purpose-designed to punch holes in Cargonian "combat mechs." Uses .30 rifle ammo.
   components:
   - type: Sprite
     sprite: DeltaV/Objects/Weapons/Guns/Rifles/vulcan.rsi
@@ -48,10 +48,10 @@
     sprite: DeltaV/Objects/Weapons/Guns/Rifles/vulcan.rsi
 
 - type: entity
-  name: entity-weaponriflejackdaw-name
+  name: CAWS-25 Jackdaw
   parent: BaseWeaponRifle
   id: WeaponRifleJackdaw
-  description: entity-weaponriflejackdaw-description
+  description: The beginning of the end is heralded by the song of a Jackdaw. Uses .25 caseless ammo.
   suffix: Deathsquad
   components:
   - type: Item
@@ -109,10 +109,10 @@
     sprite: DeltaV/Objects/Weapons/Guns/Rifles/jackdaw.rsi
 
 - type: entity
-  name: entity-weaponrifletenebra-name
+  name: Tenebra
   parent: BaseWeaponRifle
   id: WeaponRifleTenebra
-  description: entity-weaponrifletenebra-description
+  description: A mass-produced and minimalist rifle in bullpup design. Uses .20 rifle ammo.
   suffix: Mercenary
   components:
   - type: Sprite
@@ -166,11 +166,11 @@
     sprite: DeltaV/Objects/Weapons/Guns/Rifles/tenebra.rsi
 
 - type: entity
-  name: entity-weaponriflemusket-name
+  name: musket
   id: WeaponRifleMusket
   parent: Musket
   suffix: "craftable"
-  description: entity-weaponriflemusket-description
+  description: An old flintlock musket. Uses musket cartridges.
   components:
   - type: BallisticAmmoProvider
     whitelist:

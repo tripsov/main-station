@@ -1,8 +1,8 @@
 - type: entity
   id: N14Torch
-  name: entity-n14torch-name
+  name: torch
   suffix: floor
-  description: entity-n14torch-description
+  description: A flaming torch for lighting an area.
   placement:
     mode: SnapgridCenter
   components:

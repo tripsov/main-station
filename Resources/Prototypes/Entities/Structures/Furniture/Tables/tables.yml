@@ -2,8 +2,8 @@
   id: TableFrame
   # BaseStructure and not BaseTable, since these shouldn't be climbable/placeable.
   parent: BaseStructure
-  name: entity-tableframe-name
-  description: entity-tableframe-description
+  name: table frame
+  description: Pieces of metal that make the frame of a table.
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/frame.rsi
@@ -58,8 +58,8 @@
 - type: entity
   id: CounterWoodFrame
   parent: BaseStructure
-  name: entity-counterwoodframe-name
-  description: entity-counterwoodframe-description
+  name: wooden counter frame
+  description: Pieces of wood that make the frame of a table.
   components:
   - type: SpriteFade
   - type: Sprite
@@ -113,8 +113,8 @@
 - type: entity
   id: CounterMetalFrame
   parent: CounterWoodFrame
-  name: entity-countermetalframe-name
-  description: entity-tableframe-description
+  name: metal counter frame
+  description: Pieces of metal that make the frame of a table.
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/frame.rsi
@@ -158,8 +158,8 @@
 - type: entity
   id: Table
   parent: TableBase
-  name: entity-table-name
-  description: entity-table-description
+  name: table
+  description: A square piece of metal standing on four metal legs.
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/generic.rsi
@@ -199,8 +199,8 @@
 - type: entity
   id: TableReinforced
   parent: TableBase
-  name: entity-tablereinforced-name
-  description: entity-tablereinforced-description
+  name: reinforced table
+  description: A square piece of metal standing on four metal legs. Extra robust.
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/reinforced.rsi
@@ -244,8 +244,8 @@
 - type: entity
   id: TableGlass
   parent: TableBase
-  name: entity-tableglass-name
-  description: entity-tableglass-description
+  name: glass table
+  description: A square piece of glass, standing on four metal legs.
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/glass.rsi
@@ -296,8 +296,8 @@
 - type: entity
   id: TableReinforcedGlass
   parent: TableBase
-  name: entity-tablereinforcedglass-name
-  description: entity-tablereinforcedglass-description
+  name: reinforced glass table
+  description: A square piece of glass, standing on four metal legs. Extra robust.
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/r_glass.rsi
@@ -351,8 +351,8 @@
 - type: entity
   id: TablePlasmaGlass
   parent: TableBase
-  name: entity-tableplasmaglass-name
-  description: entity-tableplasmaglass-description
+  name: plasma glass table
+  description: A square piece of plasma glass, standing on four metal legs. Pretty!
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/plasma.rsi
@@ -406,8 +406,8 @@
 - type: entity
   id: TableBrass
   parent: TableBase
-  name: entity-tablebrass-name
-  description: entity-tablebrass-description
+  name: brass table
+  description: A shiny, corrosion resistant brass table. Steampunk!
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/brass.rsi
@@ -447,8 +447,8 @@
 - type: entity
   id: TableWood
   parent: TableBase
-  name: entity-tablewood-name
-  description: entity-tablewood-description
+  name: wood table
+  description: Do not apply fire to this. Rumour says it burns easily.
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/wood.rsi
@@ -494,8 +494,8 @@
 - type: entity
   id: TableCarpet
   parent: TableBase
-  name: entity-tablecarpet-name
-  description: entity-tablecarpet-description
+  name: gambling table
+  description: Play em' cowboy.
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/carpet.rsi
@@ -535,8 +535,8 @@
 - type: entity
   id: TableStone
   parent: TableBase
-  name: entity-tablestone-name
-  description: entity-tablestone-description
+  name: stone table
+  description: Literally the sturdiest thing you have ever seen.
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/stone.rsi
@@ -560,8 +560,8 @@
 - type: entity
   id: TableWeb
   parent: TableBase
-  name: entity-tableweb-name
-  description: entity-tableweb-description
+  name: web table
+  description: Really smooth and surprisingly durable.
   components:
   - type: Damageable
     damageModifierSet: Web
@@ -595,8 +595,8 @@
   id: TableFancyBase
   abstract: true
   parent: TableBase
-  name: entity-tablefancybase-name
-  description: entity-tablefancybase-description
+  name: fancy table
+  description: Expensive and rich.
   components:
   - type: Damageable
     damageModifierSet: Wood
@@ -748,8 +748,8 @@
 - type: entity
   id: TableDebug
   parent: TableBase
-  name: entity-table-name
-  description: entity-tabledebug-description
+  name: table
+  description: PUT ON THEM CODERSOCKS!!
   suffix: DEBUG
   components:
   - type: Tag
@@ -773,8 +773,8 @@
 - type: entity
   id: TableCounterWood
   parent: CounterBase
-  name: entity-tablecounterwood-name
-  description: entity-tablewood-description
+  name: wood counter
+  description: Do not apply fire to this. Rumour says it burns easily.
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/counterwood.rsi
@@ -816,8 +816,8 @@
 - type: entity
   id: TableCounterMetal
   parent: CounterBase
-  name: entity-tablecountermetal-name
-  description: entity-tablecountermetal-description
+  name: metal counter
+  description: Looks like a good place to put a drink down.
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/countermetal.rsi

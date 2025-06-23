@@ -5,7 +5,7 @@
 - type: entity
   parent: BaseWall
   id: N14WallStore
-  name: entity-n14wallstore-name
+  name: store wall
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Walls/nc14/store.rsi
@@ -26,7 +26,7 @@
 - type: entity
   parent: N14WallStore
   id: N14WallSuperstore
-  name: entity-n14wallstore-name
+  name: store wall
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Walls/nc14/superstore.rsi
@@ -36,7 +36,7 @@
 - type: entity
   parent: N14WallStore
   id: N14WallBrick
-  name: entity-n14wallbrick-name
+  name: brick wall
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Walls/nc14/brick.rsi
@@ -49,7 +49,7 @@
 - type: entity
   parent: N14WallStore
   id: N14WallConcreteLight
-  name: entity-n14wallconcretelight-name
+  name: concrete wall
   suffix: light
   components:
   - type: Sprite
@@ -71,8 +71,8 @@
 - type: entity
   id: N14WallWoodFrame
   parent: Barricade
-  name: entity-n14wallwoodframe-name
-  description: entity-n14wallwoodframe-description
+  name: wooden wall Frame
+  description: A frame for building into a wall.
   components:
   - type: Construction
     graph: N14WoodWall
@@ -100,7 +100,7 @@
 - type: entity
   parent: BaseWall
   id: N14WallWoodWhite
-  name: entity-n14wallwoodwhite-name
+  name: wooden wall
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Walls/nc14/woodwhite.rsi
@@ -132,8 +132,8 @@
 - type: entity
   parent: BaseStructureDynamic
   id: N14WallWoodWhiteFrame
-  name: entity-n14wallwoodwhiteframe-name
-  description: entity-n14wallwoodwhiteframe-description
+  name: wall frame
+  description: Part of a wooden wall supporting the structure.
   components:
   - type: Transform
     anchored: true
@@ -194,8 +194,8 @@
 - type: entity
   parent: N14WallWoodWhite
   id: N14WallWoodLog
-  name: entity-n14wallwoodlog-name
-  description: entity-n14wallwoodlog-description
+  name: log wall
+  description: A wall made out of wooden logs.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Walls/nc14/woodlognew.rsi
@@ -212,8 +212,8 @@
 - type: entity
   parent: BaseWall
   id: N14WallTent
-  name: entity-n14walltent-name
-  description: entity-n14walltent-description
+  name: tent wall
+  description: A tent made from cloth. Keeps the weather out at least.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Walls/nc14/tent.rsi

@@ -1,8 +1,8 @@
 - type: entity
   id: BaseTowel
-  name: entity-basetowel-name
+  name: base towel
   abstract: true
-  description: entity-basetowel-description
+  description: If you want to survive out here, you gotta know where your towel is.
   parent: [ UnsensoredClothingUniformBase, ClothingHeadBase, ClothingBeltBase ]
   components:
   - type: Sprite
@@ -38,7 +38,7 @@
 
 - type: entity
   id: TowelColorWhite
-  name: entity-towelcolorwhite-name
+  name: white towel
   parent: BaseTowel
   components:
   - type: Sprite
@@ -69,7 +69,7 @@
 
 - type: entity
   id: TowelColorPurple
-  name: entity-towelcolorpurple-name
+  name: purple towel
   parent: BaseTowel
   components:
   - type: Sprite
@@ -100,7 +100,7 @@
 
 - type: entity
   id: TowelColorRed
-  name: entity-towelcolorred-name
+  name: red towel
   parent: BaseTowel
   components:
   - type: Sprite
@@ -131,7 +131,7 @@
 
 - type: entity
   id: TowelColorBlue
-  name: entity-towelcolorblue-name
+  name: blue towel
   parent: BaseTowel
   components:
   - type: Sprite
@@ -162,7 +162,7 @@
     
 - type: entity
   id: TowelColorDarkBlue
-  name: entity-towelcolordarkblue-name
+  name: dark blue towel
   parent: BaseTowel
   components:
   - type: Sprite
@@ -193,7 +193,7 @@
 
 - type: entity
   id: TowelColorLightBlue
-  name: entity-towelcolorlightblue-name
+  name: light blue towel
   parent: BaseTowel
   components:
   - type: Sprite
@@ -224,7 +224,7 @@
 
 - type: entity
   id: TowelColorTeal
-  name: entity-towelcolorteal-name
+  name: teal towel
   parent: BaseTowel
   components:
   - type: Sprite
@@ -255,7 +255,7 @@
 
 - type: entity
   id: TowelColorBrown
-  name: entity-towelcolorbrown-name
+  name: brown towel
   parent: BaseTowel
   components:
   - type: Sprite
@@ -286,7 +286,7 @@
 
 - type: entity
   id: TowelColorLightBrown
-  name: entity-towelcolorlightbrown-name
+  name: light brown towel
   parent: BaseTowel
   components:
   - type: Sprite
@@ -317,7 +317,7 @@
 
 - type: entity
   id: TowelColorGray
-  name: entity-towelcolorgray-name
+  name: gray towel
   parent: BaseTowel
   components:
   - type: Sprite
@@ -348,7 +348,7 @@
 
 - type: entity
   id: TowelColorGreen
-  name: entity-towelcolorgreen-name
+  name: green towel
   parent: BaseTowel
   components:
   - type: Sprite
@@ -379,7 +379,7 @@
 
 - type: entity
   id: TowelColorDarkGreen
-  name: entity-towelcolordarkgreen-name
+  name: dark green towel
   parent: BaseTowel
   components:
   - type: Sprite
@@ -410,7 +410,7 @@
 
 - type: entity
   id: TowelColorGold
-  name: entity-towelcolorgold-name
+  name: gold towel
   parent: BaseTowel
   components:
   - type: Sprite
@@ -443,7 +443,7 @@
 
 - type: entity
   id: TowelColorOrange
-  name: entity-towelcolororange-name
+  name: orange towel
   parent: BaseTowel
   components:
   - type: Sprite
@@ -474,7 +474,7 @@
 
 - type: entity
   id: TowelColorBlack
-  name: entity-towelcolorblack-name
+  name: black towel
   parent: BaseTowel
   components:
   - type: Sprite
@@ -505,7 +505,7 @@
 
 - type: entity
   id: TowelColorPink
-  name: entity-towelcolorpink-name
+  name: pink towel
   parent: BaseTowel
   components:
   - type: Sprite
@@ -536,7 +536,7 @@
 
 - type: entity
   id: TowelColorYellow
-  name: entity-towelcoloryellow-name
+  name: yellow towel
   parent: BaseTowel
   components:
   - type: Sprite
@@ -567,7 +567,7 @@
 
 - type: entity
   id: TowelColorMaroon
-  name: entity-towelcolormaroon-name
+  name: maroon towel
   parent: BaseTowel
   components:
   - type: Sprite
@@ -598,7 +598,7 @@
 
 - type: entity
   id: TowelColorSilver
-  name: entity-towelcolorsilver-name
+  name: silver towel
   parent: BaseTowel
   components:
   - type: Sprite
@@ -631,7 +631,7 @@
 
 - type: entity
   id: TowelColorMime
-  name: entity-towelcolormime-name
+  name: silent towel
   parent: BaseTowel
   components:
   - type: Sprite
@@ -664,7 +664,7 @@
 
 - type: entity
   id: TowelColorNT
-  name: entity-towelcolornt-name
+  name: NanoTrasen brand towel
   parent: BaseTowel
   components:
   - type: Sprite
@@ -699,7 +699,7 @@
 
 - type: entity
   id: TowelColorCentcom
-  name: entity-towelcolorcentcom-name
+  name: centcom towel
   parent: BaseTowel
   components:
   - type: Sprite
@@ -732,7 +732,7 @@
 
 - type: entity
   id: TowelColorSyndicate
-  name: entity-towelcolorsyndicate-name
+  name: syndicate towel
   parent: BaseTowel
   components:
   - type: Sprite

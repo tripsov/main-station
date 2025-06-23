@@ -1,7 +1,7 @@
 - type: entity
   parent: DoorRemoteDefault
   id: DoorRemoteJustice
-  name: entity-doorremotejustice-name
+  name: justice door remote
   components:
   - type: Sprite
     layers:

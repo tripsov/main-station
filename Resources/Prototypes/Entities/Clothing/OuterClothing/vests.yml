@@ -2,8 +2,8 @@
 - type: entity
   parent: [ClothingOuterStorageBase, AllowSuitStorageClothing]
   id: ClothingOuterVestWeb
-  name: entity-clothingoutervestweb-name
-  description: entity-clothingoutervestweb-description
+  name: web vest
+  description: A synthetic armor vest. This one has added webbing and ballistic plates.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Vests/webvest.rsi
@@ -23,8 +23,8 @@
 - type: entity
   parent: ClothingOuterVestWeb #web vest so it should have some pockets for ammo
   id: ClothingOuterVestWebMerc
-  name: entity-clothingoutervestwebmerc-name
-  description: entity-clothingoutervestwebmerc-description
+  name: merc web vest
+  description: A high-quality armored vest made from a hard synthetic material. It's surprisingly flexible and light, despite formidable armor plating.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Vests/mercwebvest.rsi
@@ -44,8 +44,8 @@
 - type: entity
   parent: ClothingOuterArmorBasic
   id: ClothingOuterVestDetective
-  name: entity-clothingoutervestdetective-name
-  description: entity-clothingoutervestdetective-description
+  name: detective's vest
+  description: A hard-boiled private investigator's armored vest.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Vests/detvest.rsi
@@ -65,8 +65,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterVestHazard
-  name: entity-clothingoutervesthazard-name
-  description: entity-clothingoutervesthazard-description
+  name: hi-viz vest
+  description: A high-visibility vest used in work zones.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Vests/hazard.rsi
@@ -89,8 +89,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterVest
-  name: entity-clothingoutervest-name
-  description: entity-clothingoutervest-description
+  name: vest
+  description: A thick vest with a rubbery, water-resistant shell.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Vests/vest.rsi
@@ -100,8 +100,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterVestNt
-  name: entity-clothingoutervestnt-name
-  description: entity-clothingoutervestnt-description
+  name: nanotrasen vest
+  description: A thick vest with a rubbery, water-resistant shell coloured in blue.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Vests/vest_nt.rsi
@@ -111,8 +111,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterVestIdris
-  name: entity-clothingoutervestidris-name
-  description: entity-clothingoutervestidris-description
+  name: idris incorporated vest
+  description: A thick vest with a rubbery, water-resistant shell coloured in teal.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Vests/vest_idris.rsi
@@ -122,8 +122,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterVestOrion
-  name: entity-clothingoutervestorion-name
-  description: entity-clothingoutervestorion-description
+  name: orion express vest
+  description: A thick vest with a rubbery, water-resistant shell coloured in brown.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Vests/vest_orion.rsi
@@ -133,8 +133,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterVestColorable
-  name: entity-clothingoutervest-name
-  description: entity-clothingoutervestcolorable-description
+  name: vest
+  description: You have a vested interest in looking good, and this vest is the vest choice to achieve that!
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Vests/vest_colorable.rsi
@@ -144,8 +144,8 @@
 - type: entity
   parent: ClothingOuterFoldableBase
   id: ClothingOuterVestThick
-  name: entity-clothingoutervestthick-name
-  description: entity-clothingoutervestthick-description
+  name: thick vest
+  description: A vest made of synthetic leather.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Vests/vest_thick.rsi

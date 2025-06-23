@@ -1,8 +1,8 @@
 ﻿- type: entity
-  name: entity-flashlightumbrella-name
+  name: umbrella
   parent: BaseItem
   id: FlashlightUmbrella
-  description: entity-flashlightumbrella-description
+  description: Keeps you dry AND stylish.
   components:
   - type: Tag
     tags:

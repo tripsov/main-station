@@ -1,8 +1,8 @@
 - type: entity
-  name: entity-hardlightspear-name
+  name: hardlight spear
   parent: Spear
   id: HardlightSpear
-  description: entity-hardlightspear-description
+  description: A spear made out of hardened light.
   components:
   - type: Sprite
     sprite: _White/Objects/Weapons/Melee/Spear/hardlight_spear.rsi

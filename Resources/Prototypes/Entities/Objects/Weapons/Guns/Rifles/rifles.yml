@@ -1,8 +1,8 @@
 - type: entity
-  name: entity-baseweaponrifle-name
+  name: BaseWeaponRifle
   parent: [BaseItem, BaseGunWieldable]
   id: BaseWeaponRifle
-  description: entity-baseweaponrifle-description
+  description: A rooty tooty point and shooty.
   abstract: true
   components:
   - type: Sprite
@@ -79,10 +79,10 @@
     staminaCost: 7.5
 
 - type: entity
-  name: entity-weaponrifleak-name
+  name: AKMS
   parent: BaseWeaponRifle
   id: WeaponRifleAk
-  description: entity-weaponrifleak-description
+  description: An iconic weapon of war. Uses .30 rifle ammo.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Rifles/ak.rsi
@@ -138,10 +138,10 @@
       collection: RiflesDrop
 
 - type: entity
-  name: entity-weaponriflem90grenadelauncher-name
+  name: M-90gl
   parent: BaseWeaponRifle
   id: WeaponRifleM90GrenadeLauncher
-  description: entity-weaponriflem90grenadelauncher-description
+  description: An older bullpup carbine model, with an attached underbarrel grenade launcher. Uses .20 rifle ammo.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Rifles/carbine.rsi
@@ -181,10 +181,10 @@
   - type: Appearance
 
 - type: entity
-  name: entity-weaponriflelecter-name
+  name: Lecter
   parent: BaseWeaponRifle
   id: WeaponRifleLecter
-  description: entity-weaponriflelecter-description
+  description: A high end military grade assault rifle. Uses .20 rifle ammo.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Rifles/lecter.rsi
@@ -228,10 +228,10 @@
   - type: Appearance
 
 - type: entity
-  name: entity-weaponriflefoam-name
+  name: Foam Force Astro Ace
   parent: [BaseWeaponShotgun, BaseGunWieldable]
   id: WeaponRifleFoam
-  description: entity-weaponriflefoam-description
+  description: A premium foam rifle of the highest quality. Its plastic feels rugged, and its mechanisms sturdy.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Rifles/foam_rifle.rsi

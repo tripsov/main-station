@@ -1,8 +1,8 @@
 - type: entity
   id: WeaponEnergyTurretStationMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: entity-weaponenergyturretstationmachinecircuitboard-name
-  description: entity-weaponenergyturretstationmachinecircuitboard-description
+  name: sentry turret machine board
+  description: A machine printed circuit board for a sentry turret.
   components:
     - type: Sprite
       state: security
@@ -23,8 +23,8 @@
 - type: entity
   id: WeaponEnergyTurretAIMachineCircuitboard
   parent: WeaponEnergyTurretStationMachineCircuitboard
-  name: entity-weaponenergyturretaimachinecircuitboard-name
-  description: entity-weaponenergyturretaimachinecircuitboard-description
+  name: AI sentry turret machine board
+  description: A machine printed circuit board for an AI sentry turret.
   components:
     - type: Sprite
       state: command

@@ -4,8 +4,8 @@
 - type: entity
   parent: BaseItem
   id: FireBomb
-  name: entity-firebomb-name
-  description: entity-firebomb-description
+  name: fire bomb
+  description: A weak, improvised incendiary device.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Bombs/ied.rsi
@@ -57,9 +57,9 @@
 - type: entity
   parent: DrinkColaCanEmpty
   id: FireBombEmpty
-  name: entity-firebomb-name
+  name: fire bomb
   suffix: empty
-  description: entity-firebombempty-description
+  description: A weak, improvised incendiary device. This one has no fuel.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Bombs/ied.rsi
@@ -86,7 +86,7 @@
   parent: FireBombEmpty
   id: FireBombFuel
   suffix: fuel
-  description: entity-firebombfuel-description
+  description: A weak, improvised incendiary device. This one is missing wires.
   components:
   - type: Sprite
     layers:

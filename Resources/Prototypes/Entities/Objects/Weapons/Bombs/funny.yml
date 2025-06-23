@@ -1,6 +1,6 @@
 - type: entity
-  name: entity-hotpotato-name
-  description: entity-hotpotato-description
+  name: hot potato
+  description: Once activated, you can't drop this time bomb - hit someone else with it to save yourself! Don't burn your hands!
   parent: BaseItem
   id: HotPotato
   components:
@@ -69,7 +69,7 @@
   - type: AnimationPlayer
 
 - type: entity
-  name: entity-trashbananapeelexplosive-name
+  name: banana peel
   suffix: Explosive
   parent: TrashBananaPeel
   id: TrashBananaPeelExplosive
@@ -105,9 +105,9 @@
 - type: entity
   parent: BaseItem
   id: TrashBananaPeelExplosiveUnarmed
-  name: entity-trashbananapeelexplosiveunarmed-name
+  name: banana
   suffix: Unarmed
-  description: entity-trashbananapeelexplosiveunarmed-description
+  description: There's something unusual about this banana.
   components:
   - type: Sprite
     sprite: Objects/Specific/Hydroponics/banana.rsi

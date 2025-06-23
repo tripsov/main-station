@@ -1,5 +1,5 @@
 - type: entity
-  name: entity-floortileitemlinowhite-name
+  name: white linoleum floor
   parent: FloorTileItemLino
   id: FloorTileItemLinoWhite
   components:
@@ -16,7 +16,7 @@
     stackType: FloorTileLino
 
 - type: entity
-  name: entity-floortileitemlinogrey-name
+  name: grey linoleum floor
   parent: FloorTileItemLino
   id: FloorTileItemLinoGrey
   components:
@@ -33,7 +33,7 @@
     stackType: FloorTileLino
 
 - type: entity
-  name: entity-floortileitemlinodark-name
+  name: dark linoleum floor
   parent: FloorTileItemLino
   id: FloorTileItemLinoDark
   components:
@@ -50,7 +50,7 @@
     stackType: FloorTileLino
 
 - type: entity
-  name: entity-floortileitemsteelyellow-name
+  name: steel yellow tile
   parent: FloorTileItemSteel
   id: FloorTileItemSteelYellow
   components:
@@ -65,7 +65,7 @@
       - FloorSteelYellow
 
 - type: entity
-  name: entity-floortileitemsteelred-name
+  name: steel red tile
   parent: FloorTileItemSteel
   id: FloorTileItemSteelRed
   components:
@@ -80,7 +80,7 @@
       - FloorSteelRed
 
 - type: entity
-  name: entity-floortileitemsteelgreen-name
+  name: steel green tile
   parent: FloorTileItemSteel
   id: FloorTileItemSteelGreen
   components:
@@ -95,7 +95,7 @@
       - FloorSteelGreen
 
 - type: entity
-  name: entity-floortileitemsteelblue-name
+  name: steel blue tile
   parent: FloorTileItemSteel
   id: FloorTileItemSteelBlue
   components:
@@ -110,7 +110,7 @@
       - FloorSteelBlue
 
 - type: entity
-  name: entity-floortileitemplasticyellow-name
+  name: plastic yellow tile
   parent: FloorTileItemSteel
   id: FloorTileItemPlasticYellow
   components:
@@ -125,7 +125,7 @@
       - FloorPlasticYellow
 
 - type: entity
-  name: entity-floortileitemplasticred-name
+  name: plastic red tile
   parent: FloorTileItemSteel
   id: FloorTileItemPlasticRed
   components:
@@ -140,7 +140,7 @@
       - FloorPlasticRed
 
 - type: entity
-  name: entity-floortileitemplasticgreen-name
+  name: plastic green tile
   parent: FloorTileItemSteel
   id: FloorTileItemPlasticGreen
   components:
@@ -155,7 +155,7 @@
       - FloorPlasticGreen
 
 - type: entity
-  name: entity-floortileitemplasticblue-name
+  name: plastic blue tile
   parent: FloorTileItemSteel
   id: FloorTileItemPlasticBlue
   components:
@@ -170,7 +170,7 @@
       - FloorPlasticBlue
 
 - type: entity
-  name: entity-floortileitemplasticdark-name
+  name: plastic dark tile
   parent: FloorTileItemSteel
   id: FloorTileItemPlasticDark
   components:
@@ -185,7 +185,7 @@
       - FloorDarkPlastic
 
 - type: entity
-  name: entity-floortileitemplasticgrey-name
+  name: plastic grey tile
   parent: FloorTileItemSteel
   id: FloorTileItemPlasticGrey
   components:
@@ -200,7 +200,7 @@
       - FloorPlastic
 
 - type: entity
-  name: entity-floortileitemplasticwhite-name
+  name: plastic white tile
   parent: FloorTileItemSteel
   id: FloorTileItemPlasticWhite
   components:
@@ -215,7 +215,7 @@
       - FloorWhitePlastic
 
 - type: entity
-  name: entity-floortileitemshielding-name
+  name: shielding floor
   parent: FloorTileItemSteel
   id: FloorTileItemShielding
   components:
@@ -230,7 +230,7 @@
       - FloorShielding
 
 - type: entity
-  name: entity-floortileitemshieldingmono-name
+  name: mono shielding floor
   parent: FloorTileItemSteel
   id: FloorTileItemShieldingMono
   components:
@@ -245,7 +245,7 @@
       - FloorShieldingMono
 
 - type: entity
-  name: entity-floortileitemshuttlesyndie-name
+  name: shuttle syndie floor
   parent: FloorTileItemSteel
   id: FloorTileItemShuttleSyndie
   components:
@@ -260,7 +260,7 @@
       - FloorShuttleSyndie
 
 - type: entity
-  name: entity-floortileitemsterile-name
+  name: sterile floor
   parent: FloorTileItemSteel
   id: FloorTileItemSterile
   components:
@@ -275,7 +275,7 @@
       - FloorSterile
 
 - type: entity
-  name: entity-floortileitemsteriledark-name
+  name: dark sterile floor
   parent: FloorTileItemSteel
   id: FloorTileItemSterileDark
   components:
@@ -290,7 +290,7 @@
       - FloorSterileDark
 
 - type: entity
-  name: entity-floortileitemreinforcedglassframe-name
+  name: reinforced glass frame floor
   parent: FloorTileItemSteel
   id: FloorTileItemReinforcedGlassFrame
   components:
@@ -324,7 +324,7 @@
         acts: [ "Destruction" ]
 
 - type: entity
-  name: entity-floortileitemglassframe-name
+  name: glass frame floor
   parent: FloorTileItemSteel
   id: FloorTileItemGlassFrame
   components:

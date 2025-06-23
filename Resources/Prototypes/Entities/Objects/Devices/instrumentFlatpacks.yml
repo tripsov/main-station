@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseFlatpack
   id: InstrumentFlatpack
-  name: entity-instrumentflatpack-name
-  description: entity-instrumentflatpack-description
+  name: instrument flatpack
+  description: A flatpack used for constructing something.
   categories: [ HideSpawnMenu ]
   components:
   - type: Item
@@ -14,8 +14,8 @@
 - type: entity
   parent: InstrumentFlatpack
   id: PianoFlatpack
-  name: entity-pianoflatpack-name
-  description: entity-pianoflatpack-description
+  name: piano flatpack
+  description: A flatpack used for constructing a piano.
   components:
   - type: Flatpack
     entity: PianoInstrument
@@ -23,8 +23,8 @@
 - type: entity
   parent: InstrumentFlatpack
   id: UprightPianoFlatpack
-  name: entity-uprightpianoflatpack-name
-  description: entity-uprightpianoflatpack-description
+  name: upright piano flatpack
+  description: A flatpack used for constructing an upright piano.
   components:
   - type: Flatpack
     entity: UprightPianoInstrument
@@ -32,8 +32,8 @@
 - type: entity
   parent: InstrumentFlatpack
   id: VibraphoneFlatpack
-  name: entity-vibraphoneflatpack-name
-  description: entity-vibraphoneflatpack-description
+  name: vibraphone flatpack
+  description: A flatpack used for constructing a vibraphone.
   components:
   - type: Flatpack
     entity: VibraphoneInstrument
@@ -41,8 +41,8 @@
 - type: entity
   parent: InstrumentFlatpack
   id: MarimbaFlatpack
-  name: entity-marimbaflatpack-name
-  description: entity-marimbaflatpack-description
+  name: marimba flatpack
+  description: A flatpack used for constructing a marimba.
   components:
   - type: Flatpack
     entity: MarimbaInstrument
@@ -50,8 +50,8 @@
 - type: entity
   parent: InstrumentFlatpack
   id: ChurchOrganFlatpack
-  name: entity-churchorganflatpack-name
-  description: entity-churchorganflatpack-description
+  name: church organ flatpack
+  description: A flatpack used for constructing a church organ.
   components:
   - type: Flatpack
     entity: ChurchOrganInstrument
@@ -59,8 +59,8 @@
 - type: entity
   parent: InstrumentFlatpack
   id: TubaFlatpack
-  name: entity-tubaflatpack-name
-  description: entity-tubaflatpack-description
+  name: tuba flatpack
+  description: A flatpack used for constructing a tuba.
   components:
   - type: Flatpack
     entity: TubaInstrument
@@ -68,8 +68,8 @@
 - type: entity
   parent: InstrumentFlatpack
   id: HarpFlatpack
-  name: entity-harpflatpack-name
-  description: entity-harpflatpack-description
+  name: harp flatpack
+  description: A flatpack used for constructing a harp.
   components:
   - type: Flatpack
     entity: HarpInstrument
@@ -77,8 +77,8 @@
 - type: entity
   parent: InstrumentFlatpack
   id: TimpaniFlatpack
-  name: entity-timpaniflatpack-name
-  description: entity-timpaniflatpack-description
+  name: timpani flatpack
+  description: A flatpack used for constructing a timpani.
   components:
   - type: Flatpack
     entity: TimpaniInstrument
@@ -86,8 +86,8 @@
 - type: entity
   parent: InstrumentFlatpack
   id: TaikoFlatpack
-  name: entity-taikoflatpack-name
-  description: entity-taikoflatpack-description
+  name: taiko flatpack
+  description: A flatpack used for constructing a taiko.
   components:
   - type: Flatpack
     entity: TaikoInstrument
@@ -95,8 +95,8 @@
 - type: entity
   parent: InstrumentFlatpack
   id: ContrabassFlatpack
-  name: entity-contrabassflatpack-name
-  description: entity-contrabassflatpack-description
+  name: contrabass flatpack
+  description: A flatpack used for constructing a contrabass.
   components:
   - type: Flatpack
     entity: ContrabassInstrument
@@ -104,8 +104,8 @@
 - type: entity
   parent: InstrumentFlatpack
   id: MinimoogFlatpack
-  name: entity-minimoogflatpack-name
-  description: entity-minimoogflatpack-description
+  name: minimoog flatpack
+  description: A flatpack used for constructing a minimoog.
   components:
   - type: Flatpack
     entity: MinimoogInstrument
@@ -113,8 +113,8 @@
 - type: entity
   parent: InstrumentFlatpack
   id: TomDrumsFlatpack
-  name: entity-tomdrumsflatpack-name
-  description: entity-tomdrumsflatpack-description
+  name: tom drums flatpack
+  description: A flatpack used for constructing a tom drums set.
   components:
   - type: Flatpack
     entity: TomDrumsInstrument

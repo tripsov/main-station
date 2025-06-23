@@ -1,8 +1,8 @@
 - type: entity
   id: MobIPC
   parent: PlayerSiliconHumanoidBase
-  name: entity-mobipc-name
-  description: entity-mobipc-description
+  name: Urist McPositronic
+  description: A positronic brain in a metal body.
   components:
   - type: PowerCellSlot
     cellSlotId: cell_slot
@@ -138,11 +138,11 @@
 
 - type: entity
   save: false
-  name: entity-mobipc-name
+  name: Urist McPositronic
   parent: MobHumanDummy
   id: MobIPCDummy
   categories: [ HideSpawnMenu ]
-  description: entity-mobipcdummy-description
+  description: A dummy IPC meant to be used in character setup.
   components:
   - type: HumanoidAppearance
     species: IPC

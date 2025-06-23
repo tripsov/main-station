@@ -1,8 +1,8 @@
 ﻿- type: entity
   id: CultPylon
   parent: BaseStructure
-  name: entity-cultpylon-name
-  description: entity-cultpylon-description
+  name: pylon
+  description: A floating crystal that slowly heals those faithful to Nar'Sie.
   components:
   - type: Transform
     noRot: true

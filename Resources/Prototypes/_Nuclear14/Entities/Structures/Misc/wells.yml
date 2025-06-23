@@ -1,7 +1,7 @@
 - type: entity
   id: N14WellBoarded
-  name: entity-n14wellboarded-name
-  description: entity-n14wellboarded-description
+  name: Boarded well
+  description: It's a well that's been boarded up. Maybe a crowbar will reveal it's secrets.
   placement:
     mode: SnapgridCenter
   components:
@@ -39,8 +39,8 @@
 - type: entity
   parent: N14WellBoarded
   id: N14WellWaterClean 
-  name: entity-n14wellwaterclean-name
-  description: entity-n14wellwaterclean-description
+  name: water well
+  description: A well. Hopefully it's got some water at the bottom. Let's hope it's clean.
   suffix: Clean
   components:
   - type: Sprite

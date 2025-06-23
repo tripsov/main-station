@@ -1,6 +1,6 @@
 - type: entity
   id: ShellSoulbreaker
-  name: entity-shellsoulbreaker-name
+  name: shell (.50 soulbreaker)
   parent: BaseShellShotgun
   components:
   - type: Sprite

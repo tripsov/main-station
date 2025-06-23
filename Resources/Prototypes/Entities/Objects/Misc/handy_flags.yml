@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseItem
   id: BlankHandyFlag
-  name: entity-blankhandyflag-name
+  name: blank handheld flag
   description: "Some piece of white cloth wound on a stick."
   components:
   - type: Sprite
@@ -13,7 +13,7 @@
 - type: entity
   parent: BaseItem
   id: NTHandyFlag
-  name: entity-nthandyflag-name
+  name: Nanotrasen handheld flag
   description: "Glory to NT! Wait, they really made a handheld flag for a corporation?"
   components:
   - type: Sprite
@@ -25,7 +25,7 @@
 - type: entity
   parent: BaseItem
   id: SyndieHandyFlag
-  name: entity-syndiehandyflag-name
+  name: syndicate handheld flag
   description: "For truly rebellious patriots. Death to NT!"
   components:
   - type: Sprite
@@ -37,7 +37,7 @@
 - type: entity
   parent: BaseItem
   id: LGBTQHandyFlag
-  name: entity-lgbtqhandyflag-name
+  name: LGBTQ handheld flag
   description: "The be gay do crime handy flag."
   components:
   - type: Sprite
@@ -49,7 +49,7 @@
 - type: entity
   parent: BaseItem
   id: PirateHandyFlag
-  name: entity-piratehandyflag-name
+  name: pirate handheld flag
   description: "Holding it in your hands, show these carp that you're not kidding."
   components:
   - type: Sprite

@@ -1,7 +1,7 @@
 - type: job
   id: CBURN
   name: job-name-cburn
-  description: job-cburn-description
+  description: job-description-cburn
   playTimeTracker: JobCBURN
   setPreference: false
   startingGear: CBURNGear

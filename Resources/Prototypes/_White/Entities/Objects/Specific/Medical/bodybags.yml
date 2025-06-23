@@ -1,8 +1,8 @@
 - type: entity
   parent: BodyBag
   id: BodyBagBluespace
-  name: entity-bodybagbluespace-name
-  description: entity-bodybagbluespace-description
+  name: body bag bluespace
+  description: Durable bluespace bag designed for storing and transporting corpses, preventing decomposition.
   components:
   - type: Sprite
     sprite: _White/Objects/Specific/Medical/BodyBags/bluespace.rsi
@@ -31,8 +31,8 @@
 - type: entity
   parent: BodyBag
   id: BodyBagNanoTrasen
-  name: entity-bodybagnanotrasen-name
-  description: entity-bodybagnanotrasen-description
+  name: blue body bag
+  description: Plastic NT bag designed for storing and transporting corpses, preventing decomposition.
   components:
   - type: Sprite
     sprite: _White/Objects/Specific/Medical/BodyBags/nanotrasen.rsi
@@ -61,8 +61,8 @@
 - type: entity
   parent: BodyBag
   id: BodyBagPrisoner
-  name: entity-bodybagprisoner-name
-  description: entity-bodybagprisoner-description
+  name: prisoner body bag
+  description: Plastic bag designed for storing and transporting corpses, preventing decomposition in prison structures.
   components:
   - type: Sprite
     sprite: _White/Objects/Specific/Medical/BodyBags/prison.rsi
@@ -91,8 +91,8 @@
 - type: entity
   parent: BodyBag
   id: BodyBagRadiation
-  name: entity-bodybagradiation-name
-  description: entity-bodybagradiation-description
+  name: radiation body bag
+  description: Plastic bag designed for storing and transporting radioactive corpses, preventing decomposition.
   components:
   - type: Sprite
     sprite: _White/Objects/Specific/Medical/BodyBags/radiation.rsi
@@ -123,8 +123,8 @@
 - type: entity
   parent: BodyBag
   id: BodyBagSyndicate
-  name: entity-bodybagsyndicate-name
-  description: entity-bodybagsyndicate-description
+  name: red body bag
+  description: Plastic bag with Syndicate symbols, designed for storing and transporting corpses, preventing decomposition.
   components:
   - type: Sprite
     sprite: _White/Objects/Specific/Medical/BodyBags/syndicate.rsi

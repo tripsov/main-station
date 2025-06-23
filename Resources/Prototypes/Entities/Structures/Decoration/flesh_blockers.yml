@@ -1,8 +1,8 @@
 - type: entity
   id: FleshBlocker
   parent: BaseStructure
-  name: entity-fleshblocker-name
-  description: entity-fleshblocker-description
+  name: flesh clump
+  description: An annoying clump of flesh.
   components:
   - type: InteractionOutline
   - type: Sprite

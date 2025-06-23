@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: ActionBloodCultStun
-  name: entity-actionbloodcultstun-name
-  description: entity-actionbloodcultstun-description
+  name: Stun
+  description: Empowers your hand to stun and mute a victim on contact.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -23,8 +23,8 @@
 
 - type: entity
   id: ActionBloodCultTeleport
-  name: entity-actionbloodcultteleport-name
-  description: entity-actionbloodcultteleport-description
+  name: Teleport
+  description: Empowers your hand to teleport yourself or another cultist to a teleport rune on contact.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -49,8 +49,8 @@
 
 - type: entity
   id: ActionBloodCultEmp
-  name: entity-actionbloodcultemp-name
-  description: entity-actionbloodcultemp-description
+  name: Electromagnetic Pulse
+  description: Emits a large electromagnetic pulse.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -69,8 +69,8 @@
 
 - type: entity
   id: ActionBloodCultShadowShackles
-  name: entity-actionbloodcultshadowshackles-name
-  description: entity-actionbloodcultshadowshackles-description
+  name: Shadow Shackles
+  description: Empowers your hand to handcuff a victim on contact, and mute them if successful.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -92,8 +92,8 @@
 
 - type: entity
   id: ActionBloodCultTwistedConstruction
-  name: entity-actionbloodculttwistedconstruction-name
-  description: entity-actionbloodculttwistedconstruction-description
+  name: Twisted Construction
+  description: Empowers your hand to corrupt certain metallic objects.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -119,8 +119,8 @@
 
 - type: entity
   id: ActionBloodCultSummonCombatEquipment
-  name: entity-actionbloodcultsummoncombatequipment-name
-  description: entity-actionbloodcultsummoncombatequipment-description
+  name: Summon Combat Equipment
+  description: Allows you to summon combat cult gear, including cult armor, a cult bola and a cult sword.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -143,8 +143,8 @@
 
 - type: entity
   id: ActionBloodCultSummonRitualDagger
-  name: entity-actionbloodcultsummonritualdagger-name
-  description: entity-actionbloodcultsummonritualdagger-description
+  name: Summon Ritual Dagger
+  description: Allows you to summon a ritual dagger, in case you've lost the dagger that was given to you.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -165,8 +165,8 @@
 
 - type: entity
   id: ActionBloodCultBloodRites
-  name: entity-actionbloodcultbloodrites-name
-  description: entity-actionbloodcultbloodrites-description
+  name: Blood Rites
+  description: Empowers your hand to absorb blood to be used for advanced rites, or heal a cultist on contact. Use the spell in-hand to cast advanced rites
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -189,8 +189,8 @@
 
 - type: entity
   id: ActionSummonCultFloor
-  name: entity-actionsummoncultfloor-name
-  description: entity-actionsummoncultfloor-description
+  name: Summon Cult Floor
+  description: This spell constructs a cult floor.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -212,8 +212,8 @@
 
 - type: entity
   id: ActionLesserConstruction
-  name: entity-actionlesserconstruction-name
-  description: entity-actionlesserconstruction-description
+  name: Lesser Construction
+  description: This spell constructs a cult wall.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -235,8 +235,8 @@
 
 - type: entity
   id: ActionSummonCultDoor
-  name: entity-actionsummoncultdoor-name
-  description: entity-actionsummoncultdoor-description
+  name: Summon Cult Door
+  description: This spell constructs a cult door.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -258,8 +258,8 @@
 
 - type: entity
   id: ActionSummonSoulStone
-  name: entity-actionsummonsoulstone-name
-  description: entity-actionsummonsoulstone-description
+  name: Summon Soulshard
+  description: This spell reaches into Nar'Sie's realm, summoning one of the legendary fragments across time and space.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -281,8 +281,8 @@
 
 - type: entity
   id: ActionSummonSoulStoneHoly
-  name: entity-actionsummonsoulstoneholy-name
-  description: entity-actionsummonsoulstone-description
+  name: Summon Holy Soulshard
+  description: This spell reaches into Nar'Sie's realm, summoning one of the legendary fragments across time and space.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -304,8 +304,8 @@
 
 - type: entity
   id: ActionForceWallCult
-  name: entity-actionforcewallcult-name
-  description: entity-actionforcewallcult-description
+  name: Shield
+  description: This spell creates a temporary forcefield to shield yourself and allies from incoming fire.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -326,8 +326,8 @@
 
 - type: entity
   id: ActionPhaseShift
-  name: entity-actionphaseshift-name
-  description: entity-actionphaseshift-description
+  name: Phase Shift
+  description: This spell allows you to pass through walls.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -344,8 +344,8 @@
 
 - type: entity
   id: ActionGauntletEcho
-  name: entity-actiongauntletecho-name
-  description: entity-actiongauntletecho-description
+  name: Gauntlet Echo
+  description: Channels energy into your gauntlet - firing its essence forward in a slow moving, yet devastating, attack
   categories: [ HideSpawnMenu ]
   components:
   - type: WorldTargetAction

@@ -9,8 +9,8 @@
 - type: entity
   parent: ClothingHeadHardsuitBase
   id: ClothingHeadHelmetHardsuitBasic
-  name: entity-clothingheadhelmethardsuitbasic-name
-  description: entity-clothingheadhelmethardsuitbasic-description
+  name: basic hardsuit helmet
+  description: A basic-looking hardsuit helmet that provides minor protection against most sources of damage.
   components:
   - type: BreathMask
   - type: Sprite
@@ -25,8 +25,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitAtmos
-  name: entity-clothingheadhelmethardsuitatmos-name
-  description: entity-clothingheadhelmethardsuitatmos-description
+  name: atmos hardsuit helmet
+  description: A special hardsuit helmet designed for working in low-pressure, high thermal environments.
   components:
   - type: BreathMask
   - type: Sprite
@@ -65,8 +65,8 @@
 - type: entity
   parent: ClothingHeadHelmetHardsuitEngineering
   id: ClothingHeadHelmetHardsuitEngineeringUnpainted
-  name: entity-clothingheadhelmethardsuitengineeringunpainted-name
-  description: entity-clothingheadhelmethardsuitengineeringunpainted-description
+  name: engineering hardsuit helmet
+  description: An engineering hardsuit helmet designed for working in low-pressure, high radioactive environments.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/engineering-base.rsi
@@ -95,8 +95,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitEngineering
-  name: entity-clothingheadhelmethardsuitengineeringunpainted-name
-  description: entity-clothingheadhelmethardsuitengineeringunpainted-description
+  name: engineering hardsuit helmet
+  description: An engineering hardsuit helmet designed for working in low-pressure, high radioactive environments.
   components:
   - type: BreathMask
   - type: Sprite
@@ -113,8 +113,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitSpatio
-  name: entity-clothingheadhelmethardsuitspatio-name
-  description: entity-clothingheadhelmethardsuitspatio-description
+  name: spationaut hardsuit helmet
+  description: A sturdy helmet designed for complex industrial operations in space.
   components:
   - type: BreathMask
   - type: Sprite
@@ -148,8 +148,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitSalvage
-  name: entity-clothingheadhelmethardsuitsalvage-name
-  description: entity-clothingheadhelmethardsuitsalvage-description
+  name: salvage hardsuit helmet
+  description: A special helmet designed for work in a hazardous, low pressure environment. Has reinforced plating for wildlife encounters and dual floodlights.
   components:
   - type: BreathMask
   - type: Sprite
@@ -167,8 +167,8 @@
   parent: ClothingHeadHardsuitBase
   id: ClothingHeadHelmetHardsuitMaxim
   categories: [ HideSpawnMenu ]
-  name: entity-clothingheadhelmethardsuitmaxim-name
-  description: entity-clothingheadhelmethardsuitmaxim-description
+  name: salvager maxim helmet
+  description: A predication of decay washes over your mind.
   components:
   - type: BreathMask
   - type: Sprite
@@ -190,8 +190,8 @@
 - type: entity
   parent: ClothingHeadHardsuitBase
   id: ClothingHeadHelmetHardsuitVoidParamed
-  name: entity-clothingheadhelmethardsuitvoidparamed-name
-  description: entity-clothingheadhelmethardsuitvoidparamed-description
+  name: paramedic void helmet
+  description: A void helmet made for paramedics.
   components:
   - type: BreathMask
   - type: Sprite
@@ -209,8 +209,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitSecurity
-  name: entity-clothingheadhelmethardsuitsecurity-name
-  description: entity-clothingheadhelmethardsuitsecurity-description
+  name: security hardsuit helmet
+  description: Armored hardsuit helmet for security needs.
   components:
   - type: BreathMask
   - type: Sprite
@@ -277,8 +277,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitWarden
-  name: entity-clothingheadhelmethardsuitwarden-name
-  description: entity-clothingheadhelmethardsuitwarden-description
+  name: warden's hardsuit helmet
+  description: A modified riot helmet. Oddly comfortable.
   components:
   - type: BreathMask
   - type: Sprite
@@ -304,8 +304,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitCap
-  name: entity-clothingheadhelmethardsuitcap-name
-  description: entity-clothingheadhelmethardsuitcap-description
+  name: captain's hardsuit helmet
+  description: Special hardsuit helmet, made for the captain of the station.
   components:
   - type: BreathMask
   - type: Sprite
@@ -322,8 +322,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitEngineeringWhite
-  name: entity-clothingheadhelmethardsuitengineeringwhite-name
-  description: entity-clothingheadhelmethardsuitengineeringwhite-description
+  name: chief engineer's hardsuit helmet
+  description: Special hardsuit helmet, made for the chief engineer of the station.
   components:
   - type: BreathMask
   - type: Sprite
@@ -340,8 +340,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitMedical
-  name: entity-clothingheadhelmethardsuitmedical-name
-  description: entity-clothingheadhelmethardsuitmedical-description
+  name: chief medical officer's hardsuit helmet
+  description: Lightweight medical hardsuit helmet that doesn't restrict your head movements.
   components:
   - type: BreathMask
   - type: Sprite
@@ -358,8 +358,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitRd
-  name: entity-clothingheadhelmethardsuitrd-name
-  description: entity-clothingheadhelmethardsuitrd-description
+  name: experimental research hardsuit helmet
+  description: Lightweight hardsuit helmet that doesn't restrict your head movements.
   components:
   - type: BreathMask
   - type: Sprite
@@ -376,8 +376,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitSecurityRed
-  name: entity-clothingheadhelmethardsuitsecurityred-name
-  description: entity-clothingheadhelmethardsuitsecurityred-description
+  name: head of security's hardsuit helmet
+  description: Security hardsuit helmet with the latest top secret NT-HUD software. Belongs to the HoS.
   components:
   - type: BreathMask
   - type: Sprite
@@ -403,8 +403,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitLuxury #DO NOT MAP - https://github.com/space-wizards/space-station-14/pull/19738#issuecomment-1703486738
-  name: entity-clothingheadhelmethardsuitluxury-name
-  description: entity-clothingheadhelmethardsuitluxury-description
+  name: luxury mining hardsuit helmet
+  description: A refurbished mining hardsuit helmet, fitted with satin cushioning and an extra (non-functioning) antenna, because you're that extra.
   components:
   - type: BreathMask
   - type: Sprite
@@ -423,7 +423,7 @@
 - type: entity
   parent: ClothingHeadHelmetHardsuitSyndie
   id: ClothingHeadHelmetHardsuitShanlinUnpainted
-  name: entity-clothingheadhelmethardsuitshanlinunpainted-name
+  name: Cybersun tacsuit helmet
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/syndicate-base.rsi
@@ -452,8 +452,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitSyndie
-  name: entity-clothingheadhelmethardsuitsyndie-name
-  description: entity-clothingheadhelmethardsuitsyndie-description
+  name: blood-red hardsuit helmet
+  description: A heavily armored helmet designed for work in special operations. Property of Gorlex Marauders.
   components:
   - type: BreathMask
   - type: Sprite
@@ -484,8 +484,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitSyndieMedic
-  name: entity-clothingheadhelmethardsuitsyndiemedic-name
-  description: entity-clothingheadhelmethardsuitsyndiemedic-description
+  name: blood-red medic hardsuit helmet
+  description: An advanced red hardsuit helmet specifically designed for field medic operations.
   components:
   - type: BreathMask
   - type: Sprite
@@ -521,7 +521,7 @@
 - type: entity
   parent: ClothingHeadHelmetHardsuitSyndieElite
   id: ClothingHeadHelmetHardsuitShiweiUnpainted
-  name: entity-clothingheadhelmethardsuitshiweiunpainted-name
+  name: Cybersun elite tacsuit helmet
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/syndicate-elite-base.rsi
@@ -550,8 +550,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitSyndieElite
-  name: entity-clothingheadhelmethardsuitsyndieelite-name
-  description: entity-clothingheadhelmethardsuitsyndieelite-description
+  name: syndicate elite helmet
+  description: An elite version of the blood-red hardsuit's helmet, with improved armor and fireproofing. Property of Gorlex Marauders.
   components:
   - type: BreathMask
   - type: Sprite
@@ -586,8 +586,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitSyndieCommander
-  name: entity-clothingheadhelmethardsuitsyndiecommander-name
-  description: entity-clothingheadhelmethardsuitsyndiecommander-description
+  name: syndicate commander helmet
+  description: A bulked up version of the blood-red hardsuit's helmet, purpose-built for the commander of a syndicate operative squad. Has significantly improved armor for those deadly front-lines firefights.
   components:
   - type: BreathMask
   - type: Sprite
@@ -618,8 +618,8 @@
 - type: entity
   parent: ClothingHeadHardsuitBase
   id: ClothingHeadHelmetHardsuitCybersun
-  name: entity-clothingheadhelmethardsuitcybersun-name
-  description: entity-clothingheadhelmethardsuitcybersun-description
+  name: cybersun juggernaut helmet
+  description: Made of compressed red matter, this helmet was designed in the Tau chromosphere facility.
   components:
   - type: BreathMask
   - type: Sprite
@@ -648,8 +648,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitWizard
-  name: entity-clothingheadhelmethardsuitwizard-name
-  description: entity-clothingheadhelmethardsuitwizard-description
+  name: wizard hardsuit helmet
+  description: A bizarre gem-encrusted helmet that radiates magical energies.
   components:
   - type: BreathMask
   - type: Sprite
@@ -675,8 +675,8 @@
 - type: entity
   parent: ClothingHeadHardsuitBase
   id: ClothingHeadHelmetHardsuitLing
-  name: entity-clothingheadhelmethardsuitling-name
-  description: entity-clothingheadhelmethardsuitling-description
+  name: organic space helmet
+  description: A spaceworthy biomass of pressure and temperature resistant tissue.
   components:
   - type: BreathMask
   - type: Sprite
@@ -691,9 +691,9 @@
 - type: entity
   parent: ClothingHeadHardsuitBase
   id: ClothingHeadHelmetHardsuitPirateEVA
-  name: entity-clothingheadhelmethardsuitpirateeva-name
+  name: deep space EVA helmet
   suffix: Pirate
-  description: entity-clothingheadhelmethardsuitpirateeva-description
+  description: A deep space EVA helmet, very heavy but provides good protection.
   components:
   - type: BreathMask
   - type: Sprite
@@ -708,9 +708,9 @@
 - type: entity
   parent: ClothingHeadHardsuitBase
   id: ClothingHeadHelmetHardsuitPirateCap
-  name: entity-clothingheadhelmethardsuitpiratecap-name
+  name: pirate captain's hardsuit helmet
   suffix: Pirate
-  description: entity-clothingheadhelmethardsuitpiratecap-description
+  description: A special hardsuit helmet, made for the captain of a pirate ship.
   components:
   - type: BreathMask
   - type: Sprite
@@ -728,8 +728,8 @@
 - type: entity
   parent: ClothingHeadHelmetHardsuitSyndie
   id: ClothingHeadHelmetHardsuitERTLeader
-  name: entity-clothingheadhelmethardsuitertleader-name
-  description: entity-clothingheadhelmethardsuitertleader-description
+  name: ERT leader hardsuit helmet
+  description: A special hardsuit helmet worn by members of an emergency response team.
   components:
   - type: BreathMask
   - type: Sprite
@@ -762,8 +762,8 @@
 - type: entity
   parent: ClothingHeadHelmetHardsuitSyndie
   id: ClothingHeadHelmetHardsuitERTChaplain
-  name: entity-clothingheadhelmethardsuitertchaplain-name
-  description: entity-clothingheadhelmethardsuitertleader-description
+  name: ERT chaplain hardsuit helmet
+  description: A special hardsuit helmet worn by members of an emergency response team.
   components:
   - type: BreathMask
   - type: Sprite
@@ -789,8 +789,8 @@
 - type: entity
   parent: ClothingHeadHelmetHardsuitSyndie
   id: ClothingHeadHelmetHardsuitERTEngineer
-  name: entity-clothingheadhelmethardsuitertengineer-name
-  description: entity-clothingheadhelmethardsuitertleader-description
+  name: ERT engineer hardsuit helmet
+  description: A special hardsuit helmet worn by members of an emergency response team.
   components:
   - type: BreathMask
   - type: Sprite
@@ -823,8 +823,8 @@
 - type: entity
   parent: ClothingHeadHelmetHardsuitSyndie
   id: ClothingHeadHelmetHardsuitERTMedical
-  name: entity-clothingheadhelmethardsuitertmedical-name
-  description: entity-clothingheadhelmethardsuitertleader-description
+  name: ERT medic hardsuit helmet
+  description: A special hardsuit helmet worn by members of an emergency response team.
   components:
   - type: BreathMask
   - type: Sprite
@@ -850,8 +850,8 @@
 - type: entity
   parent: ClothingHeadHelmetHardsuitSyndie
   id: ClothingHeadHelmetHardsuitERTSecurity
-  name: entity-clothingheadhelmethardsuitertsecurity-name
-  description: entity-clothingheadhelmethardsuitertleader-description
+  name: ERT security hardsuit helmet
+  description: A special hardsuit helmet worn by members of an emergency response team.
   components:
   - type: BreathMask
   - type: Sprite
@@ -884,8 +884,8 @@
 - type: entity
   parent: ClothingHeadHelmetHardsuitSyndie
   id: ClothingHeadHelmetHardsuitERTJanitor
-  name: entity-clothingheadhelmethardsuitertjanitor-name
-  description: entity-clothingheadhelmethardsuitertleader-description
+  name: ERT janitor hardsuit helmet
+  description: A special hardsuit helmet worn by members of an emergency response team.
   components:
   - type: BreathMask
   - type: Sprite
@@ -911,8 +911,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetCBURN
-  name: entity-clothingheadhelmetcburn-name
-  description: entity-clothingheadhelmetcburn-description
+  name: CBURN exosuit helmet
+  description: A pressure resistant and fireproof hood worn by special cleanup units.
   components:
   - type: BreathMask
   - type: Sprite
@@ -953,8 +953,8 @@
 - type: entity
   parent: ClothingHeadHardsuitBase
   id: ClothingHeadHelmetHardsuitDeathsquad
-  name: entity-clothingheadhelmethardsuitdeathsquad-name
-  description: entity-clothingheadhelmethardsuitdeathsquad-description
+  name: deathsquad hardsuit helmet
+  description: A robust helmet for special operations.
   components:
   - type: BreathMask
   - type: Sprite
@@ -987,8 +987,8 @@
 - type: entity
   parent: ClothingHeadHelmetHardsuitSecurity
   id: ClothingHeadHelmetHardsuitClown
-  name: entity-clothingheadhelmethardsuitclown-name
-  description: entity-clothingheadhelmethardsuitclown-description
+  name: clown hardsuit helmet
+  description: A clown hardsuit helmet.
   components:
   - type: BreathMask
   - type: Sprite
@@ -1002,8 +1002,8 @@
 - type: entity
   parent: ClothingHeadHelmetHardsuitSecurity
   id: ClothingHeadHelmetHardsuitMime
-  name: entity-clothingheadhelmethardsuitmime-name
-  description: entity-clothingheadhelmethardsuitmime-description
+  name: mime hardsuit helmet
+  description: A mime hardsuit helmet.
   components:
   - type: BreathMask
   - type: Sprite
@@ -1015,8 +1015,8 @@
 - type: entity
   parent: ClothingHeadHardsuitBase
   id: ClothingHeadHelmetHardsuitSanta
-  name: entity-clothingheadhelmethardsuitsanta-name
-  description: entity-clothingheadhelmethardsuitsanta-description
+  name: Santa's hardsuit helmet
+  description: A festive-looking hardsuit helmet that provides the jolly gift-giver protection from low-pressure environments.
   components:
   - type: BreathMask
   - type: Sprite

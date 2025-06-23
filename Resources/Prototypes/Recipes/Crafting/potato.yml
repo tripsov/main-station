@@ -1,32 +1,32 @@
 - type: construction
-  name: construction-powercellpotato-name
+  name: potato battery
   id: PowerCellPotato
   graph: PowerCellPotato
   startNode: start
   targetNode: potatobattery
   category: construction-category-misc
-  description: construction-powercellpotato-description
+  description: A truly ingenious source of power.
   icon: { sprite: Objects/Power/power_cells.rsi, state: potato }
   objectType: Item
 
 - type: construction
-  name: construction-potatoai-name
+  name: potato artificial intelligence
   id: PotatoAI
   graph: PowerCellPotato # WD EDIT
   startNode: potatoaistart # WD EDIT
   targetNode: potatoai
   category: construction-category-misc
-  description: construction-potatoai-description
+  description: The potato happens to be the perfect power source for this chip.
   icon: { sprite: Objects/Fun/pai.rsi, state: icon-potato-off }
   objectType: Item
 
 - type: construction
-  name: construction-potatoaichip-name
+  name: supercompact AI chip
   id: PotatoAIChip
   graph: PotatoAIChip
   startNode: start
   targetNode: potatoaichip
   category: construction-category-misc
-  description: construction-potatoaichip-description
+  description: A masterfully(?) crafted AI chip, requiring a similarly improvised power source.
   icon: { sprite: Objects/Misc/potatoai_chip.rsi, state: icon }
   objectType: Item

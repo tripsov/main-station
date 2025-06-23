@@ -1,8 +1,8 @@
 - type: entity
   parent: FoodBakedCroissant
   id: WeaponCroissant
-  name: entity-weaponcroissant-name
-  description: entity-weaponcroissant-description
+  name: croissant
+  description: Buttery, flaky goodness.
   suffix: Weapon
   components:
   - type: Fixtures

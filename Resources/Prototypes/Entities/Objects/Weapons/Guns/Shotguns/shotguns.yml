@@ -1,8 +1,8 @@
 - type: entity
-  name: entity-baseweaponshotgun-name
+  name: BaseWeaponShotgun
   parent: BaseItem
   id: BaseWeaponShotgun
-  description: entity-baseweaponshotgun-description
+  description: A rooty tooty point and shooty.
   abstract: true
   components:
   - type: Sprite
@@ -82,11 +82,11 @@
       collection: ShotgunsDrop
 
 - type: entity # supposed to be similiar to pistols
-  name: entity-baseweaponshotgunsmall-name
+  name: BaseWeaponShotgunSmall
   parent: BaseWeaponShotgun
   id: BaseWeaponShotgunSmall
 
-  description: entity-baseweaponshotgunsmall-description
+  description: A rootiny tootiny point and shootiny.
   abstract: true
   components:
   - type: Gun # change WeaponFlareGun too if updating this
@@ -98,11 +98,11 @@
 
 
 - type: entity
-  name: entity-weaponshotgunbulldog-name
+  name: Bulldog
   # Don't parent to BaseWeaponShotgun because it differs significantly # fuck you
   parent: [BaseItem, BaseGunWieldable]
   id: WeaponShotgunBulldog
-  description: entity-weaponshotgunbulldog-description
+  description: It's a magazine-fed shotgun designed for close quarters combat. Uses .50 shotgun shells.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Shotguns/bulldog.rsi
@@ -201,10 +201,10 @@
       collection: ShotgunsDrop
 
 - type: entity
-  name: entity-weaponshotgunbulldog-name
+  name: Bulldog
   parent: [WeaponShotgunBulldog]
   id: WeaponShotgunBulldogEmpty
-  description: entity-weaponshotgunbulldog-description
+  description: It's a magazine-fed shotgun designed for close quarters combat. Uses .50 shotgun shells.
   components:
   - type: ItemSlots
     slots:
@@ -219,19 +219,19 @@
         ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
 
 - type: entity
-  name: entity-weaponshotgunbulldoghos-name
+  name: antique Bulldog
   parent: WeaponShotgunBulldog
   id: WeaponShotgunBulldogHoS
-  description: entity-weaponshotgunbulldoghos-description
+  description: This is a seemingly ordinary shotgun, no different from those issued as standard in the Republic of Biesel Navy. A close inspection reveals that this weapon's serial number is 000000013.
   components:
   - type: StealTarget
     stealGroup: HoSAntiqueWeapon
 
 - type: entity
-  name: entity-weaponshotgundoublebarreled-name
+  name: double-barreled shotgun
   parent: [BaseWeaponShotgun, BaseGunWieldable]
   id: WeaponShotgunDoubleBarreled
-  description: entity-weaponshotgundoublebarreled-description
+  description: An immortal classic. Uses .50 shotgun shells.
   components:
   - type: Sprite
     sprite: DeltaV/Objects/Weapons/Guns/Shotguns/db_shotgun.rsi # Delta-V
@@ -259,20 +259,20 @@
     staminaCost: 7.5
 
 - type: entity
-  name: entity-weaponshotgundoublebarreled-name
+  name: double-barreled shotgun
   parent: WeaponShotgunDoubleBarreled
   id: WeaponShotgunDoubleBarreledRubber
-  description: entity-weaponshotgundoublebarreled-description
+  description: An immortal classic. Uses .50 shotgun shells.
   suffix: Non-Lethal
   components:
   - type: BallisticAmmoProvider
     proto: ShellShotgunBeanbag
 
 - type: entity
-  name: entity-weaponshotgunenforcer-name
+  name: Enforcer
   parent: [BaseWeaponShotgun, BaseGunWieldable]
   id: WeaponShotgunEnforcer
-  description: entity-weaponshotgunenforcer-description
+  description: A premium combat shotgun based on the Kammerer design, featuring a semi-automatic firing mode. Uses .50 shotgun shells.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Shotguns/enforcer.rsi # WWDP
@@ -304,10 +304,10 @@
     proto: ShellShotgunBeanbag
 
 - type: entity
-  name: entity-weaponshotgunkammerer-name
+  name: Kammerer
   parent: [BaseWeaponShotgun, BaseGunWieldable]
   id: WeaponShotgunKammerer
-  description: entity-weaponshotgunkammerer-description
+  description: When an old Remington design meets modern materials, this is the result. A favourite weapon of militia forces throughout many worlds. Uses .50 shotgun shells.
   components:
   - type: Item
     size: Huge # WWDP guns resize
@@ -336,10 +336,10 @@
       requireDetailRange: false
 
 - type: entity
-  name: entity-weaponshotgunsawn-name
+  name: sawn-off shotgun
   parent: BaseWeaponShotgunSmall
   id: WeaponShotgunSawn
-  description: entity-weaponshotgunsawn-description
+  description: Groovy! Uses .50 shotgun shells.
   components:
   - type: Sprite
     sprite: DeltaV/Objects/Weapons/Guns/Shotguns/sawn.rsi # Delta-V
@@ -373,17 +373,17 @@
   parent: WeaponShotgunSawn
   id: WeaponShotgunSawnLumen
   suffix: Lumenblast
-  description: entity-weaponshotgunsawn-description
+  description: Groovy! Uses .50 shotgun shells.
   components:
   - type: BallisticAmmoProvider
     capacity: 2
     proto: ShellShotgunLumen
 
 - type: entity
-  name: entity-weaponshotgunsawn-name
+  name: sawn-off shotgun
   parent: WeaponShotgunSawn
   id: WeaponShotgunSawnEmpty
-  description: entity-weaponshotgunsawn-description
+  description: Groovy! Uses .50 shotgun shells.
   suffix: Empty
   components:
   - type: BallisticAmmoProvider
@@ -394,10 +394,10 @@
     deconstructionTarget: null
 
 - type: entity
-  name: entity-weaponshotgunhandmade-name
+  name: handmade pistol
   parent: BaseWeaponShotgunSmall
   id: WeaponShotgunHandmade
-  description: entity-weaponshotgunhandmade-description
+  description: Looks unreliable. Uses .50 shotgun shells.
   components:
   - type: Item
     size: Normal # WWDP guns resize
@@ -425,11 +425,11 @@
     staminaCost: 5
 
 - type: entity
-  name: entity-weaponshotgunblunderbuss-name
+  name: blunderbuss
   parent: [BaseWeaponShotgun, BaseGunWieldable]
   id: WeaponShotgunBlunderbuss
   suffix: Pirate
-  description: entity-weaponshotgunblunderbuss-description
+  description: Deadly at close range.
   components:
   - type: Item
     size: Large # WWDP guns resize
@@ -447,10 +447,10 @@
   - type: Wieldable
 
 - type: entity
-  name: entity-weaponshotgunimprovised-name
+  name: improvised shotgun
   parent: [BaseWeaponShotgun, BaseGunWieldable]
   id: WeaponShotgunImprovised
-  description: entity-weaponshotgunimprovised-description
+  description: A shitty, hand-made shotgun that uses .50 shotgun shells. It can only hold one round in the chamber.
   components:
   - type: Sprite
     sprite: DeltaV/Objects/Weapons/Guns/Shotguns/improvised_shotgun.rsi # Delta-V
@@ -474,7 +474,7 @@
     price: 20
 
 - type: entity
-  name: entity-weaponshotgunimprovised-name
+  name: improvised shotgun
   parent: WeaponShotgunImprovised
   suffix: Loaded
   id: WeaponShotgunImprovisedLoaded

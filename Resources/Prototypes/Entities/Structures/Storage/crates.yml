@@ -1,8 +1,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateFootlocker
-  name: entity-cratefootlocker-name
-  description: entity-cratefootlocker-description
+  name: footlocker
+  description: A footlocker for someones equipment.
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/footlocker.rsi
@@ -17,8 +17,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateAluminium
-  name: entity-cratealuminium-name
-  description: entity-cratealuminium-description
+  name: aluminium crate
+  description: An aluminium crate for storing stuff.
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/aluminiumcrate.rsi
@@ -28,8 +28,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateArmy
-  name: entity-cratearmy-name
-  description: entity-cratearmy-description
+  name: army crate
+  description: A crate with a US Army star on.
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/armycrate.rsi
@@ -39,8 +39,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateMedical2
-  name: entity-cratemedical2-name
-  description: entity-cratemedical2-description
+  name: medical crate
+  description: A metal crate for storing medical equipment.
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/medicalcrate.rsi
@@ -50,8 +50,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateRed
-  name: entity-cratered-name
-  description: entity-cratered-description
+  name: red crate
+  description: A faded red crate for storing stuff.
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/redcrate.rsi
@@ -61,8 +61,8 @@
 - type: entity
   parent: CrateGeneric
   id: Trashbin
-  name: entity-trashbin-name
-  description: entity-trashbin-description
+  name: trash bin
+  description: A trash bin for putting rubbish in.
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/trashbin.rsi
@@ -77,8 +77,8 @@
 - type: entity
   parent: CrateFootlocker
   id: CrateTrashcart
-  name: entity-cratetrashcart-name
-  description: entity-cratetrashcart-description
+  name: trash cart
+  description: A trash cart for transporting waste.
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/trashcart.rsi
@@ -90,8 +90,8 @@
 - type: entity
   parent: CrateGeneric
   id: CrateFreezer2
-  name: entity-cratefreezer2-name
-  description: entity-cratefreezer2-description
+  name: freezer
+  description: A freezer for keeping things cool.
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/freezer.rsi
@@ -108,7 +108,7 @@
 - type: entity
   parent: CrateGeneric
   id: CrateWooden
-  name: entity-cratewooden-name
+  name: wooden crate
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/cratewooden.rsi
@@ -135,8 +135,8 @@
 - type: entity
   parent: CrateWooden
   id: CrateMilitary
-  name: entity-cratemilitary-name
-  description: entity-cratemilitary-description
+  name: military crate
+  description: An old wooden crate. Looks like it might have some supplies in.
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/cratemilitary.rsi
@@ -147,8 +147,8 @@
 - type: entity
   parent: BaseStructureDynamic
   id: CrateBreakBase
-  name: entity-cratewooden-name
-  description: entity-cratebreakbase-description
+  name: wooden crate
+  description: A wooden crate for storage.
   abstract: true
   components:
   - type: Damageable
@@ -213,7 +213,7 @@
 - type: entity
   parent: CrateBreakBase
   id: CrateBreakArmy
-  name: entity-cratearmy-name
+  name: army crate
   components:
   - type: Sprite
     state: army_crate

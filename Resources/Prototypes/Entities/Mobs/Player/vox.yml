@@ -1,5 +1,5 @@
 ﻿- type: entity
   save: false
-  name: entity-mobvox-name
+  name: Urist McVox
   parent: BaseMobVox
   id: MobVox

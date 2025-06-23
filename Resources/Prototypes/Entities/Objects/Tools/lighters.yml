@@ -1,5 +1,5 @@
 - type: entity
-  name: entity-lighter-name
+  name: basic lighter
   parent: BaseItem
   id: Lighter
   description: "A simple plastic cigarette lighter."
@@ -124,7 +124,7 @@
   - type: SpaceGarbage
 
 - type: entity
-  name: entity-cheaplighter-name
+  name: cheap lighter
   parent: Lighter
   id: CheapLighter
   description: "A dangerously inexpensive plastic lighter, don't burn your thumb!"
@@ -153,7 +153,7 @@
         maxVol: 4 #uses less fuel than a welder, so this isnt as bad as it looks
 
 - type: entity
-  name: entity-flippolighter-name
+  name: flippo lighter
   parent: BaseItem
   id: FlippoLighter
   description: "A rugged metal lighter, lasts quite a while."
@@ -260,7 +260,7 @@
     ignited: false
 
 - type: entity
-  name: entity-flippoengravedlighter-name
+  name: flippo engraved lighter
   parent: FlippoLighter
   id: FlippoEngravedLighter
   description: "A rugged golden lighter, lasts quite a while. Engravings serve no tactical advantage whatsoever."

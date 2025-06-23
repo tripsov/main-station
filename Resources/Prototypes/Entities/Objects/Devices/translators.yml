@@ -3,8 +3,8 @@
   categories: [ HideSpawnMenu ]
   id: TranslatorUnpowered
   parent: BaseItem
-  name: entity-translatorunpowered-name
-  description: entity-translatorunpowered-description
+  name: translator
+  description: Translates speech.
   components:
   - type: Sprite
     sprite: Objects/Devices/translator.rsi
@@ -54,15 +54,15 @@
   categories: [ HideSpawnMenu ]
   id: TranslatorForeigner
   parent: [ PowerCellSlotHighItem, TranslatorPoweredBase ]
-  name: entity-translatorforeigner-name
-  description: entity-translatorforeigner-description
+  name: foreigner's translator
+  description: A special-issue translator that helps foreigner's speak and understand this station's primary language.
 
 
 - type: entity
   id: CanilunztTranslator
   parent: [ TranslatorPoweredBase ]
-  name: entity-canilunzttranslator-name
-  description: entity-canilunzttranslator-description
+  name: Canilunzt translator
+  description: Translates speech between Canilunzt and Galactic Common, allowing your local yeepers to communicate with the locals and vice versa!
   components:
   - type: HandheldTranslator
     spoken:
@@ -78,8 +78,8 @@
 - type: entity
   id: BubblishTranslator
   parent: [ TranslatorPoweredBase ]
-  name: entity-bubblishtranslator-name
-  description: entity-bubblishtranslator-description
+  name: Bubblish translator
+  description: Translates speech between Bubblish and Galactic Common, helping communicate with slimes and slime people.
   components:
   - type: HandheldTranslator
     spoken:
@@ -95,8 +95,8 @@
 - type: entity
   id: NekomimeticTranslator
   parent: [ TranslatorPoweredBase ]
-  name: entity-nekomimetictranslator-name
-  description: entity-nekomimetictranslator-description
+  name: Nekomimetic translator
+  description: Translates speech between Nekomimetic and Galactic Common, enabling you to communicate with your pet cats.
   components:
   - type: HandheldTranslator
     spoken:
@@ -112,8 +112,8 @@
 - type: entity
   id: DraconicTranslator
   parent: [ TranslatorPoweredBase ]
-  name: entity-draconictranslator-name
-  description: entity-draconictranslator-description
+  name: Sinta'Unathi translator
+  description: Translates speech between Sinta'Unathi and Tau-Ceti Basic, making it easier to understand your local Unathi.
   components:
   - type: HandheldTranslator
     spoken:
@@ -129,8 +129,8 @@
 - type: entity
   id: SolCommonTranslator
   parent: [ TranslatorPoweredBase ]
-  name: entity-solcommontranslator-name
-  description: entity-solcommontranslator-description
+  name: Sol Common translator
+  description: Translates speech between Sol Common and Galactic Common. Like a true Earthman!
   components:
   - type: HandheldTranslator
     spoken:
@@ -146,8 +146,8 @@
 - type: entity
   id: NovuNedericTranslator
   parent: [ TranslatorPoweredBase ]
-  name: entity-novunederictranslator-name
-  description: entity-novunederictranslator-description
+  name: Novu-Nederic translator
+  description: Translates speech between Novu-Nederic and Galactic Common. Like a true Earthman!
   components:
   - type: HandheldTranslator
     spoken:
@@ -163,8 +163,8 @@
 - type: entity
   id: RootSpeakTranslator
   parent: [ TranslatorPoweredBase ]
-  name: entity-rootspeaktranslator-name
-  description: entity-rootspeaktranslator-description
+  name: RootSpeak translator
+  description: Translates speech between RootSpeak and Galactic Common. You may now speak for the trees.
   components:
   - type: HandheldTranslator
     spoken:
@@ -180,8 +180,8 @@
 - type: entity
   id: MofficTranslator
   parent: [ TranslatorPoweredBase ]
-  name: entity-moffictranslator-name
-  description: entity-moffictranslator-description
+  name: Moffic translator
+  description: Translates speech between Moffic and Galactic Common, helping you understand the buzzes of your pet mothroach!
   components:
   - type: HandheldTranslator
     spoken:
@@ -197,8 +197,8 @@
 - type: entity
   id: XenoTranslator
   parent: [ TranslatorPoweredBase ]
-  name: entity-xenotranslator-name
-  description: entity-xenotranslator-description
+  name: Xeno translator
+  description: Translates speech between Xeno and Galactic Common. This will probably not help you survive an encounter, though.
   components:
   - type: HandheldTranslator
     spoken:
@@ -213,8 +213,8 @@
 - type: entity
   id: AnimalTranslator
   parent: [ TranslatorPoweredBase ]
-  name: entity-animaltranslator-name
-  description: entity-animaltranslator-description
+  name: Animal translator
+  description: Translates all the cutes noises that most animals make into a more understandable form!
   components:
   - type: HandheldTranslator
     understood:
@@ -239,8 +239,8 @@
 - type: entity
   id: ValyrianStandardTranslator
   parent: [ TranslatorPoweredBase ]
-  name: entity-valyrianstandardtranslator-name
-  description: entity-valyrianstandardtranslator-description
+  name: Valyrian Standard translator
+  description: Translates speech between Valyrian Standard and Tau-Ceti Basic. For talking to Harpies!
   components:
   - type: HandheldTranslator
     spoken:
@@ -256,7 +256,7 @@
 - type: entity
   id: AzazibaTranslator
   parent: [ TranslatorPoweredBase ]
-  name: entity-azazibatranslator-name
+  name: Azaziba translator
   description: Translates speech between Unathi and Azaziba. For Unathi to speak the Archaic form of their native tongue! # Intended for Admins Only, this item is for lore reasons not obtainable.
   components:
   - type: HandheldTranslator
@@ -273,8 +273,8 @@
 - type: entity
   id: ChittinTranslator
   parent: [ TranslatorPoweredBase ]
-  name: entity-chittintranslator-name
-  description: entity-chittintranslator-description
+  name: Chittin translator
+  description: Translates speech between Chittin and Tau-Ceti Basic. For talking to Chitinids!
   components:
   - type: HandheldTranslator
     spoken:
@@ -290,8 +290,8 @@
 - type: entity
   id: SiikMaasTranslator
   parent: [ TranslatorPoweredBase ]
-  name: entity-siikmaastranslator-name
-  description: entity-siikmaastranslator-description
+  name: Siik'maas translator
+  description: Translates speech between Siik'maas and Tau-Ceti Basic. For talking to Tajara!
   components:
   - type: HandheldTranslator
     spoken:

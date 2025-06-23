@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseMachinePowered
   id: ReverseEngineeringMachine
-  name: entity-reverseengineeringmachine-name
-  description: entity-reverseengineeringmachine-description
+  name: reverse engineering machine
+  description: Destructively analyses pieces of technology in the hopes that we can retrieve information from them.
   components:
   - type: ReverseEngineeringMachine
   - type: Sprite

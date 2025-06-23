@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesGlassesGar
-  name: entity-clothingeyesglassesgar-name
-  description: entity-clothingeyesglassesgar-description
+  name: gar glasses
+  description: Go beyond impossible and kick reason to the curb!
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Glasses/gar.rsi
@@ -17,8 +17,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesGlassesGarOrange
-  name: entity-clothingeyesglassesgarorange-name
-  description: entity-clothingeyesglassesgarorange-description
+  name: orange gar glasses
+  description: Just who the hell do you think I am?!
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Glasses/gar.rsi
@@ -36,8 +36,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesGlassesGarGiga
-  name: entity-clothingeyesglassesgargiga-name
-  description: entity-clothingeyesglassesgargiga-description
+  name: giga gar glasses
+  description: We evolve past the person we were a minute before. Little by little we advance with each turn. That's how a drill works!
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Glasses/gar.rsi
@@ -56,7 +56,7 @@
   parent: ClothingEyesBase
   id: ClothingEyesGlassesMeson
   name: engineering goggles #less confusion
-  description: entity-clothingeyesglassesmeson-description
+  description: Green-tinted goggles using a proprietary polymer that provides protection from eye damage of all types.
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Glasses/meson.rsi
@@ -70,8 +70,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesGlasses
-  name: entity-clothingeyesglasses-name
-  description: entity-clothingeyesglasses-description
+  name: glasses
+  description: A pair of spectacular spectacles with prescription lenses.
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Glasses/glasses.rsi
@@ -92,8 +92,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesGlasses3D
-  name: entity-clothingeyesglasses3d-name
-  description: entity-clothingeyesglasses3d-description
+  name: 3D glasses
+  description: twiin armageddon2
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Glasses/3d.rsi
@@ -103,8 +103,8 @@
 - type: entity
   parent: ClothingEyesGlasses
   id: ClothingEyesGlassesHipster
-  name: entity-clothingeyesglasseshipster-name
-  description: entity-clothingeyesglasseshipster-description
+  name: hipster glasses
+  description: Made by Uncool. Co.
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Glasses/hipster.rsi
@@ -117,8 +117,8 @@
 - type: entity
   parent: ClothingEyesGlasses
   id: ClothingEyesGlassesMonocle
-  name: entity-clothingeyesglassesmonocle-name
-  description: entity-clothingeyesglassesmonocle-description
+  name: monocle
+  description: Such a dapper eyepiece!
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Glasses/monocle.rsi
@@ -131,8 +131,8 @@
 - type: entity
   parent: ClothingEyesGlasses
   id: ClothingEyesGlassesPanto
-  name: entity-clothingeyesglassespanto-name
-  description: entity-clothingeyesglassespanto-description
+  name: panto glasses
+  description: So iconic. So generic. The monobloc chair of the glasses world.
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Glasses/panto.rsi
@@ -145,8 +145,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesGlassesJensen
-  name: entity-clothingeyesglassesjensen-name
-  description: entity-clothingeyesglassesjensen-description
+  name: jensen glasses
+  description: A pair of yellow tinted folding glasses. You never asked for these.
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Glasses/jensen.rsi
@@ -159,8 +159,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesGlassesJamjar
-  name: entity-clothingeyesglassesjamjar-name
-  description: entity-clothingeyesglassesjamjar-description
+  name: jamjar glasses
+  description: Also known as Virginity Protectors.
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Glasses/jamjar.rsi
@@ -176,8 +176,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesGlassesOutlawGlasses
-  name: entity-clothingeyesglassesoutlawglasses-name
-  description: entity-clothingeyesglassesoutlawglasses-description
+  name: outlaw glasses
+  description: A must for every self-respecting undercover agent.
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Glasses/outlawglasses.rsi
@@ -189,8 +189,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesGlassesCheapSunglasses
-  name: entity-clothingeyesglassescheapsunglasses-name
-  description: entity-clothingeyesglassescheapsunglasses-description
+  name: sunglasses
+  description: A pair of black sunglasses.
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Glasses/sunglasses.rsi
@@ -207,8 +207,8 @@
 - type: entity
   parent: ClothingEyesGlassesCheapSunglasses
   id: ClothingEyesGlassesSunglasses
-  name: entity-clothingeyesglassessunglasses-name
-  description: entity-clothingeyesglassessunglasses-description
+  name: shielded sunglasses
+  description: A pair of black sunglasses. These ones are specially made to protect the eye from blinding flashes of light.
   components:
   - type: FlashImmunity
   - type: EyeProtection
@@ -221,8 +221,8 @@
 - type: entity
   parent: [ClothingEyesBase, ShowSecurityIcons] # WD EDIT
   id: ClothingEyesGlassesSecurity
-  name: entity-clothingeyesglassessecurity-name
-  description: entity-clothingeyesglassessecurity-description
+  name: security glasses
+  description: Upgraded sunglasses that provide flash immunity and a security HUD.
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Glasses/secglasses.rsi
@@ -248,8 +248,8 @@
 - type: entity
   parent: [ClothingEyesBase, ShowPsionicsIcons]
   id: ClothingEyesGlassesEpistemics
-  name: entity-clothingeyesglassesepistemics-name
-  description: entity-clothingeyesglassesepistemics-description
+  name: epi psionics glasses
+  description: Upgraded sunglasses that provide flash immunity and a epistemics psionics HUD.
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Glasses/epiglasses.rsi
@@ -267,8 +267,8 @@
 - type: entity
   parent: ClothingEyesGlassesCheapSunglasses
   id: ClothingEyesGlassesCheapSunglassesAviator
-  name: entity-clothingeyesglassescheapsunglassesaviator-name
-  description: entity-clothingeyesglassescheapsunglassesaviator-description
+  name: aviators
+  description: A pair of designer sunglasses.
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Glasses/aviators.rsi
@@ -281,8 +281,8 @@
 - type: entity
   parent: ClothingEyesGlassesSunglasses
   id: ClothingEyesGlassesSunglassesAviator
-  name: entity-clothingeyesglassessunglassesaviator-name
-  description: entity-clothingeyesglassessunglassesaviator-description
+  name: shielded aviators
+  description: A pair of designer sunglasses. These ones are specially made to protect the eye from blinding flashes of light.
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Glasses/aviators.rsi
@@ -295,8 +295,8 @@
 - type: entity
   parent: ClothingEyesGlassesSecurity
   id: ClothingEyesGlassesSecurityAviator
-  name: entity-clothingeyesglassessecurityaviator-name
-  description: entity-clothingeyesglassessecurityaviator-description
+  name: security aviators
+  description: Upgraded aviators that provide flash immunity and a security HUD.
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Glasses/secglasses_aviators.rsi
@@ -309,8 +309,8 @@
 - type: entity
   parent: ClothingEyesGlassesCheapSunglasses
   id: ClothingEyesGlassesCheapSunglassesBig
-  name: entity-clothingeyesglassescheapsunglassesbig-name
-  description: entity-clothingeyesglassescheapsunglassesbig-description
+  name: big sunglasses
+  description: A pair of black sunglasses with big lenses.
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Glasses/sunglasses_big.rsi
@@ -323,8 +323,8 @@
 - type: entity
   parent: ClothingEyesGlassesSunglasses
   id: ClothingEyesGlassesSunglassesBig
-  name: entity-clothingeyesglassessunglassesbig-name
-  description: entity-clothingeyesglassessunglassesbig-description
+  name: big shielded sunglasses
+  description: A pair of black sunglasses with big lenses. These ones are specially made to protect the eye from blinding flashes of light.
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Glasses/sunglasses_big.rsi
@@ -337,8 +337,8 @@
 - type: entity
   parent: ClothingEyesGlassesSecurity
   id: ClothingEyesGlassesSecurityBig
-  name: entity-clothingeyesglassessecuritybig-name
-  description: entity-clothingeyesglassessecuritybig-description
+  name: big security glasses
+  description: Upgraded big sunglasses that provide flash immunity and a security HUD.
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Glasses/secglasses_big.rsi
@@ -351,8 +351,8 @@
 - type: entity
   parent: ClothingEyesGlassesCheapSunglasses
   id: ClothingEyesGlassesCheapSunglassesVisor
-  name: entity-clothingeyesglassescheapsunglassesvisor-name
-  description: entity-clothingeyesglassescheapsunglassesvisor-description
+  name: visor sunglasses
+  description: A pair of visor sunglasses.
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Glasses/sunglasses_visor.rsi
@@ -365,8 +365,8 @@
 - type: entity
   parent: ClothingEyesGlassesSunglasses
   id: ClothingEyesGlassesSunglassesVisor
-  name: entity-clothingeyesglassessunglassesvisor-name
-  description: entity-clothingeyesglassessunglassesvisor-description
+  name: shielded visor sunglasses
+  description: A pair of visor sunglasses. These ones are specially made to protect the eye from blinding flashes of light.
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Glasses/sunglasses_visor.rsi
@@ -379,8 +379,8 @@
 - type: entity
   parent: ClothingEyesGlassesSecurity
   id: ClothingEyesGlassesSecurityVisor
-  name: entity-clothingeyesglassessecurityvisor-name
-  description: entity-clothingeyesglassessecurityvisor-description
+  name: security visor glasses
+  description: Upgraded visor sunglasses that provide flash immunity and a security HUD.
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Glasses/secglasses_visor.rsi
@@ -393,8 +393,8 @@
 - type: entity
   parent: ClothingEyesBase # WD EDIT
   id: ClothingEyesGlassesMercenary
-  name: entity-clothingeyesglassesmercenary-name
-  description: entity-clothingeyesglassesmercenary-description
+  name: mercenary glasses
+  description: Glasses made for combat, to protect the eyes from bright blinding flashes.
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Glasses/mercglasses.rsi
@@ -408,8 +408,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesGlassesThermal
-  name: entity-clothingeyesglassesthermal-name
-  description: entity-clothingeyesglassesthermal-description
+  name: optical thermal scanner
+  description: Thermals in the shape of glasses.
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Glasses/thermal.rsi
@@ -424,8 +424,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesGlassesChemical
-  name: entity-clothingeyesglasseschemical-name
-  description: entity-clothingeyesglasseschemical-description
+  name: chemical analysis goggles
+  description: Goggles that can scan the chemical composition of a solution.
   components:
     - type: Sprite
       sprite: Clothing/Eyes/Glasses/science.rsi
@@ -436,8 +436,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesVisorNinja
-  name: entity-clothingeyesvisorninja-name
-  description: entity-clothingeyesvisorninja-description
+  name: ninja visor
+  description: An advanced visor protecting a ninja's eyes from flashing lights.
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Glasses/ninjavisor.rsi
@@ -451,8 +451,8 @@
 - type: entity #Fake goggles, the latest in anti-valid hunting technology
   parent: ClothingEyesBase
   id: ClothingEyesGlassesThermalBudget
-  name: entity-clothingeyesglassesthermalbudget-name
-  description: entity-clothingeyesglassesthermalbudget-description
+  name: red goggles
+  description: These don't have any real function, but they do look cool!
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Glasses/thermal.rsi
@@ -462,8 +462,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesGlassesChemicalBudget
-  name: entity-clothingeyesglasseschemicalbudget-name
-  description: entity-clothingeyesglassesthermalbudget-description
+  name: purple goggles
+  description: These don't have any real function, but they do look cool!
   components:
     - type: Sprite
       sprite: Clothing/Eyes/Glasses/science.rsi
@@ -473,8 +473,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesGlassesMesonBudget
-  name: entity-clothingeyesglassesmesonbudget-name
-  description: entity-clothingeyesglassesthermalbudget-description
+  name: green goggles
+  description: These don't have any real function, but they do look cool!
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Glasses/meson.rsi
@@ -484,8 +484,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesGlassesEthereal
-  name: entity-clothingeyesglassesethereal-name
-  description: entity-clothingeyesglassesethereal-description
+  name: ethereal goggles
+  description: An unusual pair of goggles developed during a time of inhumane experimentation involving Shadowkin. They are designed to allow the wearer to peer into The Dark.
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Glasses/etherealgoogles.rsi

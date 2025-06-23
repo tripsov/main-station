@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseStorageItem
   id: GunCaseSyndicate
-  name: entity-guncasesyndicate-name
-  description: entity-guncasesyndicate-description
+  name: gun case
+  description: A weapon's case. Has a blood-red 'S' stamped on the cover..
   suffix: Syndicate
   components:
   - type: Sprite

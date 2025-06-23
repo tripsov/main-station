@@ -8,8 +8,8 @@
 - type: entity
   id: LandmineAspect
   parent: BaseAspect
-  name: entity-landmineaspect-name
-  description: entity-landmineaspect-description
+  name: Landmine
+  description: Someone laid mines at the station!
   categories: [ HideSpawnMenu ]
   components:
     - type: Aspect
@@ -23,8 +23,8 @@
 - type: entity
   id: TraitoredAspect
   parent: BaseAspect
-  name: entity-traitoredaspect-name
-  description: entity-traitoredaspect-description
+  name: Traitored
+  description: Someone has turned in all the traitors!
   categories: [ HideSpawnMenu ]
   components:
     - type: Aspect
@@ -35,8 +35,8 @@
 - type: entity
   id: PresentAspect
   parent: BaseAspect
-  name: entity-presentaspect-name
-  description: entity-presentaspect-description
+  name: Presents
+  description: Do you believe in Santa Claus?
   categories: [ HideSpawnMenu ]
   components:
     - type: Aspect
@@ -49,8 +49,8 @@
 - type: entity
   id: ReflectAspect
   parent: BaseAspect
-  name: entity-reflectaspect-name
-  description: entity-reflectaspect-description
+  name: Reflect
+  description: Your reflection is everywhere.
   categories: [ HideSpawnMenu ]
   components:
     - type: Aspect
@@ -62,8 +62,8 @@
 - type: entity
   id: NothingAspect
   parent: BaseAspect
-  name: entity-nothingaspect-name
-  description: entity-nothingaspect-description
+  name: Nothing
+  description: Nothing.
   categories: [ HideSpawnMenu ]
   components:
     - type: Aspect
@@ -75,8 +75,8 @@
 - type: entity
   id: RichTraitorAspect
   parent: BaseAspect
-  name: entity-richtraitoraspect-name
-  description: entity-richtraitoraspect-description
+  name: Rich Traitor
+  description: The syndicate has allocated 10 additional telecrystals for the traitors.
   categories: [ HideSpawnMenu ]
   components:
     - type: Aspect
@@ -88,8 +88,8 @@
 - type: entity
   id: ImmersiveAspect
   parent: BaseAspect
-  name: entity-immersiveaspect-name
-  description: entity-immersiveaspect-description
+  name: Immersive
+  description: Due to the recent tragic events, the station's crew became immersed in themselves.
   categories: [ HideSpawnMenu ]
   components:
   - type: Aspect

@@ -1,8 +1,8 @@
 - type: entity
-  name: entity-mousetrap-name
+  name: mousetrap
   parent: BaseItem
   id: Mousetrap
-  description: entity-mousetrap-description
+  description: Useful for catching rodents sneaking into your kitchen.
   components:
     - type: Sprite
       sprite: Objects/Devices/mousetrap.rsi
@@ -59,11 +59,11 @@
     - type: Rotatable
 
 - type: entity
-  name: entity-mousetrap-name
+  name: mousetrap
   suffix: Armed
   parent: Mousetrap
   id: MousetrapArmed
-  description: entity-mousetrap-description
+  description: Useful for catching rodents sneaking into your kitchen.
   components:
     - type: Mousetrap
       isActive: true

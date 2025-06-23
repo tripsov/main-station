@@ -1,8 +1,8 @@
 - type: entity
   parent: [ SimpleMobBase, MobCombat ]
   id: BaseMobFlesh
-  name: entity-basemobflesh-name
-  description: entity-basemobflesh-description
+  name: aberrant flesh
+  description: A shambling mass of flesh, animated through anomalous energy.
   abstract: true
   components:
   - type: HTN
@@ -166,8 +166,8 @@
 - type: entity
   parent: BaseMobFlesh
   id: MobAbomination
-  name: entity-mobabomination-name
-  description: entity-mobabomination-description
+  name: abomination
+  description: A rejected clone, in constant pain and seeking revenge.
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -204,9 +204,9 @@
 - type: entity
   parent: [ SimpleSpaceMobBase, MobCombat ]
   id: BaseMobFleshSalvage #This one is immune to space!
-  name: entity-basemobflesh-name
+  name: aberrant flesh
   suffix: "Salvage Ruleset"
-  description: entity-basemobflesh-description
+  description: A shambling mass of flesh, animated through anomalous energy.
   abstract: true
   components:
   - type: HTN

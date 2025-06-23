@@ -1,7 +1,7 @@
 - type: entity
   id: ExtinguisherCabinet
-  name: entity-extinguishercabinet-name
-  description: entity-extinguishercabinet-description
+  name: extinguisher cabinet
+  description: A small wall mounted cabinet designed to hold a fire extinguisher.
   components:
     - type: WallMount
       arc: 360

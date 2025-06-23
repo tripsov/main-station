@@ -1,7 +1,7 @@
 - type: entity
   parent: MarkerBase
   id: RandomItem
-  name: entity-randomitem-name
+  name: random item spawner
   components:
   - type: Sprite
     layers:

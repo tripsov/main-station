@@ -1,8 +1,8 @@
 - type: entity
   id: AbductorAlienPad
   parent: [ BaseMachinePowered, ConstructibleMachine ]
-  name: entity-abductoralienpad-name
-  description: entity-abductoralienpad-description
+  name: alien pad
+  description: Beam in the inferior lifeforms and dig in.
   components:
   - type: AbductorAlienPad
   - type: InteractionOutline

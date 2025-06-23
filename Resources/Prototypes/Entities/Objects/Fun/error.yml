@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: Error
-  name: entity-error-name
-  description: entity-error-description
+  name: error
+  description: Hmmmm. Something went wrong.
   components:
   - type: Sprite
     sprite: error.rsi

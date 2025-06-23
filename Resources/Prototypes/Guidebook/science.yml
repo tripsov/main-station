@@ -71,5 +71,5 @@
 
 - type: guideEntry
   id: MantisGuide
-  name: guideentry-mantisguide-name
+  name: guide-entry-Psionic-Mantis
   text: "/ServerInfo/Guidebook/Science/MantisGuide.xml"

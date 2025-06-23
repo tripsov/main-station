@@ -1,6 +1,6 @@
 ﻿- type: tile
   id: CultFloor
-  name: tile-cultfloor-name
+  name: tiles-cult-floor
   sprite: /Textures/WhiteDream/BloodCult/Tiles/cult_tile/cult.png
   variants: 1
   baseTurf: Plating

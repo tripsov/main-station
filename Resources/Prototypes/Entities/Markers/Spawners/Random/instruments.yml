@@ -1,6 +1,6 @@
 - type: entity
   id: RandomInstruments
-  name: entity-randominstruments-name
+  name: random instruments spawner
   parent: MarkerBase
   components:
   - type: Sprite

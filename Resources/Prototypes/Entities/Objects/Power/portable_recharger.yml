@@ -1,8 +1,8 @@
 - type: entity
   parent: Clothing
   id: PortableRecharger
-  name: entity-portablerecharger-name
-  description: entity-portablerecharger-description
+  name: portable recharger
+  description: High-tech recharger adapted for portability
   components:
   - type: Item
     size: Huge

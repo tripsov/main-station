@@ -1,8 +1,8 @@
 - type: entity
   id: Wristwatch
   parent: BaseItem
-  name: entity-wristwatch-name
-  description: entity-wristwatch-description
+  name: wristwatch
+  description: A cheap watch for telling time. How much did you waste playing Space Station 14?
   components:
   - type: Sprite
     sprite: Objects/Devices/wristwatch.rsi
@@ -42,8 +42,8 @@
 - type: entity
   id: WristwatchGold
   parent: Wristwatch
-  name: entity-wristwatchgold-name
-  description: entity-wristwatchgold-description
+  name: gold watch
+  description: A fancy watch worth more than your kidney. It was owned by the notorious Syndicate mobster Vunibaldo "200 Pound Horse Meat Grinder" Frediani.
   components:
   - type: Sprite
     sprite: Objects/Devices/goldwatch.rsi

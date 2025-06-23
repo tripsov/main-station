@@ -17,8 +17,8 @@
 - type: entity
   parent: BaseDice
   id: PercentileDie
-  name: entity-percentiledie-name
-  description: entity-percentiledie-description
+  name: percentile die
+  description: A die with ten sides. Works better for d100 rolls than a golf ball.
   components:
   - type: Dice
     sides: 10
@@ -31,8 +31,8 @@
 - type: entity
   parent: BaseDice
   id: d20Dice
-  name: entity-d20dice-name
-  description: entity-d20dice-description
+  name: d20
+  description: A die with twenty sides. The preferred die to throw at the GM.
   components:
   - type: Dice
     sides: 20
@@ -43,8 +43,8 @@
 - type: entity
   parent: BaseDice
   id: d12Dice
-  name: entity-d12dice-name
-  description: entity-d12dice-description
+  name: d12
+  description: A die with twelve sides. There's an air of neglect about it.
   components:
   - type: Dice
     sides: 12
@@ -55,8 +55,8 @@
 - type: entity
   parent: BaseDice
   id: d10Dice
-  name: entity-d10dice-name
-  description: entity-d10dice-description
+  name: d10
+  description: A die with ten sides. Useful for percentages.
   components:
   - type: Dice
     sides: 10
@@ -68,8 +68,8 @@
 - type: entity
   parent: BaseDice
   id: d8Dice
-  name: entity-d8dice-name
-  description: entity-d8dice-description
+  name: d8
+  description: A die with eight sides. It feels... lucky.
   components:
   - type: Dice
     sides: 8
@@ -80,8 +80,8 @@
 - type: entity
   parent: BaseDice
   id: d6Dice
-  name: entity-d6dice-name
-  description: entity-d6dice-description
+  name: d6
+  description: A die with six sides. Basic and serviceable.
   components:
   - type: Dice
     sides: 6
@@ -92,8 +92,8 @@
 - type: entity
   parent: BaseDice
   id: d4Dice
-  name: entity-d4dice-name
-  description: entity-d4dice-description
+  name: d4
+  description: A die with four sides. The nerd's caltrop.
   components:
   - type: Dice
     sides: 4

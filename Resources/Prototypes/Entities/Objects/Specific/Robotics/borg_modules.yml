@@ -1,8 +1,8 @@
 - type: entity
   id: BaseBorgModule
   parent: BaseItem
-  name: entity-baseborgmodule-name
-  description: entity-baseborgmodule-description
+  name: borg module
+  description: A piece of tech that gives cyborgs new abilities.
   abstract: true
   components:
   - type: Item
@@ -32,8 +32,8 @@
 
 - type: entity
   id: ActionBorgSwapModule
-  name: entity-actionborgswapmodule-name
-  description: entity-actionborgswapmodule-description
+  name: Swap Module
+  description: Select this module, enabling you to use the tools it provides.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -108,7 +108,7 @@
 - type: entity
   id: BorgModuleCable
   parent: [ BaseBorgModule, BaseProviderBorgModule ]
-  name: entity-borgmodulecable-name
+  name: cable cyborg module
   components:
   - type: Sprite
     layers:
@@ -127,7 +127,7 @@
 - type: entity
   id: BorgModuleFireExtinguisher
   parent: [ BaseBorgModule, BaseProviderBorgModule ]
-  name: entity-borgmodulefireextinguisher-name
+  name: fire extinguisher cyborg module
   components:
   - type: Sprite
     layers:
@@ -142,7 +142,7 @@
 - type: entity
   id: BorgModuleGPS
   parent: [ BaseBorgModule, BaseProviderBorgModule ]
-  name: entity-borgmodulegps-name
+  name: GPS cyborg module
   components:
   - type: Sprite
     layers:
@@ -159,7 +159,7 @@
 - type: entity
   id: BorgModuleRadiationDetection
   parent: [ BaseBorgModule, BaseProviderBorgModule ]
-  name: entity-borgmoduleradiationdetection-name
+  name: radiation detection cyborg module
   components:
   - type: Sprite
     layers:
@@ -174,7 +174,7 @@
 - type: entity
   id: BorgModuleTool
   parent: [ BaseBorgModule, BaseProviderBorgModule ]
-  name: entity-borgmoduletool-name
+  name: tool cyborg module
   components:
   - type: Sprite
     layers:
@@ -195,7 +195,7 @@
 - type: entity
   id: BorgModuleAppraisal
   parent: [ BaseBorgModuleCargo, BaseProviderBorgModule ]
-  name: entity-borgmoduleappraisal-name
+  name: appraisal cyborg module
   components:
   - type: Sprite
     layers:
@@ -210,7 +210,7 @@
 - type: entity
   id: BorgModuleMining
   parent: [ BaseBorgModuleCargo, BaseProviderBorgModule ]
-  name: entity-borgmodulemining-name
+  name: mining cyborg module
   components:
   - type: Sprite
     layers:
@@ -229,8 +229,8 @@
 - type: entity
   id: BorgModuleJetpack
   parent: [ BaseBorgModuleCargo, BaseProviderBorgModule ]
-  name: entity-borgmodulejetpack-name
-  description: entity-borgmodulejetpack-description
+  name: jetpack cyborg module
+  description: A piece of tech that gives cyborgs new abilities. Needs to be loaded by a cyborg before you can refill the jetpack.
   components:
   - type: Sprite
     layers:
@@ -246,7 +246,7 @@
 - type: entity
   id: BorgModulePka
   parent: [ BaseBorgModuleCargo, BaseProviderBorgModule ]
-  name: entity-borgmodulepka-name
+  name: proto kinetic accelerator cyborg module
   components:
   - type: Sprite
     layers:
@@ -278,7 +278,7 @@
 - type: entity
   id: BorgModuleAdvancedTool
   parent: [ BaseBorgModuleEngineering, BaseProviderBorgModule ]
-  name: entity-borgmoduleadvancedtool-name
+  name: advanced tool cyborg module
   components:
   - type: Sprite
     layers:
@@ -298,7 +298,7 @@
 - type: entity
   id: BorgModuleConstruction
   parent: [ BaseBorgModuleEngineering, BaseProviderBorgModule ]
-  name: entity-borgmoduleconstruction-name
+  name: construction cyborg module
   components:
   - type: Sprite
     layers:
@@ -328,7 +328,7 @@
 - type: entity
   id: BorgModuleRCD
   parent: [ BaseBorgModuleEngineering, BaseProviderBorgModule ]
-  name: entity-borgmodulercd-name
+  name: RCD cyborg module
   components:
   - type: Sprite
     layers:
@@ -345,7 +345,7 @@
 - type: entity
   id: BorgModuleLightReplacer
   parent: [ BaseBorgModuleJanitor, BaseProviderBorgModule ]
-  name: entity-borgmodulelightreplacer-name
+  name: light replacer cyborg module
   components:
   - type: Sprite
     layers:
@@ -362,7 +362,7 @@
 - type: entity
   id: BorgModuleCleaning
   parent: [ BaseBorgModuleJanitor, BaseProviderBorgModule ]
-  name: entity-borgmodulecleaning-name
+  name: cleaning cyborg module
   components:
   - type: Sprite
     layers:
@@ -380,7 +380,7 @@
 - type: entity
   id: BorgModuleAdvancedCleaning
   parent: [ BaseBorgModuleJanitor, BaseProviderBorgModule ]
-  name: entity-borgmoduleadvancedcleaning-name
+  name: advanced cleaning cyborg module
   components:
   - type: Sprite
     layers:
@@ -400,7 +400,7 @@
 - type: entity
   id: BorgModuleDiagnosis # todo: reuse when med refractor is finished
   parent: [ BaseBorgModuleMedical, BaseProviderBorgModule ]
-  name: entity-borgmodulediagnosis-name
+  name: diagnosis cyborg module
   components:
   - type: Sprite
     layers:
@@ -416,7 +416,7 @@
 - type: entity
   id: BorgModuleTreatment
   parent: [ BaseBorgModuleMedical, BaseProviderBorgModule ]
-  name: entity-borgmoduletreatment-name
+  name: treatment cyborg module
   components:
   - type: Sprite
     layers:
@@ -435,7 +435,7 @@
 - type: entity
   id: BorgModuleDefibrillator
   parent: [ BaseBorgModuleMedical, BaseProviderBorgModule ]
-  name: entity-borgmoduledefibrillator-name
+  name: defibrillator cyborg module
   components:
   - type: Sprite
     layers:
@@ -450,7 +450,7 @@
 - type: entity
   id: BorgModuleAdvancedTreatment
   parent: [ BaseBorgModuleMedical, BaseProviderBorgModule ]
-  name: entity-borgmoduleadvancedtreatment-name
+  name: advanced treatment cyborg module
   components:
   - type: Sprite
     layers:
@@ -478,7 +478,7 @@
 - type: entity
   id: BorgModuleArtifact
   parent: [ BaseBorgModule, BaseProviderBorgModule ]
-  name: entity-borgmoduleartifact-name
+  name: artifact cyborg module
   components:
   - type: Sprite
     layers:
@@ -493,7 +493,7 @@
 - type: entity
   id: BorgModuleAnomaly
   parent: [ BaseBorgModule, BaseProviderBorgModule ]
-  name: entity-borgmoduleanomaly-name
+  name: anomaly cyborg module
   components:
   - type: Sprite
     layers:
@@ -513,7 +513,7 @@
 - type: entity
   id: BorgModuleService
   parent: [ BaseBorgModuleService, BaseProviderBorgModule ]
-  name: entity-borgmoduleservice-name
+  name: service cyborg module
   components:
   - type: Sprite
     layers:
@@ -540,7 +540,7 @@
 - type: entity
   id: BorgModuleMusique
   parent: [ BaseBorgModuleService, BaseProviderBorgModule ]
-  name: entity-borgmodulemusique-name
+  name: musique cyborg module
   components:
   - type: Sprite
     layers:
@@ -557,7 +557,7 @@
 - type: entity
   id: BorgModuleGardening
   parent: [ BaseBorgModuleService, BaseProviderBorgModule ]
-  name: entity-borgmodulegardening-name
+  name: gardening cyborg module
   components:
   - type: Sprite
     layers:
@@ -582,7 +582,7 @@
 - type: entity
   id: BorgModuleHarvesting
   parent: [ BaseBorgModuleService, BaseProviderBorgModule ]
-  name: entity-borgmoduleharvesting-name
+  name: harvesting cyborg module
   components:
   - type: Sprite
     layers:
@@ -599,7 +599,7 @@
 - type: entity
   id: BorgModuleClowning
   parent: [ BaseBorgModuleService, BaseProviderBorgModule ]
-  name: entity-borgmoduleclowning-name
+  name: clowning cyborg module
   components:
   - type: Sprite
     layers:
@@ -617,7 +617,7 @@
 - type: entity
   id: BorgModuleSyndicateWeapon
   parent: [ BaseBorgModule, BaseProviderBorgModule ]
-  name: entity-borgmodulesyndicateweapon-name
+  name: weapon cyborg module
   components:
   - type: Sprite
     layers:
@@ -633,8 +633,8 @@
 - type: entity
   id: BorgModuleOperative
   parent: [ BaseBorgModuleSyndicate, BaseProviderBorgModule ]
-  name: entity-borgmoduleoperative-name
-  description: entity-borgmoduleoperative-description
+  name: operative cyborg module
+  description: A module that comes with a crowbar, an Emag and a syndicate pinpointer.
   components:
     - type: Sprite
       layers:
@@ -651,8 +651,8 @@
 - type: entity
   id: BorgModuleEsword
   parent: [ BaseBorgModuleSyndicate, BaseProviderBorgModule ]
-  name: entity-borgmoduleesword-name
-  description: entity-borgmoduleesword-description
+  name: energy sword cyborg module
+  description: A module that comes with a double energy sword.
   components:
     - type: Sprite
       layers:
@@ -668,8 +668,8 @@
 - type: entity
   id: BorgModuleL6C
   parent: [ BaseBorgModuleSyndicateAssault, BaseProviderBorgModule ]
-  name: entity-borgmodulel6c-name
-  description: entity-borgmodulel6c-description
+  name: L6C ROW cyborg module
+  description: A module that comes with a L6C.
   components:
     - type: Sprite
       layers:
@@ -685,7 +685,7 @@
 - type: entity
   id: BorgModuleMartyr
   parent: [ BaseBorgModule, BaseProviderBorgModule ]
-  name: entity-borgmodulemartyr-name
+  name: martyr cyborg module
   description: "A module that comes with an explosive you probably don't want to handle yourself."
   components:
     - type: Sprite
@@ -703,7 +703,7 @@
 - type: entity
   id: BorgModuleSurgery
   parent: [ BaseBorgModuleMedical, BaseProviderBorgModule ]
-  name: entity-borgmodulesurgery-name
+  name: surgery cyborg module
   components:
   - type: Sprite
     layers:
@@ -734,7 +734,7 @@
 - type: entity
   id: BorgModuleAdvancedSurgery
   parent: [ BaseBorgModuleMedical, BaseProviderBorgModule ]
-  name: entity-borgmoduleadvancedsurgery-name
+  name: advanced surgery cyborg module
   components:
   - type: Sprite
     layers:

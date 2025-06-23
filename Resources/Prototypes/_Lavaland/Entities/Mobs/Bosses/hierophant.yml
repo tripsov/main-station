@@ -1,7 +1,7 @@
 - type: entity
   id: LavalandBossHierophant
-  name: entity-lavalandbosshierophant-name
-  description: entity-lavalandbosshierophant-description
+  name: hierophant
+  description: A massive metal club that hangs in the air as though waiting. It'll make you dance to its beat.
   components:
   # Basic stuff
   - type: Physics
@@ -70,7 +70,7 @@
 - type: entity
   id: LavalandHierophantSquare
   suffix: DO NOT MAP
-  name: entity-lavalandhierophantsquare-name
+  name: hierophant square
   placement:
     mode: SnapgridCenter
     snap:
@@ -123,7 +123,7 @@
 - type: entity
   id: LavalandHierophantChaser
   suffix: DO NOT MAP
-  name: entity-lavalandhierophantchaser-name
+  name: hierophant chaser
   placement:
     mode: SnapgridCenter
     snap:

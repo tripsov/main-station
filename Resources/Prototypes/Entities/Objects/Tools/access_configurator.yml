@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: AccessConfigurator
-  name: entity-accessconfigurator-name
-  description: entity-accessconfigurator-description
+  name: access configurator
+  description: Used to modify the access level requirements for airlocks and other lockable devices.
   components:
     - type: EmitSoundOnLand
       sound:

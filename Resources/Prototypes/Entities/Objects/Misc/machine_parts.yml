@@ -1,8 +1,8 @@
 ﻿- type: entity
   id: BaseStockPart
-  name: entity-basestockpart-name
+  name: stock part
   parent: BaseItem
-  description: entity-basestockpart-description
+  description: What?
   abstract: true
   components:
     - type: Sprite
@@ -19,9 +19,9 @@
 
 - type: entity
   id: CapacitorStockPart
-  name: entity-capacitorstockpart-name
+  name: capacitor
   parent: BaseStockPart
-  description: entity-capacitorstockpart-description
+  description: A basic capacitor used in the construction of a variety of devices.
   suffix: Rating 1
   components:
     - type: Sprite
@@ -44,9 +44,9 @@
 
 - type: entity
   id: MicroManipulatorStockPart
-  name: entity-micromanipulatorstockpart-name
+  name: manipulator
   parent: BaseStockPart
-  description: entity-micromanipulatorstockpart-description
+  description: A basic manipulator used in the construction of a variety of devices.
   suffix: Rating 1
   components:
     - type: Sprite
@@ -62,9 +62,9 @@
 
 - type: entity
   id: MatterBinStockPart
-  name: entity-matterbinstockpart-name
+  name: matter bin
   parent: BaseStockPart
-  description: entity-matterbinstockpart-description
+  description: A basic matter bin used in the construction of a variety of devices.
   suffix: Rating 1
   components:
     - type: Sprite
@@ -82,9 +82,9 @@
 
 - type: entity
   id: AdvancedCapacitorStockPart
-  name: entity-advancedcapacitorstockpart-name
+  name: advanced capacitor
   parent: CapacitorStockPart
-  description: entity-advancedcapacitorstockpart-description
+  description: An advanced capacitor used in the construction of a variety of devices.
   suffix: Rating 2
   components:
     - type: Sprite
@@ -98,9 +98,9 @@
 
 - type: entity
   id: NanoManipulatorStockPart
-  name: entity-nanomanipulatorstockpart-name
+  name: advanced manipulator
   parent: MicroManipulatorStockPart
-  description: entity-nanomanipulatorstockpart-description
+  description: An advanced manipulator used in the construction of a variety of devices.
   suffix: Rating 2
   components:
     - type: Sprite
@@ -114,9 +114,9 @@
 
 - type: entity
   id: AdvancedMatterBinStockPart
-  name: entity-advancedmatterbinstockpart-name
+  name: advanced matter bin
   parent: MatterBinStockPart
-  description: entity-advancedmatterbinstockpart-description
+  description: An advanced matter bin used in the construction of a variety of devices.
   suffix: Rating 2
   components:
     - type: Sprite
@@ -132,9 +132,9 @@
 
 - type: entity
   id: SuperCapacitorStockPart
-  name: entity-supercapacitorstockpart-name
+  name: super capacitor
   parent: CapacitorStockPart
-  description: entity-supercapacitorstockpart-description
+  description: A super capacitor used in the construction of a variety of devices.
   suffix: Rating 3
   components:
     - type: Sprite
@@ -148,9 +148,9 @@
 
 - type: entity
   id: PicoManipulatorStockPart
-  name: entity-picomanipulatorstockpart-name
+  name: super manipulator
   parent: MicroManipulatorStockPart
-  description: entity-picomanipulatorstockpart-description
+  description: A super manipulator used in the construction of a variety of devices.
   suffix: Rating 3
   components:
     - type: Sprite
@@ -164,9 +164,9 @@
 
 - type: entity
   id: SuperMatterBinStockPart
-  name: entity-supermatterbinstockpart-name
+  name: super matter bin
   parent: MatterBinStockPart
-  description: entity-supermatterbinstockpart-description
+  description: A super matter bin used in the construction of a variety of devices.
   suffix: Rating 3
   components:
     - type: Sprite
@@ -182,9 +182,9 @@
 
 - type: entity
   id: BluespaceCapacitorStockPart
-  name: entity-bluespacecapacitorstockpart-name
+  name: bluespace capacitor
   parent: CapacitorStockPart
-  description: entity-bluespacecapacitorstockpart-description
+  description: A bluespace capacitor used in the construction of a variety of devices.
   suffix: Rating 4
   components:
     - type: Sprite
@@ -198,9 +198,9 @@
 
 - type: entity
   id: BluespaceManipulatorStockPart
-  name: entity-bluespacemanipulatorstockpart-name
+  name: bluespace manipulator
   parent: MicroManipulatorStockPart
-  description: entity-bluespacemanipulatorstockpart-description
+  description: A bluespace manipulator used in the construction of a variety of devices.
   suffix: Rating 4
   components:
     - type: Sprite
@@ -214,9 +214,9 @@
 
 - type: entity
   id: BluespaceMatterBinStockPart
-  name: entity-bluespacematterbinstockpart-name
+  name: bluespace matter bin
   parent: MatterBinStockPart
-  description: entity-bluespacematterbinstockpart-description
+  description: A bluespace matter bin used in the construction of a variety of devices.
   suffix: Rating 4
   components:
     - type: Sprite

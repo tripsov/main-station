@@ -1,8 +1,8 @@
 - type: entity
-  name: entity-ritualdagger-name
+  name: ritual dagger
   parent: BaseKnife
   id: RitualDagger
-  description: entity-ritualdagger-description
+  description: A strange dagger used by sinister groups for rituals and sacrifices.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/cult_dagger.rsi
@@ -41,10 +41,10 @@
         type: RuneDrawerBUI
 
 - type: entity
-  name: entity-eldritchlongsword-name
+  name: eldritch longsword
   parent: BaseItem
   id: EldritchLongsword
-  description: entity-eldritchlongsword-description
+  description: A sword humming with unholy energy. It glows with a dim red light.
   components:
   - type: Sharp
   - type: Sprite
@@ -85,8 +85,8 @@
 - type: entity
   parent: BaseItem
   id: BloodSpear
-  name: entity-bloodspear-name
-  description: entity-bloodspear-description
+  name: blood spear
+  description: A sickening spear composed entirely of crystallized blood.
   components:
   - type: Sprite
     sprite: WhiteDream/BloodCult/Entities/Items/Weapons/cult_spear.rsi

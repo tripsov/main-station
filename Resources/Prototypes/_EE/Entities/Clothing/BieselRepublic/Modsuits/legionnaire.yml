@@ -2,8 +2,8 @@
 - type: entity
   parent: [ClothingModsuitStandard, TCFLInfo]
   id: ClothingModsuitTCFLLegionnaire
-  name: entity-clothingmodsuittcfllegionnaire-name
-  description: entity-clothingmodsuittcfllegionnaire-description
+  name: TCFL-Legionnaire modsuit control
+  description: The main controller for a Legionnaire modsuit. It's likeness is worn by commissioned officers in the Tau Ceti Foreign Legion.
   components:
     - type: Sprite
       sprite: _EE/Clothing/BieselRepublic/Modsuits/legionnaire.rsi
@@ -31,8 +31,8 @@
 - type: entity
   parent: [ClothingModsuitGauntletsStandard, TCFLInfo]
   id: ClothingModsuitGauntletsTCFLLegionnaire
-  name: entity-clothingmodsuitgauntletstcfllegionnaire-name
-  description: entity-clothingmodsuitgauntletstcfllegionnaire-description
+  name: TCFL-Legionnaire modsuit gauntlets
+  description: A pair of gauntlets made for for the Legionnaire modsuit.
   categories: [HideSpawnMenu]
   components:
     - type: Sprite
@@ -41,8 +41,8 @@
 - type: entity
   parent: [ClothingModsuitHelmetStandard, TCFLInfo, ShowSecurityIcons, BaseClothingRadio]
   id: ClothingModsuitHelmetTCFLLegionnaire
-  name: entity-clothingmodsuithelmettcfllegionnaire-name
-  description: entity-clothingmodsuithelmettcfllegionnaire-description
+  name: TCFL-Legionnaire modsuit helmet
+  description: A state-of-the-art helmet designed by NanoTrasen for the Legionnaire modsuit. It includes a built-in HUD.
   categories: [HideSpawnMenu]
   components:
     - type: Sprite
@@ -79,8 +79,8 @@
 - type: entity
   parent: [ClothingModsuitChestplateStandard, TCFLInfo]
   id: ClothingModsuitChestplateTCFLLegionnaire
-  name: entity-clothingmodsuitchestplatetcfllegionnaire-name
-  description: entity-clothingmodsuitchestplatetcfllegionnaire-description
+  name: TCFL-Legionnaire modsuit chestplate
+  description: A state of the art chestplate designed by NanoTrasen for the Legionnaire Modsuit. It incorporates powered servos to reduce the equipment load.
   categories: [HideSpawnMenu]
   components:
     - type: Sprite
@@ -128,8 +128,8 @@
 - type: entity
   parent: [ClothingModsuitBootsStandard, TCFLInfo]
   id: ClothingModsuitBootsTCFLLegionnaire
-  name: entity-clothingmodsuitbootstcfllegionnaire-name
-  description: entity-clothingmodsuitbootstcfllegionnaire-description
+  name: TCFL-Legionnaire modsuit boots
+  description: A state-of-the-art pair of magboots for the Legionnaire modsuit. So long as the suit is powered, these will not slow the wearer down.
   categories: [HideSpawnMenu]
   components:
     - type: Appearance

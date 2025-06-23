@@ -28,8 +28,8 @@
 - type: entity
   parent: ClosetBase2
   id: ClosetBaseW
-  name: entity-closetbasew-name
-  description: entity-closetbasew-description
+  name: closet
+  description: A basic closet for storing things.
   components:
   - type: Weldable
   - type: Sprite
@@ -68,8 +68,8 @@
 - type: entity
   parent: ClosetBaseW
   id: ClosetRusty
-  name: entity-closetrusty-name
-  description: entity-closetrusty-description
+  name: rusty closet
+  description: A rusty old closet for storing things.
   components:
   - type: Sprite
     sprite: Structures/Storage/Closets/closetold.rsi
@@ -77,8 +77,8 @@
 - type: entity
   parent: ClosetBaseW
   id: ClosetGunCabinet
-  name: entity-closetguncabinet-name
-  description: entity-closetguncabinet-description
+  name: gun cabinet
+  description: A secure cabinet for storing guns.
   components:
   - type: Sprite
     sprite: Structures/Storage/Closets/guncabinet.rsi
@@ -86,8 +86,8 @@
 - type: entity
   parent: ClosetBaseW
   id: ClosetFridgeDirty
-  name: entity-closetfridgedirty-name
-  description: entity-closetfridgedirty-description
+  name: fridge
+  description: A dirty old fridge for keeping food fresh
   components:
   - type: Sprite
     sprite: Structures/Storage/Closets/fridgedirty.rsi
@@ -98,8 +98,8 @@
 - type: entity
   parent: ClosetBaseW
   id: ClosetFridgeWideDirty
-  name: entity-closetfridgedirty-name
-  description: entity-closetfridgedirty-description
+  name: fridge
+  description: A dirty old fridge for keeping food fresh
   components:
   - type: Sprite
     sprite: Structures/Storage/Closets/fridgewidedirty.rsi
@@ -110,8 +110,8 @@
 - type: entity
   parent: ClosetBaseW
   id: ClosetDouble
-  name: entity-closetdouble-name
-  description: entity-closetdouble-description
+  name: double closet
+  description: A double closet for holding twice the things.
   components:
   - type: Sprite
     sprite: Structures/Storage/Closets/doublecloset.rsi
@@ -132,8 +132,8 @@
 - type: entity
   parent: ClosetBase2
   id: ClosetCabinetWood
-  name: entity-closetcabinetwood-name
-  description: entity-closetcabinetwood-description
+  name: cabinet
+  description: An old pre-war wooden cabinet.
   components:
   - type: Sprite
     sprite: Structures/Storage/Closets/cabinet.rsi
@@ -173,8 +173,8 @@
   id: ClosetWallMedicabinet
   placement:
     mode: SnapgridCenter
-  name: entity-closetwallmedicabinet-name
-  description: entity-closetwallmedicabinet-description
+  name: medicabinet
+  description: A medicabinet mounted on the wall.
   components:
   - type: InteractionOutline
   - type: Clickable

@@ -1,7 +1,7 @@
 - type: entity
   id: LockerChiefJustice
   parent: LockerBaseSecure
-  name: entity-lockerchiefjustice-name
+  name: chief justice's locker
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -14,7 +14,7 @@
 - type: entity
   id: LockerClerk
   parent: LockerBaseSecure
-  name: entity-lockerclerk-name
+  name: clerk's locker
   components:
   - type: Appearance
   - type: EntityStorageVisuals

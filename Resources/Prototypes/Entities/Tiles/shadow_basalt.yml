@@ -1,7 +1,7 @@
 - type: entity
   id: ShadowBasaltOne
-  name: entity-shadowbasaltone-name
-  description: entity-shadowbasaltone-description
+  name: shadowstone
+  description: Glowing cracks in reality. It's probably fine.
   placement:
     mode: SnapgridCenter
   components:

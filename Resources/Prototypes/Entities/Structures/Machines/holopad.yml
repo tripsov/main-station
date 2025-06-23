@@ -1,7 +1,7 @@
 - type: entity
   parent: [ BaseMachinePowered, ConstructibleMachine ]
   id: Holopad
-  name: entity-holopad-name
+  name: holopad
   description: "A floor-mounted device for projecting holographic images."
   components:
   - type: Transform
@@ -107,7 +107,7 @@
         acts: ["Destruction"]
 
 - type: entity
-  name: entity-holopadlongrange-name
+  name: long-range holopad
   description: "A floor-mounted device for projecting holographic images to similar devices that are far away."
   parent: Holopad
   id: HolopadLongRange
@@ -120,7 +120,7 @@
     ignoreTelephonesOnSameGrid: true
 
 - type: entity
-  name: entity-holopadunlimitedrange-name
+  name: quantum entangling holopad
   description: "An floor-mounted device for projecting holographic images to similar devices at extreme distances."
   parent: Holopad
   id: HolopadUnlimitedRange
@@ -133,7 +133,7 @@
     ignoreTelephonesOnSameGrid: true
 
 - type: entity
-  name: entity-holopadbluespace-name
+  name: bluespace holopad
   description: "An experimental floor-mounted device for projecting holographic images via bluespace."
   parent: Holopad
   id: HolopadBluespace
@@ -150,7 +150,7 @@
 # These are spawned by holopads
 - type: entity
   id: HolopadHologram
-  name: entity-holopadhologram-name
+  name: hologram
   categories: [ HideSpawnMenu ]
   suffix: DO NOT MAP
   components:

@@ -1,8 +1,8 @@
 - type: entity
   parent: MMI
   id: AiAdapter
-  name: entity-aiadapter-name
-  description: entity-aiadapter-description
+  name: personal ai adapter
+  description: A device that allows a pAI to interface with electronics as if it was a positronic brain.
   components:
     - type: Sprite
       sprite: _EE/Objects/Specific/Robotics/paiadapter.rsi
@@ -31,8 +31,8 @@
 - type: entity
   parent: MMI
   id: ReverseMMI
-  name: entity-reversemmi-name
-  description: entity-reversemmi-description
+  name: machine-man interface
+  description: A machine able to facilitate communication between a biological body and positronics, enabling crew to continue to provide value after work-related incidents.
   components:
     - type: Sprite
       sprite: _EE/Objects/Specific/Robotics/reversemmi.rsi

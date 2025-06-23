@@ -3,8 +3,8 @@
   abstract: true
   id: BaseSMES
   parent: [ BaseMachine, ConstructibleMachine ]
-  name: entity-basesmes-name
-  description: entity-basesmes-description
+  name: SMES
+  description: A high-capacity superconducting magnetic energy storage (SMES) unit.
   placement:
     mode: SnapgridCenter
   components:
@@ -118,8 +118,8 @@
   parent: BaseSMES
   id: SMESAdvanced
   suffix: Advanced, 480MJ
-  name: entity-smesadvanced-name
-  description: entity-smesadvanced-description
+  name: advanced SMES
+  description: An even-higher-capacity superconducting magnetic energy storage (SMES) unit.
   components:
   - type: Sprite
     sprite: Structures/Power/smes.rsi

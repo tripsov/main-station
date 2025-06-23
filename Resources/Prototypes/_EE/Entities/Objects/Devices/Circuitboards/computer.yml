@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: SupermatterComputerCircuitboard
-  name: entity-supermattercomputercircuitboard-name
-  description: entity-supermattercomputercircuitboard-description
+  name: supermatter monitoring console board
+  description: A computer printed circuit board for a supermatter monitoring console.
   components:
   - type: Sprite
     state: cpu_engineering

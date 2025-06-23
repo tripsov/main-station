@@ -1,8 +1,8 @@
 - type: entity
   parent: ChairWood
   id: N14ChairWood
-  name: entity-n14chairwood-name
-  description: entity-n14chairwood-description
+  name: wooden chair
+  description: A wooden chair suitable for sitting on.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/bedsandchairs.rsi
@@ -37,8 +37,8 @@
 - type: entity
   parent: N14ChairWood
   id: N14ChairWoodSettler
-  name: entity-n14chairwood-name
-  description: entity-n14chairwoodsettler-description
+  name: wooden chair
+  description: A wooden chair claimed by some settlers.
   components:
   - type: Sprite
     state: wooden_chair_settler
@@ -49,7 +49,7 @@
 - type: entity
   parent: StoolBase
   id: N14ChairStoolBarBlack
-  description: entity-n14chairstoolbarblack-description
+  description: A black bar stool.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/bedsandchairs.rsi
@@ -62,7 +62,7 @@
 - type: entity
   parent: StoolBase
   id: N14ChairStoolBarTan
-  description: entity-n14chairstoolbartan-description
+  description: A tan bar stool.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/bedsandchairs.rsi
@@ -74,7 +74,7 @@
 - type: entity
   parent: StoolBase
   id: N14ChairStoolBarRed
-  description: entity-n14chairstoolbarred-description
+  description: A red bar stool.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/chairs.rsi
@@ -86,8 +86,8 @@
 - type: entity
   parent: N14ChairWood
   id: N14ChairArmchair
-  name: entity-n14chairarmchair-name
-  description: entity-n14chairarmchair-description
+  name: armchair
+  description: A padded armchair.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/chairs.rsi
@@ -100,7 +100,7 @@
 - type: entity
   parent: Chair
   id: N14ChairMetalGreen
-  description: entity-n14chairmetalgreen-description
+  description: A metal chair for sitting on.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/chairs.rsi
@@ -187,7 +187,7 @@
 - type: entity
   parent: OfficeChairBase
   id: N14ChairOfficeRed
-  name: entity-n14chairofficered-name
+  name: office chair
   suffix: red
   components:
   - type: Sprite
@@ -210,7 +210,7 @@
 - type: entity
   parent: OfficeChairBase
   id: N14ChairOfficeBlue
-  name: entity-n14chairofficered-name
+  name: office chair
   suffix: blue
   components:
   - type: Sprite
@@ -233,7 +233,7 @@
 - type: entity
   parent: OfficeChairBase
   id: N14ChairOfficeGreen
-  name: entity-n14chairofficered-name
+  name: office chair
   suffix: green
   components:
   - type: Sprite
@@ -268,7 +268,7 @@
 - type: entity
   parent: N14ChairMetalGreen
   id: N14ChairMetalFolding
-  name: entity-n14chairmetalfolding-name
+  name: folding chair
   suffix: folding
   components:
   - type: Sprite
@@ -280,7 +280,7 @@
 - type: entity
   parent: N14ChairMetalGreen
   id: N14ChairBarRetro
-  name: entity-n14chairbarretro-name
+  name: retro chair
   suffix: retro
   components:
   - type: Sprite
@@ -289,8 +289,8 @@
 - type: entity
   parent: N14ChairMetalGreen
   id: N14ChairPlastic
-  name: entity-n14chairplastic-name
-  description: entity-n14chairplastic-description
+  name: plastic chair
+  description: A plastic chair. Looks uncomfy.
   suffix: plastic
   components:
   - type: Sprite
@@ -302,8 +302,8 @@
 - type: entity
   parent: N14ChairMetalGreen
   id: N14ChairDinerBench
-  name: entity-n14chairdinerbench-name
-  description: entity-n14chairdinerbench-description
+  name: diner chair
+  description: An American Diner bench.
   components:
   - type: Sprite
     state: diner_chair

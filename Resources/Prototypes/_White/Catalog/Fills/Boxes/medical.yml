@@ -1,8 +1,8 @@
 - type: entity
   parent: BoxCardboard
   id: BoxBodyBagBluespace
-  name: entity-boxbodybagbluespace-name
-  description: entity-boxbodybagbluespace-description
+  name: bluespace body bag box
+  description: Contains body bags.
   components:
   - type: StorageFill
     contents:
@@ -19,8 +19,8 @@
 - type: entity
   parent: BoxCardboard
   id: BoxBodyBagNanoTrasen
-  name: entity-boxbodybagnanotrasen-name
-  description: entity-boxbodybagbluespace-description
+  name: NanoTrasen body bag box
+  description: Contains body bags.
   components:
   - type: StorageFill
     contents:
@@ -37,8 +37,8 @@
 - type: entity
   parent: BoxCardboard
   id: BoxBodyBagPrisoner
-  name: entity-boxbodybagprisoner-name
-  description: entity-boxbodybagbluespace-description
+  name: prisoner body bag box
+  description: Contains body bags.
   components:
   - type: StorageFill
     contents:
@@ -55,8 +55,8 @@
 - type: entity
   parent: BoxCardboard
   id: BoxBodyBagRadiation
-  name: entity-boxbodybagradiation-name
-  description: entity-boxbodybagbluespace-description
+  name: radiation body bag box
+  description: Contains body bags.
   components:
   - type: StorageFill
     contents:
@@ -73,8 +73,8 @@
 - type: entity
   parent: BoxCardboard
   id: BoxBodyBagSyndicate
-  name: entity-boxbodybagsyndicate-name
-  description: entity-boxbodybagbluespace-description
+  name: syndicate body bag box
+  description: Contains body bags.
   components:
   - type: StorageFill
     contents:

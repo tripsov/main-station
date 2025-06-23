@@ -1,6 +1,6 @@
 - type: entity
-  name: entity-particlesprojectile-name
-  description: entity-particlesprojectile-description
+  name: particles
+  description: Accelerated particles.
   id: ParticlesProjectile
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
@@ -50,8 +50,8 @@
       guides: [ Singularity, Power ]
 
 - type: entity
-  name: entity-antiparticlesprojectile-name
-  description: entity-antiparticlesprojectile-description
+  name: anti particles
+  description: Accelerated negative particles.
   id: AntiParticlesProjectile
   parent: ParticlesProjectile
   categories: [ HideSpawnMenu ]

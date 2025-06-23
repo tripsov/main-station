@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingBeltStorageBase
   id: ClothingBeltStorageWaistbag
-  name: entity-clothingbeltstoragewaistbag-name
-  description: entity-clothingbeltstoragewaistbag-description
+  name: leather waist bag
+  description: A leather waist bag meant for carrying small items.
   components:
   - type: Sprite
     sprite: Clothing/Belt/waistbag_leather.rsi
@@ -15,8 +15,8 @@
 - type: entity
   parent: ClothingBeltStorageWaistbag
   id: ClothingBeltStorageWaistbagColor
-  name: entity-clothingbeltstoragewaistbagcolor-name
-  description: entity-clothingbeltstoragewaistbagcolor-description
+  name: waist bag
+  description: A waist bag meant for carrying small items.
   components:
   - type: Sprite
     sprite: Clothing/Belt/waistbag_color.rsi

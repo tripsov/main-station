@@ -1,6 +1,6 @@
 - type: entity
   save: false
-  name: entity-mobarachnebase-name
+  name: Urist McArachne
   parent: BaseMobHuman
   id: MobArachneBase
   abstract: true
@@ -154,11 +154,11 @@
 
 - type: entity
   save: false
-  name: entity-mobarachnedummy-name
+  name: Urist McHands
   parent: MobHumanDummy
   id: MobArachneDummy
   categories: [ HideSpawnMenu ]
-  description: entity-mobarachnedummy-description
+  description: A dummy arachne meant to be used in character setup.
   components:
   - type: Sprite
     layers:

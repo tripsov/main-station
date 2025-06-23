@@ -2,8 +2,8 @@
   abstract: true
   parent: BaseItem
   id: ShardCrystalBase
-  name: entity-shardcrystalbase-name
-  description:  entity-shardcrystalbase-description
+  name: crystal shard
+  description:  A small piece of crystal.
   components:
   - type: Sharp
   - type: Execution
@@ -43,8 +43,8 @@
 - type: entity
   parent: ShardCrystalBase
   id: ShardCrystalCyan
-  name: entity-shardcrystalcyan-name
-  description: entity-shardcrystalbase-description
+  name: cyan crystal shard
+  description: A small piece of crystal.
   components:
   - type: Sprite
     color: "#47f8ff"
@@ -62,7 +62,7 @@
 
 - type: entity
   parent: ShardCrystalBase
-  name: entity-shardcrystalblue-name
+  name: blue crystal shard
   id: ShardCrystalBlue
   components:
   - type: Sprite
@@ -82,7 +82,7 @@
 - type: entity
   parent: ShardCrystalBase
   id: ShardCrystalOrange
-  name: entity-shardcrystalorange-name
+  name: orange crystal shard
   components:
   - type: Sprite
     color: "#ff8227"
@@ -101,7 +101,7 @@
 - type: entity
   parent: ShardCrystalBase
   id: ShardCrystalPink
-  name: entity-shardcrystalpink-name
+  name: pink crystal shard
   components:
   - type: Sprite
     color: "#ff66cc"
@@ -120,7 +120,7 @@
 - type: entity
   parent: ShardCrystalBase
   id: ShardCrystalGreen
-  name: entity-shardcrystalgreen-name
+  name: green crystal shard
   components:
   - type: Sprite
     color: "#52ff39"
@@ -139,7 +139,7 @@
 - type: entity
   parent: ShardCrystalBase
   id: ShardCrystalRed
-  name: entity-shardcrystalred-name
+  name: red crystal shard
   components:
   - type: Sprite
     color: "#fb4747"
@@ -158,7 +158,7 @@
 - type: entity
   parent: ShardCrystalBase
   id: ShardCrystalRandom
-  name: entity-shardcrystalrandom-name
+  name: random crystal shard
   components:
   - type: RandomSpawner
     prototypes:

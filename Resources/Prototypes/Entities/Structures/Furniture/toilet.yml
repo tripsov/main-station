@@ -1,9 +1,9 @@
 - type: entity
-  name: entity-toiletempty-name
+  name: toilet
   id: ToiletEmpty
   suffix: Empty
   parent: [ DisposalUnitBase, SeatBase ]
-  description: entity-toiletempty-description
+  description: The HT-451, a torque rotation-based, waste disposal unit for small matter. This one seems remarkably clean.
   components:
   - type: Sprite
     sprite: Structures/Furniture/toilet.rsi

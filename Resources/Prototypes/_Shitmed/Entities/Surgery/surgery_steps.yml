@@ -7,7 +7,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepOpenIncisionScalpel
-  name: entity-surgerystepopenincisionscalpel-name
+  name: Cut with a scalpel
   categories: [ HideSpawnMenu ]
   components:
   - type: SurgeryStep
@@ -29,7 +29,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepClampBleeders
-  name: entity-surgerystepclampbleeders-name
+  name: Clamp the bleeders
   categories: [ HideSpawnMenu ]
   components:
   - type: SurgeryStep
@@ -50,7 +50,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepRetractSkin
-  name: entity-surgerystepretractskin-name
+  name: Retract the skin
   categories: [ HideSpawnMenu ]
   components:
   - type: SurgeryStep
@@ -66,7 +66,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepSawBones
-  name: entity-surgerystepsawbones-name
+  name: Saw through bones
   categories: [ HideSpawnMenu ]
   components:
   - type: SurgeryStep
@@ -83,7 +83,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepPriseOpenBones
-  name: entity-surgerysteppriseopenbones-name
+  name: Prise the bones open
   categories: [ HideSpawnMenu ]
   components:
   - type: SurgeryStep
@@ -134,7 +134,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepCloseBones
-  name: entity-surgerystepclosebones-name
+  name: Close bones
   categories: [ HideSpawnMenu ]
   components:
   - type: SurgeryStep
@@ -150,7 +150,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepMendRibcage
-  name: entity-surgerystepmendribcage-name
+  name: Mend ribcage
   categories: [ HideSpawnMenu ]
   components:
   - type: SurgeryStep
@@ -166,7 +166,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepCloseIncision
-  name: entity-surgerystepcloseincision-name
+  name: Close incision
   categories: [ HideSpawnMenu ]
   components:
   - type: SurgeryStep
@@ -196,7 +196,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepInsertFeature
-  name: entity-surgerystepinsertfeature-name
+  name: Insert part
   categories: [ HideSpawnMenu ]
   components:
   - type: SurgeryStep
@@ -211,7 +211,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepSealWounds
-  name: entity-surgerystepsealwounds-name
+  name: Seal wounds
   categories: [ HideSpawnMenu ]
   components:
   - type: SurgeryStep
@@ -239,7 +239,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepSawFeature
-  name: entity-surgerystepsawbones-name
+  name: Saw through bones
   categories: [ HideSpawnMenu ]
   components:
   - type: SurgeryStep
@@ -256,7 +256,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepClampInternalBleeders
-  name: entity-surgerystepclampinternalbleeders-name
+  name: Clamp internal bleeders
   categories: [ HideSpawnMenu ]
   components:
   - type: SurgeryStep
@@ -277,7 +277,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepRemoveFeature
-  name: entity-surgerystepremovefeature-name
+  name: Amputate part
   categories: [ HideSpawnMenu ]
   components:
   - type: SurgeryStep
@@ -301,7 +301,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepCarefulIncisionScalpel
-  name: entity-surgerystepcarefulincisionscalpel-name
+  name: Make a careful incision
   categories: [ HideSpawnMenu ]
   components:
   - type: SurgeryStep
@@ -318,7 +318,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepRepairBruteTissue
-  name: entity-surgerysteprepairbrutetissue-name
+  name: Repair damaged tissue
   categories: [ HideSpawnMenu ]
   components:
   - type: SurgeryStep
@@ -337,7 +337,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepRepairBurnTissue
-  name: entity-surgerysteprepairburntissue-name
+  name: Repair burnt tissue
   categories: [ HideSpawnMenu ]
   components:
   - type: SurgeryStep
@@ -357,7 +357,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepSealTendWound
-  name: entity-surgerystepsealtendwound-name
+  name: Seal the wound
   categories: [ HideSpawnMenu ]
   components:
   - type: SurgeryStep
@@ -381,7 +381,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepInsertItem
-  name: entity-surgerystepinsertitem-name
+  name: Insert item into cavity
   categories: [ HideSpawnMenu ]
   components:
   - type: SurgeryStep
@@ -396,7 +396,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepRemoveItem
-  name: entity-surgerystepremoveitem-name
+  name: Remove item from cavity
   categories: [ HideSpawnMenu ]
   components:
   - type: SurgeryStep
@@ -413,7 +413,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepRemoveOrgan
-  name: entity-surgerystepremoveorgan-name
+  name: Remove organ
   categories: [ HideSpawnMenu ]
   components:
   - type: SurgeryStep
@@ -429,7 +429,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepInsertOrgan
-  name: entity-surgerystepinsertorgan-name
+  name: Add organ
   categories: [ HideSpawnMenu ]
   components:
   - type: SurgeryStep
@@ -445,7 +445,7 @@
 - type: entity
   parent: SurgeryStepInsertOrgan
   id: SurgeryStepInsertLungs
-  name: entity-surgerystepinsertlungs-name
+  name: Add lungs
   categories: [ HideSpawnMenu ]
   components:
   - type: SurgeryDamageChangeEffect
@@ -458,14 +458,14 @@
 - type: entity
   parent: SurgeryStepInsertOrgan
   id: SurgeryStepInsertStomach
-  name: entity-surgerystepinsertstomach-name
+  name: Add stomach
   categories: [ HideSpawnMenu ]
   # no effect its just for minmaxing metabolism
 
 - type: entity
   parent: SurgeryStepInsertOrgan
   id: SurgeryStepInsertLiver
-  name: entity-surgerystepinsertliver-name
+  name: Add liver
   categories: [ HideSpawnMenu ]
   components:
   - type: SurgeryDamageChangeEffect
@@ -478,13 +478,13 @@
 - type: entity
   parent: SurgeryStepInsertOrgan
   id: SurgeryStepInsertEyes
-  name: entity-surgerystepinserteyes-name
+  name: Add eyes
   categories: [ HideSpawnMenu ]
 
 - type: entity
   parent: SurgeryStepInsertOrgan
   id: SurgeryStepInsertHeart
-  name: entity-surgerystepinsertheart-name
+  name: Add heart
   categories: [ HideSpawnMenu ]
   components:
   - type: SurgerySpecialDamageChangeEffect
@@ -494,7 +494,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepSealOrganWound
-  name: entity-surgerystepsealwounds-name
+  name: Seal wounds
   categories: [ HideSpawnMenu ]
   components:
   - type: SurgeryStep
@@ -515,7 +515,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepLobotomize
-  name: entity-surgerysteplobotomize-name
+  name: Lobotomize patient
   categories: [ HideSpawnMenu ]
   components:
   - type: SurgeryStep
@@ -545,7 +545,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepMendBrainTissue
-  name: entity-surgerystepmendbraintissue-name
+  name: Mend brain tissue
   categories: [ HideSpawnMenu ]
   components:
   - type: SurgeryStep

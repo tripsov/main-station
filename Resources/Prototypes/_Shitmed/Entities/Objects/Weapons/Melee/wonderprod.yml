@@ -1,8 +1,8 @@
 - type: entity
-  name: entity-wonderprod-name
+  name: wonderprod
   parent: BaseItem
   id: Wonderprod
-  description: entity-wonderprod-description
+  description: Universal tool of the abductor agent.
   components:
   - type: Item
     sprite: _Shitmed/Objects/Weapons/Melee/wonderprod.rsi

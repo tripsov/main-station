@@ -1,11 +1,11 @@
 ﻿- type: construction
-  name: construction-grenadetrap-name
+  name: booby trap
   id: GrenadeTrap
   graph: GrenadeTrapGraph
   startNode: start
   targetNode: trap_full
   category: construction-category-furniture
-  description: construction-grenadetrap-description
+  description: An explosive surprise.
   icon:
     sprite: _White/Structures/Other/grenadetrap.rsi
     #offset: 0.5, 0

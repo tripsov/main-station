@@ -1,6 +1,6 @@
 - type: entity
   id: BionicSyrinxImplanter
-  name: entity-bionicsyrinximplanter-name
+  name: bionic syrinx implanter
   parent: BaseImplantOnlyImplanterSyndi
   components:
     - type: Implanter

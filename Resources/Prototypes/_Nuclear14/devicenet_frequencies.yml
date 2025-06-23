@@ -1,25 +1,25 @@
 # Cameras
 - type: deviceFrequency
   id: SurveillanceCameraBrotherhoodWashington
-  name: devicefrequency-surveillancecamerabrotherhoodwashington-name
+  name: device-frequency-prototype-name-surveillance-camera
   frequency: 4100
 
 - type: deviceFrequency
   id: SurveillanceCameraBrotherhoodMidwest
-  name: devicefrequency-surveillancecamerabrotherhoodwashington-name
+  name: device-frequency-prototype-name-surveillance-camera
   frequency: 4200
 
 - type: deviceFrequency
   id: SurveillanceCameraNCR
-  name: devicefrequency-surveillancecamerabrotherhoodwashington-name
+  name: device-frequency-prototype-name-surveillance-camera
   frequency: 4300
 
 - type: deviceFrequency
   id: SurveillanceCameraTown
-  name: devicefrequency-surveillancecamerabrotherhoodwashington-name
+  name: device-frequency-prototype-name-surveillance-camera
   frequency: 4400
 
 - type: deviceFrequency
   id: SurveillanceCameraVault
-  name: devicefrequency-surveillancecamerabrotherhoodwashington-name
+  name: device-frequency-prototype-name-surveillance-camera
   frequency: 4500

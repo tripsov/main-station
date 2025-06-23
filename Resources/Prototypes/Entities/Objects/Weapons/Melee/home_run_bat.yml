@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseBallBat
   id: BaseBallBatHomeRun
-  name: entity-baseballbathomerun-name
-  description: entity-baseballbathomerun-description
+  name: home run bat
+  description: Heavy metal bat with an extra kick.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/home_run_bat.rsi

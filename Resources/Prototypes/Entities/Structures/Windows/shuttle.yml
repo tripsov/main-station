@@ -1,6 +1,6 @@
 - type: entity
   id: ShuttleWindow
-  name: entity-shuttlewindow-name
+  name: shuttle window
   parent: WindowRCDResistant
   components:
   - type: Sprite
