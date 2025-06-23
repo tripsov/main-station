@@ -10667,13 +10667,22 @@ entity-cigarettearithrazine-name = «Римская курительная»
 entity-cigaretteipecac-name = «Бабушкин фруктовый торт»
 entity-cigarettebicaridine-name = «Мокрая собака», улучшенная версия
 entity-cigarettedexalin-name = «Мускус горного воздуха»
+entity-cigarettepax-name = «Экспресс в Швейцарию»
 entity-cigarettebbqsauce-name = «Аромат костра»
 entity-cigaretteblackpepper-name = «Английская пряность»
+entity-cigarettecapsaicinoil-name = «Огненная P»
 entity-cigarettebread-name = «Дважды поджаренная»
 entity-cigarettemilk-name = «Экстракт коровы»
+entity-cigarettebanana-name = «Бонус клоунской близости»
 entity-cigarettespacedrugs-name = «Сила 80-х»
+entity-cigarettepax-name = «Швейцарский экспресс»
+entity-cigarettebbqsauce-name = «Дымный пикник»
+entity-cigaretteblackpepper-name = «Острый джентльмен»
 entity-cigarettecapsaicinoil-name = «Кусачий малыш»
+entity-cigarettebread-name = «Хрустящий как утро»
+entity-cigarettemilk-name = «Корова в огне»
 entity-cigarettebanana-name = «Клоун рядом»
+entity-cigarettespacedrugs-name = «80-е в таблетке»
 entity-cigarettepax-name = «Мир и спокойствие»
 entity-cigarettemutetoxin-name = «Смесь для молчаливых»
 entity-cigarettemold-name = «Опыт из-под раковины»
@@ -14784,6 +14793,8 @@ entity-borgmodulemining-name = модуль шахтёра борга
 entity-borgmodulejetpack-name = модуль джетпака борга
 entity-borgmodulejetpack-description = Технология, позволяющая боргам летать. Не забудь зарядить.
 
+
+entity-borgmodulepka-name = модуль ПКА борга
 entity-borgmoduleadvancedtool-name = модуль продвинутых инструментов борга
 entity-borgmoduleconstruction-name = строительный модуль борга
 entity-borgmodulercd-name = модуль РСК борга
@@ -17007,7 +17018,9 @@ entity-memorial-name = мемориал
 entity-memorial-description = В память о чём-то. Или о ком-то. Или просто так.
 
 entity-ss13memorial-name = Гробница Неизвестного Сотрудника
-entity-ss13memorial-description = Здесь покоится неизвестный сотрудник. Неизвестный по имени или званию. Но его дела не будут забыты.
+entity-ss13memorial-description = Здесь покоится неизвестный сотрудник
+Неизвестный по имени или званию
+Но его дела не будут забыты
 
 entity-pottedplantbase-name = комнатное растение
 entity-pottedplantbase-description = Немного природы в горшке.
@@ -17018,7 +17031,8 @@ entity-pottedplantbioluminscent-description = Оно светится! Маги�
 entity-pottedplant10-description = Красивый кусочек природы в горшке.
 
 entity-pottedplantrd-name = растение мистагога
-entity-pottedplantrd-description = Подарок от ботаников после перевода мистагога. На бирке написано: «Вы там возвращайтесь, слышите?». Растение, кажется, чахнет...
+entity-pottedplantrd-description = Подарок от ботаников после перевода мистагога. На бирке написано: «Вы там возвращайтесь, слышите?»
+Растение, кажется, чахнет...
 
 entity-pottedplant26-description = Оно... мигает?
 
@@ -17750,6 +17764,11 @@ entity-turboitemrecharger-description = Разогнанное зарядное 
 entity-wallweaponcapacitorrecharger-name = настенный зарядник
 entity-borgcharger-name = станция зарядки киборгов
 entity-borgcharger-description = Стационарная зарядная платформа для роботов и киборгов. Внезапно вместительная.
+
+entity-debugconsumer-name = потребитель
+entity-debugbatterystorage-name = хранилище батарей
+entity-debugbatterydischarger-name = разрядник
+entity-debugpowerreceiver-name = приёмник энергии
 
 entity-debugconsumer-name = потребитель
 entity-debugbatterystorage-name = хранилище батарей
@@ -18503,6 +18522,7 @@ entity-cratestonegrave-description = Кто-то здесь умер…
 entity-cratesyndicate-name = ящик Синдиката
 entity-cratesyndicate-description = Тёмный стальной ящик с красными полосами и тиснёной буквой «S».
 
+entity-cratetrashcart-name = тележка для мусора
 entity-cratetrashcartjani-name = мусорная тележка уборщика
 
 entity-storagetank-name = резервуар
