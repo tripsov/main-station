@@ -1,0 +1,12 @@
+guideentry-mantisguide-name = Мантис
+guideentry-nations-name = Нации
+guideentry-solalliance-name = Альянс Сола
+guideentry-tcfl-name = TCFL
+guideentry-thaven-name = Тавен
+guideentry-medusaruleset-name = Правила
+guideentry-whiteantagonist-name = Антагонисты
+guideentry-headcrabs-name = Хедкрабы
+guideentry-wwdp-name = WWDP
+guideentry-headcrab-name = Хедкраб
+guideentry-headcrabfast-name = Быстрый хедкраб
+guideentry-headcrabpoison-name = Ядовитый хедкраб
