@@ -1,3 +1,6 @@
+ent-BaseChemistryEmptyBottle = бутылочка
+    .desc = Маленькая бутылочка.
+    .suffix = { "" }
 ent-ChemistryEmptyBottle01 = бутылочка
     .desc = { ent-BaseChemistryEmptyBottle.desc }
     .suffix = { "" }

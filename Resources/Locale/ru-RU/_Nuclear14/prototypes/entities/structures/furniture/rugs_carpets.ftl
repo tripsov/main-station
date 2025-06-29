@@ -2,6 +2,10 @@ ent-N14CarpetSingleBase = { ent-BaseStructure }
     .desc = Лучше, чем пол.
     .suffix = { "" }
 
+ent-N14RugMat = коврик
+    .desc = { ent-N14CarpetSingleBase.desc }
+    .suffix = { "" }
+
 ent-N14RugMatWelcome = { ent-N14RugMat }
     .desc = { ent-N14RugMat.desc }
     .suffix = добро пожаловать
@@ -26,6 +30,10 @@ ent-N14RugMatBOS = { ent-N14RugMatVulgar1 }
     .desc = { ent-N14RugMatVulgar1.desc }
     .suffix = BOS отстой
 
+ent-N14RugMatRubberSingle = резиновый коврик
+    .desc = Резиновый защитный коврик для пола.
+    .suffix = { "" }
+
 ent-N14RugMatRubber1 = { ent-N14RugMatRubberSingle }
     .desc = { ent-N14RugMatRubberSingle.desc }
     .suffix = { "" }
@@ -36,6 +44,10 @@ ent-N14RugMatRubber2 = { ent-N14RugMatRubberSingle }
 
 ent-N14RugMatRubber3 = { ent-N14RugMatRubberSingle }
     .desc = { ent-N14RugMatRubberSingle.desc }
+    .suffix = { "" }
+
+ent-N14RugBlue = ковер
+    .desc = Современный синий ковер.
     .suffix = { "" }
 
 ent-N14RugBlueShag = { ent-N14RugBlue }
@@ -54,3 +66,6 @@ ent-N14RugYellow = { ent-N14RugBlue }
     .desc = Узорчатый желтый ковер.
     .suffix = { "" }
 
+ent-N14RugMatRubberLarge = большой резиновый коврик
+    .desc = Большой резиновый коврик.
+    .suffix = { "" }

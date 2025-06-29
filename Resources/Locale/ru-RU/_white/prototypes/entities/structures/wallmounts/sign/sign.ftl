@@ -1,3 +1,7 @@
+ent-SignTVR1 = знак ТВР
+    .desc = Знак указывающий на ТВР
+    .suffix = часть 1
+
 ent-SignTVR2 = { ent-SignTVR1 }
     .desc = { ent-SignTVR1.desc }
     .suffix = часть 2
