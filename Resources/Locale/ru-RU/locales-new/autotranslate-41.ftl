@@ -55,3 +55,5 @@ ent-WindoorSecureParamedicLocked = { ent-WindoorSecure }
 ent-WindoorSecureQuartermasterLocked = { ent-WindoorSecure }
     .desc = { ent-WindoorSecure.desc }
     .suffix = Квартирмейстер, Закрыт
+ent-Mattress = матрас
+   .desc = Лучше спать на нем, чем на полу, я думаю.

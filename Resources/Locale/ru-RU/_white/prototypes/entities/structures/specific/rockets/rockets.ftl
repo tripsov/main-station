@@ -1,3 +1,6 @@
+ent-BaseRocket = ракета
+   .desc = Оно взорвалось... блять...
+
 ent-Rocket = { ent-BaseRocket }
     .desc = { ent-BaseRocket.desc }
 ent-RocketSyndicate = { ent-BaseRocket }
