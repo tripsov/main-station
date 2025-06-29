@@ -1,7 +1,3 @@
-ent-N14Rails = железная дорога
-    .desc = { "" }
-    .suffix = { "" }
-
 ent-N14RailsJunctionRightTop = { ent-N14Rails }
     .desc = { ent-N14Rails.desc }
     .suffix = развилка справа сверху

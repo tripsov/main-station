@@ -1,7 +1,3 @@
-ent-N14Plantpot = { ent-PottedPlantBase }
-    .desc = { ent-PottedPlantBase.desc }
-    .suffix = { "" }
-
 ent-N14Plantpot1 = { ent-N14Plantpot }
     .desc = { ent-N14Plantpot.desc }
     .suffix = { "" }

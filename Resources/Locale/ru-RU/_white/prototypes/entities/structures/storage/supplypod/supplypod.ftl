@@ -1,6 +1,3 @@
-ent-BaseSupplyPod = грузовая капсула
-   .desc = Оно пробило пол... блять...
-
 ent-SupplyPodCapsuleDefault = { ent-BaseSupplyPod }
     .desc = { ent-BaseSupplyPod.desc }
     .suffix = Пустой, обычный

@@ -1,6 +1,3 @@
-ent-CarpetBase = { ent-BaseStructure }
-    .desc = Приятная поверхность для ходьбы.
-    .suffix = { "" }
 ent-Carpet = красный ковёр
     .desc = { ent-CarpetBase.desc }
     .suffix = { "" }
@@ -24,7 +21,4 @@ ent-CarpetSBlue = голубой ковёр
     .suffix = { "" }
 ent-CarpetPurple = фиолетовый ковёр
     .desc = { ent-CarpetBase.desc }
-    .suffix = { "" }
-ent-CarpetChapel = ковёр церкви
-    .desc = { ent-BaseStructure.desc }
     .suffix = { "" }

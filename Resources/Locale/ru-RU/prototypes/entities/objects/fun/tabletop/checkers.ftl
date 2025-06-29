@@ -1,9 +1,3 @@
-ent-CheckerBoard = шашечная доска
-    .desc = Шашечная доска. Шашки в комплекте!
-    .suffix = { "" }
-ent-CheckerBoardTabletop = шашки
-    .desc = { "" }
-    .suffix = { "" }
 ent-BaseCheckerPiece = { ent-BaseItem }
     .desc = { ent-BaseItem.desc }
     .suffix = { "" }

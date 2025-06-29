@@ -1,6 +1,3 @@
-ent-BasaltOne = basalt
-    .desc = Rock
-    .suffix = { "" }
 ent-BasaltTwo = { ent-BasaltOne }
     .desc = { ent-BasaltOne.desc }
     .suffix = { "" }
