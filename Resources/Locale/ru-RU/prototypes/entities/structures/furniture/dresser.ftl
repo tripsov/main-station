@@ -1,6 +1,3 @@
-ent-Dresser = комод
-    .desc = Он забит нижним бельем и шортами, найти неиспользованные - та еще авантюра.
-    .suffix = { "" }
 ent-DresserCaptainFilled = { ent-Dresser }
     .desc = { ent-Dresser.desc }
 ent-DresserChiefEngineerFilled = { ent-Dresser }

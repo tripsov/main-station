@@ -1,7 +1,3 @@
-ent-N14ClosetSafe = сейф
-    .desc = Может быть наполнен ценностями.
-    .suffix = { "" }
-
 ent-N14LootClosetSafe = { ent-N14ClosetSafe }
     .desc = { ent-N14ClosetSafe.desc }
     .suffix = Случайный военный лут

@@ -28,12 +28,6 @@ ent-AirlockCommand = { ent-Airlock }
 ent-AirlockSecurity = { ent-Airlock }
     .suffix = СлужбаБезопасности
     .desc = { ent-Airlock.desc }
-ent-AirlockMaint = технический шлюз
-    .desc = { ent-Airlock.desc }
-    .suffix = { "" }
-ent-AirlockGlass = стеклянный шлюз
-    .desc = { ent-Airlock.desc }
-    .suffix = { "" }
 ent-AirlockEngineeringGlass = { ent-AirlockGlass }
     .suffix = Инженерный
     .desc = { ent-AirlockGlass.desc }
@@ -62,9 +56,3 @@ ent-AirlockSecurityGlass = { ent-AirlockGlass }
     .desc = { ent-AirlockGlass.desc }
     .suffix = СлужбаБезопасности
 
-ent-AirlockHatch = шлюзовый люк
-    .desc = { ent-Airlock.desc }
-
-ent-AirlockHatchMaintenance = { ent-AirlockHatch}
-    .desc = { ent-AirlockHatch.desc }
-    .suffix = Технический
