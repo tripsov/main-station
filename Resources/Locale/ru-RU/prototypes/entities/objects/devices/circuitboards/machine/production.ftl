@@ -135,6 +135,3 @@ ent-PortableGeneratorSuperPacmanMachineCircuitboard = плата портати�
 ent-MaterialSiloCircuitboard = плата хранилища материалов
     .desc = Печатная плата хранилища материалов
     .suffix = { "" }
-ent-BorgChargerCircuitboard = плата зарядника киборга
-    .desc = Печатная плата зарядника киборга
-    .suffix = { "" }

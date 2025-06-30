@@ -1,1 +1,0 @@
-crayon-text-input-mode-tooltip = Use text symbols only

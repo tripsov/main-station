@@ -1,6 +1,6 @@
 # Monkey head for borging/transplanting pun pun
 - type: entity
-  parent: [BaseHead, PartAnimal] # WWDP
+  parent: [PartAnimal, BaseHead]
   id: HeadAnimal
   name: animal head
   categories: [ HideSpawnMenu ]

@@ -47,7 +47,7 @@ tilemap:
   62: FloorIce
   64: FloorLaundry
   65: FloorLino
-  67: FloorMetalDiamondSteel
+  67: FloorMetalDiamond
   68: FloorMime
   75: FloorOldConcreteSmooth
   79: FloorRGlass
@@ -62,8 +62,8 @@ tilemap:
   103: FloorSteelLime
   105: FloorSteelMono
   107: FloorSteelPavement
-  109: FloorTechMaintSteel
-  110: FloorMaintWhite
+  109: FloorTechMaint
+  110: FloorTechMaint2
   111: FloorTechMaint3
   113: FloorWhite
   114: FloorWhiteDiagonal

@@ -21,6 +21,7 @@ namespace Content.Server.Entry
             "HolidayRsiSwap",
             "OptionsVisualizer",
             "ToggleableLightWieldable", // Goobstation
+            "DollyMixture", // WWDP EDIT
             "ItemSlotRenderer", // WWDP EDIT
         };
     }

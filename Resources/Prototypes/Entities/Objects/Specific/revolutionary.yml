@@ -42,21 +42,20 @@
         - !type:CharacterAntagonistRequirement
           antagonists:
             - Rev
-    # WWDP we dont need it - leave the rev ones above as gamemode instructions
-    #   - description: "revolutionarymanifesto-extenddescription-security"
-    #     fontSize: 12
-    #     color: "#ff0000"
-    #     requireDetailRange: true
-    #     requirements:
-    #     - !type:CharacterDepartmentRequirement
-    #       departments:
-    #         - Security
-    #   - description: "revolutionarymanifesto-extenddescription-mindshield"
-    #     fontSize: 12
-    #     color: "#11aaff"
-    #     requireDetailRange: true
-    #     requirements:
-    #     - !type:CharacterMindshieldRequirement
+      - description: "revolutionarymanifesto-extenddescription-security"
+        fontSize: 12
+        color: "#ff0000"
+        requireDetailRange: true
+        requirements:
+        - !type:CharacterDepartmentRequirement
+          departments:
+            - Security
+      - description: "revolutionarymanifesto-extenddescription-mindshield"
+        fontSize: 12
+        color: "#11aaff"
+        requireDetailRange: true
+        requirements:
+        - !type:CharacterMindshieldRequirement
     - type: GuideHelp
       guides:
       - Revolutionaries

@@ -55,12 +55,12 @@ tilemap:
   21: FloorMS13WoodWide
   23: FloorMS13WoodWideDamaged
   2: FloorMetalBlueSolid
-  67: FloorMetalDiamondSteel
+  67: FloorMetalDiamond
   12: FloorMetalGreyDarkSolid
   68: FloorMime
   70: FloorMiningDark
   54: FloorMiningLight
-  72: FloorTrueMonoTileSteel
+  72: FloorMono
   51: FloorOldConcreteSmooth
   77: FloorPlanetGrass
   78: FloorPlastic
@@ -81,8 +81,8 @@ tilemap:
   106: FloorSteelOffset
   107: FloorSteelPavement
   19: FloorSteelWorn
-  109: FloorTechMaintSteel
-  110: FloorMaintWhite
+  109: FloorTechMaint
+  110: FloorTechMaint2
   111: FloorTechMaint3
   113: FloorWhite
   114: FloorWhiteDiagonal

@@ -31,7 +31,6 @@
     - id: LunchboxSecurityFilledRandom # Delta-v Lunchboxes!
       prob: 0.3
     - id: BoxBodyBagPrisoner # WD
-    - id: ClothingMaskGasSecurity # WWDP
 
 - type: entity
   id: LockerWardenFilled
@@ -64,7 +63,6 @@
     - id: LunchboxSecurityFilledRandom # Delta-v Lunchboxes!
       prob: 0.3
     - id: BoxBodyBagPrisoner # WD
-    - id: ClothingMaskGasSecurity # WWDP
 
 - type: entity
   id: LockerSecurityFilled
@@ -91,7 +89,6 @@
       prob: 0.1
     - id: LunchboxSecurityFilledRandom # Delta-v Lunchboxes!
       prob: 0.3
-    - id: ClothingMaskGasSecurity # WWDP
 
 - type: entity
   id: LockerBrigmedicFilled
@@ -135,7 +132,6 @@
     - id: LunchboxSecurityFilledRandom # Delta-v Lunchboxes!
       prob: 0.3
     - id: BoxBodyBagPrisoner # WD
-    - id: ClothingMaskGasSecurity # WWDP
 
 # DeltaV - adding corpsman locker w/ hardsuit
 
@@ -175,7 +171,6 @@
     - id: LunchboxSecurityFilledRandom # Delta-v Lunchboxes!
       prob: 0.3
     - id: BoxBodyBagPrisoner # WD
-    - id: ClothingMaskGasSecurity # WWDP
 
 # DeltaV - end addition
 
@@ -202,7 +197,6 @@
     - id: BoxEvidenceMarkers
     - id: LunchboxSecurityFilledRandom # Delta-v Lunchboxes!
       prob: 0.3
-    - id: ClothingMaskGasSecurity # WWDP
 
 - type: entity
   id: ClosetBombFilled

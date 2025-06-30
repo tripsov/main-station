@@ -18,7 +18,7 @@
 - type: entity
   id: HeadDiona
   name: "diona head"
-  parent: [BaseHead, PartDiona] # WWDP
+  parent: [PartDiona, BaseHead]
   components:
   - type: Sprite
     state: "head_m"

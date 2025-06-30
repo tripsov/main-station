@@ -35,7 +35,7 @@
 - type: entity
   id: HeadChitinid
   name: "chitinid head"
-  parent: [BaseHead, PartChitinidBase] # WWDP
+  parent: [PartChitinidBase, BaseHead]
   components:
   - type: Sprite
     state: "head_m"

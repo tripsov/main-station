@@ -67,8 +67,7 @@
         mask:
         - MachineMask
         layer:
-        - MidImpassable # WWDP
-        - BulletImpassable # WWDP
+        - MachineLayer
   - type: Climbable
     delay: 1.6
   - type: Storage

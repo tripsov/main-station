@@ -148,9 +148,8 @@ public partial class MobStateSystem
                 if (component.CurrentState is MobState.Alive)
                     _standing.Stand(target);
 
-                // WWDP do not disable collisions
-                // if (!_standing.IsDown(target) && TryComp<PhysicsComponent>(target, out var physics))
-                //     _physics.SetCanCollide(target, true, body: physics);
+                if (!_standing.IsDown(target) && TryComp<PhysicsComponent>(target, out var physics))
+                    _physics.SetCanCollide(target, true, body: physics);
 
                 break;
             case MobState.Invalid:
@@ -190,9 +189,8 @@ public partial class MobStateSystem
                 if (component.DownWhenDead)
                     _layingDown.TryLieDown(target, behavior:DropHeldItemsBehavior.AlwaysDrop); // WD EDIT
 
-                // WWDP do not disable collisions
-                // if (_standing.IsDown(target) && TryComp<PhysicsComponent>(target, out var physics))
-                //    _physics.SetCanCollide(target, false, body: physics);
+                if (_standing.IsDown(target) && TryComp<PhysicsComponent>(target, out var physics))
+                    _physics.SetCanCollide(target, false, body: physics);
 
                 _appearance.SetData(target, MobStateVisuals.State, MobState.Dead);
                 break;
