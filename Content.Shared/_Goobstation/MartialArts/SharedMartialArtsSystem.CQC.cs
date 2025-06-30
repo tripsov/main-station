@@ -2,7 +2,6 @@ using Content.Shared._Goobstation.MartialArts.Components;
 using Content.Shared._Goobstation.MartialArts.Events;
 using Content.Shared._Shitmed.Targeting;
 using Content.Shared.Bed.Sleep;
-using Content.Shared.CombatMode;
 using Content.Shared.Damage.Components;
 using Content.Shared.Examine;
 using Content.Shared.IdentityManagement;
@@ -151,15 +150,12 @@ public partial class SharedMartialArtsSystem
             return;
 
         // WD EDIT START
-        var eventArgs = new DisarmedEvent
-        {
-            Target = target,
-            Source = ent.Owner,
-            DisarmProbability = 1f,
-            PickupToHands = true
-        };
-
-        RaiseLocalEvent(target, eventArgs);
+        if (_hands.TryGetActiveItem(target, out var activeItem) // I know this looks horrible, but the disarm should happen BEFORE the stam dmg, and the popup should always show.
+            && _hands.TryGetEmptyHand(target, out var emptyHand)
+            && _hands.TryDrop(target, activeItem.Value)
+            && _hands.TryPickupAnyHand(ent, activeItem.Value)
+            && _hands.TryGetEmptyHand(ent, out var userEmptyHand))
+            _hands.SetActiveHand(ent, userEmptyHand);
         // WD EDIT END
 
         _stun.TryKnockdown(target, TimeSpan.FromSeconds(proto.ParalyzeTime), true);

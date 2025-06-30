@@ -312,7 +312,8 @@ public sealed class TemperatureSystem : EntitySystem
             }
 
             var diff = Math.Abs(temperature.CurrentTemperature - coldDamageThreshold);
-            var tempDamage = c / (1 + a * Math.Pow(Math.E, -heatK * diff)) - y; // WWDP
+            var tempDamage =
+                Math.Sqrt(diff * (Math.Pow(temperature.DamageCap.Double(), 2) / coldDamageThreshold));
             _damageable.TryChangeDamage(uid, temperature.ColdDamage * tempDamage, ignoreResistances: true, interruptsDoAfters: false);
         }
         else if (temperature.TakingDamage)

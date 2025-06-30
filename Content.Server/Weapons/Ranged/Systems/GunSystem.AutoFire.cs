@@ -23,7 +23,7 @@ public sealed partial class GunSystem
             if (!autoShoot.Enabled
                 || !TryGetGun(uid, out var gunUid, out var gun)
                 || gun.NextFire > Timing.CurTime)
-                continue;
+                return;
 
             // uid will either be same as gunUid, or it will be something that is holding (and shooting) the gun.
             AttemptShoot(uid, gunUid, gun);

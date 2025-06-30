@@ -180,7 +180,7 @@
         - Syndicate
       - type: AutoImplant
         implants:
-        - MicroBombImplant # WWDP edit
+        - DeathAcidifierImplant
       - type: RandomMetadata
         nameSegments:
         - names_ninja_title

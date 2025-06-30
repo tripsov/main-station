@@ -3882,9 +3882,9 @@
           radius: 0.35
         density: 15
         mask:
-        - SmallMobMask # WWDP
+        - MobMask
         layer:
-        - SmallMobLayer # WWDP
+        - MobLayer
   - type: Inventory
     speciesId: cat
     templateId: pet

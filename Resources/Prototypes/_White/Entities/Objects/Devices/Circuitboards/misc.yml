@@ -14,7 +14,7 @@
     - AiCoreBoard
 
 - type: entity
-  id: WeaponTurretUniversalCircuitboard
+  id: WeaponTurretModularCircuitBoard
   parent: BaseMachineCircuitboard
   name: modular turret machine board
   description: Circuitboard for a modular turret, which is a fancy way of saying "a servomotor tied to a gun's trigger with a string".
@@ -22,9 +22,10 @@
   - type: Sprite
     state: engineering
   - type: MachineBoard
-    prototype: WeaponTurretUniversal
+    prototype: WeaponTurretModular
     requirements:
-      Manipulator: 1
+      MatterBin: 1
+      Manipulator: 3
       Capacitor: 1
     materialRequirements:
       Cable: 5

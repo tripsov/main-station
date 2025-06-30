@@ -15,7 +15,7 @@ tilemap:
   89: FloorSteel
   99: FloorSteelMini
   100: FloorSteelMono
-  104: FloorTechMaintSteel
+  104: FloorTechMaint
   108: FloorWhite
   112: FloorWhiteMini
   118: FloorWood

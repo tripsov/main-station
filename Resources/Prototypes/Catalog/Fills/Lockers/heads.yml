@@ -341,7 +341,6 @@
       - id: LunchboxCommandFilledRandom # Delta-V Lunchboxes!
         prob: 0.3
       - id: PrinterDocFlatpack  # Corvax-Printer
-      - id: ClothingMaskGasSecurity # WWDP
 
 - type: entity
   id: LockerHeadOfSecurityFilled
@@ -373,7 +372,6 @@
       - id: LunchboxCommandFilledRandom # Delta-V Lunchboxes!
         prob: 0.3
       - id: PrinterDocFlatpack  # Corvax-Printer
-      - id: ClothingMaskGasSecurity # WWDP
 
 - type: entity
   id: LockerFreezerVaultFilled

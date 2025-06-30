@@ -36,7 +36,6 @@
   - type: SurgerySpeedModifier
     speedModifier: 1.5
   - type: Sanitized
-  - type: CRTVisionOverlay # WD EDIT
 
 - type: entity
   id: BorgChassisGeneric
@@ -370,7 +369,7 @@
       path: /Audio/Ambience/Objects/periodic_beep.ogg
   - type: SurgeryIgnoreClothing
   - type: SurgerySpeedModifier
-    speedModifier: 3 # WWDP
+    speedModifier: 1.5
 
 - type: entity
   id: BorgChassisServiceBare

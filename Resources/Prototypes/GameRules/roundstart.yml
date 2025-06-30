@@ -119,8 +119,6 @@
       - type: NpcFactionMember
         factions:
         - Syndicate
-      - type: SurgerySpeedModifier # WWDP
-        speedModifier: 5
       mindRoles:
       - MindRoleNukeopsMedic
     - prefRoles: [ Nukeops ]

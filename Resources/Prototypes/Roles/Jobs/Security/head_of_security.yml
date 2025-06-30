@@ -62,6 +62,7 @@
     id: HoSPDA
     # gloves: ClothingHandsGlovesCombat # WWDP
     ears: ClothingHeadsetAltSecurity
+    belt: WeaponEnergyGunMultiphase # WWDP
   innerClothingSkirt: ClothingUniformJumpskirtHoS
   satchel: ClothingBackpackSatchelHOSFilled
   duffelbag: ClothingBackpackDuffelHOSFilled

@@ -37,8 +37,6 @@
       - type: NpcFactionMember
         factions:
         - Syndicate
-      - type: SurgerySpeedModifier
-        speedModifier: 5
       mindRoles:
       - MindRoleNukeopsMedic
     - spawnerPrototype: SpawnPointNukeopsOperative
