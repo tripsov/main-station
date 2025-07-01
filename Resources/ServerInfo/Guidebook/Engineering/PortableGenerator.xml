@@ -1,6 +1,6 @@
 <Document>
 
-# [color=yellow]Портативные генераторы[/color]
+# Портативные генераторы
 
 Нет электричества? Реактор молчит?
 Линия генераторов **P.A.C.M.A.N.™** спасёт твою задницу — от подвала до мостика.
@@ -11,9 +11,9 @@
   <GuideEntityEmbed Entity="PortableGeneratorSuperPacman" Caption="S.U.P.E.R.P.A.C.M.A.N." />
 </Box>
 
----
 
-# [color=orange]Младший брат[/color]
+
+# Младший брат
 
 <Box>
   <GuideEntityEmbed Entity="PortableGeneratorJrPacman" Caption="J.R.P.A.C.M.A.N." />
@@ -26,9 +26,9 @@
 Сварочную смесь легко найти по станции. В крайнем случае можно перелить её из большого баллона в банку из-под колы.
 Только не забудь вылить колу. Этот малыш явно не фанат сладкого топлива.
 
----
 
-# [color=red]Старшие братья[/color]
+
+# Старшие братья
 
 <Box>
   <GuideEntityEmbed Entity="PortableGeneratorPacman" Caption="P.A.C.M.A.N." />

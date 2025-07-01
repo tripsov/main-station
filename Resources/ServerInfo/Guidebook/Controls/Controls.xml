@@ -1,6 +1,6 @@
 <Document>
 
-# [color=gold]Управление[/color]
+# Управление
 
 <Box Orientation="Vertical">Ты всегда можешь изменить привязки клавиш вот здесь:</Box>
 <Box Orientation="Vertical"><CommandButton Text="ui-options-tab-controls" Command="options 1"/></Box>

@@ -1,6 +1,6 @@
 <Document>
 
-# [color=yellow]Радиоизотопный термоэлектрогенератор (РТГ)[/color]
+# Радиоизотопный термоэлектрогенератор (РТГ)
 
 <Box>
   <GuideEntityEmbed Entity="GeneratorRTG" Caption="РТГ" />
@@ -12,7 +12,7 @@
 
 Правда, найти их можно только в [bold]экспедициях[/bold] или на свалке. Так что, если утилизаторы притащили такой — обязательно [italic]поцелуй им руки[/italic].
 
----
+
 
 <Box>
   <GuideEntityEmbed Entity="GeneratorRTGDamaged" Caption="Повреждённый РТГ" />
