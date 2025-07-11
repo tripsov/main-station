@@ -9,7 +9,7 @@ tilemap:
   11: FloorAsteroidTile
   12: FloorAstroGrass
   14: FloorBar
-  17: FloorBlue
+  17: FloorSteelBlue
   18: FloorBlueCircuit
   19: FloorBoxing
   22: FloorBrokenWood
@@ -42,7 +42,7 @@ tilemap:
   63: FloorKitchen
   64: FloorLaundry
   65: FloorLino
-  67: FloorMetalDiamond
+  67: FloorMetalDiamondSteel
   68: FloorMime
   69: FloorMining
   70: FloorMiningDark
@@ -57,12 +57,12 @@ tilemap:
   95: FloorSteelBurnt
   100: FloorSteelDiagonalMini
   101: FloorSteelDirty
-  103: FloorSteelLime
+  103: FloorSteelGreen
   105: FloorSteelMono
   107: FloorSteelPavement
   108: FloorSteelPavementVertical
-  109: FloorTechMaint
-  110: FloorTechMaint2
+  109: FloorTechMaintSteel
+  110: FloorMaintWhite
   111: FloorTechMaint3
   113: FloorWhite
   118: FloorWhiteMono

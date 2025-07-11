@@ -33,7 +33,7 @@ tilemap:
   36: FloorMS13TileOrnate
   44: FloorMS13WoodCommon
   45: FloorMS13WoodCommonDamaged
-  14: FloorMetalDiamond
+  14: FloorMetalDiamondSteel
   19: FloorPlanetGrass
   80: FloorPlastic
   20: FloorRGlass
@@ -44,8 +44,8 @@ tilemap:
   99: FloorSteelCheckerLight
   40: FloorSteelDirty
   33: FloorSteelPavementVertical
-  23: FloorTechMaint
-  21: FloorTechMaint2
+  23: FloorTechMaintSteel
+  21: FloorMaintWhite
   32: FloorWhitePavementVertical
   124: FloorWhitePlastic
   11: FloorWood
