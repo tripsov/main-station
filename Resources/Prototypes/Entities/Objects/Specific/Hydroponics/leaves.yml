@@ -49,9 +49,7 @@
   - type: ShortConstruction
     entries:
     - prototype: smokeableGroundCannabis
-      closeUiOnSelect: false
     - prototype: smokeableGroundCannabisRainbow
-      closeUiOnSelect: false
 
 - type: entity
   name: ground cannabis
@@ -92,7 +90,6 @@
   - type: ShortConstruction
     entries:
     - prototype: smokeableBlunt
-      closeUiOnSelect: false
 
 - type: entity
   name: rainbow cannabis leaves
@@ -230,11 +227,8 @@
   - type: ShortConstruction
     entries:
     - prototype: smokeableGroundTobacco
-      closeUiOnSelect: false
     - prototype: smokeableBlunt
-      closeUiOnSelect: false
     - prototype: smokeableBluntRainbow
-      closeUiOnSelect: false
   - type: Construction
     graph: smokeableBlunt
     node: tobacco

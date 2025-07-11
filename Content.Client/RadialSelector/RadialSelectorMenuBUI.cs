@@ -102,25 +102,11 @@ public sealed class RadialSelectorMenuBUI : BoundUserInterface
                 var name = GetName(entry.Prototype);
                 var icon = GetTextures(entry);
                 var button = CreateButton(name, icon);
-                // WWDP edit; close on select
-                if (entry.CloseUiOnSelect)
+                button.OnButtonUp += _ =>
                 {
-                    button.OnButtonUp += _ =>
-                    {
-                        var msg = new RadialSelectorSelectedMessage(entry.Prototype);
-                        SendPredictedMessage(msg);
-                        Close();
-                    };
-                }
-                else
-                {
-                    button.OnButtonUp += _ =>
-                    {
-                        var msg = new RadialSelectorSelectedMessage(entry.Prototype);
-                        SendPredictedMessage(msg);
-                    };
-                }
-                // WWDP edit end
+                    var msg = new RadialSelectorSelectedMessage(entry.Prototype);
+                    SendPredictedMessage(msg);
+                };
 
                 container.AddChild(button);
             }

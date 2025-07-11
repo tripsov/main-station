@@ -122,9 +122,9 @@
   components:
   - type: LightBulb
     bulb: Bulb
-    color: "#BFA156" # WWDP edit
+    color: "#FFD1A3" # 4000K color temp
     lightEnergy: 1.0
-    lightRadius: 5 # WWDP edit
+    lightRadius: 6
     lightSoftness: 1.1
   - type: Tag #WWDP EDIT
     tags:
@@ -189,8 +189,8 @@
   description: A light fixture.
   components:
   - type: LightBulb
-    color: "#D2DCF2" # WWDP edit
-    lightEnergy: 1 # WWDP edit
+    color: "#FFE4CE" # 5000K color temp
+    lightEnergy: 0.8
     lightRadius: 10
     lightSoftness: 1
     PowerUse: 25

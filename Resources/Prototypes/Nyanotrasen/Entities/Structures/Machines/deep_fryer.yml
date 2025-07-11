@@ -39,9 +39,7 @@
         mask:
         - MachineMask
         layer:
-        - MidImpassable # WWDP can move through when climbing/prone
-        - BulletImpassable # WWDP
-  - type: RequireProjectileTarget # WWDP
+        - MachineLayer
   - type: DeepFryer
     blacklist:
       components:

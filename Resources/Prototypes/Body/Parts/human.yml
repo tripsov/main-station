@@ -33,7 +33,7 @@
 - type: entity
   id: HeadHuman
   name: "human head"
-  parent: [BaseHead, PartHuman] # WWDP
+  parent: [PartHuman, BaseHead]
   components:
   - type: Sprite
     sprite: Mobs/Species/Human/parts.rsi

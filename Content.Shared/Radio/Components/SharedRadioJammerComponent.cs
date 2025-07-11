@@ -30,20 +30,20 @@ public sealed partial class RadioJammerComponent : Component
         /// to this setting.
         /// </summary>
         [DataField(required: true)]
-        public LocId Message;
+        public LocId Message = string.Empty;
 
         /// <summary>
         /// Name of the setting.
         /// </summary>
         [DataField(required: true)]
-        public LocId Name;
+        public LocId Name = string.Empty;
     }
 
     /// <summary>
     /// List of all the settings for the radio jammer.
     /// </summary>
     [DataField(required: true), ViewVariables(VVAccess.ReadOnly)]
-    public RadioJamSetting[] Settings = default!;
+    public RadioJamSetting[] Settings;
 
     /// <summary>
     /// Index of the currently selected setting.

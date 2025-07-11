@@ -8,7 +8,6 @@
     tags:
     - Katana
   - type: Sharp
-  - type: Execution # WWDP
   - type: Utensil
     types:
       - Knife

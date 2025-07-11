@@ -94,7 +94,7 @@ namespace Content.Shared.Damage.Systems
         {
             if (TerminatingOrDeleted(args.Target)
                 || component.HitQuantity >= component.MaxHitQuantity
-                // || _standing.IsDown(args.Target) // WWDP hit prone targets
+                || _standing.IsDown(args.Target)
                 || !TryComp(args.Thrown, out PhysicsComponent? physics))
                 return;
 

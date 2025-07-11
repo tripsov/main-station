@@ -21,8 +21,10 @@
     - suitStorage
   # - type: AmmoCounter # WWDP
   - type: Gun # change WeaponShotgunBulldog too if updating this
-    angleIncrease: 15 # WWDP
-    maxAngle: 75 # WWDP
+    bonusAngleIncreaseMove: 40    # wwdp
+    bonusAngleIncreaseTurn: 0.25  # wwdp
+    bonusAngleDecay: 40           # wwdp
+    maxBonusAngle: 20             # wwdp
     fireRate: 1 # WWDP lower fire rate
     defaultDirection: 1, 0 # wwdp
     selectedMode: SemiAuto
@@ -49,7 +51,7 @@
         ents: []
   - type: StaticPrice
     price: 500
-  # - type: Execution # WWDP
+  - type: Execution
   - type: MeleeWeapon
     attackRate: 1.4
     damage:
@@ -123,9 +125,10 @@
   # - type: AmmoCounter # WWDP
   # - type: GunRequiresWield #remove when inaccuracy on spreads is fixed # WWDP disabled
   - type: Gun
-    maxAngle: 75 # WWDP
-    angleIncrease: 15 # WWDP
-    angleDecay: 10 # WWDP
+    bonusAngleIncreaseMove: 40    # wwdp
+    bonusAngleIncreaseTurn: 0.25  # wwdp
+    bonusAngleDecay: 40           # wwdp
+    maxBonusAngle: 20             # wwdp
     fireRate: 2
     selectedMode: FullAuto
     availableModes:
@@ -168,7 +171,7 @@
   - type: Appearance
   - type: StaticPrice
     price: 500
-  # - type: Execution # WWDP
+  - type: Execution
   - type: MeleeWeapon
     attackRate: 1.4
     damage:
@@ -323,14 +326,14 @@
     tags:
     - WeaponShotgunKammerer
   - type: Wieldable
-  # - type: Gun # WWDP stop it
-  #   shotgunSpreadMultiplier: 0.5
-  # - type: ExtendDescription
-  #   descriptionList:
-  #   - description: "gun-modifier-choke"
-  #     fontSize: 12
-  #     color: "#ff4f00"
-  #     requireDetailRange: false
+  - type: Gun
+    shotgunSpreadMultiplier: 0.5
+  - type: ExtendDescription
+    descriptionList:
+    - description: "gun-modifier-choke"
+      fontSize: 12
+      color: "#ff4f00"
+      requireDetailRange: false
 
 - type: entity
   name: sawn-off shotgun

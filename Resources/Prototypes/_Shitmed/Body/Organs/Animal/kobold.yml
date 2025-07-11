@@ -33,7 +33,7 @@
 - type: entity
   id: HeadKobold
   name: "kobold head"
-  parent: [BaseHead, PartKobold] # WWDP
+  parent: [PartKobold, BaseHead]
   components:
   - type: Sprite
     sprite: Mobs/Animals/kobold.rsi

@@ -163,8 +163,8 @@
       entity_storage: !type:Container
         ents: []
   - type: Damageable
-    damageContainer: StructuralInorganic # WWDP EDIT
-    damageModifierSet: StructuralMetallic # WWDP EDIT
+    damageContainer: Inorganic
+    damageModifierSet: Metallic
   - type: Destructible
     thresholds:
     - trigger:

@@ -89,7 +89,6 @@
     - NoPaint
   - type: IgnitionSource
     temperature: 700
-  - type: Execution # WWDP
   # Shitmed Change
   - type: Scalpel
     speed: 0.75

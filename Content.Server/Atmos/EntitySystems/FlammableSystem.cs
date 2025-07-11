@@ -441,7 +441,7 @@ namespace Content.Server.Atmos.EntitySystems
                     _ignitionSourceSystem.SetIgnited((uid, source));
 
                     if (TryComp(uid, out TemperatureComponent? temp))
-                        _temperatureSystem.ChangeHeat(uid, 3000 * flammable.FireStacks, false, temp); // WWDP less heat
+                        _temperatureSystem.ChangeHeat(uid, 12500 * flammable.FireStacks, false, temp);
 
                     var multiplier = 1f;
                     if (!flammable.IgnoreFireProtection)
