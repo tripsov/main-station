@@ -34,7 +34,7 @@
 - type: entity
   id: HeadMoth
   name: "moth head"
-  parent: [BaseHead, PartMoth] # WWDP
+  parent: [PartMoth, BaseHead]
   components:
   - type: Sprite
     sprite: Mobs/Species/Moth/parts.rsi

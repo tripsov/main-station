@@ -20,7 +20,6 @@ using Content.Shared.Containers.ItemSlots;
 using Content.Shared.Humanoid;
 using Content.Shared.Inventory;
 using Content.Shared.Random;
-using Content.Shared.Traits.Assorted.Components;
 
 
 namespace Content.Shared.Body.Systems;
@@ -176,7 +175,7 @@ public partial class SharedBodySystem
         RemovePartChildren(partEnt, bodyEnt, bodyEnt.Comp);
     }
 
-    protected void RemovePartChildren(Entity<BodyPartComponent> partEnt, EntityUid bodyEnt, BodyComponent? body = null, bool dropChildren = true) // WWDP edit
+    protected void RemovePartChildren(Entity<BodyPartComponent> partEnt, EntityUid bodyEnt, BodyComponent? body = null)
     {
         if (!Resolve(bodyEnt, ref body, logMissing: false))
             return;
@@ -192,12 +191,7 @@ public partial class SharedBodySystem
                 {
                     var ev = new BodyPartEnableChangedEvent(false);
                     RaiseLocalEvent(childEntity, ref ev);
-                    // WWDP edit start
-                    if (dropChildren)
-                        DropPart((childEntity, childPart));
-                    else
-                        QueueDel(childEntity);
-                    // WWDP edit end
+                    DropPart((childEntity, childPart));
                 }
             }
 
@@ -714,17 +708,8 @@ public partial class SharedBodySystem
         }
 
         var walkSpeed = 0f;
-        var sprintSpeed= 0f;
+        var sprintSpeed = 0f;
         var acceleration = 0f;
-        // WWDP edit - minimal movement speed
-        var minspeed = body.MinimumMovementSpeed;
-
-        if (HasComp<LegsParalyzedComponent>(bodyId))
-        {
-            Movement.ChangeBaseSpeed(bodyId, minspeed, minspeed, MovementSpeedModifierComponent.DefaultAcceleration, movement);
-            return;
-        }
-
         foreach (var legEntity in body.LegEntities)
         {
             if (!TryComp<MovementBodyPartComponent>(legEntity, out var legModifier))
@@ -734,9 +719,8 @@ public partial class SharedBodySystem
             sprintSpeed += legModifier.SprintSpeed;
             acceleration += legModifier.Acceleration;
         }
-        walkSpeed = Math.Max(minspeed, walkSpeed / body.RequiredLegs);
-        sprintSpeed = Math.Max(minspeed, sprintSpeed / body.RequiredLegs);
-        // WWDP edit end
+        walkSpeed /= body.RequiredLegs;
+        sprintSpeed /= body.RequiredLegs;
         acceleration /= body.RequiredLegs;
         Movement.ChangeBaseSpeed(bodyId, walkSpeed, sprintSpeed, acceleration, movement);
     }

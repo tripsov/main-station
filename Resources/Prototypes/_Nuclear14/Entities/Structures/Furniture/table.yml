@@ -38,7 +38,6 @@
         - TableMask
         layer:
         - TableLayer
-        - BulletImpassable # WWDP
   - type: Sprite
     netsync: false
   - type: Climbable
@@ -47,7 +46,6 @@
       types:
         Blunt: 4
   - type: Clickable
-  - type: RequireProjectileTarget # WWDP
 
 # 32x32 tables
 - type: entity

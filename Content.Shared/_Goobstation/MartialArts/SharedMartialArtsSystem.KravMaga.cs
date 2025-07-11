@@ -1,6 +1,5 @@
 using Content.Shared._Goobstation.MartialArts.Components;
 using Content.Shared._Goobstation.MartialArts.Events;
-using Content.Shared.CombatMode;
 using Content.Shared.Contests;
 using Content.Shared.Damage;
 using Content.Shared.Damage.Components;
@@ -17,8 +16,6 @@ namespace Content.Shared._Goobstation.MartialArts;
 /// </summary>
 public abstract partial class SharedMartialArtsSystem
 {
-    private const float KravMagaDisarmChance = 0.6f; // WWDP
-
     private void InitializeKravMaga()
     {
         SubscribeLocalEvent<KravMagaComponent, MapInitEvent>(OnMapInit);
@@ -50,22 +47,16 @@ public abstract partial class SharedMartialArtsSystem
 
         switch (args.Type)
         {
-            // WWDP edit start - disarm
-            case ComboAttackType.Disarm:
+            // todo: add chances
+            /*  case ComboAttackType.Disarm:
                 var target = args.Target;
-
-                var eventArgs = new DisarmedEvent
-                {
-                    Target = target,
-                    Source = ent.Owner,
-                    DisarmProbability = KravMagaDisarmChance,
-                    PickupToHands = true
-                };
-
-                RaiseLocalEvent(target, eventArgs);
-
-                break;
-            // WWDP edit end
+                if (_hands.TryGetActiveItem(target, out var activeItem)
+                && _hands.TryGetEmptyHand(target, out var emptyHand)
+                && _hands.TryDrop(target, activeItem.Value)
+                && _hands.TryPickupAnyHand(ent, activeItem.Value)
+                && _hands.TryGetEmptyHand(ent, out var userEmptyHand))
+                    _hands.SetActiveHand(ent, userEmptyHand);
+                break; */
             case ComboAttackType.Harm:
                 DoDamage(ent, args.Target, "Blunt", ent.Comp.BaseDamage, out _);
                 if (!TryComp<RequireProjectileTargetComponent>(args.Target, out var standing)
@@ -87,8 +78,7 @@ public abstract partial class SharedMartialArtsSystem
             case KravMagaMoves.LegSweep:
                 if(_netManager.IsClient)
                     return;
-                _stun.TryKnockdown(hitEntity, TimeSpan.FromSeconds(4), true); // WWDP no stun
-                _stamina.TakeStaminaDamage(hitEntity, moveComp.StaminaDamage); // WWDP some stamina damage instead
+                _stun.TryParalyze(hitEntity, TimeSpan.FromSeconds(4), true);
                 break;
             case KravMagaMoves.NeckChop:
                 var comp = EnsureComp<KravMagaSilencedComponent>(hitEntity);
@@ -98,7 +88,6 @@ public abstract partial class SharedMartialArtsSystem
                 _stamina.TakeStaminaDamage(hitEntity, moveComp.StaminaDamage);
                 var blockedBreathingComponent = EnsureComp<KravMagaBlockedBreathingComponent>(hitEntity);
                 blockedBreathingComponent.BlockedTime = _timing.CurTime + TimeSpan.FromSeconds(moveComp.EffectTime);
-                DoDamage(ent.Owner, hitEntity, "Asphyxiation", 15, out _); // WWDP
                 break;
             case null:
                 var damage = ent.Comp.BaseDamage;

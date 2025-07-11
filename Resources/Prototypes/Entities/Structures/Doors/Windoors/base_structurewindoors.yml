@@ -67,7 +67,7 @@
     lastSignals:
       DoorStatus: false
   - type: Damageable
-    damageContainer: StructuralInorganic # WWDP EDIT
+    damageContainer: Inorganic
     damageModifierSet: Glass
   - type: ExaminableDamage
     messages: WindowMessages
@@ -95,9 +95,6 @@
           SheetSteel1:
             min: 2
             max: 4
-      - !type:PlaySoundBehavior
-        sound:
-          collection: WindowShatter # WWDP EDIT
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
   - type: ContainerFill
@@ -204,9 +201,6 @@
           SheetPlasteel1:
             min: 1
             max: 2
-      - !type:PlaySoundBehavior
-        sound:
-          collection: WindowShatter # WWDP EDIT
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
   - type: Construction
@@ -263,9 +257,6 @@
           SheetSteel1:
             min: 1
             max: 2
-      - !type:PlaySoundBehavior
-        sound:
-          collection: WindowShatter # WWDP EDIT
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
   - type: Construction
@@ -321,9 +312,6 @@
           SheetPlasteel1:
             min: 1
             max: 2
-      - !type:PlaySoundBehavior
-        sound:
-          collection: WindowShatter # WWDP EDIT
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
   - type: Construction
@@ -379,9 +367,6 @@
           SheetSteel1:
             min: 1
             max: 2
-      - !type:PlaySoundBehavior
-        sound:
-          collection: WindowShatter # WWDP EDIT
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
   - type: Construction
@@ -437,9 +422,6 @@
           SheetPlasteel1:
             min: 1
             max: 2
-      - !type:PlaySoundBehavior
-        sound:
-          collection: WindowShatter # WWDP EDIT
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
   - type: Construction

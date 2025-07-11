@@ -23,7 +23,6 @@
   id: Contract
   category: Psionics
   points: 13
-  enable: false # WD EDIT
   functions:
   - !type:TraitAddComponent
     components:

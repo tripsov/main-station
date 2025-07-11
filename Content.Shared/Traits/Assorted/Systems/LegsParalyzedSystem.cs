@@ -20,18 +20,13 @@ public sealed class LegsParalyzedSystem : EntitySystem
         SubscribeLocalEvent<Components.LegsParalyzedComponent, BuckledEvent>(OnBuckled);
         SubscribeLocalEvent<Components.LegsParalyzedComponent, UnbuckledEvent>(OnUnbuckled);
         SubscribeLocalEvent<Components.LegsParalyzedComponent, ThrowPushbackAttemptEvent>(OnThrowPushbackAttempt);
-        //SubscribeLocalEvent<Components.LegsParalyzedComponent, UpdateCanMoveEvent>(OnUpdateCanMoveEvent); // WWDP
+        SubscribeLocalEvent<Components.LegsParalyzedComponent, UpdateCanMoveEvent>(OnUpdateCanMoveEvent);
     }
 
     private void OnStartup(EntityUid uid, Components.LegsParalyzedComponent component, ComponentStartup args)
     {
         // TODO: In future probably must be surgery related wound
-
-        // WWDP edit start
-        //_movementSpeedModifierSystem.ChangeBaseSpeed(uid, 0, 0, 20);
-        _standingSystem.Down(uid);
-        _bodySystem.UpdateMovementSpeed(uid);
-        // WWDP edit end
+        _movementSpeedModifierSystem.ChangeBaseSpeed(uid, 0, 0, 20);
     }
 
     private void OnShutdown(EntityUid uid, Components.LegsParalyzedComponent component, ComponentShutdown args)
@@ -44,8 +39,7 @@ public sealed class LegsParalyzedSystem : EntitySystem
 
     private void OnUnbuckled(EntityUid uid, Components.LegsParalyzedComponent component, ref UnbuckledEvent args) => _standingSystem.Down(uid);
 
-    // WWDP disabled since there is a minimal move speed
-    // private void OnUpdateCanMoveEvent(EntityUid uid, Components.LegsParalyzedComponent component, UpdateCanMoveEvent args) => args.Cancel();
+    private void OnUpdateCanMoveEvent(EntityUid uid, Components.LegsParalyzedComponent component, UpdateCanMoveEvent args) => args.Cancel();
 
     private void OnThrowPushbackAttempt(EntityUid uid, Components.LegsParalyzedComponent component, ThrowPushbackAttemptEvent args) => args.Cancel();
 }

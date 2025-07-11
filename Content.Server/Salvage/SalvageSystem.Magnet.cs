@@ -1,7 +1,6 @@
 using System.Linq;
 using System.Numerics;
 using System.Threading.Tasks;
-using Content.Server.Popups;
 using Content.Server.Salvage.Magnet;
 using Content.Shared._White.CCVar;
 using Content.Shared.Humanoid;

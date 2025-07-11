@@ -5,7 +5,6 @@
   name: firelock
   description: Apply crowbar.
   components:
-    - type: PryUnpowered # WWDP edit
     - type: AtmosAlarmable
       syncWith:
         - FireAlarm
@@ -18,8 +17,8 @@
     - type: DeviceNetworkRequiresPower
     - type: InteractionOutline
     - type: Damageable
-      damageContainer: StructuralInorganic # WWDP EDIT
-      damageModifierSet: StructuralMetallic # WWDP EDIT
+      damageContainer: Inorganic
+      damageModifierSet: Metallic
     - type: RCDDeconstructable
       cost: 4
       delay: 6

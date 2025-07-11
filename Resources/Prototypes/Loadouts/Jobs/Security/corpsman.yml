@@ -6,7 +6,7 @@
   cost: 0
   exclusive: true
   items:
-    - ClothingBackpackBrigmedic # WWDP no filled lmao
+    - ClothingBackpackBrigmedicFilled
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutCorpsmanBackpacks
@@ -20,7 +20,7 @@
   cost: 0
   exclusive: true
   items:
-    - ClothingBackpackSatchelBrigmedic # WWDP no filled lmao
+    - ClothingBackpackSatchelBrigmedicFilled
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutCorpsmanBackpacks
@@ -34,7 +34,7 @@
   cost: 0
   exclusive: true
   items:
-    - ClothingBackpackDuffelBrigmedic # WWDP no filled lmao
+    - ClothingBackpackDuffelBrigmedicFilled
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutCorpsmanBackpacks

@@ -43,10 +43,10 @@ public sealed partial class KravMagaComponent : GrabStagesOverrideComponent
     };
 
     [DataField]
-    public int BaseDamage = 0; // WWDP make it more non-lethal, you can spam actions instead
+    public int BaseDamage = 10;
 
     [DataField]
-    public int DownedDamageModifier = 10; // More damage on prone targets instead
+    public int DownedDamageModifier = 5;
 }
 /// <summary>
 /// Tracks when an entity is silenced through Krav Maga techniques.

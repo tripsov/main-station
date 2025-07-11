@@ -43,7 +43,7 @@
     fireModes:
     - proto: BulletDisabler
       fireCost: 50
-      name: disable # WWDP
+      name: disabling
       state: disabler
     - proto: BulletEnergyGunMagnum
       fireCost: 100

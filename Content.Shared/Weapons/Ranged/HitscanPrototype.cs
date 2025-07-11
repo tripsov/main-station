@@ -43,15 +43,6 @@ public sealed partial class HitscanPrototype : IPrototype, IShootable
     [DataField("sound")]
     public SoundSpecifier? Sound;
 
-    [DataField]
-    public EntProtoId? SpawnAtImpact = null;
-
-    [DataField]
-    public EntProtoId? SpawnAtMaxLength = null;
-
-    [DataField]
-    public bool ImpactSpawnRandomAngle = false;
-
     /// <summary>
     /// Force the hitscan sound to play rather than potentially playing the entity's sound.
     /// </summary>

@@ -1,8 +1,7 @@
 - type: entity
-  parent: [GunSafe, AlertLevelLock] # WWDP
+  parent: GunSafe
   id: GunSafePistolUniversal
   name: mk32 safe
-  suffix: Alert Level Lock # WWDP
   components:
   - type: StorageFill
     contents:
@@ -12,10 +11,9 @@
       amount: 4
 
 - type: entity
-  parent: [GunSafe, AlertLevelLock] # WWDP
+  parent: GunSafe
   id: GunSafeSniperGrand
   name: mark 1 rifle safe
-  suffix: Alert Level Lock # WWDP
   components:
   - type: StorageFill
     contents:
@@ -25,10 +23,9 @@
       amount: 4
 
 - type: entity
-  parent: [GunSafe, AlertLevelLock] # WWDP
+  parent: GunSafe
   id: GunSafeVulcanRifle
   name: vulcan safe
-  suffix: Alert Level Lock # WWDP
   components:
   - type: StorageFill
     contents:
@@ -36,12 +33,11 @@
       amount: 2
     - id: MagazineLightRifle
       amount: 4
-
+      
 - type: entity
-  parent: [GunSafe, AlertLevelLock] # WWDP
+  parent: GunSafe
   id: GunSafeAdjutantShotgun
   name: adjutant safe
-  suffix: Alert Level Lock # WWDP
   components:
   - type: StorageFill
     contents:
@@ -49,18 +45,17 @@
       amount: 2
     - id: MagazineShotgun
       amount: 4
-
+      
 - type: entity
-  parent: [GunSafe, AlertLevelLock] # WWDP
+  parent: GunSafe
   id: GunSafeEnergyGun
   name: energy gun safe
-  suffix: Alert Level Lock # WWDP
   components:
   - type: StorageFill
     contents:
     - id: WeaponEnergyGun
       amount: 3
-
+      
 - type: entity
   parent: GunSafe
   id: GunSafeEnergyGunMini

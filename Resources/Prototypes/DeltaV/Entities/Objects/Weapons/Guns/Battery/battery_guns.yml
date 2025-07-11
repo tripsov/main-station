@@ -101,7 +101,6 @@
     fireCost: 20 # wwdp
   - type: GunOverheat # wwdp
     heatCost: 25
-    temperatureLimit: 240 # WWDP
   - type: EnergyGun
     fireModes:
     - proto: BulletDisabler

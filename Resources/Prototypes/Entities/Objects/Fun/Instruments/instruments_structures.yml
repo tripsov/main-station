@@ -9,19 +9,6 @@
   - type: Sprite
     state: piano
   - type: Climbable
-# WWDP EDIT START
-  - type: Destructible
-    thresholds:
-    - trigger:
-        !type:DamageTrigger
-        damage: 100
-      behaviors:
-      - !type:DoActsBehavior
-        acts: [ "Destruction" ]
-      - !type:PlaySoundBehavior
-        sound:
-          collection: WoodDestroyHeavy
-# WWDP EDIT END
 
 - type: entity
   name: upright piano
@@ -34,19 +21,6 @@
   - type: Sprite
     state: piano-upright
   - type: Climbable
-# WWDP EDIT START
-  - type: Destructible
-    thresholds:
-    - trigger:
-        !type:DamageTrigger
-        damage: 100
-      behaviors:
-      - !type:DoActsBehavior
-        acts: [ "Destruction" ]
-      - !type:PlaySoundBehavior
-        sound:
-          collection: WoodDestroyHeavy
-# WWDP EDIT END
 
 - type: entity
   name: vibraphone
@@ -58,19 +32,6 @@
     program: 11
   - type: Sprite
     state: vibraphone
-# WWDP EDIT START
-  - type: Destructible
-    thresholds:
-    - trigger:
-        !type:DamageTrigger
-        damage: 75
-      behaviors:
-      - !type:DoActsBehavior
-        acts: [ "Destruction" ]
-      - !type:PlaySoundBehavior
-        sound:
-          collection: MetalBreak
-# WWDP EDIT EMD
 
 - type: entity
   name: marimba
@@ -81,19 +42,6 @@
     program: 12
   - type: Sprite
     state: marimba
-# WWDP EDIT START
-  - type: Destructible
-    thresholds:
-    - trigger:
-        !type:DamageTrigger
-        damage: 50
-      behaviors:
-      - !type:DoActsBehavior
-        acts: [ "Destruction" ]
-      - !type:PlaySoundBehavior
-        sound:
-          collection: WoodDestroy
-# WWDP EDIT END
 
 - type: entity
   name: church organ
@@ -105,19 +53,6 @@
     program: 19
   - type: Sprite
     state: church-organ
-# WWDP EDIT START
-  - type: Destructible
-    thresholds:
-    - trigger:
-        !type:DamageTrigger
-        damage: 150
-      behaviors:
-      - !type:DoActsBehavior
-        acts: [ "Destruction" ]
-      - !type:PlaySoundBehavior
-        sound:
-          collection: WoodDestroyHeavy
-# WWDP EDIT END
 
 - type: entity
   name: tuba
@@ -129,22 +64,6 @@
     program: 58
   - type: Sprite
     state: tuba
-# WWDP EDIT START
-  - type: Destructible
-    thresholds:
-    - trigger:
-        !type:DamageTrigger
-        damage: 100
-      behaviors:
-      - !type:DoActsBehavior
-        acts: [ "Destruction" ]
-      - !type:PlaySoundBehavior
-        sound:
-          collection: MetalBreak
-      - !type:PlaySoundBehavior
-        sound:
-          collection: SadTrombone
-# WWDP EDIT END
 
 - type: entity
   id: HarpInstrument
@@ -156,19 +75,6 @@
     program: 46
   - type: Sprite
     state: harp
-# WWDP EDIT START
-  - type: Destructible
-    thresholds:
-    - trigger:
-        !type:DamageTrigger
-        damage: 50
-      behaviors:
-      - !type:DoActsBehavior
-        acts: [ "Destruction" ]
-      - !type:PlaySoundBehavior
-        sound:
-          collection: WoodDestroy
-# WWDP EDIT END
 
 - type: entity
   id: TimpaniInstrument
@@ -180,19 +86,6 @@
     program: 47
   - type: Sprite
     state: timpani
-# WWDP EDIT START
-  - type: Destructible
-    thresholds:
-    - trigger:
-        !type:DamageTrigger
-        damage: 50
-      behaviors:
-      - !type:DoActsBehavior
-        acts: [ "Destruction" ]
-      - !type:PlaySoundBehavior
-        sound:
-          collection: MetalBreak
-# WWDP EDIT END
 
 - type: entity
   id: TaikoInstrument
@@ -204,19 +97,6 @@
     program: 116
   - type: Sprite
     state: taiko
-# WWDP EDIT START
-  - type: Destructible
-    thresholds:
-    - trigger:
-        !type:DamageTrigger
-        damage: 50
-      behaviors:
-      - !type:DoActsBehavior
-        acts: [ "Destruction" ]
-      - !type:PlaySoundBehavior
-        sound:
-          collection: WoodDestroy
-# WWDP EDIT END
 
 - type: entity
   id: ContrabassInstrument
@@ -244,19 +124,6 @@
         - HighImpassable
         - MidImpassable
         - BulletImpassable
-# WWDP EDIT START
-  - type: Destructible
-    thresholds:
-    - trigger:
-        !type:DamageTrigger
-        damage: 50
-      behaviors:
-      - !type:DoActsBehavior
-        acts: [ "Destruction" ]
-      - !type:PlaySoundBehavior
-        sound:
-          collection: WoodDestroy
-# WWDP EDIT END
 
 - type: entity
   name: minimoog
@@ -268,19 +135,6 @@
     program: 81
   - type: Sprite
     state: minimoog
-# WWDP EDIT START
-  - type: Destructible
-    thresholds:
-    - trigger:
-        !type:DamageTrigger
-        damage: 50
-      behaviors:
-      - !type:DoActsBehavior
-        acts: [ "Destruction" ]
-      - !type:PlaySoundBehavior
-        sound:
-          collection: WoodDestroy
-# WWDP EDIT END
 
 - type: entity
   id: TomDrumsInstrument
@@ -292,19 +146,6 @@
     program: 117
   - type: Sprite
     state: toms
-# WWDP EDIT START
-  - type: Destructible
-    thresholds:
-    - trigger:
-        !type:DamageTrigger
-        damage: 50
-      behaviors:
-      - !type:DoActsBehavior
-        acts: [ "Destruction" ]
-      - !type:PlaySoundBehavior
-        sound:
-          collection: WoodDestroy
-# WWDP EDIT END
 
 - type: entity
   parent: [ BasePlaceableInstrument, ConstructibleMachine]
@@ -327,16 +168,3 @@
   - type: Instrument
     allowPercussion: true
     allowProgramChange: true
-# WWDP EDIT START
-  - type: Destructible
-    thresholds:
-    - trigger:
-        !type:DamageTrigger
-        damage: 150
-      behaviors:
-      - !type:DoActsBehavior
-        acts: [ "Destruction" ]
-      - !type:PlaySoundBehavior
-        sound:
-          collection: MetalBreak
-# WWDP EDIT END

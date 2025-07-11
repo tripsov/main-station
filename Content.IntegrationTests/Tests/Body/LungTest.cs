@@ -38,7 +38,7 @@ namespace Content.IntegrationTests.Tests.Body
     sweatHeatRegulation: 5000
     shiveringHeatRegulation: 5000
     normalBodyTemperature: 310.15
-    thermalRegulationTemperatureThreshold: 0.4 # WWDP
+    thermalRegulationTemperatureThreshold: 25
   - type: Respirator
     damage:
       types:

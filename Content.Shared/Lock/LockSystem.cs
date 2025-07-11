@@ -1,4 +1,3 @@
-using Content.Shared._White.Lockers;
 using Content.Shared.Access.Components;
 using Content.Shared.Access.Systems;
 using Content.Shared.Construction.Components;

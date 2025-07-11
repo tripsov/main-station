@@ -31,17 +31,16 @@
     buckleOffset: "0,-0.05"
   - type: Pullable
   - type: Damageable
-    damageContainer: StructuralInorganic # WWDP EDIT
-    damageModifierSet: StructuralMetallic # WWDP EDIT
+    damageContainer: Inorganic
+    damageModifierSet: Metallic
   - type: Destructible
     thresholds:
-# WWDP EDIT START
-#    - trigger:
-#        !type:DamageTrigger
-#        damage: 25
-#      behaviors:
-#        - !type:DoActsBehavior
-#          acts: [ "Destruction" ] # WWDP - This is broke next trigger and sound
+    - trigger:
+        !type:DamageTrigger
+        damage: 25
+      behaviors:
+        - !type:DoActsBehavior
+          acts: [ "Destruction" ]
     - trigger:
         !type:DamageTrigger
         damage: 50
@@ -51,8 +50,6 @@
       - !type:PlaySoundBehavior
         sound:
           collection: MetalBreak
-          volume: -3
-# WWDP EDIT END
   - type: StaticPrice
     price: 25
   - type: RequireProjectileTarget

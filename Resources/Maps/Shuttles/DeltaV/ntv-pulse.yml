@@ -8,10 +8,10 @@ tilemap:
   29: FloorDarkMono
   36: FloorEighties
   40: FloorGlass
-  53: FloorMetalDiamondSteel
+  53: FloorMetalDiamond
   61: FloorReinforced
-  81: FloorTechMaintSteel
-  82: FloorMaintWhite
+  81: FloorTechMaint
+  82: FloorTechMaint2
   94: FloorWood
   95: FloorWoodTile
   96: Lattice

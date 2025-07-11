@@ -107,7 +107,6 @@
     - back
   - type: StaticPrice
     price: 40
-  - type: Execution # WWDP
 
 - type: entity
   name: hatchet
@@ -141,7 +140,6 @@
   - type: EmbedPassiveDamage
   - type: Item
     sprite: Objects/Tools/Hydroponics/hatchet.rsi
-  - type: Execution # WWDP
   # Shitmed Change
   - type: BoneSaw
     speed: 0.35
