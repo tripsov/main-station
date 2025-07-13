@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "license": "AGPL-3.0",
+  "copyright": "Made by Vyach",
+  "size": {
+    "x": 2554,
+    "y": 1190
+  },
+  "states": [
+    {
+      "name": "1",
+	  "delays": [
+        [
+          0.1
+        ]
+      ]
+    }
+  ]
+}
