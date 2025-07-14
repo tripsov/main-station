@@ -100,7 +100,7 @@ namespace Content.Client.Launcher
 
             var randomIndex = _random.Next(tipList.Count);
             var tip = tipList[randomIndex];
-            LoginTip.SetMessage(tip);
+            LoginTip.SetMessage(Loc.GetString(tip));
 
             LoginTipTitle.Text = Loc.GetString("connecting-window-tip", ("numberTip", randomIndex));
         }
