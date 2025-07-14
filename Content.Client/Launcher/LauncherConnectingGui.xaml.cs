@@ -85,7 +85,7 @@ namespace Content.Client.Launcher
         private void ChangeLoginTip()
         {
             var tipsDataset = _cfg.GetCVar(CCVars.LoginTipsDataset);
-            var loginTipsEnabled = _prototype.TryIndex<DatasetPrototype>(tipsDataset, out var tips);
+            var loginTipsEnabled = _prototype.TryIndex<LocalizedDatasetPrototype>(tipsDataset, out var tips);
 
             LoginTips.Visible = loginTipsEnabled;
             if (!loginTipsEnabled)
